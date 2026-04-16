@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf .next)",
+      "Bash(./node_modules/.bin/next build:*)",
+      "Bash(./node_modules/.bin/vitest run:*)",
+      "Bash(./node_modules/.bin/next dev:*)",
+      "Bash(echo \"Started dev server, PID: $!\")",
+      "Bash(lsof -nP -iTCP:3000 -sTCP:LISTEN)",
+      "Bash(ps -p 67216 -o pid,ppid,command)",
+      "Bash(curl -sSf -o /dev/null -w \"Status: %{http_code} | Time: %{time_total}s\\\\n\" http://localhost:3000/ --max-time 10)",
+      "Bash(curl -sS http://localhost:3000/ --max-time 10)",
+      "Bash(kill 67216 67214)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -sSf -o /dev/null -w \"GET /        Status: %{http_code} | Time: %{time_total}s\\\\n\" http://localhost:3000/ --max-time 30)",
+      "Bash(ls -la .env*)",
+      "Bash(grep -l \"USE_MOCK_DATA\\\\|getMock\\\\|No API key found\" lib/*.ts)",
+      "Bash(npx tsc:*)",
+      "Bash(./node_modules/.bin/tsc --noEmit)"
+    ]
+  }
+}

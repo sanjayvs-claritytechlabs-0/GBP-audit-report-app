@@ -1,0 +1,12 @@
+{
+  "shortUrl": "https://maps.app.goo.gl/AbCdEf123",
+  "fullMapsUrlWithCid": "https://www.google.com/maps/place/Dhivya+Dentals/@9.9252,78.1198,17z/data=!3m1!4b1!4m5!3m4!1s0x3b00c5e2abcdef12:0x1234567890abcdef",
+  "mapsUrlWithCidParam": "https://maps.google.com/?cid=1311521834783186927",
+  "gbpDirectUrl": "https://business.google.com/n/12345678901234567890/profile",
+  "invalid": [
+    "https://www.google.com/search?q=dentist",
+    "https://facebook.com/dhivyadentals",
+    "not-a-url",
+    ""
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Next.js Dev Server",
+      "runtimeExecutable": "/Users/venkataprasad/Documents/Cursor:Antigravity/Local Business Audit/node_modules/.bin/next",
+      "runtimeArgs": ["dev"],
+      "port": 3000
+    },
+    {
+      "name": "BullMQ Worker (nodemon)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "worker:dev"],
+      "port": null
+    }
+  ]
+}
