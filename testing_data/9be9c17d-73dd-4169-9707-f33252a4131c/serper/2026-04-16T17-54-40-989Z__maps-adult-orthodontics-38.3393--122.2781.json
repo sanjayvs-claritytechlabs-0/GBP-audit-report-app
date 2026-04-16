@@ -1,0 +1,612 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.33934,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "type": "maps",
+      "num": 20,
+      "location": "38.33934,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@40.5973339,-74.7807242,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Radiant Orthodontics - Tiffany Chen, DDS, MDS",
+        "address": "5 Wills Way Building 2, Piscataway, NJ 08854",
+        "latitude": 40.5540072,
+        "longitude": -74.4752532,
+        "rating": 5,
+        "ratingCount": 89,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://radiantorthonj.com/",
+        "phoneNumber": "(732) 465-0600",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://radiantorthonj.com/appointments/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuhBNLHkomhYBzz7z6-m9ZX8X-A1_8sTpuxQSKY7hsaSE4Y_yFn3HpUwPK6gVs0TFL-Z9LKa5mJKhKREwzXWC5hvdu0HyoiY6DKGBpY7AneTfxavvK4QsrqOYtE_47S0UCghdVHw",
+        "cid": "6134097201285267652",
+        "fid": "0x89c3b979cde29ad7:0x5520b0e79c5380c4",
+        "placeId": "ChIJ15rizXm5w4kRxIBTnOewIFU"
+      },
+      {
+        "position": 2,
+        "title": "Braces & Smiles",
+        "address": "285 Durham Ave #2b, Building 6, 2nd Floor, South Plainfield, NJ 07080",
+        "latitude": 40.5565055,
+        "longitude": -74.41463569999999,
+        "rating": 4.8,
+        "ratingCount": 151,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.bracesandsmilesnj.com/",
+        "phoneNumber": "(908) 731-7878",
+        "openingHours": {
+          "Thursday": "8:30 AM–6:30 PM",
+          "Friday": "8:30 AM–6:30 PM",
+          "Saturday": "8:30 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6:30 PM",
+          "Tuesday": "8:30 AM–6:30 PM",
+          "Wednesday": "8:30 AM–6:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2t7Ti3pB9cgscp0xXNF4QzUYmcA-i7tyQlZXzBbc67kXlJX4oYZp7RvfNpBYhek5i37XqROP82CicDj4RgFCSw--YKaajP2BJsFzq7TwPQG7WY4M4mXohLkAk7LFE9HC0f0IFPw",
+        "cid": "1587717101858738567",
+        "fid": "0x89c3b818444fb8bb:0x1608b44ac41a5187",
+        "placeId": "ChIJu7hPRBi4w4kRh1EaxEq0CBY"
+      },
+      {
+        "position": 3,
+        "title": "Smilewave Aligners & Braces",
+        "address": "1401 Stelton Rd, Piscataway, NJ 08854",
+        "latitude": 40.5389918,
+        "longitude": -74.4221743,
+        "rating": 5,
+        "ratingCount": 47,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.mysmilewave.com/",
+        "phoneNumber": "(732) 426-7107",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1NX9oUZxJToPkvY64FCHoDPLVokbjUPaoH26VbLtXTpTSGQx_zEYrx-NReXc4Kgu--SuErwDGyFLSvOY5ONMrzMxTL8odNs5rw3R_yA3KOmxKc1aZS6cmu-1ufFq6fwEGqeBA",
+        "cid": "14594939736821350519",
+        "fid": "0x89c3c7c5512cfaad:0xca8ba45d03784077",
+        "placeId": "ChIJrfosUcXHw4kRd0B4A12ki8o"
+      },
+      {
+        "position": 4,
+        "title": "Smile Solutions Orthodontics",
+        "address": "3900 Park Ave #103, Edison, NJ 08820",
+        "latitude": 40.562313599999996,
+        "longitude": -74.3830697,
+        "rating": 4.9,
+        "ratingCount": 371,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://wowbraces.com/",
+        "phoneNumber": "(732) 516-1999",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://wowbraces.com/lp/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwvwtIYF0-nnzSSJix22KP0zTA0YSZItP25Rlpo6CW8_neONYF_79u2qmyR4E5JfnIWatTkWJQ_NRUPsCYOqd-zm8L_OJobhRFbYUXLUv2aZ4nCOnUU5XTq-PPWAaTsJPA55k_",
+        "cid": "4873325418054316942",
+        "fid": "0x89c3b797e1ae4b37:0x43a187a5d202738e",
+        "placeId": "ChIJN0uu4Ze3w4kRjnMC0qWHoUM"
+      },
+      {
+        "position": 5,
+        "title": "New Smile Orthodontics",
+        "address": "216 N Washington Ave, Dunellen, NJ 08812",
+        "latitude": 40.593395799999996,
+        "longitude": -74.46416289999999,
+        "rating": 5,
+        "ratingCount": 86,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.ilovemynewsmile.com/",
+        "phoneNumber": "(732) 968-4800",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-gTqg-SKy7uGB1t8hmioFykkwKlv6OqyttQ51lf5BU4EqYdeSGl8f7tACws4l-2g0XlYlMiLmOl6WXZUla6pAc3eRUQ5Dq_6rrmNKP0Eq3N7-fxuXD2nO90wzFXPh6W10TKQt",
+        "cid": "2617310798437084509",
+        "fid": "0x89c3b905322d0435:0x24528e4dd7a2ed5d",
+        "placeId": "ChIJNQQtMgW5w4kRXe2i102OUiQ"
+      },
+      {
+        "position": 6,
+        "title": "Somerset Orthodontic Specialists",
+        "address": "199 W High St, Somerville, NJ 08876",
+        "latitude": 40.572161099999995,
+        "longitude": -74.61957029999999,
+        "rating": 5,
+        "ratingCount": 393,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.somersetorthospecialists.com/",
+        "phoneNumber": "(908) 526-0039",
+        "openingHours": {
+          "Thursday": "9 AM–6:30 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "8 AM–6:30 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9EcIP66QjvPCPq9r6AL56RWcKihkZVtIrho85KT6ejkq1gjMQ_04Q_V3AuvGC7y9nnYPpVBuWVeAJmCOBDnJkhUlxuZ7VNk7Dcj75Cnkj7w3oioVyxoZ3gkPOnFYS365VQGSG",
+        "cid": "16594625552359989049",
+        "fid": "0x89c395368a0762f9:0xe64bf4048d099f39",
+        "placeId": "ChIJ-WIHijaVw4kROZ8JjQT0S-Y"
+      },
+      {
+        "position": 7,
+        "title": "Smile Orthodontics - Troy Orthodontics",
+        "address": "173 Essex Ave #204, Metuchen, NJ 08840",
+        "latitude": 40.5364175,
+        "longitude": -74.3716244,
+        "rating": 5,
+        "ratingCount": 12,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.troybraces.com/",
+        "phoneNumber": "(732) 662-3567",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjFHzk6wm4MAQ9-JEtTmod8At5-sFewMYCaX_tYdJ_e4TOMMjPcNciHzjPMptew_Zn95QLH1TfwXD5Ioe1rSO8kNtRmSyhIMlCz9z4lIUbLEehspScFoMTe32SQSo6BJ4DCY7okw",
+        "cid": "6128664264380075325",
+        "fid": "0x89c3b7d9f2559219:0x550d63ad6a014d3d",
+        "placeId": "ChIJGZJV8tm3w4kRPU0Baq1jDVU"
+      },
+      {
+        "position": 8,
+        "title": "Allied Orthodontics PA",
+        "address": "485 Us Route 1 &, 485 Plainfield Ave, Edison, NJ 08817",
+        "latitude": 40.5050287,
+        "longitude": -74.39828589999999,
+        "rating": 5,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Pediatric dentist"
+        ],
+        "website": "http://myfamilydentalcare.com/locations/details/28",
+        "phoneNumber": "(855) 342-5336",
+        "isUnclaimedListing": true,
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=SYLSGSrnEWTXhhYREpWXOw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=349.09656&pitch=0&thumbfov=100",
+        "cid": "16788926354218771412",
+        "fid": "0x89c3c87a31185e4d:0xe8fe3f914f6763d4",
+        "placeId": "ChIJTV4YMXrIw4kR1GNnT5E__ug"
+      },
+      {
+        "position": 9,
+        "title": "Springfield Orthodontics",
+        "address": "173 Mountain Ave, Springfield, NJ 07081",
+        "latitude": 40.7060563,
+        "longitude": -74.3158086,
+        "rating": 4.9,
+        "ratingCount": 379,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.springfieldorthodontics.net/?utm_source=NEXT&utm_medium=Google_website",
+        "phoneNumber": "(973) 379-3803",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "http://www.springfieldorthodontics.net/appointment-request?utm_source=NEXT&utm_medium=Google_appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnCfQgAnNyYy0VDiwkJZLNw58fD_k8B4i_jFUeGgM0Yv9j0FWq3AgxktzsktMEyWaWUFW5T1X_QSu2-dKLruyY5Ez7KTchO8JyZCuRzJXOCXxh_jyeZtaoq3soR5mgmsE45U76",
+        "cid": "1322699440296869162",
+        "fid": "0x89c3ae74458b1cfd:0x125b2c220b80bd2a",
+        "placeId": "ChIJ_RyLRXSuw4kRKr2ACyIsWxI"
+      },
+      {
+        "position": 10,
+        "title": "Old Bridge Orthodontics",
+        "address": "2101 County Rd 516 A, Old Bridge, NJ 08857",
+        "latitude": 40.4064927,
+        "longitude": -74.3357924,
+        "rating": 5,
+        "ratingCount": 180,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Doctor"
+        ],
+        "website": "http://www.oldbridgeortho.com/",
+        "phoneNumber": "(732) 607-2488",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgbtkon7s8LJfQWHKoyKwUP_zKetqFOpnvRJYMoHLnDPLqzQjllB8Kgh-9IOdZrcRJ3FgWpCkqE4bEMTIWqXMvH1yfCMLOXfK3DTZKZyE0SMeaoKudGOa5gXZw4XTVlEgHxZg",
+        "cid": "5785217359043309452",
+        "fid": "0x89c3cc94a7e97f75:0x5049388962332f8c",
+        "placeId": "ChIJdX_pp5TMw4kRjC8zYok4SVA"
+      },
+      {
+        "position": 11,
+        "title": "Dr Arthur Calvani Orthodontics",
+        "address": "223 Bridge St, Metuchen, NJ 08840",
+        "latitude": 40.5356397,
+        "longitude": -74.3777368,
+        "rating": 4.9,
+        "ratingCount": 137,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.hightechbraces.com/",
+        "phoneNumber": "(732) 516-0052",
+        "openingHours": {
+          "Thursday": "12–7 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhk9Y2o6DqvlpMeOMkuAd_2R4t1RoZh7wsu8cgnljXpHcwG-PUc2m4-fj_O1KIa4N-UbxWRn3_QYjpDCuAQmo2KH8JmYuvo4bD12qCODE1DKzW38mlYKcAKeehuz4Xl5fC6_yG",
+        "cid": "6228054985324118040",
+        "fid": "0x89c3b7dedfb073c7:0x566e7f02f1d84018",
+        "placeId": "ChIJx3Ow3963w4kRGEDY8QJ_blY"
+      },
+      {
+        "position": 12,
+        "title": "Straight Set Orthodontics - Woodbridge",
+        "address": "123 Green St, Woodbridge, NJ 07095",
+        "latitude": 40.557509499999995,
+        "longitude": -74.2825904,
+        "rating": 5,
+        "ratingCount": 3,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.straightsetortho.com/woodbridge/",
+        "phoneNumber": "(732) 636-3900",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8:30 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.straightsetortho.com/booking/woodbridge"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_BxFwA_NQ8NJn-269bYXTNWHztpnW6aYcQhEkE4FMPOpnjP61sC9G73XnPvpOY5VQJO0K0BG9lMZUF3JRKV7JHGZogx-UOstxXNT0MDU9Lmqix6QLAa7BPs-MRK7xpI1N9QEAYw8tqcQZ",
+        "cid": "16514449233500221011",
+        "fid": "0x89c3b51eb869a027:0xe52f1c14a000ae53",
+        "placeId": "ChIJJ6BpuB61w4kRU64AoBQcL-U"
+      },
+      {
+        "position": 13,
+        "title": "Comprehensive Pediatric Dentistry & Orthodontics",
+        "address": "111 E Union Ave, Bound Brook, NJ 08805",
+        "latitude": 40.5668067,
+        "longitude": -74.5314683,
+        "rating": 4.8,
+        "ratingCount": 644,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Pediatric dentist"
+        ],
+        "website": "http://www.comprehensivepediatricdentistry.com/",
+        "phoneNumber": "(732) 356-1830",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZNumu3_SeWtsZBh6w_C9cqw4Iho5WCEn3KONqiR5jA46IHMdJJ8CoL7-h6gTbXHE5xTqNNIXK7SBvj5QXfKcdX1s3VnsD5ruSeEddZjgAm2nC_ilrsRTJz0zaeDcTMgJw_8xJ",
+        "cid": "16860600527757417046",
+        "fid": "0x89c3bf6ef93a1fff:0xe9fce2d944be9a56",
+        "placeId": "ChIJ_x86-W6_w4kRVpq-RNni_Ok"
+      },
+      {
+        "position": 14,
+        "title": "Orthodontic Specialist PC: Donato Jr Michael DMD",
+        "address": "456 Middlesex Ave, Metuchen, NJ 08840",
+        "latitude": 40.5452479,
+        "longitude": -74.36087739999999,
+        "rating": 5,
+        "ratingCount": 152,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://orthospecialistpc.com/",
+        "phoneNumber": "(732) 548-5008",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://orthospecialistpc.com/schedule-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBhkC8zTEke6GYjOzzuRxniE2olhav64bl5n1pm7FWM4hEXry8CDr7z2s5afNvnE6GWVN0BZzRZt4qrVSsWiM3Xq2_3gXJC4MpVsEk3By1sS2GY-vA-mhMRJzA51saLwL3kuif",
+        "cid": "7407526154898251932",
+        "fid": "0x89c3b7cc8fd7e9c1:0x66ccd1ca8720209c",
+        "placeId": "ChIJwenXj8y3w4kRnCAgh8rRzGY"
+      },
+      {
+        "position": 15,
+        "title": "Mint Orthodontics LLC",
+        "address": "80 N Gaston Ave, Somerville, NJ 08876",
+        "latitude": 40.5691589,
+        "longitude": -74.6023208,
+        "rating": 5,
+        "ratingCount": 148,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.mintbracesnj.com/",
+        "phoneNumber": "(908) 526-0808",
+        "openingHours": {
+          "Thursday": "9 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–7 PM",
+          "Tuesday": "10 AM–6:30 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.mintbracesnj.com/schedule-form"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4vLCm4MU3WKSZHnh49ZqKQo5X5ChpuTRi9rU32WXl6JYUglOXJjFQXIv6haXXHLRSwkSShgl-2PiLDkbgYV1fLWkIkhmgkNdd3rzg74FY7RBZ-kX-cJoBIDb_OHetQA6401E",
+        "cid": "5193115669253615933",
+        "fid": "0x89c3955183f63767:0x4811a72fd760713d",
+        "placeId": "ChIJZzf2g1GVw4kRPXFg1y-nEUg"
+      },
+      {
+        "position": 16,
+        "title": "Waltuch & Callan Orthodontics",
+        "address": "3 NJ-27 STE 204, Edison, NJ 08820",
+        "latitude": 40.5547092,
+        "longitude": -74.34529859999999,
+        "rating": 5,
+        "ratingCount": 97,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Emergency dental service"
+        ],
+        "website": "http://www.waltuchortho.com/?utm_source=NEXT&utm_medium=GMB%20Page",
+        "phoneNumber": "(732) 549-6286",
+        "openingHours": {
+          "Thursday": "10 AM–7 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "9 AM–3 PM",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEG4TAEbLLqynl1IWY7GeM7LnqBLaF9XAvA6FmuRUcQRg_ucjoIBZPbhfOn3OnbvMZCHdnBSjjtDvvizG6OpfodCuZeaQhGrZ2151Td0nWWG-BjxDRp7nmD9x6Tc7laBVdlrb3q",
+        "cid": "4351822877130003933",
+        "fid": "0x89c3b64596855f63:0x3c64c7d98cc095dd",
+        "placeId": "ChIJY1-FlkW2w4kR3ZXAjNnHZDw"
+      },
+      {
+        "position": 17,
+        "title": "Straight Smiles Orthodontics",
+        "address": "896 Green St, Iselin, NJ 08830",
+        "latitude": 40.5676719,
+        "longitude": -74.3084076,
+        "rating": 4.8,
+        "ratingCount": 20,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.straightsmilesny.com/",
+        "phoneNumber": "(732) 218-8606",
+        "openingHours": {
+          "Thursday": "12–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/straight-smiles-orthodontics-35828?LocIdent=102676&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_HMQlJwMj-0yQ_MRMzuFGnR-lo_xXjWzBeuYUW44MbZSsjL2x-entity&rwg_token=AFd1xnGYrZ8qsGVR0pxkYqqyAtYL9IObVBTG7qUFFGmxYVG5tyiBFl2cevtN3jaaklZ-1CTK98RNQpHCSCOoQfzLQ3GKzUkT_w%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiraI-18BC2dd3IQA3JBofqaYva0xO5vPhJZVicny9XWbMUcprUyfRQR7RiPG23DskUfNVNwiA3RFBZwKW24zA5268fBTwsYRKsOsjSPVelkmmrjjk-ugd6er8ghJQ31raeGfv",
+        "cid": "8663793676137327340",
+        "fid": "0x89c3b42bd10bffff:0x783bfa721970eaec",
+        "placeId": "ChIJ__8L0Su0w4kR7OpwGXL6O3g"
+      },
+      {
+        "position": 18,
+        "title": "Craig L Menker, DMD",
+        "address": "58 Mt Bethel Rd #201, Warren, NJ 07059",
+        "latitude": 40.6194572,
+        "longitude": -74.495552,
+        "rating": 5,
+        "ratingCount": 144,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.menkerbraces.com/",
+        "phoneNumber": "(908) 756-6006",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.menkerbraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7cID5haIdkGeUS6DQBO3tkjdsc_sMizEnoj9CqoIEO5eO9MVJw4x126ZLcWmVz4yn1I4fkT2zNHWXhSx-9SVaAwbsGn7YEWt27mNzTeoGDnEzh86GjukolgguKq4Y6m_3jPIsRA",
+        "cid": "16809520822441779282",
+        "fid": "0x89c3b94c3d664e2b:0xe9476a209a2ca052",
+        "placeId": "ChIJK05mPUy5w4kRUqAsmiBqR-k"
+      },
+      {
+        "position": 19,
+        "title": "Loew and Patel Orthodontics",
+        "address": "1353 Prince Rodgers Ave, Bridgewater, NJ 08807",
+        "latitude": 40.5882345,
+        "longitude": -74.6118588,
+        "rating": 4.9,
+        "ratingCount": 272,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://loewandpatelorthodontics.com/",
+        "phoneNumber": "(908) 722-5233",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://loewandpatelorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRPD3g1Z4ErBOnYsRgSZcgR7BiHN-AmY3fU3rH6qp7np2EDSlg6yPvp3LWcXnSTYL-QJoSYWF4R-e5Vxnp_7deQ7biKxyF--Z6r1ZiuhylQRpmgpLExL5KRE0lAuwPc33WwCj0qMMJEC4",
+        "cid": "14400488122674238031",
+        "fid": "0x89c3956be26ddcdf:0xc7d8cfa6883ad24f",
+        "placeId": "ChIJ39xt4muVw4kRT9I6iKbP2Mc"
+      },
+      {
+        "position": 20,
+        "title": "Livingston Family Orthodontics",
+        "address": "201 S Livingston Ave # 2B, Livingston, NJ 07039",
+        "latitude": 40.7891123,
+        "longitude": -74.3129775,
+        "rating": 5,
+        "ratingCount": 41,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.livingstonfamilyorthodontics.com/",
+        "phoneNumber": "(973) 758-8926",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "9:15 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2cFHAnxKq7MvXBuWsBy-ZOBb8G-M7bwsqTvT06ehsLiAqIXp9x3Bl8Y5DDT8BrSiM-NP3IVB0DGl_Gx5hPkqWGGFRY0x96g6XyFI4Zx_XR4fLH8KhAF4bm4DEYGy_JQJHKZOtbw",
+        "cid": "276156095456076722",
+        "fid": "0x89c3a96289a777d3:0x3d51a817437e3b2",
+        "placeId": "ChIJ03eniWKpw4kRsuM3dIEa1QM"
+      }
+    ],
+    "credits": 3
+  }
+}

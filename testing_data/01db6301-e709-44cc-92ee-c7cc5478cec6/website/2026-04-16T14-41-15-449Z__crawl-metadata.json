@@ -1,0 +1,12 @@
+{
+  "url": "https://helloortho.com/",
+  "finalUrl": "https://helloortho.com/",
+  "statusCode": 200,
+  "isHttps": true,
+  "responseTime": 2429,
+  "redirectCount": 0,
+  "hasGzip": false,
+  "hasBrotli": false,
+  "serverHeader": "LiteSpeed",
+  "htmlLength": 380107
+}

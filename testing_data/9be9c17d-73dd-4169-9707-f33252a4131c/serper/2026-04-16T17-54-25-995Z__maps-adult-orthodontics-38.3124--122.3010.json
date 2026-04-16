@@ -1,0 +1,625 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.31239,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4zMDA5NjU=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@30.78905,-87.2259288,8z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Island Orthodontics",
+        "address": "241 Clubhouse Dr, Gulf Shores, AL 36542",
+        "latitude": 30.2706546,
+        "longitude": -87.69033809999999,
+        "rating": 5,
+        "ratingCount": 318,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.islandortho.org/",
+        "phoneNumber": "(251) 968-1310",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "16252193319803612089",
+        "fid": "0x889a04d128a783d1:0xe18b63b76fdeebb9",
+        "placeId": "ChIJ0YOnKNEEmogRueveb7dji-E"
+      },
+      {
+        "position": 2,
+        "title": "Oyster Orthodontics",
+        "address": "4626 Bit and Spur Rd, Mobile, AL 36608",
+        "latitude": 30.683782899999997,
+        "longitude": -88.1679764,
+        "rating": 5,
+        "ratingCount": 445,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthomobile.com/",
+        "phoneNumber": "(251) 342-3188",
+        "openingHours": {
+          "Thursday": "7 AM–3:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthomobile.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfQd2ES81ZSytv3MdnZuTImSIG9DWQZXAiyyc4djHFEno3mU2Mb6B1YtYzMg1xx-CNfFqfnWqISr18iubcHhbbf7OtnjUVEnHyyMnnG1_7dtaC1pvVdeYrVBvrxM21QtQdxKiE",
+        "cid": "16365112389623473659",
+        "fid": "0x889a4d4ccce96283:0xe31c8f0324d9e5fb",
+        "placeId": "ChIJg2LpzExNmogR--XZJAOPHOM"
+      },
+      {
+        "position": 3,
+        "title": "Bailey Orthodontics",
+        "address": "8158 AL-59 APT 105, Foley, AL 36535",
+        "latitude": 30.343643099999998,
+        "longitude": -87.6820572,
+        "rating": 5,
+        "ratingCount": 166,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://jbaileyorthodontics.com/",
+        "phoneNumber": "(251) 225-8838",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG4-lwhQYWPU3CUqaPXK0c0DkX2G913HtS8nQZ6fO1b4oD6SaUTCr1sZMGf15Q3vFTAAr7G8pnTlG-hPSHA35VUCv30c0pznwCfYrgyYOXu_rFh8zPL_lIYQgRdghKVvhZKvobq",
+        "cid": "6898352610546623987",
+        "fid": "0x889a0fea32f31761:0x5fbbdf26770525f3",
+        "placeId": "ChIJYRfzMuoPmogR8yUFdybfu18"
+      },
+      {
+        "position": 4,
+        "title": "Strickland Orthodontics",
+        "address": "9816 Millwood Cir, Spanish Fort, AL 36527",
+        "latitude": 30.6712304,
+        "longitude": -87.85261589999999,
+        "rating": 5,
+        "ratingCount": 283,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://stricklandorthodontics.com/",
+        "phoneNumber": "(251) 272-3232",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://stricklandorthodontics.com/social?schedule_consultation=true"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8sPuluJLNZXEhUOn0NKa4B4nv5Ea0PT-LUB_graUPaDUNX7-DquypgTD79YZs3t2vEczHJTooiUz8W7lSOjTCORpxLCUll3HCYm27pLNAGrj1PBnGrHEM1KzbgSHuxpH1A7uZ",
+        "cid": "13489406897275314763",
+        "fid": "0x889a681f7ffc8f4d:0xbb34001a66cca24b",
+        "placeId": "ChIJTY_8fx9omogRS6LMZhoANLs"
+      },
+      {
+        "position": 5,
+        "title": "Bennett Orthodontics",
+        "address": "3210 Old Shell Rd, Mobile, AL 36607",
+        "latitude": 30.698448,
+        "longitude": -88.120468,
+        "rating": 5,
+        "ratingCount": 1073,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.bennettortho.com/",
+        "phoneNumber": "(251) 471-8008",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.bennettortho.com/schedule-a-free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWZdEWC-_MJ6uRcWuAt8_K3rQmXRLUjlBJ1rajE07VDbK_8SVG9wNoa9RHFQGc5ME2n24ZEXGLLF4ZTyf-LdIXHervAssUjuM6zAh58kV7kBwsOtshqyahh-e5I1iLTRo1jImH",
+        "cid": "3475372377862409039",
+        "fid": "0x889a4d87f57c0f9f:0x303b00c3acb18b4f",
+        "placeId": "ChIJnw989YdNmogRT4uxrMMAOzA"
+      },
+      {
+        "position": 6,
+        "title": "South Alabama Orthodontics",
+        "address": "5920 Grelot Rd Building A, Mobile, AL 36609",
+        "latitude": 30.661576999999998,
+        "longitude": -88.179829,
+        "rating": 4.8,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://southalabamaorthodontics.com/",
+        "phoneNumber": "(251) 342-9113",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfXby8fuwLIaYpK8O_OuPaYO6i6I94ekb9FsRDd-TWHN0BLGo6FMWJCNQLgPRG_l3JhbKqhwe2GGjsQ34X3lSzDtt8NpKH1AGCHIoycDv8Ck7RiIegNimMO0GxGImDcTFsyCVq",
+        "cid": "10029374015850152001",
+        "fid": "0x889bb2956a0b838d:0x8b2f7e878e480041",
+        "placeId": "ChIJjYMLapWym4gRQQBIjod-L4s"
+      },
+      {
+        "position": 7,
+        "title": "Brodie Bowman Orthodontics",
+        "address": "28 Racetrack Rd NW, Fort Walton Beach, FL 32547",
+        "latitude": 30.449527699999997,
+        "longitude": -86.61728939999999,
+        "rating": 5,
+        "ratingCount": 161,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://bowmandmd.com/?utm_source=gmb&utm_medium=organic",
+        "phoneNumber": "(850) 863-2122",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "726433677154260206",
+        "fid": "0x88913fad8bc68153:0xa14cf949fa914ee",
+        "placeId": "ChIJU4HGi60_kYgR7hSpn5TPFAo"
+      },
+      {
+        "position": 8,
+        "title": "Coastal Orthodontics",
+        "address": "904 Garden Gate Cir, Pensacola, FL 32504",
+        "latitude": 30.4816015,
+        "longitude": -87.2194322,
+        "rating": 5,
+        "ratingCount": 206,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.coastalorthodontics.com/",
+        "phoneNumber": "(850) 494-9292",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGB6ZghTzOJDR9DKMKc5DNgKqTjqI2dlLU0t9uS7BQ9wHXO4y1PIu9BDb91z0wrdfCRV_5bEHbdIT7B48iG_vbyQTskJQP1onhON7WHRLkHET_yXU8R6qDUS1sipsB-TXujfZNf9JunNcU",
+        "cid": "16610273774137323906",
+        "fid": "0x8890c0097f5a7393:0xe6838bfe19713182",
+        "placeId": "ChIJk3NafwnAkIgRgjFxGf6Lg-Y"
+      },
+      {
+        "position": 9,
+        "title": "TW Orthodontics",
+        "address": "403 Western Bypass, Andalusia, AL 36420",
+        "latitude": 31.3074454,
+        "longitude": -86.4987663,
+        "rating": 5,
+        "ratingCount": 681,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.twortho.com/?utm_source=gmb%20andalusia%20al&utm_medium=organic",
+        "phoneNumber": "(334) 222-3054",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIR-Rf2FuC922wsAjrXIUA-B_pPGSDeoJYkNH4kZ9VSmHGt7_PmCtWDA495C1E5BC4Nazho1XMKh3zsy0x9SMFZBWTA8YJE7IIvqjqGq6s5IMP-0ePHjXtgxNVj7W7UPu-3ywpFg",
+        "cid": "7946308703583235360",
+        "fid": "0x8891ef1df9f60503:0x6e46f5aa20ac6d20",
+        "placeId": "ChIJAwX2-R3vkYgRIG2sIKr1Rm4"
+      },
+      {
+        "position": 10,
+        "title": "Shehee & Callahan Family Orthodontics",
+        "address": "1007 Airport Blvd, Pensacola, FL 32504",
+        "latitude": 30.480427499999998,
+        "longitude": -87.2197608,
+        "rating": 5,
+        "ratingCount": 372,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.sheheeandcallahan.com/",
+        "phoneNumber": "(850) 478-8844",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSYa2Jc-Bk2ec9dhFUR-y9TlQrkqm_cbUkdYi88uTnOLDoV1R7d5f7l5_XhoIGKA5LEevcGNFjM0nkxMltN84FKcGb7wXzXWEqiVgPgQOJtwMNgHY0nZQesEkNA1Rdan39aZiO2Q",
+        "cid": "11569303327114793095",
+        "fid": "0x8890c00a326bb627:0xa08e6c14476c1087",
+        "placeId": "ChIJJ7ZrMgrAkIgRhxBsRxRsjqA"
+      },
+      {
+        "position": 11,
+        "title": "South Alabama Orthodontics",
+        "address": "6491 Jordan Rd, Daphne, AL 36526",
+        "latitude": 30.6327778,
+        "longitude": -87.9126046,
+        "rating": 4.9,
+        "ratingCount": 87,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.southalabamaorthodontics.com/",
+        "phoneNumber": "(251) 625-2525",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7UrIht1-zLNKRCQU027MWneaZbV8UwCC8diBzuP13-ZVmUB-GEYc0FrCc7OZTsrdA5KLZSKBbF91aSj3QIA2oxOtp3hAxX-dEfqjUWsD0l7NJ7FgEtZPlZ4nSds0ylPJ-EPc",
+        "cid": "4729522645871660535",
+        "fid": "0x889a43bdf87fd6ef:0x41a2a3c9d0588df7",
+        "placeId": "ChIJ79Z_-L1DmogR941Y0MmjokE"
+      },
+      {
+        "position": 12,
+        "title": "Island Orthodontics",
+        "address": "18489 US-98, Foley, AL 36535",
+        "latitude": 30.406993999999997,
+        "longitude": -87.70966899999999,
+        "rating": 5,
+        "ratingCount": 202,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.islandortho.org/",
+        "phoneNumber": "(251) 968-1310",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://islandortho.org/contact/?utm_source=GMB-Listing&utm_medium=organic"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvNAeasAznIzbr7V0-6u8peiQEtVYSMBCmGVbW4evocA0-xSQtiofYfi0BWHXG1U92Xc_5_ErywDZJtm06lPqp11RENn0H0UeX6TrIQF5xjgP7YW_xss5IVTDq1yTLxAzCsuGhjClrcj1U",
+        "cid": "1262737280571449512",
+        "fid": "0x889a11f056af2dd3:0x118624ddcd1aa0a8",
+        "placeId": "ChIJ0y2vVvARmogRqKAazd0khhE"
+      },
+      {
+        "position": 13,
+        "title": "Smile Doctors by DN Ortho - Gulfport",
+        "address": "8910 Lorraine Rd, Gulfport, MS 39503",
+        "latitude": 30.410041,
+        "longitude": -89.02720459999999,
+        "rating": 4.8,
+        "ratingCount": 499,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://smiledoctorsbydnortho.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=GUMS",
+        "phoneNumber": "(228) 896-8355",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.smiledoctorsbydnortho.com/newpatient/office/Gulfport-Lorraine?rwg_token=AFd1xnHgcmHLqDzIGLXJYRiRlboduziQGrlE23qrJ7i4lGXt0cJdvqBNf4-kY2gNx69J_j5_BKusW9OZAc89d6N9y2RirKMZzg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1e6VvieSiZ3wlVp9YMTsBzd7Kw0ZPACBBXWszV_CMUJgSZ19Q-NYN8YIH0OlmYLlQS0_6klKFRikM9WnUuoSUzSKTGjeDHclRerOlpNtLA7H0uZkULXUSmh4nGEvrwm4fnsw",
+        "cid": "11420229294006038218",
+        "fid": "0x889c16e27f241f1f:0x9e7cce0932bd6eca",
+        "placeId": "ChIJHx8kf-IWnIgRym69MgnOfJ4"
+      },
+      {
+        "position": 14,
+        "title": "Harvey and Thomas Orthodontics - Mobile AL",
+        "address": "58 Mobile St N, Mobile, AL 36607",
+        "latitude": 30.690963999999997,
+        "longitude": -88.103912,
+        "rating": 5,
+        "ratingCount": 434,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://harveyandthomasortho.com/location/mobile-street-orthodontist/",
+        "phoneNumber": "(251) 479-9597",
+        "openingHours": {
+          "Thursday": "7:20 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:20 AM–5 PM",
+          "Tuesday": "7:20 AM–5 PM",
+          "Wednesday": "7:20 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://harveyandthomasortho.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEi1nHe7UJZxdc4HUs58IsOf3ebMtS0DiDMh-oAq-BmqKQnC5YK2oowro9lZfgk6OT5k-ALKVIbYHrzIXntwkLBqLQtuK2iR9EOoePSdqR7Kg2A8sDFO66t1zZIutAKiK0Z486r",
+        "cid": "7823660701630729277",
+        "fid": "0x889a4df1437d5c63:0x6c9339f4e3e20c3d",
+        "placeId": "ChIJY1x9Q_FNmogRPQzi4_Q5k2w"
+      },
+      {
+        "position": 15,
+        "title": "Harvey and Thomas Orthodontics",
+        "address": "801 S University Blvd Building B-2, Mobile, AL 36609",
+        "latitude": 30.6644521,
+        "longitude": -88.16649029999999,
+        "rating": 4.9,
+        "ratingCount": 162,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://www.harveyandthomasortho.com/",
+        "phoneNumber": "(251) 479-9597",
+        "openingHours": {
+          "Thursday": "7:20 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:20 AM–5 PM",
+          "Tuesday": "7:20 AM–5 PM",
+          "Wednesday": "7:20 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://harveyandthomasortho.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxP6Nu5pw8GnuBA8XqWv8Bnp-nNBVz4OWvigY16JaDwdGr0ARZr_rI1UUH5btNpqHVcJiflT3vUXwKWr9Re-wvzhtaRPFPt7pl_44He8a0hhW4sTxx_5Nsj1rnTi5yj-9f694l",
+        "cid": "12036667571066012622",
+        "fid": "0x889a4d2d6678b9cf:0xa70ad56204da83ce",
+        "placeId": "ChIJz7l4Zi1NmogRzoPaBGLVCqc"
+      },
+      {
+        "position": 16,
+        "title": "Harvey and Thomas Orthodontics- formerly known as Dr. Steadman McMurphy",
+        "address": "9808 McSara Ct, Spanish Fort, AL 36527",
+        "latitude": 30.673396399999998,
+        "longitude": -87.8528838,
+        "rating": 5,
+        "ratingCount": 386,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://harveyandthomasortho.com/",
+        "phoneNumber": "(251) 479-9597",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9oDH78Rq0zOJmH4VLo7sFkaHsZ8guIxGNuc_efov0_qYd6IysrqyAcXotmEdQb_Xwq1TUgSsQsso2wxUhgaBljlt00o07__MWrf9m4TbnLXCoJB6HWNSi57gE5sYYVR0HOvst",
+        "cid": "10930297580889623720",
+        "fid": "0x889a681e55902b21:0x97b037bd163ccca8",
+        "placeId": "ChIJISuQVR5omogRqMw8Fr03sJc"
+      },
+      {
+        "position": 17,
+        "title": "Sandy Smiles Orthodontics",
+        "address": "824 Eglin Pkwy NE, Fort Walton Beach, FL 32547",
+        "latitude": 30.4417612,
+        "longitude": -86.59447329999999,
+        "rating": 5,
+        "ratingCount": 306,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.sandysmilesfl.com/",
+        "phoneNumber": "(850) 244-3880",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.sandysmilesfl.com/schedule-your-smile-assessment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLuGCLMoz4PM6NgRO-f4-vGNy07Dt03kZ7IgrQtOAUrVE51f5e-Gxk8EmZAtBh5Nsdy5LihBP0JQ3Tff2WqZZZ0DoBhWbibnf2zXxRWM4egTAtTtmHCN-9MKB40H4xc67eHNTXBQ",
+        "cid": "199396205412386601",
+        "fid": "0x88913f9c3f00d995:0x2c465cad92a8729",
+        "placeId": "ChIJldkAP5w_kYgRKYcq2cplxAI"
+      },
+      {
+        "position": 18,
+        "title": "Island Orthodontics",
+        "address": "4720 Airport Blvd, Mobile, AL 36608",
+        "latitude": 30.6764472,
+        "longitude": -88.174852,
+        "rating": 4.9,
+        "ratingCount": 555,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.islandortho.org/",
+        "phoneNumber": "(251) 344-7604",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEaq06snpJL925DRkkBifClB8oqRshsPT7atCEvX-uR8YlFCXNCoPDtIYg_tIB_ASqlSXwymx5w1Vv974HGZSPSQvTIq9ralkBoyo30aIXtgbnE31t7Eb_hVAObqGV28pbAr85Z",
+        "cid": "8179326211006633824",
+        "fid": "0x889bb2b62860d60d:0x7182cdda5d179760",
+        "placeId": "ChIJDdZgKLaym4gRYJcXXdrNgnE"
+      },
+      {
+        "position": 19,
+        "title": "South Alabama Orthodontics",
+        "address": "20 Spring Run Dr, Fairhope, AL 36532",
+        "latitude": 30.513337699999997,
+        "longitude": -87.88573459999999,
+        "rating": 4.9,
+        "ratingCount": 59,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.southalabamaorthodontics.com/",
+        "phoneNumber": "(251) 625-2525",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEm2odZSFHP88dkkwS-prQMx4bSJHvPrRpgqTK33Yyw5YIPUWHOVKgx1P9jEzEygt28lGWjJjmaoGnnvTicBWGJCKYNk94ci-3czJHq9OPXDEjj-nzQVxnjSwaDVukohc0kgy5Z",
+        "cid": "9518030626158429491",
+        "fid": "0x889a40782df5309f:0x8416d66d01764533",
+        "placeId": "ChIJnzD1LXhAmogRM0V2AW3WFoQ"
+      },
+      {
+        "position": 20,
+        "title": "KBL Orthodontics",
+        "address": "2431 W Main St STE 303, Dothan, AL 36301",
+        "latitude": 31.2277408,
+        "longitude": -85.42465299999999,
+        "rating": 4.9,
+        "ratingCount": 95,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://kblorthodontics.com/",
+        "phoneNumber": "(334) 446-0428",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://kblorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWDlZCp0eQXFs0vnaygJiRdo0MBSCktmBWl8ehGXPi_V6qmzrYuUzCWCORXrtel1VIrgviTLdfp9OdlfBdwT2e-TgXaPkP08ZVt3A41ObjekdYSPO6qybl57umnz5XWAk8H70",
+        "cid": "3335908181301865699",
+        "fid": "0x889292628354a563:0x2e4b86d105d12ce3",
+        "placeId": "ChIJY6VUg2KSkogR4yzRBdGGSy4"
+      }
+    ],
+    "credits": 3
+  }
+}

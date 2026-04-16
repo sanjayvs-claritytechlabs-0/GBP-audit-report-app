@@ -1,0 +1,621 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.330356,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@40.1387531,-79.9963319,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Steel City Orthodontics",
+        "address": "17 Arentzen Blvd #102, Charleroi, PA 15022",
+        "latitude": 40.1250073,
+        "longitude": -79.8859449,
+        "rating": 4.9,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.steelcityorthodontics.com/",
+        "phoneNumber": "(724) 483-4808",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://steelcityorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFr7SXX9ws3clawRwzSpaj8JTxxbSvvs8UgPPXXRXJok-orpVbUvVcjiKdOMjzW7lIdSKTxP6zLOkuxCpf77VHFV0womRQ3vNcgQQZm_3Vq021nbCsT_wnHVWm_Ed4QSTaOVtgBkSpP8cI",
+        "cid": "14680401782476623649",
+        "fid": "0x88351d8c82970169:0xcbbb43a41c87cf21",
+        "placeId": "ChIJaQGXgowdNYgRIc-HHKRDu8s"
+      },
+      {
+        "position": 2,
+        "title": "Sepic Orthodontics - Uniontown",
+        "address": "625 Cherry Tree Ln, Uniontown, PA 15401",
+        "latitude": 39.9007504,
+        "longitude": -79.7545325,
+        "rating": 4.9,
+        "ratingCount": 180,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://www.smilesbysepic.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+        "phoneNumber": "(724) 437-2121",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.smilesbysepic.com/get-in-touch/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_NPokyO7FfqZtxSpDBRtSuhHnupHAICqrNBxirEczENIBw18IFisA1LeB1RTwlc91wtYjmbcpEIhqH9-LO2PGAqV4ziwA6cz8Iewh3xWIPArH39lHPfz12uE6g97U0CHpEofhTMEBlkYC",
+        "cid": "16975219612279788560",
+        "fid": "0x8835159c784568eb:0xeb94184c7e2e5410",
+        "placeId": "ChIJ62hFeJwVNYgREFQufkwYlOs"
+      },
+      {
+        "position": 3,
+        "title": "Loyacona Orthodontics",
+        "address": "110 Daniel Dr #13, Uniontown, PA 15401",
+        "latitude": 39.9034921,
+        "longitude": -79.7595819,
+        "rating": 4.8,
+        "ratingCount": 221,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.loyaconaortho.com/",
+        "phoneNumber": "(724) 437-7695",
+        "openingHours": {
+          "Thursday": "7:30 AM–2:30 PM",
+          "Friday": "7 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–3:30 PM",
+          "Tuesday": "7 AM–12 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.loyaconaortho.com/newpatient/office/Uniontown-Daniel?rwg_token=AFd1xnE7cNELaEWblOmS8bkiChEODGZmH7jmQsPwVTYKjoYYz_OYuzeYQtuV7d9oXGGKM662RrOxoszububZ6AB1DVh7-z__gw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQMgPvaopZyEc_SLs_wGTn8P7YUo-XayRD8mNvRcKCIZEzEeymJsgJEiC4dDrawwbZ-z8mGggjGwMowPKJ1dCDoJnzNrhAQMOB_DGY-_HI051P1wpVl4XL2PBJuvYvqiMrON3qrQ",
+        "cid": "2222141311375990758",
+        "fid": "0x88353e3b23a5af73:0x1ed6a1bfd1495fe6",
+        "placeId": "ChIJc6-lIzs-NYgR5l9J0b-h1h4"
+      },
+      {
+        "position": 4,
+        "title": "Sepic Orthodontics - Ronald & Christopher Sepic DDS, DMD",
+        "address": "625 Cherry Tree Ln, Uniontown, PA 15401",
+        "latitude": 39.900849,
+        "longitude": -79.754583,
+        "rating": 5,
+        "ratingCount": 10,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.smilesbysepic.com/",
+        "phoneNumber": "(724) 437-2121",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=zZokWp5ioKSDcRE4ri3_gA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=99.72719&pitch=0&thumbfov=100",
+        "cid": "7573892605204261636",
+        "fid": "0x8835159c784568eb:0x691bdf323c286b04",
+        "placeId": "ChIJ62hFeJwVNYgRBGsoPDLfG2k"
+      },
+      {
+        "position": 5,
+        "title": "Signature Orthodontics (formerly Mortimer Orthodontics)",
+        "address": "125 Rock Run Rd, Elizabeth, PA 15037",
+        "latitude": 40.2759803,
+        "longitude": -79.8359291,
+        "rating": 5,
+        "ratingCount": 155,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.signature-orthodontics.com/",
+        "phoneNumber": "(412) 751-2162",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6U42ojNTLe1WT0w_XPbALeQem_5n7o5-rYzk_U-6fPW8m6MdiloPgtuLeRc_Z9CfcHBPBDT3oNAwhpRUcCxePu35JnjRc9V62-IZupFjOU_T4BBWrOfJr5vXbel9kY2zTEo7fBQ",
+        "cid": "255572238505988734",
+        "fid": "0x8834e4048839fca5:0x38bf998ca99d27e",
+        "placeId": "ChIJpfw5iATkNIgRftKZypj5iwM"
+      },
+      {
+        "position": 6,
+        "title": "Orthodontique: Dara L. Rinchuse, DMD",
+        "address": "816 Finley Rd N, Belle Vernon, PA 15012",
+        "latitude": 40.153036799999995,
+        "longitude": -79.7788424,
+        "rating": 4.2,
+        "ratingCount": 10,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.drrinchuse.com/",
+        "phoneNumber": "(724) 823-0847",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=W07kgE8WzSC35CmpcrJrng&cb_client=search.gws-prod.gps&w=80&h=92&yaw=185.35226&pitch=0&thumbfov=100",
+        "cid": "6315362322266192125",
+        "fid": "0x8834e1e22132639b:0x57a4ac92668ff8fd",
+        "placeId": "ChIJm2MyIeLhNIgR_fiPZpKspFc"
+      },
+      {
+        "position": 7,
+        "title": "Good Orthodontics",
+        "address": "22 Old Clairton Rd, Pleasant Hills, PA 15236",
+        "latitude": 40.339739,
+        "longitude": -79.9650609,
+        "rating": 4.9,
+        "ratingCount": 186,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.goodorthodontics.com/",
+        "phoneNumber": "(412) 655-4660",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqWdT6JXvIGPG_PzuXoOiCYrO6aZhUg9BW0mVXqkxfKuBZ3FN7RKQly3Hrk_MBoR6tPelx2OQ8tEtzpAOqVySlNuHu0o4TFVQ0onLMyQunSnJ1MtpuZhd0DZ7hql1SRnSmx1mtBQ",
+        "cid": "15105612214467295052",
+        "fid": "0x8834fa5fe4a29659:0xd1a1ea46ae1ff74c",
+        "placeId": "ChIJWZai5F_6NIgRTPcfrkbqodE"
+      },
+      {
+        "position": 8,
+        "title": "Laurel Mountain Orthodontics",
+        "address": "1514 Lincoln Way #204, White Oak, PA 15131",
+        "latitude": 40.348773,
+        "longitude": -79.818299,
+        "rating": 5,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://laurelmountainorthodontics.com/",
+        "phoneNumber": "(412) 678-0130",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhlWCvKvx10rBhb_pOk0AX7V2KtiGXeQYJrSR-9OrFkBRPVYRRGNVgQm2mSFqWmSM2xSRM8PsCA5f369-0OYldih3SkuyK8KyH2BF-PvWkwrJuqD5zX6a1BtEtG8TalklIPg2xLNwMvEnu",
+        "cid": "5843307592695378494",
+        "fid": "0x8834e8a7e05f381b:0x5117994bdff3723e",
+        "placeId": "ChIJGzhf4KfoNIgRPnLz30uZF1E"
+      },
+      {
+        "position": 9,
+        "title": "Good Orthodontics",
+        "address": "111 Washington St, Washington, PA 15301",
+        "latitude": 40.1722488,
+        "longitude": -80.25411199999999,
+        "rating": 4.9,
+        "ratingCount": 243,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.goodorthodontics.com/",
+        "phoneNumber": "(724) 225-1114",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:32 AM–5 PM",
+          "Tuesday": "8:32 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4bYjAcexZ1yOSaXgGvlspAd70tRSK1dBPY0SYnQa--eDvDUPBEezPHbDYb2toHhIxOg18u4O_tRdh9Gm45FnUIy4B0pnqLd_SA5D7rCTvEDMlbuvXjSegAE-X6mOGwxozucUO_g",
+        "cid": "16479038917612330110",
+        "fid": "0x8835adbd69e727db:0xe4b14e95fc1edc7e",
+        "placeId": "ChIJ2yfnab2tNYgRftwe_JVOseQ"
+      },
+      {
+        "position": 10,
+        "title": "Burns Orthodontics",
+        "address": "157 East High St, Waynesburg, PA 15370",
+        "latitude": 39.8965113,
+        "longitude": -80.1843713,
+        "rating": 4.7,
+        "ratingCount": 15,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://burnsorthodontics.com/",
+        "phoneNumber": "(724) 852-1802",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8–11 AM"
+        },
+        "bookingLinks": [
+          "https://burnsorthodontics.com/locations/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3cKmCw540-Y26WwHaDqWeuQ_uNCKguzuQUeTJtxmywByPkoxuT1oIZ1Oc04UUkH_EFaiVuYZ9KlRELn62D9UZtb1JW8RY0Wdf4j6uwRBcA5NNKhID3ddn7K4K0WaiV0UJQ2e7",
+        "cid": "9124249124589683461",
+        "fid": "0x8835a1a30ae08b27:0x7e9fd83c89564305",
+        "placeId": "ChIJJ4vgCqOhNYgRBUNWiTzYn34"
+      },
+      {
+        "position": 11,
+        "title": "KSG Orthodontics",
+        "address": "1720 Washington Rd Suite 203, Pittsburgh, PA 15241",
+        "latitude": 40.3483004,
+        "longitude": -80.05372559999999,
+        "rating": 5,
+        "ratingCount": 513,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://ksgortho.com/",
+        "phoneNumber": "(412) 409-4444",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "7:15 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "7:30 AM–4 PM",
+          "Wednesday": "7:30 AM–4 PM"
+        },
+        "bookingLinks": [
+          "http://ksgortho.com/contact-us/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzwC2HhGrzBTGN6or7SS2ymt0ycBbv4buyzsXn1sylrS6xEd1rw6KZibXtUk-wB9qhU-J6i2SRVfvlCjWlbfi_q-Z3N2QZNS6qHtnGAksceao5DPJ9ZsNEX0Nabw85z_lTUN5PEQ",
+        "cid": "3017803686339744821",
+        "fid": "0x8834f8355471bbff:0x29e16476b6251435",
+        "placeId": "ChIJ_7txVDX4NIgRNRQltnZk4Sk"
+      },
+      {
+        "position": 12,
+        "title": "Steel City Orthodontics",
+        "address": "1201 Broughton Rd Ste 102, Pittsburgh, PA 15236",
+        "latitude": 40.3303347,
+        "longitude": -79.98872279999999,
+        "rating": 5,
+        "ratingCount": 33,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.steelcityorthodontics.com/",
+        "phoneNumber": "(412) 655-7555",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.steelcityorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFuHk7yr7ZsXcTZAYYUqNIVxomMs-VsLzZnyatEG2B0wVWIxbuTshHltUUIhHpGuYUoT4EUDpuJ0EtwHKG1bHjcZbE_QEg7LwWjYmtKkIKx_m4m3p0T3yzxm736-Z3m4Hr-_SuSCrc3xIg",
+        "cid": "11782688132168302311",
+        "fid": "0x8834fb1c805281e9:0xa384846dc91a3ee7",
+        "placeId": "ChIJ6YFSgBz7NIgR5z4ayW2EhKM"
+      },
+      {
+        "position": 13,
+        "title": "Smiles By Palmer Orthodontics",
+        "address": "2000 Waterdam Plaza Dr #160r, McMurray, PA 15317",
+        "latitude": 40.2638749,
+        "longitude": -80.13461439999999,
+        "rating": 5,
+        "ratingCount": 156,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.smilesbypalmer.com/mcmurray.html",
+        "phoneNumber": "(724) 942-5130",
+        "openingHours": {
+          "Thursday": "12–7 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.smilesbypalmer.com/request-an-appointment.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI_klh7MZrzf7GvsiXJ6raGW-93dq9HIIRDPCEGGJx8IYat9zb2MZH-LMRUKroBjrJUtqGLhlnqxh-bx1PIBIAPbkIMhlC7GAfSWS2R7J8gkBtp9apwSz1_bR1F_J3bQb_CxJQ",
+        "cid": "11671681654674358849",
+        "fid": "0x883455afc8b75f07:0xa1fa24a02e4f0241",
+        "placeId": "ChIJB1-3yK9VNIgRQQJPLqAk-qE"
+      },
+      {
+        "position": 14,
+        "title": "Burns Orthodontics",
+        "address": "4050 Washington Rd, McMurray, PA 15317",
+        "latitude": 40.2672847,
+        "longitude": -80.1293499,
+        "rating": 4.9,
+        "ratingCount": 143,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://www.burnsorthodontics.com/",
+        "phoneNumber": "(724) 941-2420",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8–11 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://burnsorthodontics.com/locations/",
+          "https://chatnow.getdeardoc.com/?t=ad59a266-3b76-4a87-9c55-7815f9ab6c69"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxwPknFJUNnEX51QRP_rD9AG4YErijoorPBPEtWjSr7I90oMmwGnJCKxiBIKp3CoXuyjUllNnxzknMVi7Chh2ncTzg7tqpO6WDSBcaRvywNnsM4P-oMYjk0oK1ahcVLueJVHhBcA",
+        "cid": "18049365705788634184",
+        "fid": "0x883455ba484a471d:0xfa7c3a7ad2a63448",
+        "placeId": "ChIJHUdKSLpVNIgRSDSm0no6fPo"
+      },
+      {
+        "position": 15,
+        "title": "Good Orthodontics",
+        "address": "677 Washington Rd, Pittsburgh, PA 15228",
+        "latitude": 40.3809949,
+        "longitude": -80.0439857,
+        "rating": 4.9,
+        "ratingCount": 248,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.goodorthodontics.com/",
+        "phoneNumber": "(412) 344-4663",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC1c5BBfq9XSVlgV41xuGhn7TYdzIPbT3i_k_44dcUL88nnvdyB_Aoqiyj9VcwW1moNN0GV6dspTG8VAId3zLADERK0gQTBrxS7i_U2EqlEeQFpa_lsnbV8khXmh43XniLxtVD",
+        "cid": "16210190299977296457",
+        "fid": "0x8834f771bc8a7d87:0xe0f62a314ba12a49",
+        "placeId": "ChIJh32KvHH3NIgRSSqhSzEq9uA"
+      },
+      {
+        "position": 16,
+        "title": "Dahar Orthodontics",
+        "address": "532 Main St, Irwin, PA 15642",
+        "latitude": 40.3295917,
+        "longitude": -79.7110872,
+        "rating": 4.9,
+        "ratingCount": 69,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://bracesbydahar.com/",
+        "phoneNumber": "(724) 864-5030",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://doctor.online-chat.io/?t=1fe210d3-3213-418a-819a-ab59ec7d5a4d"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjOc22h9ng_q-1ZW_Ah7Yz96KcvaSfqwTQUBfazqYlFiQLz7_rRqAuz-OotvlOX0ZYXasuYZ8kKLYEus652yvkdsFilQZbxAm4_waTbfM4wJTNHPitGgrTFcbBpdKF1wjgBmAlHA",
+        "cid": "3510756570523418235",
+        "fid": "0x8834dd30c5cbffff:0x30b8b68006eabe7b",
+        "placeId": "ChIJ___LxTDdNIgRe77qBoC2uDA"
+      },
+      {
+        "position": 17,
+        "title": "Steel City Orthodontics",
+        "address": "2112 N Franklin Dr, Washington, PA 15301",
+        "latitude": 40.1572305,
+        "longitude": -80.2815767,
+        "rating": 4.6,
+        "ratingCount": 39,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.steelcityorthodontics.com/",
+        "phoneNumber": "(724) 222-1063",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.steelcityorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSSO4jAbwOdIT4io8bhCtcdd_lfhuoa6j6ysBWmi2x_u734PnEhp8EiZsAlHxonABN8L6ooNDEBqbs3cpULezDT-aL4PBYiTu99Lxm08XwmehSt7X_GN5rxVi-_luVzZrko4OIla1SSiLw",
+        "cid": "15806379391836855769",
+        "fid": "0x8835ada6db9cbef9:0xdb5b8a4fa37d9dd9",
+        "placeId": "ChIJ-b6c26atNYgR2Z19o0-KW9s"
+      },
+      {
+        "position": 18,
+        "title": "Pittsburgh Orthodontic Group",
+        "address": "850 Clairton Blvd # 3200, Pittsburgh, PA 15236",
+        "latitude": 40.322325899999996,
+        "longitude": -79.94411199999999,
+        "rating": 5,
+        "ratingCount": 5,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.pittorthogroup.com/",
+        "phoneNumber": "(412) 469-9550",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "cid": "3663445795631642695",
+        "fid": "0x8834fae0dea7a931:0x32d72c8a9685b847",
+        "placeId": "ChIJMamn3uD6NIgRR7iFloos1zI"
+      },
+      {
+        "position": 19,
+        "title": "Sepic & Madison Orthodontics - Pleasant Hills",
+        "address": "70 Old Clairton Rd, Pittsburgh, PA 15236",
+        "latitude": 40.3384189,
+        "longitude": -79.96407529999999,
+        "rating": 4.9,
+        "ratingCount": 96,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://www.smilesbysepic.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+        "phoneNumber": "(412) 653-6555",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.smilesbysepic.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXn9SfDgxhA2l_QnTtjTz4VAZEj3REZXXIuIaHeNrOAOPivLgKH8qktC9fGoI4aHkRL5i1dORh70ms8SMmEgPBh-89HSvF0idKNDRbn6wc0DuRaaO0HWC9UUD-ZJzqza44K5XQY8hkuWau",
+        "cid": "5809273971100871029",
+        "fid": "0x8834fa5f883adc1f:0x509eafe5da63e975",
+        "placeId": "ChIJH9w6iF_6NIgRdelj2uWvnlA"
+      },
+      {
+        "position": 20,
+        "title": "Schratz Orthodontics",
+        "address": "505 Valley Brook Rd Suite 101, McMurray, PA 15317",
+        "latitude": 40.2790058,
+        "longitude": -80.0825167,
+        "rating": 5,
+        "ratingCount": 19,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://schratzorthodontics.com/",
+        "phoneNumber": "(724) 941-4455",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6gLY4CR7g7rTLKxmu6srb1JSMvNNnJYrvWbbFo84FU8USF1PBh0foFpLZEKqXo53mdVl6F4Da-0VrO2Kcb6ixGMwv9qYqeyybBekfU4HANzr5UMmMMQKTv1AchpwkOPVaFdj1LQ",
+        "cid": "16779881531138594824",
+        "fid": "0x8834ff4590ac56c9:0xe8de1d5954a75808",
+        "placeId": "ChIJyVaskEX_NIgRCFinVFkd3ug"
+      }
+    ],
+    "credits": 3
+  }
+}

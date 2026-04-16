@@ -1,0 +1,236 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.31239,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzEyMzksLTEyMi4zMDY2OQ==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@39.503356,-98.1230494,4z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Capogna Orthodontics",
+        "address": "41 New Hyde Park Rd, Garden City, NY 11530",
+        "latitude": 40.7177751,
+        "longitude": -73.6791537,
+        "rating": 5,
+        "ratingCount": 176,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.capognaortho.com/",
+        "phoneNumber": "(516) 673-4888",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "11 AM–7 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFq6UX7jTQnqPAITy4hndKPyJuBMpYZfugTyseUtnC3LuSBbWZTzoC2YivWSFGNittUjBiC1_lCidLD_3JQEGLxAYqExO3o2iWksFZ4dY30Z__qkdhue97bjVBhEzcgurCaja3CUA",
+        "cid": "1810804215737414685",
+        "fid": "0x89c262e716363979:0x192144d714cef41d",
+        "placeId": "ChIJeTk2FudiwokRHfTOFNdEIRk"
+      },
+      {
+        "position": 2,
+        "title": "New Hyde Park Orthodontics",
+        "address": "1991 Marcus Ave #106, New Hyde Park, NY 11042",
+        "latitude": 40.755316099999995,
+        "longitude": -73.69157899999999,
+        "rating": 5,
+        "ratingCount": 131,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://nhportho.com/",
+        "phoneNumber": "(516) 775-9393",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "11 AM–7 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHRhs_l3bCRqWpZvtlkmfreKRVFgRT_LCLLbpSZHFZ8gZvGbsMxSElPAUEpEuZ_Dq8fvgnVHHiGOi6ouzzI0Lrj9eFYEtlYWHWyGwT9o654pQrcI1kHwZIGwm0JwYCEuXNJS5tcQ",
+        "cid": "6214475086659699646",
+        "fid": "0x89c28828dad00d57:0x563e402a65ddc3be",
+        "placeId": "ChIJVw3Q2iiIwokRvsPdZSpAPlY"
+      },
+      {
+        "position": 3,
+        "title": "Elite Orthodontics Studio",
+        "address": "350 Old Country Rd suite 105, Garden City, NY 11530",
+        "latitude": 40.7400117,
+        "longitude": -73.632127,
+        "rating": 5,
+        "ratingCount": 19,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.eliteorthodonticsstudio.com/",
+        "phoneNumber": "(516) 276-0307",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGniW1J0BJAG3rwbW-08uJEYwF8SV9lcM4Wy5jpL5TmlJ3ChWSY0YVnPQxtrZ6vwxHvvK3CaMHCCPuOV49A39jau9gjczxgYMUaWuIG7chrEbC0xsTMVlPKwBxWUlwtjWJbIxxRT2l2Bg4",
+        "cid": "18132421791661061365",
+        "fid": "0x89c27d1ed5a3a4cb:0xfba34d8cc18274f5",
+        "placeId": "ChIJy6Sj1R59wokR9XSCwYxNo_s"
+      },
+      {
+        "position": 4,
+        "title": "Straight Set Orthodontics - Garden City",
+        "address": "601 Franklin Ave #130, Garden City, NY 11530",
+        "latitude": 40.7239919,
+        "longitude": -73.63246409999999,
+        "rating": 4.8,
+        "ratingCount": 1035,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.straightsetortho.com/garden-city",
+        "phoneNumber": "(516) 248-2560",
+        "openingHours": {
+          "Thursday": "9 AM–7 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.straightsetortho.com/booking/garden-city"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF-x2-fXQpnNOG3xzC4fL9PoNDD9C-Fqr_T3tnkjIb6K6l1q-9CTegHs-4pCfofePK2qCHM5eGUHN2zbcg7bEcj9zkf3HN9Xfog89DGY1RErfof--ZqUunTBEbzXqkvQagXV7Dy",
+        "cid": "5014534058932067794",
+        "fid": "0x89c27d3f0e94381b:0x4597342890be5dd2",
+        "placeId": "ChIJGziUDj99wokR0l2-kCg0l0U"
+      },
+      {
+        "position": 5,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnHh_k42OzRvVigRHLd3352l8bMs1yJ-N3mNU2vAt6sg3OCejmYUf_EfRGUHRUr6n4P4ipMEXA6pzw7TYSktVoB2PIys2v7h7ako3Ds8W7Lsdc2hCdU%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnE73UqTnWz2g_M7hCyeYlkFmZdFtGTGVXX5csbU-XuuYNYtEMRPSAAFWTou2ZRA-F9-wCDMrwjcaxV5nVHYqWOCJ7cAPtfzV9f61wtJWc0luzQmfNc%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 6,
+        "title": "Cho Orthodontics",
+        "address": "32-06 Bell Blvd, Bayside, NY 11361",
+        "latitude": 40.773445099999996,
+        "longitude": -73.774974,
+        "rating": 4.9,
+        "ratingCount": 53,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.nhportho.com/",
+        "phoneNumber": "(718) 229-9010",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFL-Zi5svjplACIyvxh0an1EHQl-CwQwQBcl-tSjbZUB_gpvDsS77Tl34qYL5ZeCZT567Y_dBbZyYFoCgtwMH7QWtw2_WF6grMCcvzHac5HZ57cjPZXY8TmoBLVqs_-wL13fNUJiQ",
+        "cid": "17985890478384558008",
+        "fid": "0x89c28a7242c7c557:0xf99ab818c5312fb8",
+        "placeId": "ChIJV8XHQnKKwokRuC8xxRi4mvk"
+      },
+      {
+        "position": 7,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnFtf8uHBmVCBZ92YmTYKSIf1QMLnQxNxHlI3qoWvoyAdu8AAJZ-lb9GGx_3HYg4pp2gAa6DU16Wjp2Ln4s-mi0SWlVtBkzp0kVHNZVeOgUgGAE5sVo%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.334848,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@43.0947601,-70.8898909,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Access Sports Medicine and Orthopaedics",
+        "address": "1 Hampton Rd # 200, Exeter, NH 03833",
+        "latitude": 42.976868499999995,
+        "longitude": -70.9173296,
+        "rating": 4.9,
+        "ratingCount": 1479,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Hand surgeon",
+          "MRI center",
+          "Occupational therapist",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine physician",
+          "Surgeon",
+          "Walk-in clinic",
+          "X-ray lab"
+        ],
+        "website": "https://www.accesssportsmed.com/our-locations/exeter/",
+        "phoneNumber": "(603) 775-7575",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/access-sports-medicine-and-orthopaedics-150827?LocIdent=394541&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_C_84j0vTSUSJKlJf-3Devg-lo_tRRpC82vA023iawEWjuBby-entity&rwg_token=AFd1xnEGEGIU5PQbXx2ItClZQAsY6h9w6P_OUQB8icR8KIc8Z_6jM0Sn1w1-EspqAARi6ZkV2kV_xh5P03p3Ogt0bg7NYerCEw%3D%3D",
+          "https://www.zocdoc.com/practice/access-sports-medicine-and-orthopaedics-150827?LocIdent=394542&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_C_84j0vTSUSJKlJf-3Devg-lo_A_3Ge9oiaEyD5nMmesEJjS-entity&rwg_token=AFd1xnHbhcxAgb8bQrYaR432Sz3HRg1vMBrw34CP8bvffW3281mstGK7Sy-ghUWp691bBtvf3F0VBxRlaNhMeJJWLbk9TW0_-A%3D%3D",
+          "https://www.accesssportsmed.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMft6Xz0Ee1EUvEEqfMNqOPO_aCS7AR0ZFkfO8g7usGvRA9B0ZIaDUYP4K03D8HJGNoaNUZESNY3aGYXvngxIHqfe8cPVj9v0-V_dZWKqd9wJh1YoN-hoUo05xku-kJiq0wDECig",
+        "cid": "8781165277649956981",
+        "fid": "0x89e2eed3c96e943f:0x79dcf74ba051f075",
+        "placeId": "ChIJP5RuydPu4okRdfBRoEv33Hk"
+      },
+      {
+        "position": 2,
+        "title": "Atlantic Orthopaedics & Sports Medicine",
+        "address": "1900 Lafayette Rd, Portsmouth, NH 03801",
+        "latitude": 43.040489699999995,
+        "longitude": -70.7754285,
+        "rating": 4.9,
+        "ratingCount": 2028,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.atlanticorthopaedics.org/?utm_source=google&utm_medium=organic&utm_campaign=gbp_portsmouth",
+        "phoneNumber": "(603) 431-1121",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.atlanticorthopaedics.org/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHp3qANtLuQQMx_xPnxnn_kNmiJXUSGu-lLWqQ0fs9sOENvIOoJNJ3A0J-QstyutWpr07TU7M6hjB5VG8qYuCBiFkMqBHBX7WAhn3B6gqIxMaWOXVP5WsdBEJd8pEKxRu5sZtBh",
+        "cid": "3872770721806378305",
+        "fid": "0x89e2bf74d20f20a9:0x35bed873e1cd6541",
+        "placeId": "ChIJqSAP0nS_4okRQWXN4XPYvjU"
+      },
+      {
+        "position": 3,
+        "title": "Core Orthopedics and Sports Medicine",
+        "address": "7 Alumni Dr, Exeter, NH 03833",
+        "latitude": 42.9825243,
+        "longitude": -70.9345628,
+        "rating": 2.7,
+        "ratingCount": 44,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Orthoptist",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.corephysicians.org/Ortho-Sports-Medicine",
+        "phoneNumber": "(603) 777-1000",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGI5IQjLoYZeTXmTRS2oKtMXyQ-rKBDCcbylaljN5PEhmc8HPAssFbwW5fGv4nyY9presxWREhVpgeNYF4tvsWO8prR97p9zTE-SXDKwDgcuxMcWNIQCpdZLbsJ7IGeAv6xbFdp",
+        "cid": "11183282252961026086",
+        "fid": "0x89e2eee8942496ef:0x9b32fff51eac1026",
+        "placeId": "ChIJ75YklOju4okRJhCsHvX_Mps"
+      },
+      {
+        "position": 4,
+        "title": "Access Walk-In Injury Clinic | Exeter, NH",
+        "address": "1 Hampton Rd, Exeter, NH 03833",
+        "latitude": 42.9769028,
+        "longitude": -70.9174341,
+        "rating": 4.8,
+        "ratingCount": 264,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Occupational health service",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center",
+          "Walk-in clinic",
+          "X-ray lab"
+        ],
+        "website": "http://www.accesswalkin.com/",
+        "phoneNumber": "(603) 775-7750",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "8:30 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/access-walk-in-injury-clinic-exeter-714513?LocIdent=394541&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_TAIAqqNDkkauk8x9nAqmmC-lo_tRRpC82vA023iawEWjuBby-entity&rwg_token=AFd1xnF63V9Lyac2FWJLuyjTKeD7UpnhuxYpkvLqmAPQwlEfOcbXXTRUMmZfqpRr50Hl4N3khGYczVLN6y0LZKVAe5JhL32uAw%3D%3D",
+          "https://www.accesssportsmed.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAExcfkLD1u_siN6X6_jAcGrd0k82P8OIGHHSR-zieHHPpNoScmdDAmI0OW5xjg_DG1yPbMIeBDoTwXaFjbdu0BcrGnQr8ascGH1dtiCqpBs05vX-ifBcg2WS5qr01Sx_cscJPeh",
+        "cid": "10285569924903856927",
+        "fid": "0x89e2eed0f31989d1:0x8ebdaf59f655eb1f",
+        "placeId": "ChIJ0YkZ89Du4okRH-tV9lmvvY4"
+      },
+      {
+        "position": 5,
+        "title": "Access Sports Medicine and Orthopaedics",
+        "address": "155 Borthwick Ave Suite 102, Portsmouth, NH 03801",
+        "latitude": 43.0621109,
+        "longitude": -70.7939758,
+        "rating": 4.9,
+        "ratingCount": 704,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Hand surgeon",
+          "Occupational therapist",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine physician",
+          "Surgeon",
+          "Walk-in clinic",
+          "X-ray lab"
+        ],
+        "website": "https://www.accesssportsmed.com/our-locations/portsmouth/",
+        "phoneNumber": "(603) 431-3575",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/access-sports-medicine-and-orthopaedics-150827?LocIdent=394543&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_C_84j0vTSUSJKlJf-3Devg-lo_dJuPTeY-7EOxJAkfIMhKOC-entity&rwg_token=AFd1xnGMCO_U2Xw6oW_1W5WrR9RlD1PcCJhbPH7EaXJ8sgkVn-VoW6FzrF_S4Yt_0Zl9bcD-_AO7P_IFmzPusiNUIkbDkKudcA%3D%3D",
+          "https://www.accesssportsmed.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFoplZS2awajdRWpsLo78YenexRGoViBIwXRdmi0IBOYqpM6XQC-DDY12NarnXB5OcokD7iohofGioTVE41jj9BI95e8uoFin1AAkUffFRaYTQ_UGuECN4hyS87-YgMM9-F1YYNOg",
+        "cid": "14577044119187656394",
+        "fid": "0x89e2bff5fb03cfc5:0xca4c1064d7608eca",
+        "placeId": "ChIJxc8D-_W_4okRyo5g12QQTMo"
+      },
+      {
+        "position": 6,
+        "title": "Seacoast Orthodontics",
+        "address": "13 March Farm Way UNIT C, Greenland, NH 03840",
+        "latitude": 43.0421566,
+        "longitude": -70.8202989,
+        "rating": 4.7,
+        "ratingCount": 31,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.seacoastorthodontics.com/",
+        "phoneNumber": "(603) 964-2220",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "11 AM–5:30 PM",
+          "Tuesday": "9 AM–4:30 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnFBfbZmIX169MHwWDp0Lv_PDfB4MlosR8_nuLS0Z63AMRkRO4wdNQFv_TT5eLpS38wlmS8Q98It_OF0S5eHXbEz2louZZbbAryMWiV4uzGkUYiP1LZQLhT6FfksB_4D_fhnTMyPBAh6yH",
+        "cid": "13546116604492331567",
+        "fid": "0x89e2e9c705b40501:0xbbfd794808c93a2f",
+        "placeId": "ChIJAQW0Bcfp4okRLzrJCEh5_bs"
+      },
+      {
+        "position": 7,
+        "title": "Great Bay Orthodontics",
+        "address": "62 Portsmouth Ave Units 6-7, Stratham, NH 03885",
+        "latitude": 43.0075362,
+        "longitude": -70.9180489,
+        "rating": 5,
+        "ratingCount": 45,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist"
+        ],
+        "website": "https://www.greatbayorthodontics.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+        "phoneNumber": "(207) 705-0632",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHks44r7s37uRCswkiiwTNuX9iD4KmndvT3eE5t4T01bmBot2jQ3esXLRi96GH5pRTEc9rC3T7nU5K2-Ol7fCcI6iDCwNCalx2OgajcBbnHseRZYfedPXdMMLt9XBd8Tf7ia1tmcQ",
+        "cid": "6195271581196374754",
+        "fid": "0x89e2ef407f512971:0x55fa06addc4852e2",
+        "placeId": "ChIJcSlRf0Dv4okR4lJI3K0G-lU"
+      },
+      {
+        "position": 8,
+        "title": "Seacoast Orthopedics & Sports Medicine - Portsmouth",
+        "address": "67 Corporate Dr Building A, Portsmouth, NH 03801",
+        "latitude": 43.0869666,
+        "longitude": -70.80112299999999,
+        "rating": 4.9,
+        "ratingCount": 175,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.wdhospital.org/wdh/services-and-specialties/orthopedic-care",
+        "phoneNumber": "(603) 742-2007",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGo-EUQs1ffjjqGGAduiz8dWFMptnCXuNF7IukjWwcvLj_ygvEsb-vsm98VMQO5zYXk2NPIm728Qa2Sw9HFYbg6cQpRhOZ2VTd79mwyozrudvH_28s0B3GstwUljb64aEKTFKwh",
+        "cid": "9242058084998741435",
+        "fid": "0x89e2bf3f8d1dada3:0x804262dc9de07dbb",
+        "placeId": "ChIJo60djT-_4okRu33gndxiQoA"
+      },
+      {
+        "position": 9,
+        "title": "Portsmouth Orthopedics LLC",
+        "address": "170 Commerce Way #200, Portsmouth, NH 03801",
+        "latitude": 43.0905444,
+        "longitude": -70.7865877,
+        "rating": 5,
+        "ratingCount": 7,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service",
+          "Medical supply store"
+        ],
+        "website": "https://port-ortho.com/",
+        "phoneNumber": "(603) 373-9020",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTS3mtd25aY_8R7cCj9XkfXRbC5nSX_2zH1NczsMNbKMVKFUV6HBFeLTHoRZvKbnREK7pA1G6AoMlmY4gGlR8EN-8Y1CMGsuZcDERRJcz3C3re2w9Ifg0-fhE0E45vw3ox7ic",
+        "cid": "13164783097450038775",
+        "fid": "0x89e2bf68292d3777:0xb6b2b47a249385f7",
+        "placeId": "ChIJdzctKWi_4okR94WTJHq0srY"
+      },
+      {
+        "position": 10,
+        "title": "Seacoast Orthopedics & Sports Medicine",
+        "address": "65 Calef Hwy, Lee, NH 03861",
+        "latitude": 43.1530604,
+        "longitude": -71.0043534,
+        "rating": 5,
+        "ratingCount": 229,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Family practice physician",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.sosmed.org/",
+        "phoneNumber": "(603) 742-2007",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbJdcGm2fJ3isW1NCWxfidQxR24NXM8fbKFz5H4aLiZmJUYQcFkspiYQiZ2uPTTq8JDZw3a-dKi6KQFxD5srcCjJerg0TaULwN5d-VSBLMDSlbadAI7tFxDrAe6ZupG9YB7e4B",
+        "cid": "6044646867928285422",
+        "fid": "0x89e28d8b216a43b7:0x53e2e64ceb8b00ee",
+        "placeId": "ChIJt0NqIYuN4okR7gCL60zm4lM"
+      },
+      {
+        "position": 11,
+        "title": "Nowak Orthopedic Associates PLLC",
+        "address": "55 High St, Hampton, NH 03842",
+        "latitude": 42.940849799999995,
+        "longitude": -70.83638309999999,
+        "rating": 4.8,
+        "ratingCount": 54,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Hand surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "http://www.nowakorthopedics.com/",
+        "phoneNumber": "(603) 967-8033",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHB3tTZxUa3uSgzCSCENxv67UXQse3Y4kfI8oVr1eM1ip6yE9vTeaUpDiY8p9MUn0JJvWpaYdnvLyxCPgbpT3M-JpLW2DwZWC-b8vVIyM7zmnYaGnZLxk0KdwpQ9_Oz6dbM7S-kK0O0CYf_",
+        "cid": "1120881402807660741",
+        "fid": "0x89e2e978da0fc8b9:0xf8e2bb279b130c5",
+        "placeId": "ChIJucgP2njp4okRxTCxebIrjg8"
+      },
+      {
+        "position": 12,
+        "title": "Lenk & Kuna Orthodontics",
+        "address": "12 Mathes Terrace, Durham, NH 03824",
+        "latitude": 43.1353963,
+        "longitude": -70.92590919999999,
+        "rating": 4.9,
+        "ratingCount": 129,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.lenkortho.com/",
+        "phoneNumber": "(603) 868-1919",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrjPYyBQOvOyzb848frWkQSMvQPO5D2KEWxUBxbTJDgXzZH4GjQUxw2Tc19HWCoRrkXMwPi8SptpZxtGyWRiMw98kgwF8Q8PKatz0MagS13tGRhrZdFQO--u3mnGfZOtqlCAR-",
+        "cid": "11234728633376505376",
+        "fid": "0x89e29396a86f09e1:0x9be9c62afc50fe20",
+        "placeId": "ChIJ4QlvqJaT4okRIP5Q_CrG6Zs"
+      },
+      {
+        "position": 13,
+        "title": "Joshua A. Siegel, MD",
+        "address": "1 Hampton Rd # 200, Exeter, NH 03833",
+        "latitude": 42.9769143,
+        "longitude": -70.9174214,
+        "rating": 4.9,
+        "ratingCount": 279,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.accesssportsmed.com/our-providers/joshua-a-siegel/",
+        "phoneNumber": "(603) 775-7575",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/joshua-siegel-md-714509?LocIdent=394542&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_Be9lHy1G9kiCvPYwgGb09S-lo_A_3Ge9oiaEyD5nMmesEJjS-entity&rwg_token=AFd1xnGhcl_Lx4PxTImYy2DwY0j1huziM_SuVnjmLnSUeX4TLIWae74PTW3oHy0N1-XxWizpvp2QaMrnKg68PhFVf7Wt0rr4G6Vghz09-UgRsXCF4zf3fSU%3D",
+          "https://www.accesssportsmed.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI1leG5N540EkZ6R5jRFolptZqFXYI_ZQl9x0fsFCBfWNaj7LjY5bOR6AAGufZlhdsmwdBRGMNEU03IDi7fT1TBh3Iv1vrdpA_fFkiILoVR8DcJeUXIgZasTtu65-yZvP-yUXszQ",
+        "cid": "10525372323534304034",
+        "fid": "0x89e2ef914e1cd57d:0x9211a25cc8fd7322",
+        "placeId": "ChIJfdUcTpHv4okRInP9yFyiEZI"
+      },
+      {
+        "position": 14,
+        "title": "Seacoast Braces Miller Orthodontics",
+        "address": "11 Hampton Rd, Exeter, NH 03833",
+        "latitude": 42.976434399999995,
+        "longitude": -70.9141892,
+        "rating": 4.5,
+        "ratingCount": 24,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://seacoastbraces.com/location/orthodontist-in-exeter-nh/",
+        "phoneNumber": "(603) 772-3580",
+        "openingHours": {
+          "Thursday": "12–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "7:30 AM–8 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.seacoastbraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmMprjvOWyoMLJVgBCpYrPIVRFD1zXsWkwJ-EFAGQazX2aAVleZOlaJ0wWaVY-uzhpBTbrX58zHOYX8keQK-lTd7zKjWMiam7J2dsrXdsXpgUWT2nSjB2Ze9Xc5V6fjyptuyry",
+        "cid": "10126744424117303726",
+        "fid": "0x89e2eed3c943a1eb:0x8c896c6662adf9ae",
+        "placeId": "ChIJ66FDydPu4okRrvmtYmZsiYw"
+      },
+      {
+        "position": 15,
+        "title": "Tyler Welch, MD",
+        "address": "1900 Lafayette Rd, Portsmouth, NH 03801",
+        "latitude": 43.0404207,
+        "longitude": -70.7754951,
+        "rating": 4.8,
+        "ratingCount": 279,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.atlanticorthopaedics.org/providers/tyler-welch-md/?utm_source=google&utm_medium=organic&utm_campaign=gbp_portsmouth_welch",
+        "phoneNumber": "(603) 431-1121",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.atlanticorthopaedics.org/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKa0xcNGXDePf0dwY2Pmg0iTieuq-V5COelFaZ-UMyjwKYlFS2LqGtd-1ENeBVB-ybptN7aYy-Ljnq9rMw764prsDTmwNFHYdBwHz8pYu33rwfSUp-VtNLAJ0qDJwr_ROw0zE",
+        "cid": "9194077978576145605",
+        "fid": "0x89e2bf0dd0b6fe2b:0x7f97ed358e45ccc5",
+        "placeId": "ChIJK_620A2_4okRxcxFjjXtl38"
+      },
+      {
+        "position": 16,
+        "title": "Atlantic Orthopaedics & Sports Medicine",
+        "address": "15 Durham Rd, Dover, NH 03820",
+        "latitude": 43.1789342,
+        "longitude": -70.8800222,
+        "rating": 4.9,
+        "ratingCount": 264,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.atlanticorthopaedics.org/?utm_source=google&utm_medium=organic&utm_campaign=gbp_dover",
+        "phoneNumber": "(603) 431-1121",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4Ot27yvJkLrwyRenpxrtS4nZpbunVFPHfszitr1nYeRV5TcSlY0taU1cethsdo0rxqeRfFaQMQtYiKeDaTKwBIoo2jcpny46U_UgDoRYeOp6AaphXxAzXlkv30LYnEd7KDKclmXhwRt5k",
+        "cid": "15360083006111490222",
+        "fid": "0x89e297f6238bdd3f:0xd529fa1ce3ca20ae",
+        "placeId": "ChIJP92LI_aX4okRriDK4xz6KdU"
+      },
+      {
+        "position": 17,
+        "title": "New England Center for Orthopaedic Surgery",
+        "address": "1900 Lafayette Rd Building 2, Portsmouth, NH 03801",
+        "latitude": 43.040464799999995,
+        "longitude": -70.77543419999999,
+        "rating": 4.7,
+        "ratingCount": 6,
+        "type": "Surgical center",
+        "types": [
+          "Surgical center"
+        ],
+        "website": "https://newenglandcenterfororthopaedicsurgery.com/?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+        "phoneNumber": "(603) 368-6220",
+        "openingHours": {
+          "Thursday": "6 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6 AM–6 PM",
+          "Tuesday": "6 AM–6 PM",
+          "Wednesday": "6 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMn58Hp8RjEWYj2hyS5SebgeAnfhCvSgmo5Iou0SNvVD1lcYbWwW1ZaHFKZ2csRb32Y9yi55V5AwZeNadNHzFtFxXk1OmSWdEHF9F8WTKuXeHWUtT7abYfzQgWAEp-TWilVCBk",
+        "cid": "8646848230308485399",
+        "fid": "0x89e2bf9df779819d:0x77ffc6a70a409917",
+        "placeId": "ChIJnYF5952_4okRF5lACqfG_3c"
+      },
+      {
+        "position": 18,
+        "title": "Mass General Brigham (Somersworth, NH, Orthopedics and Sports Medicine)",
+        "address": "7 Marsh Brook Dr, Somersworth, NH 03878",
+        "latitude": 43.248670499999996,
+        "longitude": -70.8990422,
+        "rating": 4.8,
+        "ratingCount": 1460,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.massgeneralbrigham.org/en/patient-care/services-and-specialties/locations/mass-general-brigham-somersworth-nh-orthopedics-and-sports-medicine",
+        "phoneNumber": "(603) 742-2007",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patientgateway.massgeneralbrigham.org/mychart-prd/Authentication/Login?"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhYmrnf5GV2S5Qy3M2YBaCnfYmGntyS2ERZni9VN2zU5SQiD-od2YsDLrh2fOXrvu6vdgLJd-U9iep9qfpVS8Io7MynfxpLe6qTfvqMgAatX26nsa9FkFe_2LaTJTRVCxXDz9N",
+        "cid": "18058266785626148309",
+        "fid": "0x89e2998cbc2d034f:0xfa9bd9f6f87b4dd5",
+        "placeId": "ChIJTwMtvIyZ4okR1U17-PbZm_o"
+      },
+      {
+        "position": 19,
+        "title": "Dr. Benjamin Saks, MD",
+        "address": "7 Alumni Dr, Exeter, NH 03833",
+        "latitude": 42.982489699999995,
+        "longitude": -70.9345249,
+        "rating": 4.7,
+        "ratingCount": 25,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.corephysicians.org/Find-a-Provider/Benjamin-Saks",
+        "phoneNumber": "(603) 777-1000",
+        "bookingLinks": [
+          "https://www.corephysicians.org/Ortho-Sports-Medicine/Contact-Us/Request-an-Appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEX5-nsa6xt9u-q0jUd_DDPhdWyh9D7vNttKooRl5qLjmeo4fIua3cHr9dV_ccutFxc3Me2phxP01IaAED4MLlnjsrcbdN5qH33iXRk_k2yy_LH3XxGANZRZQGn_dtpc9GdQIU",
+        "cid": "10954016299300465560",
+        "fid": "0x89e2efc15d7f42d3:0x98047bc98fa4ab98",
+        "placeId": "ChIJ00J_XcHv4okRmKukj8l7BJg"
+      },
+      {
+        "position": 20,
+        "title": "Portsmouth Orthodontics / Dr. Geri Hunter, D.M.D",
+        "address": "150 Griffin Rd STE 1, Portsmouth, NH 03801",
+        "latitude": 43.0552311,
+        "longitude": -70.79909479999999,
+        "rating": 4.8,
+        "ratingCount": 100,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.portsmouthorthodonticsnh.com/",
+        "phoneNumber": "(603) 431-8899",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2ciTx0vnv3drdV4XGTRnUKexiHnrbnVoB3bn3mumIeiZ0pELm2sPbWFmItbgkSa8NgNDBl93LejfnMeI_wYD8OeFZgX0D3ktaezASgVJ_5HDKIEvNzSZeqxum5lG-SQEt3kno",
+        "cid": "1582661101058608311",
+        "fid": "0x89e2c00fa5d7b411:0x15f6bde2d86d4cb7",
+        "placeId": "ChIJEbTXpQ_A4okRt0xt2OK99hU"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.31239,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4yNzgwNjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@40.0049844,-75.1611876,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Philadelphia Orthodontists",
+        "address": "1601 Walnut St #1513, Philadelphia, PA 19102",
+        "latitude": 39.9500123,
+        "longitude": -75.1676889,
+        "rating": 4.9,
+        "ratingCount": 390,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.philadelphiaorthodontists.com/",
+        "phoneNumber": "(215) 665-1845",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHuPPa6ldgC8OLE6TnMY973KeSrvTQ1OB4X6DnRm1m2CAopOVG8-8YrKadCuJAjdEsDZHlN39NySKOvBZGRRhfLvOwa8UXrztD0hPLEjB-8LowvYRmDNDuRsawZ2zxQINaGHeGaDf52-BNH",
+        "cid": "7002394229752948383",
+        "fid": "0x89c6c63074adc4db:0x612d8073a1ab669f",
+        "placeId": "ChIJ28StdDDGxokRn2aroXOALWE"
+      },
+      {
+        "position": 2,
+        "title": "Center City Orthodontics",
+        "address": "1352 South St C3, Philadelphia, PA 19147",
+        "latitude": 39.9434422,
+        "longitude": -75.1649678,
+        "rating": 4.9,
+        "ratingCount": 316,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.centercityortho.com/",
+        "phoneNumber": "(215) 800-1495",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZpENuMRhGV1xDpVRTZkM-rzLr8SGaheWdb76Bm8Hk95XgdgQWYaTlw_ZjV1T0PaIF1yy_E2BjSMzL37YYZGXGfCh9oNeaN5lPOTl2tt_LSSbDlqtKGYj-wIEA7QeIbTqeKdJ5fA",
+        "cid": "11706541160926813261",
+        "fid": "0x89c6c62343b79541:0xa275fd2975881c4d",
+        "placeId": "ChIJQZW3QyPGxokRTRyIdSn9daI"
+      },
+      {
+        "position": 3,
+        "title": "Rittenhouse Orthodontics",
+        "address": "1518 Walnut St #500, Philadelphia, PA 19102",
+        "latitude": 39.949574,
+        "longitude": -75.167003,
+        "rating": 4.9,
+        "ratingCount": 90,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rittenhouseorthodontics.com/",
+        "phoneNumber": "(215) 772-0775",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rittenhouseorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnZYAII3JAfswbp_2lKGx0lv_Lapjv5dGklGczNtOX7nxrgat6UXMgp16IRRoHYhkrog5C7UgLnPyO__1wnpiQdpQX7-8rEJe3gGDYLX881evrFDuryYhYdjd6S0pW1zB53zXc",
+        "cid": "12049906037931916027",
+        "fid": "0x89c6c63008078c17:0xa739ddb2c7c43afb",
+        "placeId": "ChIJF4wHCDDGxokR-zrEx7LdOac"
+      },
+      {
+        "position": 4,
+        "title": "Greco Orthodontics",
+        "address": "834 Chestnut St # M209, Philadelphia, PA 19107",
+        "latitude": 39.949625,
+        "longitude": -75.15509899999999,
+        "rating": 5,
+        "ratingCount": 119,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "http://www.drgrecoortho.com/",
+        "phoneNumber": "(215) 955-8802",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF56aKF1Foq6qdz1SqWQAjrKlITj2E6PBcoFPw2NOuTNX17AI-XzeEd6OnkoJZijEIgxcJPNVNXESvsSrdglP8-TfmzaY-hySU6ftPzT3jqxnc-4M06R9VAkdZ5iMwyQ_2CUbm4",
+        "cid": "14198894216748494330",
+        "fid": "0x89c6c628235f9ad9:0xc50c9b0fa8a46dfa",
+        "placeId": "ChIJ2ZpfIyjGxokR-m2kqA-bDMU"
+      },
+      {
+        "position": 5,
+        "title": "Philadelphia Orthodontics : Joshua Davis DMD, MS",
+        "address": "1420 Walnut St Suite 518, Philadelphia, PA 19102",
+        "latitude": 39.9493831,
+        "longitude": -75.1651258,
+        "rating": 5,
+        "ratingCount": 412,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.philadelphia-orthodontics.com/",
+        "phoneNumber": "(484) 603-6151",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHB6UVoniQEilVnjEa0lkcOOluziQyb5QX8H2aRjpw3wJU_XDGag59r-AbP3cgMLeP6yhVkTnrqt7wzkiYfbeuzhdwKsTUVe492ePrua7wZhaIYVfXxrnF-C_CWof60H4B9yXpEnG-C42QP",
+        "cid": "7698153123600502483",
+        "fid": "0x89c6c62ff6296e1b:0x6ad5557ab6c58ed3",
+        "placeId": "ChIJG24p9i_GxokR047FtnpV1Wo"
+      },
+      {
+        "position": 6,
+        "title": "South Philadelphia Orthodontic Associates",
+        "address": "2517 S Broad St, Philadelphia, PA 19148",
+        "latitude": 39.9188981,
+        "longitude": -75.1705496,
+        "rating": 4.9,
+        "ratingCount": 113,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://phillybraces.com/",
+        "phoneNumber": "(215) 271-8870",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.phillybraces.com/contact"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI5yri3WJ-2ZnFqd2l74otdjenW8Lh9MuqpvLB51DjKjGlOKDYc3faC5UGwCBFVJmELpX3bbTwrr6xOnZGYosK25bWQUqjA7b1-b1SoFu2NYIdmOTwnr3L1FbBQ4oiSXcP6WMiefIJJAr4",
+        "cid": "1702517930706816661",
+        "fid": "0x89c6c5e214c1f193:0x17a08f09a3834e95",
+        "placeId": "ChIJk_HBFOLFxokRlU6DowmPoBc"
+      },
+      {
+        "position": 7,
+        "title": "Rich Orthodontics -Center City",
+        "address": "100 S Broad St Ste 1530, Philadelphia, PA 19110",
+        "latitude": 39.950294299999996,
+        "longitude": -75.1645249,
+        "rating": 4.7,
+        "ratingCount": 500,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://richorthodontics.com/",
+        "phoneNumber": "(215) 383-9800",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/rich-orthodontics-151743?LocIdent=378248&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_58oXG6cZzk6i8ZN6nsvHPQ-lo_UA9fEnIAa0OTUPM4ZNA-fg-entity&rwg_token=AFd1xnG-9hhK967pgjyCp11kFEDLACn0IvAJuMFEGCv30AHmJ1027b1Nk-jjEtVriprr-gm4kYHvyylez65XdnK37txrSw54gWVkHs7C89TOUKF9DrFxKQM%3D",
+          "https://call.richorthodontics.com/philadelphia/?utm_source=GMB&utm_medium=organic"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCS_Mbf3pgiUvlNW_jeKX7L0sZJ0AGcQYWjQvy3dSGaABsCXtiSlmcayw1V8XQq037s9DkJUwht5h1qF0aTMXskRaNrgRNFywFch0RXYaESKfNYq9DiGJ3tkxlD103yVz6nrun",
+        "cid": "1633751123317911433",
+        "fid": "0x89c6c62f96c98def:0x16ac3ffd9cc26f89",
+        "placeId": "ChIJ743Jli_GxokRiW_CnP0_rBY"
+      },
+      {
+        "position": 8,
+        "title": "Art Of Smile Philadelphia",
+        "address": "1901 Christian St, Philadelphia, PA 19146",
+        "latitude": 39.9412059,
+        "longitude": -75.17437249999999,
+        "rating": 4.7,
+        "ratingCount": 153,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Dentist",
+          "Endodontist",
+          "Oral surgeon",
+          "Teeth whitening service"
+        ],
+        "website": "https://artofsmilephiladelphia.com/",
+        "phoneNumber": "(215) 800-0015",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–4 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://artofsmilephiladelphia.com/request-an-appointment/",
+          "https://forms.formlync.com/artofsmile/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv49O4NC6xMLKhGURude5MNIGVqtBl_G0dIkPac4UK5992seqlNTbd8-feub1S4Jk6rdU8fJWwfI4RhJA8gkLRgV1Nr6xGOdFnMUj59JuF6mkSVKFmK-k02nShG6KUBP6YImRk",
+        "cid": "5164012082075960954",
+        "fid": "0x89c6c632ca892c89:0x47aa41a0e7f6867a",
+        "placeId": "ChIJiSyJyjLGxokReob256BBqkc"
+      },
+      {
+        "position": 9,
+        "title": "Orthodontics Limited - Northeast",
+        "address": "2137 Welsh Rd STE 1B, Philadelphia, PA 19115",
+        "latitude": 40.0755865,
+        "longitude": -75.0349876,
+        "rating": 5,
+        "ratingCount": 790,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.orthodonticslimited.com/northeast-philadelphia-orthodontist/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=39",
+        "phoneNumber": "(215) 676-7846",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthodonticslimited.com/schedule-appointment/?rwg_token=AFd1xnEFDvHdXe4DbRoY-InhF_WmX_TGAEVkvRLoVH152uw4MVCgoLr8ZnPpnV0NBwT0myFN7bzonHowmOTkpQR0xPUBwkEKNg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjbrCdDIoOpG64ueMWA2UiVJkbNHV5J2xsJ4uVPWjcABHSAqfZd5u3BDs7XLcuHyplYDIw7DP34Fe0rbkVsyACl4v1WyL2NEdyZaLxDrt9CFRrrUabSk_FgoWo-eWYq8VzCQDN",
+        "cid": "16160082716284466595",
+        "fid": "0x89c6b392fc90ee17:0xe044259c5510b5a3",
+        "placeId": "ChIJF-6Q_JKzxokRo7UQVZwlROA"
+      },
+      {
+        "position": 10,
+        "title": "Broad Street Braces",
+        "address": "1819 S Broad St, Philadelphia, PA 19148",
+        "latitude": 39.92745,
+        "longitude": -75.168652,
+        "rating": 4.8,
+        "ratingCount": 493,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.broadstbraces.com/",
+        "phoneNumber": "(215) 234-3030",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.broadstbraces.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGG8Us9sIzo0Mz3yQ5-HrLSImOGbsReypDw83p9KFTfT0qYnK71pFvYCf_KeLXQWgDNZcppqigOID-vrGDqm8jbM8A37X5fmwTew7JEvqF_EG6-dt5INQ14zaMXaJv4BOk_j2b-",
+        "cid": "8663765370237421839",
+        "fid": "0x89c6c60f304eb1f7:0x783be0b39e55090f",
+        "placeId": "ChIJ97FOMA_GxokRDwlVnrPgO3g"
+      },
+      {
+        "position": 11,
+        "title": "Lower Merion Orthodontics",
+        "address": "715 Montgomery Ave, Narberth, PA 19072",
+        "latitude": 40.010106199999996,
+        "longitude": -75.25570789999999,
+        "rating": 4.9,
+        "ratingCount": 516,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.markowitzortho.com/",
+        "phoneNumber": "(610) 667-6770",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "11 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeecLmLtSe_KZ9en23-18aK_CRhWY1Kyk6ot3D88FU7U6TRVpXrVyv-S1NCVgWSuFt8-R4JOlV5IFU8P7hVlE-ZbdH12lBDyGb9dTEkg21Yj34w0gSXEUCjOiczwdKjEIYchhc",
+        "cid": "681709663225392742",
+        "fid": "0x89c6c0a9b84fd46d:0x975eb53ac802e66",
+        "placeId": "ChIJbdRPuKnAxokRZi6ArFPrdQk"
+      },
+      {
+        "position": 12,
+        "title": "Harold Slutsky, DMD, PC",
+        "address": "7100 Frankford Ave, Philadelphia, PA 19135",
+        "latitude": 40.0349352,
+        "longitude": -75.0451483,
+        "rating": 4.8,
+        "ratingCount": 467,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.philadelphiabraces.com/",
+        "phoneNumber": "(215) 335-2500",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEi1OQ_TgZT6_vS0Fv4e9ia8a_odOD_-fi2z-j_wV41i8ekuJ9s2ZKAgcTf6vOclmir_S6qUEjw0xFvDnofWj3fZY6wlxDSWumBLdBC0IJ_ofNqoMnNU3jAc85Oq0EM5hEgj1j3",
+        "cid": "512247333697516240",
+        "fid": "0x89c6b43a12d83b99:0x71bde3c6a2e72d0",
+        "placeId": "ChIJmTvYEjq0xokR0HIuajzeGwc"
+      },
+      {
+        "position": 13,
+        "title": "Kellyn Hodges Orthodontics",
+        "address": "1 Belmont Ave UNIT 414, Bala Cynwyd, PA 19004",
+        "latitude": 40.0051144,
+        "longitude": -75.2199761,
+        "rating": 4.4,
+        "ratingCount": 354,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental implants provider",
+          "Dentist",
+          "Oral surgeon",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.hodgesortho.com/locations/bala-cynwyd-office/",
+        "phoneNumber": "(610) 549-1302",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.hodgesortho.com/consultation"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8zuuBVU2v0fhSGOpe61q1SAWoqgzoU53asbqbhydjq5Hgx78zFLZw0sd39sfUwrb_JoR3JJpYBBVxNSixxzSH3lN3rDxxVhzWoMdO-NBvJK2W0ttOGydOQUYOYCG06xY9xKNS",
+        "cid": "4847945690230134057",
+        "fid": "0x89c6c761bc6e02c7:0x43475ceb748d9529",
+        "placeId": "ChIJxwJuvGHHxokRKZWNdOtcR0M"
+      },
+      {
+        "position": 14,
+        "title": "Bryn Mawr Orthodontics",
+        "address": "1 Town Pl Suite 120, Bryn Mawr, PA 19010",
+        "latitude": 40.0205531,
+        "longitude": -75.31454289999999,
+        "rating": 5,
+        "ratingCount": 158,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.brynmawrorthodontics.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+        "phoneNumber": "(484) 246-8858",
+        "openingHours": {
+          "Thursday": "9 AM–7 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.brynmawrorthodontics.com/contact"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOBWv-o3_7pVaRB8w2nzpz6-S29hvj-2NE42cJGJ8ZaNvc4C949wckg1QwBxjgdmezLewyDK84Bli4HmXK82PzDO5Y7qkCcC5J26Tsq3M9o5oKXPObLP5Th08A6pYr0GxMxVUDTA",
+        "cid": "15296503114089576865",
+        "fid": "0x89c6bfca3db992cb:0xd4481889b4f739a1",
+        "placeId": "ChIJy5K5Pcq_xokRoTn3tIkYSNQ"
+      },
+      {
+        "position": 15,
+        "title": "Faust Orthodontics",
+        "address": "1635 Darby Rd, Havertown, PA 19083",
+        "latitude": 39.9821295,
+        "longitude": -75.3053371,
+        "rating": 5,
+        "ratingCount": 253,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.faustorthodontics.com/",
+        "phoneNumber": "(610) 446-8000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAED51Qhw_Reqwun574iA2eloMvxrelIp8m-_1FRLTjKXPYtodCokmNt_0kj0_25UYuTSGz4l2R6FRldvKB-8f4obwDqpyz0Wq7_PmE0S_bupXfEw5vx2BcnKdoEAFcuoSm63Tb6",
+        "cid": "5048786139778010407",
+        "fid": "0x89c6c0521368a08d:0x4610e43e98624d27",
+        "placeId": "ChIJjaBoE1LAxokRJ01imD7kEEY"
+      },
+      {
+        "position": 16,
+        "title": "Sethi Smiles Orthodontics",
+        "address": "403 Washington Ln, Jenkintown, PA 19046",
+        "latitude": 40.091817899999995,
+        "longitude": -75.1265487,
+        "rating": 5,
+        "ratingCount": 148,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://jenkintownorthodontics.com/",
+        "phoneNumber": "(215) 576-5805",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "12:30–7:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVLrS8IZeMNo9oz38HP1oByBRHt-GGgp8KCVDEcPcMtM0ZbjJK3QjvhUCvpqQmjBCAvt5wuaw7ndONJ7tv9ZBHkPT-Ida9-yhXiON3Wx_Hx7tHNi-8qIwkIaiHi4vbLEywnBU6OOPZEyd_",
+        "cid": "16040912262013029623",
+        "fid": "0x89c6b0c16d8c7e3f:0xde9cc4b6c27e8cf7",
+        "placeId": "ChIJP36MbcGwxokR94x-wrbEnN4"
+      },
+      {
+        "position": 17,
+        "title": "Center City Orthodontics",
+        "address": "17 W Ormond Ave Suite 100, Cherry Hill Township, NJ 08002",
+        "latitude": 39.9181509,
+        "longitude": -75.0078324,
+        "rating": 5,
+        "ratingCount": 69,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.centercityortho.com/",
+        "phoneNumber": "(856) 429-9419",
+        "openingHours": {
+          "Thursday": "7:45 AM–5 PM",
+          "Friday": "7:45 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:45 AM–5 PM",
+          "Tuesday": "7:45 AM–5 PM",
+          "Wednesday": "7:45 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhMnUMs_2u1NlK16WfSEuPHLqzSz196haxFaW5fnulia-GDqvLL-P43VdiQf9HufuawbS7IaAj87Hd_LG-yrESBmYuiKl4sq3JQitygKXR0hQ52L8xO3TMwX9WTDlVPey765JF",
+        "cid": "15010718503164286420",
+        "fid": "0x89c6cb5701aaf8ab:0xd050c8f2cc7d95d4",
+        "placeId": "ChIJq_iqAVfLxokR1JV9zPLIUNA"
+      },
+      {
+        "position": 18,
+        "title": "Greco Orthodontics",
+        "address": "32 Parking Plza #804, Ardmore, PA 19003",
+        "latitude": 40.008784,
+        "longitude": -75.289118,
+        "rating": 5,
+        "ratingCount": 62,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.drgrecoortho.com/",
+        "phoneNumber": "(610) 649-3535",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVY-AZH8jUFz79Pdnhs_GG4GhBBvetvc03xvtrBg-_4Ds6WF9Oad-SVAtu2auX-LGzxL6pISOsJOpylGQW9nOcuKom3W1fHxd_iyDQ2BS6u7G5GsmX52l32Y--DfTCli6GWU0u",
+        "cid": "650997283246753437",
+        "fid": "0x89c6c084347cefaf:0x908ce9479aac69d",
+        "placeId": "ChIJr-98NITAxokRncaqeZTOCAk"
+      },
+      {
+        "position": 19,
+        "title": "Dr. \"K\" Orthodontics",
+        "address": "5924 Westfield Ave, Pennsauken, NJ 08110",
+        "latitude": 39.9619936,
+        "longitude": -75.0597165,
+        "rating": 5,
+        "ratingCount": 388,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.pennsaukenorthodontist.com/",
+        "phoneNumber": "(856) 663-4881",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6:30 PM",
+          "Tuesday": "10 AM–6:30 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://edgebooking.ortho2.com/search?catalog=23dbd0a2-16b3-46b1-98ab-63752ae62d7c&code=wgubvc"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTSpTkRhzvHSYqUYZzeevjbS8cQQ8tV2yH4ca3XYfyB4Xu1zEoWWEipZUBJth7oqb1oOlxBOL75unNVyvhU3MAu0emYXZ6XdYCq4U447AoZUDDmU-K8x-njBTcin1TzUbAX-VS-w",
+        "cid": "13012203196405829704",
+        "fid": "0x89c6ca20bfe36fa9:0xb494a1dd92f8d048",
+        "placeId": "ChIJqW_jvyDKxokRSND4kt2hlLQ"
+      },
+      {
+        "position": 20,
+        "title": "Rich Orthodontics - Upper Darby",
+        "address": "8701 West Chester Pike Suite B, Upper Darby Township, PA 19082",
+        "latitude": 39.967320699999995,
+        "longitude": -75.2865954,
+        "rating": 4.4,
+        "ratingCount": 237,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://richorthodontics.com/",
+        "phoneNumber": "(610) 572-7154",
+        "openingHours": {
+          "Thursday": "8:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6:30 PM",
+          "Tuesday": "8:30 AM–6:30 PM",
+          "Wednesday": "8:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/rich-orthodontics-151743?LocIdent=371543&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_58oXG6cZzk6i8ZN6nsvHPQ-lo_oRQnGxRfU027J460s83oGg-entity&rwg_token=AFd1xnFu8ebWgKKK4VQxFFMjwMoXHn_ipaacJyuyb6DJOyYEG7gpzHIU2xCEKM4PKYxAZOW1YtwphYKcebg1ckMBFSz878pfJKVbSyXWDOQ2Faf_Ua6CNyE%3D",
+          "https://call.richorthodontics.com/upper-darby/?utm_source=GMB&utm_medium=organic"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfYFN3NcFif61DHXmxqYl6pjQjkOcLu6s8Rb6nqVLqe1CUX-HIIMxpS811iScnl2l-rcTEV5GGoXOzSn08HDee3dWM1NhNj5VaUutvEWkLrOx7gAEFcvOuy2kglg3uzfD_TqUlmwH8m99U",
+        "cid": "12194241167479548975",
+        "fid": "0x89c6c147a44b02fb:0xa93aa5bbe5102c2f",
+        "placeId": "ChIJ-wJLpEfBxokRLywQ5bulOqk"
+      }
+    ],
+    "credits": 3
+  }
+}

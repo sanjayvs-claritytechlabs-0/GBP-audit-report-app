@@ -1,0 +1,611 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.321373,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzIxMzczLC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@42.3867286,-84.0582294,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Chelsea Orthopedic Specialists",
+        "address": "14650 E Old US Hwy 12, Chelsea, MI 48118",
+        "latitude": 42.3090659,
+        "longitude": -84.01565339999999,
+        "rating": 4.1,
+        "ratingCount": 13,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "https://ihacares.com/locations/mi/chelsea/trinity-health-iha-medical-group-orthopaedics-chelsea",
+        "phoneNumber": "(734) 593-5700",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XU2uW46yIvs2QySJVCdU4w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=283.9232&pitch=0&thumbfov=100",
+        "cid": "12211504363968553329",
+        "fid": "0x883cceac36d7b591:0xa977fa850b7a6171",
+        "placeId": "ChIJkbXXNqzOPIgRcWF6C4X6d6k"
+      },
+      {
+        "position": 2,
+        "title": "Henry Ford Orthopedics - Chelsea",
+        "address": "1145 S Main St, Chelsea, MI 48118",
+        "latitude": 42.303848699999996,
+        "longitude": -84.0205014,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.henryford.com/locations/chelsea/orthopaedics?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(517) 205-2165",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEyoM-1qb8q9i-b38Tj1BwawZbARGy15tEUjf0oO6ghbLjmc5Qu4Co3_ujRXubmqZTYRXwFgObA1ABBt5HBtV0KINi_CET2pFf_Msy2WUmeVcIpY_ysVinXlXctVDllzDzIOVBDyo2ZNtu",
+        "cid": "5110736122862898321",
+        "fid": "0x883ccf5f10161e5b:0x46ecfb6d08000c91",
+        "placeId": "ChIJWx4WEF_PPIgRkQwACG377EY"
+      },
+      {
+        "position": 3,
+        "title": "SBK Orthodontics-Chelsea",
+        "address": "515 S Main St, Chelsea, MI 48118",
+        "latitude": 42.3137338,
+        "longitude": -84.01997469999999,
+        "rating": 5,
+        "ratingCount": 377,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://sbkortho.com/",
+        "phoneNumber": "(734) 475-2260",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.sbkortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNXEz2fb6WWdB9HgXPN5xw0DKIERHwrVshc00kcSlOeQ2W35yDzFNDnwyYmZdzShGSW9Ebt7uHkOQR0jdHRSC4bV4EiRlexPGw78EtXUmlTqTqP3kp-CzNi5WhDcR3qIJvXfUF",
+        "cid": "343416300661422511",
+        "fid": "0x883cceabb3a5ec37:0x4c40f4e5300b9af",
+        "placeId": "ChIJN-yls6vOPIgRr7kAU04PxAQ"
+      },
+      {
+        "position": 4,
+        "title": "Trinity Health IHA Medical Group, Orthopaedics - Chelsea",
+        "address": "14650 E Old US Hwy 12 Suite 104, Chelsea, MI 48118",
+        "latitude": 42.3090755,
+        "longitude": -84.01549399999999,
+        "rating": 3.7,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgeon"
+        ],
+        "website": "https://ihacares.com/locations/mi/chelsea/iha-chelsea-orthopaedic-specialists?utm_source=googlemybusiness&utm_campaign=Google%20My%20Business&utm_medium=organic",
+        "phoneNumber": "(734) 593-5700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbyxKmUPRzv_OG2EfLav4nZuJGEs1QJ_mP0au5fvx1X8NPdJZ1S4FQtCBP6XO5ZDLhkxLkvPhyrbAVkBRVwntF8r8chhcVlv_zVUx_c5t6mDAUWf1G3dGVqF8fUqLioTTHEEsz",
+        "cid": "24379817353727105",
+        "fid": "0x883cc95295931d6d:0x569d50910ecc81",
+        "placeId": "ChIJbR2TlVLJPIgRgcwOkVCdVgA"
+      },
+      {
+        "position": 5,
+        "title": "Advanced Orthopedic Specialists",
+        "address": "2305 Genoa Business Park Dr #170, Brighton, MI 48114",
+        "latitude": 42.568414999999995,
+        "longitude": -83.8052404,
+        "rating": 4.7,
+        "ratingCount": 217,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "http://www.advancedortho.net/",
+        "phoneNumber": "(810) 299-8550",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDH8ME8euXkY_PK4k9lNVMph_fM27zjR6m7yv_a-gYyccjXanaFjkwFQ4k36PrIP3C_01Sl-4J2Q6QShYAmnjsKGE7ZTPpskqsE_-ZGL3Q4Wf8spxirovUmsqJz09fYbLc4NymZg",
+        "cid": "5174690894535499872",
+        "fid": "0x882345a793e60f11:0x47d031f3af3ca060",
+        "placeId": "ChIJEQ_mk6dFI4gRYKA8r_Mx0Ec"
+      },
+      {
+        "position": 6,
+        "title": "Chelsea Orthodontics",
+        "address": "1305 S Main St, Chelsea, MI 48118",
+        "latitude": 42.300144599999996,
+        "longitude": -84.0222363,
+        "rating": 4.9,
+        "ratingCount": 88,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.chelseaorthodontics.com/",
+        "phoneNumber": "(734) 475-9143",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://chelseaorthodontics.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGcme2IOVzhoUZAmfhCNwC0wffP81CjKm9nrtCrH_IM0Z1EgnyYVYBtptssyeZgDWxzM8Z8J5Mps7SymvfnRIuysI5csMVJ_QtUxqpHEmHJ0VFWpvhg5__97PMPofLpmlr03QqX9w",
+        "cid": "14119138716889754361",
+        "fid": "0x883cceb6eb01febd:0xc3f141db4aadaaf9",
+        "placeId": "ChIJvf4B67bOPIgR-aqtSttB8cM"
+      },
+      {
+        "position": 7,
+        "title": "Dexter Orthodontics",
+        "address": "7200 Dan Hoey Rd STE B, Dexter, MI 48130",
+        "latitude": 42.327568,
+        "longitude": -83.8741455,
+        "rating": 5,
+        "ratingCount": 523,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://dexterortho.com/",
+        "phoneNumber": "(734) 426-5220",
+        "openingHours": {
+          "Thursday": "8:30 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "8:30 AM–4 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://dexterortho.com/request-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpq2KbuYz04JCJ9Ku5V1vLVbAjiVqCH1lu2KSGPjjC4gWkOZMqdrnzkl0SevYte5ztpAAAINep5NSIFGmYeqPvVxJHlLmT4baMBUhUAKbiu-0OJjkBl6CkEqy77-GiQkT6Bg6V",
+        "cid": "17937622961301579096",
+        "fid": "0x883cb438b50832df:0xf8ef3d0bb3456558",
+        "placeId": "ChIJ3zIItTi0PIgRWGVFsws97_g"
+      },
+      {
+        "position": 8,
+        "title": "SBK Orthodontics-Dexter",
+        "address": "8031 Main St Suite 303, Dexter, MI 48130",
+        "latitude": 42.3374722,
+        "longitude": -83.8879518,
+        "rating": 5,
+        "ratingCount": 453,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://sbkortho.com/",
+        "phoneNumber": "(734) 426-5544",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://sbkortho.com/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqqycFvdPgAKVpF_Fv4OHqMWv1qbHGD-zthsyWDEvHvwjST9vyyl5KtAjO6zrRY6DMu_Kr4J8LO7q1uPqUvZ6Xokx7O3yLBFprykX7-UtP22BXTsYPVmW3grZa9PsNT14xgKNp",
+        "cid": "16977942609428702643",
+        "fid": "0x883cb44c7ddc3787:0xeb9dc4d9abf765b3",
+        "placeId": "ChIJhzfcfUy0PIgRs2X3q9nEnes"
+      },
+      {
+        "position": 9,
+        "title": "Henry Ford Orthopedics - Jackson",
+        "address": "1201 E Michigan Ave # 300, Jackson, MI 49201",
+        "latitude": 42.250144,
+        "longitude": -84.388618,
+        "rating": 4.3,
+        "ratingCount": 82,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.henryford.com/locations/jackson/orthopedics?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(517) 205-1431",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0Q-Y8dHrXbkLHL6I2Qj_aXykRyjppLtZtfFZF5FmlaBJKvJ90Y5n6BgQlCkYxZkIABaAOGbxyvAR6SVjjw5njk7aLNilhkKOyyF00T97QdxD2kA3yDn02xVT0DdAzaeSZGRsE8On2ag6m",
+        "cid": "1992518579359616833",
+        "fid": "0x883d25845b0ba3b5:0x1ba6d91753188f41",
+        "placeId": "ChIJtaMLW4QlPYgRQY8YUxfZphs"
+      },
+      {
+        "position": 10,
+        "title": "Williams, Robert MD",
+        "address": "14650 E Old US Hwy 12, Chelsea, MI 48118",
+        "latitude": 42.3089156,
+        "longitude": -84.015545,
+        "rating": 5,
+        "ratingCount": 58,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://ihacares.com/providers/mi/chelsea/robert-williams-md",
+        "phoneNumber": "(734) 593-5700",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbILfRge0LxMuOD6p_hpQv1NgBeGQfcxkmq8j85wwhYPphAcxR3mK3cXNlIDtQ6E4GMYK_XyghgcT1prZGvwqyqNvwANKLssL8QDsB3ejk82ymTgezM34ZSTeBpFgHuA633xoXsg",
+        "cid": "10267155569326295769",
+        "fid": "0x883cc94dbad0d267:0x8e7c4397b35e0ad9",
+        "placeId": "ChIJZ9LQuk3JPIgR2Qpes5dDfI4"
+      },
+      {
+        "position": 11,
+        "title": "Henry Ford Motor City Orthopedics and Sports Medicine - Howell",
+        "address": "1225 S Latson Rd #380, Howell, MI 48843",
+        "latitude": 42.583023399999995,
+        "longitude": -83.87289129999999,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.henryford.com/locations/howell/Motor+City+Orthopedics?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(248) 465-5140",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=044wuECpQkdJT9xAWX58MA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=98.631355&pitch=0&thumbfov=100",
+        "cid": "17314128418634588879",
+        "fid": "0x882347f612918dbf:0xf04824100435e2cf",
+        "placeId": "ChIJv42REvZHI4gRz-I1BBAkSPA"
+      },
+      {
+        "position": 12,
+        "title": "Orchid Orthopedic Solution",
+        "address": "13800 Luick Dr, Chelsea, MI 48118",
+        "latitude": 42.297109999999996,
+        "longitude": -84.0020399,
+        "rating": 3.5,
+        "ratingCount": 6,
+        "type": "Manufacturer",
+        "types": [
+          "Manufacturer"
+        ],
+        "website": "http://www.orchid-ortho.com/chelsea",
+        "phoneNumber": "(734) 475-9165",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcTTRkNOARuRL3SiB_5ylz_fex120hw1dVDCsYG98FPSQIqIvO0jxeXplLn6wvuqekc-b_f51Kml__7uxARwchM9XLUqzKfyA6Y57MCgbt2YNUb4mJ8gaHPrVZ6fBfTyfXXs3c8g",
+        "cid": "4615388106649511878",
+        "fid": "0x883cc947422cead1:0x400d2707956827c6",
+        "placeId": "ChIJ0eosQkfJPIgRxidolQcnDUA"
+      },
+      {
+        "position": 13,
+        "title": "Trinity Health IHA Medical Group, Orthopaedics - Genoa",
+        "address": "2305 Genoa Business Park Dr Suite 120, Brighton, MI 48114",
+        "latitude": 42.568689299999996,
+        "longitude": -83.80500599999999,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgeon"
+        ],
+        "website": "https://ihacares.com/locations/mi/brighton/iha-orthopaedics-brighton?utm_source=googlemybusiness&utm_campaign=Google%20My%20Business&utm_medium=organic",
+        "phoneNumber": "(810) 844-7785",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://mychart.trinity-health.org/MyChart/openscheduling?public=1&specialty=27&hidespecialties=1&dept=1011069112&rfvid=999885"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDeNCv5EubhjB56m8kf0IOX2BfKdLiYNQC1bRXOsrnBLyaok-eZ8R4i0-njSixQKxZ2TYezNZL5m4Qym-y_O0Pc1FV3AOKomzNjDP1kNmzIctZ41huEb-qf2ZozvZme5VTLbc",
+        "cid": "12350501520544857456",
+        "fid": "0x882345e6806e1769:0xab65cbb279ff7d70",
+        "placeId": "ChIJaRdugOZFI4gRcH3_ebLLZas"
+      },
+      {
+        "position": 14,
+        "title": "TDR Specialists in Orthodontics - Howell",
+        "address": "4258 E Grand River Ave, Howell, MI 48843",
+        "latitude": 42.584426099999995,
+        "longitude": -83.8690902,
+        "rating": 5,
+        "ratingCount": 435,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://tdrortho.com/",
+        "phoneNumber": "(810) 227-1950",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.tdrortho.com/NewPatient/Office/Howell-Grand?rwg_token=AFd1xnEjKKKC63Xjv8NjMz5Oc0V5SMSpc5U76JGpGwDpJLHINlD2OPyR_Lp83rRwBA1BnjWzLhhJJUaigmdMMK9xZo5bakePKQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnlIqKhdMCEpwyfmWSC6Nb9o9Oy0SjqaG-aKEGWPPgBX-37AJnnyKG3puDEDMO_DJ0Dlkqr_P9hSV3HhIdqEkNk8F48kkHtZjQHQ8ZvCB_CvZomFeBRJ-i81UjQfzfSD-HkpIM",
+        "cid": "1187082041811674602",
+        "fid": "0x8823456da3a1edf5:0x10795cd3dd6e25ea",
+        "placeId": "ChIJ9e2ho21FI4gR6iVu3dNceRA"
+      },
+      {
+        "position": 15,
+        "title": "Brighton Orthodontics",
+        "address": "8641 W Grand River Ave STE 9, Brighton, MI 48116",
+        "latitude": 42.5395758,
+        "longitude": -83.7852049,
+        "rating": 4.9,
+        "ratingCount": 94,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.brightonortho.com/",
+        "phoneNumber": "(810) 229-8200",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–2 PM",
+          "Tuesday": "9:30 AM–7 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.brightonortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaddOeJK5JTktlbX76HupoiwFnohBO8gwBNTDs_nnK5ajc2Nkku4lGRTtuGdF0K5SA4naT1ZK0p3qJhZ5o8AtcDay1co7dAg2p8tlLGHi6PhwyhdeidOOiIUOKBbZXTtgoKnE1MYxsc6M",
+        "cid": "3011453815431799046",
+        "fid": "0x88234561cab0c993:0x29cad54a2e4ea106",
+        "placeId": "ChIJk8mwymFFI4gRBqFOLkrVyik"
+      },
+      {
+        "position": 16,
+        "title": "Howell Orthodontics",
+        "address": "207 N Michigan Ave Suite 202, Howell, MI 48843",
+        "latitude": 42.608173799999996,
+        "longitude": -83.9286496,
+        "rating": 5,
+        "ratingCount": 11,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://howell-ortho.com/",
+        "phoneNumber": "(517) 546-3085",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://howell-ortho.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGn6oJwgp2Z2XbNWzg8quQQgLMZPDsLEQLXU3O7CIb1Za6cy8ZsoEO-IrR1D-u8skXDC7AY6CCnnww6y-xxsbVEr7lJvEvJnPekuTBkdyCNk-cyM1jOJP6GN4DBt0fGQXF77M0G",
+        "cid": "1425593050281817829",
+        "fid": "0x882338a5864ccbf1:0x13c8b9537c5036e5",
+        "placeId": "ChIJ8ctMhqU4I4gR5TZQfFO5yBM"
+      },
+      {
+        "position": 17,
+        "title": "Potocki Orthodontics - Grass Lake",
+        "address": "12365 E Michigan Ave, Grass Lake, MI 49240",
+        "latitude": 42.254217,
+        "longitude": -84.185835,
+        "rating": 5,
+        "ratingCount": 27,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://potockiortho.com/",
+        "phoneNumber": "(517) 439-1461",
+        "openingHours": {
+          "Thursday": "7:50 AM–4:15 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:50 AM–4:15 PM",
+          "Tuesday": "7:50 AM–4:15 PM",
+          "Wednesday": "7:50 AM–4:15 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcb-wVzy74wHNPsplF5kiE8DecqwXUZw9dCyri2jPKfakJZv0YfEoOlJxIse0dHDf_AuoQTMygmkjTaAeTTDKMrv-kNPVUhyosevEeTGJ9a_UF5X7upQb0hD62vBfZRdDnbBaV",
+        "cid": "11768486930599279628",
+        "fid": "0x883cd7b76341e9cb:0xa3521082e2327c0c",
+        "placeId": "ChIJy-lBY7fXPIgRDHwy4oIQUqM"
+      },
+      {
+        "position": 18,
+        "title": "TNT Orthodontics - Invisalign & Braces",
+        "address": "2775 E Grand River Ave Suite 2, Howell, MI 48843",
+        "latitude": 42.5966148,
+        "longitude": -83.8991928,
+        "rating": 5,
+        "ratingCount": 95,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://tntbraces.com/",
+        "phoneNumber": "(517) 518-9000",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tntbraces.com/contact/howell-office/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEgoayczzwH6jHIquqkkQJx7rUamiH83qeetYvV6Gq_OPKs7vftxD59zJcvIWgLuRE0QioWujqh5UqBq9YUt1nQh6FNt_qYxvZ5CXCMlvRwOSy9HH9zhHwAiFQzH0nyC0CsS0xZ",
+        "cid": "632605102903361785",
+        "fid": "0x8823470a0825b439:0x8c776fd49a780f9",
+        "placeId": "ChIJObQlCApHI4gR-YCnSf12xwg"
+      },
+      {
+        "position": 19,
+        "title": "Michigan Orthodontics",
+        "address": "214 W Michigan Ave, Saline, MI 48176",
+        "latitude": 42.1652834,
+        "longitude": -83.7853052,
+        "rating": 5,
+        "ratingCount": 248,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://mibraces.com/?utm_source=Google&utm_medium=Local&utm_campaign=Local&utm_content=GMB",
+        "phoneNumber": "(734) 429-5433",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7:30 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTrxKIGQw61JRvDibv4RnHqPRTNH2Ne_N-ee7bmp7IbpSJqRMu7_AaC3n67uhi_ClTQESHTQusklEfeliGYFUfeUIzrJkqqPs2G76QfjJvsxi4rmZrJlHxu4jbKLY5FsnAb_ZGrGhg3VRx",
+        "cid": "8656086839332975184",
+        "fid": "0x883cbb6ae999fd9b:0x7820991e53603250",
+        "placeId": "ChIJm_2Z6Wq7PIgRUDJgUx6ZIHg"
+      },
+      {
+        "position": 20,
+        "title": "University of Michigan Department of Orthopaedic Surgery",
+        "address": "Taubman Health Care Center, 2912, 1500 E Medical Center Dr, Ann Arbor, MI 48109",
+        "latitude": 42.2839356,
+        "longitude": -83.72784089999999,
+        "rating": 4.8,
+        "ratingCount": 144,
+        "type": "Academic department",
+        "types": [
+          "Academic department"
+        ],
+        "website": "https://medicine.umich.edu/dept/orthopaedic-surgery",
+        "phoneNumber": "(734) 936-5780",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Fb-jDxaxYf_x7XByt16J0Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=266.80493&pitch=0&thumbfov=100",
+        "cid": "9361326258678432592",
+        "fid": "0x883cae688d408bd1:0x81ea1ca243108350",
+        "placeId": "ChIJ0YtAjWiuPIgRUIMQQ6Ic6oE"
+      }
+    ],
+    "credits": 3
+  }
+}

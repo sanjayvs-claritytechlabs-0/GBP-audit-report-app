@@ -1,0 +1,639 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@35.334865,-80.8071142,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "OrthoCare Orthodontics",
+        "address": "3010 Baucom Rd #100, Charlotte, NC 28269",
+        "latitude": 35.3166746,
+        "longitude": -80.7818279,
+        "rating": 4.6,
+        "ratingCount": 374,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://drcooperortho.com/",
+        "phoneNumber": "(704) 509-4999",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.drcooperortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGS1Ku7L-0qyJkqJ_I7A6vpNDZ8C6v053btzxH6IRePvjD5pD-FhbU_1hl6rppFoGHVGlMfne_kbROYf9-uDVHPDsG7PkosCLL3AiRA27lgGXVyTy5_ZRnQIOivS4APZJMfOiE",
+        "cid": "13757944599546110936",
+        "fid": "0x8856a6fff389bfd9:0xbeee09b8777323d8",
+        "placeId": "ChIJ2b-J8_-mVogR2CNzd7gJ7r4"
+      },
+      {
+        "position": 2,
+        "title": "Novant Health Orthopedics & Sports Medicine - Highland Creek",
+        "address": "6909 Prosperity Church Rd, Huntersville, NC 28078",
+        "latitude": 35.3853941,
+        "longitude": -80.7879672,
+        "rating": 4.5,
+        "ratingCount": 104,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.novanthealth.org/locations/clinics/orthopedics-sports-medicine-highland-creek/?utm_source=maps.google.com&utm_medium=organic&utm_campaign=GBP&utm_content=MG-235",
+        "phoneNumber": "(704) 384-1680",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4 PM",
+          "Tuesday": "7:30 AM–4 PM",
+          "Wednesday": "7:30 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.novanthealth.org/pf/location-group?storeCode=MG-235&open=true&utm_source=google&utm_medium=organic&utm_campaign=GBP&utm_content=MG-235"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfdbfXlR41l9spHQ6kP_jMybmYO1daWLiRzLo8L0-rIGLGApQDMNEqP481pQhiAQgn_fhcjN4LfNw5EKRGJc6JlpUjEnPUzpHTDHS1YYXurw34mba4P8m_koGF2emkwwyB0nYv",
+        "cid": "7542456553592178988",
+        "fid": "0x88541b44c999eb27:0x68ac30461aadc92c",
+        "placeId": "ChIJJ-uZyUQbVIgRLMmtGkYwrGg"
+      },
+      {
+        "position": 3,
+        "title": "Atrium Health Piedmont Orthopedic Specialists",
+        "address": "5651 Poplar Tent Rd Ste 200, Concord, NC 28027",
+        "latitude": 35.4081913,
+        "longitude": -80.6732218,
+        "rating": 4.7,
+        "ratingCount": 203,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://atriumhealth.org/locations/detail/piedmont-orthopedic-specialists-poplar-tent?utm_source=GMB&utm_medium=Organic&utm_campaign=GCR",
+        "phoneNumber": "(704) 403-7020",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://atriumhealth.org/locations/detail/piedmont-orthopedic-specialists-poplar-tent?utm_source=GMB&utm_medium=organic&utm_campaign=reservation"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHysdzfgWIuMPPZYIQ8MhACmtE29pyNh4nkV4dBWh1I5RqhqZpWVrcX7AnKC2wwj-8atQAWPWMOCGRL9M9zvBPiO5qVfXjPsNJu4GNonBA4DFSh2VFjKvikQlfY0eckwky9kZM_lqKX3nP",
+        "cid": "17638995073987916852",
+        "fid": "0x8854051c3be0526b:0xf4ca4c907bea3434",
+        "placeId": "ChIJa1LgOxwFVIgRNDTqe5BMyvQ"
+      },
+      {
+        "position": 4,
+        "title": "OrthoCarolina Huntersville",
+        "address": "10315 Hamptons Park Dr, Huntersville, NC 28078",
+        "latitude": 35.431562899999996,
+        "longitude": -80.8659545,
+        "rating": 4.8,
+        "ratingCount": 1620,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthocarolina.com/locations/huntersville?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaHuntersville",
+        "phoneNumber": "(704) 323-2800",
+        "openingHours": {
+          "Thursday": "7 AM–6 PM",
+          "Friday": "7 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–6 PM",
+          "Tuesday": "7 AM–6 PM",
+          "Wednesday": "7 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMgOylsXSEthge6QbpkYg9MuR7uzvnNZede3MzdGsg94O0GGN815MoIkkq0tE7-24pZ3NkBzDfYpIVxYTwnFp-Tgl2QB9yWtYlpeLIqm9ia49i0JN2XSMSnoub8xaOtzMlcyrX",
+        "cid": "6592479995955202223",
+        "fid": "0x8856a88f7d31bab5:0x5b7d31a0bbc748af",
+        "placeId": "ChIJtboxfY-oVogRr0jHu6AxfVs"
+      },
+      {
+        "position": 5,
+        "title": "OrthoCarolina University",
+        "address": "9848 N Tryon St, Charlotte, NC 28262",
+        "latitude": 35.3196045,
+        "longitude": -80.7349681,
+        "rating": 4.8,
+        "ratingCount": 1928,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/university?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaUniversity",
+        "phoneNumber": "(704) 323-2100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvwVXrWE1lBXaZNJLGtFQ5n8lmCz2NN3LqXhJ8xMyB_rjI0mC9BGij2ZO0mivIhTEqPJDciH3LhPo0is_0H23WaZra8V0NLL51EnnGpmay3pFAmbWHXXLUKdq0uAw1WAZC0nzWUw",
+        "cid": "15211618443564901744",
+        "fid": "0x88541c23c99572db:0xd31a86613b776570",
+        "placeId": "ChIJ23KVySMcVIgRcGV3O2GGGtM"
+      },
+      {
+        "position": 6,
+        "title": "Atrium Health Orthopaedics Surgery",
+        "address": "1025 Morehead Medical Dr UNIT 225, Charlotte, NC 28204",
+        "latitude": 35.205695299999995,
+        "longitude": -80.8386289,
+        "rating": 4.6,
+        "ratingCount": 226,
+        "type": "Surgical center",
+        "types": [
+          "Surgical center",
+          "Medical clinic",
+          "Surgeon"
+        ],
+        "website": "https://atriumhealth.org/locations/detail/atrium-health-orthopedics-surgery-a-facility-of-carolinas-medical-center?utm_source=GMB&utm_medium=Organic&utm_campaign=GCR",
+        "phoneNumber": "(704) 446-2060",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://atriumhealth.org/locations/detail/atrium-health-orthopedics-surgery-a-facility-of-carolinas-medical-center?utm_source=GMB&utm_medium=organic&utm_campaign=reservation"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEchOD802esiweB0nSBh0wbcIMxGMB_WoTNEgbWxZkH3Qa8yP1EtPOJCtIdvEhVBdpfIy0Fwj0YoJ5-v44NxSFC44BE0ijkfKLRLFEBX8garIVDgc_3bUUGdNliFfLtHyqYuiv-SWZfmHs",
+        "cid": "1707889523353340720",
+        "fid": "0x88569f91ebf62fa3:0x17b3a47903164b30",
+        "placeId": "ChIJoy_265GfVogRMEsWA3mksxc"
+      },
+      {
+        "position": 7,
+        "title": "OrthoCarolina Concord",
+        "address": "354 Copperfield Blvd NE, Concord, NC 28025",
+        "latitude": 35.446601199999996,
+        "longitude": -80.59658759999999,
+        "rating": 4.8,
+        "ratingCount": 2338,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/concord?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaConcord",
+        "phoneNumber": "(704) 786-5122",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFhcOAyy-Q0u6YlrWJ8ONYH2O4yntWzRw8RCvnukovyRTeprlvYrfHNKnjZbdRCqJrvHAiIkPAAOuvyXtW3a9xY6WVSYI5-jn60TJMnfNs19o_BipDDhYrleH4r8KBHplPaer3",
+        "cid": "14964639227234735651",
+        "fid": "0x88540f24fec9701d:0xcfad14175333d623",
+        "placeId": "ChIJHXDJ_iQPVIgRI9YzUxcUrc8"
+      },
+      {
+        "position": 8,
+        "title": "Atrium Health Myers Park Orthopedics",
+        "address": "1350 S Kings Dr, Charlotte, NC 28207",
+        "latitude": 35.196171299999996,
+        "longitude": -80.8373464,
+        "rating": 4.7,
+        "ratingCount": 38,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://atriumhealth.org/locations/detail/atrium-health-myers-park-orthopedics?utm_source=GMB&utm_medium=Organic&utm_campaign=GCR",
+        "phoneNumber": "(704) 446-1340",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://atriumhealth.org/locations/detail/atrium-health-myers-park-orthopedics?utm_source=GMB&utm_medium=organic&utm_campaign=reservation"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZypJbno9GPZ5hl896BF2JgRND75rdwA0bIIqKOEvlFeSmrvPTPFuBsovZJXF0J275obWvFCSyYNrjsl5opdWjm5q49TE3rLgsWGoNeEFEAeWCrNennuds3aJxyAidjwjkzBJjC-NjVmI",
+        "cid": "11331422894707880008",
+        "fid": "0x88569f3157f121bd:0x9d414d1616cab048",
+        "placeId": "ChIJvSHxVzGfVogRSLDKFhZNQZ0"
+      },
+      {
+        "position": 9,
+        "title": "OrthoCarolina Belmont",
+        "address": "540 Mount Holly Medical Pkwy, Belmont, NC 28012",
+        "latitude": 35.2580959,
+        "longitude": -81.0234311,
+        "rating": 4.9,
+        "ratingCount": 1573,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/belmont?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaBelmont",
+        "phoneNumber": "(704) 323-3337",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfd-ZmZ-E_7Vx6-W5vl5tNQ4-cC1O-sO28dU7km8-tzbwe_xoAAKHg1nQ6Xrcl5ZkGURoAX0D-MMUCva7D8S8ylv8mDQkroWSK7avgbqvvrKUbn-RriFFiqdCNOpyUN2vxk-oihNL5CZed",
+        "cid": "4694191541397813686",
+        "fid": "0x8856bdaa2fe2f4b3:0x41251e5604a8f9b6",
+        "placeId": "ChIJs_TiL6q9VogRtvmoBFYeJUE"
+      },
+      {
+        "position": 10,
+        "title": "OrthoCarolina Hip & Knee Center",
+        "address": "250 N Caswell Rd Suite 200A, Charlotte, NC 28207",
+        "latitude": 35.210631899999996,
+        "longitude": -80.82141159999999,
+        "rating": 4.9,
+        "ratingCount": 2356,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Specialized clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/hip-knee-center?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaHip&KneeCenter",
+        "phoneNumber": "(704) 323-2564",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXAREm2KUXFyfLTK5auIAf6ZheJE43aR4N9BqF-JM03dj1NA9VKncifjAU-DTU5FXDLGcmGlJ-4pwjoAL7XakUp8dFi61aQ6pJjtm3bZQGX-frHvM6-jbZxKJZvam5-p0ME0zIPw",
+        "cid": "26883095029253147",
+        "fid": "0x88569ff0ba8ce9e7:0x5f820851ae841b",
+        "placeId": "ChIJ5-mMuvCfVogRG4SuUQiCXwA"
+      },
+      {
+        "position": 11,
+        "title": "Atrium Health Piedmont Orthopedic Specialists",
+        "address": "1090 NE Gateway Ct NE Suite 204, Concord, NC 28025",
+        "latitude": 35.4551696,
+        "longitude": -80.5907974,
+        "rating": 4.7,
+        "ratingCount": 523,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://atriumhealth.org/locations/detail/piedmont-orthopedic-specialists?utm_source=GMB&utm_medium=Organic&utm_campaign=GCR",
+        "phoneNumber": "(704) 403-7020",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://atriumhealth.org/locations/detail/piedmont-orthopedic-specialists?utm_source=GMB&utm_medium=organic&utm_campaign=reservation"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2hxLns3tSAOXYJAEU_Hc1LG3agLyG_P2ieuwKNEVHORxr2gd82bUJp8ILpsNmWEoCNnftGA7VUfK5bDqPKAhQAo5WYpGO4G3gYGhKCmYVdPXmH5bhn2cix_QXA4Qp5cWSjU8XdQ",
+        "cid": "1884852539131894804",
+        "fid": "0x88540f24893a425b:0x1a285765e0f31c14",
+        "placeId": "ChIJW0I6iSQPVIgRFBzz4GVXKBo"
+      },
+      {
+        "position": 12,
+        "title": "OrthoCarolina South Park",
+        "address": "5935 Carnegie Blvd #200, Charlotte, NC 28209",
+        "latitude": 35.156363999999996,
+        "longitude": -80.83932,
+        "rating": 4.9,
+        "ratingCount": 1798,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/south-park?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaSouthPark",
+        "phoneNumber": "(980) 299-4895",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8QhrwHkRjH1nShvtf-qSsnFhFcFDYr2EFnmMQbEwTGykS_clgNM2o7j0UNNd5Hj64RaP7bUt5jAHGT5kbaOxVi-bT0X2pdOChB2l2eaDz2wc8km8mJORjZYRWNX9eYb_E22MFCg",
+        "cid": "17194115573241940548",
+        "fid": "0x88569e43b6544241:0xee9dc503fa190a44",
+        "placeId": "ChIJQUJUtkOeVogRRAoZ-gPFne4"
+      },
+      {
+        "position": 13,
+        "title": "OrthoCarolina Sports Medicine Center",
+        "address": "1915 Randolph Rd, Charlotte, NC 28207",
+        "latitude": 35.2097933,
+        "longitude": -80.8231442,
+        "rating": 4.8,
+        "ratingCount": 1955,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Pediatric orthopedic surgeon"
+        ],
+        "website": "https://www.orthocarolina.com/locations/sports-medicine-center?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaSportsMedicineCenter",
+        "phoneNumber": "(704) 323-3000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQ3WOzwOCvQMcb5ziPSnVIljsYXpl0ybXcTXNhGDSEkYguRhdzJdmDTFC5U-5yJtH30F8az_OqXVz4ZxgL51ww-M9O5OoiPlMkuIHmPrDrx5gjISSIFiYIbn1-weWNcFJCPQ0",
+        "cid": "2006262636735746610",
+        "fid": "0x88569ff08a736f8f:0x1bd7ad3d0cc5d232",
+        "placeId": "ChIJj29zivCfVogRMtLFDD2t1xs"
+      },
+      {
+        "position": 14,
+        "title": "OrthoCarolina Foot & Ankle Institute",
+        "address": "250 N Caswell Rd Suite 200B, Charlotte, NC 28207",
+        "latitude": 35.2108004,
+        "longitude": -80.8218165,
+        "rating": 4.9,
+        "ratingCount": 1281,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/foot-ankle-institute?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaFoot&AnkleInstitute",
+        "phoneNumber": "(704) 323-3668",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhh_2PV2kCqPjB9-245vxF5Y_71nvUFAedYfgv0yun5VwR5BT0ypOS_as91ItfHbaQCQW6CRWRn9u4ZI4QFOKq3-pnQzV6VIOp2Tz7T3MzdoL47hrjqSBtEPnXUg3gmPUP1IdK",
+        "cid": "18440402231263572659",
+        "fid": "0x88569ff0ba954ebd:0xffe97820bdc932b3",
+        "placeId": "ChIJvU6VuvCfVogRszLJvSB46f8"
+      },
+      {
+        "position": 15,
+        "title": "OrthoCarolina Lake Norman",
+        "address": "150 Fairview Rd Suite 230, Mooresville, NC 28117",
+        "latitude": 35.5479862,
+        "longitude": -80.84946939999999,
+        "rating": 4.8,
+        "ratingCount": 327,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthocarolina.com/locations/lake-norman?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaLakeNorman",
+        "phoneNumber": "(704) 323-2740",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTzJzvYKdScyTNGVOhZV-JNrYC2o3OfFM5Ex_mOjdVg6adOEfQWEC5dWO13qJQq0qn4b6spaU_Zv3rc6W25vXexQNZjhxKEGwYyy3ILM3RjgOfCyPAOeE3FZgDT-Ut9yORXzCe",
+        "cid": "7642005274666806865",
+        "fid": "0x8856ab6ea2f29807:0x6a0ddb4ee82d2e51",
+        "placeId": "ChIJB5jyom6rVogRUS4t6E7bDWo"
+      },
+      {
+        "position": 16,
+        "title": "Novant Health Orthopedics & Sports Medicine - Cornelius",
+        "address": "19485 Old Jetton Rd #210, Cornelius, NC 28031",
+        "latitude": 35.479585799999995,
+        "longitude": -80.8924701,
+        "rating": 4.8,
+        "ratingCount": 210,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.novanthealth.org/locations/clinics/orthopedics-sports-medicine-cornelius/?utm_source=maps.google.com&utm_medium=organic&utm_campaign=GBP&utm_content=MG-232",
+        "phoneNumber": "(704) 316-1830",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4 PM",
+          "Tuesday": "7:30 AM–4 PM",
+          "Wednesday": "7:30 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.novanthealth.org/pf/location-group?storeCode=MG-232&open=true&utm_source=google&utm_medium=organic&utm_campaign=GBP&utm_content=MG-232"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHoZCPnRtldgWcOm53rvdno9CkGfxkn_0oI1rDZsrS_bzN8QgHUaQsMCO7BRPuk8qF8fv6GHKEawZYnf_5WAU4CQn_vweKEOtaaaJijb2M1IwPgvpul68C3FPHdoQRSMzzBdhBVfg",
+        "cid": "17818995881049947059",
+        "fid": "0x8856a95693a78397:0xf749ca5840217bb3",
+        "placeId": "ChIJl4Onk1apVogRs3shQFjKSfc"
+      },
+      {
+        "position": 17,
+        "title": "OrthoCarolina Pediatric Orthopedic Center",
+        "address": "1915 Randolph Rd, Charlotte, NC 28207",
+        "latitude": 35.2097178,
+        "longitude": -80.82298519999999,
+        "rating": 4.9,
+        "ratingCount": 805,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/pediatric-orthopedic-center?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaPediatricOrthopedicCenter",
+        "phoneNumber": "(704) 323-2543",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvfdE6MzGbusgvZlQOflkwJgGni_BZshm9RwIh-2VrgKsukpYqEj3Y1sJxe5fOqEH7hiURvWddIbzvCspLk-Cf1hPG21vBRJ_8T1VKSlPRzy0toYYVR7M-Bz2jjaHhQydeuN1h",
+        "cid": "4941756318225128674",
+        "fid": "0x88569ff08a736f8f:0x4494a5305a59dce2",
+        "placeId": "ChIJj29zivCfVogR4txZWjCllEQ"
+      },
+      {
+        "position": 18,
+        "title": "Harris Orthodontics",
+        "address": "9350 Benfield Rd #100, Charlotte, NC 28269",
+        "latitude": 35.3670909,
+        "longitude": -80.7878327,
+        "rating": 5,
+        "ratingCount": 779,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.smilesbyharris.com/",
+        "phoneNumber": "(704) 597-5555",
+        "openingHours": {
+          "Thursday": "7:40 AM–4:30 PM",
+          "Friday": "7:40 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:40 AM–4:30 PM",
+          "Tuesday": "7:40 AM–4:30 PM",
+          "Wednesday": "7:40 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.smilesbyharris.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3aVvftSVh_tACWLSYNA_FRA5BEk3gBcPcQZ3PcuW8_bujJb2ANMoQliVjtL15_6LQGMisS2c7ZroIy_72RN3DFR10KqTV2amvPfyaTalbQU6Gbz8hhqNy3Z0EFK7L0_6qEs2q",
+        "cid": "6175743016604522065",
+        "fid": "0x88541dc40e10d4e5:0x55b4a58d98cfd651",
+        "placeId": "ChIJ5dQQDsQdVIgRUdbPmI2ltFU"
+      },
+      {
+        "position": 19,
+        "title": "OrthoCarolina Urgent Care Concord",
+        "address": "354 Copperfield Blvd NE, Concord, NC 28025",
+        "latitude": 35.447018,
+        "longitude": -80.596882,
+        "rating": 4.7,
+        "ratingCount": 395,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthocarolina.com/locations/concord-urgent-care?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaUrgentCareConcord",
+        "phoneNumber": "(704) 323-2849",
+        "openingHours": {
+          "Thursday": "9 AM–9 PM",
+          "Friday": "9 AM–9 PM",
+          "Saturday": "10 AM–2 PM",
+          "Sunday": "10 AM–2 PM",
+          "Monday": "9 AM–9 PM",
+          "Tuesday": "9 AM–9 PM",
+          "Wednesday": "9 AM–9 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeUoSjmSkvHbGXzafBgzBK2ejoT0Nul42WTImkPplM4XnqI271PFe5dj87GKnPohhTNqNBLObTkLSZl5fb2lrhRcOrfSa0lzxXZy1k5Bxx_FjsP5sNtc0qxeiRxfrg8srMuv_C",
+        "cid": "1307474498412515402",
+        "fid": "0x88540f24f94b23f5:0x1225152106c2904a",
+        "placeId": "ChIJ9SNL-SQPVIgRSpDCBiEVJRI"
+      },
+      {
+        "position": 20,
+        "title": "OrthoCarolina Matthews",
+        "address": "710 Park Center Dr, Matthews, NC 28105",
+        "latitude": 35.1217438,
+        "longitude": -80.7216918,
+        "rating": 4.8,
+        "ratingCount": 2253,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.orthocarolina.com/locations/matthews?utm_source=GMBSocialClimb&utm_medium=OrthoCarolinaMatthews",
+        "phoneNumber": "(704) 323-3200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://my.orthocarolina.com/mychart/openscheduling/?specialty=27&hidespecialties=1&linksource=%20MatthewsOrtho"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5uBIEg10K-bn1XWlGp-BfnNCrukJOivqbhjDpXRw-vb18g1BnKDkGv5TWC1iOr33g-l8829fuocdGhqt1pmsIt6mFdD4m9tCg4ukpzzeuM6BiizqLmORN3GgXOTQGqwnrKsJF",
+        "cid": "14807673124526362610",
+        "fid": "0x885424076e5e9005:0xcd7f6c40997e0ff2",
+        "placeId": "ChIJBZBebgckVIgR8g9-mUBsf80"
+      }
+    ],
+    "credits": 3
+  }
+}

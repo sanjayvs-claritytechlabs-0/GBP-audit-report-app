@@ -1,0 +1,657 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.330356,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@29.7711107,-95.4294315,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Elara Orthodontics - Houston Heights",
+        "address": "1515 Studemont St Suite 203, Houston, TX 77007",
+        "latitude": 29.7753478,
+        "longitude": -95.3904991,
+        "rating": 5,
+        "ratingCount": 400,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental radiology",
+          "Dentist",
+          "Doctor",
+          "Emergency dental service",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://elaraorthodontics.com/orthodontist-houston-tx/",
+        "phoneNumber": "(832) 621-0855",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "10 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/elara-orthodontics-78118?LocIdent=263608&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_HoD6y3VByEOHfNgAAngnTh-lo_CUZok0kKdEOQiIyGJdkJ3h-entity&rwg_token=AFd1xnG_CT7cZU462cASIYvEUR3rF1kzMiMQPRReaEkUHE5MxR35PvbkPYYEmlyM6eTXcbLoYptaO36WV4C-g6xUuB1GHr7hcBj7ub9tXp0QjlLJjA1AZNo%3D",
+          "https://edgebooking.ortho2.com/search?catalog=b993979d-6746-4b2e-b1be-29dd8133dc1b&code=pvvmaa"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHO13oXdx84qfQ7aRSL_zOAM8RoyrnJamuCOHFBCZ27vTgjTL-G_fO0_98RB5RbJvzp1yK5_v6_YC5s5lvxECyGu0s9pRsTK15xQwo79HlPy_s2XimTOb_zVzWN0JvnUnza9Mw",
+        "cid": "11815435260408724215",
+        "fid": "0x8640b9d0f365d6d9:0xa3f8dbc4bb497af7",
+        "placeId": "ChIJ2dZl89C5QIYR93pJu8Tb-KM"
+      },
+      {
+        "position": 2,
+        "title": "Cooper Orthodontics Invisalign Specialist | Houston Orthodontist",
+        "address": "4525 Washington Ave #400, Houston, TX 77007",
+        "latitude": 29.770372199999997,
+        "longitude": -95.4071372,
+        "rating": 4.9,
+        "ratingCount": 130,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.cooperorthodontics.com/locations/houston-tx-office/",
+        "phoneNumber": "(832) 925-8721",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHj0LxXHrgvThhfJvQ_e2BuIvf1Hfxtxbw1uezziqGvQBwrcMAP451OZ7rMLzMWwSJ-FrEFlmwSkFEXvI5TpkAzdO1P0Ia6SW4462H9kB2gbEHV6b79sUsb5zer9H_xHud761_ldA",
+        "cid": "14795609081320750356",
+        "fid": "0x8640c0b2d8c18f4d:0xcd549011a7aabd14",
+        "placeId": "ChIJTY_B2LLAQIYRFL2qpxGQVM0"
+      },
+      {
+        "position": 3,
+        "title": "Mia Orthodontics",
+        "address": "3636 Greenbriar Dr Suite A-101, Houston, TX 77098",
+        "latitude": 29.7336882,
+        "longitude": -95.4132412,
+        "rating": 5,
+        "ratingCount": 317,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://miaorthodontics.com/location/orthodontist-in-houston-tx/",
+        "phoneNumber": "(281) 661-2789",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "10 AM–7 PM",
+          "Wednesday": "10 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.greyfinch.com/?division=602074"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2fBYHWCYwfKQwa4o6_i9_kxwrl-yIPQoK0uDk1c2s7LuyktAaOTcR8iHItOenoQCbTyN7VoqVa8StNyoKdlCxaPatoR4l7VhDKGkNuKDbMqkIfcOyKfb9akoGiaS4MrSHhkP4wm8AMu4",
+        "cid": "14115794777071539543",
+        "fid": "0x8640c13e7510af7b:0xc3e5608fa1a9d557",
+        "placeId": "ChIJe68QdT7BQIYRV9WpoY9g5cM"
+      },
+      {
+        "position": 4,
+        "title": "West U Orthodontics",
+        "address": "3642 University Blvd # 102, Houston, TX 77005",
+        "latitude": 29.7151116,
+        "longitude": -95.43360179999999,
+        "rating": 5,
+        "ratingCount": 340,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.westuortho.com/",
+        "phoneNumber": "(713) 481-4885",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.westuortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGTh6n-rLypw4PDrX8cYY0990j0HUQ3vPm3J-tjCX3ZzzRhwalaogHkiXOFLHa2e8q1AXcvYkSsLRvl9RpNuM6h5ApBqhvg7UqIcqp3LDXYfNDko4jQ0GM6ZwUnXQrAfBChHUxDrw",
+        "cid": "11192099003416775775",
+        "fid": "0x8640c052fe67954d:0x9b5252becda90c5f",
+        "placeId": "ChIJTZVn_lLAQIYRXwypzb5SUps"
+      },
+      {
+        "position": 5,
+        "title": "Greater Houston Orthodontics",
+        "address": "4191 Bellaire Blvd Suite 275, Houston, TX 77025",
+        "latitude": 29.704992899999997,
+        "longitude": -95.444845,
+        "rating": 4.9,
+        "ratingCount": 522,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://greaterhoustonorthodontist.com/",
+        "phoneNumber": "(713) 662-0621",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://greaterhoustonorthodontist.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvTJ-nPOZOQ8UeL7OQd-WvhMOWzHuDRjrryslva_qkxHS2U1h_XM3g04Ko63ulRsKg8NSP4NETuS1NTGRRLeAN2lpnrLI9OhT3c3BQxc_GtzmksE0fAbDIMCWAApxdHaQcZx_97zYnoJk",
+        "cid": "16149871031329653274",
+        "fid": "0x8640c1b6c900cf7b:0xe01fde2326c6821a",
+        "placeId": "ChIJe88AybbBQIYRGoLGJiPeH-A"
+      },
+      {
+        "position": 6,
+        "title": "Clear Smiles",
+        "address": "189 Heights Blvd, Houston, TX 77007",
+        "latitude": 29.7737822,
+        "longitude": -95.39794309999999,
+        "rating": 5,
+        "ratingCount": 52,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "http://www.clearsmiles.com/",
+        "phoneNumber": "(713) 817-8063",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://clearsmiles.com/book"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHu0F7uFLlYmh8WMcWMNFNfCh81NG9QVUDRSmLbVIm-xzcakb5mOh0np6qrZWsB-aRSHvnuW7dUkkruMogKOg9i_1xzpOG7P_uN5Yy5NZEm_36uW3ZSju3ikgdeKEvNWjQWAmG-",
+        "cid": "388389385018858143",
+        "fid": "0x8640c739b5fa8eb9:0x563d6168094da9f",
+        "placeId": "ChIJuY76tTnHQIYRn9qUgBbWYwU"
+      },
+      {
+        "position": 7,
+        "title": "Houston Orthodontic Specialists",
+        "address": "5101 Bellaire Blvd Suite #270, Bellaire, TX 77401",
+        "latitude": 29.7048235,
+        "longitude": -95.4684568,
+        "rating": 4.7,
+        "ratingCount": 474,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.houstonortho.com/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=bellaire&y_source=1_MzI0OTcyOTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(346) 510-2070",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.houstonortho.com/book-a-free-consultation/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=bellaire"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAZ4ZSjTcxOj8frVViMqaIxDp-crDBoOxzWoSfj5H1Mvk0nzpGQbqqs3RvubaS4y50vHW0uYwwtyShF88dRd3XLyr4VMDCloo4Syl5RssKJ14L0Cp3t3AI8kj_tpJTLHD30BJ2",
+        "cid": "901374233471692738",
+        "fid": "0x8640c191d5f24c85:0xc825316f3c52fc2",
+        "placeId": "ChIJhUzy1ZHBQIYRwi_F8xZTggw"
+      },
+      {
+        "position": 8,
+        "title": "G Orthodontics, Dr Yesenia Garcia, DMD - Houston - Buffalo Speedway, West U -Top Orthodontist, Braces and Invisalign",
+        "address": "5110 Buffalo Speedway #204, Houston, TX 77005",
+        "latitude": 29.7278521,
+        "longitude": -95.42911199999999,
+        "rating": 4.5,
+        "ratingCount": 98,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://gorthodontics.com/",
+        "phoneNumber": "(713) 436-1241",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/dentist/yesenia-garcia-dmd-617845?LocIdent=332697&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_GOfd4aqaPkamTQcwSe6Htg-lo_61znrBdGAUWCrlbwZkHKNB-entity&rwg_token=AFd1xnEBs8vB0D6cTnQv1VIHMNnwmqd7XDyWNVHRF1F5EdjeOCzgXbvuZgM2ltfrvjwz0_6GGRnClBBd2rKxd0a-BdzmEduuid_NItvg65a1wYEGLzN9kok%3D",
+          "https://www.zocdoc.com/practice/g-orthodontics-137684?LocIdent=332697&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_1u5d8MMsF0yeP_t3HsQZsQ-lo_61znrBdGAUWCrlbwZkHKNB-entity&rwg_token=AFd1xnGhWzNHIe3P-hb4quVq3K4cglPX-OeNNEvYqdKtjDNTKSwVGhtxU5qkN0SsQ-9mbYihDE9XAdO4k9c25HXxqSgJsF5asgAHUYcHUf7O_1JNGMOhJmg%3D",
+          "https://gorthodontics.com/make-your-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcRM2yYLX8h2Cj5xdpVEGRGre_GlrvL9xpRnkVuQ2ICfuUu2KvjUbR3MXc-a8cqe-fIhMRLCMVnYXALHQDXWmyoitaIGPCRAyE5OUmzFw8BMbXtYbK6ok_XmTajK_4L3yPaksW",
+        "cid": "9030832418807994169",
+        "fid": "0x8640c11edf580bb1:0x7d53f63ccd21d739",
+        "placeId": "ChIJsQtY3x7BQIYROdchzTz2U30"
+      },
+      {
+        "position": 9,
+        "title": "Tanglewood Orthodontics - Houston",
+        "address": "1011 Augusta Dr #203, Houston, TX 77057",
+        "latitude": 29.7575625,
+        "longitude": -95.4821571,
+        "rating": 4.8,
+        "ratingCount": 52,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.tanglewoodortho.com/",
+        "phoneNumber": "(713) 781-4457",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHkaIKoPij6l7b5BpOd0_WYESVcSTlWP7M2U6exYfZH6YutQkRss6S8Q7gMvDyR8inKQgThwmNvesBM8Td3J8SrNgpKPKsU_mW_VavN_plPlSas1Oo2aXk72IDtgP5DIwREYtz",
+        "cid": "9391769804422802086",
+        "fid": "0x8640c3fcb97f87b1:0x825644e09cdc6aa6",
+        "placeId": "ChIJsYd_ufzDQIYRpmrcnOBEVoI"
+      },
+      {
+        "position": 10,
+        "title": "Radiant Orthodontics",
+        "address": "9009 Long Point Rd a1, Houston, TX 77055",
+        "latitude": 29.8002237,
+        "longitude": -95.5122909,
+        "rating": 4.9,
+        "ratingCount": 123,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.radiantorthotx.com/",
+        "phoneNumber": "(713) 468-9009",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHcchu1KPkt-MhUQY7VRfWX4eru1MltvzjCIhit6Z735ltkzypUHYPrD_PZtWbGKQfw4SOe385UFLldlZ1PnKbZ_9C0W0f1AwhufGP9WqG-wlD0_y4IWvOyShpAvjCZCWNPGAo",
+        "cid": "761989105580329537",
+        "fid": "0x8640c45a5e6a0b65:0xa93210de8d54a41",
+        "placeId": "ChIJZQtqXlrEQIYRQUrV6A0hkwo"
+      },
+      {
+        "position": 11,
+        "title": "Davoody & Hablinski Orthodontics",
+        "address": "5311 Kirby Dr #209, Houston, TX 77005",
+        "latitude": 29.7248777,
+        "longitude": -95.41797919999999,
+        "rating": 4.9,
+        "ratingCount": 376,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://dhorthodontics.com/",
+        "phoneNumber": "(713) 521-2727",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://dhorthodontics.com/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoz3wrsLT3ROEIhofAGrbSSfRPuvk2_Fiw5-yPwRuEoinJhlvG8TtpFJUHoRFbZnHa18xrWJovCacN3d7TcoGMGLZc2FYB-xwbnFJufbsJ0oNPwM62ey0fL0SGGyks8EHea4Ylm9rjP5HI",
+        "cid": "9661683930142866646",
+        "fid": "0x8640c0f588d0c881:0x861532583c43fcd6",
+        "placeId": "ChIJgcjQiPXAQIYR1vxDPFgyFYY"
+      },
+      {
+        "position": 12,
+        "title": "Dr. Heather Brown Orthodontics",
+        "address": "2636 S Loop W #100, Houston, TX 77054",
+        "latitude": 29.6793691,
+        "longitude": -95.41974959999999,
+        "rating": 4.9,
+        "ratingCount": 927,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.drheatherbrown.com/",
+        "phoneNumber": "(713) 665-4455",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/dr-heather-brown-orthodontics-32313?LocIdent=53406&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_lY5f9VTtoEaEk2RJ7Ha5Ph-lo_2gTQi_eqZ0y0IYasLNWcyB-entity&rwg_token=AFd1xnEErEWleGl08Nhz5RTX_NwISkgvqyRR9FmtD8cZAjD4eF4AYRJ4NOMHyeP7J5HRdFhpYXmjrtWWaUK0mXSz37oiYieaRQ%3D%3D",
+          "https://www.zocdoc.com/dentist/heather-t-brown-dds-89879?LocIdent=53406&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_VjfkOi-g9UKl3S2KKh_LKx-lo_2gTQi_eqZ0y0IYasLNWcyB-entity&rwg_token=AFd1xnFDXaSDcaxGJvDkb9JVfktbM-BNI65Os1fdzJvIS5vNFwm9oKUhhO6WkBbSPNn1x0WuJ_wwREq0_0rcY0sx7RybieGSAA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDSX-RO71FDvcBwiNUopbIULl5pdDQO0X6aKkXRwP107l7DyMp79bZURbI9X-W_-JGukmKVAKA0rHT3gT4drkzetrqutoShH1-A4LTideQHuymYapDEEUk-MoWJyUYDn6UiMg",
+        "cid": "15284829187464701015",
+        "fid": "0x8640c020b3c6f4cf:0xd41e9f29db5b2457",
+        "placeId": "ChIJz_TGsyDAQIYRVyRb2ymfHtQ"
+      },
+      {
+        "position": 13,
+        "title": "Hall Orthodontics & TMJ",
+        "address": "1919 N Loop W #460, Houston, TX 77008",
+        "latitude": 29.8107054,
+        "longitude": -95.4341853,
+        "rating": 4.5,
+        "ratingCount": 59,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.braceshouston.com/",
+        "phoneNumber": "(713) 862-8223",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.braceshouston.com/request-an-appointment.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoS3IQ6Ewn2bIoyLEzeAcSkFe50u0Ckk0p1GlNO-gjMjo3_Gm8P33DV7mSfRqqYfy83KJMtTtE2tgDnFySAO6VA9K9lUrwixyTvJ2LDQXNTe7pW7H_yDTDB5RDXtU5Ws6lV1E",
+        "cid": "10016221766441128618",
+        "fid": "0x8640c7018cb5483d:0x8b00c4a0dc4252aa",
+        "placeId": "ChIJPUi1jAHHQIYRqlJC3KDEAIs"
+      },
+      {
+        "position": 14,
+        "title": "Meyerland Orthodontics",
+        "address": "9660 Hillcroft St #500, Houston, TX 77096",
+        "latitude": 29.675542399999998,
+        "longitude": -95.49424599999999,
+        "rating": 5,
+        "ratingCount": 360,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://meyerlandorthodontics.com/",
+        "phoneNumber": "(832) 418-7854",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/meyerland-orthodontics-86307?LocIdent=208692&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_cRRfIsJ-JESfNcgOtsvM5B-lo_HcAUbM88Z0SEfyjgDJuCvR-entity&rwg_token=AFd1xnHbnmNqY0nvcT-j5VYRfhKWExI2lsg58GaZwvUtAujihTj_6PNFZoHyZytli29gfMwW1XfVo9mKbknlObgcwEPQ7xN9Nj17wBUq0p108YkpRy5Lhf0%3D",
+          "https://book2.getweave.com/5e545473-536b-440d-ac84-ef5831a88479/request-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhXtim5I9xUQWQw1f_zayyrffyC9yZqFavUwDKl-t_qeIXoycMvEzBm81SKbczVwRSp7t1DqhksyhfyhA3GJjianBKyY53pAcjBRGCtm_Oa85HaUfw_OQYT32iauFzNfOkXgMi",
+        "cid": "5289232415706189132",
+        "fid": "0x8640c3bcad649495:0x496720dbc8a60d4c",
+        "placeId": "ChIJlZRkrbzDQIYRTA2myNsgZ0k"
+      },
+      {
+        "position": 15,
+        "title": "Wang Smiles Orthodontics",
+        "address": "4770 W Bellfort Ave, Houston, TX 77035",
+        "latitude": 29.672427,
+        "longitude": -95.4583455,
+        "rating": 4.9,
+        "ratingCount": 439,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "http://www.wangsmiles.com/",
+        "phoneNumber": "(713) 721-2426",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlgXzHtS4AjqZLgdLwSDeIDaf0Ph603k2GwUnol98TA10CFQMRMOjSOPHPlArdKSggbNsmA4RGa7QJcxDaOGmVM5Hbvcs97OdR85UAT0dvpaclHRzueGItHwMj05k8ytdVCgRK-9Y2VV0",
+        "cid": "8835943821226162558",
+        "fid": "0x8640ea0b68ec5aa7:0x7a9f94172f7e397e",
+        "placeId": "ChIJp1rsaAvqQIYRfjl-LxeUn3o"
+      },
+      {
+        "position": 16,
+        "title": "Heights Pediatric Dentistry and Orthodontics",
+        "address": "104 W 12th St STE. C, Houston, TX 77008",
+        "latitude": 29.792354,
+        "longitude": -95.3987093,
+        "rating": 4.9,
+        "ratingCount": 330,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist",
+          "Emergency dental service",
+          "Orthodontist"
+        ],
+        "website": "https://www.heightspedoortho.com/?utm_source=GBP",
+        "phoneNumber": "(713) 861-4000",
+        "openingHours": {
+          "Thursday": "8 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFC69AGUCbDLWV0gQRbCaq7W-lA3ZR834_pFx0VMYqQhFsE1xKje-rIWbpysVRPhLZMXkEXrscnWhakzY9RoCHi4GTpofDXcDIu0rOM6ynazSShAW5PGd0AFWyCb5uoMhLGUyhnY4lCeSJV",
+        "cid": "17620245815131602295",
+        "fid": "0x8640c75e7afdcaf7:0xf487b03679fb7d77",
+        "placeId": "ChIJ98r9el7HQIYRd337eTawh_Q"
+      },
+      {
+        "position": 17,
+        "title": "Sea Smiles Dental and Orthodontics - Little York",
+        "address": "3500 Little York Rd SUITE A-1, Houston, TX 77093",
+        "latitude": 29.8697943,
+        "longitude": -95.3333837,
+        "rating": 4.6,
+        "ratingCount": 538,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Dental implants periodontist",
+          "Dental radiology",
+          "Denture care center",
+          "Emergency dental service",
+          "Teeth whitening service"
+        ],
+        "website": "https://seasmilestexas.com/little-york/",
+        "phoneNumber": "(713) 366-4633",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjN5erLpUXSZiJOViPQ9mNu-CAIaWEDaC_sgHoeOr3YnE18xIZcz_8uNdG7UghYnmDoxqrYVkpcGmrYaXdksWLix0n-eIAmRQVHwEfhjJCQLR9s-NneyofrTqex04XsaCQS3s",
+        "cid": "10696072810133135406",
+        "fid": "0x8640bec0c365411f:0x9470158cf3b3202e",
+        "placeId": "ChIJH0Flw8C-QIYRLiCz84wVcJQ"
+      },
+      {
+        "position": 18,
+        "title": "Greater Houston Orthodontics: Memorial Location",
+        "address": "9412 Gaylord Dr, Houston, TX 77024",
+        "latitude": 29.782060299999998,
+        "longitude": -95.5254793,
+        "rating": 4.9,
+        "ratingCount": 404,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://greaterhoustonorthodontist.com/",
+        "phoneNumber": "(713) 464-7777",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://greaterhoustonorthodontist.com/request-an-appointment/?utm_source=PPL&utm_medium=GMB"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMhFXMZn25FCwmaxx-fU8e4h1g6Cm5oOKTCUG72KVSfviHK4pYsV4B2TpnHux9tYLUZPRj12j581xa1LeGNdKL40cdz6zhe3zXXQgV6BVM1JL6nSy0FIjEvFOpc-6C4PtO_zldMsYJIDLl",
+        "cid": "18077029409921802668",
+        "fid": "0x8640c491b8bd18b3:0xfade8278dcada1ac",
+        "placeId": "ChIJsxi9uJHEQIYRrKGt3HiC3vo"
+      },
+      {
+        "position": 19,
+        "title": "McGrory Orthodontics",
+        "address": "4500 Bissonnet St #310, Bellaire, TX 77401",
+        "latitude": 29.7164997,
+        "longitude": -95.4518851,
+        "rating": 5,
+        "ratingCount": 62,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://shapingsmiles.com/?y_source=1_MTAyMDEzMjM3NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(346) 357-0204",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://shapingsmiles.com/request-your-appointment/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=bellaire"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcxoVkahObd-4VVv8gdzgOKQZLdhGtjf6kR6cklj269xgwQLvoEXXft9vNCwI-BkGF5eQrhJhdU0AaE50jRr_79r9gC7Rv-1XtPwJYNBZCSyxVgTTO1mW75WENU_hjUQAHZq-P",
+        "cid": "1403712350793969059",
+        "fid": "0x8640c1a3eeb69197:0x137afcf223e72da3",
+        "placeId": "ChIJl5G27qPBQIYRoy3nI_L8ehM"
+      },
+      {
+        "position": 20,
+        "title": "Houston Orthodontics",
+        "address": "8811 Frankway Dr # A, Houston, TX 77096",
+        "latitude": 29.685614599999997,
+        "longitude": -95.45359309999999,
+        "rating": 5,
+        "ratingCount": 223,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://www.bracesinhouston.com/",
+        "phoneNumber": "(713) 664-6611",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEhaG-vwxgEWxIxD8ETz25cjKFaeLstWTqqBJP_YIu4C9sJCDy60y8hUDqzDViAcR3U3tn7phieCJx47g_LSPP4MEM4uhwpD6FSWHy2lhH6lqQHfdgOyvxMuSM6y4I_y6SVByq",
+        "cid": "9330775066400656038",
+        "fid": "0x8640c1dc55fe3fa1:0x817d927c7fe20aa6",
+        "placeId": "ChIJoT_-VdzBQIYRpgrif3ySfYE"
+      }
+    ],
+    "credits": 3
+  }
+}

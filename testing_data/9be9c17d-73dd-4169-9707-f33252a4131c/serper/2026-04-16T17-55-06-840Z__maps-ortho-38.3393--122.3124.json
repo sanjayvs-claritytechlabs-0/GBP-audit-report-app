@@ -1,0 +1,563 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.33934,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4zMTI0MTY=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@39.673006,-110.132777,8z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Castle Country Orthopedic",
+        "address": "945 Hospital Dr #7, Price, UT 84501",
+        "latitude": 39.6060635,
+        "longitude": -110.8337325,
+        "rating": 3.5,
+        "ratingCount": 6,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "phoneNumber": "(435) 613-6600",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8:30 AM–4:30 AM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ryg92s2lksG4_c6Whbw19g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=114.373566&pitch=0&thumbfov=100",
+        "cid": "13610505255258041452",
+        "fid": "0x874ebb8a6100ebf3:0xbce23a6b093e2c6c",
+        "placeId": "ChIJ8-sAYYq7TocRbCw-CWs64rw"
+      },
+      {
+        "position": 2,
+        "title": "High Desert Orthopedics and Sports Medicine",
+        "address": "280 Hospital Dr Suite 3, Price, UT 84501",
+        "latitude": 39.604068,
+        "longitude": -110.831902,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.castleviewphysicianpractices.com/",
+        "phoneNumber": "(435) 637-2663",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZZawz6q1G4R7RadHRI19vCMF9hwDXRq_A5KLP1gHnHIT4_GG4NM7p2wuZkB3w1c8Afb5wze9At6ARP1I4y4KU6E4CrXc-AymHdUEG1pReV2tUYJHTiXAW0Lgsu_Uc3SgbkTfL",
+        "cid": "3848122668005439791",
+        "fid": "0x874ebb088c45c525:0x3567472da697b92f",
+        "placeId": "ChIJJcVFjAi7TocRL7mXpi1HZzU"
+      },
+      {
+        "position": 3,
+        "title": "Castle Valley Orthodontics",
+        "address": "391 N 4th E, Price, UT 84501",
+        "latitude": 39.6061858,
+        "longitude": -110.8039531,
+        "rating": 5,
+        "ratingCount": 59,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.castlevalleyorthodontics.com/",
+        "phoneNumber": "(435) 637-2222",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4 PM",
+          "Tuesday": "9 AM–4 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEH5McAfMKYJj2AT7BR3dYUzh5wzzaRt4kSynZFEhfO_21332Mmo3_Tl5fKaojqVq3W_lfgq9qOyA-I3vvBcVMLbg-RRdNFqI14c-Rw6nhbdV-5EHG-F654ho3UyBsMZzjvqZc",
+        "cid": "13077415941512543592",
+        "fid": "0x874956c1889fe051:0xb57c5082fde2bd68",
+        "placeId": "ChIJUeCfiMFWSYcRaL3i_YJQfLU"
+      },
+      {
+        "position": 4,
+        "title": "Scott C Justesen MD",
+        "address": "945 Hospital Dr #7, Price, UT 84501",
+        "latitude": 39.6060635,
+        "longitude": -110.8337325,
+        "rating": 4.4,
+        "ratingCount": 12,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.castleviewhospital.net/orthopedics-sports-medicine",
+        "phoneNumber": "(435) 613-6600",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ralxSuXXIU867LkqzH94tA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=192.25629&pitch=0&thumbfov=100",
+        "cid": "3964919380280069592",
+        "fid": "0x874ebb8a6100ebf3:0x3706392b58a7cdd8",
+        "placeId": "ChIJ8-sAYYq7TocR2M2nWCs5Bjc"
+      },
+      {
+        "position": 5,
+        "title": "Eastern Utah Orthopaedics",
+        "address": "230 Hospital Dr #2, Price, UT 84501",
+        "latitude": 39.603564299999995,
+        "longitude": -110.8311634,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(435) 637-0474",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8Qa5npAmskVm5iL7-f9Xcw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=256.15555&pitch=0&thumbfov=100",
+        "cid": "606229278191502848",
+        "fid": "0x874ebbf4b051cc57:0x869c2510b0bc600",
+        "placeId": "ChIJV8xRsPS7TocRAMYLC1HCaQg"
+      },
+      {
+        "position": 6,
+        "title": "Revere Health Mt. Pleasant Orthopedic Surgery",
+        "address": "1100 S Medical Dr, Mt Pleasant, UT 84647",
+        "latitude": 39.531168199999996,
+        "longitude": -111.4609716,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://reverehealth.com/departments/mt-pleasant-orthopedic-surgery/",
+        "phoneNumber": "(801) 373-7350",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrXjUUSlE6H7ziMtRLim-VF7g5f4nClqm8GeyGROGTdYMIdrivRgRNgwfGPLpB4Xg0J2E60jMr7wnAZNKjlwDXawhrn7INbr8LFYHpUf69KX_-6Q85yFv6GtK9KBYE3igauhAJkX6dFeeR",
+        "cid": "13078236131842036484",
+        "fid": "0x874c158608583a69:0xb57f3a786f1f9304",
+        "placeId": "ChIJaTpYCIYVTIcRBJMfb3g6f7U"
+      },
+      {
+        "position": 7,
+        "title": "Schouten Orthodontics - Price",
+        "address": "191 E 100 N, Price, UT 84501",
+        "latitude": 39.6012535,
+        "longitude": -110.8075942,
+        "rating": 4.5,
+        "ratingCount": 12,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "http://priceorthodontist.com/",
+        "phoneNumber": "(435) 637-0820",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGICj63MCdjrNAQEAN70MaHQUgKWpdz-hzTHIR_y5vSXOeXAmgDvqIcz5-tPySivp77ya0NBzzJzRicGpyrpT5kJsK-TPpI2rhcTCmFzttuSG927IxiYPfh4hhGOjww4XZ87IY",
+        "cid": "15000351540798598439",
+        "fid": "0x874eb9587625810f:0xd02bf4404748ad27",
+        "placeId": "ChIJD4Eldli5TocRJ61IR0D0K9A"
+      },
+      {
+        "position": 8,
+        "title": "Revere Health Orthopedics - Mt Pleasant",
+        "address": "1100 S Medical Dr, Mt Pleasant, UT 84647",
+        "latitude": 39.531353599999996,
+        "longitude": -111.4610433,
+        "rating": 4.1,
+        "ratingCount": 9,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://reverehealth.com/departments/mt-pleasant-orthopedics-2?utm_source=GMBSocialClimb&utm_medium=RevereHealthOrthopedics-MtPleasant",
+        "phoneNumber": "(801) 373-7350",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–2 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHntqMpCUe5CouAbvM0LXllrh7YuXqOQw-C6uaL4ZRIcJgO1Y79Lz2RuE5QuDsPjrkq_oNHzKc2x3F7nNUt1rQSOMkMpMIfD9rhY6brzqkUBqd0j2OgEDANOCK4uAjDtjJfLjA",
+        "cid": "16600080714409681653",
+        "fid": "0x874d9a0a1f72385b:0xe65f55757133a2f5",
+        "placeId": "ChIJWzhyHwqaTYcR9aIzcXVVX-Y"
+      },
+      {
+        "position": 9,
+        "title": "Dr. Scott G. Shipley, MD",
+        "address": "377 N Fairgrounds Rd, Price, UT 84501",
+        "latitude": 39.6061595,
+        "longitude": -110.83538879999999,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(435) 637-8000",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-pFojNBylA-I6yv1Es09cw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=267.41086&pitch=0&thumbfov=100",
+        "cid": "12706567256784983049",
+        "fid": "0x874ebb8a42aa24dd:0xb056cb9907475409",
+        "placeId": "ChIJ3SSqQoq7TocRCVRHB5nLVrA"
+      },
+      {
+        "position": 10,
+        "title": "Family Health West Orthopedics & Sports Medicine",
+        "address": "300 W Ottley Ave Suite D, Fruita, CO 81521",
+        "latitude": 39.1634892,
+        "longitude": -108.7371233,
+        "rating": 4.8,
+        "ratingCount": 100,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Pain management physician"
+        ],
+        "website": "https://fhw.org/services/orthopedics/?y_source=1_MTU1MDM3NjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(970) 858-2705",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://fhw.org/services/orthopedics/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8J3pskaQ4DPzUkVGYJJJhPUNEkLKKlNzK_c1JMMMZUsZLOkunBcORPTWYORHUfBj1Yvt5G0AJKV-l8n3VZ0nwFLjaiExNYIYwkYBfMwx5BjaeQSDIlWPH9b-P25MVeQDD1DgwDw",
+        "cid": "5708540524401980272",
+        "fid": "0x8746ff48ecbfbc03:0x4f38cf5c9ee6f370",
+        "placeId": "ChIJA7y_7Ej_RocRcPPmnlzPOE8"
+      },
+      {
+        "position": 11,
+        "title": "Jeffrey Wallentine, MD | Orthopedics | Joint Reconstruction | Orthopedic Surgery",
+        "address": "1075 US-89, Mt Pleasant, UT 84647",
+        "latitude": 39.531522599999995,
+        "longitude": -111.46210339999999,
+        "rating": 5,
+        "ratingCount": 4,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://reverehealth.com/doctors/jeffrey-wallentine-md/?utm_source=GMBSocialClimb&utm_medium=JeffreyWallentine,MD",
+        "phoneNumber": "(801) 373-7350",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–2 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6twLFVSfXBD3tShQ7VOwVvBkwDjCysESLGWjfeG-BYyazw1mOCWHJZnMqr7XwKaJsmKoRf5rhTexJniNyniGAOzj8UYI1hZuwrp2vnWaxrBpbV6cYYENZkw_CwX85lBM_C5tHrw",
+        "cid": "5323043810363215454",
+        "fid": "0x874d8528f3488ae9:0x49df4024908a8e5e",
+        "placeId": "ChIJ6YpI8yiFTYcRXo6KkCRA30k"
+      },
+      {
+        "position": 12,
+        "title": "Revere Health Orthopedics - Salem",
+        "address": "555 W State Rd 164, Salem, UT 84653",
+        "latitude": 40.0843473,
+        "longitude": -111.6847973,
+        "rating": 4.8,
+        "ratingCount": 166,
+        "type": "Pain management physician",
+        "types": [
+          "Pain management physician",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://reverehealth.com/departments/salem-orthopedics?utm_source=GMBSocialClimb&utm_medium=RevereHealthOrthopedics-Salem",
+        "phoneNumber": "(801) 373-7350",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOqkjgDKfjWPctttVoUbSsQu5l3TOw7KEK4zYmBjE4oWzYShyhHFGvhH7fIpxL_RsWXhDHuPfeonrmgGWWDXA_9oydtfCMZdLHjUjwI-ywPO_9quSSOwsbENfjojPuTMSwI30DqA",
+        "cid": "14458436672225038855",
+        "fid": "0x874d9a09eb7aec5f:0xc8a6af8c9f745207",
+        "placeId": "ChIJX-x66wmaTYcRB1J0n4yvpsg"
+      },
+      {
+        "position": 13,
+        "title": "Intermountain Health Rocky Mountain Orthopedics Clinic",
+        "address": "627 25 1/2 Rd, Grand Junction, CO 81505",
+        "latitude": 39.0960816,
+        "longitude": -108.58075679999999,
+        "rating": 4.6,
+        "ratingCount": 436,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://intermountainhealthcare.org/locations/rocky-mountain-orthopedics-clinic?utm_campaign=gmb&utm_medium=organic&utm_source=local",
+        "phoneNumber": "(970) 242-3535",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/intermountain-health-co-orthopedics-59167?LocIdent=350367&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_bHBzTGQ3HEaD5U6gYvBTyh-lo_TvAwBaOCC0qx1rC50ekHUh-entity&rwg_token=AFd1xnHv63OPpCfzoozG2H5HMCpOKG0q398hjZIwh8tgoHiutTkAHqMcE-ZfccVORa-bBk-Vq4ITASDlOftTSNGzM17aXRB0T0b57bfNnICMmMHQhJuze5I%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAET5mASKm39Y3UsDqb1y1ef0QRTPalZLwV7UvuLBrJJApFkXZosT7GBhfsRbjCZa_ErODF5AmWg-JMENWKHzITOJfK9tVawl6Xf7w6jIvz8CsyxHtEloQ031Mrn9IjnHzVCnGnsVJFkYDP4",
+        "cid": "11798318206772313956",
+        "fid": "0x87471da8d85d8db5:0xa3bc0be61dafff64",
+        "placeId": "ChIJtY1d2KgdR4cRZP-vHeYLvKM"
+      },
+      {
+        "position": 14,
+        "title": "Spanish Fork Clinic - Orthopedics & Sports Medicine",
+        "address": "819 E Mkt Pl Dr, Spanish Fork, UT 84660",
+        "latitude": 40.1309338,
+        "longitude": -111.63980839999999,
+        "rating": 4.7,
+        "ratingCount": 56,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic",
+          "Medical clinic"
+        ],
+        "website": "https://intermountainhealthcare.org/locations/spanish-fork-clinic/orthopedics-sports-medicine?utm_campaign=gmb&utm_medium=organic&utm_source=local",
+        "phoneNumber": "(385) 344-6770",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4 PM",
+          "Tuesday": "9 AM–4 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://intermountainhealthcare.org/locations/spanish-fork-clinic/orthopedics-sports-medicine?utm_campaign=gmb&utm_source=reputation&utm_medium=organic"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERYBC2WRMiUvJ1ZzwOYMEc5P3Gv3-ADnGsOQsqbcw48mj9vSoRWCKzvhFtXUKmDTJLsSO3s-hnmc-TUYd1IiKlw0rGLBpfkC4VA8PMnkRA5ieuAbWbt3IY4p3Jd6XqnhGq-LokJw",
+        "cid": "17478638738968423381",
+        "fid": "0x874dbdcd77e4089b:0xf2909953c9982bd5",
+        "placeId": "ChIJmwjkd829TYcR1SuYyVOZkPI"
+      },
+      {
+        "position": 15,
+        "title": "Revere Health Orthopedics - Provo",
+        "address": "1055 N 500 W Bldg. C #121, Provo, UT 84604",
+        "latitude": 40.2485618,
+        "longitude": -111.6684015,
+        "rating": 4.5,
+        "ratingCount": 362,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://reverehealth.com/departments/provo-orthopedics-2?utm_source=GMBSocialClimb&utm_medium=RevereHealthOrthopedics-Provo",
+        "phoneNumber": "(801) 373-7350",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTrBnNJyPxgrdpW3etzRIQJPHh0nIOLYwrd28DSGdnNkIml9y5jIaXlBLktS-9IfrIPD9p6x25rVMUnxPLjwRqMrp-Pk6UidMKHRUoxM-C0I-aH9sjLGrOYKnd_AoXF8K9g1Z0",
+        "cid": "16614096188745004213",
+        "fid": "0x874d9a0a6a007d1b:0xe69120755a5134b5",
+        "placeId": "ChIJG30AagqaTYcRtTRRWnUgkeY"
+      },
+      {
+        "position": 16,
+        "title": "Robert Lesa, PA-C | Orthopedics | Orthopedic Surgery",
+        "address": "1100 S Medical Dr, Mt Pleasant, UT 84647",
+        "latitude": 39.531168199999996,
+        "longitude": -111.4609716,
+        "type": "Physician assistant",
+        "types": [
+          "Physician assistant"
+        ],
+        "website": "https://reverehealth.com/doctors/teiano-lesa-pa-c/",
+        "phoneNumber": "(801) 373-7350",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwQfUWOLJwGNLwg6prD9OOTG6R7CBVsMnromv3jmFko-fthlooklVpeM99OdSmYXgwtQr_BkOk1Nv-olFostyHvGwNw64G95UgGVsLVW-ZPOxWGSCFlD7c8xYPPw9_-8cAjN5Rs0VbqqYm",
+        "cid": "5349355589011689823",
+        "fid": "0x874c1575ff1781f9:0x4a3cba90ec4ad15f",
+        "placeId": "ChIJ-YEX_3UVTIcRX9FK7JC6PEo"
+      },
+      {
+        "position": 17,
+        "title": "Utah Valley Orthopedics Clinic",
+        "address": "1157 N 300 W, Provo, UT 84604",
+        "latitude": 40.2499304,
+        "longitude": -111.6647217,
+        "rating": 4.9,
+        "ratingCount": 379,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://intermountainhealthcare.org/locations/utah-valley-orthopedics-provo",
+        "phoneNumber": "(801) 357-1200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://intermountainhealthcare.org/locations/utah-valley-orthopedics-provo?utm_campaign=gmb&utm_source=reputation&utm_medium=organic"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_zcN1875muLxYsy12j1zHA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=352.3493&pitch=0&thumbfov=100",
+        "cid": "9195903644896658811",
+        "fid": "0x874d9176002f94ad:0x7f9e69a49ec9057b",
+        "placeId": "ChIJrZQvAHaRTYcRewXJnqRpnn8"
+      },
+      {
+        "position": 18,
+        "title": "Western Orthopedics & Sports Medicine",
+        "address": "2373 G Rd #100, Grand Junction, CO 81505",
+        "latitude": 39.1056455,
+        "longitude": -108.6138208,
+        "rating": 4.7,
+        "ratingCount": 469,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Physical therapy clinic"
+        ],
+        "website": "https://yourcommunityhospital.com/location/westernorthosports",
+        "phoneNumber": "(970) 245-0484",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhm4N6nVHv3tIwc_rn2NWIgoAGevWmUDDKoYh7fRoIkSRro8ZuUNg5oOGDp7XjzflymPwUkGSfitl4U1JGQ3A8aox5atz1TN5rE77pRe5XQHb41NSNLzn3vl7CZ--EEDSJ_TESmBMcSr4",
+        "cid": "12594897963981608754",
+        "fid": "0x87471c4bf69f35a3:0xaeca10f7b56a1732",
+        "placeId": "ChIJozWf9kscR4cRMhdqtfcQyq4"
+      },
+      {
+        "position": 19,
+        "title": "Holman Orthodontics",
+        "address": "35 E 400 S, Ephraim, UT 84627",
+        "latitude": 39.3527795,
+        "longitude": -111.5864644,
+        "rating": 5,
+        "ratingCount": 71,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://holmanortho.com/",
+        "phoneNumber": "(801) 405-8128",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/holman-orthodontics?lid=114777&rwg_token=AFd1xnETS7M3Yw-GSemZx8qFURt2K1h23wCaF368TDh6tLG12QkGdwzPIDcNRgBrmM2X_A84DcJFK_UOaRAU4ykZ5HGVUMlVgg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0JR-kmGooO8uQpVDkWyxXbduRIsHcemwIEIvxV0dDyujepfv2kLQ1HqRIE19wU3sC_eWn-xiDU_st5day68LyJwbHGZzFsEY203gPSiukRrvf6dzTrxmONJ6auC2ngil8rb2K",
+        "cid": "7039367651258272809",
+        "fid": "0x874c719bae5e4909:0x61b0db9528a00c29",
+        "placeId": "ChIJCUlerptxTIcRKQygKJXbsGE"
+      },
+      {
+        "position": 20,
+        "title": "Holman Orthodontics",
+        "address": "394 E 100 S St, Moroni, UT 84646",
+        "latitude": 39.523171999999995,
+        "longitude": -111.576016,
+        "rating": 4.1,
+        "ratingCount": 12,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://holmanortho.com/",
+        "phoneNumber": "(801) 405-8128",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_XPIf-JaOdeHwYieN628_jf3nLDM6CJfl4VYOmCLGRvmhOzZVZrl5cQ9fkmGA3K-Pc7GoORx5hxMm5dasw4CO2se4sGwEoRdwybaE8ZL_Q0tK3uGlwBdP5HqjiK99w0hmSMro",
+        "cid": "17303749536162953939",
+        "fid": "0x874c698b774b9ed5:0xf02344862152bad3",
+        "placeId": "ChIJ1Z5Ld4tpTIcR07pSIYZEI_A"
+      }
+    ],
+    "credits": 3
+  }
+}

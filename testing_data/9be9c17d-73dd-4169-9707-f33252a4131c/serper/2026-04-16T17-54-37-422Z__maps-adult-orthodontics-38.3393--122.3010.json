@@ -1,0 +1,611 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.33934,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4zMDA5NjU=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@41.0647694,-73.5503745,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Embrace Orthodontics",
+        "address": "61 4th St, Stamford, CT 06905",
+        "latitude": 41.0650603,
+        "longitude": -73.54271159999999,
+        "rating": 5,
+        "ratingCount": 38,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.westportortho.com/our-office-stamford/?utm_source=gmb&utm_medium=organic",
+        "phoneNumber": "(203) 324-3121",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.westportortho.com/email/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOQhOxl6AYlHrTILOHQCcJqrgouXqndE2P9CrQn1ppWbQDiUXqQeMymcsh1vUP8JOAIkj4S4Hfo-n0rK7T-dd8sFNqGO31HYAn83h9yDsqoO0DJpGTOmN4yzrrDwaWIjMi4kjv",
+        "cid": "14502947118683868245",
+        "fid": "0x89c2a1ecb19cc7e1:0xc944d190856d4c55",
+        "placeId": "ChIJ4cecseyhwokRVUxthZDRRMk"
+      },
+      {
+        "position": 2,
+        "title": "JB Orthodontics-Stamford",
+        "address": "67 Crescent St, Stamford, CT 06906",
+        "latitude": 41.0699989,
+        "longitude": -73.5172169,
+        "rating": 4.9,
+        "ratingCount": 69,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.jborthodonticsct.com/",
+        "phoneNumber": "(203) 252-2181",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxWEF84w46fM81TTxe_z5f3__44TPI2ASuPucRzqo1TigIJf-iYQ9R4DlBmKv9eEzBAIyqhAl-83IfyzNFGCFyVd-GchNw8xUU0hWKthcJOCdPY-U8OY52oR_F4K5dfqOXw8k8",
+        "cid": "14970063594698445061",
+        "fid": "0x89c2a1b11cf7b975:0xcfc059864b021105",
+        "placeId": "ChIJdbn3HLGhwokRBRECS4ZZwM8"
+      },
+      {
+        "position": 3,
+        "title": "Blue Wave Orthodontics LLC",
+        "address": "777 Boston Post Rd # 300, Darien, CT 06820",
+        "latitude": 41.0793915,
+        "longitude": -73.4684303,
+        "rating": 4.9,
+        "ratingCount": 69,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.bluewaveorthodontics.com/?utm_source=google.com&utm_medium=business+profile",
+        "phoneNumber": "(203) 800-7532",
+        "openingHours": {
+          "Thursday": "7:45 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "12–8 PM",
+          "Tuesday": "7:45 AM–5:30 PM",
+          "Wednesday": "7:45 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFlhQSSeBfFcpMTKG2HtpJc5NbkVNqPwy_pYoQlcyT73ZwQZns9i-1ToLPyrJTK9kj929vCv-xajUPBKkOMjW5moHyltwEtXN8SnaLPM0McUf3DWcatkaBFntRWabGTO1EVqyBn",
+        "cid": "17396209324295140228",
+        "fid": "0x89c2a0817ff5fb6d:0xf16bc0361cf33384",
+        "placeId": "ChIJbfv1f4GgwokRhDPzHDbAa_E"
+      },
+      {
+        "position": 4,
+        "title": "Dental Care Orthodontics",
+        "address": "1500 Summer St, Stamford, CT 06905",
+        "latitude": 41.0629251,
+        "longitude": -73.5428288,
+        "rating": 4.9,
+        "ratingCount": 354,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://dentalcareorthodontics.com/?utm_source=google&utm_medium=organic&utm_campaign=googlebusinessprofile",
+        "phoneNumber": "(475) 445-1801",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH39Bfer-aVM25RyxAglwwp2I8QhSkNfpLycI1w_2tALakfg3SBdtUIUqki9ZzY9AUPBTMeKOPUlDAMYiJjyFDfMf5R_wJVk38qHDljcNOk81cdB8E7Nfulc11l5ql3CCLKfjFI7A",
+        "cid": "14661347576263048353",
+        "fid": "0x89c2a1ec64879ecb:0xcb7791f103b17ca1",
+        "placeId": "ChIJy56HZOyhwokRoXyxA_GRd8s"
+      },
+      {
+        "position": 5,
+        "title": "Stamford Orthodontics",
+        "address": "999 Summer St, Stamford, CT 06905",
+        "latitude": 41.060171,
+        "longitude": -73.540341,
+        "rating": 4.6,
+        "ratingCount": 75,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.stamfordortho.net/",
+        "phoneNumber": "(203) 325-3331",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9444v4FmzacIy8KEJeDOT5oy0fPoMe1ckj6fd547T5Pkenx5tPAnOwWYqFwN_bk-AgDuVpluDPULj-bxkrQsgMyfMX06C68u0l-sRGXfrNsVSHtDpOSG5PvD5vWBHEsm_P0y2Gw",
+        "cid": "7856707722235177531",
+        "fid": "0x89c2a1e95cf725a7:0x6d08a20bf7e56a3b",
+        "placeId": "ChIJpyX3XOmhwokRO2rl9wuiCG0"
+      },
+      {
+        "position": 6,
+        "title": "Darien Orthodontics",
+        "address": "24 Old Kings Hwy S, Darien, CT 06820",
+        "latitude": 41.0756922,
+        "longitude": -73.46984499999999,
+        "rating": 4.9,
+        "ratingCount": 84,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://darienorthodontics.com/",
+        "phoneNumber": "(203) 655-4007",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7AzQW4MQG9jWngiPlhLfygtZzD3wkxEXuJtX_iKF60JnG4EI9a-2rmBVl3ygPxUE31yfdBRaPuevAgUuUOqaxBQnF1ZzY06e-hFec8ZhzN_u2DTA8d5V_iCSuua_s5AVz3SjA",
+        "cid": "16515681855124592475",
+        "fid": "0x89c2a080a178eb7f:0xe5337d24b610d75b",
+        "placeId": "ChIJf-t4oYCgwokRW9cQtiR9M-U"
+      },
+      {
+        "position": 7,
+        "title": "Bartley Family Orthodontics",
+        "address": "2001 W Main St Suite 131, Stamford, CT 06902",
+        "latitude": 41.0493467,
+        "longitude": -73.5639207,
+        "rating": 5,
+        "ratingCount": 196,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://bartleyfamilyortho.com/locations/orthodontist-in-stamford-ct/",
+        "phoneNumber": "(203) 428-4599",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "7:30 AM–6:30 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://bartleyfamilyortho.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGE-fF6TSuvG7nFcEaZ3kEzmZR116Yrx4n4SkajSiPLKJI7Nb8RzfRyCGFQjRh3jxkZIGPE0sbSfPea9rFV7W61PpXR2XLNcG7ft1s9fnfKdqs-ACyTU3zPQIUPhsuJ-4FEH_AJLQ",
+        "cid": "13864328648950898587",
+        "fid": "0x89c2a36a3001ec97:0xc067fd7329fd5f9b",
+        "placeId": "ChIJl-wBMGqjwokRm1_9KXP9Z8A"
+      },
+      {
+        "position": 8,
+        "title": "Diamond Braces Orthodontist: Braces & Invisalign",
+        "address": "2169 Summer St, Stamford, CT 06905",
+        "latitude": 41.0667839,
+        "longitude": -73.5452346,
+        "rating": 4.7,
+        "ratingCount": 345,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.diamondbraces.com/pages/location-stamford-ct/?utm_source=GMB&utm_campaign=Profile",
+        "phoneNumber": "(203) 357-5517",
+        "openingHours": {
+          "Thursday": "11 AM–7 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "11 AM–7 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEehACdHvOWZP7dOsfV_fiFKapwzaxJQV5_FfZrQ7vVxvYIBlrK9tMjo0_mqMoCFG1Kee4H0bIDypvtIKqzUaQ0RMwMXTZ3Unti-d1lSr56W9Iqapg7znnQXhVLak6ddsBhPIU",
+        "cid": "593900209125085444",
+        "fid": "0x89e81c2ed6ee0265:0x83df517f4ee5104",
+        "placeId": "ChIJZQLu1i4c6IkRBFHu9Bf1PQg"
+      },
+      {
+        "position": 9,
+        "title": "Riverside Orthodontics",
+        "address": "1171 E Putnam Ave #2c, Riverside, CT 06878",
+        "latitude": 41.041599399999996,
+        "longitude": -73.5813663,
+        "rating": 4.9,
+        "ratingCount": 108,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://riversideortho.net/",
+        "phoneNumber": "(203) 698-0045",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "12–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "10 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://riversideortho.net/our-office/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUBTrsc5WyLoF2ifk2LnPtETfd-G4dPSdyrMVkoJVJGLnfDdIk8Btw10bKqOmXTvaID7I1-e3rRDqz7KdlwSeZahihpL-mkCVywClcAmgIT0Z3To7E1ylwR_tCK6coPq2eq0DApQ",
+        "cid": "15240114267652363822",
+        "fid": "0x89c298bd382af41f:0xd37fc32e4bc8162e",
+        "placeId": "ChIJH_QqOL2YwokRLhbISy7Df9M"
+      },
+      {
+        "position": 10,
+        "title": "Rhee Orthodontics",
+        "address": "125 Strawberry Hill Ave, Stamford, CT 06902",
+        "latitude": 41.0645081,
+        "longitude": -73.53258699999999,
+        "rating": 5,
+        "ratingCount": 58,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://galloisortho.com/",
+        "phoneNumber": "(203) 348-7571",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "1:30–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://galloisortho.com/request-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHItSL-ZBBXYAPs_NjAmXHwEWJf4gXYf3vUu1OwggFGCbPJ7u8LKNdR_BlURZuuVZrrmnuJPulq-_xK9mj8bfe9QwEXCUvTMVMsG2SGafGgbrF2lzF9K_hViq1NPACqTWFEz-ZFHScvi4E",
+        "cid": "8018943102588190318",
+        "fid": "0x89c2a1bf804a69bf:0x6f490243ffd67e6e",
+        "placeId": "ChIJv2lKgL-hwokRbn7W_0MCSW8"
+      },
+      {
+        "position": 11,
+        "title": "JB Orthodontics",
+        "address": "346 Main Ave D, Norwalk, CT 06851",
+        "latitude": 41.1382784,
+        "longitude": -73.4249389,
+        "rating": 4.9,
+        "ratingCount": 108,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.jborthodonticsct.com/",
+        "phoneNumber": "(203) 866-7806",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_cPC9U3Ra4r8uDEebW0nQxi4C4AdAShMVgTkoEPEpcUek8UpLp0I-FvWDqGyy7rdYzIiXXaZdiJnD_ZiobbKy29YOV6nDR2bGvkr_tr8-UnL26hsRcotyYaloykbnTCpuCkU",
+        "cid": "15596400354391887598",
+        "fid": "0x89e81c30b1fa9c3b:0xd8718b7d324e0eee",
+        "placeId": "ChIJO5z6sTAc6IkR7g5OMn2Lcdg"
+      },
+      {
+        "position": 12,
+        "title": "Norwalk Orthodontics",
+        "address": "10 Mott Ave STE 3C, Norwalk, CT 06850",
+        "latitude": 41.1164321,
+        "longitude": -73.41702269999999,
+        "rating": 4.9,
+        "ratingCount": 261,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://norwalkorthodontics.com/",
+        "phoneNumber": "(203) 295-7151",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/norwalk-orthodontics-127411?LocIdent=308428&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_YXil9W2f6Uattn17LWvGuB-lo_dpGZBUsNdUm7Mpu_CY0r2R-entity&rwg_token=AFd1xnHr5wH2UhN9JJgXGPBnARYMOBNKahM_NAfLwhZ9jHETxeNZ7SguH-lYZM42aqWiJtTl_lJn4Zdic9kiADxiTxaHgtSP_w%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2zIrBHnyeYqJA14WgK8XeMri96VmYO6wEqOaxphIIHzjHp1Cow_cKlPLlvXp9zlVAIwR2MW0iNzcn_-ihJIlDmJ6ysRRFH1raNx6yY7M9ixLpy9H06KdUfGscnVU5sj_hC0lDIf84rS_v",
+        "cid": "7886209977182992960",
+        "fid": "0x89e81c32a3ef6d49:0x6d717230fa223a40",
+        "placeId": "ChIJSW3vozIc6IkRQDoi-jBycW0"
+      },
+      {
+        "position": 13,
+        "title": "Monarch Orthodontics",
+        "address": "106 Noroton Ave Suite 201, Darien, CT 06820",
+        "latitude": 41.0677448,
+        "longitude": -73.4895603,
+        "rating": 5,
+        "ratingCount": 3,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.monarchsmile.com/",
+        "phoneNumber": "(203) 309-2020",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "12–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFYoG_A7TY9n8M5px7NWe0KtPuszCgRWAhWS0zXA4Gzf7vYRyljfLeJYMsYTNoculWoUMSi39fi4LYq1tzGK8RckzfS6mmaDTHyi9jIkUbUnFcKw9pGEN46tHQaA8l09H9NLdLC",
+        "cid": "6952778899033351603",
+        "fid": "0x89c2a1c52930109d:0x607d3b923eb6e5b3",
+        "placeId": "ChIJnRAwKcWhwokRs-W2PpI7fWA"
+      },
+      {
+        "position": 14,
+        "title": "Garrick F. Wong DMD Orthodontics",
+        "address": "453 E Putnam Ave # 2, Cos Cob, CT 06807",
+        "latitude": 41.0398731,
+        "longitude": -73.5945926,
+        "rating": 5,
+        "ratingCount": 25,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.drgarrickfwong.com/?utm_source=gmb&utm_medium=organic",
+        "phoneNumber": "(203) 625-9888",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.drgarrickfwong.com/contact-us/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeKnYXR_tgQ9jf83GcigOLU9DlgRgiZwuevaaz4cakptkyYB_paRuxKR9UaQlvl6B0-vyzacuN8joxKmudEtLzsnyWb9GP4yuevZ__6cweElyKdNavYEJ-V20hk_G-t9EyA6rt",
+        "cid": "9539868038681656903",
+        "fid": "0x89c2988add96ec39:0x84646b6fd1b8fe47",
+        "placeId": "ChIJOeyW3YqYwokRR_640W9rZIQ"
+      },
+      {
+        "position": 15,
+        "title": "Goldman Orthodontic Arts",
+        "address": "1200 High Ridge Rd, Stamford, CT 06905",
+        "latitude": 41.1101782,
+        "longitude": -73.5479308,
+        "rating": 4.8,
+        "ratingCount": 57,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://www.goldmanorthodontics.com/",
+        "phoneNumber": "(203) 329-2712",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "11 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "2–6 PM",
+          "Wednesday": "1–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu8CSEpnz0rinfsUg13Jr6iyfn50R8Ga-_XVFzzzcffvivvsyibnO37BinVujbHNnjkCSV-IX5Pemy9P8SrTWaREMWhJBWCF6XkTJiCj5o9rmbFaVYmgyUbeKEqFcYsDIJL0xkIGVS7Sg",
+        "cid": "9737606092848789580",
+        "fid": "0x89c2a1434bbda06f:0x8722ed263eee784c",
+        "placeId": "ChIJb6C9S0OhwokRTHjuPibtIoc"
+      },
+      {
+        "position": 16,
+        "title": "Blue Wave Orthodontics - Rye",
+        "address": "262 Purchase St, Rye, NY 10580",
+        "latitude": 40.9912604,
+        "longitude": -73.6837264,
+        "rating": 4.9,
+        "ratingCount": 91,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.bluewaveorthodontics.com/?utm_source=google.com&utm_medium=business+profile",
+        "phoneNumber": "(914) 559-2338",
+        "openingHours": {
+          "Thursday": "7:45 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "12–8 PM",
+          "Tuesday": "7:45 AM–5:30 PM",
+          "Wednesday": "7:45 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSJqLPxwqd5cF_Tc-C0G-nX6ve9cqZnS6paGYxdLBOZgYbbvACCMylr8j4gUkG5wtiUfF768bcTc8Z4Aaw4uXtLIssZ7sTH9wgdtf__253XgHh4NuTL_x3YvsRpxZq8AJz5KmO",
+        "cid": "2222198403847924423",
+        "fid": "0x89c297339a43c757:0x1ed6d5acb1cbaac7",
+        "placeId": "ChIJV8dDmjOXwokRx6rLsazV1h4"
+      },
+      {
+        "position": 17,
+        "title": "Dr. Bina Park Orthodontics",
+        "address": "42 Sherwood Pl, Greenwich, CT 06830",
+        "latitude": 41.034347499999996,
+        "longitude": -73.6259437,
+        "rating": 5,
+        "ratingCount": 46,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.drbinapark.com/",
+        "phoneNumber": "(203) 900-1111",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "10 AM–5 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwvaIj93HLoj18cTXRLYyscV0eh_SUBOmAmM3sTBFM-FXCXKcGXsxEbf8Te_7NfDL_FVoQYxGKtEXleI0wnjFpRmX98JlgDKOFL3ZMAbdgV7suKrsW3R7t-f8cJG6rfA59mFxAlhLJhBhi",
+        "cid": "14600648074508850484",
+        "fid": "0x89c29841376683c3:0xca9fec10f3975534",
+        "placeId": "ChIJw4NmN0GYwokRNFWX8xDsn8o"
+      },
+      {
+        "position": 18,
+        "title": "Embrace Orthodontics",
+        "address": "453 E Putnam Ave 2nd Floor, Cos Cob, CT 06807",
+        "latitude": 41.0399088,
+        "longitude": -73.59476889999999,
+        "rating": 4.5,
+        "ratingCount": 4,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.westportortho.com/our-office-cos-cob/?utm_source=gmb&utm_medium=organic",
+        "phoneNumber": "(203) 625-9888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.westportortho.com/email/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqONKSq8JzTkPoFHAoTRfj5E5q6icbkB5WfE7-l3dgcjujlsn_3K9KG8bwJVOwSDDQ4GAP5EHhONdDXb3q_nSwfpfSgry_OhaxNUettZCYvuXQwyiTq5JmT8BzXM9fNylRkRlhfv7WQWuo",
+        "cid": "3019538293760627039",
+        "fid": "0x89c29966f34ff6c9:0x29e78e14794a915f",
+        "placeId": "ChIJyfZP82aZwokRX5FKeRSO5yk"
+      },
+      {
+        "position": 19,
+        "title": "Greenwich Braces",
+        "address": "4 Dearfield Dr, Greenwich, CT 06831",
+        "latitude": 41.0289301,
+        "longitude": -73.6308643,
+        "rating": 4.6,
+        "ratingCount": 51,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.greenwichbraces.com/",
+        "phoneNumber": "(203) 869-2044",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "8:30 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFi_29-cpBkL_pVeScN8QPfseQeSUgRE6WzcTIe5jtre7ylyDkQGkjUI6GJhBZ68HLl_Ffxfni9wvmdxwEuqxQO5rmN7Ck5T6uh8DwFX0wlhRRDySHJtsWQce8iTCAeuv3YdZQo",
+        "cid": "17227397476485089413",
+        "fid": "0x89c29837eb884d0b:0xef1402baee5ac885",
+        "placeId": "ChIJC02I6zeYwokRhcha7roCFO8"
+      },
+      {
+        "position": 20,
+        "title": "Dr. Jeffrey Drayer",
+        "address": "999 Summer St # 201, Stamford, CT 06905",
+        "latitude": 41.0602026,
+        "longitude": -73.54019989999999,
+        "rating": 3.9,
+        "ratingCount": 19,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Practitioner service location"
+        ],
+        "website": "http://www.stamfordortho.net/",
+        "phoneNumber": "(203) 325-3331",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_O83y4V0pOMUPdLfWfPm7w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=53.629883&pitch=0&thumbfov=100",
+        "cid": "13665598496871947895",
+        "fid": "0x89c2a1e9674bf28f:0xbda5f56df12a1e77",
+        "placeId": "ChIJj_JLZ-mhwokRdx4q8W31pb0"
+      }
+    ],
+    "credits": 3
+  }
+}

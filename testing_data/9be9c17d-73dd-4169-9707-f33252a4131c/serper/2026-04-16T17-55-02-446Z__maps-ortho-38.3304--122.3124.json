@@ -1,0 +1,568 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@40.6287612,-80.4185721,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "James A. Shaer, M.D.",
+        "address": "425 W 5th St, East Liverpool, OH 43920",
+        "latitude": 40.621848799999995,
+        "longitude": -80.5861388,
+        "rating": 3.8,
+        "ratingCount": 19,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.elch.org/find-a-provider/james-a-shaer-md/?utm_source=GMBSocialClimb&utm_medium=JamesA.Shaer%2CM.D.",
+        "phoneNumber": "(330) 385-7200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtdyACaqP8V17USng-WFIHdVmgc6F2OS-gzKp7BAzJAYMbCQxBDGDZ-3DWnzBwVTvMke0RGNEjUc_zMhzoTxL5PHJMfZXe7jQPjpSTWQ9GnXu8Y-8JBhY1YzDIRQo5iA-tcW0",
+        "cid": "8532783561439643675",
+        "fid": "0x883417b06ac73853:0x766a8970c4e7081b",
+        "placeId": "ChIJUzjHarAXNIgRGwjnxHCJanY"
+      },
+      {
+        "position": 2,
+        "title": "River Valley Physicians General Surgery & Orthopedic Surgery",
+        "address": "425 W 5th St 6th Floor, East Liverpool, OH 43920",
+        "latitude": 40.621848899999996,
+        "longitude": -80.58613869999999,
+        "rating": 5,
+        "ratingCount": 26,
+        "type": "Surgical center",
+        "types": [
+          "Surgical center",
+          "Surgeon"
+        ],
+        "website": "http://elch.org/?utm_source=GMBSocialClimb&utm_medium=RiverValleyPhysiciansGeneralSurgery&OrthopedicSurgery",
+        "phoneNumber": "(330) 915-3088",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P74vmQK7edVqly9VgwWG6A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=218.80789&pitch=0&thumbfov=100",
+        "cid": "8519675313800565482",
+        "fid": "0x8834171ef6940aa1:0x763bf78f08bf52ea",
+        "placeId": "ChIJoQqU9h4XNIgR6lK_CI_3O3Y"
+      },
+      {
+        "position": 3,
+        "title": "Ohio Sports & Spine Institute",
+        "address": "16844 St Clair Ave #1, East Liverpool, OH 43920",
+        "latitude": 40.6563151,
+        "longitude": -80.5735796,
+        "rating": 4.9,
+        "ratingCount": 51,
+        "type": "Chiropractor",
+        "types": [
+          "Chiropractor",
+          "Massage therapist",
+          "Occupational medical physician",
+          "Physical therapy clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.ohiosportsandspine.com/",
+        "phoneNumber": "(330) 386-6500",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "10 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.ohiosportsandspine.com/patient-forms/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeMrxM8_HGImNM-4XX8atAGus6hLTknBCtr0gywjgfSIQcO_kFTA7LRpPMd4CouKKF3-cE2UxYIn3vBRoqT366yEWDW0v4da0ryKeS6dEtnfeWXADROJvAUsKiwtDxMQv9Ik9V",
+        "cid": "16288156939019219678",
+        "fid": "0x88341133b27005a5:0xe20b28700c0df2de",
+        "placeId": "ChIJpQVwsjMRNIgR3vINDHAoC-I"
+      },
+      {
+        "position": 4,
+        "title": "Marcy Dickey, D.O. Orthopedics",
+        "address": "425 W 5th St, East Liverpool, OH 43920",
+        "latitude": 40.621848799999995,
+        "longitude": -80.5861388,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(330) 386-2047",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P74vmQK7edVqly9VgwWG6A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=218.80748&pitch=0&thumbfov=100",
+        "cid": "8863387105289440452",
+        "fid": "0x8834173c4734096b:0x7b01139cad8e0cc4",
+        "placeId": "ChIJawk0RzwXNIgRxAyOrZwTAXs"
+      },
+      {
+        "position": 5,
+        "title": "Timothy Domer, DO - Southwoods Health - Orthopaedic Surgeon",
+        "address": "16687 St Clair Ave # 101, Calcutta, OH 43920",
+        "latitude": 40.6591155,
+        "longitude": -80.57481,
+        "rating": 4.4,
+        "ratingCount": 18,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.southwoodshealth.com/findaphysician/timothy-domer/",
+        "phoneNumber": "(234) 233-2854",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZZfE04mtYoIr4DaFknOzKnefpg6ODha83BYa4GuG_kViK6yOQIaDnpdhdAZLy3Hwp1VaynB2yWV5G-4hwlxoTMVBQBSAuKflSPiV-HnAm5MKXSO96NRlNMhe0takb3Bvm85BwCFAjJE8m",
+        "cid": "12764287419016797388",
+        "fid": "0x883411317882fc4b:0xb123dbc78d7bdccc",
+        "placeId": "ChIJS_yCeDERNIgRzNx7jcfbI7E"
+      },
+      {
+        "position": 6,
+        "title": "Southwoods Health Calcutta",
+        "address": "16687 St Clair Ave # 101, Calcutta, OH 43920",
+        "latitude": 40.6589422,
+        "longitude": -80.5748,
+        "rating": 3.8,
+        "ratingCount": 4,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Family practice physician",
+          "Doctor",
+          "Pain management physician"
+        ],
+        "website": "https://www.southwoodshealth.com/calcutta/",
+        "phoneNumber": "(330) 516-8020",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbJug_qLnrSVR8f7XMbYK7txuROO4hUjrDErZEXiSNYMKEPs9CQOydrxyVh2ZslAUQn-kCFe2CUHqYS3DtpQEKFX1KLuQg498oVsC6fato-GrODrl70DCf4NnzOkC53uNjU8W_aZAuX5Je",
+        "cid": "951836962066837918",
+        "fid": "0x88341112c9c1bd5f:0xd359aac8814b19e",
+        "placeId": "ChIJX73ByRIRNIgRnrEUiKyaNQ0"
+      },
+      {
+        "position": 7,
+        "title": "Orthopedic And Sports Clinic",
+        "address": "Gonzales Ave, East Liverpool, OH 43920",
+        "latitude": 40.6589096,
+        "longitude": -80.5722152,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://orthopaedicandsportsclinic.com/",
+        "phoneNumber": "(225) 743-2000",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mziED-I2b2dtN_fQq4hBSA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=79.38955&pitch=0&thumbfov=100",
+        "cid": "16618854965436360100",
+        "fid": "0x88341133fd53b42d:0xe6a2088a649225a4",
+        "placeId": "ChIJLbRT_TMRNIgRpCWSZIoIouY"
+      },
+      {
+        "position": 8,
+        "title": "HVMG Orthopedics - Beaver",
+        "address": "1030 Beaner Hollow Rd, Beaver, PA 15009",
+        "latitude": 40.710777,
+        "longitude": -80.3181553,
+        "rating": 3.1,
+        "ratingCount": 24,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "https://www.heritagevalley.org/practices/hvmg-orthopedics/",
+        "phoneNumber": "(724) 775-4242",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=skcDl0TguQVN_Ekl5dxhbw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=118.912895&pitch=0&thumbfov=100",
+        "cid": "10865752588640632730",
+        "fid": "0x88346fd5ac8354d5:0x96cae868ff34bf9a",
+        "placeId": "ChIJ1VSDrNVvNIgRmr80_2joypY"
+      },
+      {
+        "position": 9,
+        "title": "Ankle & Foot Care Centers",
+        "address": "16844 St Clair Ave, East Liverpool, OH 43920",
+        "latitude": 40.6563911,
+        "longitude": -80.5734176,
+        "rating": 4,
+        "ratingCount": 5,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Podiatrist"
+        ],
+        "website": "http://www.ankleandfootcare.com/",
+        "phoneNumber": "(330) 385-2413",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=X1DOG5-gzovwiurHx9ki5Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=167.31256&pitch=0&thumbfov=100",
+        "cid": "16499388457758400822",
+        "fid": "0x88341133b27005a5:0xe4f99a6283dea136",
+        "placeId": "ChIJpQVwsjMRNIgRNqHeg2Ka-eQ"
+      },
+      {
+        "position": 10,
+        "title": "Trinity Professional Group (East Liverpool)",
+        "address": "146 W 5th St, East Liverpool, OH 43920",
+        "latitude": 40.6197121,
+        "longitude": -80.5814917,
+        "rating": 4,
+        "ratingCount": 5,
+        "type": "Medical group",
+        "types": [
+          "Medical group"
+        ],
+        "website": "https://trinityhealth.com/professional-group/",
+        "phoneNumber": "(740) 264-8000",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqM7EKYLpOBfXIUtzA0kzzsctc3Iibne6KqaJSW-mWkQuPsKobDO8Y7OUYgz1JSdqPeSNhKmfZsOsfxnvsEAtrdXQIGtz_twZ4vNafzAs3UmuJiJDB6eQ21mgzGEizIS46tEbf",
+        "cid": "14730093466678406035",
+        "fid": "0x883416fbdeb6ec8d:0xcc6bcdf6edab2b93",
+        "placeId": "ChIJjey23vsWNIgRkyur7fbNa8w"
+      },
+      {
+        "position": 11,
+        "title": "Mercy Health - Columbiana Orthopedic Walk-In Care",
+        "address": "107 Royal Birkdale, Columbiana, OH 44408",
+        "latitude": 40.887803399999996,
+        "longitude": -80.6500544,
+        "rating": 4.9,
+        "ratingCount": 8,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.mercy.com/locations/specialty-locations/orthopedics-sports-medicine-spine/mercy-health-columbiana-orthopedic-walk-in-care",
+        "phoneNumber": "(330) 482-9371",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BRM5B-fHfLQrA_2XoCqlKQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=193.33109&pitch=0&thumbfov=100",
+        "cid": "3290920790392382097",
+        "fid": "0x883407de9c0a7d9b:0x2dabb305d7492291",
+        "placeId": "ChIJm30KnN4HNIgRkSJJ1wWzqy0"
+      },
+      {
+        "position": 12,
+        "title": "Orthopaedic Specialists – UPMC",
+        "address": "1800 Franklin St Specialty Suite, Toronto, OH 43964",
+        "latitude": 40.4524171,
+        "longitude": -80.6107859,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.upmc.com/services/orthopaedics/locations/southwest-pa/toronto?utm_source=google&utm_medium=organic&utm_campaign=business-profile&utm_content=orthopaedics-swpa-orthopaedic-specialists-upmc",
+        "phoneNumber": "(877) 471-0935",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "cid": "6173549541365377166",
+        "fid": "0x88343b3ae12590ad:0x55acda99585be88e",
+        "placeId": "ChIJrZAl4To7NIgRjuhbWJnarFU"
+      },
+      {
+        "position": 13,
+        "title": "Trinity Health System - Orthopedics & Sports Medicine",
+        "address": "3151 Johnson Rd, Steubenville, OH 43952",
+        "latitude": 40.3697191,
+        "longitude": -80.6617131,
+        "rating": 4.3,
+        "ratingCount": 46,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.trinitysportsmedicine.com/?utm_source=LocalSearch&utm_medium=Facility&utm_campaign=TrinityHealthSystem&utm_term=TrinitySportsMedicineandPerformanceCenter&y_source=1_MTQ3MjEwMjktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(740) 266-3866",
+        "openingHours": {
+          "Thursday": "6 AM–5 PM",
+          "Friday": "6 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6 AM–5 PM",
+          "Tuesday": "6 AM–5 PM",
+          "Wednesday": "6 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEks79qEiMgyrTdRIiyaxMNi3Z3zqaiy87cCI0OPR7_Tq9KUf0MpEaEO0i3QAhS8qcsBS533qlDlOLo_Ur8Hu3nArwAeoWSsVN1wZZre0pqU4juFa8JFcLH7bQ0DlydrNHeC4jEQQ",
+        "cid": "8774364630836851763",
+        "fid": "0x88342e48c63f5e3f:0x79c4ce24a6c83433",
+        "placeId": "ChIJP14_xkguNIgRMzTIpiTOxHk"
+      },
+      {
+        "position": 14,
+        "title": "Summit Physical Therapy",
+        "address": "118 W Carolina Ave, Chester, WV 26034",
+        "latitude": 40.6095228,
+        "longitude": -80.570788,
+        "rating": 5,
+        "ratingCount": 46,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapist",
+          "Physical therapy clinic"
+        ],
+        "website": "https://summitptofwv.com/",
+        "phoneNumber": "(304) 387-4110",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=p3TbCTJ_USByeOh9ayF01Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=118.34324&pitch=0&thumbfov=100",
+        "cid": "2489116531306230925",
+        "fid": "0x8834165eb9b06fb1:0x228b1e4c1d0f748d",
+        "placeId": "ChIJsW-wuV4WNIgRjXQPHUweiyI"
+      },
+      {
+        "position": 15,
+        "title": "Greater Pittsburgh Orthopaedic Associates (GPOA) - Sewickley",
+        "address": "1099 Ohio River Blvd, Sewickley, PA 15143",
+        "latitude": 40.532823799999996,
+        "longitude": -80.1754311,
+        "rating": 4.9,
+        "ratingCount": 907,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "website": "https://gpoa.com/",
+        "phoneNumber": "(412) 262-7800",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.gpoa.com/appointment_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHohN3ECimYVXHBiI9LN_nYu4hrg_FUxz4DgLxeuAliJmZohQUVEDcjz5C3oXBiYAtc60uH9MAEZeUWWvhFnMJhhjz5FOmtuYx2enjbwt0yYTW60izq5gFQHWSVxo81wn0pH99w3A",
+        "cid": "11208206271452660157",
+        "fid": "0x88345e1b26717867:0x9b8b8c38633dc1bd",
+        "placeId": "ChIJZ3hxJhteNIgRvcE9YziMi5s"
+      },
+      {
+        "position": 16,
+        "title": "Mercy Health - Columbiana Orthopaedics",
+        "address": "107 Royal Birkdale, Columbiana, OH 44408",
+        "latitude": 40.887803399999996,
+        "longitude": -80.6500544,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.mercy.com/locations/specialty-locations/orthopedics-sports-medicine-spine/mercy-health-columbiana-orthopaedics",
+        "phoneNumber": "(330) 482-0937",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://chpepiceweb.health-partners.org/mychart/openscheduling/standalone?dept=19176032&linksource=local_booking_link"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BRM5B-fHfLQrA_2XoCqlKQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=193.33109&pitch=0&thumbfov=100",
+        "cid": "4428210753070263601",
+        "fid": "0x8834074137a883dd:0x3d742a37df516d31",
+        "placeId": "ChIJ3YOoN0EHNIgRMW1R3zcqdD0"
+      },
+      {
+        "position": 17,
+        "title": "Steel City Orthodontics",
+        "address": "485 Colliers Way Ste E, Weirton, WV 26062",
+        "latitude": 40.3953625,
+        "longitude": -80.5281389,
+        "rating": 4.9,
+        "ratingCount": 41,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.steelcityorthodontics.com/",
+        "phoneNumber": "(304) 723-3276",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://steelcityorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUzBuLVivinbAQavGyGvOh_rMWCILV3Mk8gsEje6On5bqfHg3EWlbFllIl47XAmAsybWEDfXMK2Ya2vl0RKSvjWPiorjUcJdQ-LNgkXerCIR06UB-KNCzuNitpdiv13nLYyjocwFRuonwh",
+        "cid": "2065993334455639443",
+        "fid": "0x88343bf3138ee9cd:0x1cabe1fdd88d9d93",
+        "placeId": "ChIJzemOE_M7NIgRk52N2P3hqxw"
+      },
+      {
+        "position": 18,
+        "title": "Greater Pittsburgh Orthopaedic Associates - Moon",
+        "address": "725 Cherrington Pkwy # 200, Coraopolis, PA 15108",
+        "latitude": 40.4922313,
+        "longitude": -80.2038061,
+        "rating": 4.8,
+        "ratingCount": 1146,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "website": "https://gpoa.com/",
+        "phoneNumber": "(412) 262-7800",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.gpoa.com/appointment_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1S3DE5XcMkwQZz_dn4TscZZoTS39tsStWIaUg08_UrmolNIywWWF081THWIwAosUB_vuVjVrqvpvXBuiA6xG_BxYHmsiVy20B-S3h9cVrfOr1yTu8pMRXENm73btAOlj0eOWH",
+        "cid": "14268830423925624864",
+        "fid": "0x88345c30a62b8deb:0xc60511abca5f9020",
+        "placeId": "ChIJ640rpjBcNIgRIJBfyqsRBcY"
+      },
+      {
+        "position": 19,
+        "title": "East Liverpool City Hospital",
+        "address": "425 W 5th St, East Liverpool, OH 43920",
+        "latitude": 40.6217986,
+        "longitude": -80.58649679999999,
+        "rating": 3.8,
+        "ratingCount": 418,
+        "type": "Hospital",
+        "types": [
+          "Hospital",
+          "Emergency room",
+          "Nursing home",
+          "Pharmacy"
+        ],
+        "website": "https://www.elch.org/?utm_source=GMBlisting&utm_medium=Organic&utm_campaign=GMBWebsite",
+        "phoneNumber": "(330) 385-7200",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwq7IsQvXlQuDmQ-NlTWrIeVmLTYBxEBp8QsjDzLvXe6xWmM5Qpab95Zp6GiyEPHLiF0ZbV_Xa60aZsWve0ufSzVYp7y4FBjQqFMd1W-cG5wf33F7VTsdndqAnRCv9ia9_JZiK",
+        "cid": "9435047616967633161",
+        "fid": "0x883416fdaf0238e1:0x82f005d190406909",
+        "placeId": "ChIJ4TgCr_0WNIgRCWlAkNEF8II"
+      },
+      {
+        "position": 20,
+        "title": "ASP Orthopedics and Sports Medicine",
+        "address": "1030 Beaner Hollow Rd, Beaver, PA 15009",
+        "latitude": 40.710451899999995,
+        "longitude": -80.3180699,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Corporate office",
+        "types": [
+          "Corporate office"
+        ],
+        "phoneNumber": "(724) 775-4242",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aBXmPJg5wE1YPYYd1EXAng&cb_client=search.gws-prod.gps&w=80&h=92&yaw=51.681892&pitch=0&thumbfov=100",
+        "cid": "3255863727545147498",
+        "fid": "0x88346fd453bf4eb9:0x2d2f26cf5568606a",
+        "placeId": "ChIJuU6_U9RvNIgRamBoVc8mLy0"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.31239,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzEyMzksLTEyMi4yOTUyNA==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@44.6317629,-94.4973871,9z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Southern Minnesota Orthodontics",
+        "address": "5 S German St, New Ulm, MN 56073",
+        "latitude": 44.3137087,
+        "longitude": -94.4570445,
+        "rating": 5,
+        "ratingCount": 8,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.smnortho.com/",
+        "phoneNumber": "(507) 354-3325",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGA85r_qrun8rJ2Wke4no3XaRkK4NGpqVtKjLEvL5qWJgIZR4DuEBj60ckKbpoVdSKxU7HrpJCQr4NqoJrYIgt7ARngQaIqyF1K_uo3iiG8wsuTZ10sMvuk_bRRYL6rBw6v6L8Xj958Vx5y",
+        "cid": "5120631632911605215",
+        "fid": "0x87f501df9f0edd89:0x4710235701531ddf",
+        "placeId": "ChIJid0On98B9YcR3x1TAVcjEEc"
+      },
+      {
+        "position": 2,
+        "title": "Twin Cities Spine Center",
+        "address": "Medical Center Clinic, 1324 5th St N, New Ulm, MN 56073",
+        "latitude": 44.3134203,
+        "longitude": -94.4768833,
+        "rating": 4.7,
+        "ratingCount": 19,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.tcspine.com/find-us/locations/?utm_source=GMBSocialClimb&utm_medium=TwinCitiesSpineCenter",
+        "phoneNumber": "(612) 775-6200",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.tcspine.com/patient-resources/schedule-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3BtIEvzlIMF77s0JFEOaBoo3FwqAvEcjNb1oSkLPNIwUrx5dbPxtU30otndL0N81F5Jovq0DHtascf0tcOk8Is2NQh9eifFLcSa1IHn30_b1c5MDY_EQxH2lUuEGRFbU0V3ctsYC2pg4",
+        "cid": "12578452241180411252",
+        "fid": "0x87f5019eca267ec5:0xae8fa3ab7bc64574",
+        "placeId": "ChIJxX4myp4B9YcRdEXGe6ujj64"
+      },
+      {
+        "position": 3,
+        "title": "Benjamin Mueller, MD",
+        "address": "Medical Center Clinic, 1324 5th St N, New Ulm, MN 56073",
+        "latitude": 44.313773399999995,
+        "longitude": -94.4756709,
+        "rating": 5,
+        "ratingCount": 14,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.tcspine.com/our-team/benjamin-mueller-md-phd/?utm_source=GMBSocialClimb&utm_medium=BenjaminMueller%2CMD",
+        "phoneNumber": "(612) 775-6200",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFujIoTDtZtjfHelEUvds8PawDy9GEz5oGAkjDYEoQQ7iVGFbKs7qJmsLhc7EYZ-k4P6CJ8iDT0KXw49_WXAMc8WlNIEKEmeykb17oUsgoH9LOsyaMyKyTrvpaopOFevuCn7GCQ",
+        "cid": "7035360513868518743",
+        "fid": "0x87f5012c42f9cd2d:0x61a29f1cc7f15557",
+        "placeId": "ChIJLc35QiwB9YcRV1XxxxyfomE"
+      },
+      {
+        "position": 4,
+        "title": "Orthopaedic & Fracture Clinic (OFC)",
+        "address": "1431 Premier Dr, Mankato, MN 56001",
+        "latitude": 44.1951192,
+        "longitude": -93.9513173,
+        "rating": 4.9,
+        "ratingCount": 514,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.ofc-clinic.com/",
+        "phoneNumber": "(507) 386-6600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.ofc-clinic.com/appointments?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-mankato"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFo83TL4-q2UuTMN7XQGsDxHMVNBYDcmS_dVodizCW0zfkDILkeugogubRQ5BNVElwErUriGj5TDD2NOzPtM4kD2X_4plzWd1jJhy5LAP7kl5fhL3kydk-H_dBg7uBj9v45i5nO11h_3g",
+        "cid": "12198988322494060194",
+        "fid": "0x87f4308bf3626571:0xa94b833f0d6596a2",
+        "placeId": "ChIJcWVi84sw9IcRopZlDT-DS6k"
+      },
+      {
+        "position": 5,
+        "title": "Sleepy Eye Medical Center",
+        "address": "400 4th Ave NW, Sleepy Eye, MN 56085",
+        "latitude": 44.2995695,
+        "longitude": -94.7287229,
+        "rating": 3.8,
+        "ratingCount": 26,
+        "type": "Doctor",
+        "types": [
+          "Doctor",
+          "Hospital"
+        ],
+        "website": "https://semedicalcenter.org/",
+        "phoneNumber": "(507) 794-3691",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZav8yKG9PbgWNVa86wx70HZ25ZKaSZm6TLCgDTYpah52h07LsNdA2fy0UHQch5qRZmSf6-w6IWUTGBxsvMBtqd66VSkiDSiKkRt0kHKOuBxSiCg1yOrZITyYZ7R34l_a-nQ7p",
+        "cid": "8847234748007693824",
+        "fid": "0x87f4dfffcea2ac47:0x7ac7b120ef7dbe00",
+        "placeId": "ChIJR6yizv_f9IcRAL597yCxx3o"
+      },
+      {
+        "position": 6,
+        "title": "Dr. Venkata K. Murthy, MD",
+        "address": "400 4th Ave NW, Sleepy Eye, MN 56085",
+        "latitude": 44.299588199999995,
+        "longitude": -94.72813649999999,
+        "type": "Surgeon",
+        "types": [
+          "Surgeon",
+          "Family practice physician"
+        ],
+        "phoneNumber": "(507) 794-3691",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=qCXAgdBQAnaxFPVMQB943w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=304.23428&pitch=0&thumbfov=100",
+        "cid": "9213362558597875702",
+        "fid": "0x87f4e0007df1e5cf:0x7fdc706ebc1c47f6",
+        "placeId": "ChIJz-XxfQDg9IcR9kccvG5w3H8"
+      },
+      {
+        "position": 7,
+        "title": "Orthopaedic And Fracture Clinic",
+        "address": "602 N Jackson Ave, Springfield, MN 56087",
+        "latitude": 44.2459892,
+        "longitude": -94.9722046,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "phoneNumber": "(507) 723-4231",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZlW6FT7_mgk4gqKE8PPJ2A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=12.318478&pitch=0&thumbfov=100",
+        "cid": "6605957674218589688",
+        "fid": "0x87f4d68370ebc39f:0x5bad13813d108df8",
+        "placeId": "ChIJn8PrcIPW9IcR-I0QPYETrVs"
+      },
+      {
+        "position": 8,
+        "title": "Orthodontic Specialists of Southern Minnesota",
+        "address": "1591 Tullamore St, Mankato, MN 56001",
+        "latitude": 44.167876199999995,
+        "longitude": -93.9645609,
+        "rating": 5,
+        "ratingCount": 542,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.mankatobraces.com/",
+        "phoneNumber": "(507) 779-7139",
+        "openingHours": {
+          "Thursday": "8 AM–1 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://mankatobraces.com/contact-us-mankato"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMF4tiHqE7NyGgIWq5I4KRPIu7jMl2rb0ZGaA0bOml98c6b9CJdQEeJZSwz1E-XXGS4eXipdl5GhSiHZvDSJUSlmQ_MoXrFgkzgw8to12sBdNtvyHTUwz08eA4iodPSm_1Za703A",
+        "cid": "14291641783760264602",
+        "fid": "0x87f43a6da7a61703:0xc6561c7b62291d9a",
+        "placeId": "ChIJAxemp2069IcRmh0pYnscVsY"
+      },
+      {
+        "position": 9,
+        "title": "Southern Minnesota Orthodontics",
+        "address": "1545 Adams St, Mankato, MN 56001",
+        "latitude": 44.1695942,
+        "longitude": -93.9644886,
+        "rating": 4.9,
+        "ratingCount": 272,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.smnortho.com/mankato-office",
+        "phoneNumber": "(507) 388-2989",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.smnortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHjKS9-FS0oTPQ0eMF0AJ-smbSXLq08KivQcLTtULKnvyU9R3XC2dSUm07QDuExZf14galy1-fj7rWtoR167s5VgFe6tdOAx9gC3QzxmDpVQ0lVIMgofgmAHcLvvGG5ubt8Zg8A9jhn7Dw",
+        "cid": "5663113050923150386",
+        "fid": "0x87f439ef4b69a973:0x4e976b50bb272c32",
+        "placeId": "ChIJc6lpS-859IcRMiwnu1Brl04"
+      },
+      {
+        "position": 10,
+        "title": "Angela Honstad",
+        "address": "1324 5th St N, New Ulm, MN 56073",
+        "latitude": 44.313773399999995,
+        "longitude": -94.4756709,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Practitioner service location"
+        ],
+        "website": "https://account.allinahealth.org/providers/18681",
+        "phoneNumber": "(507) 217-5000",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jr9pDHNsxt8dOcs8uIa9VA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=42.73998&pitch=0&thumbfov=100",
+        "cid": "15587950994907225438",
+        "fid": "0x87f501fe645aaaab:0xd85386d763a45d5e",
+        "placeId": "ChIJq6paZP4B9YcRXl2kY9eGU9g"
+      },
+      {
+        "position": 11,
+        "title": "Dr. Jean M. Eelma, MD",
+        "address": "1217 8th St N, New Ulm, MN 56073",
+        "latitude": 44.316251699999995,
+        "longitude": -94.47636419999999,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(507) 233-1000",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5DR6eTftA3cZDvOCziL1yg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=221.01207&pitch=0&thumbfov=100",
+        "cid": "775764214286369997",
+        "fid": "0x87f50200f44936ab:0xac4117155ffc4cd",
+        "placeId": "ChIJqzZJ9AAC9YcRzcT_VXERxAo"
+      },
+      {
+        "position": 12,
+        "title": "Summit Orthopedics: Hutchinson",
+        "address": "3 Century Ave SE, Hutchinson, MN 55350",
+        "latitude": 44.8757391,
+        "longitude": -94.3735559,
+        "rating": 4.8,
+        "ratingCount": 103,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.summitortho.com/location/hutchinson-clinic/",
+        "phoneNumber": "(651) 968-5201",
+        "bookingLinks": [
+          "https://www.summitortho.com/patients/appointments/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0_zepRqh1Xoro4GRmsCsgoAlWHlKXqzaDCBShjuHu_mJVtg56sgqjOCSVNPESKdda8Pt7lW3QLVXtcmaEU4tK7WGS7CNCBN9niQEWKZuyMM7kflGT5oCGX3M526cpo2muRQSfKlK_1cjH",
+        "cid": "3997450553508442316",
+        "fid": "0x87f581b44733d6f9:0x3779cc19590f30cc",
+        "placeId": "ChIJ-dYzR7SB9YcRzDAPWRnMeTc"
+      },
+      {
+        "position": 13,
+        "title": "Shoe Sensation",
+        "address": "Supercenter Square, 1704 Westridge Rd Suite 8, New Ulm, MN 56073",
+        "latitude": 44.328281399999995,
+        "longitude": -94.501831,
+        "rating": 4.4,
+        "ratingCount": 177,
+        "type": "Shoe store",
+        "types": [
+          "Shoe store",
+          "Boot store",
+          "Running store"
+        ],
+        "website": "http://shoesensation.com/stores/minnesota/new-ulm/shoe-sensation-in-new-ulm-mn",
+        "phoneNumber": "(507) 540-0698",
+        "description": "Footwear chain stocking a large selection of brand-name shoes for men, women & children.",
+        "openingHours": {
+          "Thursday": "10 AM–7 PM",
+          "Friday": "10 AM–8 PM",
+          "Saturday": "10 AM–8 PM",
+          "Sunday": "11 AM–6 PM",
+          "Monday": "10 AM–7 PM",
+          "Tuesday": "10 AM–7 PM",
+          "Wednesday": "10 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVL_Rf9BRHy3k-JDaiDEhr9vpHyJ6oW6tjctvlSoIoLn3nDuM_tJtEcJUUe7dLC0LN-CERupjC_Bo6VZWnllYf93EczTqZaHXCc4h3CYTxiOeE_7W09D9moE2qL-u-PNIl3EEa",
+        "cid": "2494617660131032973",
+        "fid": "0x87f5026aea767797:0x229ea98b7a86bf8d",
+        "placeId": "ChIJl3d26moC9YcRjb-GeoupniI"
+      },
+      {
+        "position": 14,
+        "title": "Southern Minnesota Orthodontic: Swanson Timothy J DDS",
+        "address": "5 S German St, New Ulm, MN 56073",
+        "latitude": 44.3136393,
+        "longitude": -94.4570011,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "phoneNumber": "(507) 354-3325",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RY4BgGz0M2TrFZh6hpjHlw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=47.39355&pitch=0&thumbfov=100",
+        "cid": "11730302389250722864",
+        "fid": "0x87f501df9f0edd89:0xa2ca67df8b348c30",
+        "placeId": "ChIJid0On98B9YcRMIw0i99nyqI"
+      },
+      {
+        "position": 15,
+        "title": "Twin Cities Orthopedics Arlington",
+        "address": "601 W Chandler St, Arlington, MN 55307",
+        "latitude": 44.6105416,
+        "longitude": -94.085326,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.tcomn.com/locations/arlington/?utm_source=Yext&utm_medium=Yext&utm_campaign=Yext_Location",
+        "phoneNumber": "(952) 442-2163",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdUf4HiuEbqMpAdyJVgSgx_INJod-KGSLtpl2ZrKN03VljnvunR-C0SRL2vInmDH-VeexozMOj7fqHH6hoBij6bFK1hbfSrQyQZXHQ20lkQotogh3S7Z2gFPRjJWzojJkV3VoP",
+        "cid": "7669917490671109832",
+        "fid": "0x87f5bfefe58197c3:0x6a7105522001c6c8",
+        "placeId": "ChIJw5eB5e-_9YcRyMYBIFIFcWo"
+      },
+      {
+        "position": 16,
+        "title": "Hutchinson Health Orthopaedic & Rehab Clinic",
+        "address": "1095 MN-15, Hutchinson, MN 55350",
+        "latitude": 44.8757643,
+        "longitude": -94.37287979999999,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.ofc-clinic.com/locations",
+        "phoneNumber": "(320) 484-4400",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEm0OeeyYER6Rh42JIYL_nQ5XYviq-P9WnUBiqVWVxWBrUOtBcM8-0y9nxPG0sKtmmXCh694CX78hrN5sIjoPoo-4CEXAOtlbIdVNKtKovHKL8LEI8sopGkw0Y7sYjJWq3k4Zqocg_h96FF",
+        "cid": "14935741216363007911",
+        "fid": "0x87f581b5cbda94ff:0xcf466980da7a4fa7",
+        "placeId": "ChIJ_5Tay7WB9YcRp0962oBpRs8"
+      },
+      {
+        "position": 17,
+        "title": "Desouza Mario L MD",
+        "address": "1217 8th St N, New Ulm, MN 56073",
+        "latitude": 44.316251699999995,
+        "longitude": -94.47636419999999,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(507) 233-1000",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5DR6eTftA3cZDvOCziL1yg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=221.01207&pitch=0&thumbfov=100",
+        "cid": "12488882770174712219",
+        "fid": "0x87f501fe2118e937:0xad516cb5e5c2999b",
+        "placeId": "ChIJN-kYIf4B9YcRm5nC5bVsUa0"
+      },
+      {
+        "position": 18,
+        "title": "Heartland Orthopedic Specialists",
+        "address": "2800 1st St S Suite 220, Willmar, MN 56201",
+        "latitude": 45.095649699999996,
+        "longitude": -95.04345699999999,
+        "rating": 4.9,
+        "ratingCount": 161,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical office",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.heartlandorthopedics.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(320) 214-7355",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.heartlandorthopedics.com/patient-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-willmar"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOdNm0n3zcRCYp167sa7-JjijG9FbE_kTkMfx5wjkGhdrl8OdinjSiuADrtuX9650nWifQMH-vJeGCTieqShs7M5KCfD8ySNcUAJHwk7M6majmIR6mDjgf3IScFNoELMJ3H5axPA",
+        "cid": "15124837469049626764",
+        "fid": "0x52b55933a3cc3995:0xd1e6378b1438a08c",
+        "placeId": "ChIJlTnMozNZtVIRjKA4FIs35tE"
+      },
+      {
+        "position": 19,
+        "title": "David Strothman",
+        "address": "1324 5th St N Ste 150, New Ulm, MN 56073",
+        "latitude": 44.313773399999995,
+        "longitude": -94.4756709,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physical examination center",
+          "Practitioner service location"
+        ],
+        "phoneNumber": "(651) 968-5201",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jr9pDHNsxt8dOcs8uIa9VA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=42.73998&pitch=0&thumbfov=100",
+        "cid": "6519526393068787414",
+        "fid": "0x87f501fe645aaaab:0x5a7a02b66aa616d6",
+        "placeId": "ChIJq6paZP4B9YcR1hamarYCelo"
+      },
+      {
+        "position": 20,
+        "title": "New Ulm Medical Center",
+        "address": "1324 5th St N, New Ulm, MN 56073",
+        "latitude": 44.3126299,
+        "longitude": -94.476248,
+        "rating": 3.5,
+        "ratingCount": 145,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Birth center",
+          "Cancer treatment center",
+          "Emergency room",
+          "Hospital",
+          "Surgical center"
+        ],
+        "website": "https://account.allinahealth.org/locations/525?utm_source=gmb&utm_medium=organic&utm_content=web-url&utm_campaign=gmb_website&utm_term=New-Ulm-Medical-Center-Allina-Health",
+        "phoneNumber": "(507) 217-5000",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZ9LavDlYtlChsNh7sYdJZwoAxJNO2asgPGy2BqPLGM4j6-L01ZMytStTwxa5JBL7iwOdsKaD4LoY6zY525P8RmooP7BrzUU8DIVf8rQcX7-cl9eGaf9oR1BH1SM1dBh610MQG",
+        "cid": "6831379200554060607",
+        "fid": "0x87f501fe2118ec21:0x5ecdef304f044b3f",
+        "placeId": "ChIJIewYIf4B9YcRP0sETzDvzV4"
+      }
+    ],
+    "credits": 3
+  }
+}

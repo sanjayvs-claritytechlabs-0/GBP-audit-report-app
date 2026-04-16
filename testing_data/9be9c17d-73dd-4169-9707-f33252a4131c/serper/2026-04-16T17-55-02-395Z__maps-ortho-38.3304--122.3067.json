@@ -1,0 +1,607 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzMwMzU2LC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@43.6078465,-116.4432662,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Direct Orthopedic Care",
+        "address": "16818 N Marketplace Blvd, Nampa, ID 83687",
+        "latitude": 43.615580699999995,
+        "longitude": -116.59365469999999,
+        "rating": 3.5,
+        "ratingCount": 110,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://boisedoc.com/",
+        "phoneNumber": "(208) 321-4000",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "10 AM–8 PM",
+          "Sunday": "10 AM–8 PM",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLb9NxUfSrXmFRj9wn3yJOfSi0miFNHQGFWMCasr6bUd68qO1rM98rHdrw12MS1iCzRjg1GXR7mPraE7RPjzu6SPp8_M9XTLGPbi9GpbKzb1rvcFyaGeibkznz9MUlCNpa-Cs",
+        "cid": "13294619244017029948",
+        "fid": "0x54ae4cb7da9d6dc7:0xb87ff9c3b7b5133c",
+        "placeId": "ChIJx22d2rdMrlQRPBO1t8P5f7g"
+      },
+      {
+        "position": 2,
+        "title": "St. Luke's Clinic - Orthopedics: Nampa",
+        "address": "9850 West Saint Lukes Dr South Entrance, #215, Nampa, ID 83687",
+        "latitude": 43.6173907,
+        "longitude": -116.5903087,
+        "rating": 4.6,
+        "ratingCount": 26,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://stlukesonline.org/en/get-care/locations/clinics/st-lukes-clinic-orthopedics-nampa/",
+        "phoneNumber": "(208) 706-2663",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrrJ0o2PhtgmwlHx7FCC-p__whOuyk_CHqBnbKo7FC3pYMUJwhF8AgaUX1eHhcf-WuF2Rel5M581YlVadeYJjr5c9lEU8Iwn1b48VzZGY3OcFkgt3Vp4Sg-yWD3EAJW1WwyQ6OCg",
+        "cid": "13388845200500380524",
+        "fid": "0x54ae4db57134bb17:0xb9cebbc5d084d36c",
+        "placeId": "ChIJF7s0cbVNrlQRbNOE0MW7zrk"
+      },
+      {
+        "position": 3,
+        "title": "BlackRock Orthopedics",
+        "address": "6357 N Fox Run Way, Meridian, ID 83646",
+        "latitude": 43.662424,
+        "longitude": -116.403252,
+        "rating": 4.9,
+        "ratingCount": 199,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Medical office",
+          "Orthopedic clinic"
+        ],
+        "website": "https://blackrockortho.com/",
+        "phoneNumber": "(208) 900-5633",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://blackrockortho.com/contact-us"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSOrQTYE6y-wB7cfPA6oCPdvOTRqUIMC-0v98wDDNeBCJKzQXTnqbBaiCs3FoRvUL6x7qV8WX6m6pHOdz9-7xMCebNjz6Ug1lYvIHyMg0-N-gp1OELw33RSBqy-SOaP9VGZNvs2A",
+        "cid": "13052908436407942250",
+        "fid": "0x54ae573be8b71aab:0xb5253f10cdcb7c6a",
+        "placeId": "ChIJqxq36DtXrlQRanzLzRA_JbU"
+      },
+      {
+        "position": 4,
+        "title": "BOISE VALLEY ORTHODONTICS",
+        "address": "987 S Rising Sun Dr Suite #102, Nampa, ID 83686",
+        "latitude": 43.559881,
+        "longitude": -116.612326,
+        "rating": 5,
+        "ratingCount": 339,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.boisevalleyortho.com/",
+        "phoneNumber": "(208) 649-5721",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF148kMeil6O5cixvaY88FQMAe0Xm96GQR3ZGT-AvTQZP3hNJYCQuglF1r16Per0NdB-x8gU5HFcdGwwcup9mlSYliNKrCHmESAL2Bew669tFrt0D2aZtWDmpkCe7XF1lfKyNth",
+        "cid": "7690090230380413210",
+        "fid": "0x54ae4c83d999ce4d:0x6ab8b0521886c11a",
+        "placeId": "ChIJTc6Z2YNMrlQRGsGGGFKwuGo"
+      },
+      {
+        "position": 5,
+        "title": "St. Luke's Clinic - Orthopedics: Meridian",
+        "address": "Portico East, 3399 E Louise Dr Suite 200, Meridian, ID 83642",
+        "latitude": 43.6015434,
+        "longitude": -116.3524848,
+        "rating": 4.3,
+        "ratingCount": 98,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Podiatrist"
+        ],
+        "website": "https://stlukesonline.org/en/get-care/locations/clinics/st-lukes-clinic-orthopedics-meridian/",
+        "phoneNumber": "(208) 706-2663",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmShYIV-qAdyOdVSwx4SXOjaKCbb--Tq5M2XSFcvDQH7ZRba45n0VcRZ9ljXK1EmIRTusxk0wRTXhpFZxlPLQf4VfkGMkJeX6A5QY4WKW7PELGTQ6HIEBzsWSc6z89FLRRdoIwfKEF9NXe",
+        "cid": "12136978927690869821",
+        "fid": "0x54ae56aed0bfdde3:0xa86f3607bf6a6c3d",
+        "placeId": "ChIJ492_0K5WrlQRPWxqvwc2b6g"
+      },
+      {
+        "position": 6,
+        "title": "Direct Orthopedic Care",
+        "address": "4842 N Cortona Way Ste 105, Meridian, ID 83646",
+        "latitude": 43.64889,
+        "longitude": -116.4290489,
+        "rating": 3.5,
+        "ratingCount": 47,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.boisedoc.com/",
+        "phoneNumber": "(208) 579-2024",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "10 AM–8 PM",
+          "Sunday": "10 AM–8 PM",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Ls9fRQMgogpdx3oPv14XuQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=84.65759&pitch=0&thumbfov=100",
+        "cid": "13912051001387857865",
+        "fid": "0x54ae53cbba6845e9:0xc11188ad32d737c9",
+        "placeId": "ChIJ6UVoustTrlQRyTfXMq2IEcE"
+      },
+      {
+        "position": 7,
+        "title": "Direct Orthopedic Care",
+        "address": "3015 E Magic View Dr STE 115, Meridian, ID 83642",
+        "latitude": 43.599207299999996,
+        "longitude": -116.3568433,
+        "rating": 3.9,
+        "ratingCount": 161,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic"
+        ],
+        "website": "https://boisedoc.com/",
+        "phoneNumber": "(208) 321-4000",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "10 AM–8 PM",
+          "Sunday": "10 AM–8 PM",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFutTQ9GrEQwfulRfX3sd_Le90PovPS8HB99nFYe0c3m8gJOD-JnU5vpd5V2tY9imF6sq30lhXg4uAlkjUuvEWxqvRj2J8rdFP3ZLYogk2V3ZUyzFaNACMazJC7aUmcMa8nAg9wmA",
+        "cid": "2194434191001118751",
+        "fid": "0x54ae56ac66b91743:0x1e7432452597e81f",
+        "placeId": "ChIJQxe5ZqxWrlQRH-iXJUUydB4"
+      },
+      {
+        "position": 8,
+        "title": "Saint Alphonsus Sports Medicine - Nampa",
+        "address": "4424 E Flamingo Ave Ste 110, Nampa, ID 83687",
+        "latitude": 43.5976917,
+        "longitude": -116.51570699999999,
+        "rating": 4.2,
+        "ratingCount": 18,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic",
+          "Sports massage therapist"
+        ],
+        "website": "https://www.saintalphonsus.org/location/saint-alphonsus-sports-medicine-garrity?utm_source=gmb&utm_medium=organic&utm_campaign=gmb&utm_content=main_link",
+        "phoneNumber": "(208) 302-3200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9yBxiNjdyYIil54nbHrokAlbUsPovBTlmawMyI6O_HB8RScDwEJBDM1nSYy0Kzq39U3tMSHsf1hkmmvL6NthUT_clAb2VtuF_pbUoHe71jPJmXy1yNCKHD-DHU4vNd9WHI6iIHw",
+        "cid": "10914348234668283835",
+        "fid": "0x54ae4da3b310c103:0x97778de48a5097bb",
+        "placeId": "ChIJA8EQs6NNrlQRu5dQiuSNd5c"
+      },
+      {
+        "position": 9,
+        "title": "Treasure Valley Orthodontics",
+        "address": "16726 N Marketplace Blvd, Nampa, ID 83687",
+        "latitude": 43.614843,
+        "longitude": -116.59287499999999,
+        "rating": 4.9,
+        "ratingCount": 414,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://treasurevalleyortho.com/?utm_source=gbp&utm_medium=organic&utm_campaign=nampa&utm_content=listing",
+        "phoneNumber": "(208) 744-2724",
+        "bookingLinks": [
+          "https://forms.formlync.com/treasurevalley/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFC_O5JHOdlZtH0cjFxVFIzjc6lcPdHBHK03h47KZkiGCq_T8dkoX8h80C_RK2s6fX4g-dW8D_in0_MZ2rWJ6xOYAqWQ2NKFu2o8lAOV0hVvs60L5aZqkTYhWcG_HSN23uVJo5i",
+        "cid": "6823528648830961371",
+        "fid": "0x54ae4cb80195383b:0x5eb20b274c4546db",
+        "placeId": "ChIJOziVAbhMrlQR20ZFTCcLsl4"
+      },
+      {
+        "position": 10,
+        "title": "St. Luke's Ortho Walk-in Care: Boise",
+        "address": "2619 W Fairview Ave, Boise, ID 83702",
+        "latitude": 43.6201874,
+        "longitude": -116.2228047,
+        "rating": 4.7,
+        "ratingCount": 404,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://stlukesonline.org/en/get-care/locations/clinics/st-lukes-ortho-walk-in-care-boise/",
+        "phoneNumber": "(208) 706-2663",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "10 AM–4 PM",
+          "Sunday": "10 AM–4 PM",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMo3CFEGbq0Qpt3nsnQOP2MsDtirt8lqC_mCUJbr491KaAdTR_igOXWv0gHM79AmYxcjeY3xaPgam6H9eM2htyhb0AtRQXpjTdJN6-MNW1TbWGTI9dqu5nPHt1nzzkAuDl4Pi1n0VWmG0",
+        "cid": "7046850688748498129",
+        "fid": "0x54aef99bcb38c937:0x61cb715d98122cd1",
+        "placeId": "ChIJN8k4y5v5rlQR0SwSmF1xy2E"
+      },
+      {
+        "position": 11,
+        "title": "North Fork Orthopedic Surgery",
+        "address": "875 S Vanguard Way #110, Meridian, ID 83642",
+        "latitude": 43.5965219,
+        "longitude": -116.4316556,
+        "rating": 5,
+        "ratingCount": 52,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.northforkmd.com/",
+        "phoneNumber": "(208) 595-4440",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQo9QKwE6uJDMXuqDRo5GNG2rXX6zD5kyrB2f0ng-47tTyzFiXm2z2c34Ss0yZek628YY_7ILH8sf4VKcpBnA6TCy9pdDDjpxzobiqAxIztUBOte5YZIhqwO0IIlwlzZ2Kqu61lOHRGs44",
+        "cid": "5298790602878198928",
+        "fid": "0x54ae4dad0833ae37:0x498915faa7bba490",
+        "placeId": "ChIJN64zCK1NrlQRkKS7p_oViUk"
+      },
+      {
+        "position": 12,
+        "title": "Treasure Valley Orthopedics - Jonathon C. Wolf, MD",
+        "address": "875 S Vanguard Way #200B, Meridian, ID 83642",
+        "latitude": 43.5965219,
+        "longitude": -116.4316556,
+        "rating": 4.9,
+        "ratingCount": 121,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.tvorthopedics.com/",
+        "phoneNumber": "(208) 563-0001",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHdXs_fzjY7BL1UPCtSCC7w0gevxwj6EOp5Bce_MjiyNjOZOH2ZHAVdipKs_TcZAUyGF-YA4SxXMbpCaOFRvifekR0Xckg3iyJOqwQUZ81TuaUKOBEBgQl_XDCx-xlAB5s8VrYE",
+        "cid": "6374255895093268061",
+        "fid": "0x54ae4b158ee1512b:0x5875e7f6de794e5d",
+        "placeId": "ChIJK1HhjhVLrlQRXU553vbndVg"
+      },
+      {
+        "position": 13,
+        "title": "Orthodontics at BridgeTower",
+        "address": "3289 N Towerbridge Way, Meridian, ID 83646",
+        "latitude": 43.6347764,
+        "longitude": -116.42567939999999,
+        "rating": 5,
+        "ratingCount": 830,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.idahobraces.com/",
+        "phoneNumber": "(208) 884-4466",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/salt_dental_collective?lid=309714&rwg_token=AFd1xnGv2PsjCxSaCLvhqhhoYBvpBVq0A-Qjl7k-aavQpg9TokbCZIIVpYkF3snZhCx3qdDDwQeWseC6Lscs1sySoz1qmbbTGg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZIraa5ZCVOnWBlCNKWbBx2ouqo7BtVvLQAJa4zbv8ENqQ9T3iCBHRWavKfZoVFK4kYYTeY40snxVRVHuIPNejedm0aLmJj7j-a609mSA0sXF-e34rkMfcxPy091qBCY4OXzw",
+        "cid": "3119599486852568086",
+        "fid": "0x54ae5372c3e8db2b:0x2b4b0b3477569416",
+        "placeId": "ChIJK9vow3JTrlQRFpRWdzQLSys"
+      },
+      {
+        "position": 14,
+        "title": "Direct Orthopedic Care",
+        "address": "1789 S Broadway Ave Suite 100, Boise, ID 83706",
+        "latitude": 43.5911221,
+        "longitude": -116.1941866,
+        "rating": 4.1,
+        "ratingCount": 87,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://boisedoc.com/",
+        "phoneNumber": "(208) 321-4000",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "10 AM–8 PM",
+          "Sunday": "10 AM–8 PM",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGT151_2uuUAH-7KxbPAv-yyz_6NWjueu2nRBRqu41qz_8i0xYYBsKE9HJYz0oSkxWubaKxG1pUze6I8Iu0CsRpvCC_Su2TedYEOxhv1Yhe2pX-TPOCvvgbFXdI_ynyvcJbSRpOJoQL09nn",
+        "cid": "6687140540864297997",
+        "fid": "0x54aef841424536fb:0x5ccd7ee455547c0d",
+        "placeId": "ChIJ-zZFQkH4rlQRDXxUVeR-zVw"
+      },
+      {
+        "position": 15,
+        "title": "Treasure Valley Orthodontics",
+        "address": "1200 W Cherry Ln, Meridian, ID 83642",
+        "latitude": 43.619748,
+        "longitude": -116.407405,
+        "rating": 4.9,
+        "ratingCount": 664,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://treasurevalleyortho.com/?utm_source=gbp&utm_medium=organic&utm_campaign=meridian&utm_content=listing",
+        "phoneNumber": "(208) 357-9680",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://forms.formlync.com/treasurevalley/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcQt-uJhgoDyYbH9VfiNYR-yN3wdsOjlsBTRvkb1VmDFjCDbR2ar1Idd_-BIeAkeNweZBUOaAn57vvtGTOJfVqzVrirpfkqpjZ8xlqwjWqLOSZjzInXVg_YL1LNdt_Tw2RrsQ7aA",
+        "cid": "3564116639359532447",
+        "fid": "0x54ae53970105c143:0x3176493333157d9f",
+        "placeId": "ChIJQ8EFAZdTrlQRn30VMzNJdjE"
+      },
+      {
+        "position": 16,
+        "title": "Caldwell Orthodontics",
+        "address": "2721 S 10th Ave #103, Caldwell, ID 83605",
+        "latitude": 43.6454512,
+        "longitude": -116.69234589999999,
+        "rating": 5,
+        "ratingCount": 132,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.caldwellorthodontics.com/",
+        "phoneNumber": "(208) 459-3666",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjhuySOWV0xmSGlBIKmHoH6LVORREuZfEn-IzX7ss_60bhPhXPiwhtZkEufGiKtugPTarqebahg3m4jbSJSH0N-uvWIFNpGTFzAQoQUPP2yhw9NwXJRFU3efubKDp3FiKdYMgMZw",
+        "cid": "14287867707785617348",
+        "fid": "0x54afb45c828649dd:0xc648b3fad8561fc4",
+        "placeId": "ChIJ3UmGgly0r1QRxB9W2PqzSMY"
+      },
+      {
+        "position": 17,
+        "title": "Catalyst Orthopaedics and Sports Medicine",
+        "address": "8950 W Emerald St Suite 168, Boise, ID 83704",
+        "latitude": 43.611711799999995,
+        "longitude": -116.293639,
+        "rating": 4.9,
+        "ratingCount": 182,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.catalystorthoidaho.com/",
+        "phoneNumber": "(208) 321-1209",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFno8kF457cA13WrSfMEqoMpzGtvil4_BzEYm_pjaabw7fc2H2RZf2Dk1no867mzivSmFOr7jKpF5leT1Xz4RZ6XIWd1yI5PMIYmgU16v1A8BMw0qu3mXsAgYzWYg5ufstQK82t",
+        "cid": "7165396524117510778",
+        "fid": "0x54ae57b8f360791f:0x63709a2cbed7ca7a",
+        "placeId": "ChIJH3lg87hXrlQResrXviyacGM"
+      },
+      {
+        "position": 18,
+        "title": "West Idaho Orthopedics & Sports Medicine - Meridian",
+        "address": "3875 E Overland Rd 1st Floor, Meridian, ID 83642",
+        "latitude": 43.5897358,
+        "longitude": -116.346216,
+        "rating": 3.8,
+        "ratingCount": 55,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "https://westidahoorthopedics.com/",
+        "phoneNumber": "(208) 895-0888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAtXg73i8A9l5w4jGJzCAYTsk-WzVVKnqj36k13-vGEe__yIUKoaZbcGftVDKVwJ-J9XiHMn5Z_fqLlbCnSg4Xrh9ZTK-9DcGleB9gRt5l-Qvt1sui_W93tbQ_vWJ8pafgrWk",
+        "cid": "12477326170427819396",
+        "fid": "0x54ae56b5c0a1763b:0xad285e0b57090584",
+        "placeId": "ChIJO3ahwLVWrlQRhAUJVwteKK0"
+      },
+      {
+        "position": 19,
+        "title": "Chris Cusimano Orthodontics",
+        "address": "345 W Iowa Ave, Nampa, ID 83686",
+        "latitude": 43.553269,
+        "longitude": -116.577451,
+        "rating": 4.9,
+        "ratingCount": 455,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.cusimanoorthodontics.com/",
+        "phoneNumber": "(208) 467-4362",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://cusimanoorthodontics.televox.west.com/virtual-consult"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXF-VquO5Y5ql0VTH-Z8qPNpaR5oqiXx4otpov6W-1P6LauCNgZ8Je-dHQBFEeJzG_uvcU4U_3c2FWleM0NSC8NP9MmS6PvVFPdQRltzJ3szv0epRe87s2xJwo9F4mG9QhcEs2xA",
+        "cid": "1289941857455010135",
+        "fid": "0x54ae4be33053ef87:0x11e6cb48f2837157",
+        "placeId": "ChIJh-9TMONLrlQRV3GD8kjL5hE"
+      },
+      {
+        "position": 20,
+        "title": "Shane Andrew DO",
+        "address": "4424 E Flamingo Ave Ste 110, Nampa, ID 83687",
+        "latitude": 43.596548999999996,
+        "longitude": -116.51671429999999,
+        "rating": 4.5,
+        "ratingCount": 132,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.saintalphonsus.org/provider/shane-andrew?utm_source=gmb&utm_medium=organic&utm_campaign=gmb&utm_content=main_link",
+        "phoneNumber": "(208) 302-3200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9KnP5A8PM4YcatVJQ_ShSA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=184.36171&pitch=0&thumbfov=100",
+        "cid": "1710305447098709187",
+        "fid": "0x54ae4da3b4afbee7:0x17bc39be17bbf4c3",
+        "placeId": "ChIJ576vtKNNrlQRw_S7F745vBc"
+      }
+    ],
+    "credits": 3
+  }
+}

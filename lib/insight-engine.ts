@@ -8,6 +8,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { z } from "zod";
 import type { ScoreBreakdown, GBPData, ReviewData, CitationResult, WebsiteAuditResult, InsightResult, PriorityAction } from "@/types";
+import { persistTestingJson, persistTestingText } from "@/lib/testing-data";
 
 // ---------------------------------------------------------------------------
 // Zod schema for model JSON response
@@ -45,11 +46,51 @@ priority_actions: exactly 3 objects, each with:
 Order by: highest impact first, then lowest effort. Be specific to this business. No generic advice.
 Respond with ONLY valid JSON. No markdown fences, no preamble.`;
 
+export function buildInsightsModelInput(params: {
+  businessName: string;
+  scores: ScoreBreakdown;
+  gbp: GBPData;
+  reviews: ReviewData;
+  citations: CitationResult;
+  website: WebsiteAuditResult;
+}): Record<string, unknown> {
+  const { businessName, scores, gbp, reviews, citations, website } = params;
+
+  return {
+    business_name: businessName,
+    overall_score: scores.overall,
+    scores: {
+      rank: scores.rank,
+      citations: scores.citations,
+      profile_completeness: scores.profileCompleteness,
+      profile_seo: scores.profileSeo,
+      website: scores.website,
+      reviews: scores.reviews,
+    },
+    gbp_category: gbp.primaryCategory,
+    review_count: reviews.totalCount,
+    avg_rating: reviews.averageRating,
+    review_velocity_per_week: reviews.velocityPerWeek,
+    response_rate: reviews.responseRate,
+    citations_found: citations.found,
+    citations_total: citations.totalChecked,
+    nap_consistency: citations.napConsistency.overall,
+    website_https: website.isHttps,
+    website_mobile_score: website.performance.mobile.score,
+    website_lcp: website.performance.mobile.lcp,
+    has_local_schema: website.schema.hasLocalBusiness,
+    domain_authority: website.backlinks.domainAuthority,
+  };
+}
+
 // ---------------------------------------------------------------------------
 // Gemini API Call
 // ---------------------------------------------------------------------------
 
-async function callGemini(auditSummary: Record<string, unknown>): Promise<z.infer<typeof InsightResponseSchema>> {
+async function callGemini(
+  auditSummary: Record<string, unknown>,
+  debug?: { uuid: string }
+): Promise<z.infer<typeof InsightResponseSchema>> {
   const apiKey = process.env.GOOGLE_GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error("GOOGLE_GEMINI_API_KEY not configured");
@@ -81,6 +122,25 @@ async function callGemini(auditSummary: Record<string, unknown>): Promise<z.infe
   });
 
   const responseText = result.response.text();
+  if (debug?.uuid) {
+    await persistTestingJson({
+      uuid: debug.uuid,
+      category: "gemini",
+      name: "model-input",
+      data: {
+        model: modelName,
+        systemPrompt: SYSTEM_PROMPT,
+        input: auditSummary,
+      },
+    });
+    await persistTestingText({
+      uuid: debug.uuid,
+      category: "gemini",
+      name: "model-output-raw",
+      text: responseText,
+      ext: "txt",
+    });
+  }
 
   if (!responseText || responseText.trim().length === 0) {
     throw new Error("Gemini returned empty response");
@@ -101,6 +161,14 @@ async function callGemini(auditSummary: Record<string, unknown>): Promise<z.infe
   }
 
   const validated = InsightResponseSchema.parse(parsed);
+  if (debug?.uuid) {
+    await persistTestingJson({
+      uuid: debug.uuid,
+      category: "gemini",
+      name: "model-output-validated",
+      data: validated,
+    });
+  }
   return validated;
 }
 
@@ -188,39 +256,16 @@ export async function generateInsights(params: {
   reviews: ReviewData;
   citations: CitationResult;
   website: WebsiteAuditResult;
+  debug?: { uuid: string };
 }): Promise<InsightResult> {
-  const { businessName, scores, gbp, reviews, citations, website } = params;
+  const { businessName, scores } = params;
   const start = Date.now();
 
   // Build a compact summary for the model
-  const auditSummary = {
-    business_name: businessName,
-    overall_score: scores.overall,
-    scores: {
-      rank: scores.rank,
-      citations: scores.citations,
-      profile_completeness: scores.profileCompleteness,
-      profile_seo: scores.profileSeo,
-      website: scores.website,
-      reviews: scores.reviews,
-    },
-    gbp_category: gbp.primaryCategory,
-    review_count: reviews.totalCount,
-    avg_rating: reviews.averageRating,
-    review_velocity_per_week: reviews.velocityPerWeek,
-    response_rate: reviews.responseRate,
-    citations_found: citations.found,
-    citations_total: citations.totalChecked,
-    nap_consistency: citations.napConsistency.overall,
-    website_https: website.isHttps,
-    website_mobile_score: website.performance.mobile.score,
-    website_lcp: website.performance.mobile.lcp,
-    has_local_schema: website.schema.hasLocalBusiness,
-    domain_authority: website.backlinks.domainAuthority,
-  };
+  const auditSummary = buildInsightsModelInput(params);
 
   try {
-    const geminiResult = await callGemini(auditSummary);
+    const geminiResult = await callGemini(auditSummary, params.debug);
 
     const mapImpact = (level: string): PriorityAction["impact"] => {
       if (level === "High") return "high";

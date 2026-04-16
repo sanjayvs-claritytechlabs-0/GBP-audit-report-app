@@ -1,0 +1,650 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@39.9090445,-85.9357672,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Geist Orthodontics - Indianapolis",
+        "address": "8140 Oaklandon Rd, Indianapolis, IN 46236",
+        "latitude": 39.9046145,
+        "longitude": -85.9575174,
+        "rating": 4.9,
+        "ratingCount": 368,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://geistortho.com/location/orthodontist-in-indianapolis-in/",
+        "phoneNumber": "(317) 823-8338",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://geistortho.com/lp/complimentary-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAfFeiCGE2hU1XpbbjH4jtOHuttXjhrdoQbFeR5A8RjLq1C71C1Qe8yVgCLnYnCydyFLKhU2y3zzIIB8GRPo96HFouoETaNhvma4GYGUhuBuKD44hUWm1E0siah7ni7edjWOfz4w",
+        "cid": "10674885039915108159",
+        "fid": "0x886b4aceeb80f269:0x9424cf62c645873f",
+        "placeId": "ChIJafKA685Ka4gRP4dFxmLPJJQ"
+      },
+      {
+        "position": 2,
+        "title": "Central Indiana Orthopedics",
+        "address": "14300 138th St Building B, Fishers, IN 46037",
+        "latitude": 39.990285899999996,
+        "longitude": -85.9108803,
+        "rating": 4.9,
+        "ratingCount": 750,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physiatrist",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://ciocenter.com/our-locations/fishers/",
+        "phoneNumber": "(317) 773-4301",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErcm_WDfvO87Fx8CeR87nvmjq9-ImqBdFjRgRY8t24AoxD9yglp61GBcgP5gxs-AB4dGdbOv2HD9lvq18Hj82fGuRQznD2QpuxKRGfO3eCFTFJJGfBrsf3760UGxcDitKwNMGb",
+        "cid": "944053006787057487",
+        "fid": "0x8814ca1dc8421d0b:0xd19f33536ae974f",
+        "placeId": "ChIJCx1CyB3KFIgRT5euNjXzGQ0"
+      },
+      {
+        "position": 3,
+        "title": "IU Health Orthopedics & Sports Medicine - Fishers",
+        "address": "13100 E 136th St #2000, Fishers, IN 46037",
+        "latitude": 39.9866995,
+        "longitude": -85.92908349999999,
+        "rating": 4.9,
+        "ratingCount": 94,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Plastic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://iuhealth.org/find-locations/iu-health-orthopedics-sports-medicine-1300-e-136th-st-fishers?utm_source=Google&utm_medium=Yext&y_source=1_MTE5NDIwMjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(317) 944-9400",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/iu-health-physicians-orthopedics-51563?LocIdent=87497&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_6k4DxWFMwUiN8gf3WYZh9R-lo_JG8uUPVXP0qjiz89REPwGh-entity&rwg_token=AFd1xnFEP4KyBO8JodsIw2dxxqO2fk9ZpIQcOdWk87wXiZGEcVKbbgrry3Rr1U-Yi03HbSBOwH7itD07Y7IylHAEvt61aJF-HUM5MIS2O5wF5S2hP7-THeA%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-w-pKu18dg1nxV3Vd2z9iCf2fy67e7YVmA4yo_Zm7hRzN8WiLim6uHovX0-a0OwKiXcjeQB9ck4lA8Ud62r0Gaw_F1FcoXSfNlNdkCSY4DTW6XdZscOJnhXGfyRwBZNwkBh0XOaBlU64",
+        "cid": "16206035130792238594",
+        "fid": "0x8814cb95cf1449d7:0xe0e76716945f5e02",
+        "placeId": "ChIJ10kUz5XLFIgRAl5flBZn5-A"
+      },
+      {
+        "position": 4,
+        "title": "Indiana Orthopedic Institute",
+        "address": "14065 Westinghouse Dr, Noblesville, IN 46060",
+        "latitude": 39.993838,
+        "longitude": -85.916663,
+        "rating": 5,
+        "ratingCount": 109,
+        "type": "Medical Center",
+        "types": [
+          "Medical Center"
+        ],
+        "website": "https://indianaortho.com/",
+        "phoneNumber": "(317) 620-0232",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.indianaortho.com/patient-resources/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvssRjk6mY7EDZG7rKpiZbFL9fTKtJarNcu4kUnItx2iUW9E6gZtSOSugmpT_YewUX8E8rVDi-FvgQNMdMb2XG8vN5oZi_oJS8Dkn_aJlXLulqXuWz6zr45t1jwjH_lRujGy-ILXiuLjg",
+        "cid": "16253583788669361259",
+        "fid": "0x8814b7c9457eba2d:0xe190545732af5c6b",
+        "placeId": "ChIJLbp-Rcm3FIgRa1yvMldUkOE"
+      },
+      {
+        "position": 5,
+        "title": "Benedict Orthodontics",
+        "address": "11780 Olio Rd # 300, Fishers, IN 46037",
+        "latitude": 39.9605198,
+        "longitude": -85.91944339999999,
+        "rating": 5,
+        "ratingCount": 274,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.benedictorthodontics.com/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&y_source=1_MTA1NzU4MjMxNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(317) 468-9939",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.benedictorthodontics.com/appointment-request?y_source=1_MTA1NzU4MjMxNy03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-IJR3Fyl6RxH1PI-Oun-_aOn7CbZfWGdiMU_smBPvvmMSG-pixthKYuvzrEGzG4XSTKYNB95mbz1NJB7gvMz5WrCOIxG_MTzeQsO1x1DORA_R1DiWDEC9Zc5ehHkBD26nLFWo",
+        "cid": "11141472359043954674",
+        "fid": "0x8814ca655bb47f11:0x9a9e76149ba5f7f2",
+        "placeId": "ChIJEX-0W2XKFIgR8velmxR2npo"
+      },
+      {
+        "position": 6,
+        "title": "Gorman & Bunch Orthodontics",
+        "address": "13752 Lakeridge Dr, Fishers, IN 46037",
+        "latitude": 39.955756199999996,
+        "longitude": -85.91953389999999,
+        "rating": 4.9,
+        "ratingCount": 208,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://gormanbunch.com/orthodontist-fishers-in-46037/",
+        "phoneNumber": "(317) 576-9400",
+        "openingHours": {
+          "Thursday": "8 AM–3:30 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–3:30 PM",
+          "Tuesday": "8 AM–3:30 PM",
+          "Wednesday": "8 AM–3:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_Afr5ggmjTlweMXOO4c9-oGV63lCyylbUWBy5Qms1T6lBBEx4Gwt-_ZZoGTuigO-JdVbhLK98jGks0C8y92OzercljFCx0wbisENwYPRmedGmUDf-djRU-px8LBlvIlsfU5_k7O5yPzcF",
+        "cid": "2027560133681104096",
+        "fid": "0x8814ca7b4da263d9:0x1c235732f8ce44e0",
+        "placeId": "ChIJ2WOiTXvKFIgR4ETO-DJXIxw"
+      },
+      {
+        "position": 7,
+        "title": "Werner Orthodontics",
+        "address": "5842 W Broadway St, McCordsville, IN 46055",
+        "latitude": 39.8978694,
+        "longitude": -85.9165919,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://wernerortho.com/",
+        "phoneNumber": "(317) 898-7645",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=H_0Ld3QJAI51Kh72GJrX1Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=310.8675&pitch=0&thumbfov=100",
+        "cid": "16265479164968250329",
+        "fid": "0x886b3545bfa10285:0xe1ba971f51732bd9",
+        "placeId": "ChIJhQKhv0U1a4gR2StzUR-XuuE"
+      },
+      {
+        "position": 8,
+        "title": "OrthoIndy Fishers",
+        "address": "10995 Allisonville Rd UNIT 102, Fishers, IN 46038",
+        "latitude": 39.9464148,
+        "longitude": -86.04331599999999,
+        "rating": 4.1,
+        "ratingCount": 243,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic",
+          "X-ray lab"
+        ],
+        "website": "https://www.orthoindy.com/",
+        "phoneNumber": "(317) 915-8110",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEP5x5V0CPgHrLSlwXHISGtPQSgzdpkPmmuzHWrA4lOQriblageoC95_HlSygS5NOn0d6MRMvIwcycTWJpSA4eOlwO07EFntcMWX1gPK9oTh2zPvOMH3FCKaHuPfrcmODXQQYygPg",
+        "cid": "17204953836977299874",
+        "fid": "0x8814b305693bdfef:0xeec4465be606a1a2",
+        "placeId": "ChIJ7987aQWzFIgRoqEG5ltGxO4"
+      },
+      {
+        "position": 9,
+        "title": "Forté Sports Medicine and Orthopedics Noblesville",
+        "address": "16289 Boden Rd SUITE 2, Noblesville, IN 46060",
+        "latitude": 40.025858,
+        "longitude": -85.93987249999999,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://forteortho.com/forte_locations/finch-creek/",
+        "phoneNumber": "(317) 817-1200",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://forteortho.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkX_8C4x_5qSRtoeHeYP7cGyDYNktqtJXMBKA2EPi4AwF9o1PjhUVH6Fj6mN0GGvb9_TlcWsEoWLlD6vdS8aFBBmOBzDkDQeQ4mXtBYh0O7-iv9LfRzmfAWGOav2W23najCj41lH1QEC8",
+        "cid": "10927400813778127792",
+        "fid": "0x8814b7390389755d:0x97a5ed24ef8f4bb0",
+        "placeId": "ChIJXXWJAzm3FIgRsEuP7yTtpZc"
+      },
+      {
+        "position": 10,
+        "title": "IU Health Orthopedics & Sports Medicine - East Warren",
+        "address": "9670 E Washington St Suite 110, Indianapolis, IN 46229",
+        "latitude": 39.7764606,
+        "longitude": -85.9946148,
+        "rating": 4.7,
+        "ratingCount": 84,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://iuhealth.org/find-locations/iu-health-orthopedics-sports-medicine-east-warren-methodist-9670-e-washington-st-indianapolis?utm_source=Google&utm_medium=Yext&y_source=1_MTE5NDE4NDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(317) 944-9400",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJeTGDel4CNIuPxpw0yaDOicQxvQKobLqXMp4H1KzXPhmfeNF6w559Se2qgByZDu_kxREeIxybk1BAWFF6OHEvZtfJd-Ge6T020ROm_7nQv8j4y07O2iCHRUoXY-5LCywPbZcT",
+        "cid": "385935390448504242",
+        "fid": "0x886b49bd81568149:0x55b1e315def4db2",
+        "placeId": "ChIJSYFWgb1Ja4gRsk3vXTEeWwU"
+      },
+      {
+        "position": 11,
+        "title": "Central Indiana Orthopedics",
+        "address": "2610 Enterprise Dr, Anderson, IN 46013",
+        "latitude": 40.0416284,
+        "longitude": -85.71737979999999,
+        "rating": 4.8,
+        "ratingCount": 1355,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Hand surgeon",
+          "Neurosurgeon",
+          "Orthopedic clinic",
+          "Physiatrist",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://ciocenter.com/our-locations/anderson/",
+        "phoneNumber": "(800) 622-6575",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://ciocenter.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQMBI0K7bAAMw2d9Z8KWR6beNJILAmyx0GRhYQNuycFKDPtYnlo-pAHQX6eBkPqYabuMSVNz6sIhgUU8gJbmjaWO326KotSi0LPQNYO-mpqqu5n_RYj99bZuBvMRMbL8_4BiJj13qMKEQb",
+        "cid": "11850231060343187814",
+        "fid": "0x8814d0f2368c6de7:0xa4747a5d3a0e6966",
+        "placeId": "ChIJ522MNvLQFIgRZmkOOl16dKQ"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic and Sports Medicine Doctor: Michael Thieken, MD",
+        "address": "10995 Allisonville Rd UNIT 102, Fishers, IN 46038",
+        "latitude": 39.9463921,
+        "longitude": -86.04355319999999,
+        "rating": 5,
+        "ratingCount": 157,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/michael-thieken",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoindy.com/michaelthieken/request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZhin5Y20JrVNhcq_kG-FGUV9JuQohRxvaDYg4Limpj-92TKZwWmp9lY1KKE1dV4uJ_lz_jZIX4-8QVKzt-ulhmsbhPojrCew9FwCvQ-9L_rmoWKYpSSeo9KvmEchtWozikZE11LGe4Rma",
+        "cid": "11421511850014202505",
+        "fid": "0x8814b305693bdfef:0x9e815c838a02da89",
+        "placeId": "ChIJ7987aQWzFIgRidoCioNcgZ4"
+      },
+      {
+        "position": 13,
+        "title": "Mark Hood, MD | Hip & Knee Replacement",
+        "address": "7930 Shadeland Ave Ste 100, Indianapolis, IN 46250",
+        "latitude": 39.8985303,
+        "longitude": -86.0500151,
+        "rating": 5,
+        "ratingCount": 472,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical Center",
+          "Medical clinic",
+          "Medical office",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.markhoodmd.com/",
+        "phoneNumber": "(317) 355-8326",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6SrLbRyn_pgXYSzYbMK6B0YrWMmCd_UaJAxlPFnGgKlPBfQ33TN79Hq6sX8ZM719M-U2SM9o2zAQmAtCK9l4RzYyv_fzKty572eAtQgi4Kmu0RPy7c8QP9QUyyBGQgeov2SPF",
+        "cid": "6093246914420035942",
+        "fid": "0x88582fe97390623b:0x548f8fc906c05166",
+        "placeId": "ChIJO2KQc-kvWIgRZlHABsmPj1Q"
+      },
+      {
+        "position": 14,
+        "title": "Brian L. Badman, MD",
+        "address": "14300 138th St Building B, Fishers, IN 46037",
+        "latitude": 39.9888142,
+        "longitude": -85.9102984,
+        "rating": 4.9,
+        "ratingCount": 224,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://ciocenter.com/physicians/brian-l-badman-m-d/",
+        "phoneNumber": "(800) 622-6575",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2cKYceMMHYU5xvlywzkVCr5_qVN7zwUnXTN4x4TYi-z2TzJ-_IY9tQ87QSDqgAAJkaNyw8jAdFpBwfCY10rIgLp44GfRn7TIhwt1h4yxRek-sCFxQhGpMGHcnYGkwKyTpKVGb",
+        "cid": "1368104825140075667",
+        "fid": "0x8814ac667d70e8eb:0x12fc7c1705f8dc93",
+        "placeId": "ChIJ6-hwfWasFIgRk9z4BRd8_BI"
+      },
+      {
+        "position": 15,
+        "title": "O•M•I Orthodontics",
+        "address": "13910 Olivia Way Suite 100, Fishers, IN 46037",
+        "latitude": 39.989666799999995,
+        "longitude": -85.9217111,
+        "rating": 4.9,
+        "ratingCount": 76,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.omiortho.com/",
+        "phoneNumber": "(317) 939-6600",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGc12P3-yPxJXTVLNyu9HkgU_gVAVVnT92I_FYHtKX3HBm8tnF4iKGe_b6hdMxNk6cKSLhpYGwyWljroxINZafmPyXsHPwUeYPliKPyeiCk0yK6IkVH8L8DgD-AqgWsr9veJ5EnnA",
+        "cid": "4467772352362727511",
+        "fid": "0x8814cb46606c7d09:0x3e00b7487fe44857",
+        "placeId": "ChIJCX1sYEbLFIgRV0jkf0i3AD4"
+      },
+      {
+        "position": 16,
+        "title": "Community Orthopedic & Sports Medicine Clinic - North",
+        "address": "7930 Shadeland Ave #200, Indianapolis, IN 46250",
+        "latitude": 39.8985304,
+        "longitude": -86.050015,
+        "rating": 3.7,
+        "ratingCount": 3,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.ecommunity.com/services/sports-medicine/walk-in-clinics/?utm_source=GMB&utm_medium=Yext&utm_campaign=listings",
+        "phoneNumber": "(317) 497-6024",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENCUizVyluUDuejXghiPMqChY9hN4Nq5IzN58rRAfGmjEwE701oR7uYbq3KTVwmsxkatCwLY4tV6fXDxpRR_Ayba37oQQxVGA86dtSzjkridsAuW8XfmKKbH_zhKwHEkgSufT5",
+        "cid": "17770634590672043724",
+        "fid": "0x886b4cc5b3023e61:0xf69dfa01e246becc",
+        "placeId": "ChIJYT4Cs8VMa4gRzL5G4gH6nfY"
+      },
+      {
+        "position": 17,
+        "title": "OrthoIndy Fishers Urgent Care",
+        "address": "10995 Allisonville Rd UNIT 102, Fishers, IN 46038",
+        "latitude": 39.9464148,
+        "longitude": -86.04331599999999,
+        "rating": 3.7,
+        "ratingCount": 28,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic",
+          "Urgent care center",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.orthoindy.com/",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–12 PM, 1–7:30 PM",
+          "Friday": "8 AM–12 PM, 1–7:30 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–7:30 PM",
+          "Tuesday": "8 AM–12 PM, 1–7:30 PM",
+          "Wednesday": "8 AM–12 PM, 1–7:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8mmhf5k_qLOKx33Y1eG3GdeKEWlBQGYj9ZLenqLAKj6HcTqBSt7TQAQnIdCdu5Lq4hLYM_NEC5GqgNF3BqNKnt2h8Ms7fXIM64HbxL_tGqb5uBA3C1VnwDYwb2GlLeJh3bpPC",
+        "cid": "12254725513770368651",
+        "fid": "0x8814b305658e9585:0xaa1187ed2c32fe8b",
+        "placeId": "ChIJhZWOZQWzFIgRi_4yLO2HEao"
+      },
+      {
+        "position": 18,
+        "title": "Indiana Orthopedic Institute Direct",
+        "address": "14065 Westinghouse Dr, Noblesville, IN 46060",
+        "latitude": 39.993873699999995,
+        "longitude": -85.9167013,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.indianaortho.com/locations/indianapolis-metro/",
+        "phoneNumber": "(317) 620-0232",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7aE0Z5PB4odWmvjnbh5JiwQw7qarSPmb8SrNhBTWWKCQeXdXBrvpJFgFPY25P8ABNhL6zHi2dgGEGyL_AC2Z2aTw3OEGClRv0I9tnE7rzojA-uxNrb1R98imOyHnfGitY80-KSu3amR6E",
+        "cid": "17524017445152595521",
+        "fid": "0x8814c94df6f3a1eb:0xf331d10528119e41",
+        "placeId": "ChIJ66Hz9k3JFIgRQZ4RKAXRMfM"
+      },
+      {
+        "position": 19,
+        "title": "IU Health Orthopedics & Sports Medicine - Carmel",
+        "address": "201 Pennsylvania Pkwy #100, Carmel, IN 46280",
+        "latitude": 39.9315796,
+        "longitude": -86.15415469999999,
+        "rating": 4.8,
+        "ratingCount": 112,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Emergency room",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://iuhealth.org/find-locations/iu-health-orthopedics-sports-medicine-201-pennsylvania-pkwy-carmel?utm_source=Google&utm_medium=Yext&y_source=1_MTE5NDE4NzEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(317) 944-9400",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZFbDip4Ad3a6kyh6F24GaosbajBVYnDlMJb_UFUpkBxbU4AzcOCx1Fecr6CnuDLPs5xt2QQ7FUTyfVtyl_rk4E4DNpAK71GwVOsPabYLmqIghpbN40R62f-egGi7A28pFjoMNEA",
+        "cid": "3488478845003525718",
+        "fid": "0x8814ad7a88bf87f7:0x30699106dae66e56",
+        "placeId": "ChIJ94e_iHqtFIgRVm7m2gaRaTA"
+      },
+      {
+        "position": 20,
+        "title": "Dr. Timothy J. Williams",
+        "address": "14065 Westinghouse Dr, Noblesville, IN 46060",
+        "latitude": 39.993838,
+        "longitude": -85.916663,
+        "rating": 5,
+        "ratingCount": 18,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.timwilliamsmd.com/",
+        "phoneNumber": "(317) 620-0232",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.timwilliamsmd.com/appointment_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_yzFhIZYJtVV2_CehilJWKyOq9aJmWjhkBtRdoGl8hg4RA8CICMbc5uoSvwW1dHnArEYmgtY5hwYlTcvWQvtqqnA68_BDsCSGHwGuCgpm_TFTvQETA7vpmPRJlRKT-UCJ5QPayelT03pY",
+        "cid": "15341440498542692478",
+        "fid": "0x886b5cf74dfc1ef7:0xd4e7bed9da6dc87e",
+        "placeId": "ChIJ9x78Tfdca4gRfsht2tm-59Q"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -10,6 +10,7 @@ export interface AuditInput {
   businessName: string;
   gbpUrl: string;
   websiteUrl: string;
+  keywords?: string[];
   market?: "in" | "us";
 }
 

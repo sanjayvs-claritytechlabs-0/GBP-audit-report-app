@@ -1,0 +1,623 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@41.6482768,-72.5299675,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Ortho Speed Pass Orthopedic Urgent Care Center - MANCHESTER",
+        "address": "277 Middle Turnpike W, Manchester, CT 06040",
+        "latitude": 41.781636999999996,
+        "longitude": -72.53704309999999,
+        "rating": 4.8,
+        "ratingCount": 324,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "website": "https://orthopedicsurgicalpartners.com/?utm_source=GMBSocialClimb&utm_medium=OrthoSpeedPassOrthopedicUrgentCareCenter-MANCHESTER",
+        "phoneNumber": "(860) 432-4640",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "9 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHb7yyWdIAkHXq3ODcT-P9FSrJs6Bm8m-418PoEke6vk8rW3EyMISsMAnZWFxtbp3-iClCTdF0hJS9wa_klBATFLQPa5UC1u4uRzjUd8gVgI9atiYGLmPCl4GaCKlxZMGzsNpQ",
+        "cid": "11267044341344290501",
+        "fid": "0x89e659d2ec0741d9:0x9c5c95221266c6c5",
+        "placeId": "ChIJ2UEH7NJZ5okRxcZmEiKVXJw"
+      },
+      {
+        "position": 2,
+        "title": "Orthopedic Surgical Partners - ROCKY HILL",
+        "address": "1111 Cromwell Ave building 4 suite 404, Rocky Hill, CT 06067",
+        "latitude": 41.6390914,
+        "longitude": -72.67818539999999,
+        "rating": 4.9,
+        "ratingCount": 1223,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicsurgicalpartners.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicSurgicalPartners-ROCKYHILL",
+        "phoneNumber": "(860) 525-4469",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEk84ZZdg3lKeWhatrsNoQaVTPC3_78-IHtaHXPDU6Mc1s6kmTcI60VrkGIbj62s5CCeSij8kc4hSe5o7DyL7P9NeC8VAzBLc5fRTUh9Ni4dKDDwq-PmiY1riU3Q7gBD8ZlPkFaGQ",
+        "cid": "9038514598803011257",
+        "fid": "0x89e64de77bc1a275:0x7d6f4123b6d5f6b9",
+        "placeId": "ChIJdaLBe-dN5okRufbVtiNBb30"
+      },
+      {
+        "position": 3,
+        "title": "Orthopedic Associates of Hartford",
+        "address": "31 Seymour St Ste 100, Hartford, CT 06106",
+        "latitude": 41.752427,
+        "longitude": -72.6814528,
+        "rating": 4.7,
+        "ratingCount": 314,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical office",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://oahct.com/?utm_source=gmb&utm_medium=yext",
+        "phoneNumber": "(860) 549-3210",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://oahct.com/patient-resources/appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFe8L7Va12qVYHPRSsCcGHIfsznhkOrEUMYOBXMFwWZ0GPFdRxCatUh0s31yYMizzEj8d3ZGdh6lMCPSuhFlwcw8SJxrGgvLNvSm6UodzO_LZHnCh3tJd6u2q06JZZWhANG3gg",
+        "cid": "626662599535811728",
+        "fid": "0x89e6536b4bfeaf67:0x8b25a50675adc90",
+        "placeId": "ChIJZ6_-S2tT5okRkNxaZ1Basgg"
+      },
+      {
+        "position": 4,
+        "title": "Orthopedic Associates of Hartford",
+        "address": "345 Western Blvd, Glastonbury, CT 06033",
+        "latitude": 41.7219245,
+        "longitude": -72.5861378,
+        "rating": 4.8,
+        "ratingCount": 431,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical office",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://oahct.com/?utm_source=gmb&utm_medium=yext",
+        "phoneNumber": "(860) 549-3210",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJGTZubzVY4bHq2keaxyDheu1Ho8HfxMvyPKaHVGvNGs1ae2Modsf0jg6SOIwuhyqOxTt2xt0c2gBJICT7mVPYNGmi8iHaFU6ySwUot3HHBt0z_bGOkQlQijOYF2S52lzkg7Q",
+        "cid": "12677225620815524632",
+        "fid": "0x89e6510a66fbda7f:0xafee8d890a30b318",
+        "placeId": "ChIJf9r7ZgpR5okRGLMwComN7q8"
+      },
+      {
+        "position": 5,
+        "title": "Orthopedic Surgical Partners - MANCHESTER",
+        "address": "277 Middle Turnpike W, Manchester, CT 06040",
+        "latitude": 41.781636999999996,
+        "longitude": -72.53704309999999,
+        "rating": 4.8,
+        "ratingCount": 1828,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicsurgicalpartners.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicSurgicalPartners-MANCHESTER",
+        "phoneNumber": "(860) 432-4640",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "9 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWTzPHLqopva9nAPBxeb5F7oQd_YIrzuW62LWKr4PIdaYPjJHw4VkRlxyvSM5jztItby1GoOlNJZ9WrrwywROGzY7rUjHenhtxQKh-LgfIxlIeELl6mGs6GW_u0wrr3_T-169Psg",
+        "cid": "15067311288487872221",
+        "fid": "0x89e6570d88136179:0xd119d7c96e8d86dd",
+        "placeId": "ChIJeWETiA1X5okR3YaNbsnXGdE"
+      },
+      {
+        "position": 6,
+        "title": "Eastern Orthopedics and Sports Medicine & New York Orthopedics and Sports Medicine: Kenneth Alleyne, MD, FAAOS",
+        "address": "2800 Tamarack Ave #103, South Windsor, CT 06074",
+        "latitude": 41.820361999999996,
+        "longitude": -72.5534973,
+        "rating": 4.8,
+        "ratingCount": 274,
+        "type": "Pain management physician",
+        "types": [
+          "Pain management physician"
+        ],
+        "website": "http://www.eosm.net/",
+        "phoneNumber": "(860) 352-5426",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9–11:30 AM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://eosm.net/schedule?utm_source=google_apt&ao=Google",
+          "https://www.zocdoc.com/doctor/kenneth-alleyne-md-47359?LocIdent=33219&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_eb3aYTzd0E60XzZto5kbDx-lo_Ckz_JNvvxUWn39VwpeP4cx-entity&rwg_token=AFd1xnFLIo1OSRk7De56fjRT5nv8V5aovmbVu4z4ZnFQsuPdJeGWHVsR4WXIvmltpgPHiFluEiSRdB22lzZmxruO4ssHO1citw%3D%3D",
+          "https://www.tebra.com/care/provider/kenneth-alleyne-md-1316991136?lid=793604608&rwg_token=AFd1xnGbYD0_dh7eZ3DjxGB4lGKjbSVMpVvC6x6Vwa0Kg3dvtC-VOCsTRI_-Zv4Sw_odpaRNmhbzNh7kcQzr7x5JQ16X5rj9Ag%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEwu6QzfcWh3FjBh_AjpKWcnBoQe6JXC5sf_QFz6KCE87M3GcDiyvLt-2rAC1x1NaLjy02ShJyWnuEzsEFckCYOj3g6SVYHshP_loj7pcb7XVGRkeCl7D7UbJPkg2KdiO1Z0VrAA",
+        "cid": "13180267556693872472",
+        "fid": "0x89e657c53a69b15b:0xb6e9b782c1580f58",
+        "placeId": "ChIJW7FpOsVX5okRWA9YwYK36bY"
+      },
+      {
+        "position": 7,
+        "title": "Advanced Orthopedics of New England - Bloomfield",
+        "address": "35 Jolley Dr STE 301, Bloomfield, CT 06002",
+        "latitude": 41.8190107,
+        "longitude": -72.72601089999999,
+        "rating": 4.7,
+        "ratingCount": 432,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.ctortho.com/?y_source=1_MjQzMjY0NzgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(860) 728-6740",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_iXeHl0u1A25n9OUPJF6ABjCciUIJmceDJr8rqz4SYC1ZsYFxP4QGwbA7UMdnJZKQOb5DYSOMP3P1kjlkdmtLP5kzRN-NqQMPrk1thfr5J2P_7QQxcDnFHNA5s1ZclUgoVyLd7A",
+        "cid": "13870005886326102655",
+        "fid": "0x89e7a8c5a7067247:0xc07c28ddff0b5a7f",
+        "placeId": "ChIJR3IGp8Wo54kRf1oL_90ofMA"
+      },
+      {
+        "position": 8,
+        "title": "Advanced Orthopedics of New England - Vernon",
+        "address": "224 Hartford Turnpike, Vernon, CT 06066",
+        "latitude": 41.8248749,
+        "longitude": -72.496577,
+        "rating": 4.8,
+        "ratingCount": 140,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.ctortho.com/contact-locations/vernon/",
+        "phoneNumber": "(860) 728-6740",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "8:30 AM–1:30 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9mbXWJGYthNCa0KmcOcFC4KZObExeuWt5zNIqmT2SJET9S2vmW8Nftc13zaNBaOrIxjjRy3uTWX3PTkMSP-9lRzXdyp0t4fd-PCAX4BMrJagSaD-qOZEYSSnXIaZirRHzIcCS",
+        "cid": "9977167907629766256",
+        "fid": "0x89e6f7eabc4d67e5:0x8a760559c6b31670",
+        "placeId": "ChIJ5WdNvOr35okRcBazxlkFdoo"
+      },
+      {
+        "position": 9,
+        "title": "Bone & Joint Institute at Hartford Hospital",
+        "address": "32 Seymour St, Hartford, CT 06106",
+        "latitude": 41.7529835,
+        "longitude": -72.68053619999999,
+        "rating": 4.2,
+        "ratingCount": 123,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://hartfordhospital.org/services/bone-joint-institute",
+        "phoneNumber": "(860) 972-2245",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG06_n0PwvHezdDdxWI8Sm0AvB32ErGD7kOjOl0TqRph0Jd_KqZ9qD65D9TFC_gA6VhUuS6AKYI_FSm4TN9JyId81Y3yYH54HSuHDNXbexnZRfFvWXnc5dkldg7I37kMQV0AsvF",
+        "cid": "10816585487474039140",
+        "fid": "0x89e6531497800deb:0x961c3b312f891964",
+        "placeId": "ChIJ6w2AlxRT5okRZBmJLzE7HJY"
+      },
+      {
+        "position": 10,
+        "title": "Orthopaedic Sports Specialists",
+        "address": "84 Glastonbury Blvd # 101, Glastonbury, CT 06033",
+        "latitude": 41.7200707,
+        "longitude": -72.6183013,
+        "rating": 4.5,
+        "ratingCount": 47,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.orthoct.com/",
+        "phoneNumber": "(860) 652-8883",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoct.com/new-appointment-request.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrywsyTHuLCHsinM2Vh94BZMdjLYDWuM4jEA9VFBPGvzH_Nqi_cMlGkx22MMZePcH9XUFYthy3ORCPqpQexM8BaNWfktzjyY6Qrbq1wrhAV6NgIqFyXdX9K00DWv6PCRw-qvntzA",
+        "cid": "15964884329027140138",
+        "fid": "0x89e6522bb8a08cdf:0xdd8ea9b62fdcfa2a",
+        "placeId": "ChIJ34yguCtS5okRKvrcL7apjt0"
+      },
+      {
+        "position": 11,
+        "title": "Connecticut Orthopaedics Urgent Care | Walk In",
+        "address": "701 N Colony Rd, Wallingford, CT 06492",
+        "latitude": 41.471682699999995,
+        "longitude": -72.8164592,
+        "rating": 4.9,
+        "ratingCount": 36,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.ct-ortho.com/services/urgent-care-walk-in-orthopedic-urgent-care-ct/",
+        "phoneNumber": "(203) 407-3550",
+        "openingHours": {
+          "Thursday": "1–7 PM",
+          "Friday": "1–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "1–7 PM",
+          "Tuesday": "1–7 PM",
+          "Wednesday": "1–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZBZo-ZbB-O6_zZX50CxX3093s4mDXba92vm0qG6y9Hqjgr94cDSGUkMEosBt75kzSEuvLXJiHboQORR7UTIl7nqobiS84Qc4AxSFrvBG1ZsPmtg8OgtZSAO5L4WmobIe3nZEPpA",
+        "cid": "4019301802793666682",
+        "fid": "0x89e7cf3b6e0a3a9b:0x37c76db1c89a887a",
+        "placeId": "ChIJmzoKbjvP54kReoiayLFtxzc"
+      },
+      {
+        "position": 12,
+        "title": "Ortho Speed Pass Orthopedic Urgent Care Center - ROCKY HILL",
+        "address": "1111 Cromwell Ave bldg 4 ste 404, Rocky Hill, CT 06067",
+        "latitude": 41.639565999999995,
+        "longitude": -72.67822199999999,
+        "rating": 3.7,
+        "ratingCount": 9,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Urgent care center"
+        ],
+        "website": "https://orthopedicsurgicalpartners.com/?utm_source=GMBSocialClimb&utm_medium=OrthoSpeedPassOrthopedicUrgentCareCenter-ROCKYHILL",
+        "phoneNumber": "(860) 397-6818",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhN2bDLnZVmfV0AOiiGqnwXaAt6zXfqRGmGN9mxA9O3aE9ziaZ_weCnA5XlPjQ8I7ifH9-jBo9fCpWvVBiEmI8m3Qb_qgrWXhXEWlC8cJPqrUUcg-nZjLwHJwTtUCl_p_lG1VjQQ",
+        "cid": "18082323453320466539",
+        "fid": "0x89e64d917eb1637b:0xfaf1516064e1906b",
+        "placeId": "ChIJe2OxfpFN5okRa5DhZGBR8fo"
+      },
+      {
+        "position": 13,
+        "title": "Connecticut Orthopaedics",
+        "address": "701 N Colony Rd, Wallingford, CT 06492",
+        "latitude": 41.4716787,
+        "longitude": -72.8164535,
+        "rating": 4.8,
+        "ratingCount": 265,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.ct-ortho.com/find-a-location/wallingford-701-north-colony-road/?utm_source=GMB&utm_medium=yext&y_source=1_MTU2NDQyMjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(203) 265-1800",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEK8Y2YTrumFrbXeopn4reLYj-JJBz7rNTaRrnaVm_R-uo4w6wj_ChnnbIJ96-1R-Ttcpx59iOc0AJP6CttJPKYLTk7XnS-S4lopaWgBUhxqz6SzANMP5KOF_W8uMlMYSDu2GD-5A",
+        "cid": "6625039265719847213",
+        "fid": "0x89e7c957f2bdc2fb:0x5bf0de1c783f092d",
+        "placeId": "ChIJ-8K98lfJ54kRLQk_eBze8Fs"
+      },
+      {
+        "position": 14,
+        "title": "Orthopedic Surgical Partners - AVON",
+        "address": "31 Ensign Dr, Avon, CT 06001",
+        "latitude": 41.8135057,
+        "longitude": -72.8337555,
+        "rating": 4.9,
+        "ratingCount": 773,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicsurgicalpartners.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicSurgicalPartners-AVON",
+        "phoneNumber": "(860) 751-6039",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5UYZun5pevWZLWfzASvsvlVG6EXFsfh9qMqz_7uWwlyEXEiBqtmaA07QstqTqPBZ43YjZ2RE_G2COHt3uPJUZlO6yNEUGMzVMtNyycXw-RiUjvaCAPx-Q2hQG8X3Pa28LxlFgmA",
+        "cid": "749204204801011887",
+        "fid": "0x89e7a9838b2338cf:0xa65b5413b64b0af",
+        "placeId": "ChIJzzgji4Op54kRr7BkO0G1ZQo"
+      },
+      {
+        "position": 15,
+        "title": "Orthopedic Associates of Hartford",
+        "address": "150 Enterprise Dr, Rocky Hill, CT 06067",
+        "latitude": 41.6461677,
+        "longitude": -72.6661834,
+        "rating": 4.9,
+        "ratingCount": 316,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical office",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://oahct.com/?utm_source=gmb&utm_medium=yext",
+        "phoneNumber": "(860) 549-3210",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtdjtyTqyeJy38bj_pKHavSdUlI7ZDVPb84dqNOXK8cuhOT1yhhC4BXcHU27G-cbwm8yjrR8A8TSXpU_0uFBoseKGSB2uMsJFmFhV71mlO-XVsSmbVRfmyJSYeBiMrwI1DTmM",
+        "cid": "17983513924458675129",
+        "fid": "0x89e7b3f3fd9628af:0xf99246a230a67bb9",
+        "placeId": "ChIJryiW_fOz54kRuXumMKJGkvk"
+      },
+      {
+        "position": 16,
+        "title": "Pollack Orthodontics",
+        "address": "991 Main St #2c, East Hartford, CT 06108",
+        "latitude": 41.771229399999996,
+        "longitude": -72.64292379999999,
+        "rating": 4.8,
+        "ratingCount": 147,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.pollackortho.com/",
+        "phoneNumber": "(860) 289-5159",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TwmVxDKzrHoA6CLlWhBJMA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=122.5067&pitch=0&thumbfov=100",
+        "cid": "12242509493126546815",
+        "fid": "0x89e654746a12b36f:0xa9e621853927c57f",
+        "placeId": "ChIJb7MSanRU5okRf8UnOYUh5qk"
+      },
+      {
+        "position": 17,
+        "title": "The Orthopedic Center of Connecticut",
+        "address": "130 Birdseye Rd, Farmington, CT 06032",
+        "latitude": 41.715613399999995,
+        "longitude": -72.8083721,
+        "rating": 4.2,
+        "ratingCount": 5,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.orthocenterct.com/",
+        "phoneNumber": "(860) 247-3279",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/connecticut-hand-and-orthopedics-76902?LocIdent=185017&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_Mg1AaYFHakipxDIHaI4w3h-lo_nlkqo8kiWkqt4yefIctKEB-entity&rwg_token=AFd1xnF_5uB1rUZe2xNCW4tCNnrHYrrJMCk_-4Aq_QcFZehWcyRRL43TRAQWKHmLG2t9XMgQS6GkTlYswevcUE8j4W3LdfSrqpoarjO1_zu4WidUlm9XC54%3D",
+          "https://www.orthocenterct.com/patient-resources/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLEGyRNkOijZrRJeFu9ucdFkKPT2lSPs7Ge0fI12xEETsb-1smo29wZjnui9VYbn4GJQ5uFk0ByziFUjTGaUYsnbAaospTrBz4Jc4PZbIZyShEFvfXduMqGtoRjMWOdhnZhFzABg",
+        "cid": "11998411120485036933",
+        "fid": "0x89e7b1e0691630dd:0xa682eb58019b7385",
+        "placeId": "ChIJ3TAWaeCx54kRhXObAVjrgqY"
+      },
+      {
+        "position": 18,
+        "title": "Middlesex Orthopedic & Spine Associates - Middletown",
+        "address": "430 Saybrook Rd, Middletown, CT 06457",
+        "latitude": 41.5459112,
+        "longitude": -72.6274147,
+        "rating": 4.9,
+        "ratingCount": 1896,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://middlesexortho.com/locations/middletown/430-saybrook-road/?utm_source=GMBSocialClimb&utm_medium=MiddlesexOrthopedic%26SpineAssociates-Middletown",
+        "phoneNumber": "(860) 347-7636",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/mosa-middlesex-orthopedic-and-spine-associates-78486?LocIdent=188867&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_eGNqnfQqekWv7YOIECyrmB-lo_kp6sCEFC_kmaytjg1LKYMh-entity&rwg_token=AFd1xnF_77fWs6OMOtKxou_2-b_IHekygcrm-lCbe7ZOJ7VnoIarioYdid0pqQQsS6uQgCXOU4DSVfJwHIob4b-GEIUAPusUkE6btaLFpPcQAiiMe3334MI%3D",
+          "https://www.middlesexortho.com/online-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPv_Jv0KhLdXfBqRHKba-fwmWOC0SGvhVM3gaWKJF9-WmMgGxybIBe-awjUf2QoGwyuW7h0MHIFzeVi646qqTkSXPyz25x7rHLc0bWPgzTBgey9cmz6_oTz6Yx1goGMpATwYma",
+        "cid": "14851591823238986154",
+        "fid": "0x89e64a1078de5fed:0xce1b74137d4179aa",
+        "placeId": "ChIJ7V_eeBBK5okRqnlBfRN0G84"
+      },
+      {
+        "position": 19,
+        "title": "Orthopedic Surgical Partners - WILLIMANTIC",
+        "address": "5 Founders St #204, Willimantic, CT 06226",
+        "latitude": 41.7188911,
+        "longitude": -72.2261795,
+        "rating": 4.9,
+        "ratingCount": 818,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://orthopedicsurgicalpartners.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicSurgicalPartners-WILLIMANTIC",
+        "phoneNumber": "(860) 456-3997",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8g_EizL7uud7V_tPkIO28g7u1Y49lMdbzDXHZf700_bz1wutN_G_EFuQZsMN8qPKWKj-1EAm-ITocUTT5LhraYrMBDj6BngDNkorVzaBNLuDGujjtY5PWo6etfqWDdXpteJLf",
+        "cid": "16217036293993454875",
+        "fid": "0x89e663e88ed9a13d:0xe10e7c967d18dd1b",
+        "placeId": "ChIJPaHZjuhj5okRG90YfZZ8DuE"
+      },
+      {
+        "position": 20,
+        "title": "Ortho Ouch Care - Orthopaedic Urgent Walk-in",
+        "address": "863 N Main Street Ext #200, Wallingford, CT 06492",
+        "latitude": 41.482302,
+        "longitude": -72.808111,
+        "rating": 2.2,
+        "ratingCount": 44,
+        "type": "Walk-in clinic",
+        "types": [
+          "Walk-in clinic"
+        ],
+        "website": "https://comprehensiveorthopaedics.com/urgent-orthopaedic-care/",
+        "phoneNumber": "(203) 265-3280",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "10 AM–2 PM",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEeO2mG_-Np4U2kvWUWEphoseupGBVaHtYEXa94ngnxGA-y8EtqCdaJ0_V8OcYC7o6R4nhnsDSghp9sDTJkQMItkJyIF8H4w7qis_dZR3K1qDT5_03L9xzQYRo1PWLbS4ZFrA",
+        "cid": "15285989224213851770",
+        "fid": "0x89e7ceaad93c9083:0xd422be35f5b72e7a",
+        "placeId": "ChIJg5A82arO54kRei639TW-ItQ"
+      }
+    ],
+    "credits": 3
+  }
+}

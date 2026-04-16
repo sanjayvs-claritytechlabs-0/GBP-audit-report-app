@@ -1,0 +1,617 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.330356,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzMwMzU2LC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@42.6647396,-71.3574118,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Chelian Orthodontics",
+        "address": "29 Riverside St, Nashua, NH 03062",
+        "latitude": 42.752098,
+        "longitude": -71.493916,
+        "rating": 4.9,
+        "ratingCount": 842,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://drchelian.com/",
+        "phoneNumber": "(603) 882-6100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://drchelian.com/request-free-consultation/",
+          "https://reviewtool.com/vc/i6rd3s9ENx2PAOq667"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWSlDQS4uSzPu5gv4tZVZpD-HieOrp6iMMb5WM7RhcjN_B2GqKjiirjJnMPaBcSBPdfGqKB_RRfGj8EfinugAV3bqtcGr9-DodcoOH2HhXHsAda6F9EvnY8BXbzP7WTxSmFafi",
+        "cid": "4095576233040070913",
+        "fid": "0x89e3b7400ce20675:0x38d668e278e2c901",
+        "placeId": "ChIJdQbiDEC344kRAcnieOJo1jg"
+      },
+      {
+        "position": 2,
+        "title": "Summit Orthodontics (formerly Orthodontic Associates of New England)",
+        "address": "1 Trafalgar Square STE 201, Nashua, NH 03063",
+        "latitude": 42.787164,
+        "longitude": -71.5067807,
+        "rating": 4.8,
+        "ratingCount": 103,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.metcalforthodontics.com/",
+        "phoneNumber": "(603) 882-2101",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwnQW5iaKPoIU7abYLiWauWZ2z4H-TEBMTgqnLpGHUj38SnKTNhuMvvDygm_YBXUjKL4hk4MU9C_dzq7L8FKz8vUqHNL9WS8WFOn9HcWzrMTTt1DlVJyuOulna_mgxlCGK4GKihQ",
+        "cid": "1200646627788391434",
+        "fid": "0x89e3b6eb6123982f:0x10a98dbf2619040a",
+        "placeId": "ChIJL5gjYeu244kRCgQZJr-NqRA"
+      },
+      {
+        "position": 3,
+        "title": "Decoteau Orthodontics",
+        "address": "300 Main St, Groton, MA 01450",
+        "latitude": 42.6139551,
+        "longitude": -71.5765912,
+        "rating": 5,
+        "ratingCount": 131,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.decoteauorthodontics.com/",
+        "phoneNumber": "(978) 448-2300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsaNZFDMTCO6U_2i3wxenqEqMCwAoYaARGWodXsZLdBTpu5XCFU0JLm_oktMYGrRkz3QrpwaM0HI-FeW9NOFgwfrxdiCMXRP0xq79vyWFPvjAJIwzncvioJGpNIdDjLbqKr9Q",
+        "cid": "12939607535663149844",
+        "fid": "0x89e3c1605bb273cb:0xb392b87f282b7314",
+        "placeId": "ChIJy3OyW2DB44kRFHMrKH-4krM"
+      },
+      {
+        "position": 4,
+        "title": "Reichheld Ting Orthodontics - Westford",
+        "address": "73 Littleton Rd, Westford, MA 01886",
+        "latitude": 42.5733882,
+        "longitude": -71.40811219999999,
+        "rating": 5,
+        "ratingCount": 366,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.straightteeth.com/",
+        "phoneNumber": "(978) 692-5799",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appt/reichheld-ting-orthodontics",
+          "https://nexhealth.info/book/appt/reichheld-ting-orthodontics?lid=127641&rwg_token=AFd1xnF5NZq1nTRvwXyzaIecLsy43kM5a53cJ-LkXPXtLc1bBNA_jHDDlJ6KJ733nwt23vEckDVle_OZ2bbfjCHYuwDgf23z3g%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGr7nqmJzxNDIWqflzTaLicKED0cWZJJ_sKA2w0FbZQwA0Cee2W738C1Ah656eGiwUDdfr6vhODNVmAC18BSBfKsTCX-_eYMJhyzHHK6e6fvWnkXXfZgpshxPPa0KtXrTgriBVyCA",
+        "cid": "6695252583101236166",
+        "fid": "0x89e3962b54907883:0x5cea50c0594403c6",
+        "placeId": "ChIJg3iQVCuW44kRxgNEWcBQ6lw"
+      },
+      {
+        "position": 5,
+        "title": "Decoteau Orthodontics",
+        "address": "169 Kinsley St, Nashua, NH 03062",
+        "latitude": 42.750313899999995,
+        "longitude": -71.4808907,
+        "rating": 4.7,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.decoteauorthodontics.com/",
+        "phoneNumber": "(603) 589-9222",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1GKJfsMVaFPuwhHuOBGHMGv3NeQv2m6i8IfwgIEIl8bib9PRuHOMayF1VLh8vEcLdgF7qDgPf3GfrQRGx0rsY8tDAsFHTDNDL6vqTz-bGM7uLycsotSIGpYQ1NWIxQDeTyMIEWw",
+        "cid": "3742576976726551164",
+        "fid": "0x89e3b750304d8e5f:0x33f04dee6a576a7c",
+        "placeId": "ChIJX45NMFC344kRfGpXau5N8DM"
+      },
+      {
+        "position": 6,
+        "title": "Simply Orthodontics Hudson",
+        "address": "49 Derry Rd NH #102, Hudson, NH 03051",
+        "latitude": 42.7709088,
+        "longitude": -71.442042,
+        "rating": 4.9,
+        "ratingCount": 211,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.simplyortho.com/hudson.html",
+        "phoneNumber": "(603) 889-1100",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.simplyortho.com/request-an-appointment.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjeaboSodXWB-tQ691GOPyFPZb_kEHB9pgC4EkhJ2zobYJr7wDDUFoUQanOJ8wG_N56W03yibOdm4F67AhwLJODSxpVWSAauXyknjbObQYUZQ0bbKFxQhlma3PEBDDoWSBfvI",
+        "cid": "11869507665255791109",
+        "fid": "0x89e3b1102b27852f:0xa4b8f6558e58fa05",
+        "placeId": "ChIJL4UnKxCx44kRBfpYjlX2uKQ"
+      },
+      {
+        "position": 7,
+        "title": "Reichheld Ting Orthodontics - Lowell",
+        "address": "19 Wood St, Lowell, MA 01851",
+        "latitude": 42.633783,
+        "longitude": -71.3564358,
+        "rating": 5,
+        "ratingCount": 277,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.straightteeth.com/",
+        "phoneNumber": "(978) 453-3872",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/reichheld-ting-orthodontics?lid=127639&rwg_token=AFd1xnED1tqgFfIptKTmxqtqZ_W7qLGV8iGpyeNlX8QUghsGnngGvLLWzxAqkzIeiXsvT7FFUmai4dTWMwh0oHcicrgiq8mNrA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOyJKyxyWRJB8SMf_1dukIpeKr4Ae3N_X5wowR2HYacm3ykMqxjnNjyUqWiGtv1g-kK3RIZABds2Iv_R-LwF7KXPvjy-SU_QrDTBnnXryUYSKiZwgOiQrzC4LSZ6Nj-oNJscFq",
+        "cid": "15285597456210909170",
+        "fid": "0x89e3a440cf783cbf:0xd42159e65d10d7f2",
+        "placeId": "ChIJvzx4z0Ck44kR8tcQXeZZIdQ"
+      },
+      {
+        "position": 8,
+        "title": "Hugh R Phillis, DMD, Board Certified Orthodontist",
+        "address": "505 W Hollis St, Nashua, NH 03062",
+        "latitude": 42.7467468,
+        "longitude": -71.5005702,
+        "rating": 5,
+        "ratingCount": 150,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.smilemkr.com/",
+        "phoneNumber": "(603) 889-2520",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:15 AM–5 PM",
+          "Tuesday": "7:15 AM–5 PM",
+          "Wednesday": "8:30 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnxYy4rP09LC4a4uB7ZropTXgKNQEQgEj-qJPzs7zaslHUwy3QazBb-3LUY510HOXMgO3S3eqGAyot0PRfd30YnMK1Ll07epPTwNtAF7p1OpPx_gMSHUYzNtAKbq_H1ADQqS6rRw",
+        "cid": "6596719691301017233",
+        "fid": "0x89e3b738a20f6c33:0x5b8c419bbad25691",
+        "placeId": "ChIJM2wPoji344kRkVbSuptBjFs"
+      },
+      {
+        "position": 9,
+        "title": "Phillis Orthodontics, PC",
+        "address": "5 Village Square, Chelmsford, MA 01824",
+        "latitude": 42.599804899999995,
+        "longitude": -71.3496815,
+        "rating": 5,
+        "ratingCount": 241,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://phillisortho.com/",
+        "phoneNumber": "(978) 256-2526",
+        "openingHours": {
+          "Thursday": "10 AM–7:30 PM",
+          "Friday": "7:15 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–4 PM",
+          "Wednesday": "7:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.phillisortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAHlnGqFQk9IDb1jKe7cYfW8zC10PJsvhm5kR3t69GMNRhG-oBgPtPDAosUdtfqciVYkZErUpo_NkHYHZRnywwdVDnvVnlOekimgyACkobHay4hBWRdabMvjjdQkHA5G3RjurB",
+        "cid": "17024714790096148060",
+        "fid": "0x89e3a3e3f64b5f43:0xec43efe69a05165c",
+        "placeId": "ChIJQ19L9uOj44kRXBYFmubvQ-w"
+      },
+      {
+        "position": 10,
+        "title": "All Star Smiles Orthodontics",
+        "address": "5 Overlook Dr Suite #6, Amherst, NH 03031",
+        "latitude": 42.8214386,
+        "longitude": -71.6076336,
+        "rating": 4.9,
+        "ratingCount": 169,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.amherstorthodontics.com/",
+        "phoneNumber": "(603) 672-0844",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.amherstorthodontics.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZNtHdHPvhUmixQMDUxbCzdm6Fz1jVHFsTOzFNEfI1NtSQTy7OddYZPOs6lXK7qgDKKjegp4gIB1bkdSBcyqArKb_fUm3T-86exkDk_Ow-cS-vwcl4QELe3_-4U4CbMksLz9NH",
+        "cid": "10524462299392966712",
+        "fid": "0x89e3c98809c1395d:0x920e66b3474f0038",
+        "placeId": "ChIJXTnBCYjJ44kROABPR7NmDpI"
+      },
+      {
+        "position": 11,
+        "title": "Smilebliss Orthodontics",
+        "address": "211 Plain St, Lowell, MA 01852",
+        "latitude": 42.6210099,
+        "longitude": -71.3187039,
+        "rating": 4.9,
+        "ratingCount": 201,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smilebliss.com/bliss-locations/massachusetts/lowell/",
+        "phoneNumber": "(978) 592-0828",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqRTUT1xPMx_valNsJnWe97uq2ke4jB9vZqOMbKSBEvxARZsgeW2J4vv44veAG_DAUHbImxHZapyjJRX5oOfNbpK2suK5L5D0lb3cF7o0-QT8s8FivtAZdHKAtB7I3joa5RRCK",
+        "cid": "3291225193578193632",
+        "fid": "0x89e3a383b73f72af:0x2dacc7e03b0b62e0",
+        "placeId": "ChIJr3I_t4Oj44kR4GILO-DHrC0"
+      },
+      {
+        "position": 12,
+        "title": "Burlington Orthodontics",
+        "address": "156 Cambridge St Suite 6, Burlington, MA 01803",
+        "latitude": 42.5080405,
+        "longitude": -71.19535549999999,
+        "rating": 4.9,
+        "ratingCount": 315,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://myburlingtonorthodontics.com/",
+        "phoneNumber": "(781) 272-3050",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://myburlingtonorthodontics.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuhPaW31qKxH6kYuG8bPBd2AykPdB25IrzK1jBx-KeyHZQVwgD4waKQjwak6fgii9geEJntNF47IbbpoB3kbLKiuOgZAvRrz-SP4NBhJ_tMDiEq3n5t9aiBQpgow204zFRTxSQ",
+        "cid": "2194278215531026297",
+        "fid": "0x89e39fe745b4ef69:0x1e73a469471ad779",
+        "placeId": "ChIJae-0Reef44kRedcaR2mkcx4"
+      },
+      {
+        "position": 13,
+        "title": "Lowell Braces",
+        "address": "19 Bridge St, Lowell, MA 01852",
+        "latitude": 42.645626199999995,
+        "longitude": -71.3072002,
+        "rating": 5,
+        "ratingCount": 248,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.lowell-braces.com/",
+        "phoneNumber": "(978) 452-3100",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBWKmPCuCj7x4YHbf78XX2a1BKpxVz9ewjm4neDKFW0YR2h6ExvufDxHX6_1f67B33GVjdUOiIXGO2EcYG_lrPMW6c_47W2PgNA0fNZmij3sGvdgvRBjtK_3aSuFYQlgXaq94FBg",
+        "cid": "5604648200965450363",
+        "fid": "0x89e3a43ecc442071:0x4dc7b5d81593ea7b",
+        "placeId": "ChIJcSBEzD6k44kRe-qTFdi1x00"
+      },
+      {
+        "position": 14,
+        "title": "Orthodontic Associates of New England",
+        "address": "18 North Rd, Chelmsford, MA 01824",
+        "latitude": 42.5997355,
+        "longitude": -71.3535395,
+        "rating": 4.7,
+        "ratingCount": 50,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.orthodonticassociatesofnewengland.com/",
+        "phoneNumber": "(978) 250-1961",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFspxwf-4NKXP6Oir0leXD3ft-m2cCr5sRtZu9NJahAs36qOwkv9C1XfxblIiDl-6GNRf72IpOyFBuRiVvTCnVnwdnx8-ZMLV10XE30muOhiAFi2AcQj0cgDXkMzfkXRJwwzE9MZA",
+        "cid": "4305228588381959969",
+        "fid": "0x89e3a30b5328670b:0x3bbf3e974f5cf721",
+        "placeId": "ChIJC2coUwuj44kRIfdcT5c-vzs"
+      },
+      {
+        "position": 15,
+        "title": "Reichheld Ting Orthodontics - Billerica",
+        "address": "305 Boston Rd, North Billerica, MA 01862",
+        "latitude": 42.5709324,
+        "longitude": -71.2777059,
+        "rating": 5,
+        "ratingCount": 273,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.straightteeth.com/",
+        "phoneNumber": "(978) 670-5900",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appt/reichheld-ting-orthodontics",
+          "https://nexhealth.info/book/appt/reichheld-ting-orthodontics?lid=127640&rwg_token=AFd1xnHGxGwfnEERDjL3IetN_V-p1DZfrc0nBzKyx8mFAWkrs2QyzQ-DCpDQ1_etdYXMGxnG0PyqOj_0VipTQzYkazYFGZy3GA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDPQ8cEavf-aBDO1wTXWtl0djYHVCRdXOhZs94U767-46UNZu9T7YoUieRSlUhjTX75Y469Zx_eJ4Ajc--pL-ThFMDKsjcuskCUfN-MeU3jEStLxuNNeYW27ZSNXGuMfWSuvui2w",
+        "cid": "13221207734242675937",
+        "fid": "0x89e3a1853e302a15:0xb77b2a62a52e8ce1",
+        "placeId": "ChIJFSowPoWh44kR4YwupWIqe7c"
+      },
+      {
+        "position": 16,
+        "title": "The Braces Place Of Lowell",
+        "address": "710 Chelmsford St, Lowell, MA 01851",
+        "latitude": 42.6206795,
+        "longitude": -71.3235393,
+        "rating": 4.7,
+        "ratingCount": 454,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://bracesplaces.com/",
+        "phoneNumber": "(978) 454-0774",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHradaJXNxf-M56_vLfr-Iy2SVyAIBMjuzB-MHoftId-6DDSlMa-o8cSW84cF5jXlMJFZcSlT8yrjb2DpSFvWgfziyzyhrLftTJ1kT5Z680s6E0nVmkhqd9vh4lXNV1kwMujdJb0Q",
+        "cid": "3609788945016249426",
+        "fid": "0x89e3a38604eff4b1:0x32188beb85d35c52",
+        "placeId": "ChIJsfTvBIaj44kRUlzTheuLGDI"
+      },
+      {
+        "position": 17,
+        "title": "Dr. James L. Pelletier",
+        "address": "1533 Lakeview Ave, Dracut, MA 01826",
+        "latitude": 42.675587,
+        "longitude": -71.3349477,
+        "rating": 5,
+        "ratingCount": 186,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.pelletiersmiles.com/",
+        "phoneNumber": "(978) 957-7170",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOVB94PQFrGBIYPGu2uyCyaa6ehc3lrAtGyQv9Okk1Kg_XPFFvI-JublxRYVxck5sohzGdSqhk_H54aPPOP-pw7hiYwaE5TOj01uLI161H7BesnKlvQihYopUoJoOoAQW0-0tE7ereTJGA",
+        "cid": "17191237016176715970",
+        "fid": "0x89e3a50822421159:0xee938afbaec268c2",
+        "placeId": "ChIJWRFCIgil44kRwmjCrvuKk-4"
+      },
+      {
+        "position": 18,
+        "title": "Dr. Linda J. Krebs, DDS (Orthodontic Solutions For Children and Adults)",
+        "address": "19 Fletcher St, Chelmsford, MA 01824",
+        "latitude": 42.6006968,
+        "longitude": -71.3495868,
+        "rating": 4.9,
+        "ratingCount": 50,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://smilesbykrebs.com/",
+        "phoneNumber": "(978) 256-8531",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Yf8InK3TJY6sKMHHtPEZ3w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=190.20377&pitch=0&thumbfov=100",
+        "cid": "17495631123114909857",
+        "fid": "0x89e3a31a9df0639d:0xf2ccf7cf868860a1",
+        "placeId": "ChIJnWPwnRqj44kRoWCIhs_3zPI"
+      },
+      {
+        "position": 19,
+        "title": "Windham Orthodontics",
+        "address": "25 Indian Rock Rd Suite 14, Windham, NH 03087",
+        "latitude": 42.8061813,
+        "longitude": -71.2958139,
+        "rating": 4.6,
+        "ratingCount": 27,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Orthodontist"
+        ],
+        "website": "https://www.windhamorthodontics.com/",
+        "phoneNumber": "(603) 216-1188",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKmN7qkNl_td-znb409mVy-4EzM8MhAc2tc6UUB_aHhf766Qo7gbyO0syMMrJbsNyYqwdMNoqsD97h8Fhd_e4q7lLLncaHBQIFmr8kOHSoHvDnwjh1SoQmIWdRhBfKWzR5OnLwHQ",
+        "cid": "4197070065597799873",
+        "fid": "0x89e3ac7cf325aa31:0x3a3efcfcd561ddc1",
+        "placeId": "ChIJMaol83ys44kRwd1h1fz8Pjo"
+      },
+      {
+        "position": 20,
+        "title": "Reading Orthodontics",
+        "address": "2 Haven St UNIT 202, Reading, MA 01867",
+        "latitude": 42.5221703,
+        "longitude": -71.1071901,
+        "rating": 5,
+        "ratingCount": 574,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.readingortho.com/",
+        "phoneNumber": "(781) 944-7970",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5:10 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "10 AM–2 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYDlgjOWBLxoNT9v00uJB0hzjFWYRdlfg4B7OdNb6n1SJ8WK4n7auscBDcRZrzvdrXGrluMNfdvxiuT5L7tpn2mv3aFTl8vfjnRnyb34u307KrYURvnKUGIyZc4p7yc4bigw",
+        "cid": "5737264416512239371",
+        "fid": "0x89e30b50762957cd:0x4f9edb96e8b3670b",
+        "placeId": "ChIJzVcpdlAL44kRC2ez6Jbbnk8"
+      }
+    ],
+    "credits": 3
+  }
+}

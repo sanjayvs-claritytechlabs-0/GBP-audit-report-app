@@ -1,0 +1,613 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.33934,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzM5MzQsLTEyMi4yOTUyNA==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@42.5668613,-83.0338779,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "MSS Orthopedic Walk-In Clinic",
+        "address": "11012 E Thirteen Mile Rd Suite 210, Warren, MI 48093",
+        "latitude": 42.520989799999995,
+        "longitude": -83.017686,
+        "rating": 4.7,
+        "ratingCount": 18,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://msspc.org/services/walkin/",
+        "phoneNumber": "(855) 669-2778",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeHBzo0KErlb2zRIiOqyiSg7lUFFhuNQTPI_xBgQLub0h6yMP6vukh3OWvP8kQiCcUtPeCaWuM1uPuRTMOmayxUj7aVsK5NJ-Kh5A5nRfSguP00aDFO5dFRGDIOX7Wb4C70Lyih2IILR13",
+        "cid": "2739613484687933767",
+        "fid": "0x8824db7c56378fe7:0x26050ff300b1c147",
+        "placeId": "ChIJ5483VnzbJIgRR8GxAPMPBSY"
+      },
+      {
+        "position": 2,
+        "title": "DMC Orthopedics & Sports Medicine - Sterling Heights",
+        "address": "33703 Van Dyke Ave, Sterling Heights, MI 48312",
+        "latitude": 42.5418802,
+        "longitude": -83.0295715,
+        "rating": 2.6,
+        "ratingCount": 55,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.dmcmedicalgroup.com/specialties/orthopedics-sports-medicine",
+        "phoneNumber": "(586) 558-2860",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHc5zXfKtwaPP2dwOzhCL7eRCqYrkYKNRTRS4r1eQMGJyBWZAXQ1q2iGsrVW4iFqnTM4VBsGTE1K3D0bVNqRrB-9suh8M3pLTlB4H00_L4f-Z7Y7djHGEb_u65qrVe3ZpK8p-gBHQ",
+        "cid": "13713589960879625544",
+        "fid": "0x8824daa5a5d50dd7:0xbe5075696597d548",
+        "placeId": "ChIJ1w3VpaXaJIgRSNWXZWl1UL4"
+      },
+      {
+        "position": 3,
+        "title": "Henry Ford Motor City Orthopedics - Warren",
+        "address": "11900 12 Mile Rd #300, Warren, MI 48093",
+        "latitude": 42.505896899999996,
+        "longitude": -83.0031932,
+        "rating": 4.6,
+        "ratingCount": 19,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.henryford.com/locations/warren-hospital/motor-city-orthopedics?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(248) 465-5140",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYh0YC4_xe8w70te4JBNQhWx4L8bQW5fqZALFHQxHJjpS4l3F2bzq_eQl1o5vsC17Un6NiCAhkeedvQ-fGgoLdvHiZbMZ05pYj5nQa1hx2OpXFn3oFj6zjRLXT4RetvvbqnJlaZI-naK95",
+        "cid": "510760680953475343",
+        "fid": "0x8824db4204ce55eb:0x71696221977f10f",
+        "placeId": "ChIJ61XOBELbJIgRD_F3GSKWFgc"
+      },
+      {
+        "position": 4,
+        "title": "Synergy Health Partners | Mendelson Kornblum Orthopedics & Spine Specialists",
+        "address": "35735 Mound Rd, Sterling Heights, MI 48310",
+        "latitude": 42.555408299999996,
+        "longitude": -83.04964609999999,
+        "rating": 4.8,
+        "ratingCount": 1472,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://synergyhealth.org/?utm_source=GBP&utm_medium=Organic&utm_campaign=Location-Listing-MKOWA3&y_source=1_MTAxODkwODMzNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ==",
+        "phoneNumber": "(855) 750-5757",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/mendelson-kornblum-orthopedics-79290?utm_source=GBP&utm_medium=Organic&utm_campaign=Location-Listing-MKOWA3&y_source=1_MTAxODkwODMzNy03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGCm09azAeq3vvDCyF9R62jkAsKwtoMYvDhtVoVaE-kath_Q5SknIvNbvlGuGrEq8ThGlutPvu3MslO9h6KmXAOmmtaor9zITfbPF0y9A_CwImDDgno0nsjL51U43aE44S3him",
+        "cid": "10085828945924427863",
+        "fid": "0x8824da106ed7de97:0x8bf80ffd432d9057",
+        "placeId": "ChIJl97XbhDaJIgRV5AtQ_0P-Is"
+      },
+      {
+        "position": 5,
+        "title": "Sterling Orthodontics",
+        "address": "5555 Metro Pkwy #200, Sterling Heights, MI 48310",
+        "latitude": 42.565507499999995,
+        "longitude": -83.0520478,
+        "rating": 4.9,
+        "ratingCount": 513,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://sterlingortho.com/",
+        "phoneNumber": "(586) 268-2700",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgNxLaqd0GahHSW7eM7vONImqu5JjPIxJmFSUA6BKkdrCoPOBtRcHobFctBCNCRcg_24we9paYkewuD7WCi5ne8AGDomCOB3kthm7MAIbB7o74QR8iv0q4Q-v-DQHryRud9LPm",
+        "cid": "15388308530169199785",
+        "fid": "0x8824db65ff917601:0xd58e4113d2d93ca9",
+        "placeId": "ChIJAXaR_2XbJIgRqTzZ0hNBjtU"
+      },
+      {
+        "position": 6,
+        "title": "Michigan Surgery Specialists PC- Orthopedics & Sports Medicine",
+        "address": "11012 13 Mile Rd Suite 201, Warren, MI 48093",
+        "latitude": 42.520784899999995,
+        "longitude": -83.0170868,
+        "rating": 4.9,
+        "ratingCount": 302,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://msspc.org/",
+        "phoneNumber": "(586) 582-0760",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://msspc.org/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwrHfYaD5uTCQHA5zWWG8SQfva2TMN5_crEnCwSARCyrUcWD46MxQ4Q95M7BbC-FEnk28LViSV9BL7vMqWr0tKc0_6JjZXzO5rorAoi_8OXlZX3kKQgnm15fMysgDBQJZwStAL2taoJBH8",
+        "cid": "11167093313704071860",
+        "fid": "0x8824da471d741afb:0x9af97c33f8f892b4",
+        "placeId": "ChIJ-xp0HUfaJIgRtJL4-DN8-Zo"
+      },
+      {
+        "position": 7,
+        "title": "Michigan Orthopaedic Surgeons",
+        "address": "45816 Schoenherr Rd, Shelby Township, MI 48315",
+        "latitude": 42.6328132,
+        "longitude": -82.9926361,
+        "rating": 4.8,
+        "ratingCount": 99,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://miorthosurgeons.com/?utm_source=GMBSocialClimb&utm_medium=MichiganOrthopaedicSurgeons",
+        "phoneNumber": "(586) 842-2400",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://patient.assorthealth.com/mos/direct/start/mos"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELakejMD-rxPaPpzJEGJnSbvy3LsLr2bES1M6i_ZABMhVCUzXXtGJPL60NB7ZuqcqHYHYMTGuVudKYZ2QGAY7UjjFFoNZKrEMvep1FTcAZ-q-5prNsAqwfCJwcUfbeKCDPkJjnfTCLWzfi",
+        "cid": "13846545371245809709",
+        "fid": "0x8824dfdd82fe6511:0xc028cfa72b6f902d",
+        "placeId": "ChIJEWX-gt3fJIgRLZBvK6fPKMA"
+      },
+      {
+        "position": 8,
+        "title": "Henry Ford Beacon Orthopedics of Michigan - Warren",
+        "address": "11900 12 Mile Rd #300, Warren, MI 48093",
+        "latitude": 42.505896899999996,
+        "longitude": -83.0031932,
+        "rating": 4.6,
+        "ratingCount": 17,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.henryford.com/locations/warren-hospital/beacon-orthopedics?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(248) 865-4238",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAzStg7EnNZR_Enf1hceK0JREApHpRQ47Ke_zDuQNjBi1AmReStmnjevwbWMIxbdri2OwDvWL9MgHfD2IfNbIA_yRf_yHBCRkepIdpu0q6ewNj7AByzgBADb1MQSBC5hTar8UG_Z6W-ryq",
+        "cid": "3272143102688082287",
+        "fid": "0x8824dbab123688c9:0x2d68fcd0b9f7b96f",
+        "placeId": "ChIJyYg2EqvbJIgRb7n3udD8aC0"
+      },
+      {
+        "position": 9,
+        "title": "The Knee Pain Center, PLLC",
+        "address": "35455 Garfield Rd, Clinton Township, MI 48035",
+        "latitude": 42.556813899999995,
+        "longitude": -82.9509143,
+        "rating": 4.7,
+        "ratingCount": 28,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical Center"
+        ],
+        "website": "https://www.thekneepaincenter.com/",
+        "phoneNumber": "(586) 600-5633",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–2:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.elyussif.com/online-appointment-hip-knee-replacement-clinton-township-chesterfield-mi.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxJECTx7AnCgasPlxvZalaWHmkLQ8xTZoFKnpCt5vx1xYx3gkUmZdC-1bVTQTTfcFWF0FTzZmRL34XIUyEt-9EHNt1yiSJE8o68MerS_2-el_J6jPvAPou7CPdsLBkfHZMwCyzNrTb7n9j",
+        "cid": "10205930624998080125",
+        "fid": "0x8824dfdd9c3b8acb:0x8da2bfd4814a7e7d",
+        "placeId": "ChIJy4o7nN3fJIgRfX5KgdS_oo0"
+      },
+      {
+        "position": 10,
+        "title": "Rehabilitation Institute of MI Sterling Heights Center",
+        "address": "33464 Schoenherr Rd #100, Sterling Heights, MI 48312",
+        "latitude": 42.542079,
+        "longitude": -82.98788499999999,
+        "rating": 4.4,
+        "ratingCount": 34,
+        "type": "Rehabilitation center",
+        "types": [
+          "Rehabilitation center",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.dmc.org/rim-rehab/?utm_campaign=gmb_listings_mgmt&utm_source=gmb-rim-rehab-sterling&utm_medium=google-local",
+        "phoneNumber": "(586) 264-1043",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–2:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–6 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4KDrRfyCC7BKsHirgISM1w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=60.335377&pitch=0&thumbfov=100",
+        "cid": "6504936081064529364",
+        "fid": "0x8824d97caac8e609:0x5a462ce6ae790dd4",
+        "placeId": "ChIJCebIqnzZJIgR1A15ruYsRlo"
+      },
+      {
+        "position": 11,
+        "title": "Lifetime Orthodontics",
+        "address": "16560 19 Mile Rd, Clinton Township, MI 48038",
+        "latitude": 42.6124156,
+        "longitude": -82.9559051,
+        "rating": 4.9,
+        "ratingCount": 423,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://lifetimeortho.com/",
+        "phoneNumber": "(586) 286-5520",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://lifetimeortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWWjZZYNXiK2h3l9IBXDkRtNzV1Ca8GjDKlt4KBPF2r53G-ltrV6L6VBeVpOfV1D8z4HjetpDtr5ewSlVd9R-GBaDdmh2CVLvqqCvrzxaGOjLf1p8F0bw7o_8QMTuTi8NkFcDn",
+        "cid": "3885027089962463356",
+        "fid": "0x8824de540242514b:0x35ea638df7fb707c",
+        "placeId": "ChIJS1FCAlTeJIgRfHD7941j6jU"
+      },
+      {
+        "position": 12,
+        "title": "Henry Ford Orthopedics - Commons",
+        "address": "43251 Commons Dr, Clinton Township, MI 48038",
+        "latitude": 42.6132182,
+        "longitude": -82.9586109,
+        "rating": 3,
+        "ratingCount": 2,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.henryford.com/locations/orthopedics-commons?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(586) 759-4700",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.henryford.com/locations/orthopedics-commons?utm_source=local-listing&utm_medium=organic&utm_campaign=appt-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtk7U-i6FueqhiHRIxkFzu6yIm3aUxTkC0IKfFr7Rddb7jEZPG9QMAHCLe2LFvbQ7fx-wshSxei1PrYGFU1-a0cYha0GjVKFQ2EY6IK27q7MxTsi_5ibhXcFI5qzQYbDNWB3FYdSyl_b7U",
+        "cid": "16946315703838470743",
+        "fid": "0x8824df565fc3e2f9:0xeb2d6858e2ea7257",
+        "placeId": "ChIJ-eLDX1bfJIgRV3Lq4lhoLes"
+      },
+      {
+        "position": 13,
+        "title": "Macomb Orthopedics",
+        "address": "38525 Hilldale St, Clinton Township, MI 48036",
+        "latitude": 42.5841474,
+        "longitude": -82.9013469,
+        "rating": 4.3,
+        "ratingCount": 10,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.macomborthopedics.com/",
+        "phoneNumber": "(586) 469-8300",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzwnMidkSdSdq39vjomafu5CSAO6jmalZtcjMFXu80dqlq29qHb58vWrvB_CAwZ4FvPydgPrBJMcLL0EKj9udEQyl9Zr_rT6lrAgn6mS_Q1NSJzVbIGyeBJHxnfM6PZT9R4JE",
+        "cid": "17621602824134878161",
+        "fid": "0x8825219f16e72f93:0xf48c8267c19463d1",
+        "placeId": "ChIJky_nFp8hJYgR0WOUwWeCjPQ"
+      },
+      {
+        "position": 14,
+        "title": "Movement Orthopedics",
+        "address": "43475 Dalcoma Dr #250, Clinton Township, MI 48038",
+        "latitude": 42.615528,
+        "longitude": -82.9636829,
+        "rating": 4.4,
+        "ratingCount": 92,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://movementortho.com/",
+        "phoneNumber": "(586) 436-3785",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "9 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2uTXhXpC2GdTH5me0iJld7UiBN03tvRKNqFfNoOMppe-ml2VhqZPoW5KL2g5ScfQNyCf3xxUkCYuXiLr9nZf8BF66u4SSOD8z77XyRg79L-3YBxkM6ZKQX5o4mLFeXvxzZhTaxg",
+        "cid": "1680036230649485358",
+        "fid": "0x8824de5bb2ba9e49:0x1750b00cf1a6182e",
+        "placeId": "ChIJSZ66slveJIgRLhim8QywUBc"
+      },
+      {
+        "position": 15,
+        "title": "Dr. Ronald T Rook, DO",
+        "address": "11012 E Thirteen Mile Rd Suite 201, Warren, MI 48093",
+        "latitude": 42.520784899999995,
+        "longitude": -83.0170868,
+        "rating": 4.6,
+        "ratingCount": 50,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://msspc.org/",
+        "phoneNumber": "(586) 582-0760",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://msspc.org/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7JXnrvMj54w2IyVzB--MfXzz6mNFx1rHytd8cyww1bnEA--MP7Trx3wvOzsLy_a4e6E-YE1Y6eVLMIx4UTzZxVj6_XHPr74WCQNtsZsWkQm1-64QkqQlKg_C3d6SGTsY6n-lssNKCKRix",
+        "cid": "17327910539238385573",
+        "fid": "0x8824da4721c56959:0xf0791ad4070d27a5",
+        "placeId": "ChIJWWnFIUfaJIgRpScNB9QaefA"
+      },
+      {
+        "position": 16,
+        "title": "Dr. Steven T. Plomaritis, DO",
+        "address": "28001 Schoenherr Rd #2, Warren, MI 48088",
+        "latitude": 42.5009094,
+        "longitude": -82.9878268,
+        "rating": 4.2,
+        "ratingCount": 31,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://drsteventplomaritis.com/",
+        "phoneNumber": "(586) 558-9500",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsJ2vMFRCY_-13-3_w0t6QDpFNzuqPHskYj3bmLFrC2COYffWOZAzNWEGph8Su1KPsB8M7ffq8Vub50YsWbWNzWeuzLVCUuOUlXqxpTAzGqCR3sNlyrEzWftx_2X-UYv-fcX8",
+        "cid": "16619897304155341404",
+        "fid": "0x8824d9fa2a98fbab:0xe6a5bc8ac9a6c25c",
+        "placeId": "ChIJq_uYKvrZJIgRXMKmyYq8peY"
+      },
+      {
+        "position": 17,
+        "title": "Heights Orthodontics",
+        "address": "43767 Van Dyke Ave, Sterling Heights, MI 48314",
+        "latitude": 42.6158265,
+        "longitude": -83.0329071,
+        "rating": 5,
+        "ratingCount": 46,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://orthodontiststerlingheights.com/",
+        "phoneNumber": "(586) 701-8290",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthodontiststerlingheights.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXEL1FarX24WKlkiIKcGJd12A54bEY7S7FyFjfa7G1JKPA6ZxBva2xck_mLDBH9iOjR_Nthy5S1poYRDeZ9Lbl4ktT1p-pP5vNdZu2aohtxMWv6BA3VZGGk0JfeiMG4kAPlHDd",
+        "cid": "9338105089025163820",
+        "fid": "0x8824dc66e0b3a7cd:0x81979d1a629cc22c",
+        "placeId": "ChIJzaez4GbcJIgRLMKcYhqdl4E"
+      },
+      {
+        "position": 18,
+        "title": "All About Orthodontics (Braces Made Affordable )",
+        "address": "4600 E 14 Mile Rd Suite 3, Warren, MI 48092",
+        "latitude": 42.535331,
+        "longitude": -83.0629012,
+        "rating": 4.6,
+        "ratingCount": 221,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://allaboutorthodontics.com/p/orthodontist-Warren-MI-Warren-p60887.asp",
+        "phoneNumber": "(586) 999-9000",
+        "bookingLinks": [
+          "https://forms.formlync.com/allabout/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaY6axfdt2stn0asyc8A9-0PlG2_tJAM0JtlqdGpwBW_UNQcfUyEug02cCxE2AqwBQ3D2hRrfWGUNevmEhr9vYVCOND25A1OysnnMAPidhz5YmRBhXNf_uEY6szlf_5V9uo0Au",
+        "cid": "10124877663259299083",
+        "fid": "0x8824db2f810ba463:0x8c82ca9740db8d0b",
+        "placeId": "ChIJY6QLgS_bJIgRC43bQJfKgow"
+      },
+      {
+        "position": 19,
+        "title": "Michigan Orthopaedic Surgeons",
+        "address": "1350 Kirts Blvd #160, Troy, MI 48084",
+        "latitude": 42.5568469,
+        "longitude": -83.166409,
+        "rating": 4.8,
+        "ratingCount": 2155,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://miorthosurgeons.com/?utm_source=GMBSocialClimb&utm_medium=MichiganOrthopaedicSurgeons",
+        "phoneNumber": "(248) 244-9426",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patient.assorthealth.com/mos/direct/start/mos"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2B7oz3UfHFAWjKWQ_NNcqkP5FinU6slf32SFVYZPCWmAxl8BGEc3XFsM2pavb7LoJRw0qDCo2MbrCN77eGmXdn-uKF8CZU9GvY-lm4tOsPE6r7OmLi4HW1iP4I571zv7AnzOsow",
+        "cid": "14379855876779517778",
+        "fid": "0x8824c69de91c6dc1:0xc78f82bb70c1a752",
+        "placeId": "ChIJwW0c6Z3GJIgRUqfBcLuCj8c"
+      },
+      {
+        "position": 20,
+        "title": "DMC Physical Therapy and Sports Medicine",
+        "address": "33464 Schoenherr Rd #100, Sterling Heights, MI 48312",
+        "latitude": 42.542079,
+        "longitude": -82.98788499999999,
+        "rating": 5,
+        "ratingCount": 12,
+        "type": "Sports medicine physician",
+        "types": [
+          "Sports medicine physician"
+        ],
+        "phoneNumber": "(586) 264-1043",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1iUKcwYsdZTZafDu7N6ZWqRaKL9kJPZ2Its8-D3iKg0CYpm0ZB3BZiPaqH4Gj-rmNg2BPci0MQSLGdjnBFEvEiin8j-xPowRW821BSGmFnegWatuX2vfC9mJoe2iyQzoP4tsE",
+        "cid": "5139100702167569329",
+        "fid": "0x8824d97caac8e609:0x4751c0dc49a893b1",
+        "placeId": "ChIJCebIqnzZJIgRsZOoSdzAUUc"
+      }
+    ],
+    "credits": 3
+  }
+}

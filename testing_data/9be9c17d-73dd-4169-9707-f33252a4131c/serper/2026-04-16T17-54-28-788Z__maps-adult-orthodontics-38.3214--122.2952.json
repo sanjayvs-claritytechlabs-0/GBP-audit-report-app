@@ -1,0 +1,616 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.321373,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzIxMzczLC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@41.6857954,-105.2557919,8z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Cheyenne Orthodontics - WHEATLAND CLINIC",
+        "address": "1557 Brice St, Wheatland, WY 82201",
+        "latitude": 42.047795699999995,
+        "longitude": -104.9625008,
+        "rating": 5,
+        "ratingCount": 6,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://cheyenneorthodontics.com/",
+        "phoneNumber": "(307) 637-8090",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eRbq4m_sjEGoZDvo0JWiBA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=184.87242&pitch=0&thumbfov=100",
+        "cid": "5539089783257657422",
+        "fid": "0x876f3afbee00168b:0x4cdecccf7e11704e",
+        "placeId": "ChIJixYA7vs6b4cRTnARfs_M3kw"
+      },
+      {
+        "position": 2,
+        "title": "Smile Doctors Orthodontics - Cheyenne",
+        "address": "1947 Dell Range Blvd, Cheyenne, WY 82009",
+        "latitude": 41.159922099999996,
+        "longitude": -104.7932319,
+        "rating": 4.9,
+        "ratingCount": 704,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://smiledoctors.com/locations/cheyenne-dell-range/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=CHWY",
+        "phoneNumber": "(307) 632-2480",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.smiledoctors.com/newpatient/office/Cheyenne-DellRange?rwg_token=AFd1xnHoLjJj4kOsHY1g7leyQhq6BBTbBmxPjNseful0ta5sa5fqs-jioNRD7XPe4IWMUFlangYrUqKNVo81DlTvg-0U5BkBrg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFU-zEPBaKfgLbnZ_MYESSxz1Ks726xtdkoWLWv36gniq6ZGSubQaKNy9uQ7WZBssI9KoavGQMYm2k3qDFO3UYdtzMrkaIDF4UQHTPuvGCar7JjhLdOUpNch8ruJTKPxTqvAlgo",
+        "cid": "3783399386346554063",
+        "fid": "0x876f3a16ccb3ceff:0x348155b2529e02cf",
+        "placeId": "ChIJ_86zzBY6b4cRzwKeUrJVgTQ"
+      },
+      {
+        "position": 3,
+        "title": "Webb Orthodontics",
+        "address": "7209 Commons Circle Unit B, Cheyenne, WY 82009",
+        "latitude": 41.1830771,
+        "longitude": -104.82632059999999,
+        "rating": 5,
+        "ratingCount": 154,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.webbortho.com/location/cheyenne?utm_source=google&utm_medium=googleorganic&utm_campaign=gmb",
+        "phoneNumber": "(307) 635-9202",
+        "openingHours": {
+          "Thursday": "8 AM–1 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjWtV_kYuce0MpeAXy1K2p8qRMwJq-1TLOPVoz4lYEVlIV57bSPOIiQdb1zs_BkiQILUUcE4VY7EVRgo5qDYFOv_Y6Dns-ftJ_xGBqtrsmKBASTRCurMdR0G7YxZThbGkLALphFQ",
+        "cid": "12120940350217699105",
+        "fid": "0x876f3b7f5a994277:0xa8363b076e6cbf21",
+        "placeId": "ChIJd0KZWn87b4cRIb9sbgc7Nqg"
+      },
+      {
+        "position": 4,
+        "title": "Ultra Orthodontics",
+        "address": "295 N Walsh Dr suite b, Casper, WY 82609",
+        "latitude": 42.851275699999995,
+        "longitude": -106.2766841,
+        "rating": 5,
+        "ratingCount": 59,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.ultraorthodontics.com/",
+        "phoneNumber": "(307) 265-7878",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhRwPzRyVJiN4nk8jST29Lca3tLc3JpKGPK7Wq8iHlXq9eh3_7qCVznm7x_3PtqJfQEt8f_zqJGCN9tCDpqbxAZg5uA8gTiuyvSY8Vu64-1CqUw8MfBbYQIZUK_wumdnzAm4oQnw",
+        "cid": "5996365471098974771",
+        "fid": "0x8760bc7539a70111:0x53375ea03845b233",
+        "placeId": "ChIJEQGnOXW8YIcRM7JFOKBeN1M"
+      },
+      {
+        "position": 5,
+        "title": "Smile Doctors Orthodontics - Laramie",
+        "address": "2710 Grand Ave Suite A, Laramie, WY 82070",
+        "latitude": 41.308452599999995,
+        "longitude": -105.5587539,
+        "rating": 4.9,
+        "ratingCount": 238,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://smiledoctors.com/locations/laramie-grand/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=LAWY",
+        "phoneNumber": "(307) 745-8362",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.smiledoctors.com/newpatient/office/Laramie-Grand?rwg_token=AFd1xnEhfLyOKTt6BlvXjSgslDD8Kmd4c2OOsNEgXzmHIWv_mL-LZhvXBnEKb-Zz8apRuAD3dtW62mTA0Zp-ygcbNePRHgl0cg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGG1QgeP_ky8wJmJU28IlmWdd5BAgIKMsNx4ZrcX2qnMcoTPssQQz0KMhT-Rku505HM03wKnu37rj_UfSi0pstyPPq2P8drpcEmJ-uQhp94a6whCRDx_kMTzRL2ghrFJTsxWF2q2g",
+        "cid": "11747282784887635257",
+        "fid": "0x87689071d4f011cb:0xa306bb73fd49fd39",
+        "placeId": "ChIJyxHw1HGQaIcROf1J_XO7BqM"
+      },
+      {
+        "position": 6,
+        "title": "Braces Wyoming: Dr. Callie Owen Holwegner",
+        "address": "6900 Yellowtail Rd Suite #200, Cheyenne, WY 82009",
+        "latitude": 41.180440499999996,
+        "longitude": -104.82815029999999,
+        "rating": 4.9,
+        "ratingCount": 110,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://braceswyoming.com/",
+        "phoneNumber": "(307) 638-8958",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHF0lzcqOTGrHDcvg630OO-Oi6OeTu2_NyjgLTWPVyIVIrZn-4WCIbzqUxepzfU2s0oPqS_MGlrRG5jSg4J7-jmJzH45AEF6EUWaGWZlmfN1EDPN34yeyqWO_tJoX2NgvknnCPGTg",
+        "cid": "15983249202950181441",
+        "fid": "0x876f3a172d291e29:0xddcfe8779a641241",
+        "placeId": "ChIJKR4pLRc6b4cRQRJkmnfoz90"
+      },
+      {
+        "position": 7,
+        "title": "Smile Doctors Orthodontics - Casper",
+        "address": "5281 E 2nd St, Casper, WY 82609",
+        "latitude": 42.8457145,
+        "longitude": -106.2484283,
+        "rating": 4.9,
+        "ratingCount": 324,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://smiledoctors.com/locations/casper-5281-2nd/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=CADAWY",
+        "phoneNumber": "(307) 237-8419",
+        "openingHours": {
+          "Thursday": "6 AM–4 PM",
+          "Friday": "8 AM–1:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6 AM–4 PM",
+          "Tuesday": "6 AM–4 PM",
+          "Wednesday": "6 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.smiledoctors.com/newpatient/office/Casper-52812nd?rwg_token=AFd1xnEcQuh54gwcOoKpTZavt3ubpLNYC7NZCghODKWkTdTkoc5z7-ZluKV-E40q3UjQXNZ5P-HdhHZmqy2vULnopu91JR5Sjg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERlsdw9X73lrnKCLlElym2IHfg3FZdhWnqTRHKhNc_M_D3x9VEjh3K0Jy1GL8CS97kZSohOzzxxCYnEiWN4ohTbB7-F9Rrw-cNltFgVn6BRks4uIYoy0ISEc8Ic6lZEUYuExoi",
+        "cid": "4107082030956859907",
+        "fid": "0x8760bb5f62def839:0x38ff4958ce92d203",
+        "placeId": "ChIJOfjeYl-7YIcRA9KSzlhJ_zg"
+      },
+      {
+        "position": 8,
+        "title": "WYO ORTHO",
+        "address": "814 S David St, Casper, WY 82601",
+        "latitude": 42.842230699999995,
+        "longitude": -106.3269289,
+        "rating": 5,
+        "ratingCount": 38,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.wyoorthodontics.com/",
+        "phoneNumber": "(307) 237-1639",
+        "openingHours": {
+          "Thursday": "6:30 AM–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6:30 AM–3:30 PM",
+          "Tuesday": "6:30 AM–3:30 PM",
+          "Wednesday": "6:30 AM–3:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuk_qzgXZN5ub45nqL4a5fWOzthqvvRUCAc9gARTY8t_4VVfiD518e8JsZ4ZVMBtdYu0eYg_bcTb_nzbcoljAYy5kiLJQtomAMrd3m90mFU_6cXBNKrtyU9iL3dqYh1WMsFyM",
+        "cid": "11484626770791876136",
+        "fid": "0x8760a5f1a16fcd6d:0x9f6197332afdc628",
+        "placeId": "ChIJbc1vofGlYIcRKMb9KjOXYZ8"
+      },
+      {
+        "position": 9,
+        "title": "Cheyenne Orthodontics - Dr. Jason L Bird DDS",
+        "address": "1401 Airport Pkwy Suite140, Cheyenne, WY 82001",
+        "latitude": 41.151615799999995,
+        "longitude": -104.80488009999999,
+        "rating": 4.8,
+        "ratingCount": 40,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://cheyenneorthodontics.com/",
+        "phoneNumber": "(307) 637-8090",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XPR1WNg7kSLRcdM0qLhfew&cb_client=search.gws-prod.gps&w=80&h=92&yaw=293.87546&pitch=0&thumbfov=100",
+        "cid": "15202651311608791309",
+        "fid": "0x876f3afbee00168b:0xd2faaad22091810d",
+        "placeId": "ChIJixYA7vs6b4cRDYGRINKq-tI"
+      },
+      {
+        "position": 10,
+        "title": "Braces Wyoming: Dr. Callie Owen Holwegner",
+        "address": "2710 E Harney St #102, Laramie, WY 82072",
+        "latitude": 41.320250699999995,
+        "longitude": -105.5620725,
+        "rating": 5,
+        "ratingCount": 21,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://braceswyoming.com/",
+        "phoneNumber": "(307) 638-8958",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEUMbSmRaHV-Bbg6sWRi4-ZuZ-mkk5lyOPWIWCah_ktld4H8NmDuOi4MLTNKCmFyk1bjAtb2NpuY0EMnHmDiyh-Zw4mChx9bHQAxDDoi5za0xRM7jy-9l7_2STLcGMDKM1YQDN",
+        "cid": "5927461223065446134",
+        "fid": "0x876891daf578577f:0x52429293ccb7e6f6",
+        "placeId": "ChIJf1d49dqRaIcR9ua3zJOSQlI"
+      },
+      {
+        "position": 11,
+        "title": "Smile Doctors Orthodontics - Douglas WY",
+        "address": "811 Grant St, Douglas, WY 82633",
+        "latitude": 42.7493128,
+        "longitude": -105.3673908,
+        "rating": 5,
+        "ratingCount": 7,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://smiledoctors.com/locations/douglas-grant/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=DOWY",
+        "phoneNumber": "(307) 237-8419",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.smiledoctors.com/newpatient/office/Douglas-Grant?rwg_token=AFd1xnHcVsfEblndkXNZXtrKc0NHq21JNEN7DzjZT41IVoD6S6jLwm4xJtt1AdQB8aBeHiDrx5x3-l_ZmqF2iewnqu6sNs_bCRYP3J4FdaFOWMr0XsT4HzQ%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLTacsAl5VSCbVvPLJSoNbDuRzYDWI-kWF-YWk-U1_miZHXYLKD5MLOJ6WsvupL_AA_DlpOEwo74U1szFin5tC0er2Q4HEdwLJeebmyMROXqqSLkqlGvCQuFZGbIC8hD2Z2S4VKQ",
+        "cid": "11091835420187530188",
+        "fid": "0x8766b52054cc5813:0x99ee1d8c2f5f93cc",
+        "placeId": "ChIJE1jMVCC1ZocRzJNfL4wd7pk"
+      },
+      {
+        "position": 12,
+        "title": "Webb Orthodontics",
+        "address": "211 E 20th Ave, Torrington, WY 82240",
+        "latitude": 42.0638851,
+        "longitude": -104.1827366,
+        "rating": 5,
+        "ratingCount": 39,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.webbortho.com/",
+        "phoneNumber": "(308) 630-0670",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzktIuhi17onWX7kQURE-yKHeCJVPKQgw-7ZUDTav8PWzTvvaVjJ9fdx5aHeUvWd59v1NR75yk1wHueoDpTeRCqxfEnO-xLeN_mq0teCVLZkYQ43HmUwbHNQ8oSeuYrzh0n9OH",
+        "cid": "5224268159181665561",
+        "fid": "0x87650f488afd0989:0x488054361f683519",
+        "placeId": "ChIJiQn9ikgPZYcRGTVoHzZUgEg"
+      },
+      {
+        "position": 13,
+        "title": "Laramie Orthodontics",
+        "address": "154 N 2nd St, Laramie, WY 82072",
+        "latitude": 41.313285,
+        "longitude": -105.5949114,
+        "rating": 5,
+        "ratingCount": 7,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://laramieorthodontics.com/",
+        "phoneNumber": "(307) 314-4994",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1TBrcxQkqC5wKvOPjQYLE38dq7qE66hve6iCgX0ChSM1VrIiatXMf3rcet8ghXSqd6j7Lme3B9zP-sMQ_s0txKFys7nvU-B8cMa9kEZAIEW4uilBmsOgiJVzCCufCbsYAxegN",
+        "cid": "14695003748482436563",
+        "fid": "0x87688f0c903e42b7:0xcbef240d41544dd3",
+        "placeId": "ChIJt0I-kAyPaIcR001UQQ0k78s"
+      },
+      {
+        "position": 14,
+        "title": "Surfin Smiles Pediatric Dentistry",
+        "address": "295 N Walsh Dr suite a, Casper, WY 82609",
+        "latitude": 42.851275199999996,
+        "longitude": -106.2766844,
+        "rating": 5,
+        "ratingCount": 456,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.casperpediatricdentist.com/",
+        "phoneNumber": "(307) 472-9000",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHC0PV9dKg2nwmi-4mLehWT6RHoUAGpN70CfgrTsH1p5ZXAEHn_Tu_UVzAPySMU-y6-4dAM0ht4G9GolrAN9jIRD0IzOVpFXTYoYLaZ0mLr4pAk93ClzOz1d2ZLLR3zCyMITg",
+        "cid": "101054051169193458",
+        "fid": "0x8760bc74c1da0fc3:0x167041fc70dcdf2",
+        "placeId": "ChIJww_awXS8YIcR8s0Nxx8EZwE"
+      },
+      {
+        "position": 15,
+        "title": "Smile Academy Pediatric Dentistry",
+        "address": "6900 Yellowtail Rd, Cheyenne, WY 82009",
+        "latitude": 41.180422199999995,
+        "longitude": -104.8281366,
+        "rating": 4.9,
+        "ratingCount": 539,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://thesmileacademy.com/",
+        "phoneNumber": "(307) 635-9251",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.thesmileacademy.com/request-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRF6TLA6zunmG53MzQ4gqLrAX2QJYWXyhHAEruUdGX_KXs14X7B6-G0OpzpwgqtC3ZK8s7Lx0eNLRLpMG4_2AckMKyebFYr8CXQY8zTz1ggeLDlq2zFlozuIZSTKXbifPdZBCq",
+        "cid": "11058621611589187954",
+        "fid": "0x876f3a16ccb3ceff:0x99781dc3c03b3972",
+        "placeId": "ChIJ_86zzBY6b4cRcjk7wMMdeJk"
+      },
+      {
+        "position": 16,
+        "title": "moeller orthodontic",
+        "address": "211 E 20th Ave, Torrington, WY 82240",
+        "latitude": 42.0638851,
+        "longitude": -104.1827366,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "phoneNumber": "(307) 886-4300",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xSd1HTVSv0cOzEbJ4VsQNA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=178.83347&pitch=0&thumbfov=100",
+        "cid": "16887039973273547970",
+        "fid": "0x87650eaf464d59b5:0xea5ad16262cab4c2",
+        "placeId": "ChIJtVlNRq8OZYcRwrTKYmLRWuo"
+      },
+      {
+        "position": 17,
+        "title": "Erin M. Prach, DDS",
+        "address": "130 N Ash St #202, Casper, WY 82601",
+        "latitude": 42.8507622,
+        "longitude": -106.32884729999999,
+        "rating": 5,
+        "ratingCount": 282,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.prachdds.com/",
+        "phoneNumber": "(307) 337-4770",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1HM4RESYDrUhS-1KvOSlqI8m7VRyEMv5vt1WmM6CcezKBDE0dZX0LBisEC8_wYvoiCXWrqAMkh6kOla7a3q9WX9zNJRdmuJOf86in1KXlTwQU8ishIWO5ULTgKhe61U_EuP4",
+        "cid": "14706839108785993693",
+        "fid": "0x8760bc814e722789:0xcc19303fd002f7dd",
+        "placeId": "ChIJiSdyToG8YIcR3fcC0D8wGcw"
+      },
+      {
+        "position": 18,
+        "title": "Aspen Ridge Dental",
+        "address": "1122 S Conwell St, Casper, WY 82601",
+        "latitude": 42.8394224,
+        "longitude": -106.30775799999999,
+        "rating": 4.9,
+        "ratingCount": 535,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dental implants periodontist",
+          "Dental implants provider",
+          "Dentist",
+          "Emergency dental service",
+          "Cosmetic dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://aspenridgedental.com/?utm_source=GoogleBusinessProfile&utm_medium=Organic&utm_campaign=Website",
+        "phoneNumber": "(307) 439-1187",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://aspenridgedental.com/request-an-appointment/?utm_source=GoogleBusinessProfile&utm_medium=Organic&utm_campaign=Appointments"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwBMNW9w0bw-Bs0GjXtxd04JS9r-c0e7rrrUsmbgjwhXyQNzSEgJIx5JXvUZ-0weKeom9NLE9C22SicfVH8drAHDUQOJ0ppBJv1Auo5sCQBccd1lftFpfnXIM10mif79853RJI",
+        "cid": "9216260436450152869",
+        "fid": "0x8760bb7bae3d62b1:0x7fe6bc09801911a5",
+        "placeId": "ChIJsWI9rnu7YIcRpREZgAm85n8"
+      },
+      {
+        "position": 19,
+        "title": "Wyoming Cosmetic & Family Dental",
+        "address": "4620 Grandview Ave Ste 101, Cheyenne, WY 82009",
+        "latitude": 41.1615164,
+        "longitude": -104.7897181,
+        "rating": 4.2,
+        "ratingCount": 389,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Emergency dental service",
+          "Teeth whitening service"
+        ],
+        "website": "http://wyomingcosmeticdental.com/?utm_source=next&utm_medium=google_website",
+        "phoneNumber": "(307) 635-2419",
+        "openingHours": {
+          "Thursday": "11 AM–7 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "7 AM–2 PM",
+          "Tuesday": "11 AM–7 PM",
+          "Wednesday": "7 AM–2 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appt/Wyoming_Cosmetic_and_Family_Dental",
+          "https://book.modento.io/wyoming-cosmetic-family-dentistry/g/google-schedule-link?rwg_token=AFd1xnEWEQ69inHcPmEgX9n0IhKfn9d-wixXehqzHa4oTXG6zDO9y_ACRw6zYlhThIXU6P0P8U7OPw-J_eCADoV0aCeMdbhkEA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgcMdJ7wjTY1w42kaeStnFTMFovhqbTd6oh76qt1kDp_kWw_tTUd4jRaqWnqbyv1p2TVTUD3gmTaPcYnmzjHJkCTPB94Zw6iD1vAa9MFQaNSmfU76et2g6xOBLaECONEoJP3RN1y1dQsTw",
+        "cid": "851153632963266354",
+        "fid": "0x876f3ba84e0c2107:0xbcfe7b8360f0732",
+        "placeId": "ChIJByEMTqg7b4cRMgcPNrjnzws"
+      },
+      {
+        "position": 20,
+        "title": "Goings Orthodontics",
+        "address": "4733 S Timberline Rd #101, Fort Collins, CO 80528",
+        "latitude": 40.520315,
+        "longitude": -105.04041199999999,
+        "rating": 4.9,
+        "ratingCount": 367,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.goingsorthodontics.com/",
+        "phoneNumber": "(970) 377-1888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://goingsorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsLw-LII5PWJpoMW_UPxtdTSootIcWBGWmnz8FogwVEdkEmtiIHhOjPw92cAByNb6ipJMLpIgJkit7Fe9CTKYHG-38VjMAtCjfapj2bTNbPVzIlPK9qNsjqxUymU8c2E77h5mZ-v-s7y8",
+        "cid": "12690076316533771818",
+        "fid": "0x87694cb1a5051fdd:0xb01c352ccb97ce2a",
+        "placeId": "ChIJ3R8FpbFMaYcRKs6Xyyw1HLA"
+      }
+    ],
+    "credits": 3
+  }
+}

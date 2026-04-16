@@ -1,0 +1,243 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.330356,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzMwMzU2LC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@30.497283,-84.2366244,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Clark Orthodontics",
+        "address": "5555 Roanoke Trail, Tallahassee, FL 32312",
+        "latitude": 30.5469343,
+        "longitude": -84.2273601,
+        "rating": 4.8,
+        "ratingCount": 248,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://clarkorthotally.com/",
+        "phoneNumber": "(850) 385-2822",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHw9_IpUcURmsskRkILeezOUyt5Z0dYywnip9H23WY0B2mx2tA7CXX83hlR6mYMEqfHFTBhwQQgVRj96CS7U0xB9rS4i-5I0mQv6UfClzFmOaPdJhmSVA1NIYD5fQgadDZOEFltPZEf0wtc",
+        "cid": "8064479739382391373",
+        "fid": "0x88ec58b45fc18d25:0x6feac9987438e24d",
+        "placeId": "ChIJJY3BX7RY7IgRTeI4dJjJ6m8"
+      },
+      {
+        "position": 2,
+        "title": "Redemption Orthodontics",
+        "address": "3715 Bradfordville Rd Ste 1, Tallahassee, FL 32309",
+        "latitude": 30.559659999999997,
+        "longitude": -84.214404,
+        "rating": 5,
+        "ratingCount": 603,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://redemptionorthodontics.com/orthodontist-north-tallahassee/",
+        "phoneNumber": "(850) 782-3232",
+        "openingHours": {
+          "Thursday": "7 AM–11 PM",
+          "Friday": "7 AM–11 PM",
+          "Saturday": "10 AM–6 PM",
+          "Sunday": "10 AM–6 PM",
+          "Monday": "7 AM–11 PM",
+          "Tuesday": "7 AM–11 PM",
+          "Wednesday": "7 AM–11 PM"
+        },
+        "bookingLinks": [
+          "https://redemptionorthodontics.com/free-orthodontic-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGGEuSpFsC88GNC0TSoY42SKW9DPQBFHU5y-d5ZqVFp4dIoX00TVf-XL1IO97XYo_k7sBuiuqHJMCK1NYFtK3tGVY4iN-9We2mMt3FR02u--bIP_cLKj6lChPGA2Er2UoiXCwjo",
+        "cid": "4712360392585550560",
+        "fid": "0x88ec59000df2800d:0x4165aacf55ae9ae0",
+        "placeId": "ChIJDYDyDQBZ7IgR4JquVc-qZUE"
+      },
+      {
+        "position": 3,
+        "title": "Vibrant Orthodontics Tallahassee",
+        "address": "1350 Thomaswood Dr, Tallahassee, FL 32308",
+        "latitude": 30.4969713,
+        "longitude": -84.251314,
+        "rating": 5,
+        "ratingCount": 860,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://vibrantorthodontics.com/",
+        "phoneNumber": "(850) 385-8101",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://vibrantorthodontics.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGXO7XG8qP6aSTof2I2woKDkOExDCtLIIGv08-kI1V7nj5yZNJGqqjVH3dw5lcvaW0FCHHJhRRjdSni9H7y5J6QWdzDrqyxaMtYNz6UFGypfmTDNK8J_9IihSAqa5ngawc9U3jrhZpeBs0",
+        "cid": "15062037698271140722",
+        "fid": "0x88ec58b5ac4b88ed:0xd1071b7c06fe5b72",
+        "placeId": "ChIJ7YhLrLVY7IgRclv-BnwbB9E"
+      },
+      {
+        "position": 4,
+        "title": "Redemption Orthodontics",
+        "address": "630 Capital Cir NE ste 1, Tallahassee, FL 32301",
+        "latitude": 30.444428,
+        "longitude": -84.22717229999999,
+        "rating": 5,
+        "ratingCount": 1405,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://redemptionorthodontics.com/orthodontist-south-tallahassee/",
+        "phoneNumber": "(850) 782-3232",
+        "openingHours": {
+          "Thursday": "7 AM–11 PM",
+          "Friday": "7 AM–11 PM",
+          "Saturday": "10 AM–6 PM",
+          "Sunday": "10 AM–6 PM",
+          "Monday": "7 AM–11 PM",
+          "Tuesday": "7 AM–11 PM",
+          "Wednesday": "7 AM–11 PM"
+        },
+        "bookingLinks": [
+          "https://redemptionorthodontics.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEObCI822mAk9WLbp8jlIxBLnMQLsDqftLzO0OkV8OGStwUg23HVb_T2YTM1XA1LL2dolKEB7QNISU6PUViRJLQlh9GzW-zIcEACGgZ8Rf5ZCDrMrQD4S7xVSweQZArFtQhld1X",
+        "cid": "17408861877457978783",
+        "fid": "0x88ec5fe0201328c9:0xf198b3a435b9059f",
+        "placeId": "ChIJySgTIOBf7IgRnwW5NaSzmPE"
+      },
+      {
+        "position": 5,
+        "title": "North Florida Orthodontic Specialist",
+        "address": "3051 Highland Oaks Terrace Suite #4, Tallahassee, FL 32301",
+        "latitude": 30.434905999999998,
+        "longitude": -84.2291717,
+        "rating": 4.8,
+        "ratingCount": 153,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://drb4braces.com/",
+        "phoneNumber": "(850) 656-3917",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.drb4braces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-mdcSWKd3Frjm4Zzekq7TzoQbhL62RvDZQgiub00Dpwe0Lf-3mOWcnCcck2IjUGJNuUsZR_w44uyW3x56J5mP2zp3ATwNnVgZ2m8KOjpELHMcbPh0XgbyFqA0M7NTIv70D0_X",
+        "cid": "8518950925321683113",
+        "fid": "0x88ec5fb2a1c2fdc9:0x763964bb32c8c0a9",
+        "placeId": "ChIJyf3CobJf7IgRqcDIMrtkOXY"
+      },
+      {
+        "position": 6,
+        "title": "Burch Orthodontics",
+        "address": "3375-F Capital Cir NE, Tallahassee, FL 32308",
+        "latitude": 30.4996229,
+        "longitude": -84.2465299,
+        "rating": 4.8,
+        "ratingCount": 260,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.burchorthodontics.com/",
+        "phoneNumber": "(850) 877-1692",
+        "openingHours": {
+          "Thursday": "8 AM–12:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFb_di2MofpyCieaY_ztBIGtATpbJVyN-n8QE0D4hFAAhfmuR0M5sC_5mdfAJMbY2xWiOzo3c2qgBSj1DQTD0wyjUQkelVmhNl0Z2iaRJX3f-_swx-bcoO23QYV5YYIB00VwLbZAw",
+        "cid": "9664015646871744538",
+        "fid": "0x88ec5f20ca5b556f:0x861d7b07579b701a",
+        "placeId": "ChIJb1VbyiBf7IgRGnCbVwd7HYY"
+      },
+      {
+        "position": 7,
+        "title": "Drs. Davalos & Jones",
+        "address": "1272 Timberlane Rd, Tallahassee, FL 32312",
+        "latitude": 30.5040081,
+        "longitude": -84.25884479999999,
+        "rating": 4.8,
+        "ratingCount": 81,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Pediatric dentist"
+        ],
+        "website": "http://www.bigbendsmiles.com/",
+        "phoneNumber": "(850) 893-5177",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–3:30 PM",
+          "Tuesday": "7:30 AM–3:30 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvr3Trl-iDG3D3E4NIfw5l-EjKiYpnyxwD_Nj4zUCnjIBH4x545iqWebQMV_Ps7EV-1RxssuEIc0xNr-MzRIilAJcm_i7lllDvS87x8X-4hBHJtQ4pTvpu-u6BuebnCxTgGK07a2PoH-Th",
+        "cid": "6738217147175406681",
+        "fid": "0x88ec58b0180fd227:0x5d82f4cb74d60c59",
+        "placeId": "ChIJJ9IPGLBY7IgRWQzWdMv0gl0"
+      }
+    ],
+    "credits": 3
+  }
+}

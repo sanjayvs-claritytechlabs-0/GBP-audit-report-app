@@ -1,0 +1,641 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.321373,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@33.6173498,-112.240168,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Saperstein Orthodontics",
+        "address": "6677 W Thunderbird Rd Suite A-124, Glendale, AZ 85306",
+        "latitude": 33.6102874,
+        "longitude": -112.2014165,
+        "rating": 5,
+        "ratingCount": 465,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.saportho.com/",
+        "phoneNumber": "(602) 978-2100",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/salt_dental_collective?lid=333997&rwg_token=AFd1xnGo9rdQf5aLBQG9uWgCAOPT2042XXiNhrRjvgsXPvMEnjgAGhbNX8S8ebjzFUPllFgi4mvP7xWSHE0Fjr6QuaYC39n_fw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5_roFccDWBqXn_f4xjr-fgUZmsTu43DttQpuS8KgjSi6uCBsr4iQoUHK8T-pvtWxapmPXNghevehKJxPPSTK0dp7eIiczHVwNCfjwSitzco2eUbEJdsTV4pLCltyf5CdG7ZA5-g",
+        "cid": "17702884269585398561",
+        "fid": "0x872b6973e78ca93d:0xf5ad4773047cfb21",
+        "placeId": "ChIJPamM53NpK4cRIft8BHNHrfU"
+      },
+      {
+        "position": 2,
+        "title": "SS Orthodontics",
+        "address": "6120 W Bell Rd #190, Glendale, AZ 85308",
+        "latitude": 33.6390197,
+        "longitude": -112.1914104,
+        "rating": 5,
+        "ratingCount": 64,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://ssorthodonticsphx.com/",
+        "phoneNumber": "(623) 264-0030",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHo1I59dIen2vfo7X9nhQJYvd2LVXODLr2J4155ov6Ku_tbjJNG43utMmdgvn3ZIOKJ9qUE1j-wvcj2crSi6J_eWwIQZF0lk2--WF5NgLGw5_3-3zcJatBdSdm8ve8eoTWh1hkuWWtPaQ5Y",
+        "cid": "17575110622833748775",
+        "fid": "0x872b6914009cb1e1:0xf3e755fe9a332b27",
+        "placeId": "ChIJ4bGcABRpK4cRJyszmv5V5_M"
+      },
+      {
+        "position": 3,
+        "title": "E&S Orthodontics Peoria",
+        "address": "8272 W Lake Pleasant Pkwy #209, Peoria, AZ 85382",
+        "latitude": 33.671445399999996,
+        "longitude": -112.2371479,
+        "rating": 4.9,
+        "ratingCount": 1006,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.esorthodontics.com/location-in-peoria/?utm_source=GMB_Listing&utm_medium=organic&utm_campaign=Website_URL",
+        "phoneNumber": "(623) 400-7956",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.esorthodontics.com/appointments/?utm_source=GMB_Listing&utm_medium=organic&utm_campaign=Appointment_GMB"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHG0jXr5UGvAsIL7T_38hPZUVl_APGyQoK-E4ssDV7sLDZ74twcQOwghUdY57CdUFOBtXQCoMst9RbC1Y20kgdKhp1ByKBBeWXfWOPJ-T7cOYaka1Urnq5WFcfVtD0gZQAnUjk-",
+        "cid": "18381546162881727904",
+        "fid": "0x872b5d557b9c8e31:0xff185ed875028da0",
+        "placeId": "ChIJMY6ce1VdK4cRoI0CddheGP8"
+      },
+      {
+        "position": 4,
+        "title": "Great Big Smiles Orthodontics",
+        "address": "6611 W Peoria Ave Suite F7, Glendale, AZ 85302",
+        "latitude": 33.580775599999996,
+        "longitude": -112.2006275,
+        "rating": 5,
+        "ratingCount": 208,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://gbsmiles.com/",
+        "phoneNumber": "(623) 937-4000",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJ82S2EKQXljDTznCNqBHFQTwpqeVuCCPxlYqN3yJdmm9X0dgxz3Yis-NI64k4TppCuMDgqWhs-DU6M0C3hOWP_wd7FvwW1iz1tYK9RxJ_79BBidvadueDtBz0tENz90hqjSU",
+        "cid": "1652269635463999324",
+        "fid": "0x872b6bb6dabdc311:0x16ee0a7ab6feef5c",
+        "placeId": "ChIJEcO92rZrK4cRXO_-tnoK7hY"
+      },
+      {
+        "position": 5,
+        "title": "Teeters Orthodontics",
+        "address": "7505 W Deer Valley Rd #120, Peoria, AZ 85382",
+        "latitude": 33.6813882,
+        "longitude": -112.22064569999999,
+        "rating": 5,
+        "ratingCount": 1041,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://teetersorthodontics.com/",
+        "phoneNumber": "(623) 572-8855",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://teetersorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNeEGW_9DPf90-_p2ba-pIaMIW5RwQDTjSBU5iVkoHtholkspSOCpgSyRaLuq6zXuPJ8z6TO2NmxxIuOPtMTyTbHCu5F0RtE6cCDBynGhBl8l_QFgQS78jr83scvbJ3gjevb5Xhcj5M74",
+        "cid": "8872114888052595051",
+        "fid": "0x872b67e60eb7bc3f:0x7b20157bf4d4596b",
+        "placeId": "ChIJP7y3DuZnK4cRa1nU9HsVIHs"
+      },
+      {
+        "position": 6,
+        "title": "Opus 1 Orthodontic Studio",
+        "address": "6525 W Sack Dr #101, Glendale, AZ 85308",
+        "latitude": 33.655864,
+        "longitude": -112.200363,
+        "rating": 4.9,
+        "ratingCount": 148,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://opus1ortho.com/",
+        "phoneNumber": "(623) 566-4800",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzyC-zPjPkjcJzIB-1TJ3VSDTZzebX722UdDV2ChvQdAoDEeCGuKt-96oYOt_KpamjiWZuZdMI60GHm0JRvbt5dA4n4898vAlbbHxWScA1_l1cPQLCmHf_FrfECS9wavAcQ98h",
+        "cid": "11283094427911092605",
+        "fid": "0x872b6867bd583351:0x9c959a9a0ed4797d",
+        "placeId": "ChIJUTNYvWdoK4cRfXnUDpqalZw"
+      },
+      {
+        "position": 7,
+        "title": "E&S Orthodontics Glendale",
+        "address": "6320 W Union Hills Dr Building A Suite #280, Glendale, AZ 85308",
+        "latitude": 33.6554778,
+        "longitude": -112.1985442,
+        "rating": 4.9,
+        "ratingCount": 121,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.esorthodontics.com/location-in-glendale/?utm_source=GMB_Listing&utm_medium=organic&utm_campaign=Website_URL",
+        "phoneNumber": "(480) 780-1238",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.esorthodontics.com/appointments/?utm_source=GMB_Listing&utm_medium=organic&utm_campaign=Appointment_GMB"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWzwdHNLW1_Ow7Rxc1VUWq41AkTiZdL9ijwUcqxk_OFvfvyVhbDmBghjKpyMPX7v5ZSofzwCLVQgjoftn6wucfVj8EQLqYiXLEGwytqdXCZHftFOuMRaeaExk2tm8cewcIpZoO",
+        "cid": "4297846127551709301",
+        "fid": "0x872b68675e8bfacb:0x3ba5044834020075",
+        "placeId": "ChIJy_qLXmdoK4cRdQACNEgEpTs"
+      },
+      {
+        "position": 8,
+        "title": "Icon Orthodontics: Glendale",
+        "address": "4901 W Bell Rd #120, Glendale, AZ 85308",
+        "latitude": 33.6388483,
+        "longitude": -112.16494,
+        "rating": 5,
+        "ratingCount": 264,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://iconbraces.com/",
+        "phoneNumber": "(602) 883-7432",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://iconbraces.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG73PvNOKR9S7PcNajSmqffI61wU8IAs89ZvlFhM3Thv-ibiK53pXL6OUGUFJnsj00jOQrp275_D6YjA9ewYjSRgS0Xo01lgeFAY1mOcfUVvcE6DkVcbLnOEVKQ2c6V2ZV89hazgw",
+        "cid": "15014315578876134427",
+        "fid": "0x872b697423c73c8d:0xd05d90784086841b",
+        "placeId": "ChIJjTzHI3RpK4cRG4SGQHiQXdA"
+      },
+      {
+        "position": 9,
+        "title": "Share More Smiles",
+        "address": "8617 W Union Hills Dr Ste 101, Peoria, AZ 85382",
+        "latitude": 33.652403,
+        "longitude": -112.244479,
+        "rating": 5,
+        "ratingCount": 52,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.sharemoresmiles.com/",
+        "phoneNumber": "(623) 547-2022",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuVdNqakrBoevG3S47i0q_vol2Nt7-z4FBEEU17B_KStv5XNHx6oMXYjzgnQ21mh2NTL7IcTtt15Nda_AmqTMToBTu6RrG-9tLldQvhjZ110dfCBrgNo-S-9NblE7uZwVQRg7b",
+        "cid": "8471333545158108096",
+        "fid": "0x872b42a41f7753bf:0x759038f9ecffe3c0",
+        "placeId": "ChIJv1N3H6RCK4cRwOP_7Pk4kHU"
+      },
+      {
+        "position": 10,
+        "title": "Premier Orthodontics of Arrowhead/Glendale",
+        "address": "20329 N 59th Ave Ste A11, Glendale, AZ 85308",
+        "latitude": 33.670690799999996,
+        "longitude": -112.1849136,
+        "rating": 4.9,
+        "ratingCount": 353,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://yourazbraces.com/find-a-location-near-you/glendale-arrowhead-orthodontist/?utm_source=gbp&utm_medium=organic&utm_campaign=glendale&utm_content=listing",
+        "phoneNumber": "(480) 361-4600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://yourazbraces.com/premier-orthodontics-smile-analysis/?utm_source=gbp&utm_medium=organic&utm_campaign=glendale&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwmN7R3GEvtGBGitUBnILrFLbyiwoEag4zmKhSf68OEcQFaTbh9VPFZb2U0C7opqz8LIFmvYhs37aiVClMVcm2qFb6aKHpk2K2Noe4uwHbWuEAy7XrMqOv45FGFfrbKoZ8Ns2hsw",
+        "cid": "2903986084506176434",
+        "fid": "0x872b688682cce52b:0x284d07f537ab0bb2",
+        "placeId": "ChIJK-XMgoZoK4cRsgurN_UHTSg"
+      },
+      {
+        "position": 11,
+        "title": "Butterfly Orthodontics",
+        "address": "4025 W Bell Rd #5, Phoenix, AZ 85053",
+        "latitude": 33.6390026,
+        "longitude": -112.1458517,
+        "rating": 5,
+        "ratingCount": 2713,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental implants provider",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.butterflybraces.com/",
+        "phoneNumber": "(602) 938-6709",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4:30 PM",
+          "Tuesday": "9 AM–4:30 PM",
+          "Wednesday": "9 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.butterflybraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFi97RhJzI0RNWTRu6gHRGW6HQ5S-qzhyc-BHDXrAg76hFoSM-sp_VQF1C3WkGcgDooxuI4j6ofXpn9cgGc6XYjHpRdsTOCs0jq4klzWwsQKwLVDICbflPsddr3An182n86dU_Y",
+        "cid": "15761977851310380375",
+        "fid": "0x872b692b74658861:0xdabdcb5860ee1557",
+        "placeId": "ChIJYYhldCtpK4cRVxXuYFjLvdo"
+      },
+      {
+        "position": 12,
+        "title": "North Phoenix Orthodontic Studio",
+        "address": "20100 N 51st Ave STE B230, Glendale, AZ 85308",
+        "latitude": 33.6661547,
+        "longitude": -112.1699512,
+        "rating": 4.9,
+        "ratingCount": 55,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://g-orthostudio.com/",
+        "phoneNumber": "(623) 243-6312",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://selectdentalaz.focusortho.com/Consultation/Office/Greenway%20Orthodontic%20Studio"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0LktZcT00j4Li5PMRE_CsHjHbTcuvuwQwD1k3sBi4MC3TOfCMGwzhoQA4RfZckNzLg-P3aOJcGCxjxWGwW3zRN2c9muxkhJMSfwZTne_GNsEKJUDOwBLWjB3KO6pJZWxCnDzzQg",
+        "cid": "16696567186023236055",
+        "fid": "0x872b6ecb20b4debf:0xe7b61f64bb5bc1d7",
+        "placeId": "ChIJv960IMtuK4cR18Fbu2Qftuc"
+      },
+      {
+        "position": 13,
+        "title": "Faces Orthodontics - Shawn M. Bader DDS, MS",
+        "address": "9059 W Lake Pleasant Pkwy Ste F600, Peoria, AZ 85382",
+        "latitude": 33.6732362,
+        "longitude": -112.2530728,
+        "rating": 5,
+        "ratingCount": 61,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://facesorthodontics.com/",
+        "phoneNumber": "(480) 661-1818",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://book2.getweave.com/d72142e4-1663-4103-8caf-fd81247080f6/request-appointment?source=WEBSITE"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHE06wK5gW8TP2IsACZrqIeKHLe9Bmqon4ZjYVW6y2lEU8FrTh1crodyWCw6VNMOMrxO1gkVymQJaL9YUwgO-_ppjz81rg2iDZwPIhCrlKqz4niQSz22vtUBxF6flWdK3mRL_Tu",
+        "cid": "9339340888314359987",
+        "fid": "0x872b5d4ee43a37db:0x819c010e544230b3",
+        "placeId": "ChIJ2zc65E5dK4cRszBCVA4BnIE"
+      },
+      {
+        "position": 14,
+        "title": "Dickerson Orthodontics",
+        "address": "7777 W Deer Valley Rd #155, Peoria, AZ 85382",
+        "latitude": 33.681128,
+        "longitude": -112.22652529999999,
+        "rating": 4.7,
+        "ratingCount": 55,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://smilemoreaz.com/?utm_source=google.com&utm_medium=business+profile",
+        "phoneNumber": "(480) 900-5793",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "cid": "7108951944000110812",
+        "fid": "0x872b67faab1dd87d:0x62a81220d37300dc",
+        "placeId": "ChIJfdgdq_pnK4cR3ABz0yASqGI"
+      },
+      {
+        "position": 15,
+        "title": "Thunderbird Kid's Dentistry and Orthodontics",
+        "address": "6780 W Thunderbird Rd Suite 105, Peoria, AZ 85381",
+        "latitude": 33.6110916,
+        "longitude": -112.2047042,
+        "rating": 4.5,
+        "ratingCount": 971,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist",
+          "Orthodontist"
+        ],
+        "website": "https://www.thunderbirdkidsdentistry.com/",
+        "phoneNumber": "(602) 345-7959",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.thunderbirdkidsdentistry.com/our-office/",
+          "https://nexhealth.info/book/appt/Choice_HCS?lid=72342&rwg_token=AFd1xnE56HqtxmrW8Q2UEXMzcPDyGYDM3vS-r3aelTHQ4k8qsClWLhWMtsuUKfiPpDhmhqx9F8SR7UqxlQ1-es4AlHIEpHZAgg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKnYY1w3dcniYbppiuZuuxKJgieikl9F5YwV2fY3K7Y5RZFFuc6hxoP1KKq0w4gNdiZThWbXIou2uAKUavUGFdo6f2GlCI80TSOpb_iMpwCLbRJhCKWyKYL6wHgYKGW--okVhw",
+        "cid": "2499256881500304559",
+        "fid": "0x872b697162bc8775:0x22af24e46046b4af",
+        "placeId": "ChIJdYe8YnFpK4cRr7RGYOQkryI"
+      },
+      {
+        "position": 16,
+        "title": "Shipley Orthodontics",
+        "address": "20470 N Lake Pleasant Rd STE 108, Peoria, AZ 85382",
+        "latitude": 33.669418199999996,
+        "longitude": -112.2805114,
+        "rating": 4.6,
+        "ratingCount": 45,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://shipleyortho.com/",
+        "phoneNumber": "(623) 334-1264",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.shipleyortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXx4J2nCfqIsA3V7bQsOtRH1u7PlCllOxXQrL-V7gsWrs1c2UsmQJAlvzX0RoXbDb-LLDnoDVb-0-JmfEeo6l6q_7li3HsRFouihfq_H5zZQ-t3GiA371wdauCNRJQ2m5qFTrY",
+        "cid": "4496342243629303841",
+        "fid": "0x872b5d2f3537ce2d:0x3e663772ac1b8821",
+        "placeId": "ChIJLc43NS9dK4cRIYgbrHI3Zj4"
+      },
+      {
+        "position": 17,
+        "title": "Angle Orthodontics",
+        "address": "5400 W Northern Ave # 201, Glendale, AZ 85301",
+        "latitude": 33.5533113,
+        "longitude": -112.175283,
+        "rating": 5,
+        "ratingCount": 213,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.angleorthodonticsaz.com/",
+        "phoneNumber": "(623) 500-5797",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.angleorthodonticsaz.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQ4CJi-s9cTC8vGGYuLWgFFbedjKuXeWXmFHsYkpvO703fiCVUbFNd_ID96OthYtegsAKUZ72hsVvKrwRYd_RQnuMs1sqtmktQITCr0F62qgLtpI13Ur88o0DCk_D-meFZ_d4p5CYzth8p",
+        "cid": "2330823284847803437",
+        "fid": "0x872b6ba770f998dd:0x2058bf6da78ffc2d",
+        "placeId": "ChIJ3Zj5cKdrK4cRLfyPp22_WCA"
+      },
+      {
+        "position": 18,
+        "title": "Premier Orthodontics of Central Phoenix",
+        "address": "2827 W Peoria Ave #100B, Phoenix, AZ 85029",
+        "latitude": 33.581421999999996,
+        "longitude": -112.123761,
+        "rating": 4.9,
+        "ratingCount": 609,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://yourazbraces.com/find-a-location-near-you/peoria-phoenix-orthodontist/?utm_source=gbp&utm_medium=organic&utm_campaign=peoria&utm_content=listing",
+        "phoneNumber": "(480) 361-4600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://yourazbraces.com/premier-orthodontics-smile-analysis/?utm_source=gbp&utm_medium=organic&utm_campaign=peoria&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbH6YceuVQbKAdogYk76CjkhEfcKzWr8og9-x1e_7MnHqH1fttvMbjAj5_c1b2M6e8a0rFgzoN22z58vMoTQCWVoQj7GpC7W4yCYcjpx9hQJJe0OpWyHYxkSSkIsjIy8d4IdL_",
+        "cid": "7816402945995271462",
+        "fid": "0x872b6c6e9874ed2f:0x6c797110f95d6d26",
+        "placeId": "ChIJL-10mG5sK4cRJm1d-RBxeWw"
+      },
+      {
+        "position": 19,
+        "title": "Shine Orthodontics and Pediatric Dentistry",
+        "address": "5940 W Union Hills Dr B190, Glendale, AZ 85308",
+        "latitude": 33.654635999999996,
+        "longitude": -112.18880999999999,
+        "rating": 4.9,
+        "ratingCount": 1060,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist",
+          "Orthodontist"
+        ],
+        "website": "http://shineaz.com/",
+        "phoneNumber": "(602) 314-4600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/shine_ortho_pedo?lid=72239&rwg_token=AFd1xnF18QXDnRUxbyO1FL8hWu3Jb3P_CCBb_sdkJS8SUOWFDW9RQQTyL1bqe_VlrV0ipImJFjr7ZYVMHthLoMq5XqzRqSL-dg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHW6lg3-EDrQURKvzjGQ2m7RoVHmXuSvpNxHQ7I1yhRvpZnRviOaUlgpUA6DtMOE0sJ07Vcnklv7fwFGwCveqS8v64eRo3fIkzOQL33NLFM67d5j6VS6rZv_YK1Ss8TOLnIK914XQ",
+        "cid": "14808188737808488280",
+        "fid": "0x872b68f51a64da65:0xcd8141332c03d758",
+        "placeId": "ChIJZdpkGvVoK4cRWNcDLDNBgc0"
+      },
+      {
+        "position": 20,
+        "title": "Icon Orthodontics: Surprise",
+        "address": "13755 N Litchfield Rd Ste 108, Surprise, AZ 85379",
+        "latitude": 33.6087036,
+        "longitude": -112.35657499999999,
+        "rating": 5,
+        "ratingCount": 522,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://iconbraces.com/",
+        "phoneNumber": "(623) 869-1144",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "7 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://iconbraces.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDFF4nMx-dxfHNScR8m4tSamV8nHI0SLNExj3fOwLHfj5ZpWn3B_KoTkBu8hpQzxlNxMDAb-fci-A4MS9LhX13s8q4Zmu6rW3nbDtw1W46Vhx7Yc-XvLgPsgES5xgQjGHbnmM",
+        "cid": "1478455635411727379",
+        "fid": "0x872b44f35d81b98f:0x1484879134e3f413",
+        "placeId": "ChIJj7mBXfNEK4cRE_TjNJGHhBQ"
+      }
+    ],
+    "credits": 3
+  }
+}

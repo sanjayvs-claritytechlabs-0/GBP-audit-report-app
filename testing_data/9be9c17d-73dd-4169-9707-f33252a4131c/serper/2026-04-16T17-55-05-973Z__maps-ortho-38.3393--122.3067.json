@@ -1,0 +1,686 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.33934,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzM5MzQsLTEyMi4zMDY2OQ==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@39.9994179,-82.8276107,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Orthopedic ONE Hilliard",
+        "address": "3777 Trueman Ct, Hilliard, OH 43026",
+        "latitude": 40.0373715,
+        "longitude": -83.1195786,
+        "rating": 4.8,
+        "ratingCount": 160,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.orthopedicone.com/locations/physicians/hilliard?utm_source=GMBSocialClimb&utm_medium=OrthopedicONEHilliard",
+        "phoneNumber": "(614) 488-1816",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicone.com/patient-resources/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWlH5-ZiH9wUol8RxOiYVdi7ex9vedI_A2Dg5HBfQD--58-K7Ch9qb6Q3bFAjvvFtyN-IH9oxhrJCe3h0Yp_DAroIBNwENITa7HTM2NzHsmsDb6fHpJUQ7G1GTzZCExHgkGKk18Q",
+        "cid": "155235177660768461",
+        "fid": "0x8838923375f2c403:0x2278192551d60cd",
+        "placeId": "ChIJA8TydTOSOIgRzWAdVZKBJwI"
+      },
+      {
+        "position": 2,
+        "title": "Orthopedic ONE Upper Arlington",
+        "address": "4605 Sawmill Rd, Upper Arlington, OH 43220",
+        "latitude": 40.0622992,
+        "longitude": -83.0946826,
+        "rating": 4.9,
+        "ratingCount": 1608,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "phoneNumber": "(614) 827-8700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicone.com/patient-resources/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHBXggax_IxECSS3_MpZy5P2KfABIkK5hBBAFw36oHQf7KYDfGuby8ooX3HKC5GE8s27CnWMKWpLZu04lgGqv2_iYLA8tcBRwICi17_RICQSsaSYqgYtWa2rx6SZbpEDEEcG4WpW3wC8Fe_",
+        "cid": "9652697234416168824",
+        "fid": "0x8838926206553177:0x85f544fe15c56f78",
+        "placeId": "ChIJdzFVBmKSOIgReG_FFf5E9YU"
+      },
+      {
+        "position": 3,
+        "title": "Orthopedic ONE Dublin Physician Clinic",
+        "address": "6810 Perimeter Dr #200, Dublin, OH 43016",
+        "latitude": 40.1055552,
+        "longitude": -83.1702018,
+        "rating": 4.7,
+        "ratingCount": 202,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.orthopedicone.com/locations/physicians/dublin?utm_source=GMBSocialClimb&utm_medium=OrthopedicONEDublin",
+        "phoneNumber": "(614) 827-8700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicone.com/patient-resources/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFeiSJ2zFoAoM6HbBUQaY28exLp5emYZBsHoP0geAMtxYvnjAtUcc4xF0ffuChNP0mX-Y4T9TLvB3ovt2KuzKgJX_XZAT8yJPpnTpFvNN0WF2h129bmNIwX-jxjCivTMpvpby8w",
+        "cid": "8251658785386946473",
+        "fid": "0x883894ac5ff0f8f5:0x7283c7f236b85fa9",
+        "placeId": "ChIJ9fjwX6yUOIgRqV-4NvLHg3I"
+      },
+      {
+        "position": 4,
+        "title": "Orthopaedic Spine & Joint Center",
+        "address": "4995 Bradenton Ave, Dublin, OH 43017",
+        "latitude": 40.0808734,
+        "longitude": -83.1246828,
+        "rating": 4.9,
+        "ratingCount": 99,
+        "type": "Pain management physician",
+        "types": [
+          "Pain management physician",
+          "Pain control clinic"
+        ],
+        "website": "https://www.osjcpain.com/",
+        "phoneNumber": "(614) 318-0808",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhZDtax6QNPXOmuTEo0g72XrBIXea0Y6F2ZlwriAqFk3beTrQXLERaD-phiQwVTso-kf7ci7IKWW3IAVy3y3ejj6P6z88JeezJM_LfOTGIsLu5JBAYJ3dWxbhzQvYD2AkAN27p",
+        "cid": "1510253551164775507",
+        "fid": "0x883893287388b267:0x14f57f9a65f2dc53",
+        "placeId": "ChIJZ7KIcyiTOIgRU9zyZZp_9RQ"
+      },
+      {
+        "position": 5,
+        "title": "Orthopedic ONE Westerville",
+        "address": "340 Polaris Pkwy, Westerville, OH 43082",
+        "latitude": 40.147266099999996,
+        "longitude": -82.939645,
+        "rating": 4.8,
+        "ratingCount": 655,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.orthopedicone.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicONEWesterville",
+        "phoneNumber": "(614) 839-2300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicone.com/patient-resources/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhfUM8Jc5_iwmKcUc8C_r-I-Y4zvM60w1dbBhF6q4mSy2b0CO3isKCc5kiiTXN2B2H5UuvUSgzkJbgTIW0IdjaLysB_-9WZcrAzTtLV-h2CSNCc4ifoNn0sXlWnsDeiFHiUAKhpg",
+        "cid": "4349954685450653630",
+        "fid": "0x8838f53e643439cd:0x3c5e24bd47550fbe",
+        "placeId": "ChIJzTk0ZD71OIgRvg9VR70kXjw"
+      },
+      {
+        "position": 6,
+        "title": "OrthoNeuro",
+        "address": "1325 Stringtown Rd #280, Grove City, OH 43123",
+        "latitude": 39.876131199999996,
+        "longitude": -83.0334816,
+        "rating": 4.8,
+        "ratingCount": 496,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Neurosurgeon",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthoneuro.com/locations/grove-city/?utm_source=gmb&utm_medium=referral",
+        "phoneNumber": "(614) 890-6555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthoneuro.myhealthdirect.com/DecisionSupport?referralSource=451954"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGi5pEhhETXazxnJzeHXy9rziNgSxzY2ll0sihxDPZbohTCjQWTYW3FoTqOamBXWh4H6jVSoRbXWTyLjHNv8xFEltxikuqdBUUSwb6yuvNr7RMi_WSxuoR4GeoBTbOYQNIL8RwtGQ",
+        "cid": "3678666751645564213",
+        "fid": "0x8838859e82fe3cb7:0x330d3feb92dfbd35",
+        "placeId": "ChIJtzz-gp6FOIgRNb3fkus_DTM"
+      },
+      {
+        "position": 7,
+        "title": "Ohio State Orthopedics Outpatient Care East",
+        "address": "543 Taylor Ave 1st Floor, Columbus, OH 43203",
+        "latitude": 39.9786991,
+        "longitude": -82.9630938,
+        "rating": 4.9,
+        "ratingCount": 37,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://wexnermedical.osu.edu/locations/outpatient-care-east/orthopedics?utm_campaign=med_general-awareness-evergreen_corp&utm_source=googlemybusiness&utm_medium=organic&utm_content=gmb_listing",
+        "phoneNumber": "(614) 293-2663",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7QqZLyB1a5Ujd-ZujCRuzm2RRq1g-PfsYIwuUWlwyIhz9KbxdxQlFtysYcqE60rwo-ySQzzUrHXbi3cUH5UvpVbBBZtg63EdmPegkgl42NKNNt_ri-Gbt8lboy0d9cFnNqc9X",
+        "cid": "9853100677215607424",
+        "fid": "0x88388920651aa6a1:0x88bd3edca998da80",
+        "placeId": "ChIJoaYaZSCJOIgRgNqYqdw-vYg"
+      },
+      {
+        "position": 8,
+        "title": "OrthoNeuro",
+        "address": "1030 Refugee Rd #180, Pickerington, OH 43147",
+        "latitude": 39.9118298,
+        "longitude": -82.7835502,
+        "rating": 4.8,
+        "ratingCount": 949,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Neurologist",
+          "Orthopedic clinic",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthoneuro.com/locations/pickerington/?utm_source=gmb&utm_medium=referral",
+        "phoneNumber": "(614) 890-6555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthoneuro.myhealthdirect.com/DecisionSupport?referralSource=451896"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4b_cqte8yXo4uU5066iDmehwKjo1maFi_RmbCKbDFwCzxkY9Eo8vmqGr5MNFEDvAmahlhtYLoHnO4dAz8Br6xPWFclbMYkiS19k4zi49ooIecMiCxcRalNPlAN9jZS08jnFhHnw",
+        "cid": "2683041343994298014",
+        "fid": "0x88387b2623b3059f:0x253c13e312777e9e",
+        "placeId": "ChIJnwWzIyZ7OIgRnn53EuMTPCU"
+      },
+      {
+        "position": 9,
+        "title": "Orthopedic ONE Grove City",
+        "address": "5500 N Meadows Dr STE 200, Grove City, OH 43123",
+        "latitude": 39.8515698,
+        "longitude": -83.0787651,
+        "rating": 4.9,
+        "ratingCount": 770,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.orthopedicone.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicONEGroveCity",
+        "phoneNumber": "(614) 488-1816",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicone.com/patient-resources/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-cSRmKnR3BYkyIRC28WHRt83O3GIAsdkKU21DXC5ftb84WxWWSrT7tPTUk68SWEw0AnYKkPHtPY6powLo63W5PrqsCGde-M0q64lOipMCyjA9KNm0Qenjqcj6ZQDy301lPPA",
+        "cid": "3816220214400599552",
+        "fid": "0x8838835439a515e9:0x34f5f010d8034600",
+        "placeId": "ChIJ6RWlOVSDOIgRAEYD2BDw9TQ"
+      },
+      {
+        "position": 10,
+        "title": "OrthoNeuro",
+        "address": "6785 Bobcat Way Suite 300, Dublin, OH 43016",
+        "latitude": 40.1077827,
+        "longitude": -83.1838846,
+        "rating": 4.7,
+        "ratingCount": 550,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Neurosurgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthoneuro.com/locations/dublin/?utm_source=gmb&utm_medium=referral",
+        "phoneNumber": "(614) 890-6555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthoneuro.myhealthdirect.com/DecisionSupport?referralSource=451887"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYWrk_7mnJ9DhgJqbr3aZnvBbApK4SNhghd2-3TaimFkhRGCPpmNhLWuJkcSnhpiCqjqzvlQR1wGunNyO9eR1c3Wmaw5p0FqHzUBgmjU7W1Iqo0EK8LdNQWXxNGvfYGKGIDBdh",
+        "cid": "5592897364060620139",
+        "fid": "0x88389354a8414475:0x4d9df6852a0d456b",
+        "placeId": "ChIJdURBqFSTOIgRa0UNKoX2nU0"
+      },
+      {
+        "position": 11,
+        "title": "Ohio State Orthopedic Urgent Care Jameson Crane Sports Medicine Institute",
+        "address": "2835 Fred Taylor Dr # 2000, Columbus, OH 43210",
+        "latitude": 40.0178596,
+        "longitude": -83.03135449999999,
+        "rating": 4.2,
+        "ratingCount": 48,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://wexnermedical.osu.edu/locations/jameson-crane-sports-medicine-institute/orthopedic-urgent-care?utm_campaign=med_general-awareness-evergreen_corp&utm_source=googlemybusiness&utm_medium=organic&utm_content=gmb_listing",
+        "phoneNumber": "(614) 293-3600",
+        "openingHours": {
+          "Thursday": "8 AM–3 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–3 PM",
+          "Tuesday": "8 AM–3 PM",
+          "Wednesday": "8 AM–3 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOnhpmJBhM9flZMkFNYa0qk55Cay1DCjzMIuxeQ5nG5pW6S_m3qVlO2h-lGtEShGPAeAht35RyjazlWH-2jfQ2CqEsR0iknb0w4W15cSwvZXpqthEELMcxUoA--psp802O3lnR_A",
+        "cid": "5424160302062401616",
+        "fid": "0x88388e84780f018b:0x4b467d0e69347850",
+        "placeId": "ChIJiwEPeISOOIgRUHg0aQ59Rks"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic ONE Gahanna",
+        "address": "605 Crescent Pl, Gahanna, OH 43230",
+        "latitude": 40.0025039,
+        "longitude": -82.8654122,
+        "rating": 4.8,
+        "ratingCount": 1166,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.orthopedicone.com/locations/physicians/gahanna-reynoldsburg?utm_source=GMBSocialClimb&utm_medium=OrthopedicONEGahannaReynoldsburg",
+        "phoneNumber": "(614) 545-7900",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicone.com/patient-resources/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG06qcR4hE05mXr7F4wDMkOMFk2a0AUoFIm1L5-b33FrmHzlD_Pim68Ytt9JmNHVh8HXLpDqjQH_-J1CerpFiFj8MUbRLqCSkv4EBeFzU9MBOwe0r75y1OPPaShUtoz3fOsCRTd",
+        "cid": "11660486497160846848",
+        "fid": "0x883863bfd53e9471:0xa1d25eb07382de00",
+        "placeId": "ChIJcZQ-1b9jOIgRAN6Cc7Be0qE"
+      },
+      {
+        "position": 13,
+        "title": "Orthopedic Walk-in Clinic at OSSM",
+        "address": "2750 Newark Granville Rd, Granville, OH 43023",
+        "latitude": 40.0567128,
+        "longitude": -82.4713369,
+        "rating": 4.8,
+        "ratingCount": 336,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Emergency care service",
+          "Orthopedic clinic",
+          "Urgent care center",
+          "Pain management physician",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.ossmnewark.com/services/orthopedic-urgent-care",
+        "phoneNumber": "(740) 788-9220",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "7:30 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–3:30 PM",
+          "Tuesday": "7:30 AM–3:30 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.ossmnewark.com/patient-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFyVf6m9kjhors7IwhoEgFrwSF222UXAWZKRJ9d5nrWHnw1FF9EuUihDamycyN5EvYrvRFjyknv69klpWRZ6DhqEu51sZmA0cBeElDPIW130PbPfzbHHn2PgDAHTLFI4raNhorcD-6XV2x9",
+        "cid": "12527015390733211344",
+        "fid": "0x883816729ccc38e9:0xadd8e6207c8116d0",
+        "placeId": "ChIJ6TjMnHIWOIgR0BaBfCDm2K0"
+      },
+      {
+        "position": 14,
+        "title": "Ohio State Orthopedics Outpatient Care Gahanna",
+        "address": "920 N Hamilton Rd #600, Gahanna, OH 43230",
+        "latitude": 40.042508,
+        "longitude": -82.8638941,
+        "rating": 4.6,
+        "ratingCount": 80,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://wexnermedical.osu.edu/locations/outpatient-care-gahanna/orthopedics?utm_campaign=med_general-awareness-evergreen_corp&utm_source=googlemybusiness&utm_medium=organic&utm_content=gmb_listing",
+        "phoneNumber": "(614) 293-3668",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPDRPOf_rAVtTs9DDZ5K1Rl8j58D48ujCqz0Z_r5fdkRLYLAOL757X8_RW0d13JVhoP6i26MgrWjbdP0FmLHbOmQbWkGNgdSic8QJNvsb1PMYD79ti1bsLgVSN17MVKidjXNJnLw",
+        "cid": "7053595697137407014",
+        "fid": "0x883861c79ff84a43:0x61e367ea3d195426",
+        "placeId": "ChIJQ0r4n8dhOIgRJlQZPepn42E"
+      },
+      {
+        "position": 15,
+        "title": "Orthopedic Foot & Ankle Center",
+        "address": "350 W Wilson Bridge Rd STE 200, Worthington, OH 43085",
+        "latitude": 40.111311799999996,
+        "longitude": -83.02451479999999,
+        "rating": 4.9,
+        "ratingCount": 1806,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthofootankle.com/locations/worthington/?utm_source=gmb&utm_medium=referral",
+        "phoneNumber": "(614) 895-8747",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2EvlLgWip8wMigT1DWHRZiKclhCMIFzd78YutEBdlAlHNtwxRMHr8Cj7t5DSkSBfvoO4PBNrNjgcgfQBUUfJyilTQnQXyVk8aj5-VityYGoVOmiao5B8TKxyXUJpbBNLB4GNk",
+        "cid": "9344243578145401452",
+        "fid": "0x8838f5baf44c8c45:0x81ad6c06c214ea6c",
+        "placeId": "ChIJRYxM9Lr1OIgRbOoUwgZsrYE"
+      },
+      {
+        "position": 16,
+        "title": "Ohio State Orthopedics Outpatient Care Dublin",
+        "address": "6700 University Blvd 1st Floor, Suite 1B, Dublin, OH 43016",
+        "latitude": 40.0981157,
+        "longitude": -83.16896799999999,
+        "rating": 4.7,
+        "ratingCount": 75,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://wexnermedical.osu.edu/locations/ohio-state-outpatient-care-dublin/orthopedics?utm_campaign=med_general-awareness-evergreen_corp&utm_source=googlemybusiness&utm_medium=organic&utm_content=gmb_listing",
+        "phoneNumber": "(614) 293-2663",
+        "openingHours": {
+          "Thursday": "7 AM–4:30 PM",
+          "Friday": "7 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4:30 PM",
+          "Tuesday": "7 AM–4:30 PM",
+          "Wednesday": "7 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpPKEgGFrL2Ft95KB4HBnDSmP8zbhtT65STZ9h6F8XioXQODS_49nGrWBdDcvmCRAAW1RZYOANG6LsdB1bAzmuLxtwkmyzKMvn--nV48eHpkpBLgsH0i6f5JcjLKswumJckvg",
+        "cid": "10855275439359081450",
+        "fid": "0x8838957caba59493:0x96a5af7f96053bea",
+        "placeId": "ChIJk5Slq3yVOIgR6jsFln-vpZY"
+      },
+      {
+        "position": 17,
+        "title": "OrthoNeuro",
+        "address": "70 S Cleveland Ave Ste A, Westerville, OH 43081",
+        "latitude": 40.122819799999995,
+        "longitude": -82.94775849999999,
+        "rating": 4.7,
+        "ratingCount": 437,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Neurosurgeon",
+          "Orthopedic clinic",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthoneuro.com/locations/westerville/?utm_source=gmb&utm_medium=referral",
+        "phoneNumber": "(614) 890-6555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthoneuro.myhealthdirect.com/DecisionSupport?referralSource=451960"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtf6vEQYge5widJALFtFrZCE8ZyqTk2Km3v4rdyB-bM6YUnOO6QZqCQOvptw_gXh3S6ggv25AqbdTs1z5V-Sao9nOHtxaq2OasaJEcdHXY_rMRZsCiPWrYPGw3Ohmg_bjFqjM81Q",
+        "cid": "1374531858065909792",
+        "fid": "0x8838f51d03baa599:0x131351713c79e820",
+        "placeId": "ChIJmaW6Ax31OIgRIOh5PHFRExM"
+      },
+      {
+        "position": 18,
+        "title": "American Orthopedics, Inc.",
+        "address": "1151 W 5th Ave, Columbus, OH 43212",
+        "latitude": 39.9882013,
+        "longitude": -83.03712999999999,
+        "rating": 4.5,
+        "ratingCount": 27,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "https://www.amerortho.com/",
+        "phoneNumber": "(614) 291-6454",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE7xzqZ06uPGKOJLjthnYmELBls8fPxpfMY_-SlVLAM_ODlnf4hv0dNamjC_n0KBVhsQ3Bidr5MSM1u7ESsiU6_8V2UA8p786Pa4TAolqKALEQLVzQ-P5FoQGgZM3djrbM-nlXjMg",
+        "cid": "1336137283835443352",
+        "fid": "0x88388e58172bf8ff:0x128ae9c7ce2ab898",
+        "placeId": "ChIJ__grF1iOOIgRmLgqzsfpihI"
+      },
+      {
+        "position": 19,
+        "title": "OrthoNeuro",
+        "address": "5040 Forest Dr #300, New Albany, OH 43054",
+        "latitude": 40.0875416,
+        "longitude": -82.7913398,
+        "rating": 4.8,
+        "ratingCount": 1585,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Neurologist",
+          "Neurosurgeon",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthoneuro.com/locations/new-albany/?utm_source=gmb&utm_medium=referral",
+        "phoneNumber": "(614) 890-6555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthoneuro.myhealthdirect.com/DecisionSupport?referralSource=451937"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2ugLevfzEg12i8iaDK2WFJhfaZ9AXiksN7B5v0dcGw3ClnOy-BX-9UFvfdTyyrv0JYogvvh57diSKu5AI4UVX_rHgWHoJx1U786AYRd8cFghlLK7OKa93aJ97Kdf0ejYV5zlUew",
+        "cid": "17522895443612730148",
+        "fid": "0x88385d8902d2d125:0xf32dd490d0d90324",
+        "placeId": "ChIJJdHSAoldOIgRJAPZ0JDULfM"
+      },
+      {
+        "position": 20,
+        "title": "OrthoNeuro+Now",
+        "address": "1240 Hill Rd N, Pickerington, OH 43147",
+        "latitude": 39.9132406,
+        "longitude": -82.7786012,
+        "rating": 4.4,
+        "ratingCount": 63,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthoneuro.com/orthopedic-urgent-care/",
+        "phoneNumber": "(614) 839-3245",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFOl2fkjOlitqUD7WELpz5YBXU9I5J6M4OfNLLuSjDkwfIL8kDyDgFKwuUf4CW8Z7hvLyKPKsSpUVE7K6T1ByvN_wW2WKrwVUfRB6fBKb20ie0JlmBkQwrTcODTXJayiDHaPx8",
+        "cid": "6859263769863196505",
+        "fid": "0x88387b298535880f:0x5f31000e87670f59",
+        "placeId": "ChIJD4g1hSl7OIgRWQ9nhw4AMV8"
+      }
+    ],
+    "credits": 3
+  }
+}

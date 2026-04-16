@@ -1,0 +1,28 @@
+{
+  "endpoint": "google.serper.dev/search",
+  "request": {
+    "q": "site:zocdoc.com \"Hello Ortho - Napa\" Napa CA 94558",
+    "gl": "us",
+    "hl": "en",
+    "num": 5
+  },
+  "response": {
+    "searchParameters": {
+      "q": "site:zocdoc.com \"Hello Ortho - Napa\" Napa CA 94558",
+      "gl": "us",
+      "hl": "en",
+      "type": "search",
+      "num": 5,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Hello Ortho (Napa) - Book Appointment Online! - Zocdoc",
+        "link": "https://www.zocdoc.com/practice/hello-ortho-75196",
+        "snippet": "3449 Valle Verde Dr., Suite A, Napa, CA 94558. Dr. Jordan Lamberton, DDS. Orthodontist. 18. Hello Ortho. 3449 Valle Verde Dr., Suite ANapaCA94558 ...",
+        "position": 1
+      }
+    ],
+    "credits": 1
+  }
+}

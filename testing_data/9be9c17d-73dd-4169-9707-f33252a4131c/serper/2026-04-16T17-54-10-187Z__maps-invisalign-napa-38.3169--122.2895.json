@@ -1,0 +1,248 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Invisalign Napa",
+    "location": "38.316882,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Invisalign Napa",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@38.3231072,-122.3011987,16z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Napa Valley Orthodontics",
+        "address": "3303 Villa Ln, Napa, CA 94558",
+        "latitude": 38.323155,
+        "longitude": -122.2936089,
+        "rating": 5,
+        "ratingCount": 17,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.napabraces.com/",
+        "phoneNumber": "(707) 254-0404",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "cid": "6532924441475730634",
+        "fid": "0x808506e9f8779ee3:0x5aa99c2aa6a0ccca",
+        "placeId": "ChIJ4553-OkGhYARysygpiqcqVo"
+      },
+      {
+        "position": 2,
+        "title": "Shanahan Orthodontics",
+        "address": "3434 Villa Ln STE 110, Napa, CA 94558",
+        "latitude": 38.325473699999996,
+        "longitude": -122.2935763,
+        "rating": 5,
+        "ratingCount": 791,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Medical Center"
+        ],
+        "website": "http://www.napaorthodontics.com/",
+        "phoneNumber": "(707) 255-0555",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.napaorthodontics.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3XDoYewxmGlbdpLRw8rXK-rShAbJ6O_87SM0rnJ6ixXMjW4ZaDMAxt7Areo8lCVsvmzWX00EC94FpfraCsqdcKGm4rpt9m4XbjXWJWxclUG39cZ2s0sKGILrjovmipmRzBYFy",
+        "cid": "7816850006203753149",
+        "fid": "0x808506c189136b0d:0x6c7b07aa4a48e2bd",
+        "placeId": "ChIJDWsTicEGhYARveJISqoHe2w"
+      },
+      {
+        "position": 3,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnEjWPwn5zNpzdEdiv1I10YiQ2l8S7dBeUvNQw96V2tD9dmuqDFeaEFXCK5KW7bMu05K66ugUwvGXHyveVkNCpq7X_TQJ_Rc0e_P5eujjBONEwLJj9g%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnHevw-0Ey557slOunAEOvKrVaF0dsEAFk2NB81sVeMJJ0gz8XY7M-igfj44BliGlD_L5vkhRswZjvp_pKg8dTwgof5-7oqAEmhOTmyA9RzHZCQcoPY%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 4,
+        "title": "WOW! Smiles - Napa",
+        "address": "1303 Trancas St, Napa, CA 94558",
+        "latitude": 38.3223695,
+        "longitude": -122.300455,
+        "rating": 4.9,
+        "ratingCount": 77,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://wowsmiles.com/napa-orthodontics/",
+        "phoneNumber": "(707) 203-2174",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "8:15 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://wowsmiles.com/your-napa-orthodontist/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0iLhQ381lkjBhcbKk1dlwlgv3T1fteveLdGFoHjfM5aBQgfWMOPEgFtWsnkCk875M-zN-YcvC2PYDlcQzxyk5WN2mIHCgwffG9CUyZvlnexwYdvjKz_Nr_J9HIYKpUtcg8nib",
+        "cid": "2358968295902875161",
+        "fid": "0x8085078486b1f20f:0x20bcbd2ab1b30e19",
+        "placeId": "ChIJD_KxhoQHhYARGQ6zsSq9vCA"
+      },
+      {
+        "position": 5,
+        "title": "Cooke Orthodontics",
+        "address": "3392 Solano Ave, Napa, CA 94558",
+        "latitude": 38.3203494,
+        "longitude": -122.30973259999999,
+        "rating": 5,
+        "ratingCount": 299,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.cookeortho.com/",
+        "phoneNumber": "(707) 255-4400",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://cookeortho.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoAoVKy0rCSKJ7c4AOX8eGtwzjer5EDXomvJkV8BBC0ZJsZLInAJCIXwh2LzigUFOJt5ZvxWU2AYd6ovIduWYIVXrfcitXVsZSoXePWDLWm5oeY33YFmesxZ25AR3fqGY8CYJ9",
+        "cid": "4720242812826804688",
+        "fid": "0x808506e9a2ec5d6b:0x4181abd45021e1d0",
+        "placeId": "ChIJa13soukGhYAR0OEhUNSrgUE"
+      },
+      {
+        "position": 6,
+        "title": "Napa Dentist - Deirdre Burke, DDS",
+        "address": "1077 Trancas St, Napa, CA 94558",
+        "latitude": 38.3230359,
+        "longitude": -122.2965516,
+        "rating": 4.9,
+        "ratingCount": 65,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental implants periodontist",
+          "Dentist"
+        ],
+        "website": "http://www.napavalleycosmeticdentistry.com/?utm_campaign=gmb",
+        "phoneNumber": "(707) 309-7388",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://schedule.jarvisanalytics.com/frame/signature-dental-partners?location_id=7411&rwg_token=AFd1xnF84N-WX2ZBH6UrKER1TbNuvfUIIPL7aq_BQgkP2skSAKd2q4mNn1_eWfqn0lwH9djamHNMweoq4xdvu-NfMnpdNXqmKQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuO47zbffFqk5WBBNUGsgRgDihu9liu8Z53jLHU7fjWU1AKuWXGQjan5n8pmlKtY2xEmUXi79jM2sts1lGCTaUSQDut7iE8tTR8BEsM0PdqF-RLirPO46E01ZR91jvXlFvxO1i",
+        "cid": "4234401816831619329",
+        "fid": "0x80859a755d6b4a77:0x3ac39e0480847101",
+        "placeId": "ChIJd0prXXWahYARAXGEgASewzo"
+      },
+      {
+        "position": 7,
+        "title": "Kenneth J Bevan DDS",
+        "address": "3434 Villa Ln STE 100, Napa, CA 94558",
+        "latitude": 38.325452,
+        "longitude": -122.293758,
+        "rating": 5,
+        "ratingCount": 257,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.bevandds.com/",
+        "phoneNumber": "(707) 343-4817",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–3 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "7 AM–3 PM"
+        },
+        "bookingLinks": [
+          "https://www.bevandds.com/appointment.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1jKlO_r49j6ctYTNPK0_sJP3-4UCwuFk3NYrcmlDPNJY1Vt4AaIRciR_-4Id_vtxPXsJtf05zRCcM9TgCCcffmLcw2lmmKrF4UKFOZZPvI1NA-GMsQfyzjR1gUOw81SvT8JxA",
+        "cid": "10483301667030991701",
+        "fid": "0x808506c187ac1b0b:0x917c2b52c0a48355",
+        "placeId": "ChIJCxush8EGhYARVYOkwFIrfJE"
+      }
+    ],
+    "credits": 3
+  }
+}

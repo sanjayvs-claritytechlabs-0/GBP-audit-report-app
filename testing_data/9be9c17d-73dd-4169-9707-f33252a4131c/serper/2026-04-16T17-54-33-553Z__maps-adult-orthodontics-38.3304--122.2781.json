@@ -1,0 +1,646 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.330356,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@41.8069503,-112.1314925,8z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Willis Orthodontics",
+        "address": "2245 N 400 E Suite 103, Logan, UT 84341",
+        "latitude": 41.772683,
+        "longitude": -111.8237272,
+        "rating": 5,
+        "ratingCount": 343,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://smilesbywillis.com/",
+        "phoneNumber": "(435) 753-6776",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://smilesbywillis.com/contact/logan-office/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHc0ht-hI5acRfViWCgDmVwbK0FlTNuRd6N4oT_VSUEJX0a2MUPMW37pCzfsYeb_QYquiXMjP9A0aqfYnakZtDL609edVnoftBcb8X_2UU76W-fLelpXJjLwj_SyJskypZ2Kz6l",
+        "cid": "15978843361612359056",
+        "fid": "0x87547d634e626a75:0xddc04160ba836590",
+        "placeId": "ChIJdWpiTmN9VIcRkGWDumBBwN0"
+      },
+      {
+        "position": 2,
+        "title": "Farr West Orthodontics",
+        "address": "1761 N 2000 W, Ogden, UT 84404",
+        "latitude": 41.2887719,
+        "longitude": -112.02859559999999,
+        "rating": 5,
+        "ratingCount": 229,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.farrwestortho.com/",
+        "phoneNumber": "(801) 731-4850",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8:30–11 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–3 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHN5Df2H6_eznztqgAZj311B9LaWEQeWiBAvtB49ZYjEfiSbtaCmI4n_uylOA66gREpyl8eqrhtU3PpjVWBNolwUj4BiTO3OF2l2JIGNGcjDuUWWlT0K4gEOQc1BMp5372Gnk4",
+        "cid": "14112168206325542211",
+        "fid": "0x87530d73ee95dc77:0xc3d87e36d4986d43",
+        "placeId": "ChIJd9yV7nMNU4cRQ22Y1DZ-2MM"
+      },
+      {
+        "position": 3,
+        "title": "Michael Richards Orthodontics - Salt Lake City",
+        "address": "2455 E Parleys Way # 100, Salt Lake City, UT 84109",
+        "latitude": 40.722748599999996,
+        "longitude": -111.82014939999999,
+        "rating": 4.9,
+        "ratingCount": 336,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://michaelrichardsorthodontics.com/",
+        "phoneNumber": "(801) 581-9300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.michaelrichardsorthodontics.com/contact/salt-lake-city-location/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNf6cGfc9y0paeTIyvIHyM8N49d0oum9OuvQak0qpeOUX3wanON0WRVGxnhIhJgjCGgp8Y9D2inEA3nbeYShU1t-9ygq_045MkjVtryr1mWG8sPKuiHRgephD2GkZzgJMlQd8b",
+        "cid": "3464124132045353091",
+        "fid": "0x87526074eaaa916d:0x30130a8b5c6bf083",
+        "placeId": "ChIJbZGq6nRgUocRg_BrXIsKEzA"
+      },
+      {
+        "position": 4,
+        "title": "Foothill Orthodontic Specialists",
+        "address": "1440 S Foothill Dr Suite 200, Salt Lake City, UT 84108",
+        "latitude": 40.7387522,
+        "longitude": -111.8254882,
+        "rating": 4.9,
+        "ratingCount": 564,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://foothillortho.com/location/foothill/?utm_source=gbp&utm_medium=organic&utm_campaign=saltlake&utm_content=listing",
+        "phoneNumber": "(801) 581-1234",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://foothillortho.com/new-patients/free-consultation/?utm_source=gbp&utm_medium=organic&utm_campaign=saltlake&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsuJRhfXeUwBLgTti6HOBAjKPYqukeg-y5P85fmPuD18gVv-kTY3d1MX38V5lw_GcslJfbLLz5M7-Q1i6tLzE0aHAQmx2q7r8mhXSWN2gwbVW8mwWaSdniEDlN_dA9LBXjERwk",
+        "cid": "13396909727447084277",
+        "fid": "0x87526071a07a588b:0xb9eb626ad0756cf5",
+        "placeId": "ChIJi1h6oHFgUocR9Wx10Gpi67k"
+      },
+      {
+        "position": 5,
+        "title": "Thomson Family Orthodontics",
+        "address": "1624 N 200 E #120, North Logan, UT 84341",
+        "latitude": 41.761612899999996,
+        "longitude": -111.82847559999999,
+        "rating": 4.9,
+        "ratingCount": 320,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://tfobraces.com/",
+        "phoneNumber": "(435) 752-1320",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfDUXaFIswBNIlGJSGmnL3fMhyJxWxjAjY0-aR_D7NzWVvpsx_vwznT7-5QGWQf60h6et4eCVDd8lOTpsQkeGI8aW1BFtGDQrS8aavywpttQbsKb7UzjRzQQg8npTOKqiQXvD6",
+        "cid": "10356778491172033041",
+        "fid": "0x87547dc67d5e9a1d:0x8fbaab2a47b71211",
+        "placeId": "ChIJHZpefcZ9VIcRERK3Ryqruo8"
+      },
+      {
+        "position": 6,
+        "title": "Poole Orthodontics",
+        "address": "1340 N 600 E STE 2, Logan, UT 84341",
+        "latitude": 41.756261699999996,
+        "longitude": -111.818311,
+        "rating": 5,
+        "ratingCount": 297,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://pooleortho.com/",
+        "phoneNumber": "(435) 200-3834",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGlPKdX8AGci5h9_EMNOizpyFCCpDKwYinZ7MkwcE45WhxkKMGiRESGvgGWgRIURaPyXs9BUhBzyANg4jboimKA8-zqpJnnCO1nYwt5b9gqcp_Ac8H4l2cM-6gwKAY_gMJNLYJ0xQ",
+        "cid": "12144152368054299389",
+        "fid": "0x87547dcfa6607369:0xa888b23c7c186afd",
+        "placeId": "ChIJaXNgps99VIcR_WoYfDyyiKg"
+      },
+      {
+        "position": 7,
+        "title": "Belnap Orthodontics",
+        "address": "965 S 100 W, Logan, UT 84321",
+        "latitude": 41.7148128,
+        "longitude": -111.8399591,
+        "rating": 4.9,
+        "ratingCount": 220,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.belnaportho.com/",
+        "phoneNumber": "(435) 752-7953",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "1–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.belnaportho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwEwkO-_XyVTwqcz7mTTj307-eYp3080KgEvl1uQH5Vueo7twNWSIGwvevzWo3vQjZoTgbzV74AeuiFL02wqGyyeAss3daUltTDzDZYOTPuxozn9Upv4TUCmvh5570fA2NEj40HAz54_0L",
+        "cid": "1511654567751065882",
+        "fid": "0x87547e1237920737:0x14fa79d1fde6211a",
+        "placeId": "ChIJNweSNxJ-VIcRGiHm_dF5-hQ"
+      },
+      {
+        "position": 8,
+        "title": "Shepherd Orthodontics",
+        "address": "5300 S Adams Ave Pkwy #9, Ogden, UT 84405",
+        "latitude": 41.167580199999996,
+        "longitude": -111.9674426,
+        "rating": 5,
+        "ratingCount": 155,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://shepherdorthodontics.com/",
+        "phoneNumber": "(801) 479-9448",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF-NiyBeTHNP3PO27xeIsTwPxdKJPrWmfn1X9PhjE2ZVUMBMfnkc0P0JFng243fWh0G-moi-fnr2BSF3ytOIcseUZUqyy5ZrIHU6dZjR0el2RdpPK3Z9wm_HZ6eze3YFtHeXcV4",
+        "cid": "1930274289485902410",
+        "fid": "0x875305eef1f2aa9d:0x1ac9b63d3fe0724a",
+        "placeId": "ChIJnary8e4FU4cRSnLgPz22yRo"
+      },
+      {
+        "position": 9,
+        "title": "Guymon Orthodontics",
+        "address": "26 W Main St #4d, Hyrum, UT 84319",
+        "latitude": 41.6343159,
+        "longitude": -111.8559736,
+        "rating": 5,
+        "ratingCount": 172,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.guymonortho.com/",
+        "phoneNumber": "(435) 752-5991",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://guymonortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGzPILIa5hq3KXukf7Q5NXVLZySuxHYK6M9CAlgQYYEmFwgf6dRVNnc2WzLbPA4CX7LJIgS957SQ1BSbSPVaPu6QpA7rYDNCJu4GO63tv_n-Ju089QBDtrFZ_7lmAjfxgJNuFJDNtgaAU",
+        "cid": "12233684888486027282",
+        "fid": "0x8753802793b63d2f:0xa9c6c796d8462012",
+        "placeId": "ChIJLz22kyeAU4cREiBG2JbHxqk"
+      },
+      {
+        "position": 10,
+        "title": "Guymon Orthodontics",
+        "address": "191 N 200 E, Logan, UT 84321",
+        "latitude": 41.734796599999996,
+        "longitude": -111.8300055,
+        "rating": 4.9,
+        "ratingCount": 316,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.guymonortho.com/",
+        "phoneNumber": "(435) 752-5991",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://guymonortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbc_LPm_aV-bV5Ha151MkdSQkw3W8-0arH9Qyvk8trnyTHjLxe12wRXLF5ofDvllO6Xh-2rT6iri6f8PuoU6y6tgx81mwrKs7LBlbWeACm3jZNUm0IhjYi_8qI-xPCQtkpIKyV5FJQsVfv",
+        "cid": "9507014452736057628",
+        "fid": "0x87547e725643f66f:0x83efb34641d6611c",
+        "placeId": "ChIJb_ZDVnJ-VIcRHGHWQUaz74M"
+      },
+      {
+        "position": 11,
+        "title": "Idaho Orthodontics",
+        "address": "625 E Alameda Rd, Pocatello, ID 83201",
+        "latitude": 42.891152,
+        "longitude": -112.44467399999999,
+        "rating": 4.9,
+        "ratingCount": 540,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://idortho.com/",
+        "phoneNumber": "(208) 237-0005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.idortho.com/pocatello#request-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUjYIOI-ZCvP814XKC3Gf-sw7qsMn_nHF38B7i9TsAIoYWxPqAK7pTCEQqOr2Ws82RPgBX6ioiGrUDA33pJ9fIo9x3p0kvDL7kv3ZnmBpnprAWTwtzmUdrb9wScAAykKoWdEwc",
+        "cid": "7266758478892001509",
+        "fid": "0x53554f56ef4b1fab:0x64d8b655eaea68e5",
+        "placeId": "ChIJqx9L71ZPVVMR5Wjq6lW22GQ"
+      },
+      {
+        "position": 12,
+        "title": "Graham Orthodontics",
+        "address": "705 E 900 S #300, Salt Lake City, UT 84105",
+        "latitude": 40.7500936,
+        "longitude": -111.8707582,
+        "rating": 4.9,
+        "ratingCount": 426,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.grahamortho.com/",
+        "phoneNumber": "(801) 917-4746",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.grahamortho.com/contact?rwg_token=AFd1xnFPTNLlpuscORA4o9OuKXJu0efJZpCaqo0ecx8dLC-2erOpLjgfZiAyW_Sp_gAJ6ma4HRi9D08pieFDCMXhhOSh-yCDVw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWu1KqJl0asBkl5gbjRu31mCE_y_eK7l7u2h_emPXH3cOEr4PWmT8i1WUI1GLeCTzmJ36a-wMb1VM2i0lUHWja3sI0toDE0CykOf272C7oYoivdqjZHf4n_bk2Oqc1iq4ejK4yOg",
+        "cid": "5016889890359958492",
+        "fid": "0x8752601e795e958d:0x459f92c650275bdc",
+        "placeId": "ChIJjZVeeR5gUocR3FsnUMaSn0U"
+      },
+      {
+        "position": 13,
+        "title": "Bountiful Orthodontics",
+        "address": "1512 S Renaissance Towne Dr #201, Bountiful, UT 84010",
+        "latitude": 40.874585599999996,
+        "longitude": -111.8879841,
+        "rating": 5,
+        "ratingCount": 834,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://bountifulortho.com/",
+        "phoneNumber": "(801) 797-3486",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwwXJMjLtqYuv9O9nc8lAdxu52nFKQTC8LPXpDwdzIzuj7w90-4geOibctMfjGVHE8cSZUksCEOKadJLwLC3o7pXtg67BiQDu7q2Mb4yu6fGoS3bTzRuMtbzVZ9m-c1J-ACFXYQi-R2WgQ",
+        "cid": "15297750265970625653",
+        "fid": "0x8752f796b6bf595f:0xd44c86d0e1d10c75",
+        "placeId": "ChIJX1m_tpb3UocRdQzR4dCGTNQ"
+      },
+      {
+        "position": 14,
+        "title": "Cameron Orthodontics: Braces & Invisalign",
+        "address": "2940 N Church St #302, Layton, UT 84040",
+        "latitude": 41.1025038,
+        "longitude": -111.93783769999999,
+        "rating": 5,
+        "ratingCount": 420,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://cameronsmiles.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+        "phoneNumber": "(385) 420-5023",
+        "openingHours": {
+          "Thursday": "9 AM–1 PM, 2–5 PM",
+          "Friday": "8 AM–12 PM, 1–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–1 PM, 2–5 PM",
+          "Tuesday": "9 AM–1 PM, 2–5 PM",
+          "Wednesday": "8 AM–12 PM, 1–4 PM"
+        },
+        "bookingLinks": [
+          "https://cameronsmiles.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGO429y81Le7Hanp3-vPBO82z4HM_tQqgHiqLIGw4tfkihx0wfZ5l6FP_lXSxopVrnU8rAVoRAIeqxScHkGd2ONdyWDJroPNQs1y25BA6hVt3UvevcWQ2TUFsnhnNRxi1pEpdK6iQ",
+        "cid": "13628462157328059698",
+        "fid": "0x8753022e6a2b9ad3:0xbd2206201a648d32",
+        "placeId": "ChIJ05orai4CU4cRMo1kGiAGIr0"
+      },
+      {
+        "position": 15,
+        "title": "Coleman Orthodontics",
+        "address": "736 S 2000 W STE 2, Syracuse, UT 84075",
+        "latitude": 41.1028284,
+        "longitude": -112.0651434,
+        "rating": 5,
+        "ratingCount": 687,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.colemanorthodontics.com/",
+        "phoneNumber": "(801) 614-9090",
+        "openingHours": {
+          "Thursday": "6:30 AM–2:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "6:30 AM–2:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://colemanorthodontics.com/free-consult"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvWdtn4o1rNBC0yQUtw2XbWCmitBNV_Frcm9i_mNBZSQU5MsHm7zC-zzoUid_fFfwl5PK5H88-vVW1Ky5oZgDlSPl_zHlRM3jhecBM0JJ1kJIMyHS7S9xlhUlrjprIu7pG0o2ehQ",
+        "cid": "11100760384447696233",
+        "fid": "0x87531b47465fa7e9:0x9a0dd2c15bbbcd69",
+        "placeId": "ChIJ6adfRkcbU4cRac27W8HSDZo"
+      },
+      {
+        "position": 16,
+        "title": "Poole Orthodontics",
+        "address": "65 N Gateway Dr STE 2, Providence, UT 84332",
+        "latitude": 41.7097015,
+        "longitude": -111.82987969999999,
+        "rating": 5,
+        "ratingCount": 214,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.pooleortho.com/",
+        "phoneNumber": "(435) 753-0462",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://pooleortho.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMC95yRobGkOkSr_aR3nakYoEyjvqTSnvsyM8TfClzBAv3MKcwxksB22CIexgRVvCdth1QXPA2Qy3hzj0D5QyMEeVFCwaQR8wcWWvemqVN8PdQdGDOaVd7cgzmTweFkr2u3Pnl2A",
+        "cid": "17286853190441996768",
+        "fid": "0x87547e497f28fc79:0xefe73d63149f91e0",
+        "placeId": "ChIJefwof0l-VIcR4JGfFGM95-8"
+      },
+      {
+        "position": 17,
+        "title": "Belnap Orthodontics",
+        "address": "291 S Main St STE B, Smithfield, UT 84335",
+        "latitude": 41.830658199999995,
+        "longitude": -111.8333332,
+        "rating": 4.9,
+        "ratingCount": 51,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetics industry"
+        ],
+        "website": "http://www.belnaportho.com/",
+        "phoneNumber": "(435) 563-0144",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "1–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.belnaportho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOrYq_0cMNhkqaDNGjduD43kJV_JNtIcPLKRp2IRUQunE7uIXxdfRtIUFqXuLsNzfGzV_KWp1UI5vck4q2RHQVKD3Sjh7kCXE7KuUv2Rov7vDC4wPEXpu8s2CiuVjZ_5H1tNi_",
+        "cid": "13611392089731286417",
+        "fid": "0x875462c76181f99f:0xbce560fd46fec591",
+        "placeId": "ChIJn_mBYcdiVIcRkcX-Rv1g5bw"
+      },
+      {
+        "position": 18,
+        "title": "Albrechtsen & Fanelli Orthodontics Ogden",
+        "address": "5677 S 1475 E STE 2A, South Ogden, UT 84403",
+        "latitude": 41.160178699999996,
+        "longitude": -111.9428993,
+        "rating": 5,
+        "ratingCount": 411,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://ogdenorthodontist.com/",
+        "phoneNumber": "(801) 479-9800",
+        "openingHours": {
+          "Thursday": "8 AM–7 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://doctoraortho.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbj-krJtLBZEQ0XbJBdgxqWj4bzXVCXRBfUQVRV0gGF_gq-9UzCa6sq7WPiRord7xa50wasd31e3vPGNBb3RH7rdX7ajiXEq5XjzzDefG-8wzQ4Va0Vz4wHmz8hv8kL2LR6Hkgrw",
+        "cid": "4783084274632876015",
+        "fid": "0x87530671a178baa9:0x4260edce503fdfef",
+        "placeId": "ChIJqbp4oXEGU4cR798_UM7tYEI"
+      },
+      {
+        "position": 19,
+        "title": "Albrechtsen & Fanelli Orthodontics Farr West",
+        "address": "2850 N 2000 W #205, Farr West, UT 84404",
+        "latitude": 41.308734199999996,
+        "longitude": -112.0272794,
+        "rating": 5,
+        "ratingCount": 158,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental radiology",
+          "Dentist",
+          "Medical Center",
+          "Pediatric dentist"
+        ],
+        "website": "https://ogdenorthodontist.com/",
+        "phoneNumber": "(801) 479-9800",
+        "openingHours": {
+          "Thursday": "8 AM–7 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://doctoraortho.com/lp/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG4xdZDXXhxYzjTla3TRGNrEFvKqX1agjkzwS6L7o7ykOuR6dvWDOQIBWSElxknvQNdn4BqBBtDNxh_XyfyqKVJd12dD1EGPtJSHVsFB8Cy3-Lh2X6dSB-gi51nRLCWEt_lQuFimg",
+        "cid": "13778540816140533015",
+        "fid": "0x87530d465a4307d9:0xbf3735ded546fd17",
+        "placeId": "ChIJ2QdDWkYNU4cRF_1G1d41N78"
+      },
+      {
+        "position": 20,
+        "title": "Specialists in Orthodontics, Brett D Cox D.M.D., M.S. and Andrea C. Alicea D.D.S., M.S",
+        "address": "360 W 2650 N Suite 1, Pleasant View, UT 84414",
+        "latitude": 41.3052097,
+        "longitude": -111.98618549999999,
+        "rating": 5,
+        "ratingCount": 116,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.specialistsinorthoutah.com/",
+        "phoneNumber": "(801) 393-6200",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDrW7ptslOIC-h2c4wXGzpcQPoWUQE8nwLoZPaAEP4xsiPpz9iU4TjHiTBqh1CDeqF1ASDhbPPQskTHfJh3vypqpDQlvJM4kMkKIWP3j2iBxrSs5yhOS_eY_TnpaouTR-cRse48WUgBU5G",
+        "cid": "14947422853166169115",
+        "fid": "0x87530c895abea68d:0xcf6fe9e3de867c1b",
+        "placeId": "ChIJjaa-WokMU4cRG3yG3uPpb88"
+      }
+    ],
+    "credits": 3
+  }
+}

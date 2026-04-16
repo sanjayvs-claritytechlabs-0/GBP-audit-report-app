@@ -1,0 +1,632 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.316882,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@41.9208303,-87.7634022,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "North Ave Braces",
+        "address": "5455 W North Ave, Chicago, IL 60639",
+        "latitude": 41.9091938,
+        "longitude": -87.7627732,
+        "rating": 4.9,
+        "ratingCount": 463,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://northavebraces.us/",
+        "phoneNumber": "(773) 295-5256",
+        "openingHours": {
+          "Thursday": "9:30 AM–5 PM",
+          "Friday": "9:30 AM–5 PM",
+          "Saturday": "8 AM–12:30 PM",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–5 PM",
+          "Tuesday": "9:30 AM–5 PM",
+          "Wednesday": "9:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://northavebraces.us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9swuyMauBLM7mSIJiz9OlSE1xifZ1ZFEvVa2lnsJ-QEDbFrkX3DcTD8hsJA9-WH-zHKjFBG_1crgRpk4t-18NJ8gkvluyA6Pl4IC5qBwR7SyFfw-wN7b06tKwDbh0jzr-N03zEA",
+        "cid": "4796554790244450075",
+        "fid": "0x880fcd4a25cd237b:0x4290c92b2237ff1b",
+        "placeId": "ChIJeyPNJUrND4gRG_83IivJkEI"
+      },
+      {
+        "position": 2,
+        "title": "Battistoni Beam Polivka Orthodontics",
+        "address": "6855 W North Ave, Oak Park, IL 60302",
+        "latitude": 41.9087245,
+        "longitude": -87.7977506,
+        "rating": 4.9,
+        "ratingCount": 347,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://www.awesomebraces.com/",
+        "phoneNumber": "(708) 848-5900",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–1:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "12:30–7:30 PM",
+          "Tuesday": "12–6 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.awesomebraces.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEy_HhWp3MxcVapIFBHLiuFGvG0UK-gkoYgHnrpEGVzkX6wVksN9BVb081S9QHctPY-ODrnfxhHuteefFtZvdu5asGrWOS07Ydwz3ReTVVWQ3-ui-hhYqwynKrTHvIwse4UZC1F",
+        "cid": "8173407534124272051",
+        "fid": "0x880fcb3823b15bf9:0x716dc6d903fa89b3",
+        "placeId": "ChIJ-VuxIzjLD4gRs4n6A9nGbXE"
+      },
+      {
+        "position": 3,
+        "title": "Advanced Orthodontic Specialists",
+        "address": "1129 S Harlem Ave, Forest Park, IL 60130",
+        "latitude": 41.865713899999996,
+        "longitude": -87.8045964,
+        "rating": 4.9,
+        "ratingCount": 285,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smilesbyaos.com/?utm_source=GMB&utm_medium=organic&utm_campaign=gbp-forestpark",
+        "phoneNumber": "(708) 366-7846",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://smilesbyaos.com/contact-orthodontist-elmhurst-forest-park-il/?y_source=1_NTY1MDI0OTYtNzE1LWxvY2F0aW9uLnJlc2VydmF0aW9uX3VybA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsDCwpCh6cWoCrZ_h4QdpSSm1VPM_sZql6O2gO9GRZSFj7JTz1jQ0utcOGAkj9dLPtxCSzgY5ONnnqZk65ECPmvYMDnxPc_gWdg6LHJw_EPnW3aJ2sWe4jXv_NIDgzYHCyy1O0Fg",
+        "cid": "2663881301387740201",
+        "fid": "0x880e34f0edc25fc5:0x24f801ee05058429",
+        "placeId": "ChIJxV_C7fA0DogRKYQFBe4B-CQ"
+      },
+      {
+        "position": 4,
+        "title": "Novick Orthodontics",
+        "address": "7351 W North Ave, River Forest, IL 60305",
+        "latitude": 41.908503599999996,
+        "longitude": -87.80922369999999,
+        "rating": 4.9,
+        "ratingCount": 337,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.novickorthodontics.com/",
+        "phoneNumber": "(708) 366-2300",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.novickorthodontics.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGq1LYnGQqAQd98q8MKsISykcc1z0MLb2Ff5VJ8Ht8q0_lk83-5aRPrbaeMQ8eWrj53mNVVHMtSw79qkjuCBijX_ohpvZVuauYQQvvUs5d1xGLekNMo4_aww2E5JvJnYDc-D5hUdg",
+        "cid": "17215647573995576956",
+        "fid": "0x880fcb2588029a1b:0xeeea444192525e7c",
+        "placeId": "ChIJG5oCiCXLD4gRfF5SkkFE6u4"
+      },
+      {
+        "position": 5,
+        "title": "Braces Boutique",
+        "address": "161 N Marion St, Oak Park, IL 60301",
+        "latitude": 41.8894235,
+        "longitude": -87.8029092,
+        "rating": 5,
+        "ratingCount": 30,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.oakparkortho.com/",
+        "phoneNumber": "(708) 613-5023",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEn3vNr5CrG-4hL0b5_yrGGVg-2-p8jr4h94wKzio4DvtMh4DYEQXzmpSnATNngRDxKS9Kbxddh0vm9PBQwpbGCBzYSEb4VvxjKN9XUh9uMND5PKOD8RlMskd_HhAj3fv0-0No0Q",
+        "cid": "3053366558160360558",
+        "fid": "0x880e35247a6566cf:0x2a5fbcb50c34946e",
+        "placeId": "ChIJz2ZleiQ1DogRbpQ0DLW8Xyo"
+      },
+      {
+        "position": 6,
+        "title": "Prevention Orthodontics",
+        "address": "5947 W Montrose Ave, Chicago, IL 60634",
+        "latitude": 41.9602657,
+        "longitude": -87.7764145,
+        "rating": 4.9,
+        "ratingCount": 54,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://preventionorthodontics.com/",
+        "phoneNumber": "(773) 286-5935",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://link.prospectdoctor.com/widget/group/lksjSny1i4oMIsVsHpUK?rwg_token=AFd1xnEJ4gNyaBavRFgOX3McKPAz7WK8xiSos6b9FmBItJAXBqT1I6kNPRUD0Ik9EHXEk5z4t3KXZ45g7mXJpQ6yWeEP2mGmMA%3D%3D"
+        ],
+        "cid": "18032804706983799989",
+        "fid": "0x880fcc0a7ef3bafd:0xfa416456cfc2ecb5",
+        "placeId": "ChIJ_brzfgrMD4gRtezCz1ZkQfo"
+      },
+      {
+        "position": 7,
+        "title": "Orthodontic Specialty Center",
+        "address": "4251 N Milwaukee Ave, Chicago, IL 60641",
+        "latitude": 41.958417499999996,
+        "longitude": -87.75224399999999,
+        "rating": 4.9,
+        "ratingCount": 135,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.bracesspecialist.com/",
+        "phoneNumber": "(773) 282-0013",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeqHAtqP-ZeXnJA1EdTX6p6jBGMGz6yJ629rf91nn-ZDNpIduZwkoCiHnsCNcsRFj3wz3Voe72GbFh3jqQZMsY-uTBqAZVzrYRZWRhx2YL0wsnWtxEwavW6Fh1o7VhLuyhPJc",
+        "cid": "9193589965750857908",
+        "fid": "0x880fcc3f483b6d21:0x7f96315d372cf0b4",
+        "placeId": "ChIJIW07SD_MD4gRtPAsN10xln8"
+      },
+      {
+        "position": 8,
+        "title": "Cool Braces Orthodontics",
+        "address": "2140 Wesley Ave, Berwyn, IL 60402",
+        "latitude": 41.8511376,
+        "longitude": -87.79122919999999,
+        "rating": 4.8,
+        "ratingCount": 177,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://coolbraces.com/",
+        "phoneNumber": "(708) 484-8686",
+        "openingHours": {
+          "Thursday": "10 AM–7 PM",
+          "Friday": "10 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–7 PM",
+          "Tuesday": "10 AM–7 PM",
+          "Wednesday": "10 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8KjFyKFmss2EzefEIuR7B20asersX-LbFfaWMyrMRmJdHtXD9ta4qkFpZhaSv2kjCwjksUgrg1UDnXMV3EBZwgI2T7ZuTwZ20xR9hAPuskdHxCu-Zn_jbKhgvu9Vkb1TiTGk4",
+        "cid": "15630860778237189855",
+        "fid": "0x880e34667ee30d5d:0xd8ebf90fdc69dedf",
+        "placeId": "ChIJXQ3jfmY0DogR395p3A_569g"
+      },
+      {
+        "position": 9,
+        "title": "Northwest Orthodontics",
+        "address": "9731 W Grand Ave, Franklin Park, IL 60131",
+        "latitude": 41.9295657,
+        "longitude": -87.8689607,
+        "rating": 5,
+        "ratingCount": 100,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://northwestorthodontics.com/",
+        "phoneNumber": "(847) 455-4664",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–1 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.northwestorthodontics.com/appointment-request.php"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEf4RHvqQBGhuIPG1WTFKxDRg00Es14BBUl7Dy6R8mNvMZVLU7xZiWweYgo8x0eIdH70uDcFrVAFi1blW5CsTPlyPw_SfgKRNSROPqSoQTXw9cpPBY-KyyoZZOh7jvkJIt-vIBv",
+        "cid": "12790326104863404129",
+        "fid": "0x880fb56e1c8f3779:0xb1805dd389c9f061",
+        "placeId": "ChIJeTePHG61D4gRYfDJidNdgLE"
+      },
+      {
+        "position": 10,
+        "title": "3020 Orthodontics",
+        "address": "3020 W Montrose Ave, Chicago, IL 60618",
+        "latitude": 41.9613914,
+        "longitude": -87.7043328,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://3020orthodontics.com/",
+        "phoneNumber": "(773) 754-3900",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "http://3020orthodontics.com/schedule-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVNOh1X-U5DRmLyTzxsIkvLVsbSPGHExYRwIIsps0cdzD44zEtIJTk69YyNTU44yGZOF5ERKQeZhhyCbzPLYKawxwaTV8ktaCC7B3sNuR8qQqSoLFh-QvT5utP9-FvhKNL83gM",
+        "cid": "11167662554923416732",
+        "fid": "0x880fcdf17cd55b41:0x9afb81ecc5a43c9c",
+        "placeId": "ChIJQVvVfPHND4gRnDykxeyB-5o"
+      },
+      {
+        "position": 11,
+        "title": "Glen Orthodontics - Chicago",
+        "address": "5435 N Milwaukee Ave, Chicago, IL 60630",
+        "latitude": 41.9805397,
+        "longitude": -87.771687,
+        "rating": 4.8,
+        "ratingCount": 170,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.glenorthodontics.com/",
+        "phoneNumber": "(773) 763-6262",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWwD1NoJSodwgtdD416HRfjfl5F95QriCC7DblXstwsCTdVOHjIap-jUtq7RQiGjuuR7pTtcE3isgX3HVtY8AgTf6PQ5b6o1llN6QE503c6PupPy0CZi4_wrFtI_BpHGRw9u1F",
+        "cid": "6538705948879920002",
+        "fid": "0x880fceabd1ab730b:0x5abe266abdb89b82",
+        "placeId": "ChIJC3Or0avOD4gRgpu4vWomvlo"
+      },
+      {
+        "position": 12,
+        "title": "VaSu Smiles",
+        "address": "470 25th Ave, Bellwood, IL 60104",
+        "latitude": 41.884041599999996,
+        "longitude": -87.8645968,
+        "rating": 5,
+        "ratingCount": 321,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://vasusmiles.com/",
+        "phoneNumber": "(708) 575-0088",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4 PM",
+          "Tuesday": "9 AM–4 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://book2.getweave.com/1c2c5936-dfea-4ce4-8fb4-3f4360f3634f/request-appointment?source=GOOGLE_BUSINESS_PROFILE",
+          "https://vasusmiles.com/appointment-booking/",
+          "https://vasu-smiles.lwcrm.com/patient-portal/dashboard?legworkAccountId=67645473b0eef10100002608&rwg_token=AFd1xnHJQicE697WzGkXVehQi3fKRZ0JVCyqSa6eGcHFr-HJt___K6RTrK3KwkWcz9GaaugPr8FIDrlBee6S2lzFeT-ke1YdA5c6AvtvKqRceCMGf7FEzYk%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCv1MMEmJqRZNELcd4y98ue8yjgqYXXbN3ttqnUwYZypXGm6-MjEGpbfVW0SQ_61myS3lBwzmxIEthtA1yniKXW33A7e8bC31aQ9jIjzHrNxQVDDJK4vxgItBEH8RloDasvEps-Z71lE-1",
+        "cid": "1465007076899465136",
+        "fid": "0x86b02ee9da10bef7:0x1454c02cac06a7b0",
+        "placeId": "ChIJ974Q2ukusIYRsKcGrCzAVBQ"
+      },
+      {
+        "position": 13,
+        "title": "Nudera Orthodontics",
+        "address": "7310 W North Ave Ste 2A, Elmwood Park, IL 60707",
+        "latitude": 41.9090199,
+        "longitude": -87.8089578,
+        "rating": 4.5,
+        "ratingCount": 23,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.nuderaorthodontics.com/",
+        "phoneNumber": "(708) 456-5454",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "12–7 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5Q5JFaKQPf4LCH7LwHEPp95tRIev2ryDQElMNPaT4vZWH9Imx5UfX885sTZNEFibrxJV2KHmSXhQEfrMT5s3vONkEqCgAN2DO_9f0TQZ2-3XaLzFw3ePStwb7z29sO8COGj5a",
+        "cid": "6418451965733293120",
+        "fid": "0x880fcb2588fe8123:0x5912ec0e7170cc40",
+        "placeId": "ChIJI4H-iCXLD4gRQMxwcQ7sElk"
+      },
+      {
+        "position": 14,
+        "title": "Wicker Park Orthodontics",
+        "address": "1921 W North Ave, Chicago, IL 60622",
+        "latitude": 41.9102959,
+        "longitude": -87.6758974,
+        "rating": 4.7,
+        "ratingCount": 76,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.wickerparkorthodontics.com/",
+        "phoneNumber": "(773) 276-0335",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "10 AM–5 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.chicagoorthodontics.com/book-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFC3z-3lNa6Qu3wBOH1JBfegWNthVV7t95Ldem-g5Jdbq8jl2UWr01aqZmnSHG-SVE-9M6ZIbBgCY6HqftEvEMStHe2jcoupfXJ5yET9Bc-9FRM7UBZOZN4lhiDEYccHKmNzLc",
+        "cid": "8360896190319691132",
+        "fid": "0x880fd2c7254fc55d:0x7407dec983ec057c",
+        "placeId": "ChIJXcVPJcfSD4gRfAXsg8neB3Q"
+      },
+      {
+        "position": 15,
+        "title": "Windy City Orthodontics - Lakeview",
+        "address": "2921 N Lincoln Ave, Chicago, IL 60657",
+        "latitude": 41.9350964,
+        "longitude": -87.661834,
+        "rating": 4.8,
+        "ratingCount": 258,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://windycityortho.com/",
+        "phoneNumber": "(773) 697-8038",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://windycityortho.com/free-consult"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhsw5tfdVa70-3ajdvOl_PNvjULEDxuBhBbm7lO2FlGBfLetG5oS-1iN2KMk-EHS6seRAqDVqSK8KYK1lZZhdjTu_SOpxznNsQydxuZpiKWrstzIMqsTDqwS1UcD3iaj5qeQ1N",
+        "cid": "17839749064399081671",
+        "fid": "0x880fd2ff5b745bad:0xf7938541499d50c7",
+        "placeId": "ChIJrVt0W__SD4gRx1CdSUGFk_c"
+      },
+      {
+        "position": 16,
+        "title": "Midwest Orthodontic Center-Albany Park",
+        "address": "4905 N Kedzie Ave, Chicago, IL 60625",
+        "latitude": 41.970608,
+        "longitude": -87.7080422,
+        "rating": 4.6,
+        "ratingCount": 57,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://midwestorthodontics.com/locations/chicago-il-60625/?y_source=1_MTA2NjMwNjg1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(773) 588-5055",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaM0njfm_c9Z3zXBM9BCqPE2ytH2ExuRKlplq9pZOUG4WrgDF15lxWsUqFGKt7c1o71Pt3_1kh71Go7j1WKmeokFC_cdVCWHC1TgaAlhOSwa3gSBceRSDjLySw2EvR_KqwYf4I",
+        "cid": "14913353508588678914",
+        "fid": "0x880fcde4a2def1b5:0xcef6e0007140ef02",
+        "placeId": "ChIJtfHeouTND4gRAu9AcQDg9s4"
+      },
+      {
+        "position": 17,
+        "title": "Jacobson & Tsou Orthodontics",
+        "address": "4200 W Peterson Ave # 116, Chicago, IL 60646",
+        "latitude": 41.990522999999996,
+        "longitude": -87.73479789999999,
+        "rating": 4.9,
+        "ratingCount": 623,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.jtortho.com/",
+        "phoneNumber": "(773) 545-5333",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4QeWF90EZif1yroCkbgeodZGQyeFvVUBrTwLOmBtK_ZpscGQac1V2BilwfDbfxYoXn4fjdO97PrrqXJlrhUtiRkS8ohMve2RWJme7cPmUuLxWLEopt-Txi2rvizWrYrG3FcvA2w",
+        "cid": "10380546457368505290",
+        "fid": "0x880fce623d956273:0x900f1c0125e3abca",
+        "placeId": "ChIJc2KVPWLOD4gRyqvjJQEcD5A"
+      },
+      {
+        "position": 18,
+        "title": "West Loop Orthodontics",
+        "address": "1229 W Washington Blvd #200, Chicago, IL 60607",
+        "latitude": 41.882624199999995,
+        "longitude": -87.6578437,
+        "rating": 4.8,
+        "ratingCount": 192,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.wlortho.com/",
+        "phoneNumber": "(872) 222-9567",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.wlortho.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhIUboyiGxv_D2TCMr1T9k0eJYZs2EiaUTAMHrdE8hGjb0MHV7FoAFllROwpLEpGXF74PLhscZOpMlTbjubx9OPCKmMgaB3GrX24--ksCXoTtkpsNXDUeZRkQGJ4Pzk-4_sQjL",
+        "cid": "17010545655865290675",
+        "fid": "0x880e2cd89c75fe29:0xec119925f56a2fb3",
+        "placeId": "ChIJKf51nNgsDogRsy9q9SWZEew"
+      },
+      {
+        "position": 19,
+        "title": "Lincoln Square Orthodontics",
+        "address": "4352 N Leavitt St, Chicago, IL 60618",
+        "latitude": 41.961092799999996,
+        "longitude": -87.68398839999999,
+        "rating": 4.9,
+        "ratingCount": 36,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.chicagoorthodontics.com/lincoln-square/",
+        "phoneNumber": "(773) 887-0772",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "10 AM–5 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFJRCRg6pWYNq84FKJEJnE8LMxID9fZ656WAwbQyhg9JULweNoKQMmLMULKu_SYaFjqnh7Gp36PiT2Swby6Dv5pg9yGOTl8cYwOQdUGLoCkTO-S27mC52R2VqXA9mOne2N4wnR9A",
+        "cid": "12544926487928036945",
+        "fid": "0x880fd37aa927f96b:0xae18882cc656de51",
+        "placeId": "ChIJa_knqXrTD4gRUd5WxiyIGK4"
+      },
+      {
+        "position": 20,
+        "title": "Smile Gallery Orthodontics",
+        "address": "5080 N Lincoln Ave, Chicago, IL 60625",
+        "latitude": 41.973839,
+        "longitude": -87.6922323,
+        "rating": 4.8,
+        "ratingCount": 35,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.smilegalleryortho.com/?y_source=1_ODMwMTAxMTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(312) 500-2022",
+        "openingHours": {
+          "Thursday": "11 AM–7 PM",
+          "Friday": "11 AM–7 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "11 AM–7 PM",
+          "Tuesday": "11 AM–7 PM",
+          "Wednesday": "11 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/smile-gallery-orthodontics-167480?LocIdent=381174&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_4qMo81sldkuQeawpAKH5qg-lo_VX2U-sAmhECLXqHaQngtNA-entity&rwg_token=AFd1xnEI6b3YTJy9Olcg6uu559u8dDb5CwDMsVyTWwC-GqASpGcLGgQbtyF-qzXpz2pFCgvi2fvIC6szFByOEkKh-C9e2Ve_gzr7SKcq7kXoYtV4UqQdUzI%3D",
+          "https://www.smilegalleryortho.com/contact/?y_source=1_ODMwMTAxMTUtNzE1LWxvY2F0aW9uLnJlc2VydmF0aW9uX3VybA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFq_jpXkZJUYYsiQQC8GQeFKOHQ2p-Xy5ro9mUnhfqFCdGfNBGn17kBXiNMQM2MefYNn48wWbpBVmC0uhCwPz1jyolshm-xhj6fRbF-QCCq4ilmti6GMPa_yuyQpqNnty2q5VCy",
+        "cid": "17227879607890875737",
+        "fid": "0x880fd36dd57d97ef:0xef15b939e5881559",
+        "placeId": "ChIJ75d91W3TD4gRWRWI5Tm5Fe8"
+      }
+    ],
+    "credits": 3
+  }
+}

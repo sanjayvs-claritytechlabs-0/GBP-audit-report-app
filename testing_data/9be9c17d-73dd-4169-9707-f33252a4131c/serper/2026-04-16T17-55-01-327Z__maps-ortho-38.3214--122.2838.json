@@ -1,0 +1,638 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.321373,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@42.6234469,-71.3518712,14z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Orthopaedic Surgical Associates",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6260006,
+        "longitude": -71.3661657,
+        "rating": 4.7,
+        "ratingCount": 776,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "https://www.orthsurg.com/?utm_source=GMBSocialClimb&utm_medium=OrthopaedicSurgicalAssociates",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/osa-orthopaedic-surgical-associates-78487?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_Vjvje0HYlkCk3m5W6tOa5B-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnEiy1lm6ZiTgZJTjZoqbYJWeySPvWFy-X-PI8eug3-rDGPsLSCGVlYZ5TJpzK32f8lf48-7CR5yPwIvaMm0iARFpUsZhA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcoxyv9zSyD8qVNxOLlgvmw5FlreEoeDPu0lkQL5rxAroHmlLlNaJiXqlu1VETRTO8-Dur4u7EzBcwSaD31Jhhv5Ra0HH5JWbkfU9Y0M8ONhkClB7TDXqCUkzisiIrhj_ACtVi7FISWI9R",
+        "cid": "3861891527781008848",
+        "fid": "0x89e3a43f5a4f64f3:0x359831e2227a45d0",
+        "placeId": "ChIJ82RPWj-k44kR0EV6IuIxmDU"
+      },
+      {
+        "position": 2,
+        "title": "Merrimack Valley Ortho Associates",
+        "address": "10 Research Pl # 203, North Chelmsford, MA 01863",
+        "latitude": 42.6269292,
+        "longitude": -71.3657262,
+        "rating": 3.2,
+        "ratingCount": 35,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.mvoa.us/",
+        "phoneNumber": "(978) 275-9650",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEO67QITMnG0zvASIiMccewp5vRMbOHQU5fmfi9nv8JotOr4VlYeyfRA45Jqp0Cl0_9v50bZ1scKdo8_Whs8wntMZmID7HRc8j-cDNuy8xMayChG4mb202GVMJoPxBg1JK2Wx-s",
+        "cid": "4623403145428637092",
+        "fid": "0x89e3a359603446e9:0x4029a0aa38b295a4",
+        "placeId": "ChIJ6UY0YFmj44kRpJWyOKqgKUA"
+      },
+      {
+        "position": 3,
+        "title": "Reichheld Ting Orthodontics - Lowell",
+        "address": "19 Wood St, Lowell, MA 01851",
+        "latitude": 42.633783,
+        "longitude": -71.3564358,
+        "rating": 5,
+        "ratingCount": 277,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.straightteeth.com/",
+        "phoneNumber": "(978) 453-3872",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/reichheld-ting-orthodontics?lid=127639&rwg_token=AFd1xnHr0hLQAsQlLCWy9AsTdUGvDInFzg-MffC9x7oqxNTfmIqOHcFBgX-ehRhcnPoSTnZRgCHYOt6DhUaLsOM-CCnmrfu7NQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOyJKyxyWRJB8SMf_1dukIpeKr4Ae3N_X5wowR2HYacm3ykMqxjnNjyUqWiGtv1g-kK3RIZABds2Iv_R-LwF7KXPvjy-SU_QrDTBnnXryUYSKiZwgOiQrzC4LSZ6Nj-oNJscFq",
+        "cid": "15285597456210909170",
+        "fid": "0x89e3a440cf783cbf:0xd42159e65d10d7f2",
+        "placeId": "ChIJvzx4z0Ck44kR8tcQXeZZIdQ"
+      },
+      {
+        "position": 4,
+        "title": "Dr. Scott A. Sigman, M.D.",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263448,
+        "longitude": -71.3658298,
+        "rating": 4.9,
+        "ratingCount": 257,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/scott-a-sigman/?utm_source=GMBSocialClimb&utm_medium=Dr.ScottA.Sigman%2CM.D.",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/scott-sigman-md-425833?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_oF9JCq_QqkW-UQC1G5DRqB-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnFEfUaNvJX1Py4XDHBrWs916mBkTTfKy16Y6f9y3jk5ZxSubVbEllv9Nq5KH86kNaWP1ABjn8fE2CJt34pVsBliN-KFkSSEvoro7NoD7kpHNymGy8U%3D",
+          "https://patients.doctor.com/directAppointment?partner=google&practice=7945883&provider=893897"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF79Rt9p7w_MMyc1AdRmoD797hCZuW2guCFI4NV7EE0UGbxwfCMFNFxhqPFNZn3jdMoxcoXkPjszMilJNxBdxagSp0baJaVL1mB7pQ2SULOAvZm8RSbPDg_LsIgtCQ9YwActy4FAw",
+        "cid": "11026658231186584151",
+        "fid": "0x89e3a35bde916657:0x99068f3d51837257",
+        "placeId": "ChIJV2aR3luj44kRV3KDUT2PBpk"
+      },
+      {
+        "position": 5,
+        "title": "W Howard Wu, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263137,
+        "longitude": -71.3656104,
+        "rating": 4.9,
+        "ratingCount": 273,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/howard-wu/?utm_source=GMBSocialClimb&utm_medium=WHowardWu%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/w-howard-wu-md-425874?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_-GofuNq9AEW699_Vn2x5Rh-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnE6JAR-22BjDOnCuDWoQ98KVtepg0VofqxE15EzaQPhdLEskHqLdSIDlqndywUE3lGPKMqw6Ff91wj44kz2yX2PBN47T6TD0MnfREHnQSCupIIGRM4%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEM7Ak0IarEK9-utOkBaFrJ7ouxeM4P3C4-PpwwfbrS5XocPBwc5UIlZ1UDM1m5FO2VWz87ZQdfa0raMurozlqCVvknCKTRUr47D1E0luxbcclpFq_nNEgAcoBnlRP0Px9GKtbC7g",
+        "cid": "6930319579766986870",
+        "fid": "0x89e3a35bec38f427:0x602d70f07bf21876",
+        "placeId": "ChIJJ_Q47Fuj44kRdhjye_BwLWA"
+      },
+      {
+        "position": 6,
+        "title": "Dr. Lawrence P. Johnson, MD",
+        "address": "10 Research Pl # 203, North Chelmsford, MA 01863",
+        "latitude": 42.6268196,
+        "longitude": -71.3660154,
+        "rating": 3.2,
+        "ratingCount": 27,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mvoa.us/",
+        "phoneNumber": "(978) 275-9650",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patients.doctor.com/directAppointment?partner=google&practice=7984258&provider=1446411"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=J5jWcPgUc7rEud0nXGHgkA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=141.74066&pitch=0&thumbfov=100",
+        "cid": "3885254551387200815",
+        "fid": "0x89e3a359603446e9:0x35eb326df5675d2f",
+        "placeId": "ChIJ6UY0YFmj44kRL11n9W0y6zU"
+      },
+      {
+        "position": 7,
+        "title": "Thomas Herron, DO",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6262142,
+        "longitude": -71.3657769,
+        "rating": 4.9,
+        "ratingCount": 100,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthsurg.com/physicians/thomas-herron/?utm_source=GMBSocialClimb&utm_medium=ThomasHerron%2CDO",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/thomas-herron-do-523782?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_UY4ykUtsHkuAQPCE_B6Kpg-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnGLJC9-2F_nqX5mXOMvEtg6d97cHsROcm2OCb2V7bRPrk4H9R81W8RhPNUnztof0ZFGR3h7jF--nvdOQd8Dh6c2nhpgnrf5QfZ1eOg4hymgpwerAz0%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjnM9wYaOZfAkfMuIUwxwla61lD0giANEzlD3vbpnssVo_KM5pM23J04JvtKVmDc6of3DDLpXFVu2JzG3BshqaNFZB_uBDreXllwPVhvfIZl3qB-c9DloDMncoU6ALF-hfxqn0",
+        "cid": "12639890447702757493",
+        "fid": "0x89e3a356bff0ad1d:0xaf69e964a72d1075",
+        "placeId": "ChIJHa3wv1aj44kRdRAtp2Tpaa8"
+      },
+      {
+        "position": 8,
+        "title": "Samuel D Gerber, MD, FACS",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263157,
+        "longitude": -71.36561309999999,
+        "rating": 4.9,
+        "ratingCount": 224,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/samuel-d-gerber/?utm_source=GMBSocialClimb&utm_medium=SamuelDGerber%2CMD%2CFACS",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–4:45 PM",
+          "Friday": "8 AM–4:45 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:45 PM",
+          "Tuesday": "8 AM–4:45 PM",
+          "Wednesday": "8 AM–4:45 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/samuel-gerber-md-facs-425866?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_es4PwhLnsEiPnifSLM0r6B-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnGjzkB1h20PZ92yaUkJqBRjcrXK6dVpiQJIwK54K2I9c675lX7qtWjN-z1ptzwXdMd58keMaEPDvBGPG6rIDr7Qe2LqwQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHyaNZtudomenaPUeGHMgy3h7KIsAZv4QuWScngPcV5qKjwx-Jf3jwp1V9cKDDy_MsDFjaorIg6JRtXjdliy6_m3a6ZWBN3_ZbQHpuUqg95zHg_FEovF71lqUKq-V75-Vfu0TYW",
+        "cid": "8249418711076767274",
+        "fid": "0x89e3a43f5a4f64f3:0x727bd29c4531062a",
+        "placeId": "ChIJ82RPWj-k44kRKgYxRZzSe3I"
+      },
+      {
+        "position": 9,
+        "title": "David Prybyla, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.626330599999996,
+        "longitude": -71.3656149,
+        "rating": 4.9,
+        "ratingCount": 317,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/david-j-prybyla/?utm_source=GMBSocialClimb&utm_medium=DavidPrybyla%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/david-prybyla-md-425890?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_618ghlJtz0aRuQCyp-nwIh-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnHaN37j0L2djBTn1QkbhJCHyYx7igWCzpZ4CuEFDAxYk0pCDE0D1h4_G6pdOrR8MeKwmWpBev8drE8GQqyjSwlKkY2MC2yn7tfXQPZO-VhRy2wn6bE%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbGQ7Cc59RuaPREmgSEXa55cwZi38hETjYsLWIkMvVZk7BVd5yHIBFovaUjkIm3vyAynJ6vKPyPE3QC04rRHhNWpObFJU9L0kJFjH8Icf_HsgVtefNTEXLIyNxSZ6Qew",
+        "cid": "5163626908772577115",
+        "fid": "0x89e3a35bde916657:0x47a8e350c209af5b",
+        "placeId": "ChIJV2aR3luj44kRW68JwlDjqEc"
+      },
+      {
+        "position": 10,
+        "title": "Jeremy M Moses, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6262396,
+        "longitude": -71.3657077,
+        "rating": 4.9,
+        "ratingCount": 251,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/jeremy-m-moses/?utm_source=GMBSocialClimb&utm_medium=JeremyMMoses%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/jeremy-moses-md-381754?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_7ussiMaN2keCso7nwLhB8R-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnFGVON5hCePZkuFQeuLDgK_ovlAUgmL4Wec4C_gQFCJgvVVBoXUMCqV3e1DSPCtChI0PqbeBv2445F78LeQCEhJEHLwPxf6Ovr23GChbES-OGZN5Yg%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXtasib_nW__MVSfnS-GjbGh5btzHSrxCtQonE298YkGdrIHEgguEuAgws_aHihftsJkCZPJoKVf1erscebPspDQqgGDtZEPonVUeuxJEBlgs46VGi_R7d7WGiJ_UtTLCeSRI",
+        "cid": "15091409176660418353",
+        "fid": "0x405b8a32dc1c24d5:0xd16f74b03eea1f31",
+        "placeId": "ChIJ1SQc3DKKW0ARMR_qPrB0b9E"
+      },
+      {
+        "position": 11,
+        "title": "Steven DiSegna, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263448,
+        "longitude": -71.3658298,
+        "rating": 5,
+        "ratingCount": 59,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/steven-t-disegna/?utm_source=GMBSocialClimb&utm_medium=StevenDiSegna%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/steve-disegna-md-425849?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_Hk2a5FTmV0G2AVTftdt5SR-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnHVy90hKhdVJhINXwX-Lc8kgn0M1QnzoP2zWAOhW2lPs4WZocAN0NmGG5aCna0aPXmYPHt9JovYLTnSpi4wCdgQPo3FCSukMdoRFqFPt-N2mnmQq7c%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFlsfBQTpqT5W9v8ODaMKJ8NS7Kjh3JbIkYOMf4ogsvBsKX5IKmb0pQRzPsqToY1FBoqCNNVViGLcJRWhkgXKLkuX0Fw2sL-NUSiu6C6jTE_RpB7LZDn_v_2jyYGoa7OfekFgzm",
+        "cid": "11708635535182026154",
+        "fid": "0x89e3a398273e7ae5:0xa27d6dfbf70a55aa",
+        "placeId": "ChIJ5Xo-J5ij44kRqlUK9_ttfaI"
+      },
+      {
+        "position": 12,
+        "title": "Atul Bhat, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6262396,
+        "longitude": -71.3657077,
+        "rating": 4.8,
+        "ratingCount": 433,
+        "type": "Sports medicine physician",
+        "types": [
+          "Sports medicine physician",
+          "Pain management physician"
+        ],
+        "website": "https://orthsurg.com/physicians/atul-bhat/?utm_source=GMBSocialClimb&utm_medium=AtulBhat%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.orthsurg.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhgGbHwU9KAQ-OD9yAwXkykXFpX5LToCJB2lDal8lFigZUuuvXg64ra0p51GO868ynjlRgZw6352slBFlNZGCSPirBp_2tb3GPm6PkIiaoyo5TRhx7dAWrnqLsf-P-vU5Vl5qiywrykcln",
+        "cid": "7005810968908483169",
+        "fid": "0x89e3a43f5a4f64f3:0x6139a3f535534a61",
+        "placeId": "ChIJ82RPWj-k44kRYUpTNfWjOWE"
+      },
+      {
+        "position": 13,
+        "title": "Steven Alter, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.626311799999996,
+        "longitude": -71.36561569999999,
+        "rating": 4.7,
+        "ratingCount": 181,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/steven-alter/?utm_source=GMBSocialClimb&utm_medium=StevenAtler%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/steven-alter-md-425845?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_fHKFfONSTU2BV1o7sZ8vjB-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnEcyPlMtPu1ezVz1v9qXnsTMmKQ0feiLSLN5mr_TsYcfwtxwZuuPyiJGBoJPmLBZSUKQZuBXAh8gtd4PDQEjls80bw5mwGwt4n3qu6VS-Zmx6ZuVcU%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG90l6jmLdbA-xH62tFudC698TT2Y4oijQWh79TCVmOf3h8sJlo7cL3h8oH08Zqr3DT-VkDhAvEViE6rEuqc2ypnoDu9I7HJ6xuaGgGuBAJNo2A-_fgsa8viYU6ayU4cv-5flLVsA",
+        "cid": "13609287648601151312",
+        "fid": "0x89e3a35bec38bda1:0xbcdde702e4fb9750",
+        "placeId": "ChIJob047Fuj44kRUJf75ALn3bw"
+      },
+      {
+        "position": 14,
+        "title": "Lowell General Hospital Orthopedics + Sports Medicine – Main Campus",
+        "address": "295 Varnum Ave, Lowell, MA 01854",
+        "latitude": 42.6471582,
+        "longitude": -71.3414231,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.tuftsmedicine.org/get-care/locations/lowell-general-hospital/orthopedic-sports-medicine?utm_source=Yext&utm_medium=Listings%20Management",
+        "phoneNumber": "(978) 937-6417",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "7 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaWIsmO9guf1eTutOgq9PBRNxs_i6VojwIgANwDFm2wi4teHvHoXhrJMzx4HCS-T-uZWqUpcxN2q4ljlP0fjyM8119MlBpzBkM2V-m-i7jjinmHZM9TJ2sDI0IoxZLhe8hBpMwjkrLPew",
+        "cid": "15639344208971280279",
+        "fid": "0x89e3a57a49a8911b:0xd90a1cb27fcbaf97",
+        "placeId": "ChIJG5GoSXql44kRl6_Lf7IcCtk"
+      },
+      {
+        "position": 15,
+        "title": "Eric Holstein, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263448,
+        "longitude": -71.3658298,
+        "rating": 4.8,
+        "ratingCount": 144,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/eric-holstein/?utm_source=GMBSocialClimb&utm_medium=EricHolstein%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/eric-holstein-md-425899?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_KP2omTFBakGibQ8m5z9ZRB-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnH2_4dMlY2gvBbVkv3oh26fBIH6Mj_ESWjahfYf5Y80-KmzulEDcrrhJSda3eIExJ3HzbMQqD5vpEZBeKDle64J3BWszQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwbwYfScsyD1fDkNqWPTyvupxOEDVCqiGFhh2EnaG-tQNEjnTT4Gt7d5n4NJXZnQLrj20xaoq9BGKsCnRAkx5zEG6YdU4qY2IkBCJWWXb8QOzC_15wZcKzxOupjAqRtI19lRg",
+        "cid": "7038235407899581172",
+        "fid": "0x89e3bc8de85d1d4b:0x61acd5d0356e5af4",
+        "placeId": "ChIJSx1d6I2844kR9FpuNdDVrGE"
+      },
+      {
+        "position": 16,
+        "title": "Lowell General Hospital Orthopedics + Sports Medicine – Chelmsford",
+        "address": "10 Research Pl # 203, North Chelmsford, MA 01863",
+        "latitude": 42.6269274,
+        "longitude": -71.36591349999999,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.tuftsmedicine.org/get-care/locations/lowell-general-hospital/north-chelmsford-campus/orthopedics-sports-medicine-department-cast-room?utm_source=Yext&utm_medium=Listings%20Management",
+        "phoneNumber": "(978) 614-3210",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJ7ulhxi-kZeH_AAqY2iRoL2__M0hpm45BR-ivB-rhSV7ISZDJwb52qyvb-F32EdW9mdWUWpKYpg8yES9RyBEDU55gaMlPWE0ezw-RTFxmDDi_9XYH443WQw1G__u5rRW0BDOWcdKvVjTM",
+        "cid": "10723344491120143474",
+        "fid": "0x89e3a3e00df020d5:0x94d0f8fffd5bac72",
+        "placeId": "ChIJ1SDwDeCj44kRcqxb_f_40JQ"
+      },
+      {
+        "position": 17,
+        "title": "Elisabeth Gennis, MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263448,
+        "longitude": -71.3658298,
+        "rating": 4.8,
+        "ratingCount": 197,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Practitioner service location"
+        ],
+        "website": "https://orthsurg.com/physicians/elisabeth-r-gennis/?utm_source=GMBSocialClimb&utm_medium=ElisabethGennis%2CMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/elisabeth-gennis-md-faaos-425852?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_HAdqK0SMPkaEVTACFBe3Jh-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnHy1H2mNnEamO1izg0u_Mylz9SBVk4Zhm2PddW_2S-O0ZDKbynohQVOJwhgQD_IGB5z7tAYxY4JPW2AtBMA-nTN2mIoqb_C0XTDz1bV1IET2FcgH2s%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGijmeIAdPT2bCwy5P-ngLfz5e1OCtH4ZjBCwo18s14Zf2JVkfLark2CEuiFUPKBepE7DYSchZAfweTNxMVfJSqKNXy2LlllU47PfnAu8UvwkBL28vOVDwOAjEuiV_06SQnc4riMw",
+        "cid": "9631541768522667106",
+        "fid": "0x89e3a35beb955555:0x85aa1c3558219462",
+        "placeId": "ChIJVVWV61uj44kRYpQhWDUcqoU"
+      },
+      {
+        "position": 18,
+        "title": "OrthoLazer Chelmsford",
+        "address": "227 Chelmsford St, Chelmsford, MA 01824",
+        "latitude": 42.6097991,
+        "longitude": -71.3375767,
+        "rating": 4.9,
+        "ratingCount": 221,
+        "type": "Pain control clinic",
+        "types": [
+          "Pain control clinic"
+        ],
+        "website": "https://ortholazer.com/center-location/chelmsford-ma/",
+        "phoneNumber": "(978) 856-7676",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "6:30 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "6:30 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://ortholazer.com/locations/chelmsford-ma/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6roh1SoKBHAzup2CXZH71hHAZJq47immL3JKjZcUCn-xW4Z_cfvZvn4GNMQpVdfCe7mNe8ovcQKKLp4tjp-giSKqnHVok60yYlzsSY-2sfsewPg_iGAuXP4TVwFLkwGbKljnEVw",
+        "cid": "8265924821151503946",
+        "fid": "0x89e3a32686f1ab67:0x72b676d480d1d64a",
+        "placeId": "ChIJZ6vxhiaj44kRStbRgNR2tnI"
+      },
+      {
+        "position": 19,
+        "title": "Mark Lapp MD",
+        "address": "14 Research Pl, North Chelmsford, MA 01863",
+        "latitude": 42.6263127,
+        "longitude": -71.3656251,
+        "rating": 4.5,
+        "ratingCount": 48,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthsurg.com/physicians/mark-a-lapp/?utm_source=GMBSocialClimb&utm_medium=MarkLappMD",
+        "phoneNumber": "(978) 454-0706",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/mark-lapp-md-425841?LocIdent=188879&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_yxmFSvnCsUuuLamlblIftB-lo_q1xXELbG6kKFgxRyY_qneR-entity&rwg_token=AFd1xnEoa7Dg-30pANx9co1K_SEHLkgGgoSsm1WrOHRRiLp4By6qNQMt1jcn2Jtodf4q7eSgUTtn5vuPrE_Bg_4YJfUsFr-qzxNGVqoxysCzIsXalelYHdI%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGiJ9n9MrN_cm8D0xRLz-1-Z8NBsyL0uUY80WRncVFBeoAUDRd0_LjmgRwS9nmtfPHJfkDj7ymHQbNgyzw4EeEuDt_Ht7AU1S9wHBcREuke6iIubbcNaAcLpSZJTVBotI2BbLk",
+        "cid": "17745749113650493468",
+        "fid": "0x89e3a35bec3f5b4b:0xf64590cc4057381c",
+        "placeId": "ChIJS1s_7Fuj44kRHDhXQMyQRfY"
+      },
+      {
+        "position": 20,
+        "title": "Orthodontic Associates of New England",
+        "address": "18 North Rd, Chelmsford, MA 01824",
+        "latitude": 42.5997355,
+        "longitude": -71.3535395,
+        "rating": 4.7,
+        "ratingCount": 50,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.orthodonticassociatesofnewengland.com/",
+        "phoneNumber": "(978) 250-1961",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFspxwf-4NKXP6Oir0leXD3ft-m2cCr5sRtZu9NJahAs36qOwkv9C1XfxblIiDl-6GNRf72IpOyFBuRiVvTCnVnwdnx8-ZMLV10XE30muOhiAFi2AcQj0cgDXkMzfkXRJwwzE9MZA",
+        "cid": "4305228588381959969",
+        "fid": "0x89e3a30b5328670b:0x3bbf3e974f5cf721",
+        "placeId": "ChIJC2coUwuj44kRIfdcT5c-vzs"
+      }
+    ],
+    "credits": 3
+  }
+}

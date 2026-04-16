@@ -1,0 +1,617 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.321373,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzIxMzczLC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@33.7590616,-117.8882106,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Santa Ana Orthodontics",
+        "address": "715 S Main St, Santa Ana, CA 92701",
+        "latitude": 33.7388919,
+        "longitude": -117.8674738,
+        "rating": 4.9,
+        "ratingCount": 409,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.saorthodontics.com/?utm_source=generic&utm_medium=profiles&utm_campaign=local_profiles",
+        "phoneNumber": "(714) 647-0797",
+        "openingHours": {
+          "Thursday": "9:30 AM–6 PM",
+          "Friday": "9:30 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6 PM",
+          "Tuesday": "9:30 AM–6 PM",
+          "Wednesday": "9:30 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZCYUu761-GLBg9gxgC87lsTEUJHk6Z9ETjHK2Mwe39ZVZAtNaUg_R4OEvQQu0bKJoobMf2Qm6XbAtkkjaHps4dOyr3y1vKJsyCsldt08RlNMpbXg9jMdJG66Dhzqfl3608L6hUfv9TsLy",
+        "cid": "10252277501812724725",
+        "fid": "0x80dcd91ab9f6d673:0x8e476811aa46d3f5",
+        "placeId": "ChIJc9b2uRrZ3IAR9dNGqhFoR44"
+      },
+      {
+        "position": 2,
+        "title": "Orthodontic Center of Orange County",
+        "address": "1920 17th St #120, Santa Ana, CA 92705",
+        "latitude": 33.7590585,
+        "longitude": -117.8398941,
+        "rating": 4.8,
+        "ratingCount": 309,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.orthocenteroc.com/",
+        "phoneNumber": "(949) 379-1516",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthocenteroc.com/online-scheduling/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-BApMadGSBaOTwo0Ax40PPDyyPL4znFKVbieo1PYtqKnExaSpfXPjTNbMcvKVoR8yRaXPvl5BqH3mCfhDbMaqibMXQUHBBXNFSony88WU0HO5zDcezMMsviDmXTyvZWWw5stw",
+        "cid": "6063554948548454018",
+        "fid": "0x80dcd98300c1f743:0x54261319804ae682",
+        "placeId": "ChIJQ_fBAIPZ3IARguZKgBkTJlQ"
+      },
+      {
+        "position": 3,
+        "title": "360 Orthodontics Santa Ana",
+        "address": "940 N Grand Ave A, Santa Ana, CA 92701",
+        "latitude": 33.7539555,
+        "longitude": -117.85271259999999,
+        "rating": 4.2,
+        "ratingCount": 146,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://360orthodontics.com/",
+        "phoneNumber": "(310) 998-7600",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEv9gbtVPw1pJ3HvyuRCH1ZFkD55w1N9dbWc9wanhPfuKlhkncFNnoVv5eWchQpJg3LfM0mdnCBrhocteMGEvhH43Wx_d3IPvjYCff9OlklrKnVTaiONAlbB-W1ZiA0Bi8m9nI",
+        "cid": "17498238859560105321",
+        "fid": "0x80dcd9bece344d29:0xf2d63b887b043569",
+        "placeId": "ChIJKU00zr7Z3IARaTUEe4g71vI"
+      },
+      {
+        "position": 4,
+        "title": "Invisalign and Braces in Orange County",
+        "address": "2800 N Main St #808, Santa Ana, CA 92705",
+        "latitude": 33.7756749,
+        "longitude": -117.8697291,
+        "rating": 5,
+        "ratingCount": 175,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Denture care center"
+        ],
+        "website": "http://invisalignandbracesinoc.com/",
+        "phoneNumber": "(714) 689-8171",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIWKP1Prg6yzmZzbOjpzJT5W9LjwxbN_B3Vh5oVvL8zbV3ZLefDO3-zbOWfGF1J0CL-LJPOKLAG6UYl5iSo5k9pZJPZytGxfMqDupgahMWjiDga6URPRbTXvBZTR2eGlRS7cc",
+        "cid": "1208084434230417909",
+        "fid": "0x80dcd9c895f87a9d:0x10c3fa6468fb99f5",
+        "placeId": "ChIJnXr4lcjZ3IAR9Zn7aGT6wxA"
+      },
+      {
+        "position": 5,
+        "title": "FitSmiles Orthodontics",
+        "address": "14051 Newport Ave #C, Tustin, CA 92780",
+        "latitude": 33.736863899999996,
+        "longitude": -117.8248388,
+        "rating": 5,
+        "ratingCount": 179,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.fitsmilesortho.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website",
+        "phoneNumber": "(714) 782-0217",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://fitsmilesortho.com/contact-us/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=AppointmentRequest",
+          "https://api.leadconnectorhq.com/widget/group/lq58Tnwq1fx8rR9btqVv?rwg_token=AFd1xnEDO-GAPOpymp65r-VTHOfJ8_syqfxB7Tm9RJBlTgYuHHu7JEb3H35ivIlsCt-yPsoZnNQTsKtd-A18QW4xzrewOChdFLlmTIwyx-8Fabii0xmqZKc%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE49P_BDo1bqbfg_kvIxTgnwL8GEDni8hj-xFbtbArX8gMxexbFSk5ddRsWOAKm0W3JiPNVhWPWiBRUIg1fZHPn2eQ6BNaPox3ZdPzxkpFqAPYIwHfcjKE9IYh_QgvWt1v_eyhvJg",
+        "cid": "7226169194876220534",
+        "fid": "0x80dcdbb0ff91a71d:0x64488298cb77b476",
+        "placeId": "ChIJHaeR_7Db3IARdrR3y5iCSGQ"
+      },
+      {
+        "position": 6,
+        "title": "Family Orthodontics & Oral Surgery",
+        "address": "535 E Main St Suite A, Tustin, CA 92780",
+        "latitude": 33.7423321,
+        "longitude": -117.8185616,
+        "rating": 5,
+        "ratingCount": 1302,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Oral surgeon"
+        ],
+        "website": "http://www.tustinorthodontics.com/",
+        "phoneNumber": "(714) 544-0200",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtUjcmLB5pXjef5NFhCmhaymIB-XvrjTokssqM6V42JRz6ugbCjQ31IKBQ2yFBfzdMGnFONIU1lZ1sbYPTPPtNhQHrh4A8970WndWCZj_uON8bHJ6pWgUJXAismYoskWCP985H",
+        "cid": "5939500467584481995",
+        "fid": "0x80dcdbc21684e65d:0x526d5834d9a3bacb",
+        "placeId": "ChIJXeaEFsLb3IARy7qj2TRYbVI"
+      },
+      {
+        "position": 7,
+        "title": "Dr. Lili & Associates - Santa Ana",
+        "address": "2030 N Tustin Ave, Santa Ana, CA 92705",
+        "latitude": 33.76329,
+        "longitude": -117.835973,
+        "rating": 4.6,
+        "ratingCount": 736,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.drliliortho.com/",
+        "phoneNumber": "(844) 757-9799",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–5:30 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.drliliortho.com/free-consult"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECokM9Bkf7cuclYEeR6aruyFoy_IE2-xBRrnk3GVqESQJBBuhCfb7SLjbT6Y88MppqVCvzNFCwVuc2ajnyQy2AEa8ytI1CFoOgjJn1-t1_xudvbxJzUEwCMdrU5UZiVkLc0qU",
+        "cid": "16118081487010208549",
+        "fid": "0x80dcd986b9f445f5:0xdfaeedb7160b1b25",
+        "placeId": "ChIJ9UX0uYbZ3IARJRsLFrftrt8"
+      },
+      {
+        "position": 8,
+        "title": "Perfect Smiles Orthodontics",
+        "address": "1501 E Katella Ave, Orange, CA 92867",
+        "latitude": 33.8100496,
+        "longitude": -117.838079,
+        "rating": 5,
+        "ratingCount": 212,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.perfectsmilesforyou.com/",
+        "phoneNumber": "(714) 771-2270",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGI9Dss8bMEe9lXB-jq2aoQG1M-wxfUxJaZ4_ZtyNTHEbwxXQ8ZjgiYiG2VEQyhg2cB_9DgsIVsy4QG4RMvQ4TZ9hPeeYMOqwmJNwEhMUz1-omVRjSKSD7GhgOriCJzfyq8k4s",
+        "cid": "14810215434410090768",
+        "fid": "0x80dcd74e6b55baf9:0xcd8874783f056110",
+        "placeId": "ChIJ-bpVa07X3IAREGEFP3h0iM0"
+      },
+      {
+        "position": 9,
+        "title": "Life Orthodontics",
+        "address": "1432 Edinger Ave Suite 100, Tustin, CA 92780",
+        "latitude": 33.7218234,
+        "longitude": -117.83013539999999,
+        "rating": 5,
+        "ratingCount": 63,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.lifeorthodontics.com/",
+        "phoneNumber": "(714) 418-4858",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.greyfinch.com/?division=248708"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFScq0msGIfJ_x-CcSBKkdjgby7_U9ktIByqXbAPtOoSe69_zl-bK8081efedG056T3kziJNxK6GIJYgToEQFIYXHdw9ygle5nRCsk2AwxJG0Z5dFvn26OeGML5KwpJ2S92Fvbx",
+        "cid": "11697825463112219421",
+        "fid": "0x80dcdb16b4c0fb45:0xa2570647ed52bb1d",
+        "placeId": "ChIJRfvAtBbb3IARHbtS7UcGV6I"
+      },
+      {
+        "position": 10,
+        "title": "Hong Orthodontics",
+        "address": "665 N Tustin St, Orange, CA 92867",
+        "latitude": 33.7986022,
+        "longitude": -117.83530979999999,
+        "rating": 4.9,
+        "ratingCount": 202,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://drjustinhong.com/",
+        "phoneNumber": "(714) 744-2828",
+        "openingHours": {
+          "Thursday": "9:15 AM–5:15 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:15 AM–5:15 PM",
+          "Tuesday": "9:15 AM–5:15 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://drjustinhong.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVAyl-_uEz9YMQwGJfc5HJmWPsGZOWvSwIFZtjs3fICfrZpQbt0d4lF1lVE3DAwwnyXqs0TKWR6UZrO795fDnjn1OJh7OOyFN7AZtBomNE_ZXinAcAA9e-yA0ZAB8vHgkl9hQ",
+        "cid": "9034069061084027896",
+        "fid": "0x80dcd9fe3b3a98bb:0x7d5f75f24e429bf8",
+        "placeId": "ChIJu5g6O_7Z3IAR-JtCTvJ1X30"
+      },
+      {
+        "position": 11,
+        "title": "Miller Orthodontics",
+        "address": "1110 E Chapman Ave #205, Orange, CA 92866",
+        "latitude": 33.7875194,
+        "longitude": -117.84189579999999,
+        "rating": 5,
+        "ratingCount": 281,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.millerbraces.com/",
+        "phoneNumber": "(714) 639-1061",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:30 PM",
+          "Friday": "8:30 AM–5:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.millerbraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBXTW6pxvqGOvALiScrVvpSCznQhzOs65orh3kDXOA60r5AdCXTCC1yeFHf0DotkgbWZlkz9OFAdApo5UAc7f5PP6jhLbfiLIhEorQNqxQvKFhiVZyHmV5nz0ubBbjcZ3I33cBDg",
+        "cid": "12669724123222662302",
+        "fid": "0x80dcd9e5b567196f:0xafd3e6f686e25c9e",
+        "placeId": "ChIJbxlnteXZ3IARnlzihvbm068"
+      },
+      {
+        "position": 12,
+        "title": "Citrus Grove Orthodontics",
+        "address": "2811 E Katella Ave # 204, Orange, CA 92867",
+        "latitude": 33.8105937,
+        "longitude": -117.8236305,
+        "rating": 5,
+        "ratingCount": 216,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://citrusgrovesmiles.com/",
+        "phoneNumber": "(657) 286-4581",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orange.citrusgrovesmiles.com?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=AppointmentRequest"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYe5Ko_3wI1ZlZTzuv14lGax6y4j_CicbnMhvOFx7O_z6BhEc3AfCyc6iEp86ittZ5G1RlerHbCShdcfzaqtkY-PYyfApVpKpFTHrlQmFhmcxZ-1ShBMvLWQvorAGjAJsH5CEB",
+        "cid": "8084611341389362295",
+        "fid": "0x80dcd18c7d4c1989:0x70324f2e4e9b7477",
+        "placeId": "ChIJiRlMfYzR3IARd3SbTi5PMnA"
+      },
+      {
+        "position": 13,
+        "title": "E-Orthodontics",
+        "address": "1252 Irvine Blvd, Tustin, CA 92780",
+        "latitude": 33.7466183,
+        "longitude": -117.8078128,
+        "rating": 5,
+        "ratingCount": 59,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://tustinbraces.com/?utm_source=Google&utm_medium=Organic&utm_campaign=gbp-website-link",
+        "phoneNumber": "(714) 832-9151",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5:30 PM",
+          "Tuesday": "10:30 AM–6 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://tustinbraces.com/contact"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGXomlbfdNpgs9Nq7QlhWDrErFNjp-z1nRsQ2skVeGbvwz17mkQBLC4OSQsyWuP0qQEkbkLw_ewAUmM1CX99V7xn0OLDonXT-Ucduzt_l8tbXg5oTna7Z76twkCc19HFmzNR0fhSA",
+        "cid": "8644183562753160510",
+        "fid": "0x80dcdbc0803d1bdd:0x77f64f26c72c353e",
+        "placeId": "ChIJ3Rs9gMDb3IARPjUsxyZP9nc"
+      },
+      {
+        "position": 14,
+        "title": "Legacy Orthodontics",
+        "address": "3061 Edinger Ave A, Tustin, CA 92780",
+        "latitude": 33.706320999999996,
+        "longitude": -117.80605999999999,
+        "rating": 4.8,
+        "ratingCount": 52,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.legacybraces.com/",
+        "phoneNumber": "(949) 654-2200",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9:30 AM–6 PM",
+          "Wednesday": "9:30 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqwSD-CK8esYsMjlTq9qaKMZZz7WqIh8AjBNZFxx3Bxb_c6LIzgw1Mz73XTmQNT443jaCV139zm1q7NUESCQQTlDzvacPrnRz7wxZWcmANzk_1qENBqVcndNpZFdRGP93JsCbS6g",
+        "cid": "13989212570774236442",
+        "fid": "0x80dcdc6b17a97409:0xc223aab7106d6d1a",
+        "placeId": "ChIJCXSpF2vc3IARGm1tELeqI8I"
+      },
+      {
+        "position": 15,
+        "title": "Harbor Smiles Dental & Orthodontics",
+        "address": "13112 Harbor Blvd, Garden Grove, CA 92843",
+        "latitude": 33.7726714,
+        "longitude": -117.91995829999999,
+        "rating": 4.4,
+        "ratingCount": 27,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.harborsmilesdental.com/contact-us.aspx",
+        "phoneNumber": "(714) 534-3033",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBOOxjiJqbd0n52bCrPMtF7Nvd4GCzeyGti3InFBnUgt3hcawYFv6uLRXM2Iu2OKykBNyv7XBwVmA0H_ujYk29horbadYjYtYgpCFRK6M57W2ryC6SJMeVX86BT4BqMqLJEPHC",
+        "cid": "3707107456720987616",
+        "fid": "0x80dcd806b177d945:0x33724a973e0e65e0",
+        "placeId": "ChIJRdl3sQbY3IAR4GUOPpdKcjM"
+      },
+      {
+        "position": 16,
+        "title": "Baum Orthodontics- Tustin",
+        "address": "14772 Plaza Dr STE 100, Tustin, CA 92780",
+        "latitude": 33.7491548,
+        "longitude": -117.8125742,
+        "rating": 5,
+        "ratingCount": 263,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.baumortho.com/",
+        "phoneNumber": "(714) 544-8030",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.baumortho.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG31h_a1ogigLI_2uR85CqZrzcqUJlNJMKlkoJPJWp46S2LUg35putfPszGmrKbKbPxOFsOBt6Yuzbyy_rMI98YjRW5SI3MprDiCeqnUAeZxIHrBK52c76e-FWoXavZCYN6Hco",
+        "cid": "3951925127012905927",
+        "fid": "0x80dcdbc13ab220db:0x36d80ef6fe8b73c7",
+        "placeId": "ChIJ2yCyOsHb3IARx3OL_vYO2DY"
+      },
+      {
+        "position": 17,
+        "title": "Manfred Orthodontics",
+        "address": "17914 Magnolia St, Fountain Valley, CA 92708",
+        "latitude": 33.702754,
+        "longitude": -117.9703613,
+        "rating": 5,
+        "ratingCount": 585,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.manfredorthodontics.com/",
+        "phoneNumber": "(714) 963-8931",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNGg4khCwmlljXMSwh1O_PJE12KBed4jKdB1xPA5sxILNN5DM-CH6ZZO5q6KRBZ6HuMTscASifC_cWWOCQxXHrImK1LwJUYLISlUdQ5s39N4Yf2xCr2PHAGss8vnFB0q_mmA",
+        "cid": "9380498181291107043",
+        "fid": "0x80dd2720f07e21ff:0x822e3965580de2e3",
+        "placeId": "ChIJ_yF-8CAn3YAR4-INWGU5LoI"
+      },
+      {
+        "position": 18,
+        "title": "FriendLee Orthodontics",
+        "address": "1684 W Katella Ave, Anaheim, CA 92802",
+        "latitude": 33.8017544,
+        "longitude": -117.9405865,
+        "rating": 5,
+        "ratingCount": 135,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.friendleeortho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+        "phoneNumber": "(657) 667-0484",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://book2.getweave.com/61ba3956-85c7-4b9f-8ff4-75fa980d2774/request-appointment?source=GOOGLE_BUSINESS_PROFILE"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEkLdVyomh7ZwuHkP47zsG12wTnLmu8K13Pv15-8Usk__IiLNHUDaVCrchCvaZEOhmkrewBvBf1WDqn4-46x3Aezcey9-hXUVbrbSVbp9rT9hDvzeeA1pv8uanQLNxxOZzi9IpRYw",
+        "cid": "881083268913207886",
+        "fid": "0x80dd29029e7319f9:0xc3a3c909d1c9a4e",
+        "placeId": "ChIJ-RlzngIp3YARTpocnZA8Ogw"
+      },
+      {
+        "position": 19,
+        "title": "Orthodontic Centre Of Orange Country",
+        "address": "Orange, CA 92868",
+        "latitude": 33.7744206,
+        "longitude": -117.869591,
+        "rating": 4.8,
+        "ratingCount": 17,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "phoneNumber": "(714) 689-8171",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-6BXeWDEJ4FzpgE5zPczZuuir2Xgq-GCrACfYOu8lISBBckRixQ_qNzcm0TUdk-jYzmyZG1krZrhJSZW7PUQsJVEI5_21a1WDz2TrslJepgXdobv3OoDRjt90-crPEQLpgX0",
+        "cid": "10004566239365147383",
+        "fid": "0x80dcd9ced15c8b0b:0x8ad75bfcfd39aaf7",
+        "placeId": "ChIJC4tc0c7Z3IAR96o5_fxb14o"
+      },
+      {
+        "position": 20,
+        "title": "VP Smiles Orthodontics- Villa Park",
+        "address": "17781 Santiago Blvd, Villa Park, CA 92861",
+        "latitude": 33.8153691,
+        "longitude": -117.8220489,
+        "rating": 5,
+        "ratingCount": 138,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.villaparksmiles.com/",
+        "phoneNumber": "(714) 974-9000",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_46hVQXZMdmMLSx7XmiRL2opbmty6rhZ4ntkctAVk69UnlfDkBWrd83uWDdzYddu-wWeAAv6fF61FXn5OtxRkUWcorw8llxBD6xGgYlQFiG77ZBGDa8GQYrTSjSTHq0YpvQH0",
+        "cid": "12713300571388239185",
+        "fid": "0x80dcd0b1aa769249:0xb06eb783005ddd51",
+        "placeId": "ChIJSZJ2qrHQ3IARUd1dAIO3brA"
+      }
+    ],
+    "credits": 3
+  }
+}

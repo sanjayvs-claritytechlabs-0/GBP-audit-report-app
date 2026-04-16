@@ -1,0 +1,168 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@40.3811455,-122.3264932,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Shoff Orthodontics",
+        "address": "350 Walnut St, Red Bluff, CA 96080",
+        "latitude": 40.178162,
+        "longitude": -122.23673,
+        "rating": 5,
+        "ratingCount": 220,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "phoneNumber": "(530) 529-1997",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsGspCBhLWRle3KHg8c8tEIFUQQlO8CQ1jOAyC_g9TLaF4Z5sRvJeB-GtrEJUXqvGtPoWmX97LrZA_MxftWVbjx837j_ZE3dPMGOcI0_9CF1fCpwBVH83-uyg59fscTYtWl6Fc",
+        "cid": "12200125010078732474",
+        "fid": "0x808283ba2c8fd1fd:0xa94f8d0ec11a10ba",
+        "placeId": "ChIJ_dGPLLqDgoARuhAawQ6NT6k"
+      },
+      {
+        "position": 2,
+        "title": "Schalo Orthodontics - Red Bluff",
+        "address": "614 Washington St, Red Bluff, CA 96080",
+        "latitude": 40.1764588,
+        "longitude": -122.2352329,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://schalosmiles.com/",
+        "phoneNumber": "(530) 223-0460",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWWrEFXNj7-3YcQ5ECgLvuqdwoxPGyvptf2xgh0NZfMgzpDgGP7PWZ_qTFElxPmkj8cH8H-9rXzYyzjFNeTaIM1Ck0E62R7AWkhboU4TgCclnVjkbSl6Jh39wveic5a75SCvCE9U8Hspus",
+        "cid": "18185738570735041813",
+        "fid": "0x80828326ea994d07:0xfc60b8e0bec83d15",
+        "placeId": "ChIJB02Z6iaDgoARFT3IvuC4YPw"
+      },
+      {
+        "position": 3,
+        "title": "Schalo Orthodontics",
+        "address": "2315 Bechelli Ln SUITE E, Redding, CA 96002",
+        "latitude": 40.573755899999995,
+        "longitude": -122.3617798,
+        "rating": 5,
+        "ratingCount": 529,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://schalosmiles.com/",
+        "phoneNumber": "(530) 223-0460",
+        "openingHours": {
+          "Thursday": "7 AM–1 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERvA86vhuaJnBFV7H69YAhbE_FehEla7cnLLQ2E4tCGbd3FVcPrUztHlNYzvTPDs1KRjo0c6mOKI4BS95_DZYU87KTM8fRW_-Oswxhsl9J-t7FeiQEUMkCZi21XSf9WeVUhmgu",
+        "cid": "422965247586946227",
+        "fid": "0x54d2ecb8d13c684d:0x5deaca6d6c14cb3",
+        "placeId": "ChIJTWg80bjs0lQRs0zB1qas3gU"
+      },
+      {
+        "position": 4,
+        "title": "Lamb Orthodontics",
+        "address": "3000 Eureka Way, Redding, CA 96001",
+        "latitude": 40.5858321,
+        "longitude": -122.41775349999999,
+        "rating": 5,
+        "ratingCount": 389,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://lambortho.com/",
+        "phoneNumber": "(530) 241-1332",
+        "openingHours": {
+          "Thursday": "7:10 AM–4 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:10 AM–5 PM",
+          "Tuesday": "8:10 AM–5 PM",
+          "Wednesday": "8:10 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC6ULvtVr5l1_F7ozC7PTGjOSHkbMJY4TtCQrN1gMQHMbDGIwaNFngcEV0YMcSeMlsuJrsvo1OnP_QVGWaMY39FObKjcNeVgokiGgR-wuhCp_GzaebQoVct7IJqMRrrXXTzedDJw",
+        "cid": "11869985172883456333",
+        "fid": "0x54d2ed07e2caf61b:0xa4baa89ff6df414d",
+        "placeId": "ChIJG_bK4gft0lQRTUHf9p-ouqQ"
+      },
+      {
+        "position": 5,
+        "title": "Shasta Orthodontics",
+        "address": "2175 Civic Center Dr, Redding, CA 96001",
+        "latitude": 40.5748853,
+        "longitude": -122.3806161,
+        "rating": 4.8,
+        "ratingCount": 73,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://shastaorthodontics.com/",
+        "phoneNumber": "(530) 223-6850",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGao8hTpNQelzzalk924rhmEjNDvRrUmt3J9sovfdefVinhTensq7Gi4G_i71vo2M4B9q-RFeHxUrZ_8Zc7wZVJuQrdgJ155XqDG5-KEkExZaRjRxb3m9vzsD5a4P93WU1rktWQ",
+        "cid": "17543084585796262767",
+        "fid": "0x54d2ec95c9e6ff47:0xf3758e7bc9045b6f",
+        "placeId": "ChIJR__myZXs0lQRb1sEyXuOdfM"
+      }
+    ],
+    "credits": 3
+  }
+}

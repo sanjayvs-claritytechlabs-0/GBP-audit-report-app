@@ -1,0 +1,120 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.321373,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@38.4450277,-106.5099729,5z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnEF6QjL_V1KG7fWLCYwQKXddGdiSYD68eNOuOCdjR4nwN8_Eqz_VTVq4PaK33SlaC5QXij_qVjwY9bpoNzExeZz4Mv4d75tPQG58qUtyqz3QqIopkQ%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnGtYsOTACDLqvDDCYY-6w8Xab5ZPHmGlYH-gVtsNizHey_8IrU3PX3u77yF0-DAt8byL-ArYDWOugLzwA21VIJaEeY-4hQKxSywMt6Q41XrS1y9yc8%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 2,
+        "title": "Moshiri Orthodontics",
+        "address": "211 N Lindbergh Blvd, Creve Coeur, MO 63141",
+        "latitude": 38.6567885,
+        "longitude": -90.405974,
+        "rating": 5,
+        "ratingCount": 742,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.smilesaintlouis.com/",
+        "phoneNumber": "(314) 427-2237",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYR9nAF0oqTogxlOtcUrd-O-wisDuMpszpC23TEnDnKdyHGy3mvabXtqxxnEPUOQ876p0kGQLJy-VyJF3M5ovpyMAlaI6ADoLWpGd0tmm3GBAJ3sbkm55xv_OSUQ6VfEWqq0o",
+        "cid": "5767215999194061043",
+        "fid": "0x87d8cd5a5a82759f:0x500944652ee958f3",
+        "placeId": "ChIJn3WCWlrN2IcR81jpLmVECVA"
+      },
+      {
+        "position": 3,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnFiEXDN-HwQnXj6J9dVR19um_VAm42lXi0iN3zVs8BZPD9TZ4RlgrgiffEWkal5V8w4ahD1QRa1ccwHw5r-Qhhw4XsvmdcMcBk1eGTgLP9SHsPAonU%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@40.2004938,-79.8685528,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Penn Highlands Orthopedics and Sports Medicine",
+        "address": "625 Lincoln Ave Ste 107, North Charleroi, PA 15022",
+        "latitude": 40.1494193,
+        "longitude": -79.9069775,
+        "rating": 2.5,
+        "ratingCount": 13,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "http://www.phhealthcare.org/",
+        "phoneNumber": "(724) 379-5802",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElUYZAjJ_n97KYDqraCPQywTN0TuUBbP-CneWFS9WVUdZqxDFf_ipvS7fFzaoXqDGi_FViyeLS-KhKIZyoD1DCqnRzKDBFGAYjUmoizONqU5-3TEtuwdd1SHD9gFq6jmhvC1A7",
+        "cid": "2708209393168812343",
+        "fid": "0x88351cc3be26767d:0x25957e1829340937",
+        "placeId": "ChIJfXYmvsMcNYgRNwk0KRh-lSU"
+      },
+      {
+        "position": 2,
+        "title": "Steel City Orthodontics",
+        "address": "17 Arentzen Blvd #102, Charleroi, PA 15022",
+        "latitude": 40.1250073,
+        "longitude": -79.8859449,
+        "rating": 4.9,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.steelcityorthodontics.com/",
+        "phoneNumber": "(724) 483-4808",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://steelcityorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFr7SXX9ws3clawRwzSpaj8JTxxbSvvs8UgPPXXRXJok-orpVbUvVcjiKdOMjzW7lIdSKTxP6zLOkuxCpf77VHFV0womRQ3vNcgQQZm_3Vq021nbCsT_wnHVWm_Ed4QSTaOVtgBkSpP8cI",
+        "cid": "14680401782476623649",
+        "fid": "0x88351d8c82970169:0xcbbb43a41c87cf21",
+        "placeId": "ChIJaQGXgowdNYgRIc-HHKRDu8s"
+      },
+      {
+        "position": 3,
+        "title": "Advanced Orthopaedics & Rehabilitation",
+        "address": "1200 McKean Ave Suite #106, Charleroi, PA 15022",
+        "latitude": 40.144942,
+        "longitude": -79.90446779999999,
+        "rating": 4.1,
+        "ratingCount": 14,
+        "type": "Surgical center",
+        "types": [
+          "Surgical center"
+        ],
+        "website": "https://advancedorthopaedics.net/",
+        "phoneNumber": "(724) 225-8657",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://advancedorthopaedics.net/appointment_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhRm9cqvC4GSukI-oQ1hVsFdVslhCW8C3JsSMbGbC2eRT1BQBc2boXRuhdAwR09LIr4SDyVpXIFRs7OWwiXKgo_9aeMMtaEJhEot36d_jUvh2N7HZBQj8MtQTDkX7wbotPcYeSmVMYYAQ1",
+        "cid": "6024144729203895500",
+        "fid": "0x88351cdb0732bc09:0x539a0fb6c3bd6ccc",
+        "placeId": "ChIJCbwyB9scNYgRzGy9w7YPmlM"
+      },
+      {
+        "position": 4,
+        "title": "The Orthopedic Group",
+        "address": "#400, 800 Plaza Dr #800 Suite 180, Belle Vernon, PA 15012",
+        "latitude": 40.187191999999996,
+        "longitude": -79.81244749999999,
+        "rating": 2.8,
+        "ratingCount": 46,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.theorthopedicgroup.com/",
+        "phoneNumber": "(724) 379-5802",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "cid": "10245127513979828029",
+        "fid": "0x8834e1e1c6caa33d:0x8e2e01316559373d",
+        "placeId": "ChIJPaPKxuHhNIgRPTdZZTEBLo4"
+      },
+      {
+        "position": 5,
+        "title": "AHN General Surgery - Jefferson Hills Specialists - Belle Vernon",
+        "address": "1533 Broad Ave Suite 200, Belle Vernon, PA 15012",
+        "latitude": 40.1361426,
+        "longitude": -79.8455614,
+        "type": "Surgeon",
+        "types": [
+          "Surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.ahn.org/location-search/ahn-general-surgery-jefferson-hills-specialists-belle-vernon-247773?utm_source=G&utm_medium=local&utm_campaign=google-local",
+        "phoneNumber": "(412) 469-7110",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.ahn.org/appointments/video-visits?utm_source=G&utm_medium=local&utm_campaign=google-local"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9DYPIDyzcVWp4AOy9XOa98G7reWoc3eun8Eu7MSbT-VGauaqfp7Sk_YGq4cTlL5jNmxShXvvWX-aMJ7DJGUhfDz_0Dzs1pDyRqdBN27Qe3X0Z42S90DPwLXS4oIIK3SYnMcwfVxJaMyDj",
+        "cid": "15949377617618872496",
+        "fid": "0x88351de530b7b2fd:0xdd57927096bd28b0",
+        "placeId": "ChIJ_bK3MOUdNYgRsCi9lnCSV90"
+      },
+      {
+        "position": 6,
+        "title": "Enduracare Orthotic & Prosthetic Services, LLC",
+        "address": "Tri-County Professional Building, 638 Rostraver Rd #102, Belle Vernon, PA 15012",
+        "latitude": 40.1338424,
+        "longitude": -79.84262079999999,
+        "rating": 3.1,
+        "ratingCount": 9,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "https://www.enduracareop.com/",
+        "phoneNumber": "(724) 930-8544",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHc2Y6uBlIYVzBNWvyfa8ecxJjjw7enbooxwOJxGNwYAYceb2eerDHCq8jPJYj2OfsN3pvkNWoD_ZdJ9dG5GhyJM_obUih7sm8Nz0rbpOcuOkaLUATeVDCUf8PDxA0zhaxXorBr",
+        "cid": "5189619419382754548",
+        "fid": "0x88351c3b3d093e9d:0x48053b5dbbc72cf4",
+        "placeId": "ChIJnT4JPTscNYgR9CzHu107BUg"
+      },
+      {
+        "position": 7,
+        "title": "Dr. Vincent J. Ripepi, MD",
+        "address": "1200 McKean Ave #106, Charleroi, PA 15022",
+        "latitude": 40.1450107,
+        "longitude": -79.9046647,
+        "rating": 4.6,
+        "ratingCount": 8,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.phhealthcare.org/doctor/ripepi-vincent-j-do-1879",
+        "phoneNumber": "(724) 489-0120",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V9CMsGt5x--PyBPFJjJspg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=106.14352&pitch=0&thumbfov=100",
+        "cid": "1370912421733597111",
+        "fid": "0x88351cdb0732bc09:0x130675958b99ffb7",
+        "placeId": "ChIJCbwyB9scNYgRt_-Zi5V1BhM"
+      },
+      {
+        "position": 8,
+        "title": "OSPTA - Belle Vernon",
+        "address": "812 Broad Ave, Belle Vernon, PA 15012",
+        "latitude": 40.1319036,
+        "longitude": -79.8596287,
+        "rating": 5,
+        "ratingCount": 104,
+        "type": "Physical therapist",
+        "types": [
+          "Physical therapist",
+          "Physical therapy clinic"
+        ],
+        "website": "https://osptainc.com/locations/belle-vernon/",
+        "phoneNumber": "(724) 929-5774",
+        "openingHours": {
+          "Thursday": "7 AM–8 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "7 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqlyJLE82kjO0ac3W9GPz4dFrJY1VwjDluL3-BMzXStr0QpNmTBtt0g6I1H1k-X3osJHtEnrqUSDsNDNMYZVPOA2Z8yde_cp8gE_flH4WK7mpk_i1ty22CgRjQUa9JO0ZcAvgk",
+        "cid": "3293797163365243163",
+        "fid": "0x88351c668eb2a9ad:0x2db5eb119c93191b",
+        "placeId": "ChIJramyjmYcNYgRGxmTnBHrtS0"
+      },
+      {
+        "position": 9,
+        "title": "The Orthopedic Institute at Monongahela Valley Hospital",
+        "address": "1163 Country Club Rd, Monongahela, PA 15063",
+        "latitude": 40.1817517,
+        "longitude": -79.91140709999999,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical Center"
+        ],
+        "website": "https://www.phhealthcare.org/news/penn-highlands-mon-valley-news/monongahela-valley-hospitals-orthopedic-institute-and-the-orthopedic-group-introduce-rosa-knee-system-for-total-knee-replacement",
+        "phoneNumber": "(724) 258-1218",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8nwFWqGTbLkaz9bX3Z8BoRZw2I0KUimsC5A_b95aAhc7AaYJ50BrQbimmX-vAf2KD_g16GP5CYV2c20dBbcMKWxhgaMiZFlqGzSNggLLrd2s5k1oNjUVZdxdQuOiGlTanJbj1Lw",
+        "cid": "7952819681335262646",
+        "fid": "0x88351d4e56945eaf:0x6e5e175d44b93db6",
+        "placeId": "ChIJr16UVk4dNYgRtj25RF0XXm4"
+      },
+      {
+        "position": 10,
+        "title": "Tissenbaum Allan H MD",
+        "address": "625 Lincoln Ave, Charleroi, PA 15022",
+        "latitude": 40.138855799999995,
+        "longitude": -79.9012424,
+        "rating": 2.3,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.theorthopedicgroup.com/",
+        "phoneNumber": "(724) 483-4880",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=djOa7ux0fMVHqo-xqDr5ng&cb_client=search.gws-prod.gps&w=80&h=92&yaw=252.99744&pitch=0&thumbfov=100",
+        "cid": "4347074622102391986",
+        "fid": "0x88351cc3be26767d:0x3c53e95646874cb2",
+        "placeId": "ChIJfXYmvsMcNYgRskyHRlbpUzw"
+      },
+      {
+        "position": 11,
+        "title": "NovaCare Rehabilitation - Belle Vernon",
+        "address": "734 Rostraver Rd, Belle Vernon, PA 15012",
+        "latitude": 40.134533,
+        "longitude": -79.841359,
+        "rating": 5,
+        "ratingCount": 81,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Physical therapy clinic",
+          "Pain management physician",
+          "Sports medicine clinic",
+          "Wellness center"
+        ],
+        "website": "https://www.novacare.com/contact/find-a-location/pa/belle-vernon/belle-vernon/?ty=xt",
+        "phoneNumber": "(724) 929-5866",
+        "openingHours": {
+          "Thursday": "8 AM–7 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://www.novacare.com/contact/request-an-appointment/?id=50173&ty=xt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGt4wD12ls-DiX6E3NZxcZPIwhf1M3qF-7afD6mG5JSdmiul_TzJNcbevE9GcdnlC4_lBa-0wWYlfPs3eD4w_P9llRzIZWfl6edN2Twi2OK3gHyGd-6ICg6KGRWEaUpnGCzkGCMX_8QhH4",
+        "cid": "14614556260327865852",
+        "fid": "0x88351e21de0d4395:0xcad1557ccecdbdfc",
+        "placeId": "ChIJlUMN3iEeNYgR_L3NznxV0co"
+      },
+      {
+        "position": 12,
+        "title": "Dr. Shane Hennessy",
+        "address": "625 Lincoln Ave Ste 107, Charleroi, PA 15022",
+        "latitude": 40.138855799999995,
+        "longitude": -79.9012424,
+        "rating": 4,
+        "ratingCount": 4,
+        "type": "Sports medicine physician",
+        "types": [
+          "Sports medicine physician"
+        ],
+        "website": "https://providers.phhealthcare.org/provider/shane-hennessy/4161188",
+        "phoneNumber": "(724) 379-5802",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=djOa7ux0fMVHqo-xqDr5ng&cb_client=search.gws-prod.gps&w=80&h=92&yaw=252.99744&pitch=0&thumbfov=100",
+        "cid": "15098705874631704666",
+        "fid": "0x88351cc395b45555:0xd18960ff2186c05a",
+        "placeId": "ChIJVVW0lcMcNYgRWsCGIf9gidE"
+      },
+      {
+        "position": 13,
+        "title": "OSPTA - Charleroi",
+        "address": "625 Lincoln Ave Ste 107, Charleroi, PA 15022",
+        "latitude": 40.1492742,
+        "longitude": -79.9069477,
+        "rating": 5,
+        "ratingCount": 186,
+        "type": "Physical therapist",
+        "types": [
+          "Physical therapist",
+          "Physical therapy clinic"
+        ],
+        "website": "https://osptainc.com/locations/charleroi/",
+        "phoneNumber": "(724) 483-4886",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–8 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXOjVbXVSBz0BVUsi9p5PYDgNJv4BozRkTC_2uGqagghp8GOXGl0uChcGeptNBlgSLcSNmriJE3RhUy9F96xtnet1S58pClOEw6diNUYS268NqCq4d1y4YZDMLTm3-snpRRqHv",
+        "cid": "18256234016614456854",
+        "fid": "0x88351cc3be26767d:0xfd5b2c1cc8b51e16",
+        "placeId": "ChIJfXYmvsMcNYgRFh61yBwsW_0"
+      },
+      {
+        "position": 14,
+        "title": "WVU Medicine Uniontown Hospital -- Orthopedics and Spine Center",
+        "address": "419 Coyle Curtin Rd, Monongahela, PA 15063",
+        "latitude": 40.1649689,
+        "longitude": -79.9223894,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://wvumedicine.org/uniontown/services/orthopedics/?sub=https://wvumedicine.org/uniontown/services/orthopedics/spine-neck-and-back/",
+        "phoneNumber": "(724) 912-7533",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ODnVG83RDRk1VLmdypBYYQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=283.3669&pitch=0&thumbfov=100",
+        "cid": "8736584773318891992",
+        "fid": "0x883503004fbb2d57:0x793e95901bc259d8",
+        "placeId": "ChIJVy27TwADNYgR2FnCG5CVPnk"
+      },
+      {
+        "position": 15,
+        "title": "Gateway Foot And Ankle - Charleroi",
+        "address": "17 Arentzen Blvd #103, Charleroi, PA 15022",
+        "latitude": 40.1250073,
+        "longitude": -79.8859449,
+        "rating": 3.7,
+        "ratingCount": 6,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Podiatrist"
+        ],
+        "website": "http://gatewayfootandankle.net/",
+        "phoneNumber": "(724) 489-1020",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_1-rq6YTWUwxDZB5if6sXQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=74.16267&pitch=0&thumbfov=100",
+        "cid": "14407591057856116039",
+        "fid": "0x88351c91e2d94af9:0xc7f20bbb809bb547",
+        "placeId": "ChIJ-UrZ4pEcNYgRR7WbgLsL8sc"
+      },
+      {
+        "position": 16,
+        "title": "Regenix Orthopedic Group, Dr. Ari Pressman MD",
+        "address": "Spartan Health, 100 Stoops Dr Suite 310, Monongahela, PA 15063",
+        "latitude": 40.162306,
+        "longitude": -79.924658,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.regenixorthopedics.com/",
+        "phoneNumber": "(724) 220-6990",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcFg_xZNDvJ_p-c9REOI5oAtiQXoQH2X1B4ctPbqxzehbpSXSzJropnycuW3AP879oQdIMwBPRjpQlAysX9Ijmx47J1Rn2-fd4IhlhmQM9SqlCZ_gxiw-uXba15OxfhX66bDchwQRQ8uMp",
+        "cid": "4815749543447450017",
+        "fid": "0x883503a135888cdb:0x42d4fab1e06f51a1",
+        "placeId": "ChIJ24yINaEDNYgRoVFv4LH61EI"
+      },
+      {
+        "position": 17,
+        "title": "Michael Scheel J MD",
+        "address": "1200 McKean Ave #106, Charleroi, PA 15022",
+        "latitude": 40.1450107,
+        "longitude": -79.9046647,
+        "rating": 2,
+        "ratingCount": 1,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(724) 489-0120",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V9CMsGt5x--PyBPFJjJspg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=106.14352&pitch=0&thumbfov=100",
+        "cid": "4505961007235831604",
+        "fid": "0x88351cdb0732bc09:0x3e8863a9980d9734",
+        "placeId": "ChIJCbwyB9scNYgRNJcNmKljiD4"
+      },
+      {
+        "position": 18,
+        "title": "Dr. Alexander Kandabarow, MD",
+        "address": "625 Lincoln Ave, Charleroi, PA 15022",
+        "latitude": 40.138855799999995,
+        "longitude": -79.9012424,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.theorthopedicgroup.com/",
+        "phoneNumber": "(724) 483-4880",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=djOa7ux0fMVHqo-xqDr5ng&cb_client=search.gws-prod.gps&w=80&h=92&yaw=252.99744&pitch=0&thumbfov=100",
+        "cid": "17819914530127907820",
+        "fid": "0x88351cc3be26767d:0xf74d0dd9e8188bec",
+        "placeId": "ChIJfXYmvsMcNYgR7IsY6NkNTfc"
+      },
+      {
+        "position": 19,
+        "title": "Dr. Christopher E. Emond, MD",
+        "address": "625 Lincoln Ave # 108, Charleroi, PA 15022",
+        "latitude": 40.149178,
+        "longitude": -79.9067531,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(724) 483-4880",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF29UZkShHRQb242GoIrZFLRKY7DWZ0vhlhjsCGbALcDfjq74-aLfSMtZvifRbsqkQZNUT7o-EiOoo67hgRscRf5N8PQzFhDdNbbzGQP-gLjisnx5W6ySwZT08rcdyCVY9W1vE",
+        "cid": "12797273086588899982",
+        "fid": "0x88351cc3be26767d:0xb1990c11c3cc528e",
+        "placeId": "ChIJfXYmvsMcNYgRjlLMwxEMmbE"
+      },
+      {
+        "position": 20,
+        "title": "Signature Orthodontics (formerly Mortimer Orthodontics)",
+        "address": "125 Rock Run Rd, Elizabeth, PA 15037",
+        "latitude": 40.2759803,
+        "longitude": -79.8359291,
+        "rating": 5,
+        "ratingCount": 155,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.signature-orthodontics.com/",
+        "phoneNumber": "(412) 751-2162",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6U42ojNTLe1WT0w_XPbALeQem_5n7o5-rYzk_U-6fPW8m6MdiloPgtuLeRc_Z9CfcHBPBDT3oNAwhpRUcCxePu35JnjRc9V62-IZupFjOU_T4BBWrOfJr5vXbel9kY2zTEo7fBQ",
+        "cid": "255572238505988734",
+        "fid": "0x8834e4048839fca5:0x38bf998ca99d27e",
+        "placeId": "ChIJpfw5iATkNIgRftKZypj5iwM"
+      }
+    ],
+    "credits": 3
+  }
+}

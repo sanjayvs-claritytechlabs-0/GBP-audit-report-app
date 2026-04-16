@@ -1,0 +1,632 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@35.0094981,-89.7233695,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Spartan Orthopaedics & Sports Medicine",
+        "address": "6518 Goodman Rd STE 104, Olive Branch, MS 38654",
+        "latitude": 34.9629364,
+        "longitude": -89.8750457,
+        "rating": 4.8,
+        "ratingCount": 378,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "http://championortho.com/",
+        "phoneNumber": "(662) 420-7350",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvRUb7ZJnHrxDZqcP8MDh8gKwACEWjlxhdNAPRWvm46PKZIwDchVosmeSY96ktqiZ1ojH2ORakJ7h-gRm27HkfZMUCv0dm4JAkU3pzNzKq115_QlI7ctD_jU7KinrQxbp8gZg",
+        "cid": "12953563778555704880",
+        "fid": "0x887f8eb1ef8ea4e3:0xb3c44da02c2df630",
+        "placeId": "ChIJ46SO77GOf4gRMPYtLKBNxLM"
+      },
+      {
+        "position": 2,
+        "title": "OrthoSouth Germantown | Orthopedic Clinic",
+        "address": "2100 Exeter Rd #200, Germantown, TN 38138",
+        "latitude": 35.092757899999995,
+        "longitude": -89.80148919999999,
+        "rating": 4.8,
+        "ratingCount": 964,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouthGermantown%7COrthopedicClinic&scct=PN6d4801c786de531305a30074e4282e68",
+        "phoneNumber": "(901) 699-4436",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHw16H5K1TEPbtGsateEn6_ObsnuRp69Hg12sNEJpZq-7sa8LJL7Ui1-M7JPRkr-x8Aa5838NE3t7O7-IppHwYZ-lh-E4ejEFMlzNq_E4otmHLMA3wrbms5JMtAi-jL72tmBLB6ZhVyCLSe",
+        "cid": "13943111447988757788",
+        "fid": "0x887f9b2ee7320249:0xc17fe1fcf90d651c",
+        "placeId": "ChIJSQIy5y6bf4gRHGUN-fzhf8E"
+      },
+      {
+        "position": 3,
+        "title": "OrthoSouth",
+        "address": "6286 Briarcrest Ave, Memphis, TN 38120",
+        "latitude": 35.1029012,
+        "longitude": -89.85354029999999,
+        "rating": 4.8,
+        "ratingCount": 1929,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Urgent care center"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PNca150b42a293d29806e41ff0a41f4235",
+        "phoneNumber": "(901) 499-4832",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "bookingLinks": [
+          "https://orthosouth.radixhealth.com/dash/self2/#/provider-search?facility_ids=22"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESJkoU5KqjBTCpI2leCNtv3zfxEDw_S-ZQrDxBETiKbitKhlCCgtZTUN-WLrR0aVS5c6MtEJ5g_Q2IcBL_tXyQv4NqG20LRH-YnhkWhEqUOub6zl0guK047ihso2tDLz-YHX7CQvl5Pa8",
+        "cid": "8337901037488161279",
+        "fid": "0x887f855bcb0652bd:0x73b62cd147d7c1ff",
+        "placeId": "ChIJvVIGy1uFf4gR_8HXR9EstnM"
+      },
+      {
+        "position": 4,
+        "title": "Titan Orthopedics",
+        "address": "795 Ridge Lake Blvd #103, Memphis, TN 38120",
+        "latitude": 35.1102237,
+        "longitude": -89.8685261,
+        "rating": 4.9,
+        "ratingCount": 1956,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.titanorthopedics.com/",
+        "phoneNumber": "(901) 255-6532",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.titanorthopedics.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD4bPzR-c1XerJo4V9Q4LmXXKdSvkSPizuH0x5EFgWVCH8INlYn67a68WZJu7tDWX1d9eo0IEuSzapR8uSVQlxKbujwbxHFsoPJoHLllOusHN79rZRfPfv7_jnwI2txmj4231-O4VgEBo",
+        "cid": "10690137886979021350",
+        "fid": "0x887f84b8909cb183:0x945affc4f9545a26",
+        "placeId": "ChIJg7GckLiEf4gRJlpU-cT_WpQ"
+      },
+      {
+        "position": 5,
+        "title": "OrthoSouth",
+        "address": "1244 Primacy Pkwy, Memphis, TN 38119",
+        "latitude": 35.0972794,
+        "longitude": -89.86209439999999,
+        "rating": 4.9,
+        "ratingCount": 785,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PNf32c40df6a752282d9358e6f7965d54d",
+        "phoneNumber": "(901) 699-4389",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthosouth.radixhealth.com/dash/self2/#/provider-search?facility_ids=41"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRsot1YP1DXtMEmdQPz2OnMu8uRhyD-ek0pV89PAGLg4hQfTJuAKlJs2oGDi9pOKZif_05fMexKDAsDwyP6vgK_Ig-XVSVqaq8MGiJMHXDqwXB-L3icHuIEf5GIsqM7J245wrUEN9o0pq0",
+        "cid": "9646953095287710541",
+        "fid": "0x887f84c449d5519d:0x85e0dcba797aa34d",
+        "placeId": "ChIJnVHVScSEf4gRTaN6ebrc4IU"
+      },
+      {
+        "position": 6,
+        "title": "OrthoSouth",
+        "address": "3045 Kate Bond Rd, Bartlett, TN 38133",
+        "latitude": 35.2088684,
+        "longitude": -89.8023407,
+        "rating": 4.8,
+        "ratingCount": 1600,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PN546c66a9cf6a8ffbfc6561a57c545da3",
+        "phoneNumber": "(901) 699-4455",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "9 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3tnTgxnoOz4Xec86uELWm-Dg3Dix6RN0YJK1tB-l35Lq9xMkHFxVfSf7BdmlQD2vjePqJrxIpm_yVCerc7pdZCg5Kj0zP414zJ91NLUQRkxlVVMoJ458FXo1XHtBSG6auiDlmO8eQtmdc",
+        "cid": "17251741174581339902",
+        "fid": "0x887f9d8f1c719869:0xef6a7f31d3e6a6fe",
+        "placeId": "ChIJaZhxHI-df4gR_qbm0zF_au8"
+      },
+      {
+        "position": 7,
+        "title": "OrthoXpress of Southaven",
+        "address": "125 Goodman Rd W # D, Southaven, MS 38671",
+        "latitude": 34.9611473,
+        "longitude": -89.99190519999999,
+        "rating": 4.9,
+        "ratingCount": 175,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://speedheals.com/southaven",
+        "phoneNumber": "(662) 932-3560",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGrbTYoniEj98wgm3qPgpvQ8y5taV0pnMvfxIhitjGgUa4YbuHTlFYKPPs6ZTyP6CdUhzMf_79KuPCqWRneweM2NjdEg6n6oCzclVIq75pFoUv_z9f-4qp0tUYrEwwq8jyIuMRR",
+        "cid": "2345536634272737989",
+        "fid": "0x887f898f52bd421f:0x208d0524457deac5",
+        "placeId": "ChIJH0K9Uo-Jf4gRxep9RSQFjSA"
+      },
+      {
+        "position": 8,
+        "title": "OrthoXpress of Memphis",
+        "address": "6515 Poplar Ave # 106, Memphis, TN 38119",
+        "latitude": 35.098889,
+        "longitude": -89.8460759,
+        "rating": 5,
+        "ratingCount": 33,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://speedheals.com/memphis",
+        "phoneNumber": "(901) 426-1090",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpe9OcLu1ZlvokzEVP42TkYmWPd4ui7XFxyDRzJM8oHNCGk7VgmNeCefvGawiMxSpb1hM8og3mGgCll2469Qh19cDlbisAAhSTqBiBlaglltY6qhYiqYHV0Ip-3NO4QzSDO9V3",
+        "cid": "4268890182656578715",
+        "fid": "0x887f9be8b342b54b:0x3b3e2500ea65d49b",
+        "placeId": "ChIJS7VCs-ibf4gRm9Rl6gAlPjs"
+      },
+      {
+        "position": 9,
+        "title": "OrthoSouth",
+        "address": "7580 Clarington Cove, Southaven, MS 38671",
+        "latitude": 34.9702117,
+        "longitude": -89.9876855,
+        "rating": 4.8,
+        "ratingCount": 812,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Sports medicine clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PN1416d3f60dee85507fbedd1ab4789332",
+        "phoneNumber": "(901) 699-4493",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthosouth.radixhealth.com/dash/self2/#/provider-search?facility_ids=825"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzRXIbfrh7-TBQfJKdQhDw_c-8ojluCOb8IEEfc_suN2WTQ3NNFKOgAXHLl4MzikinAOTsAbr0OKfd8n-VYaC3xpoJYw5nbtDlbm9B9EDjmoJBjkRMY0-VI_vl41KoZf76h5VA",
+        "cid": "3046148600969749521",
+        "fid": "0x887f89d91922ce3f:0x2a4618036ddae411",
+        "placeId": "ChIJP84iGdmJf4gREeTabQMYRio"
+      },
+      {
+        "position": 10,
+        "title": "OrthoOne Sports Medicine",
+        "address": "9085 Sandidge Center Cove, Olive Branch, MS 38654",
+        "latitude": 34.9463171,
+        "longitude": -89.8281781,
+        "rating": 3.6,
+        "ratingCount": 15,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Physical therapist"
+        ],
+        "website": "http://www.orthoone.org/",
+        "phoneNumber": "(662) 890-2663",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I7COaqAhlTh0ARMbey8a9w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=136.02313&pitch=0&thumbfov=100",
+        "cid": "15032535823251118562",
+        "fid": "0x887f922103143193:0xd09e4baf7a3799e2",
+        "placeId": "ChIJkzEUAyGSf4gR4pk3eq9LntA"
+      },
+      {
+        "position": 11,
+        "title": "OrthoSouth",
+        "address": "4515 Poplar Ave #206, Memphis, TN 38117",
+        "latitude": 35.1176554,
+        "longitude": -89.9116873,
+        "rating": 4.8,
+        "ratingCount": 333,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PN088670e799269a5e96d131a9e59f7494",
+        "phoneNumber": "(901) 699-4384",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFO8p7R6mwuOmp_HHQj0SkYsQg3vyrvsgigVHtC0H87GHp9_nFe5Me0e-5Jsvpmh49LqBH5rcMdMX6hRbTBWq6LLE5vPNkD47QIEgS_Ae0GmLDE9hDqDYtgrdpNRKLwwKX9nIfSHcvR9UvS",
+        "cid": "13188420674766150457",
+        "fid": "0x887f85dc0c746c97:0xb706aeba7bda9b39",
+        "placeId": "ChIJl2x0DNyFf4gROZvae7quBrc"
+      },
+      {
+        "position": 12,
+        "title": "OrthoSouth Arlington",
+        "address": "5150 Airline Rd Suite 400, Arlington, TN 38002",
+        "latitude": 35.2663183,
+        "longitude": -89.6661182,
+        "rating": 4.8,
+        "ratingCount": 314,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PN31b6b3d7e58ed1cb9ac107ec6a1fc426",
+        "phoneNumber": "(901) 699-4537",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://orthosouth.radixhealth.com/dash/self2/#/provider-search?facility_ids=886"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEaoYVu3GEY41naZkpnSQ3Sx95qtusIKwdSy0tuXQFjkGqTK2ql4HDwZCLF1FX4ujgjnfkLIQ5vd4K2v8GN2K2eYPSYJDbQDUS7ifzO9zWbBoLjAurFpzzwOKiTFwl-K4eYjD0",
+        "cid": "1041512778934087935",
+        "fid": "0x887f0b8538948421:0xe74325ab16570ff",
+        "placeId": "ChIJIYSUOIULf4gR_3BlsVoydA4"
+      },
+      {
+        "position": 13,
+        "title": "OrthoOne Sports Medicine",
+        "address": "99 Market Center Dr, Collierville, TN 38017",
+        "latitude": 35.0421688,
+        "longitude": -89.6979937,
+        "rating": 4.4,
+        "ratingCount": 48,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.orthoone.org/",
+        "phoneNumber": "(901) 861-9610",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVdDHQ4kpPZi0Uor_2Y2Zf90KGbUgN0TvVMLtrjqNDDyMaGptINSwa40nJVpQo4AToYHnQOv07jc5NkpiHK2I0cavO06Ol_jWToO8eRPGlsrFukX4Ts82kVwuPNnCwR5p34eyj-A",
+        "cid": "2218653835012807161",
+        "fid": "0x887fa2aa28b1b3c3:0x1eca3de8737f19f9",
+        "placeId": "ChIJw7OxKKqif4gR-Rl_c-g9yh4"
+      },
+      {
+        "position": 14,
+        "title": "Ortho Sport & Spine Physicians",
+        "address": "2965 N Germantown Pkwy # 129, Bartlett, TN 38133",
+        "latitude": 35.206828,
+        "longitude": -89.7944529,
+        "rating": 4.8,
+        "ratingCount": 41,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Pain control clinic",
+          "Pain management physician",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthosportandspine.com/location/memphis-tn/",
+        "phoneNumber": "(901) 202-4453",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFlCBgfo-b6bBRZycDUGo1eAO3wh-furrI5HGk5otpEVWmmKCC0QxGZ7JJBykNZ8s5cGIy7Bcjw0RCBvw8Xo6CMTdnf0-aFB6dAU0wXqk1TcBj8CW0FpRI0XDvQrqKuPwIbgTjygEfu0Wk",
+        "cid": "3607418526155980514",
+        "fid": "0x887f9d7f607dedb7:0x321020095fb0bee2",
+        "placeId": "ChIJt-19YH-df4gR4r6wXwkgEDI"
+      },
+      {
+        "position": 15,
+        "title": "OrthoSouth",
+        "address": "2670 McIngvale Rd J, Hernando, MS 38632",
+        "latitude": 34.820601499999995,
+        "longitude": -89.9697162,
+        "rating": 4.8,
+        "ratingCount": 266,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouth&scct=PN37707ce789dc55d8f21d0f8fb9093326",
+        "phoneNumber": "(901) 699-4354",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9ZCz1xEQvP6UnkjcdEzuT-K0lI7EoC3IUAXMzma1o3fJ-8ck5-gizlJS5Zoa0p71CYZ65j7NfL7N1p-udwDLfGJ3Fa5TceTxHUptc1HpTnvBi6LHfu7SiKe5WNfYXMZaisZl9pWsqwRA",
+        "cid": "8009436270671532718",
+        "fid": "0x887ff5e7ab3c7e35:0x6f273bda348192ae",
+        "placeId": "ChIJNX48q-f1f4gRrpKBNNo7J28"
+      },
+      {
+        "position": 16,
+        "title": "OrthoXpress of Holly Springs",
+        "address": "273 Whaley Ave Ste B, Holly Springs, MS 38635",
+        "latitude": 34.7526779,
+        "longitude": -89.4548339,
+        "rating": 5,
+        "ratingCount": 64,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.speedheals.com/hollysprings",
+        "phoneNumber": "(662) 333-8181",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYq-ZO58ETOh1IFEeTEjZx4JW0GsQ9GZBFsRv5eWuM24TdiKl1tR2hWo8smolaDBQr7G5oVvzAqC4YIRP79pFFeUJgWPQb4ldNT6dbPfZfD8bzW0lDk9twS16aH3aLSfoXy_v6",
+        "cid": "7516988682805765212",
+        "fid": "0x887fcd0953fa2adf:0x6851b5615b44e45c",
+        "placeId": "ChIJ3yr6UwnNf4gRXOREW2G1UWg"
+      },
+      {
+        "position": 17,
+        "title": "Campbell Clinic Orthopaedics - Olive Branch",
+        "address": "6760 Goodman Rd Suite 110, Olive Branch, MS 38654",
+        "latitude": 34.9628808,
+        "longitude": -89.8704133,
+        "rating": 4.8,
+        "ratingCount": 211,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.campbellclinic.com/locations-and-hours/",
+        "phoneNumber": "(901) 759-3111",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4 PM",
+          "Tuesday": "7:30 AM–4 PM",
+          "Wednesday": "7:30 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHyrFDGtdGiKh82qUu5Q10fm_-TTOLSbeXoByGAM156RJjawUxpfFN8DYkzlXzX1LHluIc6pN_3cI7gV1-mtIc5E56rI3dnEBnqybQA9QCSo3NBX7ou8JK_bbVLx3g9UplJXSzB",
+        "cid": "11206309093404211054",
+        "fid": "0x887f8fc109dec23d:0x9b84cebf3396776e",
+        "placeId": "ChIJPcLeCcGPf4gRbneWM7_OhJs"
+      },
+      {
+        "position": 18,
+        "title": "OrthoSouth Germantown Surgery Center",
+        "address": "2100 Exeter Rd # 101, Germantown, TN 38138",
+        "latitude": 35.092757899999995,
+        "longitude": -89.80148919999999,
+        "rating": 4.6,
+        "ratingCount": 123,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Surgical center",
+          "Spine surgeon"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouthGermantownSurgeryCenter&scct=PN21470c89f1358e0a3528675f44cedc35",
+        "phoneNumber": "(901) 699-4485",
+        "openingHours": {
+          "Thursday": "6 AM–5 PM",
+          "Friday": "6 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6 AM–5 PM",
+          "Tuesday": "6 AM–5 PM",
+          "Wednesday": "6 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthosouth.radixhealth.com/dash/self/#/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHETBbaj39bGKp8SMag2jTMtczHErlWzXvjjokQTIY1hxIHW2TeYbeEpYVNJhOTCEAMeeMczS5ZxWLw-cRtn_2JietWtIMxVKkWDv7vNIQ7HHXEuuwrt5o2QdZYne5KZpxmbosGLpSTSJsr",
+        "cid": "14910561208091468598",
+        "fid": "0x887f9b1d0c48e21d:0xceecf46b5202e336",
+        "placeId": "ChIJHeJIDB2bf4gRNuMCUmv07M4"
+      },
+      {
+        "position": 19,
+        "title": "Delta Orthopaedics & Sports Medicine",
+        "address": "511 Market Blvd Suite 103, Collierville, TN 38017",
+        "latitude": 35.0516717,
+        "longitude": -89.694999,
+        "rating": 4.9,
+        "ratingCount": 967,
+        "type": "Nurse practitioner",
+        "types": [
+          "Nurse practitioner"
+        ],
+        "website": "http://www.deltaorthosports.com/",
+        "phoneNumber": "(901) 850-1150",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHB-6HY379wnmIH84BK7fKxaGLoJyvj0SicoxTZHECJGwjTMFZ0Mc4G85HLoCBT-AxHSS50dLqa0n7tepGdpPU2ZZ6eB8yFEDEZ-DnfeaQLC8jVL1XvAAfKpVZcfcmEOmdNp5bqgA",
+        "cid": "9503461342660377189",
+        "fid": "0x887f981ac8888129:0x83e313bd59edba65",
+        "placeId": "ChIJKYGIyBqYf4gRZbrtWb0T44M"
+      },
+      {
+        "position": 20,
+        "title": "Mississippi Sports Medicine and Orthopaedic Center (formally Oxford Orthopaedics)",
+        "address": "2018 McIngvale Rd # 102, Hernando, MS 38632",
+        "latitude": 34.8309486,
+        "longitude": -89.9717441,
+        "rating": 4.9,
+        "ratingCount": 72,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Pediatric orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://mississippisportsmedicine.com/location/hernando?utm_source=GMBSocialClimb&utm_medium=OxfordOrthopaedics",
+        "phoneNumber": "(662) 883-5879",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhTtCehd6j2qtC4CbR43i5VEh0gt7oD1Ssa99aUqRXThfCbV3dfGEIAEysZhUu5ytVoC783QnG9XxhkElc_zKzwB_kV9pmTR5OEhF3G_i3tLxjG0k_vvpuxbmhFYnlOLwZEw-ltXgMS60",
+        "cid": "17850993609772209547",
+        "fid": "0x88807ace0411b62d:0xf7bb781c063d958b",
+        "placeId": "ChIJLbYRBM56gIgRi5U9Bhx4u_c"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.325865,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@38.2795659,-122.4533183,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnHCfLtg3W7lbEAWw9W-dk3wy7n2TMuaiUElAvjue-PVs6cYguLecSJF61AzHWdOtdGiwB11WE8dseTXpxM0-CF72GzSTxFPV0jenZosGSyuKoRMFxc%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnGyu3sAFffh9JOBAAB87byEucGrxCxoSRZyX5LJISCrrEA92KaJ_WU0OyFwccM1I5uUXcqNmLpXPBmWWylaaQfHH1EhawwI10h4LeZ4Jz2YFY0YKic%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 2,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnFTDT3H2E5hgpRVnohJS79ldZ4T-jISjCm8e60qwqwigNtzI7tLAHwv00kzVSA1vsyQLVUi8a1CFGqErjN5QVsDvmRZDQrNhHfEd3AcVhS07R2hg4Q%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,629 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.33934,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4yNzgwNjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@33.5553733,-112.2584638,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "OrthoArizona – Avondale",
+        "address": "10450 W McDowell Rd Ste. 102, Avondale, AZ 85392",
+        "latitude": 33.4650791,
+        "longitude": -112.28634609999999,
+        "rating": 4.8,
+        "ratingCount": 2281,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.orthoarizona.org/locations/orthoarizona-avondale",
+        "phoneNumber": "(623) 846-7614",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoarizona.org/schedule-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSxoo3nDhIE44E6ZKAvlyWV-30uCpRILZxIpIBqfWA0vajV8TsMfGK7p1AGa_DVQUUR_K2B-F7X8egKauKWvJjxczR46aNXVdJIrM-ZX9a7idY2V4TO1bTZtqh5RPzh6By6o6yrq9Y7H1J",
+        "cid": "13265027725071215583",
+        "fid": "0x872b3f0a7fb4428b:0xb816d86f5093ebdf",
+        "placeId": "ChIJi0K0fwo_K4cR3-uTUG_YFrg"
+      },
+      {
+        "position": 2,
+        "title": "az ortho - peoria",
+        "address": "13660 N 94th Dr Suite C4, Peoria, AZ 85381",
+        "latitude": 33.6081156,
+        "longitude": -112.26344999999999,
+        "rating": 4.9,
+        "ratingCount": 201,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.azortho.com/?utm_source=GMBSocialClimb&utm_medium=AZOrtho-Peoria",
+        "phoneNumber": "(480) 697-4824",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBI1W5jAtGOqhSL2iyjd0OXIt7xRO3Qn6FPKZ6ZkXHMzTPMXjTS2unjPHBQCTtTf6cO9jcUNv5koDr6moRHgQC3xDjbmS547CrgDA6ku2aiFkDmc7dAS65nCVp_3GGWhmbuzAwZuIwKlDU",
+        "cid": "9307994868220870828",
+        "fid": "0x872b4337cb5f5877:0x812ca4044b76c0ac",
+        "placeId": "ChIJd1hfyzdDK4cRrMB2SwSkLIE"
+      },
+      {
+        "position": 3,
+        "title": "AzOPT - Arizona Orthopedic Physical Therapy Glendale",
+        "address": "9980 W Glendale Ave #110, Glendale, AZ 85307",
+        "latitude": 33.537571299999996,
+        "longitude": -112.2758425,
+        "rating": 4.9,
+        "ratingCount": 136,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic",
+          "Physical therapist"
+        ],
+        "website": "https://azopt.net/azopt-glendale/",
+        "phoneNumber": "(623) 335-3748",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://azopt.net/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt-T0hM2MqRdUxe8le36_JgbrMCV6l_G5ZV-P4V4z4krGMFA0xHh11P-YVTN4kdc5h_70Icy_cipFhfCbMAOSopvfpiudejrvilyjZUpnjFhGWOBMZAFCsXSU87w73C0yd04RcgGFuNDs",
+        "cid": "295678399356148339",
+        "fid": "0x872b41adb660c153:0x41a75f009611a73",
+        "placeId": "ChIJU8Fgtq1BK4cRcxphCfB1GgQ"
+      },
+      {
+        "position": 4,
+        "title": "OrthoArizona – Peoria",
+        "address": "6760 W Thunderbird Rd # E110, Peoria, AZ 85381",
+        "latitude": 33.6122525,
+        "longitude": -112.2041143,
+        "rating": 4.8,
+        "ratingCount": 1856,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://orthoarizona.org/locations/orthoarizona-peoria",
+        "phoneNumber": "(623) 846-7614",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoarizona.org/schedule-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEIrMc26_5C55b5aH4oZm1o6ms6HRoxl81S3SGBT5yynPnM5MWl1j4OAp_93Gg2Q4Ru7iYC8fu1lCLTGEjTs44qdQWp6c7Yp9sGgxm7XQ4hF1J6bK_MFLbzCdNHKifEuUXnKHc",
+        "cid": "13724634340840841573",
+        "fid": "0x872b69bd6a0ac577:0xbe77b2377df22165",
+        "placeId": "ChIJd8UKar1pK4cRZSHyfTeyd74"
+      },
+      {
+        "position": 5,
+        "title": "Arizona Orthodontic Centers",
+        "address": "4130 N 108th Ave STE 103, Phoenix, AZ 85037",
+        "latitude": 33.4942436,
+        "longitude": -112.29356709999999,
+        "rating": 5,
+        "ratingCount": 1823,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.azorthodonticcenter.com/",
+        "phoneNumber": "(623) 877-8500",
+        "openingHours": {
+          "Thursday": "9 AM–3 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–3 PM",
+          "Tuesday": "9 AM–3 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdvKtf9ln8J9xUcz5b9ST5O7T0wSiEvU0BU6FxDzeYsy5WUnxxNX9yUqznW1EXpEJCux_D0MwVk3naweT62mrIu5eot6_N6N_U14ej1wkBQNOfIBpIjFWmVYHzzs1JT-dunCi-xQ",
+        "cid": "17944105818414069423",
+        "fid": "0x872b40846bc71571:0xf906452b7e9736af",
+        "placeId": "ChIJcRXHa4RAK4cRrzaXfitFBvk"
+      },
+      {
+        "position": 6,
+        "title": "OrthoArizona – Litchfield Park",
+        "address": "14044 W Camelback Rd Ste 120, Litchfield Park, AZ 85340",
+        "latitude": 33.509330399999996,
+        "longitude": -112.36213699999999,
+        "rating": 4.9,
+        "ratingCount": 1176,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://orthoarizona.org/locations/orthoarizona-litchfield-park",
+        "phoneNumber": "(623) 846-7614",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoarizona.org/schedule-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpy4pjtryPCEQgq_cSr4Y4IvTLf6qu52_Jig8-erLT7dv3dPrS2IDbG9id6LkOASVTJdExbf62WzoZiqzcIjIskqJeXBoFtMVgrGz2DKPhVyxnObYUEaFPiuEUoW3CYrfo9eA",
+        "cid": "748647700402450401",
+        "fid": "0x872b4778d98e19e1:0xa63bb1df466afe1",
+        "placeId": "ChIJ4RmO2XhHK4cR4a9m9B27Ywo"
+      },
+      {
+        "position": 7,
+        "title": "Wild West Orthodontics",
+        "address": "9515 W Camelback Rd STE 102, Phoenix, AZ 85037",
+        "latitude": 33.507946499999996,
+        "longitude": -112.264696,
+        "rating": 4.6,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://wildwestorthodontics.com/",
+        "phoneNumber": "(623) 535-6603",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEniJY5affwXpxfEx0ifapUXsDRILNFaHTTlsct-DFCUtpIYn9zgHJAshzEPQ_1i06Buw99FeXesVwVzfSDejnFvkW7bk_EKANNYv8t899s3fVURUzG5f2drUIVPrTjfBV8M5dUnQ",
+        "cid": "9558040185358420850",
+        "fid": "0x872b41ce743b0c13:0x84a4fae86d328b72",
+        "placeId": "ChIJEww7dM5BK4cRcosybej6pIQ"
+      },
+      {
+        "position": 8,
+        "title": "IMS Orthopedics - Integrated Medical Services",
+        "address": "7330 N 99th Ave #325, Glendale, AZ 85305",
+        "latitude": 33.5427026,
+        "longitude": -112.2752009,
+        "rating": 3.2,
+        "ratingCount": 13,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(623) 882-1292",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgaeHKy64ycO-aKv7Nalna0b0pXQST8dHYezqPONKgWtNmEwD7MceAK35x57bJaWXhf239WWKPEmOmqM6tc-M7yMWw_2uuHK1SlsccuWjS-LazN-bOol8SdqYs28GHkJJZB7_9vg",
+        "cid": "4565839948442213238",
+        "fid": "0x872b4116348bbec5:0x3f5d1f3e042f9b76",
+        "placeId": "ChIJxb6LNBZBK4cRdpsvBD4fXT8"
+      },
+      {
+        "position": 9,
+        "title": "New Image Orthodontics",
+        "address": "9515 W Camelback Rd Suite 124, Phoenix, AZ 85037",
+        "latitude": 33.5077548,
+        "longitude": -112.2642103,
+        "rating": 4.9,
+        "ratingCount": 672,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.mynewimagesmile.com/",
+        "phoneNumber": "(623) 825-9445",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6l7x8R1xTR6nOCLcf6OVpjuMXUuAoD5mlywgS19dX7pEV-ggTPivR8RM99a80lvTicQkGFr1pZ6SplBDPMMi2jhd1DcUTj8ocbiVtcqtfmmt5RS_-A7I6khU-MKGNY0jlnrJB",
+        "cid": "12334185115738390027",
+        "fid": "0x872b406c902e7ff9:0xab2bd403717f3e0b",
+        "placeId": "ChIJ-X8ukGxAK4cRCz5_cQPUK6s"
+      },
+      {
+        "position": 10,
+        "title": "Arizona Desert Orthopedic Center",
+        "address": "13660 N 94th Dr C1, Peoria, AZ 85381",
+        "latitude": 33.6078987,
+        "longitude": -112.2632381,
+        "rating": 4.5,
+        "ratingCount": 26,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "http://oandpcareaz.com/",
+        "phoneNumber": "(623) 974-6542",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4:30 PM",
+          "Tuesday": "9 AM–4:30 PM",
+          "Wednesday": "9 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDUgsky5j6FE21Y5HDuXSIFH1zlb_4IOJ5G0x7b49tcq6k2C7hGH94_cifHmOjKsKVBu8IH3nt-TXiDCeLzeDMeNroZRkcRi3tjJlopY3rHu4ELOWMWJjGhEdQXXa8fF25JxxWVA",
+        "cid": "5521556812392807179",
+        "fid": "0x872b424289df98f1:0x4ca082aa99cfbb0b",
+        "placeId": "ChIJ8ZjfiUJCK4cRC7vPmaqCoEw"
+      },
+      {
+        "position": 11,
+        "title": "HonorHealth Orthopedics - Peoria Medical Campus",
+        "address": "15000 N 83rd Ave #305, Peoria, AZ 85381",
+        "latitude": 33.6207626,
+        "longitude": -112.2382746,
+        "rating": 4.9,
+        "ratingCount": 54,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.honorhealth.com/locations/specialty-care/honorhealth-orthopedics-peoria-medical-campus?utm_source=yext&utm_medium=local&utm_campaign=peoria_orthopedics",
+        "phoneNumber": "(480) 534-4549",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfJPQKemvJDATg9p4t09oWVURLcahT7Tv5kv6Bmb9wPlIIhsDW8TpSE-2EWLzJyOVuv8V9WXrLTAqz_dcslWkq2ryD1wCvPBUD02okTL_RRVDpumCzB2Xe7lS6a8EjSwgukLCTdHiWJzoC",
+        "cid": "16445743287336883103",
+        "fid": "0x872b69aa5c69854b:0xe43b0462f4fad39f",
+        "placeId": "ChIJS4VpXKppK4cRn9P69GIEO-Q"
+      },
+      {
+        "position": 12,
+        "title": "Rusty Jones Orthodontics",
+        "address": "2330 N 75th Ave #100, Phoenix, AZ 85035",
+        "latitude": 33.4741326,
+        "longitude": -112.2211576,
+        "rating": 4.9,
+        "ratingCount": 1130,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rustyjonesortho.com/location/west-valley/?utm_source=gbp&utm_medium=organic&utm_campaign=west-valley&utm_content=listing",
+        "phoneNumber": "(623) 335-0051",
+        "openingHours": {
+          "Thursday": "9:30 AM–5 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–5 PM",
+          "Tuesday": "9:30 AM–5 PM",
+          "Wednesday": "9:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rustyjonesortho.com/new-patients/free-consultation/?utm_source=gbp&utm_medium=organic&utm_campaign=west-valley&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf8RH-iNc2DFz7c20wi47ie-9rC6VCJpO0a8oXJHLercthOS0E20sPNzqwoh8ISnB7J4e4FrPvqYyvsawbnXUuhzEcH0REFZBwkqvgwJm88EzDX1dURwa-t3NlUkpq3q4FX_yf1w",
+        "cid": "4213431970058997002",
+        "fid": "0x872b6830c6911d2d:0x3a791e0d94a40d0a",
+        "placeId": "ChIJLR2RxjBoK4cRCg2klA0eeTo"
+      },
+      {
+        "position": 13,
+        "title": "Banner Children's Specialists Orthopedics Clinic | Glendale, AZ | Eugie Ave.",
+        "address": "5601 W Eugie Ave Ste 100, Glendale, AZ 85304",
+        "latitude": 33.606693199999995,
+        "longitude": -112.1809997,
+        "rating": 4.8,
+        "ratingCount": 72,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.bannerhealth.com/locations/glendale/banner-childrens-specialists-orthopedics-clinic-thunderbird?y_source=1_MTMxMDk0ODktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(602) 865-4510",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpjt83LmFjgIhxYm2HS4NsLzL-aNe88e5WrlwrwXN1r-rMe1C5ZiEVQqbHN3widFypk1nyfJXhBVS7_nalGNu87usDaOUdDXVK1pEwttmuMJ6oKdwXcGzvGm4biiHN8gV_zFkzIg",
+        "cid": "8534505388623507813",
+        "fid": "0x872b69282adab423:0x7670a76ee68fb165",
+        "placeId": "ChIJI7TaKihpK4cRZbGP5m6ncHY"
+      },
+      {
+        "position": 14,
+        "title": "Angle Orthodontics",
+        "address": "5400 W Northern Ave # 201, Glendale, AZ 85301",
+        "latitude": 33.5533113,
+        "longitude": -112.175283,
+        "rating": 5,
+        "ratingCount": 213,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.angleorthodonticsaz.com/",
+        "phoneNumber": "(623) 500-5797",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.angleorthodonticsaz.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQ4CJi-s9cTC8vGGYuLWgFFbedjKuXeWXmFHsYkpvO703fiCVUbFNd_ID96OthYtegsAKUZ72hsVvKrwRYd_RQnuMs1sqtmktQITCr0F62qgLtpI13Ur88o0DCk_D-meFZ_d4p5CYzth8p",
+        "cid": "2330823284847803437",
+        "fid": "0x872b6ba770f998dd:0x2058bf6da78ffc2d",
+        "placeId": "ChIJ3Zj5cKdrK4cRLfyPp22_WCA"
+      },
+      {
+        "position": 15,
+        "title": "The CORE Institute - Peoria Lakes Club",
+        "address": "10484 W Thunderbird Blvd #100, Sun City, AZ 85351",
+        "latitude": 33.6066436,
+        "longitude": -112.2844339,
+        "rating": 4.9,
+        "ratingCount": 2192,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://thecoreinstitute.com/",
+        "phoneNumber": "(866) 974-2673",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://thecoreinstituteaz.com/schedule-online-now/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHoiZ08AaQy5PEgEsoWJIjUyZKhsqpQHxP7fKLxCWAAsYFCsVhZAntifMButYuyoKSW93F_Arxh2J2msLN7YoDCfQfj7BB1OePOiq6xUPPfKK8D8X9GEGNM2f1qvMPBVjVulmXv",
+        "cid": "5266202568174717739",
+        "fid": "0x872b43e222fc85f9:0x49154f558f4dcb2b",
+        "placeId": "ChIJ-YX8IuJDK4cRK8tNj1VPFUk"
+      },
+      {
+        "position": 16,
+        "title": "Sonoran Orthopaedic Trauma Surgeons, PLLC",
+        "address": "10240 W Indian School Rd STE 115, Phoenix, AZ 85037",
+        "latitude": 33.4942373,
+        "longitude": -112.2800383,
+        "rating": 3.6,
+        "ratingCount": 7,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "website": "https://sonoranortho.com/",
+        "phoneNumber": "(480) 874-2040",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mo5SLuRmBo_u-yDeGkcaiA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=100.58159&pitch=0&thumbfov=100",
+        "cid": "8788532794488289889",
+        "fid": "0x872b6d994bbd5c85:0x79f7240350587a61",
+        "placeId": "ChIJhVy9S5ltK4cRYXpYUAMk93k"
+      },
+      {
+        "position": 17,
+        "title": "Olson Orthodontics",
+        "address": "13575 W Indian School Rd STE 400, Litchfield Park, AZ 85340",
+        "latitude": 33.4869041,
+        "longitude": -112.35133359999999,
+        "rating": 5,
+        "ratingCount": 986,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.olsonortho.com/",
+        "phoneNumber": "(623) 536-7004",
+        "openingHours": {
+          "Thursday": "8 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "http://www.olsonortho.com/about-our-office/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5NTNQHlS1b7RZ1XfYxe_1v1kiN9ifonpB7msTbuSBWu6FsU4zCX-E008fbcBt9qn01A1zwD32v8SD7RpNpb90rskXYSg2qcl8O1p9WSH7meAYPwV5AtS5RmZusBeJBt7TbewrDQ",
+        "cid": "7830138988850798432",
+        "fid": "0x872b475b5a6959ef:0x6caa3decac635f60",
+        "placeId": "ChIJ71lpWltHK4cRYF9jrOw9qmw"
+      },
+      {
+        "position": 18,
+        "title": "OrthoArizona – Arrowhead",
+        "address": "18555 N 79th Ave Ste. E 101, Glendale, AZ 85308",
+        "latitude": 33.6497597,
+        "longitude": -112.229788,
+        "rating": 4.9,
+        "ratingCount": 911,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.orthoarizona.org/locations/orthoarizona-arrowhead",
+        "phoneNumber": "(602) 648-5444",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoarizona.org/schedule-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhXVU0Kd8BgR5ItQuFMZ8fi7YZtlqPebIvWOLLf1A0qc0KrO_FERt9vWwYduEQhkxY18LVliDmNPHG80JaOZ7n5jtSU--cDZJOQH61VzSKPuMAvevFbuQk-MHB4wHhW-rLWS4",
+        "cid": "12332592149489316519",
+        "fid": "0x872b69696171511b:0xab262b381614f2a7",
+        "placeId": "ChIJG1FxYWlpK4cRp_IUFjgrJqs"
+      },
+      {
+        "position": 19,
+        "title": "Abrazo Orthopedic Specialists at West Campus",
+        "address": "1325 N Litchfield Rd #125, Goodyear, AZ 85395",
+        "latitude": 33.460986999999996,
+        "longitude": -112.35557089999999,
+        "rating": 2.7,
+        "ratingCount": 39,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://abrazoorthopedics.com/",
+        "phoneNumber": "(480) 420-0749",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.abrazoorthopedics.com/locations/detail/abrazo-orthopedic-specialists-at-west-campus?pagestyle=card"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlApAu2VHyHpMVntnHcL_cXeOer1axlQLJJyZxU6jyCL2cCCalXBNaoyJxQmhbWbrRY51T_5egRj6yKj2NOC7y-EJn5ByLKu8fP-47DkFMzfpSGZwxpcwGt579fPUKjx55WMEu-g",
+        "cid": "17508043772462158632",
+        "fid": "0x872b4755e7e4893b:0xf2f9110ca998d328",
+        "placeId": "ChIJO4nk51VHK4cRKNOYqQwR-fI"
+      },
+      {
+        "position": 20,
+        "title": "HonorHealth Orthopedics - Deer Valley",
+        "address": "4344 W Bell Rd # 102, Glendale, AZ 85308",
+        "latitude": 33.6398138,
+        "longitude": -112.1547906,
+        "rating": 4.8,
+        "ratingCount": 311,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.honorhealth.com/locations/specialty-care/honorhealth-orthopedics-deer-valley?utm_source=yext&utm_medium=local&utm_campaign=orthopedics_deer_valley",
+        "phoneNumber": "(602) 588-4040",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.honorhealth.com/contact-us/request-appointment/88516?utm_source=yext&utm_medium=local&utm_campaign=orthopedics_deer_valley_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMxXes9U3-ATFgu7TD93Qm6qn9QE4C_fbWITF7RrxHZCWKpgPWZ9dEPz7AKEtN5UiofbPtifFWQTH3VPF4oWBdO9MnGxq2BvS6GrOJwEJcD-P4dibSWJzqK12oe37yKLoEbpk",
+        "cid": "3065646453886593057",
+        "fid": "0x872b6928634dc169:0x2a8b5d3512d8a821",
+        "placeId": "ChIJacFNYyhpK4cRIajYEjVdiyo"
+      }
+    ],
+    "credits": 3
+  }
+}

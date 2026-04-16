@@ -1,0 +1,639 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.31239,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4yODM3ODk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@35.9248224,-84.5657212,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "East Tennessee Orthopedics and Sports",
+        "address": "8035 Roane Medical Center Dr Suite 130, Harriman, TN 37748",
+        "latitude": 35.8892467,
+        "longitude": -84.5557736,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.covenanthealth.com/east-tennessee-orthopedics-and-sports/",
+        "phoneNumber": "(865) 316-3650",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0gzqVkDcVl527Y-GwfT7woxglaf_h00nCtxKqX_MgEr2589QRVbEW5MhfGqbz0qj7BGQ30OzNhYrv0c8E5yfWedBslQsALRvfMKTuChbgib8bkgE7qhGeFv3y_cAQk1_wXWOz",
+        "cid": "5258189661301844616",
+        "fid": "0x885ddc2fdaa26887:0x48f8d7a34b872a88",
+        "placeId": "ChIJh2ii2i_cXYgRiCqHS6PX-Eg"
+      },
+      {
+        "position": 2,
+        "title": "KOC – Harriman",
+        "address": "1855 Tanner Way #110, Harriman, TN 37748",
+        "latitude": 35.8893288,
+        "longitude": -84.547404,
+        "rating": 4.8,
+        "ratingCount": 33,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic"
+        ],
+        "website": "http://www.osorortho.com/?utm_source=GMBSocialClimb&utm_medium=OrthopaedicSurgeonsofOakRidge",
+        "phoneNumber": "(865) 558-4444",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEPcmhUckRazZrntSP-shYdiuUW_2qHOdDuaqlLHi7xrbKpjQAfceEIyw5cT6yXwqiGTTi5qRaQdscYA8ryKG35azOO7H-elZtD9BCbykTt1see5r9wgOYcIYo-zhoq465B8ZTdUE8ks7w",
+        "cid": "10484145941531235723",
+        "fid": "0x885dde794b042c5b:0x917f2b2fba52958b",
+        "placeId": "ChIJWywES3neXYgRi5VSui8rf5E"
+      },
+      {
+        "position": 3,
+        "title": "BenchMark Physical Therapy",
+        "address": "1124 N Gateway Ave Ste 3, Rockwood, TN 37854",
+        "latitude": 35.882656,
+        "longitude": -84.65792499999999,
+        "rating": 4.8,
+        "ratingCount": 43,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Physical therapist",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.benchmarkpt.com/locations/harriman/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+        "phoneNumber": "(865) 882-9183",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.benchmarkpt.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdSmQztfCFsEcL2DWJTDIXcQnqCU04zdgkJBmW1bafiO4obWqcqxxOlTE4awg3CY3Hqmsnn6F7j0WsK8TOFT-e93NI8Z-p6v968gJTYUQYhVWCWgmPP4M5iglnwRfl70nzU-qv",
+        "cid": "7870381294370216649",
+        "fid": "0x885de74544ec705b:0x6d39361691d0dac9",
+        "placeId": "ChIJW3DsREXnXYgRydrQkRY2OW0"
+      },
+      {
+        "position": 4,
+        "title": "William C. Brooks, MD",
+        "address": "1855 Tanner Way #110, Harriman, TN 37748",
+        "latitude": 35.8893288,
+        "longitude": -84.547404,
+        "rating": 5,
+        "ratingCount": 75,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://kocortho.com/physician/william-c-brooks/?utm_source=GMBSocialClimb&utm_medium=WilliamC.Brooks%2CM.D.",
+        "phoneNumber": "(865) 558-4444",
+        "bookingLinks": [
+          "https://kocortho.radixhealth.com/dash/self2/#/provider-search"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZbcTqWWuP22PxD2nlgT_9bbJOdm1e1mOpEqQS9FfkPkwAFUix0lIVufU4oIDx33mILr5MuUSjkhomxBdRXqsoahzaDswxL6tJ3z5zM4RIN8dKbXiuNIG6blLYIAKmUpCaxI1VQ4SK1Cg",
+        "cid": "18351810839894759206",
+        "fid": "0x885dddc940538a29:0xfeaebaba11171726",
+        "placeId": "ChIJKYpTQMndXYgRJhcXEbq6rv4"
+      },
+      {
+        "position": 5,
+        "title": "Power Orthodontics - Kingston, TN",
+        "address": "184 Market St, Kingston, TN 37763",
+        "latitude": 35.8848719,
+        "longitude": -84.4957884,
+        "rating": 4.9,
+        "ratingCount": 58,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://powerpryseortho.com/",
+        "phoneNumber": "(865) 355-0962",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://powerpryseortho.com/lp/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvDvvdRcu9QrAg0k9RpfSNQ30XoLWHyWgy3MlDQw4OSf2j0wjDvvm8Y_B2Wa6TyQH4IronYMId4SXMdEw3NPZuq7a8I2h8HCKx3bmUoYLBEvojNvDn66kEEup37pYCTUCCUFQ-",
+        "cid": "14437792111147217431",
+        "fid": "0x885dd957c0a3fe2f:0xc85d576e2dddf217",
+        "placeId": "ChIJL_6jwFfZXYgRF_LdLW5XXcg"
+      },
+      {
+        "position": 6,
+        "title": "Tennessee Orthopaedic Alliance East Tennessee - Oak Ridge Physicians Plaza",
+        "address": "988 Oak Ridge Turnpike #100, Oak Ridge, TN 37830",
+        "latitude": 36.024553,
+        "longitude": -84.2447002,
+        "rating": 4.8,
+        "ratingCount": 969,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.toaeasttn.com/locations/orthopedic-clinic-oak-ridge-physicians-plaza-oakridge-tn/?utm_medium=TennesseeOrthopaedicClinics&utm_source=GMBSocialClimb",
+        "phoneNumber": "(865) 483-8478",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.toaeasttn.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHiI860DHCTEMooVog2HM1TzWapmCtx9BeM2sYlscyAjAG4onzFk55RAVtpxcD8QWaSUgwh50WCJst8zqQLd6mq3AyS_o--qIeYj9JIzRSHlJ6kax-Hc3KsdBODrOjG9PBRjEo",
+        "cid": "10992014102131669351",
+        "fid": "0x885c336ecb2678dd:0x988b7a9673a47967",
+        "placeId": "ChIJ3Xgmy24zXIgRZ3mkc5Z6i5g"
+      },
+      {
+        "position": 7,
+        "title": "Cumberland Orthopedics",
+        "address": "118 Brown Ave #103, Crossville, TN 38555",
+        "latitude": 35.9431705,
+        "longitude": -85.0286835,
+        "rating": 4,
+        "ratingCount": 22,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Medical Center"
+        ],
+        "website": "https://www.covenanthealth.com/cumberland-orthopedics/",
+        "phoneNumber": "(931) 484-8861",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3sXN9et2g5hMRphkB-LhQllzeYpJaObp83xgeh8daEYSWF5CdSQYR_7KzGEmSiTBh7zMBVj8SQxGgMKpgcnGeN4inkXk7uPHOi5rMCkjTb9kmMUXiwkykPDKfAOaY65xsoCPgn0jh2CHX",
+        "cid": "11082983007032531311",
+        "fid": "0x8867512a01ef5291:0x99ceaa5321dd596f",
+        "placeId": "ChIJkVLvASpRZ4gRb1ndIVOqzpk"
+      },
+      {
+        "position": 8,
+        "title": "Tennessee Orthopaedic Alliance East Tennessee - Lenoir City",
+        "address": "576 Fort Loudoun Medical Center Dr #100, Lenoir City, TN 37772",
+        "latitude": 35.825091799999996,
+        "longitude": -84.2702355,
+        "rating": 4.8,
+        "ratingCount": 330,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.toaeasttn.com/locations/orthopedic-clinic-lenoir-city-tn/?utm_source=GMBSocialClimb&utm_medium=TennesseeOrthopaedicClinics-LenoirCity",
+        "phoneNumber": "(865) 690-4861",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.toaeasttn.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAOkip7r2MaKKBCkiaYlmJrxhjXxlS7DOX6mpltWf8oZ7AhtTD0HAq6Mb3ewS_RGGWZP9XSRWAiOxarn3IANkjqniYj-AJ5lmx9cmk0Sq-25tVFj_7ki6yqR-SLgjc8mViXVTD",
+        "cid": "1667768174665339187",
+        "fid": "0x885c2b2abefd1067:0x17251a5192a11133",
+        "placeId": "ChIJZxD9viorXIgRMxGhklEaJRc"
+      },
+      {
+        "position": 9,
+        "title": "Shoe Show",
+        "address": "Tyler Point Shopping Center, 1134 N Gateway Ave, Rockwood, TN 37854",
+        "latitude": 35.8814901,
+        "longitude": -84.65700559999999,
+        "rating": 4.1,
+        "ratingCount": 94,
+        "type": "Shoe store",
+        "types": [
+          "Shoe store",
+          "Fashion accessories store"
+        ],
+        "website": "https://www.shoeshow.com/?utm_source=google&utm_medium=storelisting&utm_campaign=googlemaps&utm_content=ss268",
+        "phoneNumber": "(865) 354-3756",
+        "description": "Retail chain stocking casual, dress & athletic shoes for men, women & kids, including name brands.",
+        "openingHours": {
+          "Thursday": "10 AM–9 PM",
+          "Friday": "10 AM–9 PM",
+          "Saturday": "10 AM–9 PM",
+          "Sunday": "1–6 PM",
+          "Monday": "10 AM–9 PM",
+          "Tuesday": "10 AM–9 PM",
+          "Wednesday": "10 AM–9 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGckU0GdsgyuGGs_anbFjp5HsCzKmwh0wP2uw2JfS68430j6mvgNRUsB6ymm0rBexxWQeI6fVLAoRfq-AvF4gcORwANBts91WH4nsu1TLTUabjlNLT48mvpJL0mCFdsp4s8BaKBA",
+        "cid": "13146041967551590932",
+        "fid": "0x885de13607b73d25:0xb6701f84ce4a3214",
+        "placeId": "ChIJJT23BzbhXYgRFDJKzoQfcLY"
+      },
+      {
+        "position": 10,
+        "title": "East Tennessee Orthodontics",
+        "address": "1143 Oak Ridge Turnpike #206, Oak Ridge, TN 37830",
+        "latitude": 36.0188865,
+        "longitude": -84.247055,
+        "rating": 5,
+        "ratingCount": 210,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.easttnorthodontics.com/",
+        "phoneNumber": "(865) 312-6264",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "10 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBV7bmzhWIXhRcStdIm-ACKKMlYqrIQfp84FCUO8zT-tadOOm3wfeqaJ8sukq3lwWaTUxKg_gZKwLWDAFvCf8OkZGT0VkV5mObeAMPhIZGXJsPi3bS6RUZQHZQ-UfwlzW4SwYg",
+        "cid": "14137996334136349365",
+        "fid": "0x885c336afa9f16ef:0xc43440c273f8d2b5",
+        "placeId": "ChIJ7xaf-mozXIgRtdL4c8JANMQ"
+      },
+      {
+        "position": 11,
+        "title": "Roane County VA Clinic",
+        "address": "2305 N Gateway Ave Suite 2, Harriman, TN 37748",
+        "latitude": 35.894154799999995,
+        "longitude": -84.62281159999999,
+        "rating": 4.5,
+        "ratingCount": 20,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Veterans center"
+        ],
+        "website": "https://www.va.gov/tennessee-valley-health-care/locations/roane-county-va-clinic/",
+        "phoneNumber": "(865) 882-2010",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4dEoPhkHNuvujrccJV2q9oRfrpzaEZJT4xkAijT__AjJPoaLDv5tPA8wesY44VIv8X5QYZ-e3HtvUUrXRmyiNRjFJqHWeLqT1c8ur4z0dqKbtRlyTh3LOrGcsUsRn6L5o_mfm9pjHuyVf",
+        "cid": "15851545567751808590",
+        "fid": "0x885de746139716cd:0xdbfc00b572c3a64e",
+        "placeId": "ChIJzRaXE0bnXYgRTqbDcrUA_Ns"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic Urgent Care - TOA Oak Ridge",
+        "address": "961 Oak Ridge Turnpike, Oak Ridge, TN 37830",
+        "latitude": 36.024243999999996,
+        "longitude": -84.241316,
+        "rating": 4.9,
+        "ratingCount": 33,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Urgent care center"
+        ],
+        "website": "https://www.toaeasttn.com/orthopedic-urgent-care-knoxville-sevierville-tn/?utm_source=GMBSocialClimb",
+        "phoneNumber": "(865) 690-4861",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5meYsqE3ujpbnWeT7ZioNcUkIwu8OtEQ0r70lgP4-UHxm7JA_L_RrIvybElEC3-9FoS8cfrtjfQALTv-_mOnoHLiH5cUhOafUXQ54K9UvIsYDRiVLFWl5DuuBEB3ydPniIRebZQ",
+        "cid": "8620551958464917821",
+        "fid": "0x885c33647c351cff:0x77a25a552419713d",
+        "placeId": "ChIJ_xw1fGQzXIgRPXEZJFVaonc"
+      },
+      {
+        "position": 13,
+        "title": "Tennessee Orthopaedic Alliance East Tennessee",
+        "address": "961 Oak Ridge Turnpike, Oak Ridge, TN 37830",
+        "latitude": 36.024243999999996,
+        "longitude": -84.241316,
+        "rating": 4.9,
+        "ratingCount": 313,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapist",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.toaeasttn.com/locations/orthopedic-clinic-oak-ridge-tn/?utm_source=GMBSocialClimb",
+        "phoneNumber": "(865) 483-1906",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.toaeasttn.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC9rLLhW8mdVrImFB3A95SW8OJ3vOpNMPQkNapS06DoeFpbJ7lnMIGSzXWYweM4hhwcllG3kyjoToPG3b5d_yTESodk6jWvmkudiFchPBC6dvVIRWA8X_hnYsOUVIHME9mcB2Z",
+        "cid": "9416044312516278838",
+        "fid": "0x885c2561fe90f553:0x82ac8269f4deba36",
+        "placeId": "ChIJU_WQ_mElXIgRNrre9GmCrII"
+      },
+      {
+        "position": 14,
+        "title": "Tennessee Valley Orthopedics",
+        "address": "11808 Kingston Pike #190, Knoxville, TN 37934",
+        "latitude": 35.8743224,
+        "longitude": -84.1742838,
+        "rating": 4.2,
+        "ratingCount": 5,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "phoneNumber": "(865) 966-7755",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECukrE3WohybgOSD7T0fZtMY0BULH2FfSdN7gHSlVTbQJkC4C7Kjz1Lz5cx-pyu-EKgGugPopxj_svoxVCKmNZ0x1zlAgVgGwSIahIheMN1Fg0iTXRrtdrDRMr2d_rYf-YT0tA",
+        "cid": "12981851794435408777",
+        "fid": "0x885c2ebadb3e95dd:0xb428cd6d1e170389",
+        "placeId": "ChIJ3ZU-27ouXIgRiQMXHm3NKLQ"
+      },
+      {
+        "position": 15,
+        "title": "Animal Medical Center of Roane County",
+        "address": "104 Cardiff Dr, Harriman, TN 37748",
+        "latitude": 35.893319399999996,
+        "longitude": -84.6201258,
+        "rating": 4.4,
+        "ratingCount": 102,
+        "type": "Animal hospital",
+        "types": [
+          "Animal hospital",
+          "Emergency veterinarian service",
+          "Veterinarian"
+        ],
+        "website": "http://www.amcofrc.com/",
+        "phoneNumber": "(865) 882-0818",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "8:30 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEdbccgWR5nhpYfKgz5PLg2dU9C6tRJJrTln-NWDpw700MZItMSR531z4A2R9yv3Y6d3Ode0Pxc3UpTXMc3ZnlB3eb0yrxDgsY36oZGA5EkIYaSUoWir5uVXS1hgyGAHAs_56Tedxqhczk",
+        "cid": "11724108518199400626",
+        "fid": "0x885de7458c2be7b1:0xa2b466948f6818b2",
+        "placeId": "ChIJsecrjEXnXYgRshhoj5RmtKI"
+      },
+      {
+        "position": 16,
+        "title": "KOC – Oak Ridge",
+        "address": "90 Vermont Ave #300, Oak Ridge, TN 37830",
+        "latitude": 36.0223333,
+        "longitude": -84.2468949,
+        "rating": 4.7,
+        "ratingCount": 217,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "https://www.kocortho.com/?utm_source=GMBSocialClimb&utm_medium=OrthopedicSurgeonsofOakRidge",
+        "phoneNumber": "(865) 558-4444",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGN-l55tI2g6BLdNePDxL5jbfUuIvYx7Cjy1zEWtOjS1K39nkw2AL4cNzZlEfha_PZT3laRKgPnIij-mWO7YbDrgZj5kIDm0sb2me7BxLDmx-AJ1s9g19cR4d9v50fOwcEjeKaestvuIjzx",
+        "cid": "4648745047708023057",
+        "fid": "0x885c336a6d188c3d:0x4083a8fda3fe3911",
+        "placeId": "ChIJPYwYbWozXIgRETn-o_2og0A"
+      },
+      {
+        "position": 17,
+        "title": "Tier 1 Orthopedic and Neurosurgical Institute",
+        "address": "35 Taylor Ave, Crossville, TN 38555",
+        "latitude": 35.9504547,
+        "longitude": -85.02716819999999,
+        "rating": 4.9,
+        "ratingCount": 404,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Medical Center"
+        ],
+        "website": "https://www.t1institute.com/?utm_source=gmb_auth",
+        "phoneNumber": "(931) 526-9518",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://t1institute.com/locations/"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pl6_ZHrdGi3JEAvA9lOdBA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=96.71293&pitch=0&thumbfov=100",
+        "cid": "8172953017534706004",
+        "fid": "0x8867514ec67b8eeb:0x716c2977a01cf154",
+        "placeId": "ChIJ6457xk5RZ4gRVPEcoHcpbHE"
+      },
+      {
+        "position": 18,
+        "title": "Tennessee Orthopaedic Alliance East Tennessee - Tower at Parkwest",
+        "address": "9430 Park West Blvd #130, Knoxville, TN 37923",
+        "latitude": 35.917369099999995,
+        "longitude": -84.1027589,
+        "rating": 4.8,
+        "ratingCount": 2451,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.toaeasttn.com/locations/orthopedic-clinic-the-tower-at-parkwest-knoxville-tn/?utm_source=GMBSocialClimb",
+        "phoneNumber": "(865) 690-4861",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tocdocs.com/locations/orthopedic-clinic-the-tower-at-parkwest-knoxville-tn/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUiQCLkGnMsiYwy3-wjrsNhUOIlDLduPDQvAxdJYMJO3-ecYSMqiPL-1co_MmePb-DK_Xnp6kNLaKllYrYlbJCyA6XR9N_vHxm1hR34PoqcHBvC0HG810XsjtIPMov4qkGD6Hh",
+        "cid": "14275614127153051559",
+        "fid": "0x885c2561fe90f50d:0xc61d2b69c78177a7",
+        "placeId": "ChIJDfWQ_mElXIgRp3eBx2krHcY"
+      },
+      {
+        "position": 19,
+        "title": "STAR Physical Therapy Harriman, Tennessee",
+        "address": "1855 Tanner Way # 140, Harriman, TN 37748",
+        "latitude": 35.8893288,
+        "longitude": -84.547404,
+        "rating": 5,
+        "ratingCount": 210,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic",
+          "Physical therapist",
+          "Sports medicine clinic"
+        ],
+        "website": "https://starpt.com/clinic/star-physical-therapy-roane-county-tn/",
+        "phoneNumber": "(865) 376-6566",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://starpt.com/clinic/star-physical-therapy-roane-county-tn/#clinic-appointment"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Jhr3HQl5hCwPRdxsjgpkjQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=229.04897&pitch=0&thumbfov=100",
+        "cid": "11438820649086706742",
+        "fid": "0x885dd9515032ba07:0x9ebedac65e376436",
+        "placeId": "ChIJB7oyUFHZXYgRNmQ3Xsbavp4"
+      },
+      {
+        "position": 20,
+        "title": "Epic Orthodontics Lenoir City",
+        "address": "4433 US-321, Lenoir City, TN 37771",
+        "latitude": 35.835248299999996,
+        "longitude": -84.29138669999999,
+        "rating": 4.8,
+        "ratingCount": 123,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://epicortho.com/",
+        "phoneNumber": "(865) 816-6710",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://epicortho.com/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDTGKi8F_qTEqHIoYOhrSprvge3ib0-LXuMGObC3-H56dd7i86ieuli-LFDpDnbuuvzOm70XH-aMb84bB2GYkMVXd1Q96wTPqd26A7z5lTHUfJJjJPSJ9X_2hWUFQ64PK_kPn0",
+        "cid": "12022724561450628729",
+        "fid": "0x885dd4c2a77d6d5f:0xa6d94c4a1da0f679",
+        "placeId": "ChIJX219p8LUXYgRefagHUpM2aY"
+      }
+    ],
+    "credits": 3
+  }
+}

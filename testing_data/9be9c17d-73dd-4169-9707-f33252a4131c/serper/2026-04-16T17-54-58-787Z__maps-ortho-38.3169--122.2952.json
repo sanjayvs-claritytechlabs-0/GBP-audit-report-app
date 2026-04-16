@@ -1,0 +1,614 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzE2ODgyLC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@35.767543,-88.6202828,8z",
+    "places": [
+      {
+        "position": 1,
+        "title": "OrthoXpress of Corinth",
+        "address": "2601 Getwell Road Suite 4, Corinth, MS 38834",
+        "latitude": 34.9101638,
+        "longitude": -88.51737969999999,
+        "rating": 4.9,
+        "ratingCount": 418,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://speedheals.com/corinth",
+        "phoneNumber": "(662) 643-4533",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwOPs7gb-61cRBAsqQE4ygwPgkJOTdAVH9eYVDT12rPhOJ_Ey7sz07q-C1YsgB-qM9yPApsog3xbEsHOra0EalcuqlZIXc_pwHQS4-wFZ9ZK3shF4Ayj-JKXFb8dQSx6pYgavclw",
+        "cid": "3620609892801146606",
+        "fid": "0x887dc134681a34d9:0x323efd83c2ad6eee",
+        "placeId": "ChIJ2TQaaDTBfYgR7m6twoP9PjI"
+      },
+      {
+        "position": 2,
+        "title": "OrthoSouth Germantown | Orthopedic Clinic",
+        "address": "2100 Exeter Rd #200, Germantown, TN 38138",
+        "latitude": 35.092757899999995,
+        "longitude": -89.80148919999999,
+        "rating": 4.8,
+        "ratingCount": 964,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthosouth.org/?utm_source=GMBSocialClimb&utm_medium=OrthoSouthGermantown%7COrthopedicClinic&scct=PN6d4801c786de531305a30074e4282e68",
+        "phoneNumber": "(901) 699-4436",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHw16H5K1TEPbtGsateEn6_ObsnuRp69Hg12sNEJpZq-7sa8LJL7Ui1-M7JPRkr-x8Aa5838NE3t7O7-IppHwYZ-lh-E4ejEFMlzNq_E4otmHLMA3wrbms5JMtAi-jL72tmBLB6ZhVyCLSe",
+        "cid": "13943111447988757788",
+        "fid": "0x887f9b2ee7320249:0xc17fe1fcf90d651c",
+        "placeId": "ChIJSQIy5y6bf4gRHGUN-fzhf8E"
+      },
+      {
+        "position": 3,
+        "title": "West Tennessee Bone & Joint Clinic",
+        "address": "123 Commons Dr #4, Martin, TN 38237",
+        "latitude": 36.342754,
+        "longitude": -88.8739731,
+        "rating": 5,
+        "ratingCount": 453,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.wtbjc.com/?utm_source=GMBSocialClimb&utm_medium=WestTennesseeBone%26JointClinic",
+        "phoneNumber": "(731) 661-9825",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqlL0cwp4Oa-XI7nCM-KIXMaIW3EnBDq9rZCFDNMUsE1QA8JtmNjygGS9kvzY2tsyYAkObxcC02V1vNXwCIrwEVZ2FMA0XI4c9x-84uRaRVeVnn4NTUafqkB62lhacY9sFrJalUg",
+        "cid": "15484663967400233463",
+        "fid": "0x887967651c122955:0xd6e493d64b2e89f7",
+        "placeId": "ChIJVSkSHGVneYgR94kuS9aT5NY"
+      },
+      {
+        "position": 4,
+        "title": "West Tennessee Bone & Joint Clinic",
+        "address": "202 W Church St, Lexington, TN 38351",
+        "latitude": 35.654595,
+        "longitude": -88.3985347,
+        "rating": 4.9,
+        "ratingCount": 219,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.wtbjc.com/?utm_source=gmb_auth",
+        "phoneNumber": "(731) 661-9825",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlaKQIXTQ2C8pUUiBeRDmhS7qVIGhKzeI3h8OE7h7FwMOTSDDwWfry8JPmGo703mpAtb7UC3RP4Ks1BpeZOCCGhamCa6b3KyAgV-kBHpJ_49Xe7GVxw8yUrZRo_BGIwxLR6c4J",
+        "cid": "1100322988047073872",
+        "fid": "0x887c6fa5e4c8074f:0xf4521ed88be0250",
+        "placeId": "ChIJTwfI5KVvfIgRUAK-iO0hRQ8"
+      },
+      {
+        "position": 5,
+        "title": "Titan Orthopedics",
+        "address": "795 Ridge Lake Blvd #103, Memphis, TN 38120",
+        "latitude": 35.1102237,
+        "longitude": -89.8685261,
+        "rating": 4.9,
+        "ratingCount": 1956,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.titanorthopedics.com/",
+        "phoneNumber": "(901) 255-6532",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.titanorthopedics.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD4bPzR-c1XerJo4V9Q4LmXXKdSvkSPizuH0x5EFgWVCH8INlYn67a68WZJu7tDWX1d9eo0IEuSzapR8uSVQlxKbujwbxHFsoPJoHLllOusHN79rZRfPfv7_jnwI2txmj4231-O4VgEBo",
+        "cid": "10690137886979021350",
+        "fid": "0x887f84b8909cb183:0x945affc4f9545a26",
+        "placeId": "ChIJg7GckLiEf4gRJlpU-cT_WpQ"
+      },
+      {
+        "position": 6,
+        "title": "Tennessee River Orthopedics",
+        "address": "80 Enoch Blvd, Savannah, TN 38372",
+        "latitude": 35.2269369,
+        "longitude": -88.2328806,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://hardinmedicalcenter.org/services#orthopedics",
+        "phoneNumber": "(731) 926-9609",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwxltvfb1Sq7H2tJ2mI8BYqhs8aDQaAYuHl-zTfOuJxrFQbcaw7bjhynvrJqm1tov25LKt3Zf22WPWiQgmYLq2dATFX9CoeFpQwZVC4OA5ND-bjZhg2leFlCc3UlfIwLlTY17i",
+        "cid": "5620145812098361822",
+        "fid": "0x887c5536a681d9af:0x4dfec4d6dc05a9de",
+        "placeId": "ChIJr9mBpjZVfIgR3qkF3NbE_k0"
+      },
+      {
+        "position": 7,
+        "title": "West Tennessee Bone & Joint Clinic",
+        "address": "3493 Veterans Dr N Suite D, Huntingdon, TN 38344",
+        "latitude": 36.025364599999996,
+        "longitude": -88.41664469999999,
+        "rating": 5,
+        "ratingCount": 77,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.wtbjc.com/?utm_source=GMBSocialClimb&utm_medium=WestTennesseeBone%26JointClinic",
+        "phoneNumber": "(731) 644-0474",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFILvLFiMK10UF0C2zGWldkC1hmO4LhzWxVixydgQoXxHArbtoGCt7wQgZFe9u53n-c9U3tVgN2q2CUbF4H8en6nvb-fpLmueaNpoeXBPAK0qu4bBt07XWszRi19RSbSVmxTsM",
+        "cid": "662259897619575861",
+        "fid": "0x887b8de2f06c9dc5:0x930d1de3a99f435",
+        "placeId": "ChIJxZ1s8OKNe4gRNfSZOt7RMAk"
+      },
+      {
+        "position": 8,
+        "title": "Sport Ortho Urgent Care - Clarksville",
+        "address": "1492 Tiny Town Rd Suite A1 & A2, Clarksville, TN 37042",
+        "latitude": 36.6249222,
+        "longitude": -87.3720395,
+        "rating": 4.5,
+        "ratingCount": 102,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Pediatric orthopedic surgeon",
+          "Physical rehabilitation center",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.sportorthourgentcare.com/2024/07/06/clarksville/",
+        "phoneNumber": "(615) 758-1030",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.sportorthourgentcare.com/booking/clarksville"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBclLY1Oulu74LKYacJZoO37zGo_mSM0UWEOxA41adf_qEGVNtgwxI023l9zRmnVXeKORNnXrpe68Q16aYAs-vGjA9hBfjhIRXhFsbxPDIz1WsGCs69s-BCISQ0RRnWISFx4CZ65saedI",
+        "cid": "78644461522802806",
+        "fid": "0x8865278b0847d091:0x11766b8989e5876",
+        "placeId": "ChIJkdBHCIsnZYgRdliemLhmFwE"
+      },
+      {
+        "position": 9,
+        "title": "Sports Orthopedics And Spine",
+        "address": "111 Stonebridge Blvd, Jackson, TN 38305",
+        "latitude": 35.6763354,
+        "longitude": -88.85291819999999,
+        "rating": 4.1,
+        "ratingCount": 135,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.sportsorthospine.com/",
+        "phoneNumber": "(731) 427-7888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGZsF0gqiTCeq-2qH08aZhaRknymRED3gDHT0pPDHvnQaSfS5d69P_Tph5Ze63rkAV5kJFWw0IQqMywt6LHMMKm3Sa1lB5HwFfutR2qGs9UcONC4IqEy9pQtEktkgwjdvOoqJU0Q",
+        "cid": "17606386879407801211",
+        "fid": "0x887ea1291013a34d:0xf45673958d33437b",
+        "placeId": "ChIJTaMTECmhfogRe0MzjZVzVvQ"
+      },
+      {
+        "position": 10,
+        "title": "West Tennessee Bone & Joint Institute",
+        "address": "50 Capital Ave, Jackson, TN 38305",
+        "latitude": 35.660194499999996,
+        "longitude": -88.8765511,
+        "rating": 4.8,
+        "ratingCount": 2437,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.wtbjc.com/?utm_source=gmb_auth",
+        "phoneNumber": "(731) 661-9825",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZ7VwlpfrbcLxp_srvEt6YzTI4rUYCFGvwsS3MpR_M3wdpbTyw1zQag2yd7uM7jju3P5eLPeZcnPKtY3S3JGbAcD5Oct_2haJ9cgXfNDo0IRlyd2P4CnLDSlv7bF0m-zJb7E61KQ",
+        "cid": "2774188166022987051",
+        "fid": "0x887ea68e7ae3d3ff:0x267fe5704fe47d2b",
+        "placeId": "ChIJ_9Pjeo6mfogRK33kT3DlfyY"
+      },
+      {
+        "position": 11,
+        "title": "Ortho Sport & Spine Physicians",
+        "address": "2965 N Germantown Pkwy # 129, Bartlett, TN 38133",
+        "latitude": 35.206828,
+        "longitude": -89.7944529,
+        "rating": 4.8,
+        "ratingCount": 41,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Pain control clinic",
+          "Pain management physician",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthosportandspine.com/location/memphis-tn/",
+        "phoneNumber": "(901) 202-4453",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFlCBgfo-b6bBRZycDUGo1eAO3wh-furrI5HGk5otpEVWmmKCC0QxGZ7JJBykNZ8s5cGIy7Bcjw0RCBvw8Xo6CMTdnf0-aFB6dAU0wXqk1TcBj8CW0FpRI0XDvQrqKuPwIbgTjygEfu0Wk",
+        "cid": "3607418526155980514",
+        "fid": "0x887f9d7f607dedb7:0x321020095fb0bee2",
+        "placeId": "ChIJt-19YH-df4gR4r6wXwkgEDI"
+      },
+      {
+        "position": 12,
+        "title": "OrthoOne Sports Medicine",
+        "address": "9085 Sandidge Center Cove, Olive Branch, MS 38654",
+        "latitude": 34.9463171,
+        "longitude": -89.8281781,
+        "rating": 3.6,
+        "ratingCount": 15,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Physical therapist"
+        ],
+        "website": "http://www.orthoone.org/",
+        "phoneNumber": "(662) 890-2663",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I7COaqAhlTh0ARMbey8a9w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=136.02313&pitch=0&thumbfov=100",
+        "cid": "15032535823251118562",
+        "fid": "0x887f922103143193:0xd09e4baf7a3799e2",
+        "placeId": "ChIJkzEUAyGSf4gR4pk3eq9LntA"
+      },
+      {
+        "position": 13,
+        "title": "West Tennessee Bone & Joint Clinic",
+        "address": "1940 Pickwick St, Savannah, TN 38372",
+        "latitude": 35.1993644,
+        "longitude": -88.2451245,
+        "rating": 4.3,
+        "ratingCount": 22,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://wtbjc.com/?utm_source=gmb_auth",
+        "phoneNumber": "(731) 661-9825",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhYL2Ge6TDW-clsCFfYyWIzIoDyjAjKbrAS0RsFXll4mG3A_vNGkpGBKS0sknoj_O1X31hnTLaArS4Y_voclBhDMgtRaWd7PEfYDeBBD6X8vlqZEcXcC7hUuhFc-rD14SI4zxw",
+        "cid": "6648901890291449148",
+        "fid": "0x887c55b5c97b9d6d:0x5c45a50ab53ebd3c",
+        "placeId": "ChIJbZ17ybVVfIgRPL0-tQqlRVw"
+      },
+      {
+        "position": 14,
+        "title": "West Tennessee Bone & Joint Clinic",
+        "address": "71 Medical Center Drive, Brownsville, TN 38012",
+        "latitude": 35.607458,
+        "longitude": -89.2477266,
+        "rating": 5,
+        "ratingCount": 332,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "website": "https://www.wtbjc.com/?utm_source=GMBSocialClimb&utm_medium=WestTennesseeBone%26JointClinic",
+        "phoneNumber": "(731) 661-9825",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFj79Odp2du62DV4gXwNM4OEIxGYesETSDdhHX5Wabctczr_iBrdGOeoaNMMQyn02j0OUgoZRbvuZCpY-_Qo3ddo1qhkugDCvdf8aylIXSVENkik8pv8VISSsLFr6-sH5kpCAIm",
+        "cid": "1493395231247477571",
+        "fid": "0x887ec32bb64a8815:0x14b99b0cebc4ab43",
+        "placeId": "ChIJFYhKtivDfogRQ6vE6wybuRQ"
+      },
+      {
+        "position": 15,
+        "title": "Baptist Medical Group-Twin Rivers Orthopedics-McKenzie",
+        "address": "22700 TN-22, McKenzie, TN 38201",
+        "latitude": 36.129372499999995,
+        "longitude": -88.4874202,
+        "rating": 4.8,
+        "ratingCount": 66,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.baptistdoctors.org/find-a-doctor/heather-anne-melton-md",
+        "phoneNumber": "(731) 641-8751",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8ThMBQWX4Fng4zQDAWZTOg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=103.35953&pitch=0&thumbfov=100",
+        "cid": "1233954476613860632",
+        "fid": "0x887bedb5f0c67cf7:0x111fe30f07927d18",
+        "placeId": "ChIJ93zG8LXte4gRGH2SBw_jHxE"
+      },
+      {
+        "position": 16,
+        "title": "Twin Rivers Ortho: Heather Melton, M.D.",
+        "address": "1323 E Wood St, Paris, TN 38242",
+        "latitude": 36.3080099,
+        "longitude": -88.2966668,
+        "rating": 4.6,
+        "ratingCount": 65,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic"
+        ],
+        "phoneNumber": "(731) 641-8751",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNDSdGSHPyewAU06QEcOsMH51gnVVGYumJNMFKcftge6NHXh6EkxMK2ksNcwylV3XvEAGpwlcTanJlQJN3BVYkrLlBzwgT6hufFrMAONCh--zfC-AF2IV3XV7vwXMAj6HmUmmY1g",
+        "cid": "4658086140423701729",
+        "fid": "0x887ba39379fbfc89:0x40a4d8aa452004e1",
+        "placeId": "ChIJifz7eZOje4gR4QQgRarYpEA"
+      },
+      {
+        "position": 17,
+        "title": "Delta Orthopaedics & Sports Medicine",
+        "address": "511 Market Blvd Suite 103, Collierville, TN 38017",
+        "latitude": 35.0516717,
+        "longitude": -89.694999,
+        "rating": 4.9,
+        "ratingCount": 967,
+        "type": "Nurse practitioner",
+        "types": [
+          "Nurse practitioner"
+        ],
+        "website": "http://www.deltaorthosports.com/",
+        "phoneNumber": "(901) 850-1150",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHB-6HY379wnmIH84BK7fKxaGLoJyvj0SicoxTZHECJGwjTMFZ0Mc4G85HLoCBT-AxHSS50dLqa0n7tepGdpPU2ZZ6eB8yFEDEZ-DnfeaQLC8jVL1XvAAfKpVZcfcmEOmdNp5bqgA",
+        "cid": "9503461342660377189",
+        "fid": "0x887f981ac8888129:0x83e313bd59edba65",
+        "placeId": "ChIJKYGIyBqYf4gRZbrtWb0T44M"
+      },
+      {
+        "position": 18,
+        "title": "Innovative Orthopedics",
+        "address": "1015 Kelley Dr, Paris, TN 38242",
+        "latitude": 36.2951013,
+        "longitude": -88.308934,
+        "rating": 4.3,
+        "ratingCount": 6,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.hcmc-tn.org/provider-practice/innovative-orthopedics/",
+        "phoneNumber": "(731) 644-8304",
+        "openingHours": {
+          "Thursday": "7 AM–4:30 PM",
+          "Friday": "7 AM–12:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4:30 PM",
+          "Tuesday": "7 AM–4:30 PM",
+          "Wednesday": "7 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aV96mYy_3HzbQIF2FhGQMA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=113.529205&pitch=0&thumbfov=100",
+        "cid": "15446100143082069475",
+        "fid": "0x887ba39ff7a57a57:0xd65b923e41845de3",
+        "placeId": "ChIJV3ql95-je4gR412EQT6SW9Y"
+      },
+      {
+        "position": 19,
+        "title": "Advanced Orthopedics & Sports Medicine",
+        "address": "1720 E Reelfoot Ave Suite 104B, Union City, TN 38261",
+        "latitude": 36.413366599999996,
+        "longitude": -89.03592789999999,
+        "rating": 4,
+        "ratingCount": 25,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://aosmtn.com/providers/",
+        "phoneNumber": "(731) 885-8484",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rren1zA6f3ZqfXtMhME8cw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=1.296797&pitch=0&thumbfov=100",
+        "cid": "9312516063622205634",
+        "fid": "0x88796deadd859de7:0x813cb405215210c2",
+        "placeId": "ChIJ552F3epteYgRwhBSIQW0PIE"
+      },
+      {
+        "position": 20,
+        "title": "Murray Orthopaedics",
+        "address": "300 S 8th St STE 284W, Murray, KY 42071",
+        "latitude": 36.6069909,
+        "longitude": -88.3091891,
+        "rating": 4.9,
+        "ratingCount": 17,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physician assistant"
+        ],
+        "website": "https://murrayorthopaedics.com/",
+        "phoneNumber": "(270) 761-5756",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "4969323392130250667",
+        "fid": "0x887a52b744db334f:0x44f6954be9f677ab",
+        "placeId": "ChIJTzPbRLdSeogRq3f26UuV9kQ"
+      }
+    ],
+    "credits": 3
+  }
+}

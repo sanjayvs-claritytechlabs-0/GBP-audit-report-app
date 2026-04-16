@@ -1,0 +1,639 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.334848,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@37.4806884,-120.7071536,9z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Dr. Naseem Beauchman - Valley River Orthopedics Inc.",
+        "address": "3329 G St suite a, Merced, CA 95340",
+        "latitude": 37.323912299999996,
+        "longitude": -120.47104209999999,
+        "rating": 4.7,
+        "ratingCount": 91,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.valleyriverortho.com/",
+        "phoneNumber": "(209) 400-2959",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTkUQIZUU652-1Hq17f6a63KwBnVehg7Yx7hyQKnFURSYbVnFkWTBovuNKJIoHc43mBchCXbhLqS8Q6bmmvx9TvFo-iBeVRE7FDZ_Nnc0qDIS7Uq7ud1cm3Iwehyg96-DtPltAOw",
+        "cid": "7825953912220963986",
+        "fid": "0x8091435b35556417:0x6c9b5f9e96825492",
+        "placeId": "ChIJF2RVNVtDkYARklSClp5fm2w"
+      },
+      {
+        "position": 2,
+        "title": "Gabriel Garcia-Diaz M.D - OrthoSpine Advance Health, Inc.",
+        "address": "330 E Yosemite Ave #101, Merced, CA 95340",
+        "latitude": 37.330868699999996,
+        "longitude": -120.46533099999999,
+        "rating": 4.8,
+        "ratingCount": 360,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.orthospinemerced.com/",
+        "phoneNumber": "(209) 349-8429",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFLk-X_lVlEJdjnDcOO4I1r0c7n3YyDm6rSWDhELqnJy4HM1m_Q5_5KB-_a9zKr3IZQpYq5UIm3FzO6KfNucjoogU11a_lxaE3lAnXnn9KH6bjMh7o16SbkIx2I5gBwyj8gv1smA",
+        "cid": "1989905118109777102",
+        "fid": "0x809143b153828ec7:0x1b9d902975aa3cce",
+        "placeId": "ChIJx46CU7FDkYARzjyqdSmQnRs"
+      },
+      {
+        "position": 3,
+        "title": "Orthopedic Urgent Care at Sierra Pacific Orthopedics",
+        "address": "1630 E Herndon Ave 1st Floor, Fresno, CA 93720",
+        "latitude": 36.8383105,
+        "longitude": -119.7583023,
+        "rating": 4.9,
+        "ratingCount": 322,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Urgent care center",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.spoc-ortho.com/services/orthopedic-urgent-care?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(559) 256-5200",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "9 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.spoc-ortho.com/schedule-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-urgentcare"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pO5SXaIPrTNLnUh1UezZHQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=45.625732&pitch=0&thumbfov=100",
+        "cid": "11179238607426794605",
+        "fid": "0x80945d83fe5c73b5:0x9b24a2488701b46d",
+        "placeId": "ChIJtXNc_oNdlIARbbQBh0iiJJs"
+      },
+      {
+        "position": 4,
+        "title": "Valley Orthopaedic Bone and Joint",
+        "address": "609 E Orangeburg Ave STE 201, Modesto, CA 95350",
+        "latitude": 37.6639153,
+        "longitude": -120.98576249999999,
+        "rating": 2.8,
+        "ratingCount": 72,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist"
+        ],
+        "website": "https://www.vobj.com/",
+        "phoneNumber": "(209) 572-3224",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.vobj.com/request-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmmny6_19m7zEYCNRXO_5KUNVgiGsFVqwCfwXPdSUde0p0GlasgAdDzhdJo6C0wA9pRWj_t0SLx9BLW52E4alXmsRYEk9uxdbcmODKoGAFEmxw5cBADMZpAdMjLY7uDIPE8iMAHQ",
+        "cid": "13420504609676173838",
+        "fid": "0x8090550ab3bb7431:0xba3f35d66e3da20e",
+        "placeId": "ChIJMXS7swpVkIARDqI9btY1P7o"
+      },
+      {
+        "position": 5,
+        "title": "Sutter Health Orthopedic Clinic",
+        "address": "2488 N California St, Stockton, CA 95204",
+        "latitude": 37.9759551,
+        "longitude": -121.29064079999999,
+        "rating": 3.1,
+        "ratingCount": 67,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://alpineorthopaedic.com/",
+        "phoneNumber": "(209) 948-3333",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKsiV8YOU0s2vPvFgSx_JDT9Hpl7yEjkolNy-pVAGMIswJWQTTRhV3p8GJUnJEjB73v1Uv4GGQV4wmtlI19qBRecslw0pu9WTrJSP83lPuHOWjhh2Q_mTgI9RHIZFa3djGpRthwA",
+        "cid": "14621698202953070329",
+        "fid": "0x80900d6b78611f6f:0xcaeab50be7fc36f9",
+        "placeId": "ChIJbx9heGsNkIAR-Tb85wu16so"
+      },
+      {
+        "position": 6,
+        "title": "Orthopedics: Adventist Health Physicians Network",
+        "address": "1235 W Vine St STE 22, Lodi, CA 95240",
+        "latitude": 38.1230662,
+        "longitude": -121.2876328,
+        "rating": 4.7,
+        "ratingCount": 138,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.lodimemorialorthopedics.org/",
+        "phoneNumber": "(209) 334-8520",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6KjDHfd0xjDQCXf_dQHZUEfMdkynsAXsBRE72dF4Geh6x243vo_cpsz9s_QHxNm2azI__fL_qWSkybZ8kaOtZMeRY5g_ZAJqeThwwY1tJ4NjDeCIPaAp367vQ5m5JZF9J_n9vg7RGwfk",
+        "cid": "15852053785229512867",
+        "fid": "0x809aa1b59b1f3f5f:0xdbfdceee0cfdd0a3",
+        "placeId": "ChIJXz8fm7WhmoARo9D9DO7O_ds"
+      },
+      {
+        "position": 7,
+        "title": "Sierra Pacific Orthopedics - Spruce Campus",
+        "address": "1270 E Spruce Ave, Fresno, CA 93720",
+        "latitude": 36.842414999999995,
+        "longitude": -119.7602671,
+        "rating": 4.9,
+        "ratingCount": 808,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.spoc-ortho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(559) 256-5200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.spoc-ortho.com/schedule-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-spruce"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqx9CXCGctnW12deacckqBap4mAHmh7kvFEnL7frEKNuemcEiGcE1tapxiqJLDPPqPnSj4wKt0M9kTkBSD1fSDyB-q83p4AvhQzRi7sU88PeHqzK0WIK7eox7ZBt9Fbp-Zuuix",
+        "cid": "4825456279985175387",
+        "fid": "0x80945dabd8d0a001:0x42f776eb97b1bb5b",
+        "placeId": "ChIJAaDQ2KtdlIARW7uxl-t290I"
+      },
+      {
+        "position": 8,
+        "title": "Northern California Spine Institute",
+        "address": "680 Guzzi Ln STE 102, Sonora, CA 95370",
+        "latitude": 37.975898,
+        "longitude": -120.37233719999999,
+        "rating": 4.8,
+        "ratingCount": 149,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://adventisthealth.org/locations/detail/yosemite-joint-replacement-and-orthopedics-adventist-health-sonora/",
+        "phoneNumber": "(209) 536-5778",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJRxJcolJX1Pr2dt4HmLUioKrpCocmSjjwp9EK2LJ7WN7d2PRGPs29PnXue3MPkuLG8uYNTvLG0Z7YDyDvdQk2xsT2KBmA2nRaptdoqg69t1TUhRf5DXysnV6ZaigIAd9luMJHfg",
+        "cid": "11411649537339315377",
+        "fid": "0x8090c5c0ca1740d7:0x9e5e52caee5c54b1",
+        "placeId": "ChIJ10AXysDFkIARsVRc7spSXp4"
+      },
+      {
+        "position": 9,
+        "title": "Orthomed Center",
+        "address": "1335 Coffee Rd Ste. 101, Modesto, CA 95355",
+        "latitude": 37.6628492,
+        "longitude": -120.97608419999999,
+        "rating": 3,
+        "ratingCount": 56,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthomedcenter.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+        "phoneNumber": "(209) 507-0927",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJZFkWdmFV2ggs81XWaMZxwy8vZOBZW3RniBaqvo_Ii1UlKzpKQchTvekgHRj8HxYH9tCWP0-NoAXqo4MxoeB9OFrmbgPhCzTnFgLUpKQcpL1gbw2IJhNVWHdE0u9TiQDjskFxOQ",
+        "cid": "14673852668992984901",
+        "fid": "0x809055180cbdb643:0xcba3ff41cdbe9745",
+        "placeId": "ChIJQ7a9DBhVkIARRZe-zUH_o8s"
+      },
+      {
+        "position": 10,
+        "title": "Stanislaus Orthopedic & Sports Medicine Clinic",
+        "address": "609 E Orangeburg Ave STE 201, Modesto, CA 95350",
+        "latitude": 37.663884599999996,
+        "longitude": -120.9858039,
+        "rating": 3.9,
+        "ratingCount": 46,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Podiatrist",
+          "Sports medicine clinic"
+        ],
+        "website": "http://stanortho.com/",
+        "phoneNumber": "(209) 572-3224",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patients.doctor.com/directAppointment?partner=google&practice=7537180"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKX-LD5FTvLHSN2YYn2d1OiwNkleBqSDlgVm_Z-i9N922O8zNCkuHcO7Rbiox_BdzH99rU56sNhdfrPhc-JrOa-TfS1Ko8PW632vx7qK_E_AMCt544TK3JzyQAXmRCd8ocRT8",
+        "cid": "9176126737288363940",
+        "fid": "0x809056aa9d8151a1:0x7f5826a67e097fa4",
+        "placeId": "ChIJoVGBnapWkIARpH8JfqYmWH8"
+      },
+      {
+        "position": 11,
+        "title": "Bryant Orthopedic and Sports Physical Therapy",
+        "address": "3009 Stratofortress Dr Suite B, Atwater, CA 95301",
+        "latitude": 37.361407899999996,
+        "longitude": -120.5706938,
+        "rating": 5,
+        "ratingCount": 76,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic"
+        ],
+        "website": "http://www.bryantorthopedic.com/",
+        "phoneNumber": "(209) 726-9000",
+        "openingHours": {
+          "Thursday": "7:30 AM–12 PM, 1–5 PM",
+          "Friday": "7:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–12 PM, 1–5 PM",
+          "Tuesday": "7:30 AM–12 PM, 1–5 PM",
+          "Wednesday": "7:30 AM–12 PM, 1–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCGBvdb-ssDKXYI89p4n_3Ial6RgK_RQxsUX5NFTo7lhkTAntA2WWzH9DSRsFqTEaUi4Tc7fX1zJ6mvG8ycIKHUc-fpzn3qzDzA9KWooJxTTyvm9FFsMcVpfD5oGa4YFP7Y-1hV1itOs4M",
+        "cid": "3487841949068693211",
+        "fid": "0x80916afb9095ba71:0x30674dc5f6f20edb",
+        "placeId": "ChIJcbqVkPtqkYAR2w7y9sVNZzA"
+      },
+      {
+        "position": 12,
+        "title": "Golden State Orthopedics & Spine",
+        "address": "18525 Sutter Blvd #170, Morgan Hill, CA 95037",
+        "latitude": 37.1481054,
+        "longitude": -121.656005,
+        "rating": 4.7,
+        "ratingCount": 42,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.goldenstateortho.com/location/morgan-hill/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(408) 412-8100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.goldenstateortho.com/online-scheduling/?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-PracticeMorganHill"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEu9tSl3MrObe0M_JQWPwrRSv8_QZiaeou8GAdACS85Ey1CCCNBdZHGh3VzgP2Q_P7BP-14xKmgpjE6R3zQMMFXtg5EFNYMIPqGUFYGhHff4CFmp2BdVac5KsGGPwdszlJRC0Jvw",
+        "cid": "11918762925340842154",
+        "fid": "0x808e210d2d22097d:0xa567f3bb770958aa",
+        "placeId": "ChIJfQkiLQ0hjoARqlgJd7vzZ6U"
+      },
+      {
+        "position": 13,
+        "title": "Rowan Orthodontics; Dr. R. Chad Rowan",
+        "address": "900 W Olive Ave d, Merced, CA 95348",
+        "latitude": 37.3187937,
+        "longitude": -120.48449769999999,
+        "rating": 5,
+        "ratingCount": 1328,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.mercedbraces.com/",
+        "phoneNumber": "(209) 723-6709",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUI8ipkhXXbrLuORkYk0EX3I-kyV96fMRAdtt8iYJqRitinuTvHxdeGc82XR3MXyKqEZ6DTfnN_lefe5BZoSQIQpRGgqcF0JE7OJ0Uk5x-vGQRQgIfHyUZ7eRwt-JsNJ69B651HA",
+        "cid": "9992980972718988309",
+        "fid": "0x80914167c5cda46d:0x8aae333fe6271c15",
+        "placeId": "ChIJbaTNxWdBkYARFRwn5j8zroo"
+      },
+      {
+        "position": 14,
+        "title": "Sierra Pacific Orthopedics - Herndon Campus",
+        "address": "1630 E Herndon Ave, Fresno, CA 93720",
+        "latitude": 36.8383519,
+        "longitude": -119.7583306,
+        "rating": 4.6,
+        "ratingCount": 1235,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgical center",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.spoc-ortho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(559) 256-5200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.spoc-ortho.com/schedule-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-herndon"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8UQZW7txCjg_EM1XzSGVS8R_mlKSQm2yP7EUXyTHGj9ygL-2APqiP3noT-yGUYb1FOsumgWxZCT5zXeWKrsMBZjTNyrMWfL9dg-MefjpBZGR-ziyxK6F3cKDNduTlj5iBOAGAQA",
+        "cid": "11660062678522630526",
+        "fid": "0x80945d3159767ec9:0xa1d0dd3a7c21917e",
+        "placeId": "ChIJyX52WTFdlIARfpEhfDrd0KE"
+      },
+      {
+        "position": 15,
+        "title": "Active Orthopedic Medical Corporation",
+        "address": "1051 E Tuolumne Rd Suit 103, Turlock, CA 95382",
+        "latitude": 37.5155988,
+        "longitude": -120.83757729999999,
+        "rating": 4.3,
+        "ratingCount": 7,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://active-orthopedic.com/",
+        "phoneNumber": "(209) 216-5900",
+        "openingHours": {
+          "Thursday": "8 AM–12 PM, 1–5 PM",
+          "Friday": "8 AM–12 PM, 1–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–5 PM",
+          "Tuesday": "8 AM–12 PM, 1–5 PM",
+          "Wednesday": "8 AM–12 PM, 1–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgwALpayCz2qIHtvW-bD4pfpeeA2q4Lxfm5NJ3E_xesbw5AfKjMzngrwia4CwIjlhOe3eFMRcCxkP1x6UyKvH05paT_QrIHG6gm4y4RcuSTlZ1wB_AXJdwgJMb4v157usZkoN3",
+        "cid": "17408601241488359077",
+        "fid": "0x809106f790f7a951:0xf197c6982b567ea5",
+        "placeId": "ChIJUan3kPcGkYARpX5WK5jGl_E"
+      },
+      {
+        "position": 16,
+        "title": "Tenaya Medical Group",
+        "address": "3365 G St #60, Merced, CA 95340",
+        "latitude": 37.325113099999996,
+        "longitude": -120.4705979,
+        "rating": 4.6,
+        "ratingCount": 154,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon"
+        ],
+        "website": "http://www.tenayamedicalgroup.com/",
+        "phoneNumber": "(209) 723-2799",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEG-lPyedlfHO3XVeTQ0ed0TBJJ0vt4BqDOJtcE42SjoSHD5fNESiTXKWajqUsBHlt8-h13CP-gQLta5e2pwbJ9PXf__jgrWVixIq7Im23m6_7welibiStaxlPm4x1RF7RMphtIAQ",
+        "cid": "6882108505983067429",
+        "fid": "0x809143b760f03361:0x5f82293924d0a525",
+        "placeId": "ChIJYTPwYLdDkYARJaXQJDkpgl8"
+      },
+      {
+        "position": 17,
+        "title": "Mario K Sablan DO - Sablan Orthopedics Inc.",
+        "address": "330 E Yosemite Ave, Merced, CA 95340",
+        "latitude": 37.3307889,
+        "longitude": -120.465263,
+        "rating": 4.8,
+        "ratingCount": 327,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.drmariosablan.com/",
+        "phoneNumber": "(209) 349-8429",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjNRZhm1RVN_joYAFYP_572HfKdoamb5JeAARKmkK6UpiYXDaUiCEnyZYr-iZdhe0unzgfZ9wmjsouXZiVpax4D-fzf73eZ3LB9K__pxvU7ZcBaHL0fRVB1E_Z-huXsTrai-8Klw",
+        "cid": "6176482205854993630",
+        "fid": "0x809143a893e415f9:0x55b745d781820cde",
+        "placeId": "ChIJ-RXkk6hDkYAR3gyCgddFt1U"
+      },
+      {
+        "position": 18,
+        "title": "Tri-Valley Orthopedic Specialists, Inc.",
+        "address": "2180 Grant Line Rd, Tracy, CA 95377",
+        "latitude": 37.7537525,
+        "longitude": -121.4571387,
+        "rating": 4.7,
+        "ratingCount": 478,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://trivalleyorthopedics.com/",
+        "phoneNumber": "(925) 463-0470",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.trivalleyorthopedics.com/general-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQr6tUXHgTNN4AaRWxqm-xg1gpL_FO00YJsPlICWpe1kE9ek5nruSFZuQqhSIBILU_eyGa6iEEtXbARPffFX_COnpopPjJUZ28t7AnWH7VKtwIvdy7V6ExcbAQLKmYgPI4VPSR",
+        "cid": "15642821030180517095",
+        "fid": "0x80903d30b487df8b:0xd91676d904eb74e7",
+        "placeId": "ChIJi9-HtDA9kIAR53TrBNl2Ftk"
+      },
+      {
+        "position": 19,
+        "title": "Active Orthopedic: Guerrero Patrick DO",
+        "address": "1051 E Tuolumne Rd #103, Turlock, CA 95382",
+        "latitude": 37.5153517,
+        "longitude": -120.8378152,
+        "rating": 3.9,
+        "ratingCount": 30,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Surgeon"
+        ],
+        "website": "https://active-orthopedic.com/",
+        "phoneNumber": "(209) 216-5900",
+        "openingHours": {
+          "Thursday": "8 AM–12 PM, 1–5 PM",
+          "Friday": "8 AM–12 PM, 1–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–5 PM",
+          "Tuesday": "8 AM–12 PM, 1–5 PM",
+          "Wednesday": "8 AM–12 PM, 1–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeRgAGIjk4BzbyXUi-E_8Qn8D9p3ONsIqiCyu0Pt3YHRUNryTylbMBQlQEV_vP3eQ6p7xyKYsH3_6Gf8HaNyjb-0P4nMVWf06QjTvQOQoEgl2hC99yN1-QMGlq-aQZL8ZnJooq",
+        "cid": "13040547312254990365",
+        "fid": "0x809106f790f7a951:0xb4f954b04fa2381d",
+        "placeId": "ChIJUan3kPcGkYARHTiiT7BU-bQ"
+      },
+      {
+        "position": 20,
+        "title": "Bryant Orthopedic and Sports Physical Therapy",
+        "address": "3379 G St, Merced, CA 95340",
+        "latitude": 37.3265783,
+        "longitude": -120.47109069999999,
+        "rating": 5,
+        "ratingCount": 133,
+        "type": "Physical therapist",
+        "types": [
+          "Physical therapist"
+        ],
+        "website": "http://www.bryantorthopedic.com/",
+        "phoneNumber": "(209) 325-4710",
+        "openingHours": {
+          "Thursday": "7:30 AM–12 PM, 1–6 PM",
+          "Friday": "7:30 AM–12 PM, 1–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–12 PM, 1–6 PM",
+          "Tuesday": "7:30 AM–12 PM, 1–6 PM",
+          "Wednesday": "7:30 AM–12 PM, 1–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeRQFqugfKkXxnhesQjSe1EIgS5S6mtfFspXLuSYm2uP8_3tSsValcCbX5hifiHaQmO8ZOQOstAs4ciZeNHfAOU_5CDq3W_gZtD362SftoFG0zz69JYhRNQEkbBd8bD7woCYXRjm8YozEH",
+        "cid": "477932980061087653",
+        "fid": "0x809143cbfceeab9b:0x6a1f5835efc27a5",
+        "placeId": "ChIJm6vu_MtDkYARpSf8XoP1oQY"
+      }
+    ],
+    "credits": 3
+  }
+}

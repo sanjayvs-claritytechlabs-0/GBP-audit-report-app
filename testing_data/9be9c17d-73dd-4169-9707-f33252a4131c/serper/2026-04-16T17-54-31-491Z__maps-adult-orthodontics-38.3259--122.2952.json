@@ -1,0 +1,642 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzI1ODY1LC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@38.8220094,-77.1676025,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Virginia Orthodontic Partners - Annandale",
+        "address": "4600 John Marr Dr STE 401, Annandale, VA 22003",
+        "latitude": 38.828817799999996,
+        "longitude": -77.19748729999999,
+        "rating": 4.9,
+        "ratingCount": 246,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://vaorthodonticpartners.com/",
+        "phoneNumber": "(703) 750-9393",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.vaorthodonticpartners.com/newpatient/office/Annandale-JohnMarr?rwg_token=AFd1xnG41nN44-9aInBZil8Oa5DScErtVH4LJ7Cjtkcj_93C-zypERKnrQdNk3-4tJAczJjUk-dMFiUANQFgjZNIvugO2c8ESA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4vfbLk764cCt02L1z1hRer81DcDWOFrNBwISEpBKaaVJh4FAraXuF0EWlG_m9EGzW4cZwovIMxCniDegyRDFJIdj6NFiMvUp7L5N7meJzb0vj2IC_90xq7VjdghDvoVeyPsrKqA",
+        "cid": "2457029775821961287",
+        "fid": "0x89b64cd30663be69:0x22191f902e6cf847",
+        "placeId": "ChIJab5jBtNMtokRR_hsLpAfGSI"
+      },
+      {
+        "position": 2,
+        "title": "Elite Orthodontics – Teens, Adults & Children | Airway-Focused-Falls Church",
+        "address": "6565 Arlington Blvd #501, Falls Church, VA 22042",
+        "latitude": 38.8698196,
+        "longitude": -77.17002099999999,
+        "rating": 5,
+        "ratingCount": 1370,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://eliteorthodonticsnova.com/falls-church-va-location/",
+        "phoneNumber": "(703) 534-8711",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "10 AM–5 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://eliteorthodonticsnova.com/appointments/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhWUxiaDEb1ViKq-wAdbnBq3VBkFnt-Ou_jzK8Tcmthv8QTofkmXIEpzShFjkILl3KIPF7wt0CUrYB-BCPYgUTXans-TIdbaWX9C1FY3AkiOE9S0DIkoCtgO7uoRfZNX3CzKt_9g",
+        "cid": "13413584111887505396",
+        "fid": "0x89b630c8bd51dd1b:0xba269fae79e0d7f4",
+        "placeId": "ChIJG91RvcgwtokR9Nfgea6fJro"
+      },
+      {
+        "position": 3,
+        "title": "Perfect Smiles Orthodontics",
+        "address": "6303 Little River Turnpike STE 200, Alexandria, VA 22312",
+        "latitude": 38.8171272,
+        "longitude": -77.14447779999999,
+        "rating": 4.9,
+        "ratingCount": 421,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.perfectsmilesorthoalexandria.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+        "phoneNumber": "(703) 912-0672",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.perfectsmilesorthoalexandria.com/office-info/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJc1j4mNBycAD5aBR-KZwVwdtF783-3XVuwlpju4Y-n2VW4WRnhw5dSfK_SqyWAjqyL30HNCO4Oyu3KGE8kaVZIriLi4NdSzYfdG-TxZskGyBTYqzK2gCwQ29JW1L0rVs7-HvvFtzfY28",
+        "cid": "4552435607619867546",
+        "fid": "0x89b7b3ab1300fa5f:0x3f2d8010b705939a",
+        "placeId": "ChIJX_oAE6uzt4kRmpMFtxCALT8"
+      },
+      {
+        "position": 4,
+        "title": "One Smile Orthodontics",
+        "address": "6225 Brandon Ave #170, Springfield, VA 22150",
+        "latitude": 38.7836996,
+        "longitude": -77.18074299999999,
+        "rating": 4.9,
+        "ratingCount": 153,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.onesmileortho.com/",
+        "phoneNumber": "(703) 451-3900",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://onesmileortho.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKtJhgEBQoybEy4Km66LISQzbnPS2-gq9nbsU6ahy16FcA6DKYTrjOUaTnEswGfZRPNyHr3PMPGko8e1wVizV-Gdj03p5l2Cr5_EzlUYiNtEZXVrjo3ieTyEKnKwiTynTZld5a",
+        "cid": "405018614430722244",
+        "fid": "0x89b7b3ea11bde065:0x59eea48b09068c4",
+        "placeId": "ChIJZeC9Eeqzt4kRxGiQsEjqngU"
+      },
+      {
+        "position": 5,
+        "title": "Hudson Orthodontics",
+        "address": "6116 Rolling Rd STE 201, Springfield, VA 22152",
+        "latitude": 38.784515299999995,
+        "longitude": -77.2381966,
+        "rating": 4.9,
+        "ratingCount": 2021,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.smilesbyhudson.com/",
+        "phoneNumber": "(703) 451-4666",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://smilesbyhudson.com/landing-page/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkmYqMo5DYVCZWZDnOlHhaAVwkUuv8MpGk355xvyhcoeojR1XWgKwMDGYsVReDYArekYDLllimrwaWj_Zqp00aA4d-sPF1ncuUtYm34cLqJVs-Lp5pOdc_398k4h2nWqIbXbqw5Q",
+        "cid": "10261546545335790759",
+        "fid": "0x89b652802f85763d:0x8e68563708e06ca7",
+        "placeId": "ChIJPXaFL4BStokRp2zgCDdWaI4"
+      },
+      {
+        "position": 6,
+        "title": "Orbach Orthodontics",
+        "address": "3705 S George Mason Dr, Falls Church, VA 22041",
+        "latitude": 38.8427894,
+        "longitude": -77.1143669,
+        "rating": 4.7,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orbachorthodontics.com/falls-church-orthodontic-office",
+        "phoneNumber": "(703) 820-1011",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orbachorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZqcJvvrDRgCm8RvHLfy2zIosLEIRPd0rdk0CnraL2zzbtGlTlP0FZzhVglKtSIH6TQ2t6oxUBdU4GVq-D3Ns4tehYLDdTVUnIoPZxwrbCb-pFwOpuiPRyuYu-KUH4jl04vXOVcfG6KEs",
+        "cid": "254780484830333061",
+        "fid": "0x89b7b3efff2efaa3:0x389298046038885",
+        "placeId": "ChIJo_ou_--zt4kRhYgDRoApiQM"
+      },
+      {
+        "position": 7,
+        "title": "Cameron Station Orthodontics",
+        "address": "440 S Pickett St, Alexandria, VA 22304",
+        "latitude": 38.8072532,
+        "longitude": -77.1284077,
+        "rating": 5,
+        "ratingCount": 49,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://cameronstationortho.com/",
+        "phoneNumber": "(571) 413-0833",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "11 AM–7 PM",
+          "Wednesday": "7 AM–3 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDkvPqhhMRO9BLMto8SvLO89c5d3iZBHJz5DdVneK7_DqXCg5cmgT5GKIsm9YNyjIspzGc4QpXeTlMm2Fl-wp7aHfg9CP0GO36er9grZXra_yvxzweuBoDJHPKFVVusQ36O5E5",
+        "cid": "12281489383898020072",
+        "fid": "0x89b7b30a344469b7:0xaa709d8647f8f8e8",
+        "placeId": "ChIJt2lENAqzt4kR6Pj4R4adcKo"
+      },
+      {
+        "position": 8,
+        "title": "Kathy Vroom DDS Orthodontics",
+        "address": "7027 Evergreen Ct, Annandale, VA 22003",
+        "latitude": 38.83172,
+        "longitude": -77.187556,
+        "rating": 4.9,
+        "ratingCount": 57,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.drvroomortho.com/",
+        "phoneNumber": "(703) 658-0330",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4myZHXdnjjduIgCiRFbXAwvV8Nj29P1YylDk5vzokn2Ihx5XFMJqHinZ3GHKYTPg2bfEFRAFyb_xJK2yBS39QObRya8rEsRTNCRfH6JbxW3g-HGQkv6-e-90im5ATsMGgVg-6aA",
+        "cid": "4574278607106121144",
+        "fid": "0x89b7b331ebc8c78d:0x3f7b1a28583a9db8",
+        "placeId": "ChIJjcfI6zGzt4kRuJ06WCgaez8"
+      },
+      {
+        "position": 9,
+        "title": "TBraces Orthodontics",
+        "address": "2501 N Glebe Rd #300, Arlington, VA 22207",
+        "latitude": 38.902021,
+        "longitude": -77.12638799999999,
+        "rating": 4.9,
+        "ratingCount": 610,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.tbraces.com/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=arlington&y_source=1_NDgwMjI3NDMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(571) 316-2037",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tbraces.com/request-your-appointment/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=arlington"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHBMRvb_DY-uzCe4kGS4JUZTc0YtSsoOBSofgkEb22nyikp7C08CStKt0HcVA3QI5IIkr0qg0Xm64R6toPsJ8wqmCTkxJgwgjS4JLzer3AYt7H-6ATIzPGjkHS9omTfu9yTXw4cCg",
+        "cid": "7081434838808058489",
+        "fid": "0x89b7b5b66d56fb27:0x62464f77833ada79",
+        "placeId": "ChIJJ_tWbba1t4kRedo6g3dPRmI"
+      },
+      {
+        "position": 10,
+        "title": "Trü Orthodontics Springfield",
+        "address": "8134 Old Keene Mill Rd #300, West Springfield, VA 22152",
+        "latitude": 38.7817258,
+        "longitude": -77.2266083,
+        "rating": 5,
+        "ratingCount": 1136,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://westspringfield.truorthodontics.us/",
+        "phoneNumber": "(703) 440-0100",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDpB8j9A_jaO_vAJMHC2v38U86ZR56TKTLVlbtNV0YQlCiUt0QzTrIxW7OySOBC7pQkseFhrH3GMZwQj4P4kGdtFV9xHnSkduBUSx2YazdrcmBbJnRvy40X1xrxwQzr1FizMv3",
+        "cid": "1934728349461020083",
+        "fid": "0x89b652125386dca1:0x1ad9892ee6807db3",
+        "placeId": "ChIJodyGUxJStokRs32A5i6J2Ro"
+      },
+      {
+        "position": 11,
+        "title": "Alexandria Braces",
+        "address": "5901 Kingstowne Village Pkwy # 304, Alexandria, VA 22315",
+        "latitude": 38.774014199999996,
+        "longitude": -77.1376191,
+        "rating": 4.9,
+        "ratingCount": 219,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.alexandriabraces.com/",
+        "phoneNumber": "(703) 347-9876",
+        "openingHours": {
+          "Thursday": "9:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6 PM",
+          "Tuesday": "9:30 AM–6 PM",
+          "Wednesday": "9:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEj_sGkq52WZCkvJ-vtod7oLrE3ytETg83YVdOLUm6DsTSANfnqL8kJrxnW_NJsasZrizBA3MZomagWMDUqPQJJoTG9AUuSKz53i14DAI8vWsieGMIFk-dM_PuH6rYHmYVnN0R57MVB-lpC",
+        "cid": "8845760544990112853",
+        "fid": "0x89b7b27e70f36d13:0x7ac274594c4d2c55",
+        "placeId": "ChIJE23zcH6yt4kRVSxNTFl0wno"
+      },
+      {
+        "position": 12,
+        "title": "Ace Orthodontics",
+        "address": "2841 Hartland Rd Ste 302, Falls Church, VA 22043",
+        "latitude": 38.8764152,
+        "longitude": -77.22206109999999,
+        "rating": 5,
+        "ratingCount": 97,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://ace-ortho.com/",
+        "phoneNumber": "(703) 560-3745",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "10 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/ace-orthodontics-36024?LocIdent=59614&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_fbEJIcT9q0uiW9xvrCDTZR-lo__Fv_mN0J0kuzTRG6cYzw6B-entity&rwg_token=AFd1xnHvr7M79V_7iBRV53Zmj99tAyy9SQTfSTkka70UmQtLdy0g3shZX_MiFCAb6odyvYipQnLzC9faLAL5YvTCd0FDi1Dcbv6n8FWVWQk1ALLuP-pP02Q%3D",
+          "https://edgebooking.ortho2.com/search?catalog=f4eaa782-ed57-47ee-8ade-9237a368cc26&code=yiznlt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwbM1TLEXKIjQdWlp2HUDqkNHS9pxaeKJXjHgut0Nt2OQpCb44pqAfAwIQT-fEXDAA8M9mQqnKJhBa1J7fiMH-_el16Elc3y09NUMvYM1qDWJIWYrzXQVQWoPHHZ0t6ZPG1oyOXA",
+        "cid": "14793908685490897371",
+        "fid": "0x89b64b68bda68bfd:0xcd4e8591664041db",
+        "placeId": "ChIJ_YumvWhLtokR20FAZpGFTs0"
+      },
+      {
+        "position": 13,
+        "title": "Potomac River Orthodontics – Falls Church",
+        "address": "117 E Annandale Rd, Falls Church, VA 22046",
+        "latitude": 38.880024399999996,
+        "longitude": -77.1728112,
+        "rating": 5,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.potomacriverorthodontics.com/locations/falls-church-va/",
+        "phoneNumber": "(703) 659-8188",
+        "openingHours": {
+          "Thursday": "10 AM–7 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6 PM",
+          "Tuesday": "10 AM–7 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvSD6KxpRkSAnSgrGIT4br3ax-pL-OT4Ie2tgVdXri3U4enF-uR06Gy2dN4S5_eRGjwWUmFmbEmg7XkBTgBrN6i26XLJ8BN7-IBYD96rfjeiTQ-4RRvwGJwjKQlpYLyUI0Bv-0fyGamCY",
+        "cid": "6545783408575590448",
+        "fid": "0x89b7b5c741233dcf:0x5ad74b543ccb3030",
+        "placeId": "ChIJzz0jQce1t4kRMDDLPFRL11o"
+      },
+      {
+        "position": 14,
+        "title": "Merrifield Orthodontics",
+        "address": "2843 Hartland Rd #100, Falls Church, VA 22043",
+        "latitude": 38.8761029,
+        "longitude": -77.2219708,
+        "rating": 4.6,
+        "ratingCount": 86,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://merrifieldorthodontics.com/",
+        "phoneNumber": "(703) 573-0200",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAppAFldZW8WS4xvAIafoXbxRVQLDUSJ7NmoG2IPZb1sLLIw1wUYb8_dtjopW2eqdXt0gM3k2itv8qGwWM2FCkJNqz7K7kx-33tAz8xPooySDEHSoEzm4NMbupf22yhfxmrN-n4A",
+        "cid": "11184508702882769809",
+        "fid": "0x89b64b68a79ac67b:0x9b375b683e97ab91",
+        "placeId": "ChIJe8aap2hLtokRkauXPmhbN5s"
+      },
+      {
+        "position": 15,
+        "title": "American Braces & Smile Center Orthodontics - Alexandria",
+        "address": "6088 Franconia Rd STE A, Alexandria, VA 22310",
+        "latitude": 38.782782,
+        "longitude": -77.1466219,
+        "rating": 4.8,
+        "ratingCount": 16,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://braces4yourlife.com/orthodontist-in-alexandria-va-orthodontics/",
+        "phoneNumber": "(703) 783-1517",
+        "openingHours": {
+          "Thursday": "9:30 AM–6 PM",
+          "Friday": "9:30 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6 PM",
+          "Tuesday": "9:30 AM–6 PM",
+          "Wednesday": "9:30 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.greyfinch.com/?division=375973"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqjNZj_PfZUY8ePSG9KcApkYGXO6VLg15oVM6Ctnkcm1MjliSQ89mqoYbFcrx2EPlORJGLAz9jfrxFYIfym4KcTbE8_8sikte8a1PK6Vd_812vj8YtjGTSfjWyGW2v4y9j6i26cg",
+        "cid": "10530197622130009364",
+        "fid": "0x89b7b37949ee0ae1:0x9222c6f229b8e514",
+        "placeId": "ChIJ4QruSXmzt4kRFOW4KfLGIpI"
+      },
+      {
+        "position": 16,
+        "title": "Burke Family Orthodontics, PLLC",
+        "address": "5204 Lyngate Ct, Burke, VA 22015",
+        "latitude": 38.809597,
+        "longitude": -77.257796,
+        "rating": 4.9,
+        "ratingCount": 145,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.burkefamilyortho.com/",
+        "phoneNumber": "(703) 425-5125",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkrWImqXgVkKi2ZpgYw10vGXFXfimbY0cW5Ti969N6M2rknFtZbSr51Habhyj5B9vmSZZxMPG3gHv4DnqUVbT75vesCsoFl-KcaTwR0aCipIE1hsvrBmORy0G-auBcFUS916VS",
+        "cid": "12442030467401616114",
+        "fid": "0x89b64dbe780da221:0xacaaf8ca160f8af2",
+        "placeId": "ChIJIaINeL5NtokR8ooPFsr4qqw"
+      },
+      {
+        "position": 17,
+        "title": "Metropolitan Orthodontics: Kristin Nelson, DDS, MDS",
+        "address": "8315 Lee Hwy #450, Fairfax, VA 22031",
+        "latitude": 38.8735698,
+        "longitude": -77.23236349999999,
+        "rating": 4.9,
+        "ratingCount": 331,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.metropolitanorthodontics.com/",
+        "phoneNumber": "(571) 350-3316",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.metropolitanorthodontics.com/schedule?utm_source=google_apt&ao=Google",
+          "https://www.tebra.com/care/provider/kristin-nelson-dds-msd-1548678295?lid=3736810587&rwg_token=AFd1xnEjrk0ybmNWwC4qHvHEiwK7iY_72azqW_xFpnArSAedpET4uwlH8XtFur5Y-qpoTumdLHn4USY7rv-PTAOoPB-I2Y65Gd1EwSOy_DChd8nWZKCAvRw%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeKxS5jOcneIuzz_cczLIu2JbifU60Hw7OpfnM3Hkk8MjGb0Qf5rd3HLsNg4I2WMvguz58LPDSXEeSEhJUrVTPdUbT_80y4VYNbknFb4Ck9GQALCE0M9ibe1o4h0rEsH-c0uK9",
+        "cid": "9058016642332727848",
+        "fid": "0x89b64b7ba58c06b5:0x7db48a250fd19a28",
+        "placeId": "ChIJtQaMpXtLtokRKJrRDyWKtH0"
+      },
+      {
+        "position": 18,
+        "title": "Annandale Smiles",
+        "address": "4322 Ravensworth Rd, Annandale, VA 22003",
+        "latitude": 38.829226999999996,
+        "longitude": -77.198539,
+        "rating": 4.7,
+        "ratingCount": 1025,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Denture care center",
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.annandalesmiles.com/",
+        "phoneNumber": "(703) 256-5870",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://flexbook.me/annandale?rwg_token=AFd1xnGmdyYVijYxsqWirMjx5WxbGHi-eQvEsjYeBEhdV-RUZWPw7zIy02ILyFgQCwNNpi98w52dwXU-IL5sDqc-8fezrZmyqg%3D%3D",
+          "https://link.prospectdoctor.com/widget/group/LaJI7cDj47ky0H7lWSYV?rwg_token=AFd1xnEEakp2_5Z4ps9pVpydKWutCK_dz_aqqsphKfWIaCsFkx2k1mbCtkciIMLUDvWj_waWgHx8aMvFJOqht6QfDweQTF70eQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEczIo3uDP0qAh3o97BrnK9wetA-3FXCLDq6v6hCIxyW3OjXJv768jGGHu7SXyJ3UCS-9_yCHU_qz7xkd5aTkR0irqfwmwKkxwaWOuj0BJvh_yWAbdmoNXgwk8qDTPyPSvpvEjAqw",
+        "cid": "8683256706123969052",
+        "fid": "0x89b64cd3b491a2f1:0x78811ff7e60c321c",
+        "placeId": "ChIJ8aKRtNNMtokRHDIM5vcfgXg"
+      },
+      {
+        "position": 19,
+        "title": "Alexandria Orthodontics",
+        "address": "2616 Sherwood Hall Ln STE 302, Alexandria, VA 22306",
+        "latitude": 38.743384999999996,
+        "longitude": -77.077409,
+        "rating": 5,
+        "ratingCount": 625,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://myalexandriaortho.com/",
+        "phoneNumber": "(703) 780-1418",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "7 AM–3 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://myalexandriaortho.com/book-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiW7mbll-nWnzNAJfPBovD8k5-PDo9cSENG7ErJCyayaF1wRspc-xL4E37hZUXQeIoztBnUEQUKGdJCqt7qbheU9sCUr3q1GkTg0u4h3n_9AG7MDJyO-FoiFRoEX15oyDy_AQD",
+        "cid": "6791933541920718320",
+        "fid": "0x89b7ae41b194e931:0x5e41cb92383ebdf0",
+        "placeId": "ChIJMemUsUGut4kR8L0-OJLLQV4"
+      },
+      {
+        "position": 20,
+        "title": "First Impression Orthodontics",
+        "address": "6479 Old Beulah St, Alexandria, VA 22315",
+        "latitude": 38.7419978,
+        "longitude": -77.1630358,
+        "rating": 5,
+        "ratingCount": 665,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://firstimpressionorthodontics.com/",
+        "phoneNumber": "(703) 822-0010",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "8:15 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://firstimpressionorthodontics.com/contact-us/#form"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKQyKR_V_wczOk1m1qwNp-naiDmrYgKyAt2gKzBHbaJAW75QqhODnVGR1Qa-kDvanZOaAKQ2uUPFjL3v19c0fAuerP1FsGdVY5RC1GLetIqHe86CQcTgSVvLQD4NHrHVDQq5wWCN6DSMyO",
+        "cid": "11223784335916158757",
+        "fid": "0x89b7ad6d022cdd73:0x9bc2e46329e04f25",
+        "placeId": "ChIJc90sAm2tt4kRJU_gKWPkwps"
+      }
+    ],
+    "credits": 3
+  }
+}

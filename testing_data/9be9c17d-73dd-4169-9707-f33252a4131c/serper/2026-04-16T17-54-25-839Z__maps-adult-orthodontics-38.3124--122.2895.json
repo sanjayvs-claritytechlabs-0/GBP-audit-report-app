@@ -1,0 +1,642 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.31239,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4yODk1MTQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@33.0371335,-96.6578885,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Wylie Orthodontic Specialists",
+        "address": "600 Cooper Dr # 160, Wylie, TX 75098",
+        "latitude": 33.0101022,
+        "longitude": -96.5447197,
+        "rating": 5,
+        "ratingCount": 340,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.wylieortho.com/",
+        "phoneNumber": "(972) 941-9363",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuW98RvdURaOyFTXnUoAAfa-b26PO-QP358PD1Wei37EcmqcrurVxlzPl6a9LmUsI431MgI7y8fZ8w5Fq7OUhT8KEBtae6m_AUT1cBufREzWhyAEiY0yFuuEORFqzj1BjldwVF8u5UKuM",
+        "cid": "10388164807447969533",
+        "fid": "0x864c048feeb7ce0f:0x902a2cda80267efd",
+        "placeId": "ChIJD8637o8ETIYR_X4mgNosKpA"
+      },
+      {
+        "position": 2,
+        "title": "Gandy Orthodontics",
+        "address": "520 W Brown St a, Wylie, TX 75098",
+        "latitude": 33.0187308,
+        "longitude": -96.54365299999999,
+        "rating": 5,
+        "ratingCount": 174,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://gandyorthodontics.com/",
+        "phoneNumber": "(972) 429-0300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHe73Kk1e5Fd51XQRTcySe6g8Swy006A8pc60OMaczc6mzdVNTe8UrU-xXs_LoQK1xXU7nyPtu6l_iJs9rUhPNVJRKhAQzw4XQm9vxcSE14dbmiYYxVLssEjNBO74MZEuzRthgDUw",
+        "cid": "7371478108616855862",
+        "fid": "0x864c048ce042061d:0x664cc048b5ad1136",
+        "placeId": "ChIJHQZC4IwETIYRNhGttUjATGY"
+      },
+      {
+        "position": 3,
+        "title": "Smile Brite Orthodontics",
+        "address": "7200 S State Hwy 78 STE 100, Sachse, TX 75048",
+        "latitude": 32.9861072,
+        "longitude": -96.5796309,
+        "rating": 5,
+        "ratingCount": 2041,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.smilebriteorthodontics.com/",
+        "phoneNumber": "(214) 307-6020",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7:30 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://smilebriteorthodontics.com/online-scheduling/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEn50XMnq_t7MPDxXDvgK4z7M66cndukf8F0Tjz0S-t7cNSyUSaNU5GHkiHpgIKkssuuWQhllTxL0pLsCXf1k3pHMWY_9wcPfcusc8s10RgYa6nby4EAZeRbpJqYzRyFndWC-6GoA",
+        "cid": "11289190924829165147",
+        "fid": "0x864c1cad3748f19f:0x9cab43555c01865b",
+        "placeId": "ChIJn_FIN60cTIYRW4YBXFVDq5w"
+      },
+      {
+        "position": 4,
+        "title": "Fesler Orthodontics",
+        "address": "160 E Farm To Market 544 Ste 98, Murphy, TX 75094",
+        "latitude": 33.0106441,
+        "longitude": -96.6098208,
+        "rating": 5,
+        "ratingCount": 311,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.feslerortho.com/",
+        "phoneNumber": "(972) 424-2221",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8–11:30 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://feslerortho.com/schedule-free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_c4Qn6tiVGJuGZnzz5yqWkWOzNBYBQXSJN79xnsp7jPJL5PdmRXUsbofiR11p8H2ughHM1Zf7HbLr5j4GcdR8-qY1HHFPdM-dR952TPmc8quqZimCAv2pupmjEi3hEEtRlRteTQ",
+        "cid": "9194107827910316502",
+        "fid": "0x864c1b721cd200cb:0x7f98085b653b91d6",
+        "placeId": "ChIJywDSHHIbTIYR1pE7ZVsImH8"
+      },
+      {
+        "position": 5,
+        "title": "Robertson Orthodontics",
+        "address": "213 N Murphy Rd Ste 700, Murphy, TX 75094",
+        "latitude": 33.0176849,
+        "longitude": -96.61315909999999,
+        "rating": 5,
+        "ratingCount": 232,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.robertsonorthodontics.com/",
+        "phoneNumber": "(972) 363-8020",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://clients.vcita.com/portal/loh9obo942ycz4p7#/schedule?s=https%3A%2F%2Flive.vcita.com%2Fsite%2Floh9obo942ycz4p7%2Faction%2F2kv4wilfevdrsfdq&o=ZGlyZWN0&isWidget=false&fromName"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJ0WMf5lsrM7qQW0geV9YDmSoAenJsjGv5nfbeQUcgzRt2gnld4QP8a5CiRZZkpf5GNFjyh4PPGbHniUk8RmMc7u8fEd6AEN1OhAQ20uxTljPVH1sMoM0XJOxx3BXpQbVJnW8auw",
+        "cid": "9295834752211283330",
+        "fid": "0x864c1be533163825:0x81017074a848ed82",
+        "placeId": "ChIJJTgWM-UbTIYRgu1IqHRwAYE"
+      },
+      {
+        "position": 6,
+        "title": "Shaw Orthodontics - Wylie",
+        "address": "2640 FM 544 #200, Wylie, TX 75098",
+        "latitude": 33.0105775,
+        "longitude": -96.57773519999999,
+        "rating": 4.8,
+        "ratingCount": 344,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://shawsmiles.com/wylie-orthodontic-office",
+        "phoneNumber": "(972) 426-9101",
+        "bookingLinks": [
+          "https://consultation.shawsmiles.com/newpatient/office/Wylie-FM544?rwg_token=AFd1xnHprhAspEaUTuNNYjnoRm_1MJZhKHWrCEkvGPQmVI9NXXMBkOnx1NCDOUc4TO6bhED4TG65nIudk783_FNw-PxTH9HAOpxvYP4Ux2INrvIxjNjyDzA%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHyiMvlC-aptIeIkWMkWQDlkeQai2kvB0zoHc9CoG-EFaWPbAAJSp1MxzRJQV8JNPdJ2SZzB5i9_cs3VMB8C4Xx70mN6-C87Edrvbk19uHV6iguQUOp4roLCos1OEqnYI7IC_L6cf7CVAXG",
+        "cid": "6624113381018465247",
+        "fid": "0x864c04b330158309:0x5bed9406238473df",
+        "placeId": "ChIJCYMVMLMETIYR33OEIwaU7Vs"
+      },
+      {
+        "position": 7,
+        "title": "Murphy Orthodontics",
+        "address": "619 W Farm To Market 544 Suite A, Murphy, TX 75094",
+        "latitude": 33.012124899999996,
+        "longitude": -96.6272225,
+        "rating": 4.9,
+        "ratingCount": 116,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://www.murphyorthodontics.net/",
+        "phoneNumber": "(214) 945-4040",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8b_n3TVfAMvNWOVdJ8P9usBcxds4-wYUMQJ2o4JASczZRggEQMGtYlm_JWu86glV9ThCXkDA-OyNdHBVDyp2CFi2QZ1Y2zAhnDzzr276XCKP8zX787FM3bG-orwfj77Q49jjO9AKTX4yV",
+        "cid": "15340334398103074427",
+        "fid": "0x864c1b992ffb059d:0xd4e3d0dbc6a3b67b",
+        "placeId": "ChIJnQX7L5kbTIYRe7ajxtvQ49Q"
+      },
+      {
+        "position": 8,
+        "title": "Align Braces & Kids' Dental",
+        "address": "601 E Farm To Market 544 #600, Murphy, TX 75094",
+        "latitude": 33.0118491,
+        "longitude": -96.5989517,
+        "rating": 5,
+        "ratingCount": 47,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.alignbraces.com/",
+        "phoneNumber": "(214) 703-5200",
+        "openingHours": {
+          "Thursday": "9:30 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–5:30 PM",
+          "Tuesday": "9:30 AM–5:30 PM",
+          "Wednesday": "9:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFm4yR6hG81SSqLpcECZuduXDciIUsGDFfvlbDg7fb2hiWWvgx4iahxaOL_vr63b9xImNCGu67IEPfp2mkVWl_AK9UJ137QFxK9bGKE1BzAxhYLvs3A02JtKGu6nMoRIeKG1mbBWw",
+        "cid": "14561516704593545783",
+        "fid": "0x864c1b41f6c84c83:0xca14e64ae8370a37",
+        "placeId": "ChIJg0zI9kEbTIYRNwo36ErmFMo"
+      },
+      {
+        "position": 9,
+        "title": "Champion Orthodontics",
+        "address": "7030 N Shiloh Rd #180, Garland, TX 75044",
+        "latitude": 32.978713299999995,
+        "longitude": -96.66468719999999,
+        "rating": 5,
+        "ratingCount": 108,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.championorthotexas.com/",
+        "phoneNumber": "(972) 474-7724",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–2:30 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAET0DRTNzlbm94uttVZ1AWfQ_gnn2_C5JCpRdhrLPQDb6mx12sQoqbWi4duuDARCf8-trUbNB-oVjKQ8vJL8P2T7gr6Zv6lVpqyV-P5nHqJ-CgmT2Z0-LMbkq0F-S1BOm9qtWZJ",
+        "cid": "13526248712099891101",
+        "fid": "0x864c1fc6b0ae2f61:0xbbb6e389dc4c879d",
+        "placeId": "ChIJYS-usMYfTIYRnYdM3Injtrs"
+      },
+      {
+        "position": 10,
+        "title": "Robertson Orthodontics",
+        "address": "2730 Country Club Rd A, Lucas, TX 75002",
+        "latitude": 33.1229563,
+        "longitude": -96.6092836,
+        "rating": 4.9,
+        "ratingCount": 500,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.robertsonorthodontics.com/",
+        "phoneNumber": "(972) 363-8020",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://clients.vcita.com/portal/loh9obo942ycz4p7#/schedule?s=https%3A%2F%2Flive.vcita.com%2Fsite%2Floh9obo942ycz4p7%2Faction%2F2kv4wilfevdrsfdq&o=ZGlyZWN0&isWidget=false&fromName"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFEgzdoDu-OzGNEYdSBcctPm3EitPpLkbA2iXdumC4Mo08RV6cUNdhwPEDjlrsWgd-kT8bowuD3t5PbIEie7735w4DnevSvTAaz3XrBdzoT6bWwGvzzbS1ULyR-Fx883v0Nrs8P",
+        "cid": "17080680867452500963",
+        "fid": "0x864c104e12a083cb:0xed0ac4c06a513be3",
+        "placeId": "ChIJy4OgEk4QTIYR4ztRasDECu0"
+      },
+      {
+        "position": 11,
+        "title": "Murphy Crossing Dental Care & Orthodontics",
+        "address": "305 E Farm To Market 544 Ste 915, Murphy, TX 75094",
+        "latitude": 33.011895599999995,
+        "longitude": -96.60343979999999,
+        "rating": 4.3,
+        "ratingCount": 457,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Dental implants periodontist",
+          "Emergency dental service",
+          "Endodontist",
+          "Oral surgeon",
+          "Orthodontist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://murphycrossingdentalcare.com/",
+        "phoneNumber": "(469) 322-8595",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/murphy-crossing-dental-care-133782?LocIdent=324944&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_9_oeJYa020aM2bZjsFshdg-lo_fehgIKSZe0aJy6YznoWBjx-entity&rwg_token=AFd1xnHE156puhJRlKx-D_l-EbgOuY6nZuioaL4shvOzQElGg3eadqr_Gxt52BiDxoG0G7vZqFa-7ZUhzTAJfZlrSZ7eFJNcqg%3D%3D",
+          "http://www.appointnow.com/?P=3040&O=554"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzCwheuo2maJ-iLqR8_JTyN4LMOPI02m7JWjLq8ob6VrRr7rbjuwBc9Jy4xhtQlb92UGwf6ut3LoMStdnPuYk004P-h1V02DY3HY2D-VhEebFj0QapNc83APewGPVjZ7BLxd52sIMXRTLz",
+        "cid": "1607257119083616941",
+        "fid": "0x864c1b6bdc85f83f:0x164e1fd58db25aad",
+        "placeId": "ChIJP_iF3GsbTIYRrVqyjdUfThY"
+      },
+      {
+        "position": 12,
+        "title": "Thrive Dental and Orthodontics",
+        "address": "4150 E Renner Rd #400, Richardson, TX 75082",
+        "latitude": 33.0002747,
+        "longitude": -96.64453669999999,
+        "rating": 4.8,
+        "ratingCount": 1561,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Emergency dental service",
+          "Orthodontist"
+        ],
+        "website": "https://thrivedentist.com/locations/richardson/",
+        "phoneNumber": "(972) 248-9119",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "9 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://book.modento.io/thrive-dental-orthodontics-richardson/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAhbT3avOI9jj2EnxJRQhbH39vnhjFXNGRR4cWYy59Fr93ZK8u9Zkw9ceSacLp3r2uYPKrYdHdwvOLtGYaO4H9Bt8Nr1BK4_WM_UKYq9wH8PDR1XIljrBhl9F7NoHd-tbcdBWpzg",
+        "cid": "15509375289756266447",
+        "fid": "0x864c1bf3aeafe807:0xd73c5ea76224afcf",
+        "placeId": "ChIJB-ivrvMbTIYRz68kYqdePNc"
+      },
+      {
+        "position": 13,
+        "title": "Goldreich Orthodontics",
+        "address": "3105 Legacy Dr A, Plano, TX 75023",
+        "latitude": 33.072367199999995,
+        "longitude": -96.7522982,
+        "rating": 5,
+        "ratingCount": 466,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.goldreichorthodontics.com/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&y_source=1_MzI0OTcyOTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(972) 618-6611",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.goldreichorthodontics.com/request-your-appointment/?utm_medium=organic&utm_campaign=listing&utm_source=GMB&utm_term=brand"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5aTePtTQj8GaGNboDGUhQwyeXdsyRbXGWXinqZf-ebYRlCG88soHF2ER4UBOKJlpicOIUWDYO8Cti0Pf0gOvho_7RRONRxJSJ8osJ3nN5h0GNLi95RXRwVu4D7NT0FQX4nRKp",
+        "cid": "8638193357586300199",
+        "fid": "0x864c22aa401d347f:0x77e107177411fd27",
+        "placeId": "ChIJfzQdQKoiTIYRJ_0RdBcH4Xc"
+      },
+      {
+        "position": 14,
+        "title": "Fleming Orthodontics",
+        "address": "1150 State St Suite 120, Richardson, TX 75082",
+        "latitude": 33.000976699999995,
+        "longitude": -96.7022987,
+        "rating": 4.9,
+        "ratingCount": 234,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Emergency dental service"
+        ],
+        "website": "http://www.flemingsmiles.com/",
+        "phoneNumber": "(972) 530-6703",
+        "openingHours": {
+          "Thursday": "8 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "7 AM–3 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUTPFQQU-AmlXZHJKyVhgHwSJSKwQdqTWG2pk5IsExYqRuYD02VRynZ7nnybLukLa9r508wNTYxMjJZmPC0vHbSc1whPUykiMB4EH7hvDVQ5aLq814S6X-FK_Ff5tzLZejaw2s",
+        "cid": "2579504780560419198",
+        "fid": "0x864c1dcb110a0bc1:0x23cc3dee5db9c97e",
+        "placeId": "ChIJwQsKEcsdTIYRfsm5Xe49zCM"
+      },
+      {
+        "position": 15,
+        "title": "Richardson Orthodontics",
+        "address": "702 W Arapaho Rd Ste 102, Richardson, TX 75080",
+        "latitude": 32.9634052,
+        "longitude": -96.7438164,
+        "rating": 4.9,
+        "ratingCount": 113,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.richardsonortho.com/",
+        "phoneNumber": "(972) 238-7101",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.richardsonortho.com/free-consultation.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJK3KaGCHvR3T-cJT9rQhnIJJCtdCY5AiJGtROx-mVMpvbXICFxJd9cNCe9oJGgHJf9DR_MxtMGSgmrQIV9ws1-X8cEf50GhbUiblnf_KkVZ7raRyxVANqd0ugjbjaxg4v1ma1lcryC5LV",
+        "cid": "17553599826612527259",
+        "fid": "0x864c1fe6ac29c627:0xf39aea0a1299209b",
+        "placeId": "ChIJJ8YprOYfTIYRmyCZEgrqmvM"
+      },
+      {
+        "position": 16,
+        "title": "OPD Smiles Orthodontics & Pediatric Dentistry",
+        "address": "501 S Angel Pkwy #400, Allen, TX 75002",
+        "latitude": 33.0911159,
+        "longitude": -96.61943339999999,
+        "rating": 4.9,
+        "ratingCount": 570,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist",
+          "Dental clinic",
+          "Orthodontist"
+        ],
+        "website": "https://www.opdsmiles.com/?utm_source=google&utm_medium=local&utm_campaign=1&utm_content=primary",
+        "phoneNumber": "(972) 646-7774",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://opdsmiles.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGh_BpgkUSqEpwsB5aAvf-z5ROy_-JyahP9V-zUCKXbXhz0Vq_EOKkhzBRPnvyGK7cOvD_f9YbnsXjnW0dW8KrolItx03RMUxl7vcQVMf62p_NfHKs3y0CYsUJXBtrqmAp79tm-pg",
+        "cid": "10014514556714748145",
+        "fid": "0x864c118f82017b11:0x8afab3ee1ef608f1",
+        "placeId": "ChIJEXsBgo8RTIYR8Qj2Hu6z-oo"
+      },
+      {
+        "position": 17,
+        "title": "Mills Orthodontics",
+        "address": "100 N Central Expy Suite 1107, Richardson, TX 75080",
+        "latitude": 32.9513106,
+        "longitude": -96.73322429999999,
+        "rating": 5,
+        "ratingCount": 399,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.millsorthodontics.com/",
+        "phoneNumber": "(972) 907-9900",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.millsorthodontics.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBxR1ypdXUPgInRmMvgU1BM9K4a2_nIOKPB43mZyE376hdESKNwLDxUAAQzEbaPdsUuA05HjSlH8U3kPhHyvW0K7_ioy1ZKQ1EsMm0ZORfOVOykHqVqfzqFLViDWqeq0RoFWI",
+        "cid": "17670668034255449546",
+        "fid": "0x864c1fb29270e4a3:0xf53ad2f435a56dca",
+        "placeId": "ChIJo-RwkrIfTIYRym2lNfTSOvU"
+      },
+      {
+        "position": 18,
+        "title": "Beyond Braces Orthodontics",
+        "address": "5120 S State Hwy 78 Ste #800, Sachse, TX 75048",
+        "latitude": 32.968507599999995,
+        "longitude": -96.60454659999999,
+        "rating": 5,
+        "ratingCount": 155,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://beyondbracestx.com/",
+        "phoneNumber": "(972) 928-9477",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "10:30 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10:30 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://edgebooking.ortho2.com/search?catalog=9984057f-7833-4515-a0d2-63f08dc90d8e&code=bfcnca"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQqTgI-gqomutBNm-Ex3-N_-cFISwfdXm5iE5lEcJH16a3IPqR8CKK8bovYEOwMI1EvZdWn04ktM7Rviwk94eHwQDP5wMvmAAr3SVKLMn6gMfinYA_5qPr4QbMiNHprbU6tW7wJSr2UZQJ",
+        "cid": "7970816968124624105",
+        "fid": "0x864c1dfd40042b11:0x6e9e07cd22b96ce9",
+        "placeId": "ChIJESsEQP0dTIYR6Wy5Is0Hnm4"
+      },
+      {
+        "position": 19,
+        "title": "Legacy Orthodontics",
+        "address": "6837 Coit Rd #A, Plano, TX 75024",
+        "latitude": 33.069097,
+        "longitude": -96.77212399999999,
+        "rating": 5,
+        "ratingCount": 260,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://legacy-orthodontics.com/",
+        "phoneNumber": "(972) 618-5050",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.legacy-orthodontics.com/",
+          "https://hello.chatnow.live/legacyortho"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIT_dzgvjjkQRlZB3Fr2frL4acwdLHK-M8myCSOKiLp01YfYmyKyvNyOpz0L9wduMlm4G4gXuUK1EkBWnarGwWgTZ8ne3etVVqrKMK35COS8k7rWkECWuOQCYrDNJuqtozP3Ttig",
+        "cid": "3209971097641972828",
+        "fid": "0x864c22c98b55b487:0x2c8c1bb4c638745c",
+        "placeId": "ChIJh7RVi8kiTIYRXHQ4xrQbjCw"
+      },
+      {
+        "position": 20,
+        "title": "North Texas Orthodontic Associates",
+        "address": "201 Alma Dr #102, Allen, TX 75013",
+        "latitude": 33.1027884,
+        "longitude": -96.69902619999999,
+        "rating": 5,
+        "ratingCount": 237,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Oral surgeon"
+        ],
+        "website": "https://www.ntoabraces.com/",
+        "phoneNumber": "(972) 727-4221",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIZR2X7FAYupqan8zOWFR1GPzvtJY-J8eK9EAMDieKoBU5ghs_1d2pTYCeGjrQd1nA0LIdhBKZUi3M2TLZUSS_FdSjB3kxTHv4zGXIFGrzf_jNittA5_vfbEuAqMANTpm_cMWZ",
+        "cid": "11079988229323051100",
+        "fid": "0x864c170cdd0ade17:0x99c406971c4f505c",
+        "placeId": "ChIJF94K3QwXTIYRXFBPHJcGxJk"
+      }
+    ],
+    "credits": 3
+  }
+}

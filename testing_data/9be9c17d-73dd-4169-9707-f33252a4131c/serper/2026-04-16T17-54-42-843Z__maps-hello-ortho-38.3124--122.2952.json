@@ -1,0 +1,61 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.31239,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzEyMzksLTEyMi4yOTUyNA==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@38.3258649,-122.2926648,17z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "menu": "https://www.helloortho.com/orthodontic-services-hello-ortho-napa-petaluma/#kids",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnEOpCt7_HbZwfxyOa_kQjYv7fd0gWwd-NnljTNZlJaeaknXHa7aSnJp7lPEu2ThYFRlox8GPqK7wHVTE6dVy1kcs847cZ_dzilxIn42-iwHeRw2Vk0%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnEMyJzCLwS48lCTK6THPhk8mkKzk5sRoMxuNyPHy6Ir9GlhNsPci8Qhps2VOC7epw5IszdE6ND8zDLxfVxa8xYYg2As2rSH_bTxhvWHuWUduP5qJWU%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGGcFIsSCps6IGh3Z-UFeeK4OQ1qWOm4P8fQy-f0ctDhQ7X6zAc5ovLjSObNUfD7wJcH_vXm-n6I1KCEI9tyKQZcYrTjIYrCL3qolmDm-yW56Cdt6-iPRzNOciWwTFGdDvymOE",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      }
+    ],
+    "credits": 3
+  }
+}

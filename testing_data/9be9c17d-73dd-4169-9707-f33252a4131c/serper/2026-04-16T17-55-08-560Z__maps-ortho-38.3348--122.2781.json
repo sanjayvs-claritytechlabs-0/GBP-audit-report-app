@@ -1,0 +1,645 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.334848,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@39.1871558,-95.4766731,9z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Orthopedic Health of Kansas City - Overland Park/Lenexa",
+        "address": "10900 W 86th St, Lenexa, KS 66214",
+        "latitude": 38.974136,
+        "longitude": -94.7124857,
+        "rating": 4.7,
+        "ratingCount": 463,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthohealthkc.com/locations/lenexa-overland-park-orthopedic-clinic/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile_orthokc_lenexa",
+        "phoneNumber": "(816) 561-3003",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "8 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "bookingLinks": [
+          "https://orthohealthkc.com/book-a-visit/"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uVo-FyKTQsNt1uLH5lcyCQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=357.13602&pitch=0&thumbfov=100",
+        "cid": "14956224189675462287",
+        "fid": "0x87c0ed27c9da9585:0xcf8f2ea8b6b5de8f",
+        "placeId": "ChIJhZXaySftwIcRj961tqguj88"
+      },
+      {
+        "position": 2,
+        "title": "Orthopedics and Sports Medicine, Olathe Medical Pavilion D",
+        "address": "20920 W 151st St #100, Olathe, KS 66061",
+        "latitude": 38.854878899999996,
+        "longitude": -94.82796959999999,
+        "rating": 2.8,
+        "ratingCount": 86,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Specialized clinic"
+        ],
+        "website": "https://www.kansashealthsystem.com/locations/orthopedics-sports-medicine-olathe-medical-pavilion-d?utm_source=gmb&utm_medium=web&utm_term=&utm_content=&utm_campaign=kyruus_brandify",
+        "phoneNumber": "(913) 445-7160",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.olathehealth.org/our-team/schedule-a-doctors-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_OZnYd-efZwKDf5S6tz5KmVF_Uce4T8r-TIqlxE8XN2YlCD6KJuijWyQA9TLBFpDgNw2mgyDJ_FO2WjJQhQ0rdhDc6gCwKaPllqIdenNbg2tyM79sC5Rx_tiVyeR_vvL25j4",
+        "cid": "9499749047413125035",
+        "fid": "0x87c0bdc8c20bbfd7:0x83d5e36d426a2fab",
+        "placeId": "ChIJ178Lwsi9wIcRqy9qQm3j1YM"
+      },
+      {
+        "position": 3,
+        "title": "Orthopedic Urgent Care Walk-In Clinic - Orthopedic Health of Kansas City",
+        "address": "19550 East 39th St S Ste 410, Independence, MO 64057",
+        "latitude": 39.049484,
+        "longitude": -94.3500957,
+        "rating": 4.8,
+        "ratingCount": 567,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthohealthkc.com/orthopedic-urgent-care/independence-mo/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile_urgent_care_centerpoint",
+        "phoneNumber": "(816) 303-2400",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSBGdu3VabwcpYzkvkGNhhv_pzaJvlv0Zts6NHVuDlpw4ERCJwQI1-kQ0k61i9tVcpAXjDIlVTRZzOBtKGZQM7Swim6swAFoiqio10B_UZaIGGm29oRN2PFfdgqvlXTnisf-s",
+        "cid": "3558526071435221712",
+        "fid": "0x87c11dce93a0440b:0x31626c9babdcdad0",
+        "placeId": "ChIJC0Sgk84dwYcR0Nrcq5tsYjE"
+      },
+      {
+        "position": 4,
+        "title": "Orthopaedic and Sports Medicine Center",
+        "address": "1600 Charles Pl #1600 #2750, Manhattan, KS 66502",
+        "latitude": 39.1968251,
+        "longitude": -96.6032505,
+        "rating": 4.8,
+        "ratingCount": 1238,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical Center",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.kansasortho.com/?utm_medium=Orthopaedic&SportsMedicineCenter",
+        "phoneNumber": "(785) 537-4200",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "7 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNMPWLbLdhJMJ41hHi61WE3bc-aehiPh_ncCwvMkAv12aX0dQTAwsqRgqNSxM24HGSaWBssundgUWZ-ajppny3K_oT-HypXXTVxE83J4ugzrCx9qpiB5ksnDY38_A37xLZeLxnIg",
+        "cid": "1307613180923269841",
+        "fid": "0x87bdcdc096cdf37b:0x12259342908cd2d1",
+        "placeId": "ChIJe_PNlsDNvYcR0dKMkEKTJRI"
+      },
+      {
+        "position": 5,
+        "title": "Orthopedic Urgent Care - Orthopedic Health of Kansas City",
+        "address": "1950 Diamond Pkwy, North Kansas City, MO 64116",
+        "latitude": 39.1450211,
+        "longitude": -94.5567743,
+        "rating": 4.8,
+        "ratingCount": 1043,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://orthohealthkc.com/orthopedic-urgent-care/kansas-city-mo/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile_urgent_care_north_kansas_city",
+        "phoneNumber": "(816) 561-3003",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "8 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfnXGKHdixNwdn0Ohq4HpHsr8JB2YxoHKHIUBUrr29Ci-jWKn04LroJqbPJCOSzCrcZ2i0Hd_D2sKc-zdKcXJ_IFWVe6alUDksjM7MYJwx21bnPgdIj_JMLtMzInjNW38FcX0Z",
+        "cid": "12775803023868781392",
+        "fid": "0x87c0fb21302684c5:0xb14cc5293e0f6350",
+        "placeId": "ChIJxYQmMCH7wIcRUGMPPinFTLE"
+      },
+      {
+        "position": 6,
+        "title": "Orthopedic Health of Kansas City",
+        "address": "1950 Diamond Pkwy, North Kansas City, MO 64116",
+        "latitude": 39.1450594,
+        "longitude": -94.5567993,
+        "rating": 4.8,
+        "ratingCount": 3491,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthohealthkc.com/locations/orthopedic-clinic-north-kansas-city/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile_orthokc_north_kansas_city",
+        "phoneNumber": "(816) 561-3003",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "8 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvW6vH-Lbx0-dSs4fdaC6JJ3t8sbFvtNiMXnRBV4x50BrF0XxsBo30aORCp3zRbT8imhtlVQDjAdSkXNchyr1lLjVUloFOo9pTiT27W9AWLuDcSlUM52loEEyjJKmATFl6br8",
+        "cid": "12574422639684241313",
+        "fid": "0x87c0f9f7da0926cf:0xae8152c4c60247a1",
+        "placeId": "ChIJzyYJ2vf5wIcRoUcCxsRSga4"
+      },
+      {
+        "position": 7,
+        "title": "Orthopedic Health of Kansas City - Centerpoint",
+        "address": "19550 East 39th St S Ste 410, Independence, MO 64057",
+        "latitude": 39.049484,
+        "longitude": -94.3500957,
+        "rating": 4.7,
+        "ratingCount": 1725,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthohealthkc.com/locations/centerpoint-orthopedic-clinic-independence/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile_orthokc_centerpoint",
+        "phoneNumber": "(816) 303-2400",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFL7fcOzTM-Hhm7-HttU1Yw99yJzqGKJRWd8Lx9KlFemd8FqFpAnueLCz_1oCHj08MvvQ-FmEMn9nRq67_RmPZ715zRvIlqr2Ksqe7fvzfQQ3k9fIpgbq7EX1PzfLFR9imC7-k3Iw",
+        "cid": "1711636159968700600",
+        "fid": "0x87c11ce6d69eaf47:0x17c0f404d3a5e8b8",
+        "placeId": "ChIJR6-e1uYcwYcRuOil0wT0wBc"
+      },
+      {
+        "position": 8,
+        "title": "Kansas City Orthopedic Alliance (KCOA) - Shawnee Mission",
+        "address": "7450 Kessler St #140, Merriam, KS 66204",
+        "latitude": 38.9935918,
+        "longitude": -94.6940049,
+        "rating": 4.8,
+        "ratingCount": 727,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical group"
+        ],
+        "website": "https://kcorthoalliance.com/",
+        "phoneNumber": "(913) 362-8317",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://kcorthoalliance.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEF-7br9hSWxr2be4Dw9kb1tAIyXeS_ut40Xi_hUFrl_9nCf2pCgMWR6kXbdZQqA0NhnnE72-3qFGUmbywgJCKDAujcdXsmETSKonevU_chQWiB6IE5_DbMcHXEORJ5OAGggmTGzmlCHv1B",
+        "cid": "17347736623882085530",
+        "fid": "0x87c0ec8a1c7d3cf5:0xf0bf8a8c1386a49a",
+        "placeId": "ChIJ9Tx9HIrswIcRmqSGE4yKv_A"
+      },
+      {
+        "position": 9,
+        "title": "OrthoKansas",
+        "address": "6265 Rock Chalk Dr #1500, Lawrence, KS 66049",
+        "latitude": 38.9778314,
+        "longitude": -95.3322951,
+        "rating": 3.3,
+        "ratingCount": 110,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.lmh.org/get-care/orthokansas/",
+        "phoneNumber": "(785) 843-9125",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFA70ODLzYk7sbgbPAUvjwpu6Ya895djgufWMjQDbgbNwhKDJjNwWxCqVYa17Q3ZyVAbl_hF5GaspgYWbldhuwSn2FXQgNVNsuBxUUa201EEJTGO6Om36ii0KhE0cIF5xblYBlQ",
+        "cid": "13903412992102323541",
+        "fid": "0x87bf6f3ff1ce4605:0xc0f2d873efcf5555",
+        "placeId": "ChIJBUbO8T9vv4cRVVXP73PY8sA"
+      },
+      {
+        "position": 10,
+        "title": "Cotton O'Neil Orthopedics and Sports Medicine",
+        "address": "2660 SW 3rd St 2nd Floor, Topeka, KS 66606",
+        "latitude": 39.0656664,
+        "longitude": -95.7081207,
+        "rating": 3.7,
+        "ratingCount": 47,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.stormontvail.org/specialtycare/ortho-sports-medicine/",
+        "phoneNumber": "(785) 270-8880",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-6UFAtZaNZxwCIyo8V0pvEkzlQaGl5CKTfa2YK6oCpkPsf6rsrNE6zG5YTVhwooHsqzUUGB9StIM-HUGUnpKH3CVoCpWlShkOJ4yovl4KtvJRddZKkrZppwvho0lBIHxYWmZZ",
+        "cid": "14521140541711969873",
+        "fid": "0x87bf02f768f7df3d:0xc9857462ea43ee51",
+        "placeId": "ChIJPd_3aPcCv4cRUe5D6mJ0hck"
+      },
+      {
+        "position": 11,
+        "title": "Orthopedic Urgent Care Walk-In Clinic - Orthopedic Health of Kansas City",
+        "address": "10900 W 86th St, Lenexa, KS 66214",
+        "latitude": 38.974136699999995,
+        "longitude": -94.7124857,
+        "rating": 4.8,
+        "ratingCount": 342,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://orthohealthkc.com/orthopedic-urgent-care/lenexa-ks/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile_urgent_care_lenexa",
+        "phoneNumber": "(816) 561-3003",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "8 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIzNkgKjIIr-xz_FpSa65e3NjkBAQZLffwEi1MwXH4iO1ARruKOqLPKdB4HHx1iRlqb2n52r2vx51Gvx2hR9FCAQFrffWqBHRTTXywIgnx98J7MxpcXkTvKcpiW_J41T0gp2mw",
+        "cid": "7218895376444922742",
+        "fid": "0x87c0eb20286c5ee7:0x642eab18f7b59b76",
+        "placeId": "ChIJ515sKCDrwIcRdpu19xirLmQ"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic & Sports Medicine Center",
+        "address": "3107 Frederick Ave Suite B, St Joseph, MO 64506",
+        "latitude": 39.777727999999996,
+        "longitude": -94.8181039,
+        "rating": 4.7,
+        "ratingCount": 812,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.osmcortho.com/?utm_source=gmb_auth&scct=PNb8b7d05be492adf8914c8bf4ca51807e",
+        "phoneNumber": "(816) 521-6212",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7Vm4qic2_2rEvAuYaU21IlVS-2KjDtppOlI354Y3ao55w1Pr8CYFInS3tKq_LeEux1fsozHaG37kQqULjBSaNFDLhmmviyhejrVso5kmo8QUa5g_nfcM6MbTa8FSsjszQJ1H6tQ",
+        "cid": "2935863613467924941",
+        "fid": "0x87c01bdd9e872ccf:0x28be4866cdc019cd",
+        "placeId": "ChIJzyyHnt0bwIcRzRnAzWZIvig"
+      },
+      {
+        "position": 13,
+        "title": "Ortho Urgent Care at KCOI",
+        "address": "3651 College Blvd Suite 200 Entrance B, Leawood, KS 66211",
+        "latitude": 38.9267283,
+        "longitude": -94.62813109999999,
+        "rating": 4.7,
+        "ratingCount": 471,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Foot care",
+          "Medical diagnostic imaging center",
+          "Orthopedic clinic",
+          "Urgent care center",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.kcoi.com/orthopedic-care/urgent-care/?utm_source=google&utm_medium=organic&utm_campaign=urgentcare&utm_content=localgmb",
+        "phoneNumber": "(913) 319-7633",
+        "openingHours": {
+          "Thursday": "8 AM–7 PM",
+          "Friday": "8 AM–7 PM",
+          "Saturday": "10 AM–4 PM",
+          "Sunday": "10 AM–4 PM",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSBYJCsJqFxYGWh6es9DwXokrwjPh4ACi8LSluHrCot_jDuPMVTdJlpi7PytGaiakRNpoQnFlXRi_okjcurjUb_uY9VRJwvzxR4J91e_VRLLqgY_xsGo4n9OLef3n7fFI9P9nu",
+        "cid": "12781274114409168368",
+        "fid": "0x87c0e9976842a385:0xb1603516c640fdf0",
+        "placeId": "ChIJhaNCaJfpwIcR8P1AxhY1YLE"
+      },
+      {
+        "position": 14,
+        "title": "The University of Kansas Health System St. Francis Campus- Orthopedics and Sports Medicine",
+        "address": "6001 SW 6th Ave #200, Topeka, KS 66615",
+        "latitude": 39.0561139,
+        "longitude": -95.7627223,
+        "rating": 4.3,
+        "ratingCount": 56,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://kutopeka.com/find-a-provider/location/entity172742/?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings",
+        "phoneNumber": "(785) 233-7491",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "16261210517265017509",
+        "fid": "0x87befda85ef43e17:0xe1ab6ccf536d6aa5",
+        "placeId": "ChIJFz70Xqj9vocRpWptU89sq-E"
+      },
+      {
+        "position": 15,
+        "title": "Centerpoint Orthopedics - Suite 230",
+        "address": "19550 East 39th St S Suite 230, Independence, MO 64057",
+        "latitude": 39.049484,
+        "longitude": -94.3500957,
+        "rating": 4.9,
+        "ratingCount": 228,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://mymidwestphysician.com/locations/centerpoint-orthopedics/?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+        "phoneNumber": "(816) 795-6630",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://mymidwestphysician.com/physicians/listing?keywords=centerpointorthopedics/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAESKBY7LLuMlesWIYCtsQ7-mFMdozCv-Fei5M_SXFXm7Sp7jsTQ8nzL_lVxeYIm1439T8_N6j7xaUq65_fH8UCrbDk-_T8DnawYNEXFUYFqJuiFeRjOASuElGQBSJEHLVVC8S0A",
+        "cid": "18188697488876131986",
+        "fid": "0x87c11ce6d69eaf47:0xfc6b3bff8f805692",
+        "placeId": "ChIJR6-e1uYcwYcRklaAj_87a_w"
+      },
+      {
+        "position": 16,
+        "title": "Kansas City Orthopaedic Institute",
+        "address": "3651 College Blvd, Leawood, KS 66211",
+        "latitude": 38.9268259,
+        "longitude": -94.62816869999999,
+        "rating": 4.6,
+        "ratingCount": 794,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Diagnostic center",
+          "Foot care",
+          "Medical clinic",
+          "Medical diagnostic imaging center",
+          "Occupational health service",
+          "Occupational therapist",
+          "Hospital",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.kcoi.com/?utm_source=google&utm_medium=organic&utm_campaign=kcoi&utm_content=localgmb",
+        "phoneNumber": "(913) 319-7633",
+        "openingHours": {
+          "Thursday": "8 AM–7 PM",
+          "Friday": "8 AM–7 PM",
+          "Saturday": "10 AM–4 PM",
+          "Sunday": "10 AM–4 PM",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOlg8Ad0lHWfzDeuvRjONQxwJe_LHcLlK63tvfiH9T53anq-6MTjQXZt83IEF7ewQGKGH4-g3R78yRegpm1mQs712x-GT0w1P8ixAGY0L8E9wHuPk-bJ0EVhGjYOYwu0p9zjaX6PSSOLue",
+        "cid": "14085522573771946566",
+        "fid": "0x87c0e9976f4b867f:0xc379d4270d6c3a46",
+        "placeId": "ChIJf4ZLb5fpwIcRRjpsDSfUecM"
+      },
+      {
+        "position": 17,
+        "title": "Rockhill Orthopaedic Specialists - Lee's Summit",
+        "address": "120 NE St Lukes Blvd Suite 200, Entrance G, Lee's Summit, MO 64086",
+        "latitude": 38.9420497,
+        "longitude": -94.3802169,
+        "rating": 4.1,
+        "ratingCount": 394,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.saintlukeskc.org/locations/rockhill-orthopaedic-specialists-lees-summit?utm_source=yext&utm_medium=local_listing&utm_campaign=yext_listing",
+        "phoneNumber": "(816) 246-4302",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.saintlukeskc.org/locations/rockhill-orthopaedic-specialists"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfzEiQY-jS015Itkka3juj7gmdJbb8gkpE8H7Ld-SUpyHo4_iDm0f9qWhrzKl2Nf9-8eOyvjtd1h7AOXMHmODdjdTfkCNWvYNuG6pV4sRCaUJqrxU0jMM5Bg6yJOc1FZr7SQ",
+        "cid": "3938819834614439922",
+        "fid": "0x87c11fc961bbc66d:0x36a97fc55474dff2",
+        "placeId": "ChIJbca7YckfwYcR8t90VMV_qTY"
+      },
+      {
+        "position": 18,
+        "title": "AdventHealth Medical Group Orthopedic Care at Ottawa",
+        "address": "1301 S Main St, Ottawa, KS 66067",
+        "latitude": 38.5965835,
+        "longitude": -95.2682222,
+        "rating": 3.2,
+        "ratingCount": 6,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.adventhealth.com/hospital/adventhealth-ottawa/orthopedic-care",
+        "phoneNumber": "(785) 229-8389",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "cid": "4901749491136537409",
+        "fid": "0x87bf4c4aabfbf3a5:0x440683310d252341",
+        "placeId": "ChIJpfP7q0pMv4cRQSMlDTGDBkQ"
+      },
+      {
+        "position": 19,
+        "title": "Orthopedics NOW! Kansas City Bone & Joint Clinic",
+        "address": "10701 Nall Ave #200, Overland Park, KS 66211",
+        "latitude": 38.934063099999996,
+        "longitude": -94.6483599,
+        "rating": 4.8,
+        "ratingCount": 67,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.kcbj.com/orthopedics-now-urgent-care/?utm_source=GMBSocialClimb&utm_medium=OrthopedicsNOW!KansasCityBone&JointClinic",
+        "phoneNumber": "(913) 652-6400",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:30 PM",
+          "Friday": "8:30 AM–5:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFa8fBB5jMapPm0MzkWMzC0EcmD26IXZvjTxmApVixn3fBS1tcyELzI-L1a6BaW9srZk_n51WphPNsk2JILCgQ0vygVonRW3ZY-yefIt1R2Tn7ByuCNNmkzqwgjMteQZ_fJWjkSvA",
+        "cid": "16822120798552784919",
+        "fid": "0x87c0ebdfee723001:0xe9742dbd26730017",
+        "placeId": "ChIJATBy7t_rwIcRFwBzJr0tdOk"
+      },
+      {
+        "position": 20,
+        "title": "Kansas City Orthopedic Alliance (KCOA)- Overland Park",
+        "address": "10777 Nall Ave #300, Overland Park, KS 66211",
+        "latitude": 38.93311,
+        "longitude": -94.64818199999999,
+        "rating": 4.6,
+        "ratingCount": 579,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://kcorthoalliance.com/",
+        "phoneNumber": "(913) 642-0200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://kcorthoalliance.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVLxJ2HTNHmVB4jOrTu9_FrK79VtNTUyfYOhKwv_cAyJDeqTwmNRf5zgAOHR76YJ6LFcCCXvhuywn9O_0dtpsFuGMQSRFR2EwxVqR84SD1tXpKK8Rega11XjX5OkAvRCA8IuxzQxxKImx4",
+        "cid": "8769033831194927186",
+        "fid": "0x87c0ea2bb47ba54d:0x79b1ddcf23c1a052",
+        "placeId": "ChIJTaV7tCvqwIcRUqDBI8_dsXk"
+      }
+    ],
+    "credits": 3
+  }
+}

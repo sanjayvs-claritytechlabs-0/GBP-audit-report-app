@@ -1,0 +1,649 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.325865,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@41.4979647,-87.2766368,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Lakeshore Bone & Joint Institute",
+        "address": "2501 Cumberland Dr, Valparaiso, IN 46383",
+        "latitude": 41.4912558,
+        "longitude": -87.05172549999999,
+        "rating": 4.8,
+        "ratingCount": 265,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.lbji.com/locations/valparaiso-cumberland",
+        "phoneNumber": "(219) 921-1444",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4 PM",
+          "Tuesday": "9 AM–4 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.lbji.com/patient-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9KKbyKYAfVrRdKH09Ssvwx5W_UW17nb2GqFh2CYmQUujPw_k45avkUbokrlW9fkl6OJ0VUmqQdlmBd4TjxIEP50BjrxubQEc17E9BNlEs1a9UjQL5seoO4OP8XUquYpbvMkUJ",
+        "cid": "8220749504065311650",
+        "fid": "0x881199f0f310f17d:0x7215f81e594813a2",
+        "placeId": "ChIJffEQ8_CZEYgRohNIWR74FXI"
+      },
+      {
+        "position": 2,
+        "title": "North Point Orthopaedics",
+        "address": "9445 Calumet Ave, Munster, IN 46321",
+        "latitude": 41.5428822,
+        "longitude": -87.5082434,
+        "rating": 4.9,
+        "ratingCount": 1937,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical clinic"
+        ],
+        "website": "https://www.northpointortho.com/",
+        "phoneNumber": "(219) 836-1060",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5BzBvXwbQfvuhP6C2pI16mbY0JuqyOuWU3yrnivhIFhkPtKusMuntyRCwu_8pFAHPYipE4SXI28La-CPsj6MoP3FZvwRaEMiLYqWftCRPjHogh-T8lcrhcSiYyhnisc9r6ibM-Q",
+        "cid": "8629610248301951337",
+        "fid": "0x8811e05c6436e447:0x77c288cc981bb969",
+        "placeId": "ChIJR-Q2ZFzgEYgRabkbmMyIwnc"
+      },
+      {
+        "position": 3,
+        "title": "Orthopedic Specialists of Northwest Indiana - St. John",
+        "address": "10200 Wicker Ave, St John, IN 46373",
+        "latitude": 41.433554199999996,
+        "longitude": -87.4705518,
+        "rating": 5,
+        "ratingCount": 157,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.osni.org/",
+        "phoneNumber": "(219) 924-3300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuM6lJA4FfsKQmi0jV7b525QbzeUI_MaUytqtgSH1PMLK8U6r2-gcaYouGLGkRjQuAwDn3wnpkYm31sZnJcVdLuePN4ZlaRoDytX0KehrJy9RHGZRt0Fzqf93a0UkklH-Cj-dkMs92xIFK",
+        "cid": "8480746673520547725",
+        "fid": "0x8811e3f06dffa48b:0x75b1aa2aa944978d",
+        "placeId": "ChIJi6T_bfDjEYgRjZdEqSqqsXU"
+      },
+      {
+        "position": 4,
+        "title": "Orthopedic Urgent Care Lakeshore Bone & Joint Institute",
+        "address": "500 E 109th Ave Suite 102, Crown Point, IN 46307",
+        "latitude": 41.4213361,
+        "longitude": -87.3283798,
+        "rating": 4.8,
+        "ratingCount": 341,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://lbjiurgentcare.com/",
+        "phoneNumber": "(219) 921-1435",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.lbji.com/orthopedic-urgent-care"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHCxJaCZgTli-VhPejSZVmSSY6RJun6W6S7K_eUzTwGszd_d4zmm_75RWGu-Y9gI3y_FlFFrgbncTWEzEpgAcL8QyHvNb12hboRnNoDoqTBZau7dj2F3Yw5bIh6UWPkjjOH6zCI",
+        "cid": "4121667558567795715",
+        "fid": "0x8811ef5c6625222d:0x39331ace96af5c03",
+        "placeId": "ChIJLSIlZlzvEYgRA1yvls4aMzk"
+      },
+      {
+        "position": 5,
+        "title": "Orthopedic Urgent Care Lakeshore Bone & Joint Institute",
+        "address": "3691 Willowcreek Rd Suite 102, Portage, IN 46368",
+        "latitude": 41.5446994,
+        "longitude": -87.18179119999999,
+        "rating": 4.8,
+        "ratingCount": 462,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://lbjiurgentcare.com/",
+        "phoneNumber": "(219) 921-1425",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "8 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.lbji.com/orthopedic-urgent-care"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLlMdFMJxe71avLHVKZFHql3qfpX-qdscBd-2J3GEsGn8Zp5fSBGSIBHh52TUpwMOK_0TwrHnkVwgV5Y8WkgPdHq9EvUkEZMRWMoKWfZXL2U0ViuWW4aaPxENGFGm7HUDmCPLXZw",
+        "cid": "14543859450766775780",
+        "fid": "0x8811950a7299ad6f:0xc9d62b1d222955e4",
+        "placeId": "ChIJb62ZcgqVEYgR5FUpIh0r1sk"
+      },
+      {
+        "position": 6,
+        "title": "Orthopedic Specialists of Northwest Indiana - Munster",
+        "address": "9900 Columbia Ave, Munster, IN 46321",
+        "latitude": 41.533552199999995,
+        "longitude": -87.5119175,
+        "rating": 4.8,
+        "ratingCount": 574,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.osni.org/",
+        "phoneNumber": "(219) 924-3300",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFbKTb1lyYUNbKSINa0pL6WYT3M2ztgphnW9PKpGxZOIlsnygj-wsZBslSKIwD9ieLcZ_yyDdF2Ojh553rzxDPCqP3BYLpLrO6Em2KE9cdgU3fQFBhk8BtMXuCLLMPaf7aPXSitng",
+        "cid": "13997827276211906406",
+        "fid": "0x8811e04de4f5466f:0xc24245be79e26766",
+        "placeId": "ChIJb0b15E3gEYgRZmfieb5FQsI"
+      },
+      {
+        "position": 7,
+        "title": "Orthopedic & Balance Therapy Specialists",
+        "address": "3125 Calumet Ave Ste 8, Valparaiso, IN 46383",
+        "latitude": 41.4968684,
+        "longitude": -87.0445275,
+        "rating": 5,
+        "ratingCount": 427,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic",
+          "Physical rehabilitation center",
+          "Physical therapist"
+        ],
+        "website": "https://orthopedicandbalancetherapy.com/location/physical-therapy-valparaiso/",
+        "phoneNumber": "(219) 401-4524",
+        "openingHours": {
+          "Thursday": "7 AM–6 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–6:30 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicandbalancetherapy.com/physical-therapist-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkW-frcRAwCC2NEktJainwuKWNtZ26UdG88ikAXjFjXMZBlF6kBEWRv4yEoOr5KIkZGk6ypfMNco8QD6x2nCRWEhZxvIExTl21bmwFjAL23HCzDdkr6VOvps1laJMi0-SZUS7TuQ",
+        "cid": "5676708810752080765",
+        "fid": "0x881199eda8290acd:0x4ec7b8963e353b7d",
+        "placeId": "ChIJzQopqO2ZEYgRfTs1Ppa4x04"
+      },
+      {
+        "position": 8,
+        "title": "Valparaiso Orthopedic Clinic",
+        "address": "2501 Cumberland Dr, Valparaiso, IN 46383",
+        "latitude": 41.491104299999996,
+        "longitude": -87.0515708,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic"
+        ],
+        "website": "http://www.lbji.com/",
+        "phoneNumber": "(219) 462-4481",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=WAA6tNus_sXu7KqK00SWOg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=320.59613&pitch=0&thumbfov=100",
+        "cid": "3469262701437007206",
+        "fid": "0x881199f0f310f17d:0x30254c0bc7aa3566",
+        "placeId": "ChIJffEQ8_CZEYgRZjWqxwtMJTA"
+      },
+      {
+        "position": 9,
+        "title": "Great Lakes Orthopedics & Sports Medicine Clinic – St. John Location",
+        "address": "9615 Keilman St, St John, IN 46373",
+        "latitude": 41.444471,
+        "longitude": -87.47164599999999,
+        "rating": 4.5,
+        "ratingCount": 24,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical diagnostic imaging center",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "X-ray lab"
+        ],
+        "website": "https://www.glorthopedics.com/",
+        "phoneNumber": "(219) 365-0220",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.glorthopedics.com/appointment_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXbh_BQxEr_hxDoE1WTE0BN-9UXuQQ8ZqBalxfz4v-LAcjBF0wBKBAWpU12p7Q98XOrd1WuzjW1TBMBS0ueXh7xqA6F7X47FZ7qCJy0PeJq1BxSNbW-yWfZIQZ9pshWiIagfBU",
+        "cid": "4376594711406888413",
+        "fid": "0x8811e37031f1f88f:0x3cbcc9b3ab42c5dd",
+        "placeId": "ChIJj_jxMXDjEYgR3cVCq7PJvDw"
+      },
+      {
+        "position": 10,
+        "title": "Midwest Orthopaedics at Rush — Munster",
+        "address": "9200 Calumet Ave Suite S-300, Munster, IN 46321",
+        "latitude": 41.5489028,
+        "longitude": -87.51034729999999,
+        "rating": 4.9,
+        "ratingCount": 575,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.rushortho.com/?utm_source=GMBSocialClimb&utm_medium=MidwestOrthopaedicsatRush%E2%80%94Munster",
+        "phoneNumber": "(812) 609-7218",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rushortho.com/schedule-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnsE-0qM-OCdYApaU2FiV0cZRbFmeAOq3DxiG81DCda1A_Hl1Ia-NkVod7xcRvTYDiexdchm4t82OvmGcxi06c6Xc6psB1J3QOZAzNij3kSFmeFoBVWOoHdtWl5WtxiQiE4ct2",
+        "cid": "9247641074281092022",
+        "fid": "0x8811e138a5509c69:0x8056388f9ad613b6",
+        "placeId": "ChIJaZxQpTjhEYgRthPWmo84VoA"
+      },
+      {
+        "position": 11,
+        "title": "Lakeshore Bone & Joint Institute",
+        "address": "601 Gateway Blvd, Chesterton, IN 46304",
+        "latitude": 41.5753249,
+        "longitude": -87.0413562,
+        "rating": 4.8,
+        "ratingCount": 1495,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Occupational therapist",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.lbji.com/locations/chesterton",
+        "phoneNumber": "(219) 921-1444",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.lbji.com/patient-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEXN6ywQFiLlcm3OgRTzZ7_N7ZQ9NMh3mxvXtUhwVXV61LHlxdgIm6iLLORhN4YnhDRhOPHZ0Q2ZnDsjMOWYLd6kBqW91TwoAvae4syMiSplrbfsoVY9GOssG6sGJp_4CIVlez",
+        "cid": "18197057947190559392",
+        "fid": "0x8811a2bd81c6e0af:0xfc88efca737e02a0",
+        "placeId": "ChIJr-DGgb2iEYgRoAJ-c8rviPw"
+      },
+      {
+        "position": 12,
+        "title": "Cavanaugh and Nondorf Orthodontics",
+        "address": "800 Wall St, Valparaiso, IN 46383",
+        "latitude": 41.488840599999996,
+        "longitude": -87.05064589999999,
+        "rating": 5,
+        "ratingCount": 563,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.cnorthodontics.com/",
+        "phoneNumber": "(219) 476-4110",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEvV3A3gfh0ZNaQX0VvNNGBBSarQmkh7KdAdTxGQBDXWSfKAKTKXXik6GwRUdqM7z45JjUNyanN1lH1HatAMyBDLsR0xyI72OdVueZ_YXRDEhfsEGr-u2sAwT8cNC8U9Ecglsaf",
+        "cid": "17054272980800530310",
+        "fid": "0x881199f0c85b246b:0xecacf2eb2b286786",
+        "placeId": "ChIJayRbyPCZEYgRhmcoK-vyrOw"
+      },
+      {
+        "position": 13,
+        "title": "Lakeshore Bone & Joint Institute",
+        "address": "3691 Willowcreek Rd, Portage, IN 46368",
+        "latitude": 41.5446536,
+        "longitude": -87.1818156,
+        "rating": 4.8,
+        "ratingCount": 1330,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Occupational therapist",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://www.lbji.com/locations/portage",
+        "phoneNumber": "(219) 921-1444",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "8 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.lbji.com/patient-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUTT9d4s4qBtx8r64m7EvChvCZz3xXEHud2dGgD4mSvPPjh0jJoKMCMNSmyIbrKrf7wK6kfJPva-xcCIJO90acQKGNaNKMifmzi1ErXPuqQaoGQAIPL3A0BG48EQ6M551OvMA",
+        "cid": "11225185345121418513",
+        "fid": "0x88119575f3326e13:0x9bc7de9909e1fd11",
+        "placeId": "ChIJE24y83WVEYgREf3hCZnex5s"
+      },
+      {
+        "position": 14,
+        "title": "Orthopedic Urgent Care Lakeshore Bone & Joint Institute",
+        "address": "601 Gateway Blvd, Chesterton, IN 46304",
+        "latitude": 41.5753968,
+        "longitude": -87.0414031,
+        "rating": 4.8,
+        "ratingCount": 88,
+        "type": "Urgent care center",
+        "types": [
+          "Urgent care center"
+        ],
+        "website": "https://lbjiurgentcare.com/",
+        "phoneNumber": "(219) 921-1425",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzQ4YhTrAs8qrF3HmvadQnNeSzgtd_0IMOJ6ZzF4BHlYYUnAykxyjDZH7SiVNfGfMOoUCl0xWKMFIP863s_OyiUVNrUsJXh3KHRDpd5SMbib1LV79uj-Tsj6Zz-fKvUy-ECKpqeZxt7Zg",
+        "cid": "2730235135654488516",
+        "fid": "0x8811a39d9902b7f1:0x25e3be63f5f9e9c4",
+        "placeId": "ChIJ8bcCmZ2jEYgRxOn59WO-4yU"
+      },
+      {
+        "position": 15,
+        "title": "Lakeshore Bone & Joint Institute",
+        "address": "500 E 109th Ave, Crown Point, IN 46307",
+        "latitude": 41.4205326,
+        "longitude": -87.3292347,
+        "rating": 4.8,
+        "ratingCount": 1319,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://www.lbji.com/locations/crown-point",
+        "phoneNumber": "(219) 921-1444",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.lbji.com/patient-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1H6e07IzedzTsOWrwGv3LUxmhVN0-VvYciGnbAbgM2bUPkxAneHHXq5ewXqiNRw2aCq8Ea5Inpf9FxVfJYQ7HUvUFjX5zCFbnjCZ5r3VjikM4qP5b4uQsE_cvZ4U7bh6lIwer",
+        "cid": "15601823826768057405",
+        "fid": "0x8811f1958d5b4175:0xd884d01bc2bc543d",
+        "placeId": "ChIJdUFbjZXxEYgRPVS8whvQhNg"
+      },
+      {
+        "position": 16,
+        "title": "Orthodontic Alliances - St. John",
+        "address": "8626 Wicker Ave, St John, IN 46373",
+        "latitude": 41.461774999999996,
+        "longitude": -87.47085709999999,
+        "rating": 4.8,
+        "ratingCount": 194,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthodonticalliances.com/st-john/?utm_campaign=gmb",
+        "phoneNumber": "(219) 440-6512",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticalliances.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWH6B4FZTHIQ1XSKfRrvIbtWoSv_oVu8NT0rMeVj5iu5QYEHlu9K0qszQqhdt8TA-8kfCowHKJMF0SHWVNBuiJ5jnU9PNEv4vlcuKem-WDLo7YBVkIxhgyaaiyd_FyXHWt8NjHIQ",
+        "cid": "7210010569426828066",
+        "fid": "0x8811eedbf3583793:0x640f1a69a17f7b22",
+        "placeId": "ChIJkzdY89vuEYgRInt_oWkaD2Q"
+      },
+      {
+        "position": 17,
+        "title": "Orthopaedic Surgical Consultants",
+        "address": "333 W 89th Ave Suite W4, W5, Merrillville, IN 46410",
+        "latitude": 41.4574262,
+        "longitude": -87.3397275,
+        "rating": 4.9,
+        "ratingCount": 323,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.oscortho.com/?utm_source=gmb_auth",
+        "phoneNumber": "(219) 662-2279",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.oscortho.com/schedule?utm_source=google_apt&ao=Google"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESWaZ6gCqj2ndc8vKACff9WMiUWKGxUigSELLNu98LHWrvoOFBWGHJp3eO-AVES97PXjYY-SENq3F_k-VLFq_y_8JLaCP3klGYqoHgJdRmPnXO8Yhl5vWWptk8zk36k2UGOZBp",
+        "cid": "6692976449789262576",
+        "fid": "0x8811ef9041c6c611:0x5ce23a9ec3be7af0",
+        "placeId": "ChIJEcbGQZDvEYgR8Hq-w5464lw"
+      },
+      {
+        "position": 18,
+        "title": "Bone & Joint Specialists",
+        "address": "9001 Broadway, Merrillville, IN 46410",
+        "latitude": 41.4549326,
+        "longitude": -87.3350356,
+        "rating": 4.7,
+        "ratingCount": 568,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthopedicdoctors.com/",
+        "phoneNumber": "(219) 795-3360",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcMl-sxoq3d1fbh1kUVHk6K6iE7m72CErCfqbTb1z-AKbXrKjQefzte46lwW8jVn72VVSvhh-A7OgdIDjspyjBN51kP5DiX1-tQUoPOhgMc3_1aXBWX6PjA8qobIcYm9FZ8_I",
+        "cid": "11903331826705272356",
+        "fid": "0x8811eef96f0ce299:0xa531213ad65e8e24",
+        "placeId": "ChIJmeIMb_nuEYgRJI5e1johMaU"
+      },
+      {
+        "position": 19,
+        "title": "Bone & Joint Specialists",
+        "address": "2213 Main St, Highland, IN 46322",
+        "latitude": 41.5236553,
+        "longitude": -87.47418929999999,
+        "rating": 4.9,
+        "ratingCount": 91,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://orthopedicdoctors.com/",
+        "phoneNumber": "(219) 202-8583",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENEkEqIvOAUHUZuGKPH2zHsvLabxVn4h7QGkDjsnNxu_5786-Cbq4hUVXfZHmljjMuZ5eVerXhgIMM16VTWuGc8Lcpo_GhMAIs3k8T6o5MqQveW-j2btflTlIAa1fSj3xz9z-1wQ",
+        "cid": "12653137595900134231",
+        "fid": "0x8811e18db954c13b:0xaf98f99ab1c48357",
+        "placeId": "ChIJO8FUuY3hEYgRV4PEsZr5mK8"
+      },
+      {
+        "position": 20,
+        "title": "Orthodontic Specialists, PC - Dr. Koufos & Assoc.",
+        "address": "9321 Wicker Ave #201, St John, IN 46373",
+        "latitude": 41.4488073,
+        "longitude": -87.4694147,
+        "rating": 4.9,
+        "ratingCount": 244,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.orthospcs.com/st-john-office/?utm_source=google&utm_medium=organic&utm_campaign=st-john-gbp&utm_content=loc",
+        "phoneNumber": "(219) 365-2323",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8–11 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthospcs.com/schedule-an-appointment/?utm_source=google&utm_medium=organic&utm_campaign=st-john-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9NiX1eilhE7JQEC1BR25lDvM0KD-bQE9Uv97riQ2OhP1YSMo5NiX-kuXz9iJcJtb9HCfzCemLi5KVvFYOJ3bYNzGQTurOFr-30EPIsGWThtJ7wokdrji8Xah7XimwRAk_DkNAGQ",
+        "cid": "4261962315339648471",
+        "fid": "0x8811e3705858a25b:0x3b2588251bebcdd7",
+        "placeId": "ChIJW6JYWHDjEYgR183rGyWIJTs"
+      }
+    ],
+    "credits": 3
+  }
+}

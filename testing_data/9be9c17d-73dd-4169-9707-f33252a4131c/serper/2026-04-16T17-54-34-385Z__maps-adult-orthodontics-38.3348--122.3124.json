@@ -1,0 +1,150 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.334848,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@35.8136616,-90.6828548,15z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Weaver Orthodontics - Jonesboro",
+        "address": "2316 Red Wolf Blvd Ste C, Jonesboro, AR 72401",
+        "latitude": 35.8163079,
+        "longitude": -90.6684745,
+        "rating": 4.9,
+        "ratingCount": 176,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.dreamweaversmiles.com/",
+        "phoneNumber": "(870) 972-5445",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.dreamweaversmiles.com/your-practice/contact-us?rwg_token=AFd1xnGuffhKHxO5zzyyOs5QyIHTlaonJGCtcScnlyFcb_01Ejw-Fo0iy8-U7vAi7zVGLZLiyjXoippT-JV9OKmcgy4ueN0BUzFdOe--40M5mj-XDquvkbU%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgYhePvB4v83V3roXMmIxrS6wE654sAMaBGzPLPT1AaTCKFCA7iyOOhPwj9oSIg-bYrbP-WpdviztmWDsM4duUGnPR_ot7VhspFiacgku9ge5fh6F8EmCxOS9VB9SwI5EumpfDrnfj6sxE",
+        "cid": "10462815266307132049",
+        "fid": "0x87d67b617c415eb5:0x9133630ce2c54a91",
+        "placeId": "ChIJtV5BfGF71ocRkUrF4gxjM5E"
+      },
+      {
+        "position": 2,
+        "title": "Fergus Orthodontics PLLC",
+        "address": "2812 Harrisburg Rd, Jonesboro, AR 72401",
+        "latitude": 35.8106711,
+        "longitude": -90.6972351,
+        "rating": 4.1,
+        "ratingCount": 27,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.fergusortho.com/",
+        "phoneNumber": "(870) 336-3366",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.fergusortho.com/virtual-consult/?utm_source=google&utm_medium=organic&utm_campaign=gmb-appointment-virtual&utm_content=Jonesboro"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEIkjf1lrQp9vRF-h0Hm7I44LwrGr0FS9YbnM3eRB6thWFPJh4rwJD9qFpr7ct4nGynqcNc3vGbFNo8eN91g1yGj5D8eqkFC0FgjVrckM4JTGWoPrRlM33tztnpZs6dImToIOEIgg",
+        "cid": "13517501382839565844",
+        "fid": "0x87d42948928b9245:0xbb97cfe38f00fe14",
+        "placeId": "ChIJRZKLkkgp1IcRFP4Aj-PPl7s"
+      },
+      {
+        "position": 3,
+        "title": "Stewart Orthodontic Studio",
+        "address": "1731 Hill Park Dr, Jonesboro, AR 72401",
+        "latitude": 35.816652,
+        "longitude": -90.6889039,
+        "rating": 5,
+        "ratingCount": 30,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.stewartorthostudio.com/",
+        "phoneNumber": "(870) 604-4600",
+        "openingHours": {
+          "Thursday": "8:30 AM–1 PM, 2–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–1 PM, 2–5 PM",
+          "Tuesday": "8:30 AM–1 PM, 2–5 PM",
+          "Wednesday": "8:30 AM–1 PM, 2–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFJ0fjrm5tfXikIRA83U3-fKnJCj3DV42AwPmisr-XEdORsd3ColUrhK870SYh2ajNo5_AtjeaoiUEXOURNlOU8jBAVVgx5mn6Lw6-FmH2Nhgbr1oTwObj3FXyOVgdhSx3R1l27F347jBe",
+        "cid": "440916465398176894",
+        "fid": "0x87d42f44eaa8a747:0x61e73306faddc7e",
+        "placeId": "ChIJR6eo6kQv1IcRftytbzBzHgY"
+      },
+      {
+        "position": 4,
+        "title": "Westrock Orthodontics",
+        "address": "2606 Browns Ln, Jonesboro, AR 72401",
+        "latitude": 35.8132689,
+        "longitude": -90.6867292,
+        "rating": 4.6,
+        "ratingCount": 214,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://westrockortho.com/location/jonesboro-ar/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-listing&utm_content=OAR_Jonesboro_Browns",
+        "phoneNumber": "(870) 218-1257",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://westrockortho.com/make-an-appointment-mobile/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwEH8o_7f9sKFyN7JePcSJZCBdjLMxw-APrO5E8pG7cLZJ1k5w2GycjqosbBVdvS1L3dSV4YAtnvTSSyAVTHGLo5nHM3jzlAgYq3agUUB8RD6j61tUXSmnQ0qp8BN1nICCX17LLg",
+        "cid": "17477767150328845912",
+        "fid": "0x87d42c053f63aaa7:0xf28d809f3e579658",
+        "placeId": "ChIJp6pjPwUs1IcRWJZXPp-AjfI"
+      }
+    ],
+    "credits": 3
+  }
+}

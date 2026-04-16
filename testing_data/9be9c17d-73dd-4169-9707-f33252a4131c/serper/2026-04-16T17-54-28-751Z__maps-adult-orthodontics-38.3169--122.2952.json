@@ -1,0 +1,664 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.316882,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzE2ODgyLC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@37.8915365,-121.686261,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Delta Smiles: Brentwood",
+        "address": "1145 2nd St, Brentwood, CA 94513",
+        "latitude": 37.9363112,
+        "longitude": -121.69952749999999,
+        "rating": 5,
+        "ratingCount": 615,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://deltasmiles.com/",
+        "phoneNumber": "(925) 513-9320",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1baNhuA6HI6yXQb-sy6Ke8JEcfjSBU3qXpJfnWeZwp_o1xG4xOhK9HgnAtbLsTyktePAq-83oCE2qF2GJHVHGvVhYmtaGA8PvIp2DdXu-nOVWnAng86ziAzz9I3_fAufRr5PTcA",
+        "cid": "3129031457404781838",
+        "fid": "0x808ffec107b5b4a5:0x2b6c8d883da2850e",
+        "placeId": "ChIJpbS1B8H-j4ARDoWiPYiNbCs"
+      },
+      {
+        "position": 2,
+        "title": "Sheffield & Le Orthodontics",
+        "address": "1140 2nd St C, Brentwood, CA 94513",
+        "latitude": 37.937591,
+        "longitude": -121.69812599999999,
+        "rating": 5,
+        "ratingCount": 457,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.sheffieldleortho.com/orthodontist-brentwood-ca/?utm_source=google&utm_medium=organic&utm_campaign=brentwood-gbp&utm_content=loc",
+        "phoneNumber": "(925) 634-4446",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.sheffieldleortho.com/schedule-consultation/?utm_source=google&utm_medium=organic&utm_campaign=brentwood-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsLdzdpHDsSHn2m-36NvotCoGYad2-WbhNB2Jaslt2eP_aWjEe6YOH6VSuxqaRWdRpyLbeFobDNoUrTRIyh7lqZnWWMUhkP64U7K1WI4vqCB3fpaEoS5QbJQfjCbhmkPBnOjaN",
+        "cid": "10201978723374607602",
+        "fid": "0x808ffec1eba84773:0x8d94b598b4d62cf2",
+        "placeId": "ChIJc0eo68H-j4AR8izWtJi1lI0"
+      },
+      {
+        "position": 3,
+        "title": "Smile Hero Orthodontics",
+        "address": "3432 Hillcrest Ave STE 225, Antioch, CA 94531",
+        "latitude": 37.986860899999996,
+        "longitude": -121.78175119999999,
+        "rating": 5,
+        "ratingCount": 462,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://smileheroortho.com/",
+        "phoneNumber": "(925) 756-6158",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8CVZvdhlsfP_MFrrH4-gNkk11Xw1Csqo0mZikzuC_MYWoPljrT_PWXIQjSW8nepsW14Ph1iGIawiRSg2rB3S9EVw7l6ocboDAtjuhXcprd-0jtIlvwk9usbMWX7ds_sMfOrvN",
+        "cid": "14889903490444691475",
+        "fid": "0x808557b8d3ebfbf1:0xcea390559fce0813",
+        "placeId": "ChIJ8fvr07hXhYAREwjOn1WQo84"
+      },
+      {
+        "position": 4,
+        "title": "Diablo Orthodontic Specialists",
+        "address": "3840 Balfour Rd D, Brentwood, CA 94513",
+        "latitude": 37.9250763,
+        "longitude": -121.7073987,
+        "rating": 5,
+        "ratingCount": 53,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://diabloorthodonticspecialists.com/",
+        "phoneNumber": "(925) 634-9794",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmMBt3a3f3tG3AliDZIDAKrMt-jiFlEA0IkkdQ0yVKceSPG6rZka6A-X89WweT_ku8MR8bAFJdwHNdRPiTWg6FI8mB4w_dcHzYZqpRoHvt5Rir39wFfjDaurmdlM5w7nY0RmVeZCved88",
+        "cid": "12434184522611530486",
+        "fid": "0x808ff938e8cca4d5:0xac8f18f1b5eb9af6",
+        "placeId": "ChIJ1aTM6Dj5j4AR9prrtfEYj6w"
+      },
+      {
+        "position": 5,
+        "title": "Oakley Orthodontics",
+        "address": "2170 Main St, Oakley, CA 94561",
+        "latitude": 38.0029556,
+        "longitude": -121.7313997,
+        "rating": 4.5,
+        "ratingCount": 119,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.oakleyortho.com/",
+        "phoneNumber": "(925) 392-1216",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEp37WvUXs8Op5fosyQBFmF3eTcpAf9_w076ATv2NxvHCFNplq6rRtdIBjvszGylDAmoi8Fl3tTODh25gwn9HU7GBbCYOcheduAR33VR-j755flOJbrgkWUN3ACo_d_ddLp9P5Huw",
+        "cid": "13672529497401102340",
+        "fid": "0x8085566d9aadd09d:0xbdbe952341a49004",
+        "placeId": "ChIJndCtmm1WhYARBJCkQSOVvr0"
+      },
+      {
+        "position": 6,
+        "title": "Brentwood Orthodontics",
+        "address": "2201 Balfour Rd suite c, Brentwood, CA 94513",
+        "latitude": 37.9256744,
+        "longitude": -121.739891,
+        "rating": 4.9,
+        "ratingCount": 48,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Doctor",
+          "Pediatric dentist"
+        ],
+        "phoneNumber": "(925) 308-7776",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "8:30 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHagXmFlgQ6toL_k6468R_UZdKeYNZa9p16ZKFc2p2IxrTRNGYnq2pnOOwtrzSm27XHZHZ-9B85AgJL-Xw_vdt_qLDUhZ4UA55W2KF12pZAcuboST7BFobQdFLFzrJqrk0bkE",
+        "cid": "964926531274556689",
+        "fid": "0x808ff93e7d4f8545:0xd641b915af84511",
+        "placeId": "ChIJRYVPfT75j4AREUX4WpEbZA0"
+      },
+      {
+        "position": 7,
+        "title": "Gorczyca Orthodontics",
+        "address": "5201 Deer Valley Rd SUITE 1-A, Antioch, CA 94531",
+        "latitude": 37.9631843,
+        "longitude": -121.7797698,
+        "rating": 4.9,
+        "ratingCount": 278,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "http://www.clubbraces.com/",
+        "phoneNumber": "(925) 757-9000",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–2 PM",
+          "Tuesday": "8:30 AM–4 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.clubbraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLVcUOOuAFEqI55H-7sgg-tU4TOg2Cji0wsXgdblhYsZewk3Tid6hvzv9P0wn5hmfYUSZOEY23pR-Nmx7nmtt5om9hESUgYMkpq-4oJOhq8sxtLu-lAWtVyoX3aaTgCGdPG3oG",
+        "cid": "11274860377195735739",
+        "fid": "0x808ff876e797de73:0x9c7859c6bae0eabb",
+        "placeId": "ChIJc96X53b4j4ARu-rgusZZeJw"
+      },
+      {
+        "position": 8,
+        "title": "Hann Orthodontics",
+        "address": "100 Cortona Way STE 250, Brentwood, CA 94513",
+        "latitude": 37.9264886,
+        "longitude": -121.7362558,
+        "rating": 4.8,
+        "ratingCount": 44,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.hannorthodontics.com/",
+        "phoneNumber": "(925) 240-2070",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.hannorthodontics.com/free-exam/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGL8nL1Y6P4UuiWANXoviGk52cV5b39Ek3j0GU4U4tRi5-kyuJXLhhj0UBo0vju5q4qE7pfYoK_mi1vjURkpjqeTvpUKvnXzhMDiUVSOiT3rnO8Y7wB_xcG7nRb3TERWBazwG8tzw",
+        "cid": "7409231820469707470",
+        "fid": "0x808559b9b8df1f9b:0x66d2e115bd9e22ce",
+        "placeId": "ChIJmx_fuLlZhYARziKevRXh0mY"
+      },
+      {
+        "position": 9,
+        "title": "Sheffield & Le Orthodontics",
+        "address": "3428 Hillcrest Ave # 100, Antioch, CA 94531",
+        "latitude": 37.987525999999995,
+        "longitude": -121.78156059999999,
+        "rating": 4.9,
+        "ratingCount": 493,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.sheffieldleortho.com/orthodontist-antioch-ca/?utm_source=google&utm_medium=organic&utm_campaign=antioch-gbp&utm_content=loc",
+        "phoneNumber": "(925) 757-9100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.sheffieldleortho.com/schedule-consultation/?utm_source=google&utm_medium=organic&utm_campaign=antioch-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElWa7rXuifLrzsBhIWGAwizh6ohfvBoky4y6PFxemO1ShCsMHcelZvBowy4SRf_HvzFPMFM5g6prCqw_0USWPZZS30qPfJyb1MiTM9DxiqIPrSqOwgqlGVC12oaGA-OwRgMq0NSA",
+        "cid": "11999572790976381162",
+        "fid": "0x808557b8d7bbb3cb:0xa6870be07e9700ea",
+        "placeId": "ChIJy7O717hXhYAR6gCXfuALh6Y"
+      },
+      {
+        "position": 10,
+        "title": "Delta Smiles: Antioch",
+        "address": "2390 Country Hls Dr #101, Antioch, CA 94509",
+        "latitude": 37.9706809,
+        "longitude": -121.7824235,
+        "rating": 4.9,
+        "ratingCount": 174,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://deltasmiles.com/",
+        "phoneNumber": "(925) 754-3197",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLcIgA6ed-LfHpi0fdJo3OAY-_eCNI2pe7j4Q4_CJxAjzHI1aWpYdNnaUIs8pHTL7fD-4n_3q-g9jU4SDN1ThjXkiTqre4zBVwwDyOpnUYK66SzXL5WFxjZSJj-FectU3VOmiEuA",
+        "cid": "10271809057470329568",
+        "fid": "0x808557de7cfe4b47:0x8e8ccbea5728b2e0",
+        "placeId": "ChIJR0v-fN5XhYAR4LIoV-rLjI4"
+      },
+      {
+        "position": 11,
+        "title": "Western Dental & Orthodontics",
+        "address": "7603 Brentwood Blvd, Brentwood, CA 94513",
+        "latitude": 37.9463976,
+        "longitude": -121.69651479999999,
+        "rating": 3.3,
+        "ratingCount": 186,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Dentist",
+          "Pediatric dentist",
+          "Prosthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.westerndental.com/en-us/find-a-location/california/brentwood/7603-brentwood-blvd?utm_source=GMB&utm_medium=organic",
+        "phoneNumber": "(925) 208-2559",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–4:30 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://appointments.westerndental.com/appointment-detail/en-us/WBJ"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvgzQmrBaz50BSMRRF90x-JDj6B2jsbHg136Pbdtncr_kZOG8T_ISpOEoPibPXJdliesnVKafrKQ9lqXFAILYkjIdyC4dryhibxKfkLVhvaBOD86h8yj9mpgtiI3nlmjdm1nPxgxP_Htjq",
+        "cid": "15736150742794930771",
+        "fid": "0x808fff877bd3b929:0xda6209ba144a8a53",
+        "placeId": "ChIJKbnTe4f_j4ARU4pKFLoJYto"
+      },
+      {
+        "position": 12,
+        "title": "WOW! Smiles - Pittsburg",
+        "address": "1600 N Park Blvd, Pittsburg, CA 94565",
+        "latitude": 38.011573,
+        "longitude": -121.8636215,
+        "rating": 4.7,
+        "ratingCount": 112,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://wowsmiles.com/pittsburg-orthodontics/",
+        "phoneNumber": "(925) 297-6607",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "8:15 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://wowsmiles.com/contact-us"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9PZNAjO8m7QYNLMJz4GaWz7XrUXQJpMgJbzOn1-Wd293qQhfqOlb8ofy8_YSSnK2RO7bfGRVopCHNeWVeUSXw6CZijTrVveRYKyw8G8Mq5Zp_BKjixuz9KBr3nEggyxwPW9fq_g",
+        "cid": "6142256114721107715",
+        "fid": "0x808559f1fd77b1d3:0x553dad64ad6c2f03",
+        "placeId": "ChIJ07F3_fFZhYARAy9srWStPVU"
+      },
+      {
+        "position": 13,
+        "title": "Autumn Lake Dental",
+        "address": "2199 Main St, Oakley, CA 94561",
+        "latitude": 38.002303999999995,
+        "longitude": -121.7327957,
+        "rating": 4.8,
+        "ratingCount": 860,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dental implants periodontist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Cosmetic dentist",
+          "Pediatric dentist"
+        ],
+        "website": "http://www.oakleyfamilydentistry.com/",
+        "phoneNumber": "(925) 575-9504",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvWcek7XDFUxntE5nSuBZinU4fNSHuLCXiP0AmNd3rKgu0hQLqHuuMMyjJ4nvJNdNg5_IXNalJcgatEGXOwSHzosZzrqVJ20_dsmJwmzW8lIr-ocTaEBb_AXIlIvaqIKQp5XGMew",
+        "cid": "7043754651522970354",
+        "fid": "0x8085566da06346d7:0x61c07189410832f2",
+        "placeId": "ChIJ10ZjoG1WhYAR8jIIQYlxwGE"
+      },
+      {
+        "position": 14,
+        "title": "Aubrey Barrett Orthodontics",
+        "address": "300 E Leland Rd # 205, Pittsburg, CA 94565",
+        "latitude": 38.0110047,
+        "longitude": -121.8879017,
+        "rating": 5,
+        "ratingCount": 53,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://aubreybarrettortho.com/pittsburg/",
+        "phoneNumber": "(925) 439-3000",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://aubreybarrettortho.televox.west.com/office/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_ag1E4W5q7pT0W7Gq7e1Et_pIeyRUVQTL78YMsIx-3Q4NSNzM4rq7KZogUU-wJdAXh55i6YESkcZdGFLeyv84Fhrkv3s9LbmQxiFuWN4DqGCZzWJfyMvxH3nSEsQE_GRHAcqF",
+        "cid": "15475956830575410293",
+        "fid": "0x80855be28beccad9:0xd6c5a4be05ba3c75",
+        "placeId": "ChIJ2crsi-JbhYARdTy6Bb6kxdY"
+      },
+      {
+        "position": 15,
+        "title": "Bigman Orthodontics",
+        "address": "525 Bollinger Canyon Way STE 102, San Ramon, CA 94582",
+        "latitude": 37.771499999999996,
+        "longitude": -121.94665499999999,
+        "rating": 4.9,
+        "ratingCount": 304,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://bigmanortho.com/",
+        "phoneNumber": "(925) 255-9255",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 AM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 AM",
+          "Tuesday": "9:30 AM–12 AM",
+          "Wednesday": "12–6 AM, 7:30 AM–4:30 AM"
+        },
+        "bookingLinks": [
+          "https://bigmanortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQ3WlCMVM0XxCZoa6wqsVVjch7fZzqMiV8gYLy_wi60lj5qfl1j1YifHvQ3Jl0Y4rmfdgQIDHjeGenpTXSEy-jARgg7O6Hc1CwPtwUvUFcQZyGXvaQmRcrKp9Ox5M7pj4h0BDlZA",
+        "cid": "17871924698824182324",
+        "fid": "0x808ff27d64c59d1d:0xf805d4d2f5f20a34",
+        "placeId": "ChIJHZ3FZH3yj4ARNAry9dLUBfg"
+      },
+      {
+        "position": 16,
+        "title": "Western Dental & Orthodontics",
+        "address": "4518 Lone Tree Wy, Antioch, CA 94531",
+        "latitude": 37.965696,
+        "longitude": -121.7809269,
+        "rating": 4.1,
+        "ratingCount": 727,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Dentist",
+          "Pediatric dentist",
+          "Prosthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.westerndental.com/en-us/find-a-location/california/antioch/4518-lone-tree-way?utm_source=GMB&utm_medium=organic",
+        "phoneNumber": "(925) 529-8293",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–4:30 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.westerndental.com/appointment-detail/en-us/WBW"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiZOgf3QCmZO83VCx3a6cHFypRRpsAMV2Y5-79jDyQEs0fgQUfYc9IoN4n7m7OquBMz0p7OTd4kimVBMJ1BRv-kxCunb5WZ28GCIoNlfWPQPao85JAJEn6ACKvZmGhil4qQYkIYDabL3up",
+        "cid": "12191921590765812781",
+        "fid": "0x808ff8762257db4f:0xa93268175b02fc2d",
+        "placeId": "ChIJT9tXInb4j4ARLfwCWxdoMqk"
+      },
+      {
+        "position": 17,
+        "title": "Mt. Diablo Orthodontics - Reichhold & Vargas",
+        "address": "2991 Treat Blvd # F, Concord, CA 94518",
+        "latitude": 37.9387038,
+        "longitude": -122.025723,
+        "rating": 5,
+        "ratingCount": 138,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://mtdiablosmiles.com/",
+        "phoneNumber": "(925) 689-4790",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "http://www.mtdiablosmiles.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMxMBaJfInClAzdgGS2cS6gzFHNdhPzteWBPA6Hp50rMfCoCso52kUv5sYPPioCuk9D85GsVQRtjdpczkLiCphsyUWeL3lrliKyjrp7rKv6jnVr6zlqPRj5KUve5Gofkzc4CFF",
+        "cid": "441235476166989674",
+        "fid": "0x808560f06cb12939:0x61f9553eb3bd76a",
+        "placeId": "ChIJOSmxbPBghYARatc761OVHwY"
+      },
+      {
+        "position": 18,
+        "title": "Delta Bay Dental Group",
+        "address": "8640 Brentwood Blvd, Brentwood, CA 94513",
+        "latitude": 37.9260336,
+        "longitude": -121.6901656,
+        "rating": 4.9,
+        "ratingCount": 749,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental implants periodontist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "http://www.deltabaydental.com/",
+        "phoneNumber": "(925) 516-8886",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.deltabaydental.com/request-my-appointment/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=Appointments"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERxnqKIb5GqWFQjBFWhZPCAsEfuy-748nCdn-0eZhEBXMjM-EYiFqnspMSRLxughhhCdcaHfzvRzUDPMskiGBJom-lpU9BD8O0h4RlsXpN3ld-6iSYLGrv-sr-_DApyazs6KPCIv7z2o7q",
+        "cid": "1807872639802173923",
+        "fid": "0x808ff93e7d5b175d:0x1916da965e8e69e3",
+        "placeId": "ChIJXRdbfT75j4AR42mOXpbaFhk"
+      },
+      {
+        "position": 19,
+        "title": "Kids Care Dental and Orthodontics - Brentwood",
+        "address": "2201 Balfour Rd suite a, Brentwood, CA 94513",
+        "latitude": 37.9257001,
+        "longitude": -121.7397668,
+        "rating": 4.6,
+        "ratingCount": 273,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.kidscaredental.com/central-california-pediatric-dentistry/brentwood-pediatric-dentists/?utm_source=google&utm_medium=gbp",
+        "phoneNumber": "(925) 308-7608",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "8:30 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLWBgRC47TmSTDf6RDIs5LhUoUn63oz7q1jMZyqkSsc9CmoHc2c3-q2SKYI3opA8U3VC2U4hyhVuGt572YJruQjttAEsiJAMm0K72aHqhJ-EOfRYjCmwz50Nu6RN7pq2EzOdqz",
+        "cid": "14121733645602000877",
+        "fid": "0x808ff93e7c11a495:0xc3fa79ee36ca0fed",
+        "placeId": "ChIJlaQRfD75j4AR7Q_KNu55-sM"
+      },
+      {
+        "position": 20,
+        "title": "Wheeler Orthodontics",
+        "address": "4568 Feather River Dr, Stockton, CA 95219",
+        "latitude": 37.982968,
+        "longitude": -121.34679899999999,
+        "rating": 5,
+        "ratingCount": 108,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.livesmilelaugh.com/",
+        "phoneNumber": "(209) 478-4666",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOJehKHjCk9VEXfGIsjJukYaZNYpSaEXQRR9PsUD-wg0YEw_c8kS8RT59Z-kEeVeZsiU-CfZraLQYKu-_N9Au763vjIdlNFMPHLn09ZZkE28DE2GMhjd7EVr1zeqyuaO13EyA",
+        "cid": "7060889313259844573",
+        "fid": "0x80900c2cf463ed7f:0x61fd516b933473dd",
+        "placeId": "ChIJf-1j9CwMkIAR3XM0k2tR_WE"
+      }
+    ],
+    "credits": 3
+  }
+}

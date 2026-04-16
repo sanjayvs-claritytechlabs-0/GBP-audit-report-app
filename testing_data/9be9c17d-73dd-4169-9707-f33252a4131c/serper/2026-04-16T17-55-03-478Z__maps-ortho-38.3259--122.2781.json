@@ -1,0 +1,625 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.325865,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@42.4502651,-83.3794865,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "The Big Smile Orthodontics",
+        "address": "33627 7 Mile, Livonia, MI 48152",
+        "latitude": 42.4256119,
+        "longitude": -83.380459,
+        "rating": 4.9,
+        "ratingCount": 871,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.thebigsmile.com/",
+        "phoneNumber": "(248) 471-1555",
+        "openingHours": {
+          "Thursday": "7:40 AM–5 PM",
+          "Friday": "7:40 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:40 AM–6 PM",
+          "Tuesday": "7:40 AM–5:30 PM",
+          "Wednesday": "7:40 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG69AQC1i74_qMesLoNXn4hmPTcq7JYAoLEqYc5y3DOlpu8LkEIlj9_9qJb7zOvdHzawBVI24N4iwW9zDiJDzDpQcTs7apae2EiitKer8tjhUNF8r2t0pjCeJKh2_1SQOTWA5laPQ",
+        "cid": "144755695127557247",
+        "fid": "0x8824b233178c6eb5:0x2024689ab4af47f",
+        "placeId": "ChIJtW6MFzOyJIgRf_RKq4lGAgI"
+      },
+      {
+        "position": 2,
+        "title": "Dearborn and Livonia Orthopedics & Sports Medicine",
+        "address": "36475 Five Mile Rd Suite 125, Livonia, MI 48154",
+        "latitude": 42.3945553,
+        "longitude": -83.40436439999999,
+        "rating": 4.9,
+        "ratingCount": 102,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.dearbornortho.com/",
+        "phoneNumber": "(734) 655-1330",
+        "openingHours": {
+          "Thursday": "1–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "1–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.dearbornortho.com/schedule?utm_source=google_apt&ao=Google",
+          "https://www.tebra.com/care/practice/dearborn-and-livonia-orthopedics-sports-medicine-293360?lid=3543596208&rwg_token=AFd1xnHRFcu6NlIH3SVZ9litu7CTBjghoViduhCoUrqpC92Hfky8KLzfb8ZBbTr2hO3B-Q7JuALloVhguNdmCGFzjberIwX9V8oXw_zxvfrioY1TKPPBTR8%3D"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xMWjG9YwY4vFbYigdTmS-Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=155.82591&pitch=0&thumbfov=100",
+        "cid": "18440000956458783633",
+        "fid": "0x8824b3d4c1d8b9d7:0xffe80b2bab96d391",
+        "placeId": "ChIJ17nYwdSzJIgRkdOWqysL6P8"
+      },
+      {
+        "position": 3,
+        "title": "Orthopedic Institute of Michigan",
+        "address": "39000 W Seven Mile Rd Suite 2500, Livonia, MI 48152",
+        "latitude": 42.4281839,
+        "longitude": -83.4281673,
+        "rating": 4.4,
+        "ratingCount": 28,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.orthomich.com/",
+        "phoneNumber": "(734) 464-0400",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–3 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–3 PM"
+        },
+        "cid": "15830731220114335366",
+        "fid": "0x8824b29286715625:0xdbb20e2b7d99e686",
+        "placeId": "ChIJJVZxhpKyJIgRhuaZfSsOsts"
+      },
+      {
+        "position": 4,
+        "title": "Michigan Orthopedic Rehabilitation Specialist",
+        "address": "33930 W 8 Mile Rd #2A, Farmington Hills, MI 48335",
+        "latitude": 42.441112499999996,
+        "longitude": -83.3809433,
+        "rating": 5,
+        "ratingCount": 13,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Rehabilitation center"
+        ],
+        "website": "http://morspt.com/",
+        "phoneNumber": "(248) 229-5000",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "7 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=E-FAGFjLaiRsGpPHYYIG-Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=353.41528&pitch=0&thumbfov=100",
+        "cid": "2894672542566776166",
+        "fid": "0x8824b1e25a5c5c25:0x282bf15740c4fd66",
+        "placeId": "ChIJJVxcWuKxJIgRZv3EQFfxKyg"
+      },
+      {
+        "position": 5,
+        "title": "OrthoPrime Physical Therapy",
+        "address": "17916 Farmington Rd, Livonia, MI 48152",
+        "latitude": 42.4182961,
+        "longitude": -83.37416689999999,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic"
+        ],
+        "website": "http://orthoprimept.com/",
+        "phoneNumber": "(734) 855-4046",
+        "openingHours": {
+          "Thursday": "7 AM–6 PM",
+          "Friday": "7 AM–6 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "7 AM–6 PM",
+          "Tuesday": "7 AM–6 PM",
+          "Wednesday": "7 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://sites.webpt.com/97749/request-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpiU6WrN1ywQtCprarwkCBL9xyT1L76skPrkm7CRfpQL7X33X5B2ukauUs-5c5sbfUU8gbFNbYyDsSz0UghsYwKK4WohkAUL2w0cn9Q8mOWF-x1iNHsZBhc8kpJQAwbutwv6pNKBeYTMg",
+        "cid": "18091119236539118356",
+        "fid": "0x8824b39a1f675e79:0xfb10911843267314",
+        "placeId": "ChIJeV5nH5qzJIgRFHMmQxiREPs"
+      },
+      {
+        "position": 6,
+        "title": "Today's Orthodontics & Pediatric Dentistry - Livonia",
+        "address": "18444 Farmington Rd, Livonia, MI 48152",
+        "latitude": 42.420584999999996,
+        "longitude": -83.37421599999999,
+        "rating": 4.9,
+        "ratingCount": 461,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://todaysortho.com/",
+        "phoneNumber": "(734) 454-9200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.todaysortho.com/newpatient/office/LivoniaFarmington?rwg_token=AFd1xnFzV7laFcm9j2eOwjy97MDNRMTexLxc9LnKzgmICy6K-v08OxCjOINtUfr42jTXvxt-7TuUa41bS5iDTPk4NPZP_F-4ZJxzIIv-LfwYn1Ap8IDa9xs%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmua29KgGr6sjRpJJycojpimTUKAxAY6MdfrZslKuh1CfF5038vLjABwqd2Jz0WYiFFFo_BtPnnh3gk3s112F1_KHv5q1orcae06OqcYHQZD9WhX8utHJ9Um30AcytwaJHZgV0Fw",
+        "cid": "15122379082300554777",
+        "fid": "0x8824b3ca2e175775:0xd1dd7ba74f527e19",
+        "placeId": "ChIJdVcXLsqzJIgRGX5ST6d73dE"
+      },
+      {
+        "position": 7,
+        "title": "Henry Ford Beacon Orthopedics - Livonia",
+        "address": "19335 Merriman Rd, Livonia, MI 48152",
+        "latitude": 42.4288007,
+        "longitude": -83.35602229999999,
+        "rating": 4,
+        "ratingCount": 4,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.henryford.com/locations/orthopedics-beacon-livonia?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(248) 865-4238",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqSd5UWyHY0D8Es7Jm22Wi0SW1kiQwMjWHWeEGxiUbWHsURuDVTG0LxfxXD1gOtUo05cCuCnA7seHQZxkr5qSjouhbBIn_lmQsauZuk4WijV2BG64f8isbAxqLwEGmXZeJUEcGdOBFAJg0",
+        "cid": "923068780399718069",
+        "fid": "0x8824b3141c2f9b25:0xccf662a46fa6eb5",
+        "placeId": "ChIJJZsvHBSzJIgRtW76Ripmzww"
+      },
+      {
+        "position": 8,
+        "title": "Synergy Health Partners | Mendelson Orthopedics & Spine Specialists",
+        "address": "36622 Five Mile Rd #101, Livonia, MI 48154",
+        "latitude": 42.3974447,
+        "longitude": -83.40454969999999,
+        "rating": 4.8,
+        "ratingCount": 2459,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Pain management physician"
+        ],
+        "website": "https://www.mendelsonortho.com/?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-MKOLI&y_source=1_MTAxODkwODMzOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(855) 750-5757",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDK3qZNaWdCRuFMiJ7lyXSa7Ee2_93S_Zn3X_XLHReZ39VK9DtvudjQT-yvMfDN4ozvH5EiCHeRovtR2fXkz4UsAibts3icKOweQ8NuL2bhZMXXA4rt5QErdDTuMsAtkPDzhjm",
+        "cid": "13174692990578337609",
+        "fid": "0x8824b28c4e9d1c61:0xb6d5e978f0402749",
+        "placeId": "ChIJYRydToyyJIgRSSdA8Hjp1bY"
+      },
+      {
+        "position": 9,
+        "title": "Trinity Health IHA Medical Group, Orthopaedics - Schoolcraft Campus",
+        "address": "19000 St Joe's Pkwy Suite 400, Livonia, MI 48152",
+        "latitude": 42.4222056,
+        "longitude": -83.42583379999999,
+        "rating": 4.3,
+        "ratingCount": 4,
+        "type": "Surgical center",
+        "types": [
+          "Surgical center"
+        ],
+        "website": "https://www.trinityhealthmichigan.org/location/trinity-health-iha-medical-group-orthopaedics-schoolcraft-campus",
+        "phoneNumber": "(734) 712-0655",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://mychart.trinity-health.org/MyChart/openscheduling?public=1&specialty=27&hidespecialties=1&dept=1051113123&rfvid=999885"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiIG4lt0P0IApp6zDELLHdFSIbVUaf-QKmtBKTHOtfzPIpqx9XyheEUs1UQfK5IrJA9aARQrdmS4tpHhyBGyWyOS4E3Ly8QnzX43NWZ4jZk4uX2zlG_juU1sNECmEc3vfMEplpFw",
+        "cid": "12552244867264469432",
+        "fid": "0x8824b3c7df473d47:0xae328833bf04d9b8",
+        "placeId": "ChIJRz1H38ezJIgRuNkEvzOIMq4"
+      },
+      {
+        "position": 10,
+        "title": "Masri Orthodontics",
+        "address": "15230 Levan Rd Suite A, Livonia, MI 48154",
+        "latitude": 42.3958051,
+        "longitude": -83.4024063,
+        "rating": 4.9,
+        "ratingCount": 780,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://www.masriortho.com/",
+        "phoneNumber": "(734) 261-8860",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.masriortho.com/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFYEMtUuVVzgAPxT4EKio7qzXqLQqh4ujfH4HSEx4lGRcNq0g15NHYjNEFX543mnbIZ_KLX55PgJfO4dDzXapPfVrZMwht0hvLYaR-T-ZYs5Ckaa4wwGhdJWkvjmaPVfO4Qus-x",
+        "cid": "6546182478002765132",
+        "fid": "0x8824b3d865069eb9:0x5ad8b647d43dbd4c",
+        "placeId": "ChIJuZ4GZdizJIgRTL091Ee22Fo"
+      },
+      {
+        "position": 11,
+        "title": "Kristopher J. Aalderink, MD",
+        "address": "19000 St Joe's Pkwy Suite 400, Livonia, MI 48152",
+        "latitude": 42.422007199999996,
+        "longitude": -83.42574479999999,
+        "rating": 4.2,
+        "ratingCount": 46,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://ihacares.com/providers/mi/livonia/kristopher-j-aalderink-md?utm_source=googlemybusiness&utm_campaign=Google%20My%20Business&utm_medium=organic",
+        "phoneNumber": "(866) 678-4644",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://iha.inquicker.com/provider/kristopher-aalderink"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxS23aPyL-YhQeu-7IKynjDkYrolkLlW7x07zbmyaecgmU8Q04yd_rmaSD4t0NkadOIulYKQZ-pLbd2PRUeYYCG1mH0u8DPZQuSTo-6fD7q1GKuMlx2M_HZ0EJ3XqPmpl98Dld",
+        "cid": "14827104310268261946",
+        "fid": "0x883ca918d67a0797:0xcdc474d01533f63a",
+        "placeId": "ChIJlwd61hipPIgROvYzFdB0xM0"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic Institute of Michigan Physical Therapy",
+        "address": "39000 W Seven Mile Rd Suite 2500, Livonia, MI 48152",
+        "latitude": 42.4281839,
+        "longitude": -83.4281673,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic"
+        ],
+        "website": "https://orthomich.com/",
+        "phoneNumber": "(734) 464-0473",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–8 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "7 AM–8 PM"
+        },
+        "cid": "9672765211534811668",
+        "fid": "0x8824b3781df69ac7:0x863c90b61d49e214",
+        "placeId": "ChIJx5r2HXizJIgRFOJJHbaQPIY"
+      },
+      {
+        "position": 13,
+        "title": "Ben Mayo, MD",
+        "address": "36622 Five Mile Rd #101, Livonia, MI 48154",
+        "latitude": 42.397403,
+        "longitude": -83.40442469999999,
+        "rating": 4.8,
+        "ratingCount": 128,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.benmayomd.com/?utm_source=GMBSocialClimb&utm_medium=BenMayo%2CMD",
+        "phoneNumber": "(734) 542-0200",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/benjamin-mayo-md-436149?LocIdent=194029&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_hiaGlg6Vwk-7XTT_AJR_Xh-lo_eHGGSxrm2EyqC3rlKG9iBh-entity&rwg_token=AFd1xnG2SZs2Z2xWu-eF0UsrS2J8Bh7bpxF7kkABIV31x0Xah1bAAX5M0uure_r8w96rt2YWpqAZy-EwStsTox5Ecv3AMUC8wGw-h5y66Cyuz2mY8KkJ95k%3D",
+          "https://www.benmayomd.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkRSuwLrnqOm9v0WpREKG4UNeUhGSzGK6lTdLRFecPu_p9ouwLUxUmmnAi3nduvpLY_F-ayAViQA8uLIjo5rR4k4BU3ZMM6yludOIx4HjJIDI4wB8LzSh76aw1WFLRy640yB6eNg",
+        "cid": "9724520721220852695",
+        "fid": "0x8824b30625b936b3:0x86f47012bf4b5bd7",
+        "placeId": "ChIJsza5JQazJIgR11tLvxJw9IY"
+      },
+      {
+        "position": 14,
+        "title": "Orthopaedic Surgery and MedSport at Northville Health Center",
+        "address": "39901 Traditions Dr #110, Northville, MI 48168",
+        "latitude": 42.4224311,
+        "longitude": -83.4375708,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.uofmhealth.org/",
+        "phoneNumber": "(734) 936-5780",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r9Wi9I2LRKVSjqwWnWEvZA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=190.67577&pitch=0&thumbfov=100",
+        "cid": "10545229916189986054",
+        "fid": "0x8824aded9c058f29:0x92582ebcdd538d06",
+        "placeId": "ChIJKY8FnO2tJIgRBo1T3bwuWJI"
+      },
+      {
+        "position": 15,
+        "title": "Alice Mendelson, MD",
+        "address": "36622 Five Mile Rd #101, Livonia, MI 48154",
+        "latitude": 42.397287299999995,
+        "longitude": -83.40422869999999,
+        "rating": 4.8,
+        "ratingCount": 74,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mendelsonortho.com/providers/orthopedics/alice-mendelson-md/?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-MKOLI&y_source=1_MTAyMTUyMTc3NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(734) 542-0200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/alice-mendelson-md-388544?LocIdent=194029&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_BbYq5-jB40q0dNm-mfJkph-lo_eHGGSxrm2EyqC3rlKG9iBh-entity&rwg_token=AFd1xnGeCntQDZ6DzaX5zNv8SOOM2AMzKx9KIQnhhF7pLPxcKVZtxo2n3T6Oe0Cpm3VJzPkdNBq-pQ2b7l2XJcO9pRQWg733Bw%3D%3D",
+          "https://s.odoro.com/synergyhealth/?scct=792b12dd-78d4-466e-81a9-d5bc10648c54%3Futm_source%3Dgbp&utm_medium=organic&utm_campaign=location-listing-MKOLI&y_source=1_MTAyMTUyMTc3NS03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHci9lZjPd_dL2WhfFOeZozfl9NNmxDAC6H4BRX81Adjo3D8roZ6HjZoaEklr3NG_2-lv4R2j3rPFK6lPRmENkqGujwnG6uVGQMyp91VfjVuBiCQ3zUqpT9sE4qiCle6k3H5Exc",
+        "cid": "15400730162915963010",
+        "fid": "0x8824da1a929d7045:0xd5ba627c923ff082",
+        "placeId": "ChIJRXCdkhraJIgRgvA_knxiutU"
+      },
+      {
+        "position": 16,
+        "title": "Stephen D. Mendelson, MD",
+        "address": "36622 Five Mile Rd #101, Livonia, MI 48154",
+        "latitude": 42.3974501,
+        "longitude": -83.40457719999999,
+        "rating": 4.7,
+        "ratingCount": 111,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mendelsonortho.com/providers/orthopedics/stephen-d-mendelson-md/?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-MKOLI&y_source=1_MTAyMTUyMTc5NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(855) 750-5757",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/stephen-mendelson-md-388543?LocIdent=194029&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_TSjVtHUvtEOXXrbgGvkHXR-lo_eHGGSxrm2EyqC3rlKG9iBh-entity&rwg_token=AFd1xnGji02z2D9_BKzxgPMqYo0w-rApcU1N7h1iHzOpv981xOpyvm5Qyelii_pt98u1epMjkxZr9nbuddCwQK_qrSc-S_qeuQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnRQ2_BAWJQ0ClNcv5mQT3jVelTrggJqnWX7MAwEL0KhXnWu0jiFujnasFUBEufXQ7OJQJjE-uH8kwzP5JRjqnOygzZuTbrbu4VsICtjl-ZY6S0S5Q6He7zzy3qD3pMs2TrTFT",
+        "cid": "10514656141908927607",
+        "fid": "0x8824b29286715625:0x91eb900d51dc6477",
+        "placeId": "ChIJJVZxhpKyJIgRd2TcUQ2Q65E"
+      },
+      {
+        "position": 17,
+        "title": "Havens Orthodontics",
+        "address": "21890 Farmington Rd, Farmington, MI 48336",
+        "latitude": 42.4530342,
+        "longitude": -83.3757485,
+        "rating": 5,
+        "ratingCount": 6,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://havensorthodontics.com/contact-us/farmington/",
+        "phoneNumber": "(248) 888-1252",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://havensorthodontics.com/contact-us/farmington/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnRTvlkiYFq2vQz5zecA3ertzpe4avCwoR6OTKftavX7bWN3yr6RnIx8KFZBBDS6rRe-S0haWZw70Sq-Q34GXFMzk9U7MfhHxlI9T2uUepfipJJ2DTqgBNdRiNZ8MoK4C01_eq",
+        "cid": "8178765280509108748",
+        "fid": "0x8824b176826d7c8d:0x7180cfb08e0b220c",
+        "placeId": "ChIJjXxtgnaxJIgRDCILjrDPgHE"
+      },
+      {
+        "position": 18,
+        "title": "David H. Mendelson, MD",
+        "address": "36622 Five Mile Rd #101, Livonia, MI 48154",
+        "latitude": 42.3972875,
+        "longitude": -83.40422869999999,
+        "rating": 4.9,
+        "ratingCount": 103,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mendelsonortho.com/providers/orthopedics/david-h-mendelson-md/?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-MKOLI&y_source=1_MTAyMTUyMTc3Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(734) 542-0200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/david-mendelson-md-388541?LocIdent=194029&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_z3XTnKnXW0afOZ0VET0TAh-lo_eHGGSxrm2EyqC3rlKG9iBh-entity&rwg_token=AFd1xnGYhFaMgWGTMtBokkC0HPHJnvgdYyaBQMhwcrsT3a8SAWIaZllUacPKhH5QLMXQ_UEoL_Z0l_z6DSZrolUSKEvcvrRM-2EIG_EQJTOU918T4zHr5H0%3D",
+          "https://s.odoro.com/synergyhealth/?scct=792b12dd-78d4-466e-81a9-d5bc10648c54%3Futm_source%3Dgbp&utm_medium=organic&utm_campaign=location-listing-MKOLI&y_source=1_MTAyMTUyMTc3Ni03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4ujlU9qp3mHvlTyExpkhgZ4h8jIMHHqVdx-KPAaIl4p_XYqV86-YsJDrAtEOLQn47lUMLJR06F_9uOp7XOzGjcgMTJQnoDZdEAJmQnBDIUktpNlgevOgzHL-3DfW9DQWuaELnbQ",
+        "cid": "14664060593715478509",
+        "fid": "0x8824b28dbcfd9529:0xcb81356a9d36ffed",
+        "placeId": "ChIJKZX9vI2yJIgR7f82nWo1gcs"
+      },
+      {
+        "position": 19,
+        "title": "Preetinder Bhullar, MD",
+        "address": "36622 Five Mile Rd #101, Livonia, MI 48154",
+        "latitude": 42.397403,
+        "longitude": -83.40442469999999,
+        "rating": 5,
+        "ratingCount": 173,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://synergyhealth.org/providers/preetinder-bhullar-md/?utm_source=GMBSocialClimb&utm_medium=PreetinderBhullar%2CMD",
+        "phoneNumber": "(855) 750-5757",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/preetinder-bhullar-md-431825?LocIdent=194029&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_8r6uhRnYLUCph_XB4vKIIB-lo_eHGGSxrm2EyqC3rlKG9iBh-entity&rwg_token=AFd1xnHU6UZWdns3YZm2hrWgRgti9xEAkFf6YXJkx5VG6aZzY-BjNFlLpqX1IQvWDJSscXdxy-kW4HvlxhKOJ1CQOrGCR-v8PFLBTM1rjbWneQqAVJUQrTk%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG32B1Q-OrVal6uNs-d8o77bYR4Av9z4Ahn15hQmecbff-dYDmy-9GpE0VtbjnFSIchoa145OYVqTaz2hdpmx9ZirWH0rZ6vnXSpoHylssNX75jvHzJu1PCOFFIAEJ89mewVmf5qA",
+        "cid": "11275501292978308777",
+        "fid": "0x8824b3194bbd3dbb:0x9c7aa0af906e06a9",
+        "placeId": "ChIJuz29SxmzJIgRqQZukK-gepw"
+      },
+      {
+        "position": 20,
+        "title": "Henry Ford Beacon Orthopedics - Farmington Hills",
+        "address": "30055 Northwestern Hwy # L-30, Farmington Hills, MI 48334",
+        "latitude": 42.5059748,
+        "longitude": -83.3214022,
+        "rating": 4.8,
+        "ratingCount": 69,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.henryford.com/locations/medical-center-farmington-hills/orthopedics-beacon?utm_campaign=website-link&utm_medium=organic&utm_source=local-listing",
+        "phoneNumber": "(248) 865-4238",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw5OTEQIj6RyKOeMt-DP_zRBXmbQb58OB4wrjv6oAqjqF-c0siJwH6ckxoyMljd0PteELqjxg-aegL5OMD-wt1KNEZco9MOc2jaGCxvpUIzpU6jjt8ZG2-5pVneCHuVpiQUfCyXQ",
+        "cid": "15359375171871680092",
+        "fid": "0x8824d6033cfc6eab:0xd5277657635da65c",
+        "placeId": "ChIJq278PAPWJIgRXKZdY1d2J9U"
+      }
+    ],
+    "credits": 3
+  }
+}

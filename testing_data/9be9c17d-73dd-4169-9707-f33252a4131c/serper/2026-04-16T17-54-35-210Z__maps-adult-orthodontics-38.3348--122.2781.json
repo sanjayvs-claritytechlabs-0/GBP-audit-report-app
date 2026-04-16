@@ -1,0 +1,654 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.334848,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@34.1636689,-118.4922017,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Textbook Orthodontics",
+        "address": "8424 Van Nuys Blvd, Panorama City, CA 91402",
+        "latitude": 34.2242459,
+        "longitude": -118.44841029999999,
+        "rating": 5,
+        "ratingCount": 365,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://textbookorthodontics.com/",
+        "phoneNumber": "(818) 510-3440",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/textbook-orthodontics-108597?LocIdent=260326&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_c2t9tSCXD0yGJ4vtjwNCWB-lo_OqiVF3VNakmHELZRUVFXDh-entity&rwg_token=AFd1xnENxUmBaVUlMHjQQ52x7lwzm1QYUKkKEa3gXGyM4VdXXT_NC2zKYkKdHC7wbUt4GPlnpKfZdf_LQHRZWTW-lkBvvwzEzXpwYH_fqzdBCIzSaJUVsMk%3D",
+          "https://www.zocdoc.com/practice/textbook-orthodontics-braces-and-invisalign-108597?lock=true&isNewPatient=false&referrerType=widget"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmmlc7Z8IF0AIAC-GJ0FDFZle3okRSHZ1PE7F8y5_0BsuVjyysfn_TH78eYPCD6uiOmyRu-83yZ66yRUz6La9U51vodis8sN-dAVAeERdJdMUzY9fCzYpWOgEBM0tWp6KuIrWd",
+        "cid": "8243724546535938012",
+        "fid": "0x80c291cd88969f4d:0x726797cc467157dc",
+        "placeId": "ChIJTZ-WiM2RwoAR3FdxRsyXZ3I"
+      },
+      {
+        "position": 2,
+        "title": "Sinai Orthodontics",
+        "address": "12930 Ventura Blvd Ste. 226b, Studio City, CA 91604",
+        "latitude": 34.1451843,
+        "longitude": -118.4151868,
+        "rating": 5,
+        "ratingCount": 53,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://sinaiorthodontics.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+        "phoneNumber": "(818) 287-0910",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "8:30 AM–5:30 PM",
+          "Saturday": "9 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/sinai-orthodontics-153055?LocIdent=370813&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_N56E69xXeE-VLBxiJlJffQ-lo_xY5MV8O2s0-Wwl1sAC0qyA-entity&rwg_token=AFd1xnEziUGw0l7GY6Ve8KOTeZ-YcTw_jYAyUSiIS1mbItzdJnT65UA3AXVICrPeYQkCjB3lwCjk9m0aYN5Cahc_5S3Bb1EsT65hiQ9FjtpPrCHePFqilvE%3D",
+          "https://www.zocdoc.com/dentist/sina-banankhah-dds-680044?LocIdent=370813&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_643--ZIYRk2QBlhKaTb_CQ-lo_xY5MV8O2s0-Wwl1sAC0qyA-entity&rwg_token=AFd1xnFaj3okzw4ltQHg6XUx9_fF64i2LfdQr53vnjJ5XtsvJiAvfGf9gcA34_Ypu_WFREScz9v5T0tzdiyulhDxpdxFDk79YE6-oAvE6JfZ5BO7QF05hxo%3D",
+          "https://leads.greyfinch.com/22518b12-a105-4872-a68c-96cdbf14225c?utm_source=google&utm_medium=organic&utm_campaign=gbp-appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpZVuqNeZxqokiI67wgYT36OKV1olPYfRi9XY0DknhGaxijKUSLhKlR3OF47hUMlMyMT85JqCYPVo1TMCYh9xvPa1WgRoc1nWUIC6iUHXD_FeEYLJSBTCjhgYKOCUb4C-Gg4MoOxqhkcY",
+        "cid": "5226546851499114899",
+        "fid": "0x80c2bd6dfb504517:0x48886cab858a8193",
+        "placeId": "ChIJF0VQ-229woARk4GKhatsiEg"
+      },
+      {
+        "position": 3,
+        "title": "Smile Exchange Orthodontics",
+        "address": "10933 Victory Blvd, North Hollywood, CA 91606",
+        "latitude": 34.187171,
+        "longitude": -118.369287,
+        "rating": 5,
+        "ratingCount": 77,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smileexchangeorthodontics.com/?utm_campaign=gmb",
+        "phoneNumber": "(818) 643-6334",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/smile-exchange-orthodontics-169839?LocIdent=386848&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_sTVg-bCUBki6JplXLq8g-g-lo_INtK3j0QKU2cDwmAPC7qfA-entity&rwg_token=AFd1xnFBsGueutdcEipp04bhCMQ8NT281kQvUB8pXmrjkfHyvmIN52KLRjj-CMYiY_8XIjLJuPKixISk26z0Gp6ADOsJlbVgjKEQYvwz11EVX_MEVdLCbL0%3D",
+          "https://smileexchangeorthodontics.com/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVC_eNz-rYPWBELqefbWGJ4xB6p_639R6Qb_NWoAfRsZ3p8pXvT-qD9k4zoDfYC22YKGcqsdnE9J3baPbYcQ6nhS4-VE1NMogv_3qhGcFHB8s-rBrzQmzvTKOh1diY1Oqg1qQ",
+        "cid": "10937496067391038931",
+        "fid": "0x80c295f184fc12d1:0x97c9cab9551325d3",
+        "placeId": "ChIJ0RL8hPGVwoAR0yUTVbnKyZc"
+      },
+      {
+        "position": 4,
+        "title": "NOHO Orthodontics Studio: Dr. Tenny Balabegian",
+        "address": "6140 Laurel Canyon Blvd #120, North Hollywood, CA 91606",
+        "latitude": 34.1816753,
+        "longitude": -118.39467479999999,
+        "rating": 5,
+        "ratingCount": 215,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.nohoorthodontics.com/",
+        "phoneNumber": "(818) 380-5536",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/noho-orthodontics-studio-155857?LocIdent=377676&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_lRbVqohFX0ec09J5bhDkCQ-lo_IFRACQjXHUSP74RzI2pE5w-entity&rwg_token=AFd1xnGYX5N9xGCm30yE6x_-xw8oHgqs5VElLEso_LYlt8Fe5Wkl2znVHs6MWbR4lL7K9G5PR_yTNmrGjAmo5f5MZPrWFPAZqrch5o6hnHcjWjK0sTGAMZk%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0aQKJ_BtekM9cPUmmcFs5hQpN3-ZWgqqUfxhMAOHWAC4bklZDG60G9r5ketw5lO0bRvGHsb5vpzmOHzhkeYeF0igQFHa0r4VxI5yUO2iHfeSrJP7Sk8WZAlysZ8EgakiXN-Bv",
+        "cid": "12039305984712765226",
+        "fid": "0x80c297b0d76ca64b:0xa71435019109ef2a",
+        "placeId": "ChIJS6Zs17CXwoARKu8JkQE1FKc"
+      },
+      {
+        "position": 5,
+        "title": "Orthodontics LA™",
+        "address": "17815 Ventura Blvd #212, Encino, CA 91316",
+        "latitude": 34.163716199999996,
+        "longitude": -118.52090369999999,
+        "rating": 5,
+        "ratingCount": 404,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Emergency dental service"
+        ],
+        "website": "https://orthodonticsla.com/",
+        "phoneNumber": "(818) 708-4909",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticsla.com/contact-encino-glendale-orthodontist/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEO_1YAOJKwlpB1tQukyGu7zTCID3Ga6cpOWLv1G6K8hjIklkxtejdAedJciEtu2G90mDf0VN719c88vNUMKMTMeDqSg6QRRhyO5q-sDTICCkJBiJFivn3Jm1XWHADIJAIZiLYbWg",
+        "cid": "9156150774821364966",
+        "fid": "0x80c299b29bd6aaab:0x7f112e9e4b2524e6",
+        "placeId": "ChIJq6rWm7KZwoAR5iQlS54uEX8"
+      },
+      {
+        "position": 6,
+        "title": "Dougherty Orthodontics- Dr. Harry Dougherty",
+        "address": "4955 Van Nuys Blvd # 606, Sherman Oaks, CA 91403",
+        "latitude": 34.1609097,
+        "longitude": -118.44890079999999,
+        "rating": 4.9,
+        "ratingCount": 58,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.doughertyortho.com/",
+        "phoneNumber": "(818) 986-6223",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMM7Nc8BB0TiiCG1GCM2A72isO_2g6KdPr9rigUlXfJ1divlp2vVvBp3dnRJO4DrlKXx4SfDVvrFt5FTAxJLBUrUZmpQB9MW1bgaKvA34vJXxXMNLDE6QvxoezCcmAKyu6MRA",
+        "cid": "8403467566796939633",
+        "fid": "0x80c297b7c8ba09c9:0x749f1d3a8072a171",
+        "placeId": "ChIJyQm6yLeXwoARcaFygDodn3Q"
+      },
+      {
+        "position": 7,
+        "title": "Studio City Orthodontist",
+        "address": "12405 Ventura Blvd, Studio City, CA 91604",
+        "latitude": 34.143104199999996,
+        "longitude": -118.40328179999999,
+        "rating": 5,
+        "ratingCount": 283,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.orthodontiststudiocity.com/",
+        "phoneNumber": "(818) 452-5688",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthodontiststudiocity.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEN07h6cWycwmgfB3sBgr2FFhtuUxbH-em72MIhI7xeJWRp1yHPjmict91jhlJJErNPi77ZnDvpO6SYZ8ClFv83S_oZ7qZs8zJ9SNoMy1zmUZgC6_ja0BcSABVYLDMTfLDonPCU",
+        "cid": "18377783935229187994",
+        "fid": "0x80c2bdfa8a910913:0xff0b011e9237579a",
+        "placeId": "ChIJEwmRivq9woARmlc3kh4BC_8"
+      },
+      {
+        "position": 8,
+        "title": "Alpan Orthodontics",
+        "address": "7335 Van Nuys Blvd #101, Van Nuys, CA 91405",
+        "latitude": 34.2036774,
+        "longitude": -118.4490009,
+        "rating": 4.7,
+        "ratingCount": 49,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic"
+        ],
+        "website": "https://aeortho.com/your-premier-orthodontist-in-van-nuys/",
+        "phoneNumber": "(213) 632-3639",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://aeortho.com/schedule-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSP7SwTZQ50EhpxP1iS8VhAPf7GopHe6MJpyiu7NFD8oFH5T4jmOmOw6udC7jnTAcQElxdDoxjSgnqMz4bCLp4kjtN6Hohtw2sTu5NjOoD0yHfk9o2eD2XIQ6DoQGgF5pK_Md6eCzIIL7q",
+        "cid": "3012748051452412576",
+        "fid": "0x80c29728fe9c112b:0x29cf6e63fc9242a0",
+        "placeId": "ChIJKxGc_iiXwoARoEKS_GNuzyk"
+      },
+      {
+        "position": 9,
+        "title": "Smile Bright Orthodontics",
+        "address": "20301 Ventura Blvd # 220, Woodland Hills, CA 91364",
+        "latitude": 34.1697333,
+        "longitude": -118.5757623,
+        "rating": 5,
+        "ratingCount": 103,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smilebrightorthodontics.com/",
+        "phoneNumber": "(818) 456-4923",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://smilebrightorthodontics.com/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEikXysfmPogJOggb-Hj6PGVqip9dHp4hi2xH8l-lVidCm8vXdBsRjp9eZUwtjdZhhzbM2zfpq9cR-IFTCkzWau8AJccoXM3F8uWngPXkcmPAnuf6FOiKpAdLZVV-bJXfeJXp0f-Q",
+        "cid": "6168886194279008115",
+        "fid": "0x80c2992647b79ebd:0x559c494f3dcfc773",
+        "placeId": "ChIJvZ63RyaZwoARc8fPPU9JnFU"
+      },
+      {
+        "position": 10,
+        "title": "Beverly Hills Orthodontics Studio City",
+        "address": "10751 Riverside Dr, Toluca Lake, CA 91602",
+        "latitude": 34.1524743,
+        "longitude": -118.3654227,
+        "rating": 5,
+        "ratingCount": 61,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Medical clinic",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.beverlyhillsortho.com/locations/toluca-lake",
+        "phoneNumber": "(310) 785-0770",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/beverly-hills-orthodontics-46477?LocIdent=119683&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_Z4-oBNKzGEmchEhdkS6oCh-lo_7Zrcpi5dm0e3FubwPYPc8h-entity&rwg_token=AFd1xnGJiu7PuyX3h3x_70l6S_vjpwM_kpOOOZyD1ivQg---iUL5Onbnk61eoN8xUt2ooCHEG49TQxzPm_bUdFhdHXc8H3MA_4GycUU-ssxrJxsExssNSg8%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKHBsSxy7WNgvrUwboqCkh4-Nwyk6YMWEg3B_7DcThPB7twnx_khvOPgw1cHoGTU1SWKHyD4Y07F9sNJjJnLtWMSA_-k5LqxJ41GkSIssxACNJqPNaaxsNjFG49oVfaekFFQxL",
+        "cid": "7131004128320891820",
+        "fid": "0x80c2be2302c0e883:0x62f66a7918692bac",
+        "placeId": "ChIJg-jAAiO-woARrCtpGHlq9mI"
+      },
+      {
+        "position": 11,
+        "title": "Orthodontics in Woodland Hills",
+        "address": "22600 Ventura Blvd # 202, Woodland Hills, CA 91364",
+        "latitude": 34.167200199999996,
+        "longitude": -118.61898079999999,
+        "rating": 5,
+        "ratingCount": 44,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthodonticsinwoodlandhills.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+        "phoneNumber": "(818) 225-0530",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticsinwoodlandhills.com/orthodontic-appointment/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHhtpY6URKXYPmg-avRfbWaXeEvJbFagD29lhFJKP7_xUWuZistgC_0WAAKjtxrpEi6ek3IwhZU0RYYcqOb6r-MYZ1RjRcdJedUx3wdrTE89zKbuY-Xj9yCKMYg7iTF9ikZnzCT7tK2PY",
+        "cid": "4999791909847985200",
+        "fid": "0x80c29f668b6d49d7:0x4562d440815c6c30",
+        "placeId": "ChIJ10lti2afwoARMGxcgUDUYkU"
+      },
+      {
+        "position": 12,
+        "title": "Kahan Orthodontics",
+        "address": "18372 Clark St Suite 201, Tarzana, CA 91356",
+        "latitude": 34.169320299999995,
+        "longitude": -118.5332407,
+        "rating": 5,
+        "ratingCount": 323,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://kahanorthodontics.com/?utm_source=gbp&utm_medium=organic",
+        "phoneNumber": "(818) 578-8782",
+        "openingHours": {
+          "Thursday": "9:30 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "9:30 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6 PM",
+          "Tuesday": "9:30 AM–6 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://kahanorthodontics.com/contact-schedule-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNlW1KPFZXzydNOjsm_xQANRPwPb33hnjt7eRinu7UjHFwZSgAzN4kvpqrTDEjm3ksr0wV6HKJA1IJc8hwuL81XounZyB6uq0fkXTG2TjwRTHBNvq4QCDwY1I7TIVkolg0uqzgp8tE9Zkr",
+        "cid": "13581962422595239362",
+        "fid": "0x80c2990802c0ab99:0xbc7cd2dcef7e3dc2",
+        "placeId": "ChIJmavAAgiZwoARwj1-79zSfLw"
+      },
+      {
+        "position": 13,
+        "title": "Calismile Orthodontics",
+        "address": "16260 Ventura Blvd #410, Encino, CA 91436",
+        "latitude": 34.1566578,
+        "longitude": -118.4875725,
+        "rating": 4.9,
+        "ratingCount": 150,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.calismileorthodontics.com/",
+        "phoneNumber": "(818) 855-1554",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "10 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.calismileorthodontics.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3x4J5Qpp21WTsoZ6QsUke36bjntkFz9IBiQv5MonOX-rhlCk58cwctIIvGNk3aFIPGD3rYZMjflfF0oqbzBLmZir-ECid24E8LJ7Lkd37S_QA3Tu0n8R9PBILc98Tk5OqLcLb",
+        "cid": "111928036974115597",
+        "fid": "0x80c299e7ea15d44d:0x18da5f4e43fbb0d",
+        "placeId": "ChIJTdQV6ueZwoARDbs_5PSljQE"
+      },
+      {
+        "position": 14,
+        "title": "Smile Health Orthodontics",
+        "address": "436 N Roxbury Dr #203, Beverly Hills, CA 90210",
+        "latitude": 34.0680639,
+        "longitude": -118.4067262,
+        "rating": 4.9,
+        "ratingCount": 53,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.shosmile.com/?utm_source=google&utm_medium=gmb",
+        "phoneNumber": "(310) 926-6220",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://deborahsolomon.intakeq.com/booking"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHk7WP3HKKT-U3gmmLl_erUi2Ok7paF3-HuEMW9Yttq23Hk6MZVuN8rbOoq1ny8I02Yhj9amRye14YwX2yk5fvBPyK86YmFKXW4AoN4T1tcYtk63bdRQ0k3qwI7e32pcYST5Toz",
+        "cid": "8098102285035075807",
+        "fid": "0x80c2bb7093935e0d:0x70623d1f664b78df",
+        "placeId": "ChIJDV6Tk3C7woAR33hLZh89YnA"
+      },
+      {
+        "position": 15,
+        "title": "Super Orthodontics",
+        "address": "16661 Ventura Blvd Ste 300, Encino, CA 91436",
+        "latitude": 34.1583667,
+        "longitude": -118.4965342,
+        "rating": 5,
+        "ratingCount": 44,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.superorthodontics.com/",
+        "phoneNumber": "(818) 741-2800",
+        "openingHours": {
+          "Thursday": "8:30 AM–6 PM",
+          "Friday": "8:30 AM–6 PM",
+          "Saturday": "8:30 AM–4:30 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6 PM",
+          "Tuesday": "8:30 AM–6 PM",
+          "Wednesday": "8:30 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.superorthodontics.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1t7lPqMgOwSaJDETO57I3J6Qc7nwhS9xAVnqEI_ge2JB0acIraN-gGi0AZIcSqQa9FIjJXVfVocNZ0k9KQs1VqHHeu42Pe9SeUKqyfn4XcKnQYtZNZHIFKmU-XJRomrA15BwZ",
+        "cid": "12233891774404347104",
+        "fid": "0x251153f9f25c4793:0xa9c783c039f1c4e0",
+        "placeId": "ChIJk0dc8vlTESUR4MTxOcCDx6k"
+      },
+      {
+        "position": 16,
+        "title": "Beverly Hills Braces in Encino",
+        "address": "16101 Ventura Blvd #305, Encino, CA 91436",
+        "latitude": 34.1571467,
+        "longitude": -118.4841158,
+        "rating": 5,
+        "ratingCount": 184,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://beverlyhillsbraces.com/",
+        "phoneNumber": "(818) 386-9595",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOJFK086MPooSIhSGZATMD3aRUV3Zt5I2KjOUUxaXKU6lovGNgaRUJ7sC1Ht1CyYJ-_eJCfkqFqqWZemHBO-_D1MY1eUbkbTW6x2xzj_0hQ565dSKsT6pQiVf1bL6ZN2d_XgPP",
+        "cid": "10425250883664738036",
+        "fid": "0x80c297899002478b:0x90adee717f29f6f4",
+        "placeId": "ChIJi0cCkImXwoAR9PYpf3HurZA"
+      },
+      {
+        "position": 17,
+        "title": "The Smile Specialists Orthodontics",
+        "address": "19100 Ventura Blvd Suite 3, Tarzana, CA 91356",
+        "latitude": 34.172153699999996,
+        "longitude": -118.5491198,
+        "rating": 4.8,
+        "ratingCount": 92,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://smilespecialistsca.com/?utm_source=Google&utm_medium=GMB",
+        "phoneNumber": "(818) 925-2599",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXvXh-eA48Vvw8iS9lqfwQcfIVek3t7Y4KQcMoTrKLjaHX2tQ2AXZKHA0w2ofv8ZlmWo4RPyVZPEnKa3j3qzwVc1P-HUOwUfYD-GktoIuKWhWglHSDFAAOwYNDbj_euv5S5j4wwg",
+        "cid": "6444293475520443515",
+        "fid": "0x80c299bbde2bf9f7:0x596ebac5ccc3747b",
+        "placeId": "ChIJ9_kr3ruZwoARe3TDzMW6blk"
+      },
+      {
+        "position": 18,
+        "title": "Culver City Orthodontics - Dr. Fell & Dr. Borenstein",
+        "address": "10811 Washington Blvd #200, Culver City, CA 90232",
+        "latitude": 34.0153014,
+        "longitude": -118.40754869999999,
+        "rating": 4.9,
+        "ratingCount": 304,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Dental clinic",
+          "Orthodontist"
+        ],
+        "website": "http://www.culverortho.com/",
+        "phoneNumber": "(310) 837-5900",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2gmKJPzhFz48LiQvb0TazL7sZfF7ckwVkzZRPQQH1h0t0bXliUdocfanN9qldIZlu7YcCc9SqO8_PTMrtSJbYLAaXNZv2c45y5i_4lzNXr9cjSog8_Cu6QGP5Gq4nqn4Ir380sg",
+        "cid": "8720117614784080128",
+        "fid": "0x80c2ba3a5f3b864d:0x790414c4fcd4e900",
+        "placeId": "ChIJTYY7Xzq6woARAOnU_MQUBHk"
+      },
+      {
+        "position": 19,
+        "title": "Lux Orthodontics",
+        "address": "2080 Century Pk E # 1705, Los Angeles, CA 90067",
+        "latitude": 34.059342799999996,
+        "longitude": -118.4112215,
+        "rating": 4.9,
+        "ratingCount": 29,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.luxorthodontics.com/",
+        "phoneNumber": "(424) 279-1444",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.luxorthodontics.com/contact-us"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFs7bNqv4BIidTzcoMgO2PvbjsC_Khxh48j66MU_maKSlAow1fdIznB3D8w1NNcesdT_fspUW3hKRkApDJq5_QbCMmZXAbuOzEZDr6JEDsm5LBxFhVohzQnm3bxS99KChc-lwvu",
+        "cid": "3465068088077275850",
+        "fid": "0x80c2bbf24adbb6d3:0x30166511406352ca",
+        "placeId": "ChIJ07bbSvK7woARylJjQBFlFjA"
+      },
+      {
+        "position": 20,
+        "title": "Sylmar Orthodontics",
+        "address": "13910 Foothill Blvd B, Sylmar, CA 91342",
+        "latitude": 34.3120364,
+        "longitude": -118.43664609999999,
+        "rating": 5,
+        "ratingCount": 621,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.sylmarortho.com/",
+        "phoneNumber": "(818) 336-6962",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDJ8x868vuIrEwunosTljXOf4ync3kzCncYqINPB_wfWiPvomu1HKbDRkjDt82Y98NCdJU0ObMb2Exj0OV4L8HMjy1SXor8SYBg-6toMlahwClyQh1oIzg-nxCewYaJ-6wjie5",
+        "cid": "193941670350352187",
+        "fid": "0x80c28e2c626e4d53:0x2b104ebf060ef3b",
+        "placeId": "ChIJU01uYiyOwoARO-9g8OsEsQI"
+      }
+    ],
+    "credits": 3
+  }
+}

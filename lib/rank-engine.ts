@@ -20,6 +20,7 @@ import type {
   HeatmapCell,
   SerpResult,
 } from "@/types";
+import { persistTestingJson } from "@/lib/testing-data";
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -172,26 +173,36 @@ async function searchSerperMaps(
   keyword: string,
   lat: number,
   lng: number,
-  market: string = "in"
+  market: string = "in",
+  debug?: { uuid: string }
 ): Promise<SerperMapResult[]> {
   const apiKey = process.env.SERPER_API_KEY ?? "";
   if (!apiKey) return [];
 
   try {
+    const requestBody = {
+      q: keyword,
+      location: `${lat},${lng}`,
+      gl: market,
+      hl: "en",
+      num: 20,
+    };
     const response = await axios.post<SerperMapsResponse>(
       "https://google.serper.dev/maps",
-      {
-        q: keyword,
-        location: `${lat},${lng}`,
-        gl: market,
-        hl: "en",
-        num: 20,
-      },
+      requestBody,
       {
         headers: { "X-API-KEY": apiKey, "Content-Type": "application/json" },
         timeout: 10000,
       }
     );
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "serper",
+        name: `maps-${keyword}-${lat.toFixed(4)}-${lng.toFixed(4)}`,
+        data: { endpoint: "google.serper.dev/maps", request: requestBody, response: response.data },
+      });
+    }
     return response.data?.places ?? [];
   } catch {
     return [];
@@ -261,7 +272,8 @@ function rankToColor(avgRank: number): string {
  */
 export async function runRankChecks(
   params: RankEngineParams,
-  market: string = "in"
+  market: string = "in",
+  debug?: { uuid: string }
 ): Promise<RankData> {
   if (!process.env.SERPER_API_KEY) {
     throw new Error(
@@ -294,7 +306,7 @@ export async function runRankChecks(
   for (const keyword of keywords) {
     const serpCallTasks = geocodedPoints.map((point) =>
       limit(async () => {
-        const results = await searchSerperMaps(keyword, point.lat, point.lng, market);
+        const results = await searchSerperMaps(keyword, point.lat, point.lng, market, debug);
         const rank = findBusinessRank(results, params.businessName);
         const serpResults: SerpResult[] = results.map((r, i) => ({
           position: i + 1,

@@ -1,0 +1,622 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.316882,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@40.4589097,-111.8760684,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "The Point Orthodontics",
+        "address": "3940 N Traverse Mountain Blvd suite 103, Lehi, UT 84043",
+        "latitude": 40.4365015,
+        "longitude": -111.8804035,
+        "rating": 4.9,
+        "ratingCount": 58,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.thepointortho.com/",
+        "phoneNumber": "(801) 960-3910",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGc2HHjdLrFqEDwZgZCHRbCye05Fd0aDP6n_TimYM40OrrL4ZmFGCBXUjd1ZRLEUzK2-5XviY7DCExAZtE2oZBm1b6yq4xpORoQBHUQk3_bVW-vC7rvJ0zteAXgHiESX5E4Jigqow",
+        "cid": "12264917254300283277",
+        "fid": "0x875281b0d64fc3dd:0xaa35bd42ae20b18d",
+        "placeId": "ChIJ3cNP1rCBUocRjbEgrkK9Nao"
+      },
+      {
+        "position": 2,
+        "title": "Draper Elite Orthodontics",
+        "address": "13957 S Bangerter Pkwy #101, Draper, UT 84020",
+        "latitude": 40.497962699999995,
+        "longitude": -111.8843991,
+        "rating": 5,
+        "ratingCount": 219,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.drapereliteortho.com/",
+        "phoneNumber": "(385) 799-8500",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://drapereliteortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgC1Q_zp22tnRTtta3lI9QIQBvSgsI6F6uSjRQu9kS9Jx8OePM9EB5-eokyS-IuVGW6SBBEVxcsrzPt3j0jRWrs2fPStlgPNmwTD1lC7VLm1hBMdRvd-TnrhG4N5erPjY8nAso",
+        "cid": "16741160344250616354",
+        "fid": "0x87528175fc4dbf85:0xe8548ca276ea0a22",
+        "placeId": "ChIJhb9N_HWBUocRIgrqdqKMVOg"
+      },
+      {
+        "position": 3,
+        "title": "Saratoga Springs Orthodontics",
+        "address": "1528 Commerce Dr #201, Saratoga Springs, UT 84045",
+        "latitude": 40.3913588,
+        "longitude": -111.9149777,
+        "rating": 5,
+        "ratingCount": 137,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://saratogaspringsortho.com/",
+        "phoneNumber": "(801) 768-4554",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "8:30 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfUQxUDfjJ-AX-ZRsJ2_HPn7DdEWWpQmF5ctEG5VtraaivueuvwBw3zUpQPXf85HDm-lnSf7fNcZFKCqT84RSOzXJt0-s3F4LOP5-jYfzWZ-l4UI5hgC_bwkQdXV0c9_eat86AZg",
+        "cid": "104911644492600653",
+        "fid": "0x874d7e4f9223eb3f:0x174b895b6c8954d",
+        "placeId": "ChIJP-sjkk9-TYcRTZXItpW4dAE"
+      },
+      {
+        "position": 4,
+        "title": "Fairbanks Orthodontics",
+        "address": "3300 N Running Creek Way #102, Lehi, UT 84043",
+        "latitude": 40.4300868,
+        "longitude": -111.8295172,
+        "rating": 4.9,
+        "ratingCount": 624,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://fairbanksorthodontics.com/our-lehi-office/?utm_source=gbp&utm_medium=organic&utm_campaign=lehi&utm_content=listing",
+        "phoneNumber": "(801) 766-4660",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://fairbanksorthodontics.com/appointment-request/?utm_source=gbp&utm_medium=organic&utm_campaign=lehi&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFn8q1knnN5wZfnl_sWVI8gHLlD7OXcrjtT7_UM9hC8E7zyjC1AbBfaugvPxVQPOzBTpn43EfHS92Gc4zeVAJasfeSxTPRz4NZ9symvuMAfpqyZuI5z13-jMXbzTrEJ6zLfPYO89_QNbI5d",
+        "cid": "185700437614129698",
+        "fid": "0x874d807376871fb9:0x293bd906a9ff222",
+        "placeId": "ChIJuR-HdnOATYcRIvKfapC9kwI"
+      },
+      {
+        "position": 5,
+        "title": "Peak Orthodontics, Saratoga Springs",
+        "address": "1593 N Redwood Rd Suite 1, Saratoga Springs, UT 84045",
+        "latitude": 40.39176,
+        "longitude": -111.9175624,
+        "rating": 4.9,
+        "ratingCount": 237,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.peakorthodontics.net/locations/saratoga-springs/",
+        "phoneNumber": "(801) 901-8467",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtP8Zn32FqiaqD-W0U7doEKrOkacphDDKmQzGCKo0sA2u-yVR6wOoDlQs4esrx8CndAEik-U34-CIUG0PKZfxUf5ypTbsaixWChnAQmOhhBnTUFsInBy80pzsoA8mivh0W6HmnmQ",
+        "cid": "4198636986769947207",
+        "fid": "0x874d7f75d34854e3:0x3a448e18193d3a47",
+        "placeId": "ChIJ41RI03V_TYcRRzo9GRiORDo"
+      },
+      {
+        "position": 6,
+        "title": "Smile Ranch Orthodontics",
+        "address": "216 E Main St #3, Lehi, UT 84043",
+        "latitude": 40.38774,
+        "longitude": -111.84539,
+        "rating": 4.9,
+        "ratingCount": 545,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smileranch.com/",
+        "phoneNumber": "(801) 396-5143",
+        "openingHours": {
+          "Thursday": "8 AM–5 AM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 AM",
+          "Tuesday": "8 AM–5 AM",
+          "Wednesday": "8 AM–5 AM"
+        },
+        "bookingLinks": [
+          "https://hello.chatnow.live/SmileRanchOrthodontics"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF-EYk0XcpMVN_PN4aZzIdLAzaMNElpB8Hsdc6atV77fHS4_G88H2W-eF4V7MwI7V7_eFOpzp1JaLsvQIyH-BXlWzF8qX_ditc_ubIL6bHDjI4n04WXPTlJBWPp7SnXN4CiqZtvl83uEao",
+        "cid": "548686119307304849",
+        "fid": "0x874d81ce3d8873dd:0x79d531e527fdf91",
+        "placeId": "ChIJ3XOIPc6BTYcRkd9_Uh5TnQc"
+      },
+      {
+        "position": 7,
+        "title": "Harris Orthodontics - Highland",
+        "address": "5455 Timpanogos Hwy #103, Highland, UT 84003",
+        "latitude": 40.4313897,
+        "longitude": -111.78875459999999,
+        "rating": 5,
+        "ratingCount": 495,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://harrisortho.com/location/highland/",
+        "phoneNumber": "(801) 901-8789",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://harrisortho.com/lp/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpKHkC_BpRzAAtXPGqzNmGUy5L8TLwS9a-zk-ARmc0nwIObvtwnzbkV_q0rXlo_IAnhGBJ1ZdRIpBfvVJIy7bqJyw9isQT6TaEi6Sr5CZK1-UJHI9nFY-ABdLX32mCGY12uTetaD0dbU2X",
+        "cid": "13715727748074497293",
+        "fid": "0x874d8179ff9f7bf1:0xbe580db7c3f2e50d",
+        "placeId": "ChIJ8Xuf_3mBTYcRDeXyw7cNWL4"
+      },
+      {
+        "position": 8,
+        "title": "Holbrook Orthodontics",
+        "address": "3401 N Center St #225, Lehi, UT 84043",
+        "latitude": 40.4304778,
+        "longitude": -111.8500583,
+        "rating": 4.8,
+        "ratingCount": 57,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.holbrookortho.com/",
+        "phoneNumber": "(385) 233-0059",
+        "openingHours": {
+          "Thursday": "10 AM–12 PM",
+          "Friday": "9:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "10 AM–12 PM",
+          "Wednesday": "10 AM–12 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7q9JvfSlZ4OCDK0aBWmlr5i5Iv34hMCxk_SQYFvktQqGRAYYGW8dXvvpt4CpHMzH4eNt2-p0Tp38Npt50Oc34oxl9rYYvCmSTRCYON7fbsYMC2Q1ekiw0UoDyejIW7nUdp9A",
+        "cid": "16106231802501810808",
+        "fid": "0x875262dfd0d2ef8b:0xdf84d47d6a384a78",
+        "placeId": "ChIJi-_S0N9iUocReEo4an3UhN8"
+      },
+      {
+        "position": 9,
+        "title": "Harris Orthodontics - Saratoga Springs",
+        "address": "1168 N Redwood Rd ste 203, Saratoga Springs, UT 84045",
+        "latitude": 40.3836674,
+        "longitude": -111.91610349999999,
+        "rating": 5,
+        "ratingCount": 153,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://harrisortho.com/location/saratoga-springs/",
+        "phoneNumber": "(801) 901-8789",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://harrisortho.com/lp/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVkIvvqEn79Y82eYd3P5KW9No5tvVafLkivIYpu8LPV49yT6vI5Gj3Bb1LIW17CdTsMObEOfdRzD6PIMC7n2IMHu8eF3IdOpzkVaXm60Wq7yh9_aFotM94nJTmrXYeunGjDzQkwOlqh-BI",
+        "cid": "6816373512610448410",
+        "fid": "0x874d7fb962adc753:0x5e989f985387041a",
+        "placeId": "ChIJU8etYrl_TYcRGgSHU5ifmF4"
+      },
+      {
+        "position": 10,
+        "title": "Aloha Orthodontics - Lehi",
+        "address": "1030 S 1100 W suite a, Lehi, UT 84043",
+        "latitude": 40.3755321,
+        "longitude": -111.8679208,
+        "rating": 5,
+        "ratingCount": 397,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://alohaortho.com/locations/lehi-office/?utm_source=gbp&utm_medium=organic",
+        "phoneNumber": "(801) 980-0317",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGrPL8EIaHUGJxHJYEtnmVEwJHF8N27LvyAjKk75Q0V0iukj8E-vIPzKbJ9ZlxDhbdrspBrRUbgKiN3Pyj5uRfN2W6x0KTVwfR7YqWrzqbVowOZtMaEf2QrgIE8NkVh7RbLwpdGUygWTLVk",
+        "cid": "52841578980291817",
+        "fid": "0x874d7f65ef768fa7:0xbbbb22d87db4e9",
+        "placeId": "ChIJp49272V_TYcR6bR92CK7uwA"
+      },
+      {
+        "position": 11,
+        "title": "Lehi Orthodontics",
+        "address": "181 N 1200 E, Lehi, UT 84043",
+        "latitude": 40.390119399999996,
+        "longitude": -111.8288743,
+        "rating": 5,
+        "ratingCount": 198,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://lehiortho.com/",
+        "phoneNumber": "(801) 766-4233",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9q0aybKaaoX9ZdmnB2LJOCFcfqE_Gorq1ky8ShG2NxDzdTkUoiz2GKYyQv-5TfyYbK6KhNmAeeqTGhQMIV3O3rVsHzBRkJbo9PGL3Ik400rAl4QTckAonny8VlFUGU-iUXI1P9A",
+        "cid": "550336013114656429",
+        "fid": "0x874d81ad8b79147f:0x7a32fb028cdc6ad",
+        "placeId": "ChIJfxR5i62BTYcRrcbNKLAvowc"
+      },
+      {
+        "position": 12,
+        "title": "South Hills Orthodontics",
+        "address": "4013 13400 S, Riverton, UT 84096",
+        "latitude": 40.507476,
+        "longitude": -111.9869092,
+        "rating": 5,
+        "ratingCount": 375,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://southhillsdentalspecialists.com/",
+        "phoneNumber": "(385) 210-1111",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "7:30 AM–5:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5:30 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEV1xbDA0W41c6vr2HDY0RN6p-om0ICn3Ywilqgp_wp5HgCOuAUbm2CzuTC0_2tboWG_aCgAJHPIDd9uyA-X-EUTL581sc8V8eCtc5unolclXU_A14WddEmlwwci1HB3EgOufQ9rQ",
+        "cid": "5328934182021197033",
+        "fid": "0x87528444bdcb2277:0x49f42d6796cf6ce9",
+        "placeId": "ChIJdyLLvUSEUocR6WzPlmct9Ek"
+      },
+      {
+        "position": 13,
+        "title": "Nord Orthodontics",
+        "address": "3688 E Campus Dr # 220, Eagle Mountain, UT 84005",
+        "latitude": 40.3791623,
+        "longitude": -111.9732602,
+        "rating": 5,
+        "ratingCount": 976,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.utahvalleybraces.com/",
+        "phoneNumber": "(801) 789-5444",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.utahvalleybraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7Xb1OYzyLxOx298Bbq__hoAfox7COXuC_mhjEyyj0U6nTHUluU1X-uOXqBUVPqsJMj5MouZWEovT-Wv0TpItDlH4gAb-n1eG9yAuf4UKL9gQthIL9L4ACMz93dC2PQvWg3p7rvA",
+        "cid": "9866285649691981666",
+        "fid": "0x874d7dc64c1202c9:0x88ec16864a6cb762",
+        "placeId": "ChIJyQISTMZ9TYcRYrdsSoYW7Ig"
+      },
+      {
+        "position": 14,
+        "title": "Payne Orthodontics",
+        "address": "3397 N 1200 E STE 101, Lehi, UT 84043",
+        "latitude": 40.430015499999996,
+        "longitude": -111.83100119999999,
+        "rating": 4.7,
+        "ratingCount": 77,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://payneortho.com/",
+        "phoneNumber": "(801) 766-8111",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEkjcmajr5oTJ8xNsQrp0AIEddhOljH46MxMXxMOpPoUX8nkgaBRB7s6R7fczp86zB3i0W0gh9HP8ksg-kJNtUFOicUvqID-FWMfzuGg42YY1c-LFmcr_XVcMerxw9sXpI18Hgv",
+        "cid": "636547094152418180",
+        "fid": "0x874d80736f2de319:0x8d57835a5c31384",
+        "placeId": "ChIJGeMtb3OATYcRhBPDpTV41Qg"
+      },
+      {
+        "position": 15,
+        "title": "Orthotime Orthodontics",
+        "address": "1248 E 90 N #201, American Fork, UT 84003",
+        "latitude": 40.3777508,
+        "longitude": -111.76522759999999,
+        "rating": 5,
+        "ratingCount": 460,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://itsorthotime.com/",
+        "phoneNumber": "(801) 763-7977",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://itsorthotime.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuLZutuRzlkQRQBGgK1uRa1EiC4SfoWux26o9ClnPAoJoQrU4y1eBrhYgRqnUO_as1i2a2UtB22HuJpt93eTVo8ceXy0Vqu2Rh0xvwO2EF124_KoEvsqkOD3hEwt5oEPOjvBqYJc1_E-B_",
+        "cid": "8344905314283816679",
+        "fid": "0x874d81ba6c67c137:0x73cf0f2b8e2806e7",
+        "placeId": "ChIJN8FnbLqBTYcR5wYojisPz3M"
+      },
+      {
+        "position": 16,
+        "title": "Westlake Orthodontics",
+        "address": "62 E Thrive Dr Suite 320, Saratoga Springs, UT 84045",
+        "latitude": 40.373918599999996,
+        "longitude": -111.9152488,
+        "rating": 5,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.westlake-ortho.com/",
+        "phoneNumber": "(801) 960-3815",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF8OoLEZ3zZo7uqPS4494XwDzRfM_PCyj3wQaEFb8lcO69nlNJFsuOIvBZXW90XzqmXS_VpTjn62ssvr0h3ceRJbx3nK7NMF0vPDtknTMZcAZw2sYEgy2s0L6P4ULKcTOTqm2wq",
+        "cid": "5979161105265232755",
+        "fid": "0x874d7fd12df11889:0x52fa3f58a62a8b73",
+        "placeId": "ChIJiRjxLdF_TYcRc4sqplg_-lI"
+      },
+      {
+        "position": 17,
+        "title": "Cook Orthodontics",
+        "address": "1030 E 11400 S #4, Sandy, UT 84094",
+        "latitude": 40.543900699999995,
+        "longitude": -111.8619646,
+        "rating": 5,
+        "ratingCount": 1046,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.orthofamily.com/",
+        "phoneNumber": "(801) 523-2509",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/cook-orthodontics-115139?LocIdent=272606&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_i0zAvZ58PUaaOtllGVt7tR-lo_F76icuPWjUigNQ0EkySR7B-entity&rwg_token=AFd1xnHUNit58BCYah3tZouEfufXWRBKT2C_P0qSGQO76oDnju0NUGWysAeuOPzEnACS4lto426v6MF93Bbq9X6QupwZo9CK5Q%3D%3D",
+          "https://www.orthofamily.com/contact-us"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWZ7ZndDHNFMvEUd5bltNqCVqQMrluYf7eZIET0xY-371kVMm6Fi0L8FXG5krQtfs4rhQY8l-VC0iBFyTity034_7FabuCOuzz_SwRuzeKNdgMNuZsg5zYcm4qs8y9xma3Wf45",
+        "cid": "9216368947363106444",
+        "fid": "0x8752877f3bad93cd:0x7fe71eba2a84ce8c",
+        "placeId": "ChIJzZOtO3-HUocRjM6EKroe538"
+      },
+      {
+        "position": 18,
+        "title": "Neibaur Family Orthodontics",
+        "address": "155 E 13800 S F4, Draper, UT 84020",
+        "latitude": 40.50251,
+        "longitude": -111.88596319999999,
+        "rating": 4.8,
+        "ratingCount": 103,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.nfortho.com/",
+        "phoneNumber": "(801) 269-0303",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtbk6pw_rsK79nX_ghEtAIm16ihSa_WKKGeyhO7UwGovIPa9970GmgK98NfqS7Nm92DGZ8VX3oEhSUjX3x_oVmp8gi7DmVb6cwM27rTf9j8wS5VBrcMAWAZmyOO5CuLcC0xNlf",
+        "cid": "5908504514514912647",
+        "fid": "0x875280cb63f8618b:0x51ff398d25740587",
+        "placeId": "ChIJi2H4Y8uAUocRhwV0JY05_1E"
+      },
+      {
+        "position": 19,
+        "title": "Swenson Orthodontics",
+        "address": "220 N 1200 E STE 202, Lehi, UT 84043",
+        "latitude": 40.3909741,
+        "longitude": -111.8284073,
+        "rating": 4.9,
+        "ratingCount": 194,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.swensonsmiles.com/?utm_source=GMBSocialClimb&utm_medium=SwensonOrthodontics",
+        "phoneNumber": "(801) 766-5500",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2vgsQ3XVoN-1WcWS5HmrOWwC3MIKpdwBruv-FMWvbCMI1QSYed4KUWCk6I37OjMohhfspUB_Mnb1OTjUaNLi0IH_JqgYyUTif8bTYl7a9krzbgjgrp_iPzVC-cOGazjtML4UEoQ",
+        "cid": "16345833168643466900",
+        "fid": "0x874d8026264b5541:0xe2d810a9b6caa694",
+        "placeId": "ChIJQVVLJiaATYcRlKbKtqkQ2OI"
+      },
+      {
+        "position": 20,
+        "title": "Hyde Orthodontics",
+        "address": "226 N 1100 E g, American Fork, UT 84003",
+        "latitude": 40.3815994,
+        "longitude": -111.76839439999999,
+        "rating": 5,
+        "ratingCount": 102,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://hydeorthodontics.com/",
+        "phoneNumber": "(801) 756-0400",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–3:30 PM",
+          "Tuesday": "7:30 AM–3:30 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJ-lq9NWM8TVGZo9h4VuUWl6WKV-kfUjR3rp-2wZ0BmeOx0fEPUlsnxt-yxjsj9YhwLj9wXxuP6C0Ar6jt_RwwbN2b8KwHVtrfukkG8pQBRdy4oJvZv_arBREkcpZDmEmi5GgZNLLg0Tg",
+        "cid": "7628273783890027671",
+        "fid": "0x874d814e5d7620f1:0x69dd12971230a497",
+        "placeId": "ChIJ8SB2XU6BTYcRl6QwEpcS3Wk"
+      }
+    ],
+    "credits": 3
+  }
+}

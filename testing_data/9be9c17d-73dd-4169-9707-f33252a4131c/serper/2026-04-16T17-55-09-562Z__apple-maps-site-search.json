@@ -1,0 +1,21 @@
+{
+  "endpoint": "google.serper.dev/search",
+  "request": {
+    "q": "site:maps.apple.com \"Hello Ortho - Napa\"",
+    "gl": "us",
+    "hl": "en",
+    "num": 3
+  },
+  "response": {
+    "searchParameters": {
+      "q": "site:maps.apple.com \"Hello Ortho - Napa\"",
+      "gl": "us",
+      "hl": "en",
+      "type": "search",
+      "num": 3,
+      "engine": "google"
+    },
+    "organic": [],
+    "credits": 1
+  }
+}

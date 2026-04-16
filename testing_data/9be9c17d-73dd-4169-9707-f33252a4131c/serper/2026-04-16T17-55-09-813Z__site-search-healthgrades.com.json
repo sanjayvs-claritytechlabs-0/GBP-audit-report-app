@@ -1,0 +1,21 @@
+{
+  "endpoint": "google.serper.dev/search",
+  "request": {
+    "q": "site:healthgrades.com \"Hello Ortho - Napa\" Napa CA 94558",
+    "gl": "us",
+    "hl": "en",
+    "num": 5
+  },
+  "response": {
+    "searchParameters": {
+      "q": "site:healthgrades.com \"Hello Ortho - Napa\" Napa CA 94558",
+      "gl": "us",
+      "hl": "en",
+      "type": "search",
+      "num": 5,
+      "engine": "google"
+    },
+    "organic": [],
+    "credits": 1
+  }
+}

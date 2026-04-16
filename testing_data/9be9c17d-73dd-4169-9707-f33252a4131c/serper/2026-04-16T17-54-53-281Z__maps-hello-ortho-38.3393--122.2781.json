@@ -1,0 +1,152 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.33934,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4yNzgwNjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@40.0341368,-97.5534863,4z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnFXLJvKAqossHdCueIwkxuglKOrO5vQ55OJ6op-NDaZP2Clov5Dnf9z8KwL_Bp2z7G-vDMVD9nJqNJEy8qn0l-zNH_5Owzqq3ksvW1pHqvewEdVOto%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnEZ7ZeVL1IHiG_s_KDuFkQQqBL8J3H58I49-EgcVN1alBOgWpREt-teZiqnjJ0rVTrGi_c3zA2AmpodxaUeOCIQHbOhd2mPcnonaV0esVDmTi2kPm8%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 2,
+        "title": "Connecticut Valley Orthodontics",
+        "address": "219 Talcottville Rd, Vernon, CT 06066",
+        "latitude": 41.835006799999995,
+        "longitude": -72.49300079999999,
+        "rating": 5,
+        "ratingCount": 592,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://ctvalleyortho.com/",
+        "phoneNumber": "(860) 872-8361",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://ctvalleyortho.com/#home-appt-form"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF3w6UwE6bfb2VhdkCRf1GkxjFfABFVBI0LDmQEv7C0NEJinFwJSc-vuFI2DwwRUa-6oeTtDCfGyf2B7RhTSpHHFof7-ouKwCYUCx8ArxOFL0JXA5Dmw-dNAYQ-_u_fX9Fa9f2r",
+        "cid": "2089606999598252866",
+        "fid": "0x89e6f7c3e809da11:0x1cffc67eb3394342",
+        "placeId": "ChIJEdoJ6MP35okRQkM5s37G_xw"
+      },
+      {
+        "position": 3,
+        "title": "West Hartford Orthodontics | Natalia Menjivar, DMD, MS",
+        "address": "345 N Main St SUITE 312, West Hartford, CT 06117",
+        "latitude": 41.785188999999995,
+        "longitude": -72.7479087,
+        "rating": 4.8,
+        "ratingCount": 91,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.westhartfordorthodontics.com/",
+        "phoneNumber": "(860) 236-6888",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHe-ZAK6qT9Z9OtXu5liD-in11IprLYotcHp49ddSyqcN6qEagmpkwWehaUZG6rsoOeYaSNCOFEX7yR-3SuKa9MOgShONCymMJ6E-7QBTOCnm_c6T_oA3Wc9lz-uyumGR65PkNm",
+        "cid": "11530696896753270678",
+        "fid": "0x89e7ac82a2a97947:0xa00543bc3fad7f96",
+        "placeId": "ChIJR3mpooKs54kRln-tP7xDBaA"
+      },
+      {
+        "position": 4,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnFjjgjxEj0ubB8McaHYZ_C0nsunyhWg-0IZ1kR2o4TkwRhQUOZq5t-l0kuyEPdZTI3HE0aD5aZuX2R9S9a6ciKBCyzx47NlDjv1gqzOVBib65NirbM%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.31239,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4yNzgwNjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@33.547203,-102.1340862,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Texas Tech Physicians: Orthopaedic Surgery",
+        "address": "3601 4th St 4th Floor, Lubbock, TX 79430",
+        "latitude": 33.589462399999995,
+        "longitude": -101.8918248,
+        "rating": 4.7,
+        "ratingCount": 296,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.texastechphysicians.com/lubbock/orthopaedics/default.aspx?utm_source=GMBSocialClimb&utm_medium=TexasTechPhysicians%3AOrthopaedicSurgery",
+        "phoneNumber": "(806) 743-4263",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_dDBU7YbZEitDYDwqJLQsgtkvQwe0p9Fs0TDgm_5LERGq-NmYt8DV-6aYhbKK2cSGcTjFgKrsFm95ajbf0cGgm7oKQCh5uLHVrjLR52rU477aWjkPbk12i9KsEIdnMOD-Y5JaFA",
+        "cid": "17955131075858633873",
+        "fid": "0x86fe0d58535f631b:0xf92d709548219491",
+        "placeId": "ChIJG2NfU1gN_oYRkZQhSJVwLfk"
+      },
+      {
+        "position": 2,
+        "title": "Texas Tech Physicians: Orthopaedic Hand Center",
+        "address": "Medical Office Plaza II, 808 Joliet Ave # 310, Lubbock, TX 79415",
+        "latitude": 33.5880703,
+        "longitude": -101.89123909999999,
+        "rating": 4.7,
+        "ratingCount": 279,
+        "type": "Hand surgeon",
+        "types": [
+          "Hand surgeon"
+        ],
+        "website": "https://www.texastechphysicians.com/lubbock/orthopaedics/default.aspx?utm_source=GMBSocialClimb&utm_medium=TexasTechPhysicians%3AOrthopaedicHandCenter",
+        "phoneNumber": "(806) 743-4600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgDSfPJQMu8L3RzQdm-7xfsJnL8i9QaS2D6rLWhuQtm9BYbqFg_-67ZeihEcfB-1sx1-WwDRPGzBYpixceweZYdjo1IITTzyz8JWiQiBslcvdn_N0ktKhc9wnrev2Co4iejcQ_Kw",
+        "cid": "11051939006876518687",
+        "fid": "0x86fe0d57e0da7a3f:0x99605ff89828891f",
+        "placeId": "ChIJP3ra4FcN_oYRH4komPhfYJk"
+      },
+      {
+        "position": 3,
+        "title": "Lubbock Sports Medicine",
+        "address": "4110 22nd Pl, Lubbock, TX 79410",
+        "latitude": 33.5744709,
+        "longitude": -101.9020185,
+        "rating": 4.9,
+        "ratingCount": 1635,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.lubbocksportsmed.com/",
+        "phoneNumber": "(806) 792-4329",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIp7bQ1ac8jAas2rruuS_yP7YXnwmulBjEwtTUaUUwh2qnzXvvbP50o1zQ9HoGDgIkvSxHeBTPg2wkM2tJKhYaGSby0WCc5nSn0tBXccgtjNdmq4QTFVqyX4PZ-3v3YdJfPzjw2g",
+        "cid": "16493339140645181095",
+        "fid": "0x86fe72b28b2b4ed5:0xe4e41c901e33d6a7",
+        "placeId": "ChIJ1U4ri7Jy_oYRp9YzHpAc5OQ"
+      },
+      {
+        "position": 4,
+        "title": "Farnsworth Family Orthodontics",
+        "address": "9103 Milwaukee Ave, Lubbock, TX 79424",
+        "latitude": 33.5114533,
+        "longitude": -101.95675059999999,
+        "rating": 5,
+        "ratingCount": 410,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.farnsworthfamilyorthodontics.com/",
+        "phoneNumber": "(806) 454-3014",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.farnsworthfamilyorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-c_4oPbYSJUJHOci4uG3ovbO83zuNanZNeZV8TxYA0NyDnUcjLqdjJbclczNINRr_WTLMOnKJjk1HRooKmbwdYETu2--beb3YL9bG5r55-mV2hZQSX679z2Gh_hJDb4bW4xaHPg",
+        "cid": "13515132173941782949",
+        "fid": "0x86fe725078e2439f:0xbb8f651b2040b9a5",
+        "placeId": "ChIJn0PieFBy_oYRpblAIBtlj7s"
+      },
+      {
+        "position": 5,
+        "title": "The Center For Orthopedic Surgery",
+        "address": "301 Utica Ave, Lubbock, TX 79416",
+        "latitude": 33.5941009,
+        "longitude": -101.9159317,
+        "rating": 3.4,
+        "ratingCount": 45,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Head and neck surgeon",
+          "Orthopedic clinic",
+          "Pediatric orthopedic surgeon"
+        ],
+        "website": "https://www.greatbones.com/",
+        "phoneNumber": "(806) 797-4985",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf1L9-5RdLiO6EM9s-4vMZv-Y7kUZ3ZC7MLe_wQ8HbFz_gjHVimxHDDOrfnjiZEjeaKIRKpTUuynnWV7MIEJvhhs0hkJRXnrZFAqSH9jKT8aClY2NAJU6Ek6bHF9S5-TmOhXGa",
+        "cid": "5933356395867941857",
+        "fid": "0x86fe0d13385e7c4d:0x52578434ad802be1",
+        "placeId": "ChIJTXxeOBMN_oYR4SuArTSEV1I"
+      },
+      {
+        "position": 6,
+        "title": "Parker Wentz Orthodontics",
+        "address": "4013 98th St, Lubbock, TX 79423",
+        "latitude": 33.5047055,
+        "longitude": -101.8999668,
+        "rating": 5,
+        "ratingCount": 20,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.parkerwentzorthodontics.com/",
+        "phoneNumber": "(806) 412-0142",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://parkerwentzorthodontics.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1UUZREuyOdBQc5wurXz-hNS_EMNnfLyLdLlk1BuGkTsZGU1q3tnFfNt3Z9YmhFizh-aGcID4AkI4nEAu-qeVVMCTojlASOVpJy3jtDFOkj2LGtPlHoJZzid4XdNXHyB4F35AGZVQ2LKoi",
+        "cid": "13400871467978280199",
+        "fid": "0x86fe736a91224e25:0xb9f9759969834d07",
+        "placeId": "ChIJJU4ikWpz_oYRB02DaZl1-bk"
+      },
+      {
+        "position": 7,
+        "title": "Sperry, Tivis, & Wentz Family Orthodontics - Lubbock 84th",
+        "address": "4013 84th St, Lubbock, TX 79423",
+        "latitude": 33.5177452,
+        "longitude": -101.89847669999999,
+        "rating": 4.9,
+        "ratingCount": 981,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://sperrytiviswentzortho.com/",
+        "phoneNumber": "(806) 794-8124",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.sperrytiviswentzortho.com/newpatient/office/Lubbock-84th?rwg_token=AFd1xnHQ0seDSeVMh64wXugAqXM7BmybMXmrRwL2poL4E6l2SMlhqcmM0PnAvPZHNlXe14pIhn_FXblLCvt6DvusqZOn7FehTA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfw3WpgZ2HH6YpPba1Qu5NvV3Nv3dHCBb7Mrh7a_4WKNGj9p67beV9gYDQZQVW8i_7c--m5iyMS00bytNy-TsqLm-l62nXiWHGicKZJzFLv6ApPt9EW79lKnaBsX76CMhpJ7LLLA",
+        "cid": "7403067070087115411",
+        "fid": "0x86fe727190b1ad89:0x66bcfa46f0ef3293",
+        "placeId": "ChIJia2xkHFy_oYRkzLv8Eb6vGY"
+      },
+      {
+        "position": 8,
+        "title": "Massey Orthodontics",
+        "address": "805 N Frankford Ave, Lubbock, TX 79416",
+        "latitude": 33.608985,
+        "longitude": -101.9403349,
+        "rating": 5,
+        "ratingCount": 291,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://masseyorthodontics.com/?utm_source=GMB&utm_medium=organic&utm_campaign=gbp-lubbock",
+        "phoneNumber": "(806) 799-6780",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://masseyorthodontics.com/request-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5HfCojGFCUJCzKyt22qS3w5mSUQOu7k3Lf74UYFBcvKEoipDfpTlRriYBhxhZmJw4FMrPrulWk23soSJgvicOqaRLAtQTqby1gOsRw562pcTGsgSHDiMkL0BFPXi6GXf9439J",
+        "cid": "1273129574165513333",
+        "fid": "0x86fe0d702eb3c04f:0x11ab109a352e0475",
+        "placeId": "ChIJT8CzLnAN_oYRdQQuNZoQqxE"
+      },
+      {
+        "position": 9,
+        "title": "BlueSky Orthodontics",
+        "address": "12125 Salisbury Blvd, Lubbock, TX 79424",
+        "latitude": 33.4854209,
+        "longitude": -101.9053591,
+        "rating": 5,
+        "ratingCount": 331,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.blueskyorthodontics.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website",
+        "phoneNumber": "(806) 792-8116",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.blueskyorthodontics.com/contact-us/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=AppointmentRequest"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwzvyF16QHaCv98lujG230kxyA0R-Z7oYZOqhj05GfeYEE3cGAP1smuY-Ui1EdwvbcfATGA66An9p5wCY9yUFPMUsE861dXc_7XB3L7FEI4RMVrl1KhjwJmtyFKNiN0b42GmU8vg",
+        "cid": "13137522304390606296",
+        "fid": "0x86fe72936f9013d1:0xb651daee25f92dd8",
+        "placeId": "ChIJ0ROQb5Ny_oYR2C35Je7aUbY"
+      },
+      {
+        "position": 10,
+        "title": "Levelland Physical Therapy",
+        "address": "410 Ave G, Levelland, TX 79336",
+        "latitude": 33.588899999999995,
+        "longitude": -102.37701399999999,
+        "rating": 4.9,
+        "ratingCount": 113,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic"
+        ],
+        "website": "http://mccombsphysicaltherapy.com/locations/levelland",
+        "phoneNumber": "(806) 897-0540",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6cGHM3tvBj7-wgwL0ey48g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=275.93616&pitch=0&thumbfov=100",
+        "cid": "1899931408133050948",
+        "fid": "0x86fdebbbbc81eeab:0x1a5de98ca760d244",
+        "placeId": "ChIJq-6BvLvr_YYRRNJgp4zpXRo"
+      },
+      {
+        "position": 11,
+        "title": "Sperry, Tivis, & Wentz Family Orthodontics - Lubbock 82nd",
+        "address": "6102 82nd St #4, Lubbock, TX 79424",
+        "latitude": 33.5203045,
+        "longitude": -101.94984,
+        "rating": 5,
+        "ratingCount": 697,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://sperrytiviswentzortho.com/",
+        "phoneNumber": "(806) 794-8124",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.sperrytiviswentzortho.com/newpatient/office/Lubbock-82nd?rwg_token=AFd1xnEplqKkF3dYphzznDnrdNs2_jPKoZnOblwfZ0cOkejlGx6enAWlAeqDECAYwDWg-DxXVVioRM_yz3BiKPfuGmqm-g092dWImzAJgQGfK978MGPjWKE%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFb64Icv3kXowSZ0CYIPHCOE9rFCPPwcqms2qCINM0ZfVSC77_68ekI3gGhOfCF4Zrkhi6WxS7Es8cMqGcTmY3L0Q-3ysf7NciXn6fQqO2AN4gp4dS6BrMz_G2FEFH0O-792CQeWw",
+        "cid": "2144275697886552135",
+        "fid": "0x86fe73a459f7fb1d:0x1dc1ff62e907e047",
+        "placeId": "ChIJHfv3WaRz_oYRR-AH6WL_wR0"
+      },
+      {
+        "position": 12,
+        "title": "Dr. Kevin Crawford, Lubbock Orthopedic Surgeon, ACL, & Sports Medicine Doctor",
+        "address": "4110 22nd Pl, Lubbock, TX 79410",
+        "latitude": 33.574489899999996,
+        "longitude": -101.9018826,
+        "rating": 5,
+        "ratingCount": 12,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.lubbocksportsmed.com/lubbock-sports-doctors/dr-kevin-crawford",
+        "phoneNumber": "(806) 792-4329",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkKwK_Cf7HeLzsw2uLGsW1d9mWg8cETbOJZ4exNw5vMrjfJ_rSKd6HKWnUMwXzptG_XgcECE1Bkmc1lMSHE7skgDY6H5WrFGH0AIe8PN1J18or4wWPbx7qfplmhwc8zfQDzx0o7A",
+        "cid": "9315403955704849573",
+        "fid": "0x86fe72b28b2b4ed5:0x8146f68ae70e64a5",
+        "placeId": "ChIJ1U4ri7Jy_oYRpWQO54r2RoE"
+      },
+      {
+        "position": 13,
+        "title": "St. Clair Orthodontics",
+        "address": "5203 79th St A, Lubbock, TX 79424",
+        "latitude": 33.5219702,
+        "longitude": -101.9235301,
+        "rating": 4.9,
+        "ratingCount": 754,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://stclairorthodontics.com/",
+        "phoneNumber": "(806) 696-7771",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://stclairorthodontics.com/schedule-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWHkhLMLCkrD8we02nEnO_oiud2zLGs-rjFfAT21RRCyxCm4PeybufIAZ_OimrjhfhSuWAwp3scOst2lLZqftjcew-qLwTsmQ6OYy-aE99TvUEL7SVz3m_ivjPXK0-D8K3hy86BKCpf8Qp",
+        "cid": "14695345126519965764",
+        "fid": "0x86fe725078e2439f:0xcbf05a8885fd8844",
+        "placeId": "ChIJn0PieFBy_oYRRIj9hYha8Ms"
+      },
+      {
+        "position": 14,
+        "title": "Jason A Ramsey MD",
+        "address": "301 Utica Ave, Lubbock, TX 79416",
+        "latitude": 33.5940328,
+        "longitude": -101.91578039999999,
+        "rating": 4.6,
+        "ratingCount": 103,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "http://sportszoneortho.com/",
+        "phoneNumber": "(806) 797-4985",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnBiRcpcL9hFRszz0X7d-IasDqArYPtUUwUXl5_48qsNQhZzIOtllIEuAfwn6j6MmTPlThuItsWJevRO5cfV3aHFgpzbhwS9Kztp5OJHhOy7SpZQodE0DKXDQ9MfwKvrhThLY",
+        "cid": "2777973119486024293",
+        "fid": "0x86fe0d13385e7c4d:0x268d57d5768c5a65",
+        "placeId": "ChIJTXxeOBMN_oYRZVqMdtVXjSY"
+      },
+      {
+        "position": 15,
+        "title": "Atul B. Joshi, MD",
+        "address": "3506 21st St Suite 203, Lubbock, TX 79410",
+        "latitude": 33.5762582,
+        "longitude": -101.8911584,
+        "rating": 4.2,
+        "ratingCount": 53,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgeon"
+        ],
+        "website": "https://www.providence.org/doctors/orthopedic-surgery/tx/lubbock/atul-joshi-1164486031?ls=provider&y_source=1_NDQxMzg5MTEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(806) 725-4818",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.providence.org/doctors/orthopedic-surgery/tx/lubbock/atul-joshi-1164486031?ls=provider&y_source=1_NDQxMzg5MTEtNzE1LWxvY2F0aW9uLnJlc2VydmF0aW9uX3VybA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0k5BjqI1kTZKhSfHJ-yAdtcIe2EIZDoKTXkndWKYrAg8Q6yhOei__B8-dule0_ikhAAsByL5rf-WfrSsymowIJ0lJeuVo_GbZaF6N4klFJp2lps1JjdSmglmVRJaezFNi1EWN",
+        "cid": "5290256216263493947",
+        "fid": "0x86fe72aae453d4b9:0x496ac3ffed30093b",
+        "placeId": "ChIJudRT5Kpy_oYROwkw7f_Dakk"
+      },
+      {
+        "position": 16,
+        "title": "Matthew P Ferguson, MD",
+        "address": "11011 Slide Rd 3rd Floor, Lubbock, TX 79424",
+        "latitude": 33.4936755,
+        "longitude": -101.92104719999999,
+        "rating": 4.6,
+        "ratingCount": 59,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://findadoc.umchealthsystem.com/provider/matthew-ferguson/2001983",
+        "phoneNumber": "(806) 743-4263",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJmLFpoJ97MTWLLQDtiUpwoO5Jqitfc08ncF6cHysR87r1rWqYwAr-hYkpjoSebIAo_nolAbqR9PHIalxgCJ3wsfCtvb6uRWBfBJry6IkPD0LJXOIk6pdV6WSiXheZ7l8QPLk",
+        "cid": "3621588145319912032",
+        "fid": "0x86fe0d582c6352f7:0x3242773aec8f2260",
+        "placeId": "ChIJ91JjLFgN_oYRYCKP7Dp3QjI"
+      },
+      {
+        "position": 17,
+        "title": "Brendan James Mackay, MD",
+        "address": "Texas Tech University, Physicians Orthopaedic Hand Center, 808 Joliet Ave # 310, Lubbock, TX 79415",
+        "latitude": 33.5880703,
+        "longitude": -101.89123909999999,
+        "rating": 4.9,
+        "ratingCount": 298,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.texastechphysicians.com/lubbock/orthopaedics/default.aspx?utm_source=GMBSocialClimb&utm_medium=BrendanJamesMackay%2CMD",
+        "phoneNumber": "(806) 743-4600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF87C0Sq5Ds1jgV44CcGJPZrsxp3iZlmBc4kRGQcm_Yn66k1nIbJkmMKH512Cfboqh1LIk41IR8qrUkUlUbiNP4X6rwY5A6ncZyuT5zZ2QPv7FF_Twp2BU3nY6TV9-AzP28AGjNng",
+        "cid": "6697494765462134762",
+        "fid": "0x86fe0df760fe6d4b:0x5cf248011c689fea",
+        "placeId": "ChIJS23-YPcN_oYR6p9oHAFI8lw"
+      },
+      {
+        "position": 18,
+        "title": "Travis Winston, MD",
+        "address": "Texas Tech Physicians, 4102 24th St #407, Lubbock, TX 79410",
+        "latitude": 33.5733874,
+        "longitude": -101.9021185,
+        "rating": 5,
+        "ratingCount": 225,
+        "type": "Pediatric orthopedic surgeon",
+        "types": [
+          "Pediatric orthopedic surgeon"
+        ],
+        "website": "https://www.texastechphysicians.com/lubbock/orthopaedics/default.aspx?utm_source=GMBSocialClimb&utm_medium=TravisWinston%2CMD",
+        "phoneNumber": "(806) 743-4263",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxvfTUl1DUTigh3eYb6pg8aWG6CCkvcngt1btHHh9kJnqAQEuxaFAsfsGaG7qkdT7u9IFLXxKBaGM0mN990X5DqzgNJW7nVKROdCV1v_BtOsZLvn9MBySUFMQo_kvOFLHnL0o",
+        "cid": "4230119174381543026",
+        "fid": "0x86fe73fe5d011da3:0x3ab466fa1a949e72",
+        "placeId": "ChIJox0BXf5z_oYRcp6UGvpmtDo"
+      },
+      {
+        "position": 19,
+        "title": "Texas Tech Pediatric Orthopaedic Surgery",
+        "address": "4102 24th St #407, Lubbock, TX 79410",
+        "latitude": 33.573439,
+        "longitude": -101.902143,
+        "rating": 3.8,
+        "ratingCount": 5,
+        "type": "Pediatric orthopedic surgeon",
+        "types": [
+          "Pediatric orthopedic surgeon",
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.ttuhsc.edu/medicine/orthopaedic/faculty/pediatrics.aspx",
+        "phoneNumber": "(806) 743-4263",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNAF2WGFjAkz6kALogdhZY_i4cU375tDyDDQxnnS-NkR3J4S_WjU9C4q5p4Cl0IBGxIDHqITwuKn1ON6oAWKjkbOxrAVlUPT9fpFUPdNV8MfguFWVUmQroIRDN_SS8QaFISLxr",
+        "cid": "4763658513329959559",
+        "fid": "0x86fe0d58535f631b:0x421bea2dce4c3287",
+        "placeId": "ChIJG2NfU1gN_oYRhzJMzi3qG0I"
+      },
+      {
+        "position": 20,
+        "title": "Kimberly R Melcher, NP",
+        "address": "11011 Slide Rd, Lubbock, TX 79424",
+        "latitude": 33.4931854,
+        "longitude": -101.9205485,
+        "rating": 4.9,
+        "ratingCount": 114,
+        "type": "Nurse practitioner",
+        "types": [
+          "Nurse practitioner"
+        ],
+        "website": "https://www.texastechphysicians.com/clinics/lubbock/orthopaedic-surgery.aspx",
+        "phoneNumber": "(806) 743-4263",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1B8iMVeZ0bM66h27H22mBRfY3A0rLplM2AYpXKFNuVt5ptk_RCizQWDaimF0s6fS-sSp7mAnvHz9wEPUWab5w30kuHvYXhM82GBcNCBPIX2CmHtLCgolRM5itBTxg5CF7keJJ",
+        "cid": "17890777398008271418",
+        "fid": "0x86fe0d582c6352f7:0xf848cf410bded23a",
+        "placeId": "ChIJ91JjLFgN_oYROtLeC0HPSPg"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.33934,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzM5MzQsLTEyMi4zMDY2OQ==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@40.9811321,-96.4486731,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Clabaugh Orthodontics",
+        "address": "1530 S 70th St #201, Lincoln, NE 68506",
+        "latitude": 40.796951199999995,
+        "longitude": -96.62396799999999,
+        "rating": 5,
+        "ratingCount": 574,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://clabaughorthodontics.com/",
+        "phoneNumber": "(402) 588-1435",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://clabaughorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSt1GI1BF90QHcfjJiFiD1rnarl-SABawjJC221DeFNoTJ9JP6Z1veSq-MVlrJASh5qa_KVQPgQeZrHuOPtTrkB-nFeaWdDB7XQT3ylBQ3y5xC7Wo_RD481_h4P1iiaBybZu-7x3JAbD4",
+        "cid": "11759424115127238266",
+        "fid": "0x8796bda653bec8d9:0xa331ddedb9523e7a",
+        "placeId": "ChIJ2ci-U6a9locRej5Sue3dMaM"
+      },
+      {
+        "position": 2,
+        "title": "Nebraska Orthodontics",
+        "address": "3100 O St #1, Lincoln, NE 68510",
+        "latitude": 40.813761799999995,
+        "longitude": -96.6759859,
+        "rating": 4.9,
+        "ratingCount": 135,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://nebraskaorthodontics.com/",
+        "phoneNumber": "(402) 475-6666",
+        "openingHours": {
+          "Thursday": "7:50 AM–4:30 PM",
+          "Friday": "7:50 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:50 AM–4:30 PM",
+          "Tuesday": "7:50 AM–4:30 PM",
+          "Wednesday": "7:50 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://nebraskaorthodontics.com/request-your-free-smile-exam/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFEp1P6eXKtFJ1-C5tM4CqP5aT20-rnTUkcG6Y6LtdRqKv1_DwvTeeAvRuwhkBDxBSFsLlPtwMWGeQZWNkRYwawBtmzKJlIwqQklgg4hKLJ5fjvCKOCmB745o5Xgv7SyYthWm1t4g",
+        "cid": "11193546210042224420",
+        "fid": "0x8796be8fa05e5e8f:0x9b5776f8da7c9f24",
+        "placeId": "ChIJj15eoI--locRJJ982vh2V5s"
+      },
+      {
+        "position": 3,
+        "title": "Rallis & Bonilla Orthodontics",
+        "address": "8328 Dawson Creek Bay, Lincoln, NE 68505",
+        "latitude": 40.8324168,
+        "longitude": -96.6064354,
+        "rating": 5,
+        "ratingCount": 137,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rallisbonilla.com/locations/84th-street-office/",
+        "phoneNumber": "(402) 742-3000",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rallisbonilla.com/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGr8PZSqhdNsO0o1pqYfaqwGb6cRV5wyqZdVKq0A0Zblp_cpYc4RFtNm7ht2Fq8slfaOnyghi9--lzJow1IpwJARM4MscYqInJ72tzWXVHD7M1sOUPylRcUxsRSgOxDfuK76GI",
+        "cid": "9778575181987579902",
+        "fid": "0x8796bc930d655e27:0x87b47a51a3d207fe",
+        "placeId": "ChIJJ15lDZO8locR_gfSo1F6tIc"
+      },
+      {
+        "position": 4,
+        "title": "Lincoln Orthodontics",
+        "address": "6825 S 27th St # 202, Lincoln, NE 68512",
+        "latitude": 40.741883,
+        "longitude": -96.685138,
+        "rating": 5,
+        "ratingCount": 414,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://lincoln-orthodontics.com/",
+        "phoneNumber": "(402) 489-8841",
+        "openingHours": {
+          "Thursday": "7:40 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:40 AM–4:30 PM",
+          "Tuesday": "7:40 AM–4:30 PM",
+          "Wednesday": "7:40 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://lincoln-orthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHWkEIZa20f_r1rTkz_un1X8jQslDdg7ut8ZWtEMX7MsnvU6KogWUe6kkBUlViAcM6LvLoYe8sbHcaeduZcFE4BiqSShdER1xSTdOL88A22eOu8ZlLArX3ltSnllHvEtsWWPI",
+        "cid": "6055861593794200819",
+        "fid": "0x879695bf7d14b5d5:0x540abe08c308c4f3",
+        "placeId": "ChIJ1bUUfb-VlocR88QIwwi-ClQ"
+      },
+      {
+        "position": 5,
+        "title": "Pioneer Orthodontics",
+        "address": "4200 Lucile Dr Suite 400, Lincoln, NE 68506",
+        "latitude": 40.7703475,
+        "longitude": -96.61509699999999,
+        "rating": 5,
+        "ratingCount": 202,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://pioneerortho.com/",
+        "phoneNumber": "(402) 421-6900",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://pioneerortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgH2CQLYG9PUeq3ZtUQ4GvmDqyl_5dJ09VMGahoAl_Ecd0gPtDJIdw495yALWYCsUWfJPNRu99J0p_40t_ksKAvNffPLn-NmYzJ4GmkEUZ7wjWtoj9A7XeU9N0xeHSB1Bl0mTL",
+        "cid": "208491202372381529",
+        "fid": "0x879695e1e2c765f1:0x2e4b5a4d8332b59",
+        "placeId": "ChIJ8WXH4uGVlocRWSsz2KS15AI"
+      },
+      {
+        "position": 6,
+        "title": "Nebraska Orthodontics",
+        "address": "7450 Suncrest Dr Unit #B, Lincoln, NE 68516",
+        "latitude": 40.7259375,
+        "longitude": -96.6177151,
+        "rating": 5,
+        "ratingCount": 131,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://nebraskaorthodontics.com/?utm_campaign=gmb",
+        "phoneNumber": "(402) 475-7256",
+        "openingHours": {
+          "Thursday": "7:50 AM–4:30 PM",
+          "Friday": "7:50 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:50 AM–4:30 PM",
+          "Tuesday": "7:50 AM–4:30 PM",
+          "Wednesday": "7:50 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://nebraskaorthodontics.com/request-your-free-smile-exam/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkLnzlJr5SVAgOA3iT491R4YxAk2E3oOwuSTKK-ZOVD-S4FrVR_B18V8W9PboFltyGGPd7IIfF_B7bFpdR6ZVRRf-OkHhtNivsUNjKrRzRcGRlFWxXg9u83AMzv03gYbasK6QRTGtvw2bs",
+        "cid": "18361696717588923802",
+        "fid": "0x8796970a40392ed1:0xfed1d9e15558059a",
+        "placeId": "ChIJ0S45QAqXlocRmgVYVeHZ0f4"
+      },
+      {
+        "position": 7,
+        "title": "GENESIS ORTHODONTICS",
+        "address": "7001 A St #105, Lincoln, NE 68510",
+        "latitude": 40.7983166,
+        "longitude": -96.6244758,
+        "rating": 4.6,
+        "ratingCount": 31,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.genesisorthodontics.com/",
+        "phoneNumber": "(402) 488-5275",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–3:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHq9s8l-sFmNIjJoMsa347S2U4TA9pfO-48p8TuaHdIPlviRSGS-czBtxVlJEA7YWFd61WzHHF1qcOooTm9WAP6DmjsfBTXaW09_RV9M5OT4wT9RusfwKB1DNfyka6EI7W6TyrEtw",
+        "cid": "7576590173357059695",
+        "fid": "0x8796bda6e1912ef7:0x6925749ec3a9ae6f",
+        "placeId": "ChIJ9y6R4aa9locRb66pw550JWk"
+      },
+      {
+        "position": 8,
+        "title": "Rallis & Bonilla Orthodontics",
+        "address": "there are multiple locations, 3256 Salt Creek Cir, Lincoln, NE 68504",
+        "latitude": 40.8681872,
+        "longitude": -96.6710767,
+        "rating": 4.8,
+        "ratingCount": 353,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rallisbonilla.com/locations/north-star-office/",
+        "phoneNumber": "(402) 742-3000",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rallisbonilla.com/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWcU5tXI5xI-9gDIkqmyAyJCnoM0-xsz8A5lotvFaEN5Eleq6te5RvKlUN_Ywwn5Mqv2BnUMfaHulJXNl6vC3DXhsHLtoujYz4p0GI-AvHAHurIuG9You5SgYC2w3ssB_6HPs",
+        "cid": "10640753089649666237",
+        "fid": "0x8796b9676b545f25:0x93ab8c8ed33568bd",
+        "placeId": "ChIJJV9Ua2e5locRvWg1046Mq5M"
+      },
+      {
+        "position": 9,
+        "title": "Rallis & Bonilla Orthodontics",
+        "address": "3811 Grainger Pkwy, Lincoln, NE 68516",
+        "latitude": 40.729135899999996,
+        "longitude": -96.664926,
+        "rating": 4.9,
+        "ratingCount": 99,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rallisbonilla.com/locations/yankee-hill-office/",
+        "phoneNumber": "(402) 742-3000",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rallisbonilla.com/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFxj4OPlmRaSwrInXSZeebDvQ9EtzEoT1IM9eXjmXU8aAplw5kgIEcM6SA7fprJje-I60n3r3qoe4uzow_3QT32sPOA7olKugfyZT1YAkPFf7Ls8kLP1vPAFElLfiy-iL8iP1g",
+        "cid": "4180557360324481186",
+        "fid": "0x8796953afef3d94f:0x3a0452c5094910a2",
+        "placeId": "ChIJT9nz_jqVlocRohBJCcVSBDo"
+      },
+      {
+        "position": 10,
+        "title": "Hohl Orthodontics",
+        "address": "5700 Thompson Creek Blvd STE 1, Lincoln, NE 68516",
+        "latitude": 40.736503,
+        "longitude": -96.6426891,
+        "rating": 5,
+        "ratingCount": 278,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.hohlorthodontics.com/",
+        "phoneNumber": "(402) 421-8000",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVLxgBYK8dJUsms6OX3_tUAwHOLVJbi_dnUigkN4oWcQmDNT0vTnbz3P7uW5lF8IzGiBQILtZMm-2jQ8aHeaURyc5wtg_4KBiTRRKMxL7UBlM0z6Y7Vig1XJCKyjGdNL1fdG20nQ",
+        "cid": "10363154933473118859",
+        "fid": "0x87969667f38f7047:0x8fd1528172008a8b",
+        "placeId": "ChIJR3CP82eWlocRi4oAcoFS0Y8"
+      },
+      {
+        "position": 11,
+        "title": "Brockman Orthodontics",
+        "address": "5945 S 56th St, Lincoln, NE 68516",
+        "latitude": 40.7515766,
+        "longitude": -96.6460652,
+        "rating": 4.2,
+        "ratingCount": 78,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.brockmanorthodontics.com/",
+        "phoneNumber": "(402) 420-2400",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGl1E6n9omt8mkd9VDt-4jQLpkcW25t94Gu5GXAsSKFikRwgQgose8V_relOmYqXg9aKywGbCsjQBoBOO-NzEbBYiMaZdB_N5uuirC492xYIrcmOjYesfj3tkvB81OdeGDShgA",
+        "cid": "1238708836320458894",
+        "fid": "0x879696143b957135:0x1130c71fa904b88e",
+        "placeId": "ChIJNXGVOxSWlocRjrgEqR_HMBE"
+      },
+      {
+        "position": 12,
+        "title": "Schoettger Orthodontics",
+        "address": "8000 S 13th St, Lincoln, NE 68512",
+        "latitude": 40.731308,
+        "longitude": -96.70200299999999,
+        "rating": 5,
+        "ratingCount": 464,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.schoettger.com/",
+        "phoneNumber": "(402) 423-8000",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.schoettger.com/locations.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzqcvsRrM9KkRUrKXOYMehMcaYcPP40PIfcyovUViCEYVDD6fIpY2ZyoUA0-Zo-1sM6bEUNovRP3O89HyGW1VQ62i5EjaQXyiQaySuQ4nl5bIQwvBviNugIJfevztZI5G7WPFX",
+        "cid": "65471926497338568",
+        "fid": "0x879695a92647cf2f:0xe89a5ec9a264c8",
+        "placeId": "ChIJL89HJqmVlocRyGSiyV6a6AA"
+      },
+      {
+        "position": 13,
+        "title": "Profile Orthodontics & Facial Orthopedics",
+        "address": "8600 Maddox Dr Suite 100, Lincoln, NE 68520",
+        "latitude": 40.7835472,
+        "longitude": -96.60305199999999,
+        "rating": 4.7,
+        "ratingCount": 13,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Orthopedic clinic"
+        ],
+        "website": "https://profileortho.com/",
+        "phoneNumber": "(531) 893-2928",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://profileortho.com/consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGO33Qv9MHrGe9_cbJVtrSIl3JpBFhgKkutc-2k5n6_eqyo4HffoygLFKCrKap5jAmWYKD87FO-ankyItppRPX2GX9nViPpptnCI_03Seqki94KMPPVoePZ4DTlylCJQnr5oeJ1vw",
+        "cid": "5490349823423446797",
+        "fid": "0x8796974a9320a2bd:0x4c31a41345c87f0d",
+        "placeId": "ChIJvaIgk0qXlocRDX_IRROkMUw"
+      },
+      {
+        "position": 14,
+        "title": "Hohl Orthodontics",
+        "address": "4645 N 26th St B, Lincoln, NE 68521",
+        "latitude": 40.8582543,
+        "longitude": -96.68405299999999,
+        "rating": 4.8,
+        "ratingCount": 56,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://hohlorthodontics.com/",
+        "phoneNumber": "(402) 421-8004",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAbbv5jeFedGICTM85mKJPccEemnCoFFim4l4ZFBfgMzvO2UnjWtta-cn35O3li8A2Um9-fgUDtJarQLSX5aZLysNfCikw8IQHrm3ik2gjW11md-1Lj2chkWG2K2NLN5yVJQRz",
+        "cid": "8660560042659979599",
+        "fid": "0x8796b94799485ddb:0x78307d7922b0a14f",
+        "placeId": "ChIJ211ImUe5locRT6GwInl9MHg"
+      },
+      {
+        "position": 15,
+        "title": "Dr. Paul J. Rallis, DDS",
+        "address": "3256 Salt Creek Cir, Lincoln, NE 68504",
+        "latitude": 40.8681682,
+        "longitude": -96.6710763,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "phoneNumber": "(402) 742-3000",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YgKLRn88UGMMNTXeD-6XMg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=268.1538&pitch=0&thumbfov=100",
+        "cid": "15854261471732507268",
+        "fid": "0x8796b9676d62d317:0xdc05a6cf1ec72284",
+        "placeId": "ChIJF9NibWe5locRhCLHHs-mBdw"
+      },
+      {
+        "position": 16,
+        "title": "Optimal Dental PC",
+        "address": "MALL SOUTH #104, 1919 S 40th St STE 104, Lincoln, NE 68506",
+        "latitude": 40.792629999999996,
+        "longitude": -96.664041,
+        "rating": 4.9,
+        "ratingCount": 952,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "http://dentistsinlincoln.com/",
+        "phoneNumber": "(402) 489-1262",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeyHPYv-E3N8l9nhN3gTV2z3zMS9233XeKHwoPv5PBB0ODqbD99MH-yQb277BOEQJuofM1hrg8gHLJCxL2nmi5ypxo8NwZf2nYDyTqF7Xc1eAvTVTihjl7ZfdL-95EaFD8qIs",
+        "cid": "17161862566328067622",
+        "fid": "0x8796bdd8a287bd65:0xee2b2f139e0ee626",
+        "placeId": "ChIJZb2Hoti9locRJuYOnhMvK-4"
+      },
+      {
+        "position": 17,
+        "title": "Pine Ridge Dental",
+        "address": "8545 Executive Woods Dr STE 2, Lincoln, NE 68512",
+        "latitude": 40.724465699999996,
+        "longitude": -96.6978398,
+        "rating": 4.9,
+        "ratingCount": 620,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Emergency dental service"
+        ],
+        "website": "https://www.pineridgedental.com/",
+        "phoneNumber": "(402) 423-1100",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "7 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–3 PM",
+          "Tuesday": "7 AM–2 PM",
+          "Wednesday": "7 AM–3 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1C7ln-KAbrczAM2qvvKOdUN3nJfdZkwiBYNLbZDCWHgv2XQ8bXGY7vv_AD1-2WBPr8Gx6R0GeddEVmxxC2fTmvEsJeeDFfnsx_-v4p1XueNg23cuDTI61RX75UCoOaBo84bOcvQ",
+        "cid": "15963878523490477624",
+        "fid": "0x8796961892e9495b:0xdd8b16efd6232638",
+        "placeId": "ChIJW0npkhiWlocROCYj1u8Wi90"
+      },
+      {
+        "position": 18,
+        "title": "UNMC College of Dentistry",
+        "address": "4000 E Campus Loop, Lincoln, NE 68583",
+        "latitude": 40.8294198,
+        "longitude": -96.6633051,
+        "rating": 3.4,
+        "ratingCount": 79,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Dental school"
+        ],
+        "website": "https://www.unmc.edu/dentalservices/lincoln-clinic/",
+        "phoneNumber": "(402) 472-1333",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9b-cj5UcNQJCy1-kuRhTz4_-qN-29BViMvlYN_b_zSb7Ugozp3cZZ30Xtl3il1rR267VthBP_b0M7U8jQUM3FGiREcnqOuOx6MH9IzMk5Fx8obsuVS093wUQkMAUemTcBhizu",
+        "cid": "4484402435246836736",
+        "fid": "0x8796bc1fd16a4dc5:0x3e3bcc4166c8cc00",
+        "placeId": "ChIJxU1q0R-8locRAMzIZkHMOz4"
+      },
+      {
+        "position": 19,
+        "title": "Andrew R. Glenn, DDS, MD",
+        "address": "3401 Plantation Dr Ste 100, Lincoln, NE 68516",
+        "latitude": 40.7522799,
+        "longitude": -96.6703793,
+        "rating": 4.7,
+        "ratingCount": 101,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Dental implants provider",
+          "Oral surgeon"
+        ],
+        "website": "http://www.glennoms.com/",
+        "phoneNumber": "(402) 421-3401",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–3 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1u7ufX3MERhsSwsGh6pMSH5DbyztHqWMUEbxdLT5UnvVMV2mTEDhWLsgWqyVeTGii5VRMzxsXDfgE_YdAvzkGvFtSEY0hEO69i8uoWr_rqHzh_uu0Lw6QfJ_2R_xx8amOibJq",
+        "cid": "7728956324455801105",
+        "fid": "0x879695e46aceb993:0x6b42c4d3cbb26111",
+        "placeId": "ChIJk7nOauSVlocREWGyy9PEQms"
+      },
+      {
+        "position": 20,
+        "title": "Weber Orthodontics Omaha, NE",
+        "address": "2422 S 179th St, Omaha, NE 68130",
+        "latitude": 41.237798399999996,
+        "longitude": -96.1953432,
+        "rating": 4.9,
+        "ratingCount": 1071,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.weberorthodontics.com/",
+        "phoneNumber": "(402) 896-4500",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.weberorthodontics.com/contact-us/appointment-request/",
+          "https://hello.chatnow.live/weberortho"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG4i26ObVQaHweriinfVeaurUEzJ9pGgbaY__ufFt5Uz0I3TxFKFLnO_rXb64nU4qaFRK_LOOLik327m0MAdj5FeD5aRbp2rPSytSaVc2wH42107_ZkNWdhCLI-n05SrJKca7V7",
+        "cid": "4448919089946951243",
+        "fid": "0x8793f1acce5d136f:0x3dbdbc5746bdfe4b",
+        "placeId": "ChIJbxNdzqzxk4cRS_69Rle8vT0"
+      }
+    ],
+    "credits": 3
+  }
+}

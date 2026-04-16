@@ -1,0 +1,659 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.33934,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4yODk1MTQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@32.8628985,-96.6143152,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Orthopaedic Center of Mesquite",
+        "address": "2822 N Belt Line Rd STE 200, Sunnyvale, TX 75182",
+        "latitude": 32.8033861,
+        "longitude": -96.59517939999999,
+        "rating": 4.5,
+        "ratingCount": 15,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "website": "https://orthodrs.net/",
+        "phoneNumber": "(972) 288-3331",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnozfWn-gIy-yqQnwntV4zLY6aaG-bu18XYsuU17D8HoPCtOl39YgH53cSfHuy0_jFvO9EnmHQLcm8zN49MR7_epk93P7qOJ5OslXgjbj6LKvKbCK3aR7GIBQpkcM9XikqBKom",
+        "cid": "11386713510878607809",
+        "fid": "0x864ea5a283c28fb7:0x9e05bb9bd70f79c1",
+        "placeId": "ChIJt4_Cg6KlToYRwXkP15u7BZ4"
+      },
+      {
+        "position": 2,
+        "title": "Dr. John M. Hibbitts, MD FAAOS | Sunnyvale Sports Medicine and Orthopedic Center",
+        "address": "2858 N Belt Line Rd STE 600, Sunnyvale, TX 75182",
+        "latitude": 32.803710099999996,
+        "longitude": -96.59467629999999,
+        "rating": 4.9,
+        "ratingCount": 404,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://sunnyvaleorthopedics.com/?utm_campaign=gmb",
+        "phoneNumber": "(214) 239-3220",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEswx6To6NtVmP0nIGEGtY5pb-WD-fyE-0uClwypyHSsk93jm2wHXjM3oLd_297jZspDrmmDMToHD2GT5kscrIFJ6kN5cdte2l2BbVrCJ3SF08VKSCfFDk4NjbfHbo4Irl8VZtx",
+        "cid": "9827479434554690492",
+        "fid": "0x864eaf943100b9eb:0x8862387a3e16cbbc",
+        "placeId": "ChIJ67kAMZSvToYRvMsWPno4Yog"
+      },
+      {
+        "position": 3,
+        "title": "Signature Orthopedics: Obi U. Osuji, MD",
+        "address": "2540 N Galloway Ave #302, Mesquite, TX 75150",
+        "latitude": 32.8002588,
+        "longitude": -96.6105864,
+        "rating": 4.6,
+        "ratingCount": 74,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://www.signatureorthodallas.com/?utm_source=gmb_auth",
+        "phoneNumber": "(972) 863-9828",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF51UmrMuiXvOG7my9ft18A2mDw_2hFMZUKx6TKVSI9AarMU49jDLPj_T4We8I2IyY3_OVn6tykpm7N1pgCRO0MhJA_GKVAzyqfOM9Z2mDE1Dk4j4jSGHj9dsduuPESddPzHIYZ7A",
+        "cid": "5749004473248081960",
+        "fid": "0x864ea516ed929797:0x4fc8911be0156828",
+        "placeId": "ChIJl5eS7RalToYRKGgV4BuRyE8"
+      },
+      {
+        "position": 4,
+        "title": "Orthopedic and Sports Medicine Center",
+        "address": "2241 Peggy Ln A, Garland, TX 75042",
+        "latitude": 32.9180695,
+        "longitude": -96.65842479999999,
+        "rating": 4.8,
+        "ratingCount": 433,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.osmcg.com/",
+        "phoneNumber": "(972) 276-0536",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHa6flle3KgdvNyV2K_fbPxDYoQ7WHn7W00mCJ4P5Wh6zLJMlWmjyso7ErHo4ioeJEm-L-n9Q_x4LOXBbIisyY7pYNqW7e2ZJ5ymhHEKeqRySutqaFBIFZpJR2wv4iFOhDQlQk-pQ",
+        "cid": "5333003710468335641",
+        "fid": "0x864c1de3f940dce1:0x4a02a29e844e2819",
+        "placeId": "ChIJ4dxA-eMdTIYRGShOhJ6iAko"
+      },
+      {
+        "position": 5,
+        "title": "Orthopaedic Specialists of Dallas",
+        "address": "1301 Summer Lee Dr, Rockwall, TX 75032",
+        "latitude": 32.885934,
+        "longitude": -96.47189399999999,
+        "rating": 4.8,
+        "ratingCount": 2849,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Podiatrist",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "http://dallasortho.net/?utm_source=GMBSocialClimb&utm_medium=OrthopaedicSpecialistsofDallas",
+        "phoneNumber": "(972) 771-8111",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHX0KR_Rzic9z4dZUVLP3PxLpeRncsIBiV0mswF0f8KrxBVVxrmU6Z4mPjv05BGOrdwOYBJzt5OS_26hYaAWJE5oCbJtWZCAvcMjqap8OQIQ9bngY1MnOcMmoM01OAeNa0iwqHH",
+        "cid": "7705902333594012407",
+        "fid": "0x864eaa3f76c060af:0x6af0dd5843b98af7",
+        "placeId": "ChIJr2DAdj-qToYR94q5Q1jd8Go"
+      },
+      {
+        "position": 6,
+        "title": "Lake Pointe Orthopaedics & Sports Medicine",
+        "address": "3136 Horizon Rd Suite 100, Rockwall, TX 75032",
+        "latitude": 32.8867116,
+        "longitude": -96.4664119,
+        "rating": 4.8,
+        "ratingCount": 1626,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.lportho.com/",
+        "phoneNumber": "(972) 475-8914",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://lportho.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFbsX-WNbOaSczMv-UFUI-D90xSYKr3JNRonh4gsdXlgGQ9zjzcl8t0BACYg8qUmFoZzwXkupWlbGyO56YurthxwnD-J9RxCdCWDCL12A9LHyqmO_eaCz3qP7Lt2iywPls7vLZG",
+        "cid": "14354151004512109476",
+        "fid": "0x864eaa418078a427:0xc73430497c42c3a4",
+        "placeId": "ChIJJ6R4gEGqToYRpMNCfEkwNMc"
+      },
+      {
+        "position": 7,
+        "title": "Dr. Aaron Eubanks, MD - Mesquite",
+        "address": "2698 N Galloway Ave #106, Mesquite, TX 75150",
+        "latitude": 32.8012841,
+        "longitude": -96.6100907,
+        "rating": 4.6,
+        "ratingCount": 190,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.zocdoc.com/doctor/aaron-eubanks-md-456025",
+        "phoneNumber": "(972) 613-7776",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://trendhealthcare.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0kUn1u0CZjFo0dXb1sEMvlwsycxSRb_tIr0i5dE79YiovCTiewG4GnRUOB-TNytFEKlQRN3bfdXD0-vX-Y_qH9sgL55QPfk8nsW6OfMz8YZ39lxvOEhF-9_tjlb-lqegiv-6l",
+        "cid": "4396832260747681621",
+        "fid": "0x864ea5c580d26d67:0x3d04afa54ed7df55",
+        "placeId": "ChIJZ23SgMWlToYRVd_XTqWvBD0"
+      },
+      {
+        "position": 8,
+        "title": "Dallas Orthopedic and Shoulder Institute -Sunnyvale",
+        "address": "222 S Collins Rd #101, Sunnyvale, TX 75182",
+        "latitude": 32.7796628,
+        "longitude": -96.56565429999999,
+        "rating": 4.8,
+        "ratingCount": 645,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Podiatrist"
+        ],
+        "website": "https://www.theshouldermotion.com/",
+        "phoneNumber": "(214) 220-4987",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVdnzU-SZHAwS2juXzxSXtgoK2Ay5d7bL0j6SnR7oA6kfqYHYbwzJVkgUz1U40Ikw2UunpcMxjAA0bHGdGFOkBOwnBvWTGIn9Pk3JG9rpPzXf7ayKclVFyAHf9LbxawHRpgRKo",
+        "cid": "9292809168569001107",
+        "fid": "0x864eaf70efffc19f:0x80f6b0b4120c6493",
+        "placeId": "ChIJn8H_73CvToYRk2QMErSw9oA"
+      },
+      {
+        "position": 9,
+        "title": "Top Smile Orthodontics - SUNNYVALE",
+        "address": "480 US-80 Suite 500, Sunnyvale, TX 75182",
+        "latitude": 32.7832645,
+        "longitude": -96.5601677,
+        "rating": 5,
+        "ratingCount": 260,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://www.topsmileortho.com/",
+        "phoneNumber": "(972) 226-3000",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHgRV4_HbjiM9vKU8IlTXRPBmkK3OmWRYH5-BWvt41f2pO1ary2JA_wEIOGa6puDmiEguUPCMlKaasr6TKtEn7Vz7IYYF0BXODOqQx61U-qjtk_LK3RKsL0yzJY0EXxJbbLQUEGA",
+        "cid": "9366482003756771416",
+        "fid": "0x864eaf7190d7a999:0x81fc6dc1b502e858",
+        "placeId": "ChIJmanXkHGvToYRWOgCtcFt_IE"
+      },
+      {
+        "position": 10,
+        "title": "White Rock Orthodontics",
+        "address": "1110 N Buckner Blvd #100, Dallas, TX 75218",
+        "latitude": 32.835583299999996,
+        "longitude": -96.70370799999999,
+        "rating": 4.9,
+        "ratingCount": 372,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.whiterockorthodontics.com/",
+        "phoneNumber": "(214) 613-2122",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.whiterockorthodontics.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpTTEhct5QZisQf75o0vrd-NDjvhcCmr9D5c4B3kEnPNYAqRKUiRZDYZhyeAluAU7EQMMoLthRdUEL_zQfuuU7GuPTbmf7o-SHeQYcX224dSe8OKSxHS-FJ3CxhPUxJm3mszK0",
+        "cid": "4142432195270243667",
+        "fid": "0x864ea10b571a7f63:0x397ce02251397553",
+        "placeId": "ChIJY38aVwuhToYRU3U5USLgfDk"
+      },
+      {
+        "position": 11,
+        "title": "Lake Pointe Orthopaedics & Sports Medicine",
+        "address": "1231 E Belt Line Rd #101, Richardson, TX 75081",
+        "latitude": 32.9461341,
+        "longitude": -96.7033586,
+        "rating": 4.8,
+        "ratingCount": 187,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://lportho.com/richardson-orthopedic/",
+        "phoneNumber": "(972) 475-8914",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSfQFGPcL69VcKXGdvhMG6dEJUSYOlecIOmrc9fFNX901pnsNOhwMIoxW1_BhSDzDlCQ3WeOGmb_43O5S8DeY-E-LXq_iUg4iylF1BN1rsbFHAPwpnhwN0e3o9tUTZQHnHXSX7",
+        "cid": "6350146774675129749",
+        "fid": "0x864c1950c6dc2827:0x582040d8d81a8595",
+        "placeId": "ChIJJyjcxlAZTIYRlYUa2NhAIFg"
+      },
+      {
+        "position": 12,
+        "title": "Garland Orthodontics PC",
+        "address": "2910 Broadway Blvd #101, Garland, TX 75041",
+        "latitude": 32.8816012,
+        "longitude": -96.6238942,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.hillorthodontics.com/",
+        "phoneNumber": "(972) 271-1574",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeGQEnM8MUlBEdXmU-frQUHJgoeyBU0q1FCaCgqXQFwhVl_tlJQIRUYv4RETyoRXUxFyJ9SN8AOe6V4HbEZKcAaYBEAdP-A6d3EUv1wxfKU2P3Cpn6IetxHEwhNW9ly1BRofM",
+        "cid": "17320171296475318615",
+        "fid": "0x864ea774d4bc7f6d:0xf05d9c0727540957",
+        "placeId": "ChIJbX-81HSnToYRVwlUJwecXfA"
+      },
+      {
+        "position": 13,
+        "title": "Fusion Orthodontics | Garland",
+        "address": "107 S First St Suite A, Garland, TX 75040",
+        "latitude": 32.911811199999995,
+        "longitude": -96.6314331,
+        "rating": 5,
+        "ratingCount": 59,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.fusionorthodontics.com/",
+        "phoneNumber": "(972) 544-0032",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://edgebooking.ortho2.com/search?catalog=82ddfeb0-c776-4854-aa41-812752a117c5&code=ipsnya"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQHtEUdY1bKzw4WYw-ImTvY59GdeRnt79hRKRw-G4E7b72kfLj0arHoo2UCu0oSBzxpnJvPqvyUtYCDH4Zn61VCBFUjhNZx2wZ5j8Fwr6699lzAkcyEuzvZInF0Evaw-4izDt4",
+        "cid": "8017429395643039155",
+        "fid": "0x864c1ddfc0371ee3:0x6f43a18ea313fdb3",
+        "placeId": "ChIJ4x43wN8dTIYRs_0To46hQ28"
+      },
+      {
+        "position": 14,
+        "title": "Rapid Orthopedic Supplies",
+        "address": "3702 Big A Rd, Rowlett, TX 75089",
+        "latitude": 32.9093298,
+        "longitude": -96.5678047,
+        "rating": 4.8,
+        "ratingCount": 17,
+        "type": "Medical supply store",
+        "types": [
+          "Medical supply store",
+          "Orthopedic supplies store"
+        ],
+        "website": "https://rapidortho.com/",
+        "phoneNumber": "(469) 867-6299",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–4:30 PM",
+          "Tuesday": "9 AM–4:30 PM",
+          "Wednesday": "9 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEgn2Y3n6aBV9fKuY4mAXZFWzej_VaCnQG3U3T8J2SLtIaFWgCc2Y1YYXGP3V0eegniTgsyFZocNUHPRyB7_BxgxY64j0V5euO6wHyzB04pQk8yS0Ban2RVq_TieM_KDXklJYqleA",
+        "cid": "9358911798485944071",
+        "fid": "0x864ea81d0b0ecf6b:0x81e188b1f0f78707",
+        "placeId": "ChIJa88OCx2oToYRB4f38LGI4YE"
+      },
+      {
+        "position": 15,
+        "title": "Mesquite Dental Group and Orthodontics",
+        "address": "1765 N Town E Blvd Ste 111, Mesquite, TX 75150",
+        "latitude": 32.810649,
+        "longitude": -96.62671999999999,
+        "rating": 4.6,
+        "ratingCount": 856,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Oral surgeon",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.mesquitedentalgroup.com/?sc_cid=GBP%3AO%3AGP%3A720%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp&y_source=1_MTEwMjkzNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(972) 270-7210",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "8 AM–5:30 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://www.mesquitedentalgroup.com/about-us/dentist-appointment/?sc_cid=GBP_reserve%3AO%3AGP%3A720%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp_reserve&y_source=1_MTEwMjkzNC03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs",
+          "https://www.MesquiteDentalGroup.com/about-us/dentist-appointment/?sc_cid=GBP_reserve:O:GP:720:Organic_Search:General:na&_vsrefdom=organic_gbp_reserve&y_source=1_MTEwMjkzNC03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs&rwg_token=AFd1xnGXo_vUsyjpHuYCZ4puS2q8uXqKIxvckRilK_CPWVfX3Eb1G_c8xawmK4rQGfRBy3wMotd7hhveiBqBvnjCrS4awkpf-Q%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWGZfrffx2wVs9oYQbFSlO-Ps-5AC7r626TpW3GOxB8nviR8RZ2GMWuE0T-71ZhuAOXDKBoWTw5t5wzZ2c4hB5VPRmJrL5ImiZDOlncQU3LLdcFV5289VOWSnSyrFpC1vM3M5c",
+        "cid": "14833769503249950394",
+        "fid": "0x864ea42987522575:0xcddc22c5413c66ba",
+        "placeId": "ChIJdSVShymkToYRumY8QcUi3M0"
+      },
+      {
+        "position": 16,
+        "title": "Omar Hariri",
+        "address": "222 S Collins Rd #101, Sunnyvale, TX 75182",
+        "latitude": 32.7796628,
+        "longitude": -96.56565429999999,
+        "rating": 4.8,
+        "ratingCount": 30,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.theshouldermotion.com/",
+        "phoneNumber": "(214) 256-3778",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEIVuwnXuTW8GPT-YwPCDsPnGLBdnG7thPC4d2eCNIIM4XowNPXbyj0ZQonXogir8HUv3h5ksfxHtfaQVPNuVGMzuOsHC-6N_KM56ziO8tC29GeikAgh9f-eOsvaezLJiZh1iSY",
+        "cid": "2689641182576387948",
+        "fid": "0x864eaf9b2c7ebf8f:0x25538667bcba276c",
+        "placeId": "ChIJj79-LJuvToYRbCe6vGeGUyU"
+      },
+      {
+        "position": 17,
+        "title": "Texas Orthopaedic Associates",
+        "address": "7115 Greenville Ave #310, Dallas, TX 75231",
+        "latitude": 32.8769608,
+        "longitude": -96.76221849999999,
+        "rating": 4.9,
+        "ratingCount": 2157,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.txorthopaedic.com/",
+        "phoneNumber": "(214) 265-3200",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.txorthopaedic.com/schedule-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGk6YTbZHoK1DXOWb-yzE2atYtH6thT_jOmeNb3uE5UZwQ7ItFpG0Eb3n9GsgU2T-9o4YHcR7U223qEpHD8OfE9vWZcKx1t9F-3JWTEpwdwVY0hE2A4ej5by-5OZNCzDe3w1GcV",
+        "cid": "17722133148083325977",
+        "fid": "0x864e9feda7df62b5:0xf5f1aa33c9ae8c19",
+        "placeId": "ChIJtWLfp-2fToYRGYyuyTOq8fU"
+      },
+      {
+        "position": 18,
+        "title": "Texas Orthopaedic Associates",
+        "address": "8210 Walnut Hill Ln Ste 130, Dallas, TX 75231",
+        "latitude": 32.8820893,
+        "longitude": -96.7614428,
+        "rating": 4.9,
+        "ratingCount": 1252,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.txorthopaedic.com/",
+        "phoneNumber": "(214) 750-1207",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrdyVATtS_eJT4mR5Z7n9xpbw9KTIHp0dKr3bO6OCfcttNjNJKNMffYd3Ya0xPHn_t6oYbQHTE5shoPhH4y6k2G0ngN4EkscyzAAwFFNGRuVhWFkxVobJMMD4msUS6MFWxRfDP3g",
+        "cid": "3308349386916556985",
+        "fid": "0x864c23616e9bbfd1:0x2de99e3d300af0b9",
+        "placeId": "ChIJ0b-bbmEjTIYRufAKMD2e6S0"
+      },
+      {
+        "position": 19,
+        "title": "Brident Dental & Orthodontics",
+        "address": "780 E Centerville Rd, Garland, TX 75041",
+        "latitude": 32.8782133,
+        "longitude": -96.6213532,
+        "rating": 4,
+        "ratingCount": 817,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Dentist",
+          "Pediatric dentist",
+          "Prosthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.brident.com/en-us/find-a-location/texas/garland/780-e-centerville-rd?utm_source=GMB&utm_medium=organic",
+        "phoneNumber": "(214) 429-3650",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–4:30 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.brident.com/appointment-detail/en-us/TGL"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJC62yPOs6rYGXEA-e-DAiYilNCuZenUHcjKHPru2AexJ5t8NPVV789riiiP4KBvUQ2Pc7RlvcPyVfAEpaYtJr4zpdIymrAeNE7QHP6AYXWIMyCiWwv9SsyonL4xdQLi1mLgJu_0Y7kY8V",
+        "cid": "3908868531155114136",
+        "fid": "0x864ea70a7ebb01f7:0x363f173811341898",
+        "placeId": "ChIJ9wG7fgqnToYRmBg0ETgXPzY"
+      },
+      {
+        "position": 20,
+        "title": "Monarch Dental & Orthodontics - Mesquite, TX",
+        "address": "3501 Towne Crossing Blvd #180, Mesquite, TX 75150",
+        "latitude": 32.8125035,
+        "longitude": -96.62933729999999,
+        "rating": 4.1,
+        "ratingCount": 586,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Dental implants periodontist",
+          "Oral surgeon",
+          "Dentist",
+          "Pediatric dentist",
+          "Periodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.monarchdental.com/dental-office/mesquite-dentist/30130/?utm_source=generic&utm_medium=profiles&utm_campaign=local_profiles",
+        "phoneNumber": "(972) 270-6646",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.monarchdental.com/appointment/?officeid=30130&utm_source=generic&utm_medium=profiles&utm_campaign=local_profiles"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOTn_WQubcO7tTxmaLzHfgjMtREoYFVG2Sb3NK73qyC-s9ouaa3nJHr28NdExJorfkuzoFtuTIaK2URoAlVGy-SmvZgk7jxdE8QdC1M5faWhfHNDJbtBR0_mTqdYYRef1h6NDG1Q",
+        "cid": "16811636569720410179",
+        "fid": "0x864ea5d9d4ee6373:0xe94eee636726d043",
+        "placeId": "ChIJc2Pu1NmlToYRQ9AmZ2PuTuk"
+      }
+    ],
+    "credits": 3
+  }
+}

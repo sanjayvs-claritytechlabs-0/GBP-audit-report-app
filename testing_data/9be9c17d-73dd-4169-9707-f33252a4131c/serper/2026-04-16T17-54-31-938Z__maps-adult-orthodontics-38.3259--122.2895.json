@@ -1,0 +1,639 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@33.8605477,-84.3896377,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Clinebell + Anderson Orthodontics",
+        "address": "3732 Lavista Rd, Decatur, GA 30033",
+        "latitude": 33.8412438,
+        "longitude": -84.263289,
+        "rating": 5,
+        "ratingCount": 572,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://clinebellandersonortho.com/",
+        "phoneNumber": "(404) 924-8492",
+        "openingHours": {
+          "Thursday": "8 AM–1:30 AM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 AM",
+          "Tuesday": "8:30 AM–5 AM",
+          "Wednesday": "8:30 AM–5 AM"
+        },
+        "bookingLinks": [
+          "https://clinebellandersonortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0rN7Zlzn4Wr6UsRVus33izYm9Jk4drnrVJS0-AQt9RO-YQHctWI3yz8JLcW-cHyYhCV6qMxGiAl7ytSX0JTI6GYmyBaVptgHPM2BoMPvteFAcEJval08grPwCNhjKuKVzLIl0FeMsH9TV",
+        "cid": "16419781929411137661",
+        "fid": "0x88f5a80767b20b0d:0xe3dec8ab47edd07d",
+        "placeId": "ChIJDQuyZweo9YgRfdDtR6vI3uM"
+      },
+      {
+        "position": 2,
+        "title": "Buckhead Orthodontics",
+        "address": "2385 Peachtree Rd, Atlanta, GA 30305",
+        "latitude": 33.8201283,
+        "longitude": -84.3876975,
+        "rating": 4.9,
+        "ratingCount": 392,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.buckheadorthodontics.com/",
+        "phoneNumber": "(404) 697-7497",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.buckheadorthodontics.com/request-an-appointment.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElpJqFARHGNXj6-oVyKnTmgok5raCcGdGXAwXBHgxTemH33cwb0n3Ewzu-_sTwsaUK_MHJ8auWyDYFZgKst4kn6h4CJDiSZLauokiuhD_WbunDkrps_JloxNpKj43jrsqS2mo",
+        "cid": "13335889951819790525",
+        "fid": "0x88f505a37ecab8cf:0xb91299412deb78bd",
+        "placeId": "ChIJz7jKfqMF9YgRvXjrLUGZErk"
+      },
+      {
+        "position": 3,
+        "title": "Reve Orthodontics",
+        "address": "1789 Clairmont Rd, Decatur, GA 30033",
+        "latitude": 33.806445499999995,
+        "longitude": -84.3100328,
+        "rating": 5,
+        "ratingCount": 105,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.reveorthodontics.com/",
+        "phoneNumber": "(770) 972-6000",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.reveorthodontics.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-G_LjIkCVEPbcFyRsMXKfRk3JWjHfIpXcDNN9YPLhUNfkN6roi0YGw9CtuNguaZVsqwtfIrcUdDXUcrGXEifYcH9dy5dJL3V_15LYOPbjBIel2UGFlDxNmTWJtz63XKV7BFYWLkzD2z5m",
+        "cid": "17679097799560536374",
+        "fid": "0x88f507306ff083e5:0xf558c5c7e4322136",
+        "placeId": "ChIJ5YPwbzAH9YgRNiEy5MfFWPU"
+      },
+      {
+        "position": 4,
+        "title": "Reve Orthodontics - Midtown Atlanta",
+        "address": "931 Monroe Dr NE UNIT 201, Atlanta, GA 30308",
+        "latitude": 33.7793823,
+        "longitude": -84.3674077,
+        "rating": 4.8,
+        "ratingCount": 305,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.reveorthodontics.com/",
+        "phoneNumber": "(770) 972-6000",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.reveorthodontics.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2od_Zsx7SBVud-xA_Vd6bW5JNH5Zi3f00Dn_AkkQ_TzDYfr5exFCFfFdhypRxILk_Ow8C5J4bShhXFom1f4FHtWW2yTdhzCDbuQMSJg_ReMdjztsZV0_5Qk4XZlYinswJ-Je8Vsq9dmqC",
+        "cid": "4321917810642064647",
+        "fid": "0x88f50416286df033:0x3bfa8959abc11507",
+        "placeId": "ChIJM_BtKBYE9YgRBxXBq1mJ-js"
+      },
+      {
+        "position": 5,
+        "title": "Decatur Orthodontics",
+        "address": "212 Church St, Decatur, GA 30030",
+        "latitude": 33.7729571,
+        "longitude": -84.2947767,
+        "rating": 5,
+        "ratingCount": 418,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://www.decaturorthodontics.com/",
+        "phoneNumber": "(678) 207-5040",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–5:30 PM",
+          "Tuesday": "9:30 AM–5:30 PM",
+          "Wednesday": "7:30 AM–3:30 PM"
+        },
+        "bookingLinks": [
+          "https://mydecaturorthodontist.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8VdPDdMcKuELwaA9oQnL9LX0I0TYV0aUu2flzl251n4bgrdUbtHpy06KGav9-ckqij1LpWn1eI6z5pK0xUwshcwLVHgI5oTm7cdVsZycKrsTJxgOXEnPVreQX7SVR1WRKO9TOUw",
+        "cid": "18065817676140374844",
+        "fid": "0x88f5073eddf7c72d:0xfab6ad75ab51eb3c",
+        "placeId": "ChIJLcf33T4H9YgRPOtRq3Wttvo"
+      },
+      {
+        "position": 6,
+        "title": "Green Orthodontics - Decatur GA",
+        "address": "2440 Lawrenceville Hwy Suite 201, Decatur, GA 30033",
+        "latitude": 33.8186605,
+        "longitude": -84.2674263,
+        "rating": 5,
+        "ratingCount": 1223,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://www.gogreenortho.com/",
+        "phoneNumber": "(404) 850-1515",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "10 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://gogreenortho.com/lp/complimentary-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwR5WdbQjXqb6zsaxrOSyNZcHyt2dhckHkY3TmBYRbbYdEN9KJf82bllGf42MIHijVZGUxu-xg_PoZHozxSrJSgehsZhFMkqzgbXK9wgu8aPRl9gNeT7xvVjF3MBxfkQsT4x3hNg",
+        "cid": "3742434007148180826",
+        "fid": "0x88f5a821cfc2b9a1:0x33efcbe6b768b55a",
+        "placeId": "ChIJobnCzyGo9YgRWrVot-bL7zM"
+      },
+      {
+        "position": 7,
+        "title": "NK Orthodontics",
+        "address": "2295 Parklake Dr NE #250, Atlanta, GA 30345",
+        "latitude": 33.85217,
+        "longitude": -84.24800599999999,
+        "rating": 4.9,
+        "ratingCount": 257,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://nkorthodontics.com/orthodontist-tucker-ga/",
+        "phoneNumber": "(770) 939-1280",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://duoortho.com/schedule-now/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzgulDA7FZAyQlZDxQXHsJHNC4HNAAsTKOs4YOCzyQXGI3M1P6M4PmIrRwZMEMXGafg1iu-3lvphu_vS-IW8YYbGByBm9RqbKaZVXwbxUkPSLUJKr1xHlMQIa3ACOLThTMkGQnlg",
+        "cid": "12644439782758815278",
+        "fid": "0x88f5a7dc6c8d2d77:0xaf7a12fd4328162e",
+        "placeId": "ChIJdy2NbNyn9YgRLhYoQ_0Seq8"
+      },
+      {
+        "position": 8,
+        "title": "Atlanta Orthodontic Specialists",
+        "address": "3580 Piedmont Rd NE #222, Atlanta, GA 30305",
+        "latitude": 33.851983499999996,
+        "longitude": -84.38104469999999,
+        "rating": 4.9,
+        "ratingCount": 100,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://atlantaortho.com/location/buckhead/",
+        "phoneNumber": "(404) 233-1155",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhwwK1No0RzgBEKYTFl-p9jMQe1YvBD2yMy-G8_NUakwKlSMUL62fslthxt2hfxkJJbMotQvgmZj56AYPj4TU6eie1vdIqeoceLZBWNoAik4_oWDVGCiguERR0Dqr9dwwhKUqZsA",
+        "cid": "4806122018209576927",
+        "fid": "0x88f50f63e51a1399:0x42b2c682fa90b7df",
+        "placeId": "ChIJmRMa5WMP9YgR37eQ-oLGskI"
+      },
+      {
+        "position": 9,
+        "title": "Chamblee Orthodontics",
+        "address": "5070 Peachtree Blvd Suite E150, Atlanta, GA 30341",
+        "latitude": 33.8884803,
+        "longitude": -84.3147224,
+        "rating": 5,
+        "ratingCount": 272,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://chamblee-orthodontics.com/",
+        "phoneNumber": "(678) 554-3143",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://chambleeorthodontics.schedulista.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9PC5ppvmmp38Ox5SwJQJmo4K7atXHtHlMzyCZJ-9jwBSh1xZueHkS8Ji_mD5dt7xEWulDD9QfxJo1nXvTbRwOVIK7l71RWFn_LDS-bDtW27dBSctPNXcUdyd_12UxefjcyigXXg",
+        "cid": "3027643621526844654",
+        "fid": "0x88f509b7f16743c3:0x2a0459d52795b4ee",
+        "placeId": "ChIJw0Nn8bcJ9YgR7rSVJ9VZBCo"
+      },
+      {
+        "position": 10,
+        "title": "Atlanta Orthodontic Specialists",
+        "address": "5555 Peachtree Dunwoody Rd NE STE 301, Atlanta, GA 30342",
+        "latitude": 33.905699999999996,
+        "longitude": -84.35206699999999,
+        "rating": 4.9,
+        "ratingCount": 137,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://atlantaortho.com/location/sandy-springs/",
+        "phoneNumber": "(404) 255-5454",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzgFETnp3IUlePMvXWLRR3mQ7lggX9RaQHkKPGMggHGfWICC15prgg3eKmMioIOaHh7YqZuXtpnd8hLXQbo30USv0zAdxUQCXP55f5Zh7LykJbK2uuk13cqJ_QrfFl7X3EIJu7",
+        "cid": "10558335569158478606",
+        "fid": "0x88f50933732aa47f:0x9286be427b101b0e",
+        "placeId": "ChIJf6QqczMJ9YgRDhsQe0K-hpI"
+      },
+      {
+        "position": 11,
+        "title": "Elite Smiles Chastain Orthodontics",
+        "address": "91 W Wieuca Rd NE Suite 300, Atlanta, GA 30342",
+        "latitude": 33.8767711,
+        "longitude": -84.38388119999999,
+        "rating": 4.9,
+        "ratingCount": 392,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.elitesmileschastain.com/?utm_source=gbp&utm_medium=organic&utm_campaign=atlanta&utm_content=listing",
+        "phoneNumber": "(404) 303-7400",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.elitesmileschastain.com/appointment-request?utm_source=gbp&utm_medium=organic&utm_campaign=atlanta&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF64afEWoRy9sXIK0xbO2lmEtM-R3EXBN0y4b2bsJR8Zfg4WGca4A96Jeij7VeNE-iCAG_V5jvz3uWyVCg6lDkx6iyle6VipiTxH60wKu9KbcP-EU_zeQP8MBnAnWBmSXiBHwtn",
+        "cid": "7108951866330022923",
+        "fid": "0x88f50f11bc93f0f9:0x62a8120ebdf3840b",
+        "placeId": "ChIJ-fCTvBEP9YgRC4TzvQ4SqGI"
+      },
+      {
+        "position": 12,
+        "title": "Village Orthodontics",
+        "address": "5488 Chamblee Dunwoody Rd #8, Dunwoody, GA 30338",
+        "latitude": 33.9481383,
+        "longitude": -84.3375598,
+        "rating": 5,
+        "ratingCount": 340,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.village-ortho.com/",
+        "phoneNumber": "(678) 745-5388",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFoOrAHoJcSpUyPpsooSigqWYjy5cy4gmIwqOXaQ-XclGx60jexCAAKXLDPMa-lOdsMRlo_muuScfav1h0FesHvWMHeNl_lja9wUzb8MRNoQR2_y_3QnHce67EQn1Zmb8MnhgY",
+        "cid": "722048388604588698",
+        "fid": "0x88f50be8d9633bf3:0xa053b2f116b729a",
+        "placeId": "ChIJ8ztj2egL9YgRmnJrES87BQo"
+      },
+      {
+        "position": 13,
+        "title": "Wright Orthodontics",
+        "address": "3019 N Druid Hills Rd NE suite b, Atlanta, GA 30329",
+        "latitude": 33.813531499999996,
+        "longitude": -84.30984819999999,
+        "rating": 5,
+        "ratingCount": 638,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://drwrightortho.com/location/orthodontist-in-atlanta-ga/",
+        "phoneNumber": "(404) 507-2078",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0FiSJdFXuzQNBwyTk3nhr7VEy23CAPGiGOpOe-AoHKqxC0h6Ts2oJ_3KAWYHPVxcee1wOdhW9K3iRuT07LzdCYEO8YhiPXjjwZfw3rw-6Uvaogl9cBxakYGyM8n-MKYOIy0QANCzdq9ma",
+        "cid": "535417615846655366",
+        "fid": "0x88f507b3a08685cf:0x76e2f7c1f06c586",
+        "placeId": "ChIJz4WGoLMH9YgRhsUGH3wvbgc"
+      },
+      {
+        "position": 14,
+        "title": "Kaplan Orthodontics",
+        "address": "4700 Chamblee Dunwoody Rd Ste. 300, Dunwoody, GA 30338",
+        "latitude": 33.9293963,
+        "longitude": -84.3144272,
+        "rating": 5,
+        "ratingCount": 754,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://jkaplanortho.com/",
+        "phoneNumber": "(770) 458-5561",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.jkaplanortho.com/newpatient/office/Dunwoody-4700Chamblee?rwg_token=AFd1xnFAmTjg1AKP0M_K2UVZO39MFvK-SUr6L__jZc7kCXmxVGvBYOD7J6FiuyFz_hzMS9TK6CS3COyC37j-5KbwxiUeqIc4Ag%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEW30lNHbDzpB71tH364MFt1piB8BlXRztIfur7Pl5W23Vm5LLEEgUQfqzgwKVLckBaw5l-YAkmqeaZg37eVuTMrfPdBaHwZDBzv6zIhSxv1iWDi24cTf7thbv3w2pPpA21a2RJ",
+        "cid": "8259504080126754052",
+        "fid": "0x88f5097f194a9d69:0x729fa7333cd83d04",
+        "placeId": "ChIJaZ1KGX8J9YgRBD3YPDOnn3I"
+      },
+      {
+        "position": 15,
+        "title": "Harris Orthodontics - Atlanta",
+        "address": "800 Marietta St NW Ste C, Atlanta, GA 30318",
+        "latitude": 33.7743497,
+        "longitude": -84.40627099999999,
+        "rating": 5,
+        "ratingCount": 361,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://harrisorthodonticsatl.com/",
+        "phoneNumber": "(404) 902-6912",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://platform.swellcx.com/3.0/appointment-request/webpage/2dc05c59-eae0-441c-9fae-813658ed2a8f",
+          "https://harrisorthodonticsatl.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOh5q7Rhq8j00dKxE7HPuQnYr1DMTLfXxxD4Tr4T1pcQUVszHvpPzLs95rSZKWHPDHqe1KLkZBTh_DcJFUn1Ify4qLNexSKGunfrvqqyxazp2vEjfa8SMtJhSjDMgIgKY8QJApRA",
+        "cid": "15352327949177837469",
+        "fid": "0x88f505b1e728ca81:0xd50e6cedfe0bd79d",
+        "placeId": "ChIJgcoo57EF9YgRndcL_u1sDtU"
+      },
+      {
+        "position": 16,
+        "title": "Brookhaven Orthodontics",
+        "address": "804 Town Blvd A2000, Atlanta, GA 30319",
+        "latitude": 33.870635,
+        "longitude": -84.3364361,
+        "rating": 4.9,
+        "ratingCount": 314,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://brookhavenorthodontics.com/?utm_source=gbp-atlanta&utm_medium=organic&utm_campaign=gbp-website-atlanta",
+        "phoneNumber": "(404) 343-0677",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGecdYyBpPqxmqGcwFevGlt5Q27mlYfld8VNttuPNVDsfntgDA6qnZzKHpTuwslHHR05wRiy0g2vnxr0VjgzTrW0pR9oWdguPclL4GcOUMMfIboTl_pYKx3gbQB2-I96a18vwwE",
+        "cid": "16371570655261918134",
+        "fid": "0x88f508c0e290e733:0xe33380c54a1883b6",
+        "placeId": "ChIJM-eQ4sAI9YgRtoMYSsWAM-M"
+      },
+      {
+        "position": 17,
+        "title": "Evergreen Orthodontics",
+        "address": "4480 North Cooper Lake Rd SE #220, Smyrna, GA 30082",
+        "latitude": 33.844149099999996,
+        "longitude": -84.5312695,
+        "rating": 5,
+        "ratingCount": 184,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://evergreenorthodontics.net/",
+        "phoneNumber": "(770) 742-2882",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:45 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7:30 AM–3:45 PM"
+        },
+        "bookingLinks": [
+          "https://evergreenorthodontics.net/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZXXh1G5B4GfSy2FOtF6h8952yfsqRoIYil2la8M9XWeqYHVLbcC2-TpIUIHYqB45l3vrE9BSAUnB-Wja2FbFuyycJfhucb5PQleXZojELGkBAdR69gc7ghmUQqumXWfHGv8gebXXxObY",
+        "cid": "9102862741464861437",
+        "fid": "0x88f5192eda2d9ec7:0x7e53dd6f3026cafd",
+        "placeId": "ChIJx54t2i4Z9YgR_comMG_dU34"
+      },
+      {
+        "position": 18,
+        "title": "Virginia Highlands - Atlanta Orthodontic Specialists",
+        "address": "842 N Highland Ave NE #275, Atlanta, GA 30306",
+        "latitude": 33.7774727,
+        "longitude": -84.3528245,
+        "rating": 4.9,
+        "ratingCount": 74,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Orthopedic surgeon"
+        ],
+        "website": "https://atlantaortho.com/location/virginia-highlands/",
+        "phoneNumber": "(404) 254-3451",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvdz34LRv3AUUYjPetJX-ittueijsUfV94Hpr0t2R1lt5QuUwlRRezerMEueMpLKxrvlKEeDSw1Pgn8ZZFSMsHDsZxa48ikc4mVfp7jIuCKRhE9eyfA0UsfHJQe5LczZw7F5qo",
+        "cid": "13987030632910539539",
+        "fid": "0x88f506a041523965:0xc21bea411123cb13",
+        "placeId": "ChIJZTlSQaAG9YgRE8sjEUHqG8I"
+      },
+      {
+        "position": 19,
+        "title": "Quest Orthodontics",
+        "address": "720 Church St, Decatur, GA 30030",
+        "latitude": 33.778926,
+        "longitude": -84.2952072,
+        "rating": 5,
+        "ratingCount": 189,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.questorthodontics.com/",
+        "phoneNumber": "(470) 440-7330",
+        "openingHours": {
+          "Thursday": "7 AM–4:30 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4:30 PM",
+          "Tuesday": "7 AM–4:30 PM",
+          "Wednesday": "7 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFvlLTRtIKVobSFOIyq4mitJxDVFr07PV5eovuAClGn-yZPGJIzFt22z2f7xZDzKAeeWd0JlS-98uruxPhhny28UXrkQcbZ_DQM1Ask8louaYrLRiaHswRtwCLWk2oeU7n_ViD",
+        "cid": "12923975459572434116",
+        "fid": "0x88f507ad21b9c667:0xb35b2f34d1ae44c4",
+        "placeId": "ChIJZ8a5Ia0H9YgRxESu0TQvW7M"
+      },
+      {
+        "position": 20,
+        "title": "West Paces Ferry Orthodontics",
+        "address": "1218 W Paces Ferry Rd NW # 100, Atlanta, GA 30327",
+        "latitude": 33.8493815,
+        "longitude": -84.42751349999999,
+        "rating": 4.8,
+        "ratingCount": 537,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.westpacesferryortho.com/",
+        "phoneNumber": "(404) 262-2212",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–12 PM"
+        },
+        "bookingLinks": [
+          "https://www.westpacesferryortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgkHoF9Yqe3atIPpZZlCcL9WA9O8HMQHMA1fdThGvDZ1RvlzyYJPLmYstBWO88V5-aRB3hqVCOiUgCqrIn7DZLvP4_wHeKXOcBKLonkzXk_rNzH7MeMkIG3ikQDXjw9-PkY1jBTQ",
+        "cid": "4017044221987152742",
+        "fid": "0x88f50ff7f8a452a1:0x37bf686fca946366",
+        "placeId": "ChIJoVKk-PcP9YgRZmOUym9ovzc"
+      }
+    ],
+    "credits": 3
+  }
+}

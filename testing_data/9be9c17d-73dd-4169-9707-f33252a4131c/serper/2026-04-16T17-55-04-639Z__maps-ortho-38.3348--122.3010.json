@@ -1,0 +1,630 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.334848,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@34.1922715,-86.8390241,9z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Cullman Regional Orthopedics & Sports Medicine, P.C.",
+        "address": "1942 AL-157, Cullman, AL 35058",
+        "latitude": 34.1994587,
+        "longitude": -86.80721609999999,
+        "rating": 4.9,
+        "ratingCount": 16,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.crosmpc.com/",
+        "phoneNumber": "(256) 737-5115",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbe8sqo1x4ZjbI11yzYxCRtBgHV8IL1a463cW6gtpP4j5hTICZOJ4qTT-kk5P36rycFB9Xa2h8gQI694YHWIsroANLxUWT6pKS3tPBJv_9MHiOke_KgISYWCzCI6Tl802AFNrcWQ",
+        "cid": "14698192144957512427",
+        "fid": "0x8889c9356304bcb5:0xcbfa77e1a8a11aeb",
+        "placeId": "ChIJtbwEYzXJiYgR6xqhqOF3-ss"
+      },
+      {
+        "position": 2,
+        "title": "Cullman Orthodontics",
+        "address": "1907 Main Ave SW Suite A, Cullman, AL 35055",
+        "latitude": 34.150814499999996,
+        "longitude": -86.8486339,
+        "rating": 4.9,
+        "ratingCount": 103,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.cullmanortho.com/",
+        "phoneNumber": "(256) 279-9852",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–12 PM",
+          "Saturday": "7 PM–5 AM",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-Y7CVq1VZjKr1G-S15V6Jl_UcHJFDYpeQBnsxNHxqdC79IGHnxDAh_ENlguCf2BODfR3RhsYk6H_zi9iIqpKDr9-vlH8vtiPIdEj0BmIW0mK7ErH3vzoYqGVh45D06U8KczIc",
+        "cid": "7611554218954347673",
+        "fid": "0x8889cb83bd5e8fdd:0x69a1ac3c01665499",
+        "placeId": "ChIJ3Y9evYPLiYgRmVRmATysoWk"
+      },
+      {
+        "position": 3,
+        "title": "Alabama Orthopedic Institute",
+        "address": "1908 Cherokee Ave SW, Cullman, AL 35055",
+        "latitude": 34.1513336,
+        "longitude": -86.844248,
+        "rating": 4,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.drstevenbfuller.com/",
+        "phoneNumber": "(256) 734-4700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=feqxeHQwArVS-rFgz37C0Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=14.735219&pitch=0&thumbfov=100",
+        "cid": "18093260541973793485",
+        "fid": "0x8889ca48ec7156e3:0xfb182c99c8f08acd",
+        "placeId": "ChIJ41Zx7EjKiYgRzYrwyJksGPs"
+      },
+      {
+        "position": 4,
+        "title": "Cullman Regional Medical Group - Orthopedics & Sports Medicine",
+        "address": "1938 AL-157 Suite 101, Cullman, AL 35058",
+        "latitude": 34.199121399999996,
+        "longitude": -86.805842,
+        "rating": 4.5,
+        "ratingCount": 8,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://cullmanregionalmedicalgroup.com/location/orthopedics-sports-medicine/",
+        "phoneNumber": "(256) 735-5505",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJoVkCJB1onW6TJPpjnJFe35MRHe7qzlVKKzFS9maSlk_7Rk9sWnAErVq2VXfZMmg8mIpLHZGVQZfWNzxt1WauOTdHPlIAhSiJsx5AmXunjNrEtr6G1W0wJSQxScXFQLnrZVw",
+        "cid": "15502026387284644997",
+        "fid": "0x8889cb4c5bd5b669:0xd72242ddb0d55485",
+        "placeId": "ChIJabbVW0zLiYgRhVTVsN1CItc"
+      },
+      {
+        "position": 5,
+        "title": "Andrews Sports Medicine & Orthopaedic Center - Cullman",
+        "address": "1301- A Bridge Creek Dr NE, Cullman, AL 35055",
+        "latitude": 34.1967887,
+        "longitude": -86.83025359999999,
+        "rating": 4.9,
+        "ratingCount": 262,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.andrewssportsmedicine.com/locations/cullman?utm_source=gmb-main&utm_medium=organic&utm_campaign=local&utm_content=cullman",
+        "phoneNumber": "(205) 832-5471",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.andrewssportsmedicine.com/request-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEv_NfCaH_GlozDUV7YAwu_zHnNIKHmv3ZDJrHI9VFysHC5gaAGDs9EFvOs2zv6rW9mPX0LYWYVh0BCcopjg9H6QZx79LHnVAFaD3Y__sWpfwGm9bDzjnV25SbqRoKiI9xbA0QQ",
+        "cid": "10120876177980685760",
+        "fid": "0x8889cb90136b6003:0x8c749342dc407dc0",
+        "placeId": "ChIJA2BrE5DLiYgRwH1A3EKTdIw"
+      },
+      {
+        "position": 6,
+        "title": "Orthopedic & Sports Medicine Specialists",
+        "address": "1938 AL-157, Cullman, AL 35058",
+        "latitude": 34.1992391,
+        "longitude": -86.8051832,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Podiatrist",
+          "Sports medicine physician"
+        ],
+        "phoneNumber": "(256) 739-4030",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRF2Enxo3n1lfXl9FDJ7Wgp2HPO7u_Ah6qoM3oMrLIcyfStUib0inRRs8VOdZOwqeNf3Wib94E3joOf943eaazgMMqE8gMxKLuLTyH2MrsqbksnZkCPS_1bgl0SMZvYDG6BBAn",
+        "cid": "8742630798311405976",
+        "fid": "0x8889c93562e3a52b:0x79541063ffbdb998",
+        "placeId": "ChIJK6XjYjXJiYgRmLm9_2MQVHk"
+      },
+      {
+        "position": 7,
+        "title": "The Orthopaedic Center",
+        "address": "303 Beltline Pl SW, Decatur, AL 35603",
+        "latitude": 34.5586007,
+        "longitude": -86.9894652,
+        "rating": 4.9,
+        "ratingCount": 340,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "https://www.visittoc.com/locations/toc-decatur/",
+        "phoneNumber": "(256) 274-0050",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.visittoc.com/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHsL-sLviNPZ8Um4z856fsCne4i5bxSXzFPEGuI4nMd2HV3mXzDJUrRw--QkfC7KzI-IrKBPS12Prwkc2oDcmBMDr5QcIPBWStdWKab9HOvJ_3NMzyll6AEphulR1pikgrMLwHy7Q",
+        "cid": "5807527937518308413",
+        "fid": "0x8862847937e89837:0x50987be3baef8c3d",
+        "placeId": "ChIJN5joN3mEYogRPYzvuuN7mFA"
+      },
+      {
+        "position": 8,
+        "title": "Graham Orthodontics",
+        "address": "406 3rd Ave NE, Cullman, AL 35055",
+        "latitude": 34.1820345,
+        "longitude": -86.8426976,
+        "rating": 4.7,
+        "ratingCount": 32,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.bracesbydrgraham.com/",
+        "phoneNumber": "(256) 739-6418",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjuyZ7uvXlLX0mAf7DCCS4PM4TU4d6S_i7yDKCSPlfd2idHGA1nPxiTNRw3ZotFIGXM2LOA2i-xwTUuOXK_ondGDvgF1DQ7F3wS6R3-sBaIGbjfEitqilQ1ZJxG5ACx1VL3JAsfA",
+        "cid": "7116758350980030642",
+        "fid": "0x8889cb9528866b0d:0x62c3ce039675a0b2",
+        "placeId": "ChIJDWuGKJXLiYgRsqB1lgPOw2I"
+      },
+      {
+        "position": 9,
+        "title": "Dr. Connor Ojard",
+        "address": "1938 AL-157 Suite 101, Cullman, AL 35058",
+        "latitude": 34.1992115,
+        "longitude": -86.8058329,
+        "rating": 5,
+        "ratingCount": 210,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://cullmanregionalmedicalgroup.com/provider/connor-a-ojard-md/",
+        "phoneNumber": "(256) 735-5505",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-FGSEoLVf6UhCmVzBRTXntaBzul2WA-MTBBFmA3-sj4XcvkEwssPzxE2JeQqSfUsCFHWzk7arszMa36FFY8uvpHPpKk0vs7FUgEPJ-QXcMqIZ4D8B7xbabo-umkl0C-9tGPQX9RPkjCLG",
+        "cid": "9089426813410707513",
+        "fid": "0x8889c9355fa55f0b:0x7e24218769418839",
+        "placeId": "ChIJC1-lXzXJiYgROYhBaYchJH4"
+      },
+      {
+        "position": 10,
+        "title": "Baptist Health Medical Group Orthopedic and Sports Medicine - Jasper",
+        "address": "2950 Hwy 78 E, Jasper, AL 35501",
+        "latitude": 33.8429292,
+        "longitude": -87.2406029,
+        "rating": 4.3,
+        "ratingCount": 30,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.precisionsportsortho.com/locations/detail/precision-sports-medicine-orthopedics---southern-orthopedic-and-sports-medicine-associates?pagestyle=card",
+        "phoneNumber": "(205) 221-5374",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQ58wDiV6yOcuA2jNTZIBVf6HOmIpFGb3Ios-nET3J2wmmSwRO8ayvHNDrrXOzznXS3VbUmuJBGrK1tkCgwrmI5vOqK9BN0lKxNG3lQAD89t-dGJW5ZJWc2HjxinYRp2V1RF1k-A",
+        "cid": "5910565136024201937",
+        "fid": "0x888ad501eac7e33b:0x52068bacfa87ead1",
+        "placeId": "ChIJO-PH6gHViogR0eqH-qyLBlI"
+      },
+      {
+        "position": 11,
+        "title": "Dr. Stephen Gould, MD",
+        "address": "1938 AL-157 Suite 101, Cullman, AL 35058",
+        "latitude": 34.1986299,
+        "longitude": -86.80710429999999,
+        "rating": 4.9,
+        "ratingCount": 132,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://cullmanregionalmedicalgroup.com/provider/stephen-gould-md/",
+        "phoneNumber": "(256) 735-5505",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbd5o980PR7iLsCsepGSe2Ey9W4k7DhrRHWLDm8alm2hg0D4YxEzbqu7h34Dk-JD2NZPrpVNehe0h7VvM8BhpEf7YG3U4_jmcot0u4Ag8gaAPz3rFSqB9gEElC3laZftvmD3Q3PA",
+        "cid": "3000668539224896876",
+        "fid": "0x8889c94d12b002c7:0x29a484236130b56c",
+        "placeId": "ChIJxwKwEk3JiYgRbLUwYSOEpCk"
+      },
+      {
+        "position": 12,
+        "title": "DOC Orthopaedics and Sports Medicine",
+        "address": "1107 14th Ave SE, Decatur, AL 35601",
+        "latitude": 34.5908736,
+        "longitude": -86.970528,
+        "rating": 4.2,
+        "ratingCount": 58,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "MRI center",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://docorthopaedic.com/",
+        "phoneNumber": "(256) 350-0362",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFU_Hv_aF5vFrgVWpmhkQxdUvMtoLAGjK6fFwk5MnJ-9_4DdVvqfKKmWbtvdQvdUEq24t0Jo08-QtYQHiY55Z87twgbkkNCr4cvUBlIappLjvTg6LVNdobUUNFVQeRzL6veITg",
+        "cid": "3491593855049251175",
+        "fid": "0x8862869220aec289:0x3074a21ca625b967",
+        "placeId": "ChIJicKuIJKGYogRZ7klphyidDA"
+      },
+      {
+        "position": 13,
+        "title": "DOC Orthopaedics and Sports Medicine",
+        "address": "615 Mynatt St SW suite b, Hartselle, AL 35640",
+        "latitude": 34.4374214,
+        "longitude": -86.9409999,
+        "rating": 4.6,
+        "ratingCount": 7,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://docorthopaedic.com/",
+        "phoneNumber": "(256) 286-0640",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://docorthopaedic.com/patient-information/schedule-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGd08waUz-y1k7lYFJ8uWFYa6R6eWEoYFCEWDGXSLATeH2TRqF1nQCAJErZxO__ztkTp9O0d0vVxcDk1ypeUL-H8qDMGVZOEB35WucVfSVhNiCDf0M0euTG1VcCxfAcBUvzW8bf",
+        "cid": "6767189138908096939",
+        "fid": "0x88882af7892e3477:0x5de9e2aaf07fa9ab",
+        "placeId": "ChIJdzQuifcqiIgRq6l_8Kri6V0"
+      },
+      {
+        "position": 14,
+        "title": "PT Orthodontics",
+        "address": "212 N Walston Bridge Rd, Jasper, AL 35504",
+        "latitude": 33.848590699999995,
+        "longitude": -87.2572217,
+        "rating": 5,
+        "ratingCount": 409,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental radiology",
+          "Dentist",
+          "Emergency dental service"
+        ],
+        "website": "https://www.ptortho.com/jasper/?utm_campaign=gmb",
+        "phoneNumber": "(205) 622-8222",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFxB0Dt2LJfulcAoJeAzbmtl6VFO1l_pnc6B0FW5w39jwwKsX9fw3XGWlP0rrwzfijUkpQUr27rPiWMOHgQum4KubyeKMT-1hMd0scaQ5OdqlxnhOXHQv2Vr-l9Q8PlN3h8MTg",
+        "cid": "3293046289874657406",
+        "fid": "0x888860d6b93d67f7:0x2db3402740e5a07e",
+        "placeId": "ChIJ92c9udZgiIgRfqDlQCdAsy0"
+      },
+      {
+        "position": 15,
+        "title": "Fuller Steven DO",
+        "address": "1908 Cherokee Ave SW, Cullman, AL 35055",
+        "latitude": 34.151306,
+        "longitude": -86.8440522,
+        "rating": 4,
+        "ratingCount": 32,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "http://www.drstevenbfuller.com/",
+        "phoneNumber": "(256) 734-4700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELe1LvltMxOA0vNjgfHX994PvOhdSGYRZ_XeH_E3tcaqmGFh7BlhjYHa_u56A0TzzKUTSk30fhpnBgQj2E2tshHJKx6a2AkUkzTbBNCeMxXKhn8vbqDfEYQ0-GvFr4tMdASa9lIg",
+        "cid": "18159602422816841302",
+        "fid": "0x8889ca48ec7156e3:0xfc03de309a521e56",
+        "placeId": "ChIJ41Zx7EjKiYgRVh5SmjDeA_w"
+      },
+      {
+        "position": 16,
+        "title": "Eric Goodrich, DO, MS",
+        "address": "1938 AL-157 Suite 101, Cullman, AL 35058",
+        "latitude": 34.1991665,
+        "longitude": -86.8058374,
+        "rating": 5,
+        "ratingCount": 10,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://cullmanregionalmedicalgroup.com/",
+        "phoneNumber": "(256) 735-5505",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG4FA3kQ10L5yV6pR4oJRVSGW49-l_leVKDV_S3fdTAqrpsOeFzj4YzA88hb7264HORdSCZEycPV5rI2P1ryU-txu4BfezDVtzbs-7CMXuVRh8Us9j9KggRJdBBlF89kcNE-0QqRDJXaFvI",
+        "cid": "17861648192422866479",
+        "fid": "0x8889c97fcfb74445:0xf7e152655c5cee2f",
+        "placeId": "ChIJRUS3z3_JiYgRL-5cXGVS4fc"
+      },
+      {
+        "position": 17,
+        "title": "The Orthopaedic Center",
+        "address": "22454 US-72 Suite 200, Athens, AL 35613",
+        "latitude": 34.7792694,
+        "longitude": -86.9229373,
+        "rating": 4.8,
+        "ratingCount": 932,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.visittoc.com/locations/toc-athens-2/",
+        "phoneNumber": "(256) 233-2332",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.visittoc.com/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFYqVd3JesNzkm8_3tb4T6OWOXYSYS4Q2fVbw8XEvsaPOvzMYYu1kQgalYEdRUn0WFyyp0SKI-BeNImBWJe5HXdytNUstXlFzsj5g5rFY8XwKgnhp0wmQmipiS6BvPB79LFdBY",
+        "cid": "498417107422433560",
+        "fid": "0x88628a58c8dcb52d:0x6eabbb7ede45118",
+        "placeId": "ChIJLbXcyFiKYogRGFHk7be76gY"
+      },
+      {
+        "position": 18,
+        "title": "The Orthopaedic Center - Guntersville",
+        "address": "7938 AL-69 Suite 100, Guntersville, AL 35976",
+        "latitude": 34.3647801,
+        "longitude": -86.4208266,
+        "rating": 4.8,
+        "ratingCount": 289,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.visittoc.com/locations/toc-guntersville/",
+        "phoneNumber": "(256) 571-8445",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.visittoc.com/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFh8Qpwae0q71U04f8rxSKvJNiauTjIZRmClRygH5KqAOJfPt-hcu4Vd63itcBW31jH2i_pDCSwgNM7vyRVt-cM7v0ZEmJM5kDPA75ugDrrzvBD3S4jvSjZtoOUNpdrAe6vKVE",
+        "cid": "15085838405075439766",
+        "fid": "0x8889e354f4e9b0f1:0xd15baa19e9779096",
+        "placeId": "ChIJ8bDp9FTjiYgRlpB36RmqW9E"
+      },
+      {
+        "position": 19,
+        "title": "Warrior Orthodontics",
+        "address": "211 Main St, Warrior, AL 35180",
+        "latitude": 33.8144176,
+        "longitude": -86.8083419,
+        "rating": 5,
+        "ratingCount": 637,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.warriororthodontics.com/",
+        "phoneNumber": "(205) 647-7811",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCWBa0_wN0iVB-XnXFiNGAcdkmh-E_G0mFS4vzF2EE7m-TiF-GshhxWjpJPOxaXPzwsnIeICgnp2Z_uIAJewIsieveJeDM7iCv7RzCw0nZb-p6LBo2MiIa4-6Jv_UCXXOEnpUluoZ-LL5D",
+        "cid": "3768685673187038619",
+        "fid": "0x8889a96e3a3ce6c5:0x344d0fa7046ad59b",
+        "placeId": "ChIJxeY8Om6piYgRm9VqBKcPTTQ"
+      },
+      {
+        "position": 20,
+        "title": "OrthoAlabama Spine & Sports",
+        "address": "1801 Gadsden Hwy, Birmingham, AL 35235",
+        "latitude": 33.6052736,
+        "longitude": -86.6312888,
+        "rating": 4.7,
+        "ratingCount": 1232,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Pharmacy",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.orthoalabama.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(205) 228-7600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoalabama.com/appointments?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-walkinclinic"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiIL8nq5CVicS4eDG0a8xs64G2uDPJgR1xAJcGfWIreeeiR7veHYPe-mhM42-ffJfgVc5-YhBveS4TJTIheqa9UKoUTZYBagW3A0NJJaKlju7OZ5v8DJdxi5ZG6IOdHNiyrxhCJQFxmeM",
+        "cid": "8353962027788748583",
+        "fid": "0x88890db0126243f9:0x73ef3c33fd734727",
+        "placeId": "ChIJ-UNiErANiYgRJ0dz_TM873M"
+      }
+    ],
+    "credits": 3
+  }
+}

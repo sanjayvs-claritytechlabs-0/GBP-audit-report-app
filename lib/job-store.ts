@@ -19,6 +19,7 @@ export interface AuditJobRecord {
     businessName: string;
     gbpUrl: string;
     websiteUrl: string;
+    keywords: string[];
   };
   createdAt: string;
   updatedAt: string;

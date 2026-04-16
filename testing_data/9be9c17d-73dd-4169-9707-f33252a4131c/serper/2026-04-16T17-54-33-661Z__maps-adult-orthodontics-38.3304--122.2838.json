@@ -1,0 +1,634 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.330356,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@36.7496011,-76.1428293,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Eastern Virginia Orthodontics",
+        "address": "711 Greenbrier Pkwy Suite 102, Chesapeake, VA 23320",
+        "latitude": 36.746727899999996,
+        "longitude": -76.2219698,
+        "rating": 4.9,
+        "ratingCount": 125,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.easternvirginiaorthodontics.com/",
+        "phoneNumber": "(757) 547-7002",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:15 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–5:15 PM",
+          "Wednesday": "8:30 AM–5:15 PM"
+        },
+        "bookingLinks": [
+          "https://www.easternvirginiaorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6vsjobL0HC3erQMEUUvo6cTEJ76u8yuHKcet__jM50JASZZtXmgYIxf3iKIqLzTq7Irdc-vALT2ozxKHx5gEUQ1kLwly2a9_ZtdDIt4WarQZOGbsgFDSaqdOkwoxNoTwJdVhO",
+        "cid": "2157552552410918694",
+        "fid": "0x89babb805ef91f6f:0x1df12a9d7eb0af26",
+        "placeId": "ChIJbx_5XoC7uokRJq-wfp0q8R0"
+      },
+      {
+        "position": 2,
+        "title": "Klar Holmes & Associates Orthodontics - Greenbrier",
+        "address": "1533 Volvo Pkwy Ste 200, Chesapeake, VA 23320",
+        "latitude": 36.7629108,
+        "longitude": -76.2050414,
+        "rating": 5,
+        "ratingCount": 130,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Emergency dental service"
+        ],
+        "website": "http://www.khabraces.com/greenbrier-location",
+        "phoneNumber": "(757) 695-3481",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "8:15 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.khabraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpx2dNgBFbDYMBMb7ySx45yTth4fUiPqwDe_3xggzwFHkwHzQlclSb8OaVauFcA82pWBcVTg3TmRVq12sJ15PUUxjsRgNz2esBGlD-NCyyQQcA6cqqoHgUgJUph-wsHq5gkQSyNQ",
+        "cid": "7512193687191903319",
+        "fid": "0x89babc8c7d8c7737:0x6840ac5b71015c57",
+        "placeId": "ChIJN3eMfYy8uokRV1wBcVusQGg"
+      },
+      {
+        "position": 3,
+        "title": "Ashby Orthodontics",
+        "address": "1021 Eden Way N #128, Chesapeake, VA 23320",
+        "latitude": 36.7767134,
+        "longitude": -76.2245368,
+        "rating": 5,
+        "ratingCount": 61,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.ashbyorthodontics.com/",
+        "phoneNumber": "(757) 340-7000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzaECKfwujsS4LCkoDzKNxV7YQqfotX3Pf-cMIWsR9Uy2VzLw1NKBl-FLqNyxPsfqXlaOVJDnZa-KZ9XgdYkqgwZUsE29WDCb43xlHcrF0n8XcXHi316Mt8hyORpS-XV5WLnF5",
+        "cid": "2884862643470070273",
+        "fid": "0x89babc589e189487:0x2809174a21d3f201",
+        "placeId": "ChIJh5QYnli8uokRAfLTIUoXCSg"
+      },
+      {
+        "position": 4,
+        "title": "Klar Holmes & Associates Orthodontics - Kempsville",
+        "address": "5241 Providence Rd, Virginia Beach, VA 23464",
+        "latitude": 36.8135866,
+        "longitude": -76.1689538,
+        "rating": 4.9,
+        "ratingCount": 302,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Emergency dental service"
+        ],
+        "website": "http://www.kvobraces.com/kempsville-location",
+        "phoneNumber": "(757) 251-9414",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "8:15 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6MVfJanAsBEc9egLDvwr6wFO4pVAi0ygfHkTYMUKH4m3rdq1uhwb78yQHSkHMDGWTiwkdlo2GihuXibMeHCxW4UYsPlZaM048Trv-F2DHWlwxZAFTUonMwsoFLL5OGOU-CpNinw",
+        "cid": "15342244362188445671",
+        "fid": "0x89babe0fadea77f9:0xd4ea99f5f17b57e7",
+        "placeId": "ChIJ-XfqrQ--uokR51d78fWZ6tQ"
+      },
+      {
+        "position": 5,
+        "title": "Prime Orthodontics Town Center",
+        "address": "4525 Columbus St, Virginia Beach, VA 23462",
+        "latitude": 36.8406944,
+        "longitude": -76.1323756,
+        "rating": 4.9,
+        "ratingCount": 40,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.primeorthodonticsva.com/",
+        "phoneNumber": "(757) 796-7846",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqOQ9Yv62yUEXxAfhO-CLrJxhqFbreglnXcE-qu9V_MdqEgCRPLXrwWHTBMPju6ErNXHF96yv9HNe9BvvCx9pcrzu3_OOKSXymGxt3eWuoPJm2kGdWtqruNl3g50h3jBwcbhu18w",
+        "cid": "10037717544186149403",
+        "fid": "0x89ba954eb9134b11:0x8b4d22eca0ebfa1b",
+        "placeId": "ChIJEUsTuU6VuokRG_rroOwiTYs"
+      },
+      {
+        "position": 6,
+        "title": "Woodard Orthodontics",
+        "address": "1403 Greenbrier Pkwy # 420, Chesapeake, VA 23320",
+        "latitude": 36.7755577,
+        "longitude": -76.2287903,
+        "rating": 5,
+        "ratingCount": 270,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://woodardorthodontics.com/orthodontist-chesapeake-va/?utm_source=google&utm_medium=organic&utm_campaign=chesapeake-gbp&utm_content=loc",
+        "phoneNumber": "(757) 523-0114",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://woodardorthodontics.com/request-an-appointment/?rwg_token=AFd1xnE2Q0S5J43a35ufL2c79YE1B_0JioNkaNkTdYngqJxqXF8xGUacq8k8mQw8nyFYcqnuk_lgN0Zoqs3hxzF4cwLoD8k3NA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFr42lDhhC3EGlBQGbdVJZWTPLDVbC5itUtl4iUdAyXJ5tqW3__3ujDr85WwbjN277SZ1TUzYa_z-tBSDNJIoYFwszGHxwLfYZ9svbeaYo7GhOqVts1voiaHwDbY8GSQ_kOSQHb0irOaYs",
+        "cid": "15895082002021432827",
+        "fid": "0x89babd3fdc67aeaf:0xdc96acdd76313dfb",
+        "placeId": "ChIJr65n3D-9uokR-z0xdt2sltw"
+      },
+      {
+        "position": 7,
+        "title": "Savage Sabol & Visser Orthodontics",
+        "address": "1300 Kempsville Rd, Virginia Beach, VA 23464",
+        "latitude": 36.7997668,
+        "longitude": -76.1732317,
+        "rating": 4.9,
+        "ratingCount": 76,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.drssavagesabolvisser.com/",
+        "phoneNumber": "(757) 333-0054",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbmGKVYjILOyjwl6ravd6VGu9wrmBrV9rE51yMmbIiXr6TzSesvBihuV7uDVZjBRDrQMJvXba_o2BdQi9I-sl4GjyC6LqV2NulRFHNEAR00410OxqRfxJGh4tjjPX5lsM37RxL",
+        "cid": "6861384226102409509",
+        "fid": "0x89babe76bb4cc233:0x5f388899b84d7925",
+        "placeId": "ChIJM8JMu3a-uokRJXlNuJmIOF8"
+      },
+      {
+        "position": 8,
+        "title": "Maddux Orthodontics",
+        "address": "351 Edwin Dr #104, Virginia Beach, VA 23462",
+        "latitude": 36.8288569,
+        "longitude": -76.1289668,
+        "rating": 5,
+        "ratingCount": 379,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://madduxorthodontics.com/",
+        "phoneNumber": "(757) 499-3530",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://madduxorthodontics.com/complimentary-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEdeE3-bQ9t2rLqYy7GYlXplRpCE8iL9F7RiwE22W0-US_yS5QjPwhungyhOmuYLcT2OIkXFKfnNnCr6lxcwSChcF0rolZYNMyIKS3uGFweg3rqbqCTrOz95eoYiFOqpkq7fwAW",
+        "cid": "14632043960086754657",
+        "fid": "0x89ba9578e1d05d33:0xcb0f767532def561",
+        "placeId": "ChIJM13Q4XiVuokRYfXeMnV2D8s"
+      },
+      {
+        "position": 9,
+        "title": "Coastal Orthodontics - Chesapeake",
+        "address": "548 S Battlefield Blvd, Chesapeake, VA 23322",
+        "latitude": 36.704983299999995,
+        "longitude": -76.2362402,
+        "rating": 5,
+        "ratingCount": 109,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://coastalorthodonticsva.com/chesapeake/",
+        "phoneNumber": "(757) 681-8181",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "11 AM–6 PM",
+          "Tuesday": "7 AM–3 PM",
+          "Wednesday": "7 AM–3 PM"
+        },
+        "bookingLinks": [
+          "https://coastalorthodonticsva.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRuEzhR-HuluiNH_GphAEnp5LMPOWBFPmFohuwKmUBqZ5d_fEq8St2__ydn9NpKXC879IJke06j9s86hhbHus0aDR5mnwsoKtMr37-HTo6cSNljuQrWNel1o-KIv5tHG_3Jryw",
+        "cid": "13371769539651817078",
+        "fid": "0x89babafd2a9d3a63:0xb992118cb555ce76",
+        "placeId": "ChIJYzqdKv26uokRds5VtYwRkrk"
+      },
+      {
+        "position": 10,
+        "title": "Davillier Orthodontics - Virginia Beach",
+        "address": "3300 Princess Anne Rd #715, Virginia Beach, VA 23456",
+        "latitude": 36.772303199999996,
+        "longitude": -76.0848986,
+        "rating": 5,
+        "ratingCount": 100,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://davillierorthodontics.com/",
+        "phoneNumber": "(757) 649-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://davillierorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWgXEMT5qqUcghF9xxYNx-AoIq6R05x2HVZWUHnv9tRe5-2Zu9UaxrBBn0JllvRfuhnPlOCNrrSoYBVEzBcR_nof7xsiWH9x7NPc5UTB7sK5IdG0CxrwzMCQ0QzgMjHFAovJrdK2hc_Nc",
+        "cid": "1778268178521499717",
+        "fid": "0x89bac124c0e00347:0x18adad7c9827a845",
+        "placeId": "ChIJRwPgwCTBuokRRagnmHytrRg"
+      },
+      {
+        "position": 11,
+        "title": "Davidson Orthodontics",
+        "address": "401 N Great Neck Rd #122, Virginia Beach, VA 23454",
+        "latitude": 36.8462323,
+        "longitude": -76.0494185,
+        "rating": 5,
+        "ratingCount": 1113,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.davidsonorthodontics.com/",
+        "phoneNumber": "(757) 962-2499",
+        "openingHours": {
+          "Thursday": "8 AM–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–3:30 PM",
+          "Tuesday": "8 AM–3:30 PM",
+          "Wednesday": "8 AM–3:30 PM"
+        },
+        "bookingLinks": [
+          "https://davidsonorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG4NDxDXtuAOc-Q34IctnBCm6ey8x1C5Az1WP3DbgSggdRdd3CsVGTrS7hMSkajpcA7prCZ6w4YdqGOzSkxy2F511k5Wu1YUF3TokSaF4TJO7QC5FYOIrhkQcKxXvPItgNQzC6D",
+        "cid": "10334111942975209297",
+        "fid": "0x89baeafaf29d1dfd:0x8f6a240f4628bf51",
+        "placeId": "ChIJ_R2d8vrquokRUb8oRg8kao8"
+      },
+      {
+        "position": 12,
+        "title": "Ashby Orthodontics",
+        "address": "4356 Bonney Rd Bldg #4, Virginia Beach, VA 23452",
+        "latitude": 36.837128,
+        "longitude": -76.12449819999999,
+        "rating": 4.4,
+        "ratingCount": 135,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.ashbyorthodontics.com/",
+        "phoneNumber": "(757) 340-7000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtW5YC-JRPa_joPBIiLBy6lTc5yfTY_z4Fgvty390twXSOcVed00hMeRCgaWoz6xYGX3v1EgmbSCcFCn9J85DNqYDMhVsBaedZ7lToWjPbjUbLwrwtiP7BZQm9oBs4YtLxWJE",
+        "cid": "12076889160713367406",
+        "fid": "0x89ba95715c394731:0xa799bab4a015ef6e",
+        "placeId": "ChIJMUc5XHGVuokRbu8VoLS6mac"
+      },
+      {
+        "position": 13,
+        "title": "Bivins Orthodontics",
+        "address": "220 Mt Pleasant Rd SUITE 200, Chesapeake, VA 23322",
+        "latitude": 36.7101569,
+        "longitude": -76.2337143,
+        "rating": 5,
+        "ratingCount": 498,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.bivinsorthodontics.com/",
+        "phoneNumber": "(757) 546-3888",
+        "openingHours": {
+          "Thursday": "7:30 AM–5:30 PM",
+          "Friday": "7 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–5:30 PM",
+          "Wednesday": "7:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKpH4kaUI9QsSoQEwSQzevEHTZ22KAn1Bu5bgZk8-267M1tL-DIwU88FNzfIkrV2ZicE2LFZtmgwsFLSFJBijw4YTEtZIMLqwbPBUDWWqwoQaA2todUmzFgStGmUYtUrWS4eUK",
+        "cid": "3339510868452497835",
+        "fid": "0x89babb030747ec39:0x2e585370fdaad9ab",
+        "placeId": "ChIJOexHBwO7uokRq9mq_XBTWC4"
+      },
+      {
+        "position": 14,
+        "title": "Eastern Virginia Orthodontics",
+        "address": "3145 Virginia Beach Blvd STE 101, Virginia Beach, VA 23452",
+        "latitude": 36.8422329,
+        "longitude": -76.0804072,
+        "rating": 5,
+        "ratingCount": 66,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.easternvirginiaorthodontics.com/",
+        "phoneNumber": "(757) 340-2881",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:15 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:15 PM",
+          "Tuesday": "8:30 AM–5:15 PM",
+          "Wednesday": "8:30 AM–5:15 PM"
+        },
+        "bookingLinks": [
+          "https://www.easternvirginiaorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMdu4q8ipYINWPSPwjKSzkoCHTF4nIRtDV2vxspVzMzoVJLdvaMvF2mSwhfPAt_5xEdYiK3xnL1jMJxZZEX2kHIMnohUhXoSi9V9XdhRgtpQgzXz2clcDpv6s85XdUNHN6wko3",
+        "cid": "2445756429264735871",
+        "fid": "0x89baeacbf9bc0a8f:0x21f11283a573ce7f",
+        "placeId": "ChIJjwq8-cvquokRf85zpYMS8SE"
+      },
+      {
+        "position": 15,
+        "title": "Prime Orthodontics Chesapeake",
+        "address": "1933 Edwin Dr, Chesapeake, VA 23322",
+        "latitude": 36.652969999999996,
+        "longitude": -76.2309531,
+        "rating": 4.9,
+        "ratingCount": 111,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.primeorthodonticsva.com/",
+        "phoneNumber": "(757) 796-7846",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQvMfe3B0AWHPHQ25Hn43FxY2qZ_9OLRAPrtBMlHiK7bjLAmr8ZmoNZiyL4weiTSzz7VjR_dVpAZgpGSrklsVE3SazpeEAG0lUGrsso7tQ4I-4Qy6gQqfKhFpUyNjGIk7syPlsU0JJ9Zzd",
+        "cid": "9492216820360936375",
+        "fid": "0x89bab178950d1d93:0x83bb20e7fc99fbb7",
+        "placeId": "ChIJkx0NlXixuokRt_uZ_Ocgu4M"
+      },
+      {
+        "position": 16,
+        "title": "Behl Orthodontics - Town Center, Virginia Beach, VA",
+        "address": "125 Independence Blvd #300, Virginia Beach, VA 23462",
+        "latitude": 36.8414459,
+        "longitude": -76.13744439999999,
+        "rating": 4.8,
+        "ratingCount": 762,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://behlorthodontics.com/location/virginia-beach-town-center/",
+        "phoneNumber": "(757) 224-3004",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://behlorthodontics.com/free-consultation/",
+          "https://schedule.jarvisanalytics.com/frame/behl-practice-services-inc?location_id=9001&rwg_token=AFd1xnFybTcbPr61lKOFV4Qw7vbmUXqQ_nEw7y3HS3BWtGetYeUdIkgJxUjuiIsBKveSXU1b8eP_bTTbvxs3T0W0rhhu7otDrNjKvAy6gAxwKuiflPsvPFY%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHoF9yEpJXe03K4CP1jJftOzrdkqg87PtxY2w7cuugnxxRWkVSUQ-qap7ZeSgF7ZzqVKDVsQyZDVtOUWhbZw2QmAr35TmXiyM6mGTsaZPeIpZY7rEXuP-EuXypoPlGYHx-tTyK4eQ",
+        "cid": "17614512861014555130",
+        "fid": "0x89ba959f21b3544b:0xf473521f145279fa",
+        "placeId": "ChIJS1SzIZ-VuokR-nlSFB9Sc_Q"
+      },
+      {
+        "position": 17,
+        "title": "ICON Oral & Maxillofacial Surgery",
+        "address": "125 Independence Blvd, Virginia Beach, VA 23462",
+        "latitude": 36.8414459,
+        "longitude": -76.13744439999999,
+        "rating": 4.8,
+        "ratingCount": 175,
+        "type": "Oral and maxillofacial surgeon",
+        "types": [
+          "Oral and maxillofacial surgeon"
+        ],
+        "website": "https://iconsmilestudios.com/",
+        "phoneNumber": "(757) 224-3004",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.vabeachortho.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5VM5FJcQXxuMCUf7We7_T6J-zdJJcOpXcY8DqKAx93LF7x10ePAFQ7faU7MGy045cYdNLG43e2WOL0XOhV3-5i8dW5wREcWgMSM_xwgdb9yb5wTE8EM3LP03893QqakXXXi9Dmg",
+        "cid": "587369342313233414",
+        "fid": "0x89ba957dd38ec95b:0x826c14e0888fc06",
+        "placeId": "ChIJW8mO032VuokRBvyICE7BJgg"
+      },
+      {
+        "position": 18,
+        "title": "Glass Orthodontics - Chesapeake",
+        "address": "200 Carmichael Way #600, Chesapeake, VA 23322",
+        "latitude": 36.659973,
+        "longitude": -76.23171719999999,
+        "rating": 5,
+        "ratingCount": 517,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://glassbraces.com/?utm_source=GBEprompt",
+        "phoneNumber": "(757) 204-7770",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://glassbraces.com/complimentary-consultation/?utm_source=GBEprompt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv8nLoYk9VoBsf-XbRprEl3uvEvL-Kp7DBIdYr7yGdCqrLsqtb8gSQu0QDaxua8oibboVUC3oCpATDXowp3l0tY9tTIP_ApL6bJMhO2sZD1imo02LtlnOIWhlx33cUzNAxiJ4",
+        "cid": "7579260676199891316",
+        "fid": "0x89bab0795afb4665:0x692ef16da8fb4174",
+        "placeId": "ChIJZUb7WnmwuokRdEH7qG3xLmk"
+      },
+      {
+        "position": 19,
+        "title": "Klar Holmes & Associates Orthodontics - Edinburgh",
+        "address": "229 Hillcrest Pkwy, Chesapeake, VA 23322",
+        "latitude": 36.656124,
+        "longitude": -76.233864,
+        "rating": 4.9,
+        "ratingCount": 38,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.khabraces.com/edinburgh-location",
+        "phoneNumber": "(757) 788-3965",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "8:15 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.khabraces.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKphI7sPnBoSO1nXuuKCs4Y6eH_W-mTUpqNd17Q9QR1ugXb3J2-NnziuumuFvsZxgz-sdO0BxovGIBl8cZjJZ3jFf-_9pUcoPC9JaHDgSGFNoW8cLh5vKq2-ZObYM_4Kp8qyDJxQ",
+        "cid": "17577168654158807195",
+        "fid": "0x89bab19f61ec54eb:0xf3eea5c35c44409b",
+        "placeId": "ChIJ61TsYZ-xuokRm0BEXMOl7vM"
+      },
+      {
+        "position": 20,
+        "title": "Weis Dental Ortho",
+        "address": "2029 Lynnhaven Pkwy #700, Virginia Beach, VA 23456",
+        "latitude": 36.7927384,
+        "longitude": -76.1231978,
+        "rating": 4.8,
+        "ratingCount": 248,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://weisdental.com/",
+        "phoneNumber": "(757) 416-1100",
+        "openingHours": {
+          "Thursday": "8:30 AM–4 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4 PM",
+          "Tuesday": "8:30 AM–4 PM",
+          "Wednesday": "8:30 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://weisdental.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbJpAm6yMSx93RYDZcNneuckws69pfunbosNDCrUIlWBIE953cvxfCAqqMYJCQXfujBtQmkZEJNKSUHyqxzqYlVHsuqoktCHAkeU02mNM4mOsydAVHRA4XjIV8kxwyVxZiQYl2",
+        "cid": "13187977655923036183",
+        "fid": "0x89babfb05400f755:0xb7051bce1f14d017",
+        "placeId": "ChIJVfcAVLC_uokRF9AUH84bBbc"
+      }
+    ],
+    "credits": 3
+  }
+}

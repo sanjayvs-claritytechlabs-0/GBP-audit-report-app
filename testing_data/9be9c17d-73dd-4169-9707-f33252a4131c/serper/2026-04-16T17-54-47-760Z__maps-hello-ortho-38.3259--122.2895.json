@@ -1,0 +1,180 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.325865,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@39.459328,-98.295835,4z",
+    "places": [
+      {
+        "position": 1,
+        "title": "ROG Orthodontics",
+        "address": "840 Penn Ave, Wyomissing, PA 19610",
+        "latitude": 40.3354472,
+        "longitude": -75.9555343,
+        "rating": 4.9,
+        "ratingCount": 899,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.fantasticsmiles.com/",
+        "phoneNumber": "(610) 374-4097",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZy6HfPzVfsMnPnx8nMzlI3JkEytuxtXehxCznxY7vVHinHtde3wgxiWfZaZoTHEEUFbSCIAravhy_Otqq--o3I7fkBwA8KluhuDkqAIO__Bnpk-WtLneT0DCwdRbgJEKoLhZwug",
+        "cid": "14937597207198841232",
+        "fid": "0x89c671377a4b2623:0xcf4d018464f43990",
+        "placeId": "ChIJIyZLejdxxokRkDn0ZIQBTc8"
+      },
+      {
+        "position": 2,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnGWcSmyJDX14vSJwLBer8KQ3JRBbwubA_mZhl7Ip4LaLGHGhLKbgk03zYv0S9JXziybfMq3Sj4UUvGGUFYYfaoxMWolnS4obKGx5TU2swIeGhFEca8%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnELLpn9i0ViFNBXsznr3wJfHKUwFI6qGHjGMXvtQaKPW6_g_ZeUDGz0WI7E8bSN09eJ4a2OpOm5RHqL74DWKH1VpbzTgePlywMThsLSmaTI9hG3tYA%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 3,
+        "title": "Brooklyn Orthodontics",
+        "address": "9012 5th Ave, Brooklyn, NY 11209",
+        "latitude": 40.6189763,
+        "longitude": -74.02865109999999,
+        "rating": 4.8,
+        "ratingCount": 477,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Oral surgeon"
+        ],
+        "website": "https://www.bkortho.com/",
+        "phoneNumber": "(718) 333-5898",
+        "openingHours": {
+          "Thursday": "9:30 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "9:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXamoHe7Q2ce2jQjLefcDKMQSlvQf2J9IVUp27Hc-KjskfIcR6Vh8o7-cFdG7IixBgadfgv-MZ5faPt0dtjo_K70h708pU9BuCVaU95j9oc_8Kvts5D7XMvqNB8UbQJhsdgLjR",
+        "cid": "12127473511599229075",
+        "fid": "0x89c24559957bd10d:0xa84d70e799d4c893",
+        "placeId": "ChIJDdF7lVlFwokRk8jUmedwTag"
+      },
+      {
+        "position": 4,
+        "title": "Hanson Place Orthodontics",
+        "address": "1 Hanson Pl #702, floor 7, Brooklyn, NY 11243",
+        "latitude": 40.685389199999996,
+        "longitude": -73.97769819999999,
+        "rating": 4.7,
+        "ratingCount": 256,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.hansonplaceortho.com/",
+        "phoneNumber": "(718) 622-2695",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.hansonplaceortho.com/for-new-patients/contact-us/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvSsQicqMXD_z9vbl3cBF0n3J9X154RGXNjJCbArcAuTSYFbruB-2fuwFj31NI0my8IVl6loBRZmpkKWHMIfqulqwapQOlls1OWDBou8eKqaARd0VcI-bhngav26E1sTzH-IEdyg",
+        "cid": "4127651694068211171",
+        "fid": "0x89c25badf7f5ab9f:0x39485d58b5799de3",
+        "placeId": "ChIJn6v1961bwokR4515tVhdSDk"
+      },
+      {
+        "position": 5,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnG5J3hMtfel-I4kqu3aCo-OsvXa3DMdrTEablKifCBzTXmDkrPi31w-9_xaz7wsqHQ5tTQvN5Fc-L9x5MdxHY3W_zr-wFvNUfBVyfenP2IdohtJzeQ%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

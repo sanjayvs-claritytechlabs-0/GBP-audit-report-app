@@ -18,6 +18,7 @@ import type {
   BacklinkData,
   NAPData,
 } from "@/types";
+import { persistTestingJson, persistTestingText } from "@/lib/testing-data";
 
 // ---------------------------------------------------------------------------
 // PageSpeed Insights
@@ -25,7 +26,8 @@ import type {
 
 async function runPageSpeedInsights(
   url: string,
-  strategy: "mobile" | "desktop"
+  strategy: "mobile" | "desktop",
+  debug?: { uuid: string }
 ): Promise<PageSpeedMetrics> {
   const apiKey = process.env.GOOGLE_PSI_API_KEY;
   if (!apiKey) {
@@ -46,6 +48,20 @@ async function runPageSpeedInsights(
       `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?${params}`,
       { timeout: 30000 }
     );
+
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "pagespeed",
+        name: `psi-raw-${strategy}`,
+        data: {
+          endpoint: "pagespeedonline/v5/runPagespeed",
+          strategy,
+          url,
+          response: response.data,
+        },
+      });
+    }
 
     const lhr = response.data.lighthouseResult;
     const audits = lhr.audits;
@@ -389,15 +405,43 @@ async function fetchBacklinks(url: string): Promise<BacklinkData> {
  */
 export async function auditWebsite(
   url: string,
-  canonicalNAP: NAPData
+  canonicalNAP: NAPData,
+  debug?: { uuid: string }
 ): Promise<WebsiteAuditResult> {
   // Run crawl and PSI in parallel
   const [crawl, mobile, desktop, backlinks] = await Promise.all([
     crawlWebsite(url),
-    runPageSpeedInsights(url, "mobile"),
-    runPageSpeedInsights(url, "desktop"),
+    runPageSpeedInsights(url, "mobile", debug),
+    runPageSpeedInsights(url, "desktop", debug),
     fetchBacklinks(url),
   ]);
+
+  if (debug?.uuid) {
+    await persistTestingJson({
+      uuid: debug.uuid,
+      category: "website",
+      name: "crawl-metadata",
+      data: {
+        url,
+        finalUrl: crawl.finalUrl,
+        statusCode: crawl.statusCode,
+        isHttps: crawl.isHttps,
+        responseTime: crawl.responseTime,
+        redirectCount: crawl.redirectCount,
+        hasGzip: crawl.hasGzip,
+        hasBrotli: crawl.hasBrotli,
+        serverHeader: crawl.serverHeader,
+        htmlLength: crawl.html.length,
+      },
+    });
+    await persistTestingText({
+      uuid: debug.uuid,
+      category: "website",
+      name: "crawl-html",
+      text: crawl.html,
+      ext: "html",
+    });
+  }
 
   const performance: PageSpeedData = { mobile, desktop };
   const onPage = parseOnPage(crawl.html, url);

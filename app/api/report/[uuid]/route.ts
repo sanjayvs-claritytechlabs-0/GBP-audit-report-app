@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getJobStore } from "@/lib/job-store";
+import { loadPersistedReport } from "@/lib/testing-data-replay";
 
 export async function GET(
   _request: NextRequest,
@@ -10,6 +11,10 @@ export async function GET(
   const job = store.get(uuid);
 
   if (!job) {
+    const persisted = await loadPersistedReport(uuid);
+    if (persisted) {
+      return NextResponse.json(persisted);
+    }
     return NextResponse.json(
       { error: "NOT_FOUND", message: `No report found with uuid: ${uuid}` },
       { status: 404 }

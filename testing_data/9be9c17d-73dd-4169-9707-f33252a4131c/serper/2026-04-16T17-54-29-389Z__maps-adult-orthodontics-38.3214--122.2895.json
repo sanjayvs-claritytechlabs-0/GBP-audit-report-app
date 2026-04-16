@@ -1,0 +1,630 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.321373,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@41.9549234,-88.1809601,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Katsis Orthodontics Ltd.",
+        "address": "110 S Oak Ave, Bartlett, IL 60103",
+        "latitude": 41.994421599999995,
+        "longitude": -88.1858237,
+        "rating": 4.9,
+        "ratingCount": 110,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.katsisortho.com/",
+        "phoneNumber": "(630) 894-5557",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "12–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMjtIHHZ0C52LhNadz_076jCQuh_E1-QsGov1OYoixi76M0RdXoXfGddXl02HTFKvkzlimgcOWtAkszXep7VPZm7oeWDZC3ViqOyYbLp2oCPk-WextuBPUMJnnP5pdEshf-Wu1tA",
+        "cid": "15873870298755023495",
+        "fid": "0x880f074878d7b74f:0xdc4b50eeefeac287",
+        "placeId": "ChIJT7fXeEgHD4gRh8Lq7-5QS9w"
+      },
+      {
+        "position": 2,
+        "title": "Northwest Orthodontics",
+        "address": "820 S Bartlett Rd # 105, Streamwood, IL 60107",
+        "latitude": 42.017074,
+        "longitude": -88.183559,
+        "rating": 4.9,
+        "ratingCount": 189,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://northwestorthodontics.com/",
+        "phoneNumber": "(630) 830-9700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–1 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.northwestorthodontics.com/appointment-request.php"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQqFeMjeWCtuQgwoBGttRtIUxeMA-jK-pQP9u0zXRI6WfB1WMlZAR8J0bB7q6LxAlt8Z0yszmGrOkIt2rCLLl4wHuEFxtJTlkLM-w0WHokNwcLF8PV9MdgPvb8U4bGc_-0Q90oMQ",
+        "cid": "439259439260225031",
+        "fid": "0x880f0773d6a82d51:0x6189021f957ce07",
+        "placeId": "ChIJUS2o1nMHD4gRB85X-SGQGAY"
+      },
+      {
+        "position": 3,
+        "title": "Hurley and Volk Orthodontics - Schaumburg",
+        "address": "12 S Roselle Rd, Schaumburg, IL 60193",
+        "latitude": 42.0265777,
+        "longitude": -88.0803433,
+        "rating": 4.9,
+        "ratingCount": 730,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://hurleyvolkortho.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=SCIL",
+        "phoneNumber": "(847) 289-8800",
+        "openingHours": {
+          "Thursday": "7 AM–3:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.hurleyvolkortho.com/NewPatient/Office/Schaumburg-Roselle?rwg_token=AFd1xnHELzzYZtzmMyWlvVpY9oCEF2tWpoLTfEZkbvJ6ENjrByEHejdBmjuQZMfMtW-ukmWUzVJdlpgX2XnvfM5Ddj7uKMnlKQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErJUA-KCNHjUyadf9e9C6_Wf9kfHbl6cUCl2N461XeIt9Isqda1dpcxntait2WVkLitUXuDdNMFHgL2F_yRBDKL6JPo7Uhmevyk3wAK30sYebntGjyUOn3tASFl8FnAmx_SNy3",
+        "cid": "9045634690087237024",
+        "fid": "0x880fa8e24e502e85:0x7d888cd32699b5a0",
+        "placeId": "ChIJhS5QTuKoD4gRoLWZJtOMiH0"
+      },
+      {
+        "position": 4,
+        "title": "Wheaton Orthodontic Center",
+        "address": "116 W Willow Ave, Wheaton, IL 60187",
+        "latitude": 41.8629859,
+        "longitude": -88.107511,
+        "rating": 4.9,
+        "ratingCount": 609,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://wheatonorthocenter.com/",
+        "phoneNumber": "(630) 668-0197",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.wheatonorthocenter.com/NewPatient/Office/Wheaton-Willow?rwg_token=AFd1xnEGYyGMscnmUAbK8bm2Cly7KJlcGl_XOA_wk7eUKW1vIJE90ppJNPLK2UBiS0p4N66N5ezD-Eu7HC0jtEegHw2fJGPfCA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZkVA8o584mtKkF4b_ghf_ip7vmuMjSJKSDmr2SFvRi8s5AUj-cjx691uh3kbHc_OGIUQoWw6O2uETYuGY074_ysT8zDyIHaL45uSf3x88SxzxrV3_PcjRp4q8Qilhhp1p97M",
+        "cid": "18362829952063612609",
+        "fid": "0x880e54604bfd219f:0xfed5e08d0ba7a6c1",
+        "placeId": "ChIJnyH9S2BUDogRwaanC43g1f4"
+      },
+      {
+        "position": 5,
+        "title": "Prose Orthodontics",
+        "address": "2055 Foxfield Rd, St. Charles, IL 60174",
+        "latitude": 41.9231337,
+        "longitude": -88.28679149999999,
+        "rating": 5,
+        "ratingCount": 470,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.proseorthodontics.com/",
+        "phoneNumber": "(630) 584-6555",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–12:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.proseorthodontics.com/newpatient/office/StCharles-Foxfield?rwg_token=AFd1xnHXhWnabXcbhZibN5ban1QWeOjPs5MWsw2ApCnjPG4jz3RiIUbF0xvTqPBNW2LdD8AAnIdTepZ0hNHwtjSt5RGFm6StlA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHn-bBcjFNhFybZSft6btjobMorzorf1eoYBjrCrVmZDgfsqq6JE1WIb2KR1LkuH6QJDI58M15GaMuhjtWNk1AhUXZ7jzpO3gXpY4_ZNg1OfWBjZ0g_xfBeHPqbnMqIuRFn0_Q",
+        "cid": "3265852684329793967",
+        "fid": "0x880f028a47c0ec87:0x2d52a3b6923bb9af",
+        "placeId": "ChIJh-zAR4oCD4gRr7k7krajUi0"
+      },
+      {
+        "position": 6,
+        "title": "Midwest Orthodontic Center-Elgin",
+        "address": "500 Waverly Dr, Elgin, IL 60120",
+        "latitude": 42.0468608,
+        "longitude": -88.2554159,
+        "rating": 4.8,
+        "ratingCount": 185,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://midwestorthodontics.com/locations/elgin-il-60120/?y_source=1_MTA2NjMwNjg1Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(847) 488-1080",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.localmed.com/widgets/c7a6d3e6-9299-4045-97dc-f81bf0f326d7/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEt639vAJ6PsnHYTljdNAi6Lgi--B_fl1qrEiKlkHAmFSU7875UUH_PlZwAplADwD5u3dogFV28O__wthHA57DwgAnbQWIZ2qFwfiVmQ3oOR_bj3gIH0DnIpa_0lcRrcdFVILNg",
+        "cid": "3975319655193059482",
+        "fid": "0x880f05e7ce2f2d27:0x372b2c2a0c69209a",
+        "placeId": "ChIJJy0vzucFD4gRmiBpDCosKzc"
+      },
+      {
+        "position": 7,
+        "title": "Star Smiles Orthodontics and Pediatric Dentistry",
+        "address": "148 E Lake St Suite C, Bloomingdale, IL 60108",
+        "latitude": 41.9559977,
+        "longitude": -88.07613359999999,
+        "rating": 4.9,
+        "ratingCount": 873,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Pediatric dentist"
+        ],
+        "website": "https://starsmilesorthopedo.com/orthodontist-bloomingdale-il/",
+        "phoneNumber": "(630) 980-8800",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZ778Q5dWhqZrAeOjKJzcQBx8RHBPzPbYEcW065V5fbAIHlE_RGESGEGKYvMKn8nI6e98UrYAJUvtfb3YmecCy3gdXs12vLyVdnvA_EfpyvSRc1L34DhAV-CPQ-8TO6xwKEAaJPw",
+        "cid": "15724224814649919493",
+        "fid": "0x880fac6eca25dd23:0xda37ab288d974805",
+        "placeId": "ChIJI90lym6sD4gRBUiXjSirN9o"
+      },
+      {
+        "position": 8,
+        "title": "Katsis Orthodontics Ltd.",
+        "address": "130 N Bloomingdale Rd, Bloomingdale, IL 60108",
+        "latitude": 41.9604487,
+        "longitude": -88.0820318,
+        "rating": 4.9,
+        "ratingCount": 100,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.katsisortho.com/",
+        "phoneNumber": "(630) 894-5557",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "8 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "12–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAf0R7D1ga0Ge3vKPteZpU8dRp4JCr4Mw_ovYn5hFn0mzuPEZi-KXf6Uhtkgf5iCHWOtlVC8rMTObwNu7h5mUMt_iOB0gpmMrwYevYPhzxrsZn630s-hh-XhXUi4_mJnEqmcvmnQ",
+        "cid": "8269732657161990869",
+        "fid": "0x880fac72596d40bf:0x72c3fe09699672d5",
+        "placeId": "ChIJv0BtWXKsD4gR1XKWaQn-w3I"
+      },
+      {
+        "position": 9,
+        "title": "Blooming Braces",
+        "address": "125 S Bloomingdale Rd #9, Bloomingdale, IL 60108",
+        "latitude": 41.9551879,
+        "longitude": -88.0806288,
+        "rating": 4.9,
+        "ratingCount": 145,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://bloomingbraces.com/",
+        "phoneNumber": "(630) 924-0800",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://bloomingbraces.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG994QFu8Ge__HsmCFmssvzvFPQJy0ACY6vbfTxOmvK2JEEBJ8l4qXIWJh991y_5d_5R4p2zYay3KV0fvS39mBvGPbCmV-ryEcNyYDLJb98p978eZruN1-lsfqPXLwVlpskonf9",
+        "cid": "1837663175399376425",
+        "fid": "0x880fac71a4f1a993:0x1980b0ebf27f0629",
+        "placeId": "ChIJk6nxpHGsD4gRKQZ_8uuwgBk"
+      },
+      {
+        "position": 10,
+        "title": "Razi Orthodontics",
+        "address": "2212 N Main St, Wheaton, IL 60187",
+        "latitude": 41.888748799999995,
+        "longitude": -88.1072681,
+        "rating": 4.9,
+        "ratingCount": 378,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.raziortho.com/",
+        "phoneNumber": "(630) 614-1162",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://raziortho.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHborn477EQjiV4uPTvqZe2VSVQYCFNOhw-6JE4tZ-pFoYv8nK9c-4jab8elDFPsP4aONTj7YIqtgpKV_LUEHDYfJ3P-c9ITzo-eP3PsBgQ5sfTgOVGOxceCI7-v9_gDs-zoqPM",
+        "cid": "4836085007995750338",
+        "fid": "0x880e54bed6a9876b:0x431d39b12d2dc7c2",
+        "placeId": "ChIJa4ep1r5UDogRwsctLbE5HUM"
+      },
+      {
+        "position": 11,
+        "title": "Hurley and Volk Orthodontics - South Elgin",
+        "address": "484 Briargate Dr Unit 101, South Elgin, IL 60177",
+        "latitude": 41.9796774,
+        "longitude": -88.3442762,
+        "rating": 4.9,
+        "ratingCount": 442,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://hurleyvolkortho.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=SEIL",
+        "phoneNumber": "(847) 289-8800",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:45 AM–4:45 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7:45 AM–4:45 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.hurleyvolkortho.com/NewPatient/Office/SouthElgin-Briargate?rwg_token=AFd1xnFt4sjYY4VebOcCCwdXpE-KSMoZHAWfrFVwtgzlBWEqHOAxkyKi86bYvvTYH7zu0xtThYSOZ0CaxwucKb-0Jad3-me-6g%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGk2_Tahiiv3VBotRVRoYYi5JWs8Gw-bVufIRJU2S6dD4zFLxgDCBmoPTGh0kZfsXljUn243AVxITmNd8fVY0762e6Lx2Vgd_4pBfL7pXc_APOFmL-Q_RJE9anWUuYofv5WV4XZ-w9IEOHd",
+        "cid": "12996490729756933315",
+        "fid": "0x880f1c988bc4358d:0xb45ccf75d9d1bcc3",
+        "placeId": "ChIJjTXEi5gcD4gRw7zR2XXPXLQ"
+      },
+      {
+        "position": 12,
+        "title": "Nudera Orthodontics",
+        "address": "81 S McLean Blvd B, South Elgin, IL 60177",
+        "latitude": 41.9941278,
+        "longitude": -88.3139016,
+        "rating": 4.9,
+        "ratingCount": 112,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://www.nuderaorthodontics.com/",
+        "phoneNumber": "(847) 760-6353",
+        "openingHours": {
+          "Thursday": "12–6:45 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.nuderaorthodontics.com/schedule-your-free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiwuXkR4L_awMOs0ATOCUxA9EFlcwUJn1gWgPOAp-kp0fcmIhjivuMkkKZaEwUKSE0cp3IqgP3qam-5e0bY3nGlJDF-DJv3uyZppKQOgjileNVNy9hrzpMZf8kMaLB-z_4I-7DDg",
+        "cid": "1023160425318600085",
+        "fid": "0x880f04afb69e428f:0xe32fefc635a4d95",
+        "placeId": "ChIJj0Ketq8ED4gRlU1aY_z-Mg4"
+      },
+      {
+        "position": 13,
+        "title": "All About Yue Orthodontics",
+        "address": "275 W Elk Trail, Carol Stream, IL 60188",
+        "latitude": 41.925475,
+        "longitude": -88.12742279999999,
+        "rating": 5,
+        "ratingCount": 34,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://allaboutyueorthodontics.com/carol-stream-location/",
+        "phoneNumber": "(630) 882-0988",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHu1r9R49AFrgmJlQRgsvtYBBrPX2jb33c2zsODABf5EpchVXbAeG8cgXNGoD7wtAkPjXDJ3o-Qyg65lmiTnpEbs3N-8SRpg7i2Hr30mAoWS7tIAT9c4vfZY7PR8okDINQL86lA",
+        "cid": "8297383629452709766",
+        "fid": "0x880fab274ec3c745:0x73263a7316ab8f86",
+        "placeId": "ChIJRcfDTierD4gRho-rFnM6JnM"
+      },
+      {
+        "position": 14,
+        "title": "Central Dupage Orthodontics, Ltd., Dr. Golden",
+        "address": "300 S West St #2, Wheaton, IL 60187",
+        "latitude": 41.8631794,
+        "longitude": -88.1119363,
+        "rating": 5,
+        "ratingCount": 45,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.centraldupageortho.com/",
+        "phoneNumber": "(630) 665-3317",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8:30 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–6:30 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG17r3KRqF0JktXyCAvm4SMceSvaLQ6g3hWAT_-PSuBm6MXFpJ5SdFfz5htJpj_aXMuu_I87O1IwI1EsRJBwnDTHlI8GC-w4wRGBr62purpJRza6IGbYDxGfci0uX-l2TbYWWVRPQ",
+        "cid": "7140468817780532785",
+        "fid": "0x880e545fa0308b29:0x63180a8ed58fe631",
+        "placeId": "ChIJKYswoF9UDogRMeaP1Y4KGGM"
+      },
+      {
+        "position": 15,
+        "title": "Saylor & Murphy Orthodontics",
+        "address": "414 Pennsylvania Ave, Glen Ellyn, IL 60137",
+        "latitude": 41.8769225,
+        "longitude": -88.07188339999999,
+        "rating": 4.9,
+        "ratingCount": 97,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.smilingfaces.net/",
+        "phoneNumber": "(630) 858-0850",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.smilingfaces.net/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_KarT6q9KX58o0on0ERrca5H-wiu_d-7LwnSkjHjpwQj-FObKF1hSTgR3-n3kkP_gcpWqNWtgWSVBPe1hXAgNzM_za2iwM2cKXkZnl4kpM-yRQ-nl6vsKKp0pqIekhy7tXMDp",
+        "cid": "10083393839928743693",
+        "fid": "0x880e53105586a0bb:0x8bef6945f750970d",
+        "placeId": "ChIJu6CGVRBTDogRDZdQ90Vp74s"
+      },
+      {
+        "position": 16,
+        "title": "Wardell Orthodontics",
+        "address": "1375 Woodfield Rd #100, Schaumburg, IL 60173",
+        "latitude": 42.0423591,
+        "longitude": -88.0464543,
+        "rating": 5,
+        "ratingCount": 79,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.wardellorthodontics.com/",
+        "phoneNumber": "(847) 884-0250",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–5:30 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=tzibJ5172cEcTJIWOkYMug&cb_client=search.gws-prod.gps&w=80&h=92&yaw=62.261177&pitch=0&thumbfov=100",
+        "cid": "10687882889106446393",
+        "fid": "0x880faf4bc3a66fa7:0x9452fcdc5e2a5839",
+        "placeId": "ChIJp2-mw0uvD4gROVgqXtz8UpQ"
+      },
+      {
+        "position": 17,
+        "title": "Katsis Orthodontic Associates",
+        "address": "1213 Joliet St g, West Chicago, IL 60185",
+        "latitude": 41.8664662,
+        "longitude": -88.20398639999999,
+        "rating": 5,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.katsisortho.com/",
+        "phoneNumber": "(630) 894-5557",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVC8MDSenoN3RB9yX630HtBlME9qm8oqg7HgHqm8DjFXhbEO1cv6MCr60p7NTm2WNmNXssy81vbKS67k5rnAvUccSxiV08vzb63iZnPFlv6wbyEIGsJn5lldQPxl4BDEAVf0I",
+        "cid": "9395422755581677283",
+        "fid": "0x880effaa70f2780b:0x82633f3795114ee3",
+        "placeId": "ChIJC3jycKr_DogR404RlTc_Y4I"
+      },
+      {
+        "position": 18,
+        "title": "Weber Orthodontics",
+        "address": "210 W Willow Ave, Wheaton, IL 60187",
+        "latitude": 41.8630359,
+        "longitude": -88.1087029,
+        "rating": 4.8,
+        "ratingCount": 131,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://weberortho.com/",
+        "phoneNumber": "(630) 665-5552",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "11 AM–6 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–3 PM"
+        },
+        "bookingLinks": [
+          "https://edgebooking.ortho2.com/search?catalog=0952051d-ac9e-4447-822e-52aecca942c2&code=nnckgt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnQIc4JYDYlRT1vgpNJ5Bd3LWPb-alujJhKs5YPLBDS1v1kb6k2ufSMm-Nm7wcQTugRIAukRZtFnOmyTgnOT0eKlLC5RQUfmbyczedO5obE6kyF0csaxMHFUJe3GgTiaXOi4BA",
+        "cid": "1910653147566341349",
+        "fid": "0x880e54606c092249:0x1a8400ea25ac7ce5",
+        "placeId": "ChIJSSIJbGBUDogR5XysJeoAhBo"
+      },
+      {
+        "position": 19,
+        "title": "Naborowski Orthodontics: Michael Naborowski, DDS",
+        "address": "1201 Army Trail Blvd Unit 3, Addison, IL 60101",
+        "latitude": 41.9290057,
+        "longitude": -88.0176441,
+        "rating": 4.9,
+        "ratingCount": 14,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.naborowskiorthodontics.com/",
+        "phoneNumber": "(630) 543-5051",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.naborowskiorthodontics.com/p/Form-949-p.asp"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzAyqjcyCpxK_v7CPt0u21BpgkhmmIUDQWabaScqLsI9RE2eUaVtLYCOvB29BG-75tAwi_z8AsvdQBTEOICn569XlT-rguNsElvGdYp92vChB8OQ6E4IiLdsJ3uY8djHJXE8-FWA",
+        "cid": "4407376881300527854",
+        "fid": "0x880fad646c41447d:0x3d2a25ec192fdaee",
+        "placeId": "ChIJfURBbGStD4gR7tovGewlKj0"
+      },
+      {
+        "position": 20,
+        "title": "Prairie View Orthodontics - Geneva",
+        "address": "1129 Randall Ct, Geneva, IL 60134",
+        "latitude": 41.8767996,
+        "longitude": -88.3412182,
+        "rating": 4.9,
+        "ratingCount": 235,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://prairieviewortho.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=GEIL",
+        "phoneNumber": "(630) 232-2277",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.prairieviewortho.com/NewPatient/Office/Geneva-Randall?rwg_token=AFd1xnENnWANTBaqcHWKZXez2B4pXb5ZGJ0ud4nEE0IqIq8jdBBq8EG9r1jkjkwyv_OS0Wq4B7UHAnIaXNyvAlO92ZD50h7Cqg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrFwVWNd19n-4lLHS659KxtAOkGHWrIVJeVn3lVQszExfSOmNYpsgzlpu57BZFkcHAil302n-MyE2c303KcRaKFJx3-SdX4AWqsDHYoBvfZYF3_9Pv5DZvOnvNgKAScxA66TYk",
+        "cid": "15592609096456760990",
+        "fid": "0x880ee2dd0fbb5621:0xd864135c2bd46e9e",
+        "placeId": "ChIJIVa7D93iDogRnm7UK1wTZNg"
+      }
+    ],
+    "credits": 3
+  }
+}

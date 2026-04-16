@@ -1,0 +1,262 @@
+{
+  "endpoint": "v1/places/{placeId}",
+  "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs",
+  "fieldMask": "id,displayName,formattedAddress,nationalPhoneNumber,internationalPhoneNumber,websiteUri,regularOpeningHours,primaryType,primaryTypeDisplayName,types,rating,userRatingCount,photos,priceLevel,businessStatus,location,accessibilityOptions,paymentOptions",
+  "response": {
+    "id": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs",
+    "types": [
+      "dentist",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "nationalPhoneNumber": "(707) 226-5555",
+    "internationalPhoneNumber": "+1 707-226-5555",
+    "formattedAddress": "3449 Valle Verde Dr A, Napa, CA 94558, USA",
+    "location": {
+      "latitude": 38.3258649,
+      "longitude": -122.29266480000001
+    },
+    "rating": 5,
+    "websiteUri": "https://www.helloortho.com/",
+    "regularOpeningHours": {
+      "openNow": false,
+      "periods": [
+        {
+          "open": {
+            "day": 1,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 17,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 17,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 17,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 17,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 17,
+            "minute": 0
+          }
+        }
+      ],
+      "weekdayDescriptions": [
+        "Monday: 8:00 AM – 5:00 PM",
+        "Tuesday: 8:00 AM – 5:00 PM",
+        "Wednesday: 8:00 AM – 5:00 PM",
+        "Thursday: 8:00 AM – 5:00 PM",
+        "Friday: 8:00 AM – 5:00 PM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ],
+      "nextOpenTime": "2026-04-16T15:00:00Z"
+    },
+    "businessStatus": "OPERATIONAL",
+    "userRatingCount": 438,
+    "displayName": {
+      "text": "Hello Ortho - Napa",
+      "languageCode": "en"
+    },
+    "primaryTypeDisplayName": {
+      "text": "Dentist",
+      "languageCode": "en-US"
+    },
+    "primaryType": "dentist",
+    "photos": [
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEFZl7FU1wPsbTek2R_jXsA6Izp1rm3-HV_iVRelncbBhldmcZRxharlJ-MfK80q1oyiKftax7h9UufzAcT6zrj8vkLBHgpmScU4DFO1JxNI09Ut7F72R5uUl62AWIYR_cJZ2cEaRkkJ5XppCD9lmijt4-BFQVI1BSQ6sSVdd_KjgfWMUrajT019KpvkIVuFPY9m9jc-b8RbH-9hqivKpKbQdrQMHd7T-2jAWKCRfp7yXaQxzxA2OSHg5Bx6ioyee785lE-X8JcTd0riGoqP2ZKZKBCfpYrsB1-XQ-3ntgiaGg",
+        "widthPx": 1000,
+        "heightPx": 564,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPZg_rUcclD9br1Zv0GO4PJavkczcHIWCJGtckU&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPZg_rUcclD9br1Zv0GO4PJavkczcHIWCJGtckU!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEHClY81cV3dH3RgGEX7ml8cUNG9z5v17D3CsAdtktN0ihwH1JB-f22huBVixQKHzrZpoEr-LERdeBAE0wbVWaaL9CTlOseMes4wT7rm0wBDeA60YgwlRWlIrOaaNbpI3fM-pfaXA0o-eKg4QixsK2kE8OX1GPK58xZQfIbJ6dLX8qrguvOBBgl_K8DuH5eGIc-DQhl_pmkG5IeE0s1E69mbULX-91ttPgLl50ErXF827tKLDbAkyFUk_ZArCOd5o5qcFtedQc9jB8gLJ4NJSf4Tomy7L81hfomxPwccCmbzNA",
+        "widthPx": 1600,
+        "heightPx": 1067,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipMRJTFKrB46hmMPwLenODco61pfhP5QJBX54ZUF&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMRJTFKrB46hmMPwLenODco61pfhP5QJBX54ZUF!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEGURCgbc6KMyqCMhttm1GlRXkR-BADtHwmWB53gSVe_IaFsVY1nSXBXOM85lPFRz9zMmeAcoOcqgVBAEJhyJuryQQG6elJZNLViT_9-4NYG_eTJgaHrkOCsDqsSbgUAt3wW1Kif-Uq2jVogSiOyfbDK_f-CWuUk2SHJUgdzH8CrQ3ln6kDovZvxN3cy8I9xq_qawEJGxGAL_jRuje6DM1_5FcJ8k0oE7RL6-pAHhyePuZFwQpvhS73l5nqARUk_BJekNT3BUgQvXpcsW5SR8MocFfryXyEt5njhTIVDgq9f7YWYc_KAtk_Lothh5WsVaDCJjgLgHp_JJ_pOrDf9OTtINp31xdu6uIDjLZa3V8YQuf1zwpcbtfkzylZ_WBRqfLQyzTattduTZZxKPNyBguUcHl17F7bcX2erhD-TvFIaZLU",
+        "widthPx": 3024,
+        "heightPx": 4032,
+        "authorAttributions": [
+          {
+            "displayName": "Jessica Ramos",
+            "uri": "https://maps.google.com/maps/contrib/104367641718111877248",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLH5tRJVfVMzL6SVxg12-enzUmzuvAxRq5RdEx8Cd4eAuSp8A=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIC23rXnowE&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC23rXnowE!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEFkiwGUCj0HVZfD39TtNxqrMyPKNk3LBdeVGWkQhaMDyyyZnmYHNjkbpu0AuxEly8ESUIhhJSm5_bXMUaHwxavV5dtYeR_8-PFAQZH243B8Tj0sFn3BMQ1Ohv5KnCqhAB86iBR96DrBuIIZ0Fi46JW72GJz02USQLJqAl7xbLDgJBmLzufcXuf5adKp2ILv37ePSvPXjPfOObSRQNKAhNsfHrzgEjr-qxhZlVWTjnFq7Q6NGrrcStwQtmEqq7pEV3cwuBCaCxkmUqKBqGA8c3Vbr9iulais9oeaNtBVAeo_AwT4BJWdvmQIgaCWi2y18yx_AlMUcK8BAlMGl_B4HkMILPXNbztPSNBv_2eKP3JJUdf3asJxN9UAEwDaEDCJjZ6ZdAgAq5omYgJmk4jq3P1pNztZerJh_eizNmW_Lag6-Q",
+        "widthPx": 757,
+        "heightPx": 1077,
+        "authorAttributions": [
+          {
+            "displayName": "Emma Lily",
+            "uri": "https://maps.google.com/maps/contrib/102788131180152870984",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJgr9FG4gMQlljXgeeXVW59qOt1JiBnqmvGJ6yZAGUZahqToA=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICW-522LA&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICW-522LA!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEHhOIeDhm_6pVbiTQJKREj--aSfVwflLD7gMzuc3f_sUtskC13BgjeA_LDh3vGBH6fCsdzO7U4i9u9pTbMHGvIClf7jiZvO3CwZT1IW2kQDCilP0_76u2OQjZLNqD6DNNzNxhtWteGoo4hYv7FJzE3e_qPDI5UnmoRzRVEsaRoVoHTTCQjDqaToS8Eyrgm3fH23qgnh3ITQEoGa6AMl0SxacSps3-40qEchbXNXccvM8Yl97aDHX8kuNl4xGHlLIG0YCWJBau-74c2GdtN-Y9HZKTR8EJCNfU_rz7CVPF9DMw",
+        "widthPx": 1000,
+        "heightPx": 564,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNtWBsly6oGYCiGDcnX3MEzXXL8kDmYNpunfqZL&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNtWBsly6oGYCiGDcnX3MEzXXL8kDmYNpunfqZL!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEGyJaruZklUkW1I-VZEXTYd1lMQ9GsEVhfXAc9UrlPuSGDs4xs1nZgVwhd3y-zpTZQri4tD5xfGKHLaq0BahZRzn6KjS_Uv80NEobYBcvHcSXnQE-VXOBBmLf7Po7hGWnjSTurfflhMUqeJLCAWKTUt2sPV6np4SbSn1MLXwM8isJdzNWFLK3JN_56Wcv2oUu8hdsTLMETx0IbenK-ujySVQNM7-SrgDZr7OxG7V0_LGtaHU0vMfGHKquI40AopwUJDPy5C3KSqvnbEjJ68u0MC8IOlAC-TVwEC7AvVj-57TA",
+        "widthPx": 1280,
+        "heightPx": 854,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNO1dEfB_umAPf8haMDH5Og4V0tfgPGX-HlHUCy&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNO1dEfB_umAPf8haMDH5Og4V0tfgPGX-HlHUCy!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEGs6k7GVexy5JBRq-PDYx8mAcMbkPNANGiNcoBrTHA7Tmb_Oy9-AyH6Qb70-hwCPEoQk7-jvzGdHsqOSCkiIHaPpay23I5CjW4wDXnc-PKEFgohEXwKVcDXiuuYtl1aKwUlwaQI-dw05pyyOXhYurbHa7VpGgqdiHMxvIFmh30xvV_pTfS3MBnarpK_CPjwbBNiV-1bZqcsROR5QCcBpo0X7fshGSaATJnUsOEN20u1Eo0B4FVdfMkdcxYla2otCbFobDOnsfjo8uUIMbWcZnwdoxQpzVybkeUimRW4fW46zw",
+        "widthPx": 1600,
+        "heightPx": 1067,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipP6XrnfYJK-pvJZ6VGEbu-LJmqilIjLBSf_sIlM&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP6XrnfYJK-pvJZ6VGEbu-LJmqilIjLBSf_sIlM!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEE8eyGlNvzv3SXAPEMF9PaVNOK6qyjLF4VzUgeYLitnJnCtRV34nHUiS5FdsFokQ3BdHyQD94IlXKAxZgzUgvkjn-HvbNn1NK5CINd4ihxpvmJg4VFlMx9x86_xZ_HmO7MIZt0n3p3VD_HUVSLggVCkfTQIOSgBg-2Ti2LO5BNHhzkPa9Y9uaKtXLE3yFqqZ_T0JQwvGKODf75qgSFXGJNWcf-iwPvtFbFrInNW9ldb7mMplcls7SrjE2Wys6g5A56FA_0zKvig2rd1YAoq2a5VO_xFO-tEgecHtdgH8y3gUA",
+        "widthPx": 1280,
+        "heightPx": 854,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipN6I_2HpWZ9wTb3rxj22Q6trYMaYr241ET03nF4&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN6I_2HpWZ9wTb3rxj22Q6trYMaYr241ET03nF4!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEFXi0r_vu1ps2fkNr-pePDVhx02Xx5QZIjA7uc3UgBvrGLs-WtfyMbJL9GQXRTwm9bDXcklXGnPlr5xEKuEaR3_7IjXKSyc5u5F6pKLkjmN1MRiZLzO6FhcWtXewCcwONFpZgb7uld6QxhTQ4CzHKobi_jgzeG9Yd1aQ6R9HiHvk2q2aNVu8IJNMVkCg6VULL6ETEr5M2jfNoiyFmEDq8rpBdRJU16gvLvbLRLeRpJxfu6yXuS4RshKZrDHQ9cr1OVdmsq-2OIl-Q0zxz6-z6n72yCKcIvgsiJhluQheUHszA",
+        "widthPx": 1600,
+        "heightPx": 1067,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipOQA8eKmsLRSJ3mvAsx5Tt-5IRNFYErSJfWM6Co&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOQA8eKmsLRSJ3mvAsx5Tt-5IRNFYErSJfWM6Co!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/photos/AU_ZVEEzTMGvYJ19ydageFxhVtW4q7XiPFRiDiylIhARJCSgbLHLJxPMlRGTXSa2-Rc2FC6a8O0UwQmacPA8S_KmEK4kB6DiX81piyXIERN2QjMYUss9N3ShugAHei65gyCi2F-vH0xut1nznDdy6JFLbuadz4dtjx1WbcZa-p3l5HADwXKTnIZwgfa-tdqSZDk_ZF1d5FIJacNGcu0-cfWJuY6hYNlXMO7aYfGmY_pT4nK47ODiPBfzPU5L_Q1yprLMwlzoD-j6opXaIQyBMMLnGBUIhPEeaZoZi1oTzbF4Ll6YAg",
+        "widthPx": 1600,
+        "heightPx": 1067,
+        "authorAttributions": [
+          {
+            "displayName": "Hello Ortho - Napa",
+            "uri": "https://maps.google.com/maps/contrib/113140865131342019177",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCQbEBIbakBotvJrIjwJAtYF4L_pMv8P7RUI3yBusfchzxxN4=s100-p-k-no-mo"
+          }
+        ],
+        "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipOKJzZAucWTVo-88DjIcN97in29O2_rTglsDBxk&hl=en-US",
+        "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOKJzZAucWTVo-88DjIcN97in29O2_rTglsDBxk!2e10!4m2!3m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      }
+    ],
+    "paymentOptions": {
+      "acceptsCreditCards": true,
+      "acceptsDebitCards": true,
+      "acceptsCashOnly": false,
+      "acceptsNfc": true
+    },
+    "accessibilityOptions": {
+      "wheelchairAccessibleParking": true,
+      "wheelchairAccessibleEntrance": true,
+      "wheelchairAccessibleRestroom": true
+    }
+  }
+}

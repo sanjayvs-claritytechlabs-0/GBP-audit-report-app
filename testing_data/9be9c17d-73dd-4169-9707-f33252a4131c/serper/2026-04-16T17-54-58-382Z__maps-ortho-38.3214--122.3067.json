@@ -1,0 +1,602 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.321373,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzIxMzczLC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@48.4561764,-122.3183694,13z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Proliance Surgeons Skagit Northwest Orthopedics",
+        "address": "901 S 5th St, Mount Vernon, WA 98273",
+        "latitude": 48.416762,
+        "longitude": -122.33450169999999,
+        "rating": 4.8,
+        "ratingCount": 1275,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "phoneNumber": "(360) 424-7041",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGiULejS9wfGHZpXQ76vcSPUdtsBdfnYqpKS38NWnJFcqrUlTtdZhI4CDt4J-UzEXA16W7b_OqmFO-9kU06fJsSATViUZTWT8I-sw4ib_BQ7nCdBgGTt4CQ_P5ok1y_vdzZuIwO",
+        "cid": "2285887494307382630",
+        "fid": "0x54856c228575d923:0x1fb91a909eb30566",
+        "placeId": "ChIJI9l1hSJshVQRZgWznpAauR8"
+      },
+      {
+        "position": 2,
+        "title": "Skagit Regional Health - Mount Vernon Surgery Center Orthopedics and Sports Medicine",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 4.7,
+        "ratingCount": 222,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=isWP_oQhFQP6eqpsRJfy-w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=256.13245&pitch=0&thumbfov=100",
+        "cid": "4852590101678972718",
+        "fid": "0x54856c28dd0e3b51:0x4357dcfcc326df2e",
+        "placeId": "ChIJUTsO3ShshVQRLt8mw_zcV0M"
+      },
+      {
+        "position": 3,
+        "title": "Christopher Thomas, DO",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 4.9,
+        "ratingCount": 125,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/thomas-christopher",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELRsohnzHRAAGOR3eob6m5y_v9ZsrxM9mzbfR65YG_Hwa8sSCsnhRmWEN6TRNt5UokL_0iHB8s1pVa5YCayU1SMRzcxcdEgDQpsZDlaJPoiANh470HqVhY7Q3HE3f3CdtzVuQY",
+        "cid": "15184887438201630555",
+        "fid": "0x54856d08361185c1:0xd2bb8eac0c4caf5b",
+        "placeId": "ChIJwYURNghthVQRW69MDKyOu9I"
+      },
+      {
+        "position": 4,
+        "title": "Christopher L. Sheu, MD, FAAOS",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 4.9,
+        "ratingCount": 298,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/sheu-christopher",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERcE3n4A8ejY7IOlcxm4EnesNLTu9IVancK9-gJQ8vwr3K8OxcqM-iCvPdck_S29ft7-A5CfSteVkcaUFz1q4abDOak-CekKGKoLiVI_xNIppSO5ajQqKpOvA1Xi9XwxEHrAIv0g",
+        "cid": "11804115128261404467",
+        "fid": "0x54856c28dc495555:0xa3d0a42b13d5e733",
+        "placeId": "ChIJVVVJ3ChshVQRM-fVEyuk0KM"
+      },
+      {
+        "position": 5,
+        "title": "Gardner Orthodontics",
+        "address": "1210 E Division St, Mount Vernon, WA 98274",
+        "latitude": 48.420874,
+        "longitude": -122.3260179,
+        "rating": 5,
+        "ratingCount": 886,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.joelgardnerorthodontics.com/",
+        "phoneNumber": "(360) 336-5464",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbvMAP5j8nFh5va7q66KPZpmspvPbMK763I0UyshbNORSLoqeTO-qz0t8Gkjn9wgfyXEGmt24N4UoXcdXEJcDPD29B3HGk_FmDmHAHBAIOjew_Ph1Bct2eO8CDkbAnCdBKGJqvrg",
+        "cid": "8296933979485845367",
+        "fid": "0x54856ea86a703b7b:0x7324a17ecc1f3777",
+        "placeId": "ChIJeztwaqhuhVQRdzcfzH6hJHM"
+      },
+      {
+        "position": 6,
+        "title": "Halgren Orthodontics near Mount Vernon | Invisalign & Braces Provider",
+        "address": "1711 E Division St Ste A, Mount Vernon, WA 98274",
+        "latitude": 48.421357,
+        "longitude": -122.31979949999999,
+        "rating": 5,
+        "ratingCount": 355,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.halgrenorthodontics.com/",
+        "phoneNumber": "(360) 336-3436",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt1hhs_RE4KoA_w2R09En-MV6LkKJZm5Ux1tmSa3O1UgoiT5VGwYjXtWSmxQb74HEngAInOeBEw-a3hkNjdgX4gk2QZx2sNgZAsEkoJeMj2mkCVY8oS4E_Kr7xIrH7Y8bemdc",
+        "cid": "8257234293715348615",
+        "fid": "0x54856c0250c5267f:0x729796d76813ac87",
+        "placeId": "ChIJfybFUAJshVQRh6wTaNeWl3I"
+      },
+      {
+        "position": 7,
+        "title": "Proliance Surgeons Skagit Northwest Orthopedics: Dr. Jimmy Cui",
+        "address": "1500 Continental Pl, Mount Vernon, WA 98273",
+        "latitude": 48.4343326,
+        "longitude": -122.32486879999999,
+        "rating": 4.7,
+        "ratingCount": 165,
+        "type": "Pain management physician",
+        "types": [
+          "Pain management physician"
+        ],
+        "website": "https://skagitnorthwestortho.com/our-team/jimmy-y-cui/",
+        "phoneNumber": "(360) 424-7041",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O5sk7ynXJceXOAa2H91s_Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=93.615005&pitch=0&thumbfov=100",
+        "cid": "6399924781104868947",
+        "fid": "0x54856955a34e67e1:0x58d119ae1ef9ae53",
+        "placeId": "ChIJ4WdOo1VphVQRU675Hq4Z0Vg"
+      },
+      {
+        "position": 8,
+        "title": "Michael J. Picco, DO",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 4.9,
+        "ratingCount": 108,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/picco-michael",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpQplrdSzz9c-HC-7FMV39QZ-QxpgzRwr1zSJWC--dpz2L2zBoYhDbm1oCiuDST1NAIpue9rr0dKkawh7X9u8M5I5IERj9fzx92UmaNwPyK9s8epEjGdjE-dO1yEhhfIJUtbnHhQ",
+        "cid": "18221257316992554336",
+        "fid": "0x54856c28dd12292f:0xfcdee8fd4c541560",
+        "placeId": "ChIJLykS3ShshVQRYBVUTP3o3vw"
+      },
+      {
+        "position": 9,
+        "title": "Alexander R. Willis, MD",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 5,
+        "ratingCount": 128,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/willis-alexander",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0YHHFzjv43yNVXs5x8xrydv0RV0te7TgvGoYl6xmsjSvVedhcb2sbiIlG1azo0J8-KZLK8-rAAwP5PymtPT81ev58m0bpFqaIzWGXp3tGT9x2mVgEk3d6cBpGt0ltFXNKEzUR",
+        "cid": "9855118661902296497",
+        "fid": "0x54856def784f048b:0x88c46a35560265b1",
+        "placeId": "ChIJiwRPeO9thVQRsWUCVjVqxIg"
+      },
+      {
+        "position": 10,
+        "title": "Stacia Smith, MD, FAAOS",
+        "address": "901 S 5th St, Mount Vernon, WA 98273",
+        "latitude": 48.416337299999995,
+        "longitude": -122.33465229999999,
+        "rating": 4.9,
+        "ratingCount": 209,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/smith--stacia",
+        "phoneNumber": "(360) 424-7041",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9-cUP1Td6KGE4cvWkO0l7yccOYP3O6j5BV0aY4v0ze4dSAf4Bk8ZXn3PvJ-iHHGGdDZIVakYYel1iTzMaQllNBYRqF86lX7MrhYFOhpVq5UBIc_AeE71TTqM6DPzCUzSg1XYd_g",
+        "cid": "1782222865624367792",
+        "fid": "0x54856c228575d923:0x18bbba40f01e82b0",
+        "placeId": "ChIJI9l1hSJshVQRsIIe8EC6uxg"
+      },
+      {
+        "position": 11,
+        "title": "Jimmy B. Dang, DO",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 4.9,
+        "ratingCount": 162,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/dang-jimmy",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC-hjKzyx4X2dYJVg8L4mAYepN7P4ebfcdKFhiAacmQdJ0CRwddfTzEoHfP92N8-HZHMx_fFVpxfAX9h__8otFljhANi-PBynlUqeT83FA1_kIPc6kRIFtGCHxiJo3Ec-wdNs8",
+        "cid": "15727600380309022293",
+        "fid": "0x54856c28ddb3056b:0xda43a937ad9e2655",
+        "placeId": "ChIJawWz3ShshVQRVSaerTepQ9o"
+      },
+      {
+        "position": 12,
+        "title": "Nalin Orthodontics- Andrew M. Nalin, DDS, PS",
+        "address": "2210 Kulshan View Dr UNIT 108, Mount Vernon, WA 98273",
+        "latitude": 48.432686999999994,
+        "longitude": -122.31264499999999,
+        "rating": 4.8,
+        "ratingCount": 37,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.nalinorthodontics.com/",
+        "phoneNumber": "(360) 428-4979",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2fNI3jFoL0KkEZ1-MaFFuospssbsCgKv3Ldx-mI9anHLC_Di15Z927df3_yyzpNJCU2lEY8lu8E1f__U0dNZxeopmuVU0MLELWxEDGw5-nR1CHDrRKWZC0nj48P6QQ8cwcao8",
+        "cid": "8065643792395067635",
+        "fid": "0x54856c16c27d809f:0x6feeec4baa8ae0f3",
+        "placeId": "ChIJn4B9whZshVQR8-CKqkvs7m8"
+      },
+      {
+        "position": 13,
+        "title": "Orthopedics and Surgery at PeaceHealth Sedro-Woolley Clinic",
+        "address": "1990 Hospital Dr # 100, Sedro-Woolley, WA 98284",
+        "latitude": 48.4960154,
+        "longitude": -122.27401909999999,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.peacehealth.org/locations/sedro-woolley/orthopedics-and-surgery-peacehealth-sedro-woolley-clinic",
+        "phoneNumber": "(360) 856-7930",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFueYR6XGgDoGUup5PaL9pyuiqu4axJKpOKdu9C0gT8msCYEh8K4_FkIiMboK5Ux1K-sejRK6Fpj1Cjf9R4VgPJE9jWNP0y10HA0IdqLVPX3cnD6rFPKOQLLvL_j5QpRF2g0DOddPuwaL8i",
+        "cid": "16631598272875009390",
+        "fid": "0x54856d49a23350bb:0xe6cf4e82ddb7156e",
+        "placeId": "ChIJu1AzoklthVQRbhW33YJOz-Y"
+      },
+      {
+        "position": 14,
+        "title": "David M. Mourning, MD",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 4.8,
+        "ratingCount": 47,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/mourning-david",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDueWHUNcP4fvOudTv0d-NkiP4JGBuI3_7yZPSfj2dZgtY0CkMl1LZxFub3l7kpEEvz9zCQLKlWk17DuMXjSl81pNPc7LAaDHvZw2BlIllvgVQdunR6TMTy2_6xRvvgYQVz-8",
+        "cid": "7260681744427117811",
+        "fid": "0x54856da938844b59:0x64c31f93ebbdecf3",
+        "placeId": "ChIJWUuEOKlthVQR8-y965Mfw2Q"
+      },
+      {
+        "position": 15,
+        "title": "Bielas Orthodontics",
+        "address": "2261 Hospital Dr #103, Sedro-Woolley, WA 98284",
+        "latitude": 48.4952343,
+        "longitude": -122.27960639999999,
+        "rating": 5,
+        "ratingCount": 21,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.bielasortho.com/",
+        "phoneNumber": "(360) 854-0606",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.bielasortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPF0B7tCBlYgJJ6Bw5UdjXIS_8AsIGnGt-oU0SgmJVqnDiXwHmoYoEFIooVtJtIYLktGib4bE5QVGpX7z7nzA70zzKOwOHV7hQCZm94whOERtjZ5hKO71wddAaXqx8ZUBVqluJ",
+        "cid": "11458263307310997030",
+        "fid": "0x54856d48f4b63f47:0x9f03edc4ff2a1e26",
+        "placeId": "ChIJRz-29EhthVQRJh4q_8TtA58"
+      },
+      {
+        "position": 16,
+        "title": "Skagit Northwest Orthopedics: Dr. Curtis Rodin",
+        "address": "1500 Continental Pl, Mount Vernon, WA 98273",
+        "latitude": 48.4343326,
+        "longitude": -122.32486829999999,
+        "rating": 2.7,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.skagitnorthwestortho.com/",
+        "phoneNumber": "(360) 424-7041",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O5sk7ynXJceXOAa2H91s_Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=93.612854&pitch=0&thumbfov=100",
+        "cid": "16751350472529790697",
+        "fid": "0x54856955a34e67e1:0xe878c0809735c6e9",
+        "placeId": "ChIJ4WdOo1VphVQR6cY1l4DAeOg"
+      },
+      {
+        "position": 17,
+        "title": "Richard V. Williamson, MD",
+        "address": "2320 Freeway Dr, Mount Vernon, WA 98273",
+        "latitude": 48.441723499999995,
+        "longitude": -122.3422466,
+        "rating": 4.9,
+        "ratingCount": 27,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "http://www.skagitregionalhealth.org/",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGawv0OkVTJ1mnjwq309gse8R0K4wjqi17ZB6LVX5Ty_Oze47ZOZq3WE7eBUnfTd0PWhOMS2l4_Nkp8SxawXZAeEQuw22V5NVzzoyTN0acMNC_C49nKWn0XyDp3MR6ttlEgmFcl",
+        "cid": "11456777593730972499",
+        "fid": "0x54856c28dd12292f:0x9efea68558fd3b53",
+        "placeId": "ChIJLykS3ShshVQRUzv9WIWm_p4"
+      },
+      {
+        "position": 18,
+        "title": "Cascade Prosthetics & Orthotics",
+        "address": "17670 Dunbar Rd, Mount Vernon, WA 98273",
+        "latitude": 48.4277496,
+        "longitude": -122.3627197,
+        "rating": 4.6,
+        "ratingCount": 8,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "https://cascadepoclinics.com/",
+        "phoneNumber": "(360) 428-4003",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://cascadepoclinics.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtUXAV4wM6CGyTPh3HSQX_0wBJQY2Gj9AukBS1rKh8hPf4Xo5uuzjcVaiKJvCgDUwb5ET34gPD7-hkit7GQRYFibDYzWIGpAxiildhKGUUvrS3-IPFMfhJACJKc9RocqjXQkXm",
+        "cid": "1066265561229538459",
+        "fid": "0x54856e93f3957385:0xecc22e0ed51b49b",
+        "placeId": "ChIJhXOV85NuhVQRm7RR7eAizA4"
+      },
+      {
+        "position": 19,
+        "title": "Jon Ruff, PA-C",
+        "address": "211 S 13th St, Mount Vernon, WA 98274",
+        "latitude": 48.4201699,
+        "longitude": -122.32546769999999,
+        "rating": 5,
+        "ratingCount": 45,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/ruff-jon",
+        "phoneNumber": "(360) 814-2663",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGrJXsb9uStu51LUXUgHmyfIr8T-yE_I3ZGhQcpjbARod9S4YvAivQv9dp9ar4aNpfd7Nc1eLaMZKKoYQQYXacCs71zDGNRxUYuNU3xI-9AsjIEcLGQ_d78fArWAHRKbbuhSD_agQ",
+        "cid": "693845763150385466",
+        "fid": "0x54856c28dc495555:0x9a1090ba17d113a",
+        "placeId": "ChIJVVVJ3ChshVQROhF9oQsJoQk"
+      },
+      {
+        "position": 20,
+        "title": "Camille L. Connelly, MD, FAAOS",
+        "address": "901 S 5th St, Mount Vernon, WA 98273",
+        "latitude": 48.4167555,
+        "longitude": -122.33470109999999,
+        "rating": 4.8,
+        "ratingCount": 148,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.skagitregionalhealth.org/details/connelly--camille",
+        "phoneNumber": "(360) 424-7041",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUWBirtBfNyjjie3mSikJ5Cmdm0e4vw7wupafoOLlto80ywa2ii93UXGjlMJCcLHLIDIHzBV8zyaUjGL1KAZnaw-d-JIKwbr2YgBDOMXJKxegJ0Y85FGQ2LC2NxzFMyTHqwHokgg",
+        "cid": "526085274371786123",
+        "fid": "0x54856c2285400001:0x74d07c50c7e858b",
+        "placeId": "ChIJAQBAhSJshVQRi4V-DMUHTQc"
+      }
+    ],
+    "credits": 3
+  }
+}

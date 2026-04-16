@@ -1,0 +1,624 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.325865,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzI1ODY1LC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@39.9024895,-86.2585023,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Stonegate Orthodontics",
+        "address": "6857 W Stonegate Dr suite b, Zionsville, IN 46077",
+        "latitude": 39.950919,
+        "longitude": -86.3315363,
+        "rating": 5,
+        "ratingCount": 9,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.stonegateorthodontics.com/?utm_source=google&utm_medium=google_business_profile&utm_campaign=website_click",
+        "phoneNumber": "(317) 769-1127",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–12 PM"
+        },
+        "bookingLinks": [
+          "https://www.stonegateorthodontics.com/contact-us/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmSbU1fSlfEMOtRFrQJsWF9stIpkbwTzc-rJoUAc46nrP9CvTiIsKe_-585CLJKn_ifU8-mp2lF9jbQnwg_LOOddVvK_iSmAVsEw_gmoVgnBclf0Mn0u6lqJS3gaTmQkOu4N3W",
+        "cid": "15876071618328896511",
+        "fid": "0x8813557f72237f31:0xdc5323059727a3ff",
+        "placeId": "ChIJMX8jcn9VE4gR_6MnlwUjU9w"
+      },
+      {
+        "position": 2,
+        "title": "IU Health Orthopedics & Sports Medicine - Zionsville",
+        "address": "6866 W Stonegate Dr Suite 104, Zionsville, IN 46077",
+        "latitude": 39.9506527,
+        "longitude": -86.33239329999999,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://iuhealth.org/find-locations/iu-health-orthopedics-and-sports-medicine-6866-w-stonegate-dr-zionsville?utm_source=Google&utm_medium=Yext&y_source=1_MTgzMTE3MDItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(317) 944-9400",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/iu-health-physicians-orthopedics-51563?LocIdent=127135&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_6k4DxWFMwUiN8gf3WYZh9R-lo_LThfejZHa0yy4TvSYkgByB-entity&rwg_token=AFd1xnFcF6qPgIDTGnFTIrib_fA3WS2NIMzJ_r_fnpUL_-686xp5IdljlZyuhytnSjzjA5PEMR5Dfv-kWsOi6UUdGuUZ0LDtcFb11pD230UNnoU7wSUeQH4%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5F_bfdQhuozaqF4WZUKTjPcDbS24FTk7Ss7bHz4rKIlGWegbw78R-6xUqPnpp0ex-sxforUIy219PWDCsF1-5qrIEkQalTI4JykllgW9RK3StIa6FODOSIR9AsXmxL7hzBg602g",
+        "cid": "1482618578718279974",
+        "fid": "0x8813559416336133:0x149351bdf9e5c926",
+        "placeId": "ChIJM2EzFpRVE4gRJsnl-b1RkxQ"
+      },
+      {
+        "position": 3,
+        "title": "Kyle A. Rahrig, DO - IU Health Orthopedics & Sports Medicine - Zionsville",
+        "address": "6866 W Stonegate Dr Suite 104, Zionsville, IN 46077",
+        "latitude": 39.9506527,
+        "longitude": -86.33239329999999,
+        "rating": 3.8,
+        "ratingCount": 6,
+        "type": "Family practice physician",
+        "types": [
+          "Family practice physician",
+          "Sports medicine clinic"
+        ],
+        "website": "https://iuhealth.org/find-providers/provider/kyle-a-rahrig-do-8852?utm_source=Google&utm_medium=Yext&y_source=1_MTE5NDEzMTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(317) 944-9400",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://iuhealth.org/find-providers/provider/kyle-a-rahrig-do-8852"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1BnCdODO1Hmff7PGuEacJYtuSkmWwpT35b95Az-55muNXZ0YE_i-vRDchElNkymIjMzdad9JYv8lyApuLx1Dc4ris5SFEs_GnhU2_H0zj8R26JKHf7qkaZ2okStmQQgf8ItkRMA",
+        "cid": "2915522855352971195",
+        "fid": "0x886b5153314854b7:0x28760496ffd8afbb",
+        "placeId": "ChIJt1RIMVNRa4gRu6_Y_5YEdig"
+      },
+      {
+        "position": 4,
+        "title": "braces for u",
+        "address": "6054 Gateway E Dr, Whitestown, IN 46075",
+        "latitude": 39.9526762,
+        "longitude": -86.35502319999999,
+        "rating": 5,
+        "ratingCount": 77,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.braces-foru.com/",
+        "phoneNumber": "(317) 768-9075",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEf8I4A6_tk5IZTpTwXWgLuFli0bOggBrbYiwuShKwJPSP1EQWWToTtZ5PYVna5XbhnzADwzJeBpqbDkNJohHMs1Kty3QflPG_1XEK3HILsoYBwBuvxbfa3FrfP1nhsNnXOktL4",
+        "cid": "17031986736481315988",
+        "fid": "0x881353d2173c246f:0xec5dc5b28f222c94",
+        "placeId": "ChIJbyQ8F9JTE4gRlCwij7LFXew"
+      },
+      {
+        "position": 5,
+        "title": "Witham Orthopaedic Associates, Whitestown at Anson",
+        "address": "6085 Heartland Drive Suite 204, Whitestown, IN 46075",
+        "latitude": 39.9508096,
+        "longitude": -86.3394763,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "http://www.witham.org/orthopedicservices",
+        "phoneNumber": "(317) 768-2240",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGS95ftIXIhBZJSivuu4tCNa-NvdrUUyvz-SahzNukjGcHb5Zo5pKl3zxPRcvJWmNZc-uVKYrc1ZLjIdp2C203ap-HgXdUAf6SNM18XDpADs3YGjrQWuSjHp8nQ1gNqhImu03U7lQ",
+        "cid": "13559834866603405717",
+        "fid": "0x881353291b512af5:0xbc2e35f7d4da3195",
+        "placeId": "ChIJ9SpRGylTE4gRlTHa1Pc1Lrw"
+      },
+      {
+        "position": 6,
+        "title": "Central Indiana Orthopedics",
+        "address": "625 S Main St #200, Zionsville, IN 46077",
+        "latitude": 39.9447621,
+        "longitude": -86.25816549999999,
+        "rating": 4.9,
+        "ratingCount": 16,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://ciocenter.com/our-locations/zionsville/",
+        "phoneNumber": "(800) 622-6575",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQMTT6NTIc6-6cpohC3OKoWEooVohm9siCVdc3bIv7hmmuU96pWBrGhWtlnfStb-bCm3V5E023wpyiOgMjbVTsv9EEz0QOFqVrcdR2xlt6KC-53MNtL2v933ycfYaJL44RNdsmE5LCmGQ",
+        "cid": "824215191752016719",
+        "fid": "0x88135512c7f38613:0xb7033599adc034f",
+        "placeId": "ChIJE4bzxxJVE4gRTwPcmlkzcAs"
+      },
+      {
+        "position": 7,
+        "title": "Village Orthodontics",
+        "address": "95 E Oak St Suite B, Zionsville, IN 46077",
+        "latitude": 39.950785499999995,
+        "longitude": -86.2606165,
+        "rating": 5,
+        "ratingCount": 365,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.vosmiles.com/",
+        "phoneNumber": "(317) 873-6927",
+        "openingHours": {
+          "Thursday": "7:30 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.vosmiles.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHltnDHYUNJ49IAHHje2FOuBbpU2UPFMb3Rl0AG6bNj_WNnOT6MHSLg_qxmRKna1ox_lLYD0gX5-aVW6BTpafUnr5AlF8Z_adYcHlEa94CftxkcdFPi0bAH8ZZihvSgRHCBjNdcPA",
+        "cid": "15206200899525685660",
+        "fid": "0x8813556343fccf93:0xd3074726f774319c",
+        "placeId": "ChIJk8_8Q2NVE4gRnDF09yZHB9M"
+      },
+      {
+        "position": 8,
+        "title": "OrthoIndy Northwest Hospital Main",
+        "address": "8400 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9078677,
+        "longitude": -86.2672809,
+        "rating": 4.3,
+        "ratingCount": 679,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hospital",
+          "MRI center",
+          "Medical Center"
+        ],
+        "website": "https://www.orthoindy.com/",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "6 AM–6 PM",
+          "Friday": "6 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6 AM–6 PM",
+          "Tuesday": "6 AM–6 PM",
+          "Wednesday": "6 AM–6 PM"
+        },
+        "bookingLinks": [
+          "http://orthoindy.com/request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMnxnofrdsHc-w7-O25sdrZdGCejdFQ2IY_19EK_kKnmPDHbk0Et3bLfXgtnSucadmwpBvxgBLrIIaR2iOW2ulJZkE3CrhLD6oLIPWkrNrqqp2tFpzdsuU48B9aS-otip1TwuCiQ",
+        "cid": "16972943046533904797",
+        "fid": "0x886caabb26f9bdb9:0xeb8c01c63996f99d",
+        "placeId": "ChIJub35JruqbIgRnfmWOcYBjOs"
+      },
+      {
+        "position": 9,
+        "title": "Orthopedic and Sports Medicine Doctor: Troy Roberson, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 4.9,
+        "ratingCount": 198,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthoindy.com/physicians/troy-roberson",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9NE0OkYYiSWCtJbSW5b4GtM8mDPNy86J3wPindY0E6JvNmHED_EVjTGberzum9TVmtm-j_YttQTPkjl84Uoe5y1Zbqzs0PEp194iQUNXXo5Y7Xtu0bGoSn_nOv9Oi0IUjuQrABY1O0YE",
+        "cid": "16968258172693694641",
+        "fid": "0x886caabb28d9905f:0xeb7b5ce80886c8b1",
+        "placeId": "ChIJX5DZKLuqbIgRsciGCOhce-s"
+      },
+      {
+        "position": 10,
+        "title": "Orthopedic Doctor: David Brokaw, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 4.8,
+        "ratingCount": 115,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/david-brokaw",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoindy.com/request?physician=193"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjY2P2KE7f8ZUbb7TDlOpEYB7ZvB6WpANGsfr4wDIziGsr38hhODqeoUBICginz7eR5bfHa-I0E8OCR6wG6PixL52NyJHDL5AM1wnHDdsbKU0PNikCSJ6R8zkoOY6eS7OiZjx7TQ",
+        "cid": "13693533938924797200",
+        "fid": "0x886caabb26f9bdb9:0xbe093490e55e3d10",
+        "placeId": "ChIJub35JruqbIgRED1e5ZA0Cb4"
+      },
+      {
+        "position": 11,
+        "title": "Orthopedic Doctor: Bruce Rougraff, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 4.9,
+        "ratingCount": 126,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/bruce-rougraff",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEMcKAbsiE6h_qHxCrIw9I9r0yRUnHBFvCj9n7c8wyNbJ0HnEndf1DtO1w7_jyctYxWMI1p45FGR1bLmPNbCjxJ3TslpFHrw9qgCrd9m58KNWehZtFJHTUAvpmhx8k3cXP8kNIS1H8s6kO",
+        "cid": "4766641966345635958",
+        "fid": "0x886caabb26f9bdb9:0x4226839d17804876",
+        "placeId": "ChIJub35JruqbIgRdkiAF52DJkI"
+      },
+      {
+        "position": 12,
+        "title": "Premier Orthodontics",
+        "address": "8860 Zionsville Rd suite b, Indianapolis, IN 46268",
+        "latitude": 39.9140364,
+        "longitude": -86.260564,
+        "rating": 5,
+        "ratingCount": 254,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.premierorthoindy.com/",
+        "phoneNumber": "(317) 672-2759",
+        "openingHours": {
+          "Thursday": "8:30 AM–4 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4 PM",
+          "Tuesday": "8:30 AM–4 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.premierorthoindy.com/appointment-request",
+          "https://schedule.jarvisanalytics.com/frame/dr-quraishi?location_id=10433&rwg_token=AFd1xnEteVJ1qALHf5BL2QLISc1u2x53QYjb_5ftbH3OavRNrWHm419X0fxJ5itxfgQibhyIJUpmFGGF9OxcgDn-xDUFpAInP1PXCPUP4CuBriEp0GTiqcM%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1GMQ6arjSbpMZ08oqBu3TfXl3v03XCR3XKCEvxZC93kILncQgp9WoPmIrPoKwo1jahgB0GLJkNrk_k35YzTJM8x48IEUl_ZWx3CTsdUW_-y9X4AR_UmfiOjAM8Ggb3lzRN24",
+        "cid": "12050838222104102283",
+        "fid": "0x886caaa93d94c95f:0xa73d2d83d237058b",
+        "placeId": "ChIJX8mUPamqbIgRiwU30oMtPac"
+      },
+      {
+        "position": 13,
+        "title": "Olympus orthopedic and Wellness center",
+        "address": "7515 W 96th St, Zionsville, IN 46077",
+        "latitude": 39.9239526,
+        "longitude": -86.2946066,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic",
+          "Day spa",
+          "Health consultant",
+          "Massage therapist",
+          "Nutritionist",
+          "Occupational health service",
+          "Personal trainer",
+          "Physical fitness program"
+        ],
+        "website": "http://www.olympusstrong.com/",
+        "phoneNumber": "(317) 519-5118",
+        "openingHours": {
+          "Thursday": "8 AM–7 PM",
+          "Friday": "8 AM–7 PM",
+          "Saturday": "9 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFA9yVY5Od3ngFXkBkBMuUFUkWykgVpcM6tKWQt1iWNWw1tebC4QQ6vi1zHwxPDn_ZUNiTTqbpZ9ryI62dFLJBVSVA_L8mvqx0tD3jBmd7J2Oyk0h4xxlcPUV9d8m2QO1sTy4-i2g",
+        "cid": "1562657366067280170",
+        "fid": "0x886b55ed260addff:0x15afac985a16792a",
+        "placeId": "ChIJ_90KJu1Va4gRKnkWWpisrxU"
+      },
+      {
+        "position": 14,
+        "title": "Orthopedic Doctor: Renn Crichlow, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 4.9,
+        "ratingCount": 130,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/renn-crichlow",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthoindy.com/RennCrichlow/crichlow-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwAnVFPUUMlVUAWFPdmzSBix5a9k0mVCMljqIQzWBxyD4pfvU0ExLojNSVavqg0Pe1Fj-Jb3EJewtIBPCsbryOP3IuPmcstfggoq2bKb-FiEyUx_yjU8I6PjhRbnzmIQ7XBGghDWzi2IS4",
+        "cid": "5203188139896393188",
+        "fid": "0x886caabb26f9bdb9:0x4835700baa0ccde4",
+        "placeId": "ChIJub35JruqbIgR5M0MqgtwNUg"
+      },
+      {
+        "position": 15,
+        "title": "Total Hip and Knee Replacement Doctor: Christopher Pomeroy, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 4.9,
+        "ratingCount": 372,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/christopher-pomeroy",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtev8WkRey0vARLPG-lOU4xT-xEAV9as-PWlPwerFlkB1cjvdTeLrRKdAA0SaPtYF0spmVIlYVSW2DurbMUTh2dcs3IJH4JXRgN6gtVg-7bPKoAybJuEIlL3RJuNESviztpPndOuPI55k",
+        "cid": "341993548286299111",
+        "fid": "0x886caabb28d9905f:0x4bf0151f9148be7",
+        "placeId": "ChIJX5DZKLuqbIgR54sU-VEBvwQ"
+      },
+      {
+        "position": 16,
+        "title": "IU Health Orthopedics & Sports Medicine - Carmel",
+        "address": "201 Pennsylvania Pkwy #100, Carmel, IN 46280",
+        "latitude": 39.9315796,
+        "longitude": -86.15415469999999,
+        "rating": 4.8,
+        "ratingCount": 112,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Emergency room",
+          "Sports medicine clinic",
+          "Surgeon"
+        ],
+        "website": "https://iuhealth.org/find-locations/iu-health-orthopedics-sports-medicine-201-pennsylvania-pkwy-carmel?utm_source=Google&utm_medium=Yext&y_source=1_MTE5NDE4NzEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(317) 944-9400",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZFbDip4Ad3a6kyh6F24GaosbajBVYnDlMJb_UFUpkBxbU4AzcOCx1Fecr6CnuDLPs5xt2QQ7FUTyfVtyl_rk4E4DNpAK71GwVOsPabYLmqIghpbN40R62f-egGi7A28pFjoMNEA",
+        "cid": "3488478845003525718",
+        "fid": "0x8814ad7a88bf87f7:0x30699106dae66e56",
+        "placeId": "ChIJ94e_iHqtFIgRVm7m2gaRaTA"
+      },
+      {
+        "position": 17,
+        "title": "OrthoIndy Brownsburg Urgent Care",
+        "address": "9070 E 56th St Ste. 400, Brownsburg, IN 46112",
+        "latitude": 39.8523028,
+        "longitude": -86.36284979999999,
+        "rating": 4.5,
+        "ratingCount": 54,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic",
+          "Urgent care center"
+        ],
+        "website": "https://www.orthoindy.com/locations/orthoindy-brownsburg-urgent-care",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–12 PM, 1–5 PM",
+          "Friday": "8 AM–12 PM, 1–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–5 PM",
+          "Tuesday": "8 AM–12 PM, 1–5 PM",
+          "Wednesday": "8 AM–12 PM, 1–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthoindy.com/request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnByJXQklcjNpYT8mVXQSohKgxZ2SWTYzCf6LQiqDU9pO9WY-VHZe_ZaO7QOQWkqTFgprGQHsdQl1zabyFla3hPxNH1N4hfqpMZXpouRniNk_s6mdnfML5NVrWlGMzxdDizf8I_jD9fzGV",
+        "cid": "7977806036309036963",
+        "fid": "0x886cae52a75e0fc9:0x6eb6dc52612acfa3",
+        "placeId": "ChIJyQ9ep1KubIgRo88qYVLctm4"
+      },
+      {
+        "position": 18,
+        "title": "Total Hip & Knee Replacement Doctor, Michael Cross, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 5,
+        "ratingCount": 110,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/michael-cross",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmVgM6lsr3LDX1lN2Ukn1N0TIiRA3-3uj8x5kruGmjeUB57ceR5JJrrj4MMUtzF6ljRWm-xbHdnbXKFtXI2frV0OO3f-JHkQ5zHkAZmgeZD32zB50sxyJhlV7xag5ThSOPij807w",
+        "cid": "237740517811106642",
+        "fid": "0x886cab32bf653537:0x34c9fbdc8d93352",
+        "placeId": "ChIJNzVlvzKrbIgRUjPZyL2fTAM"
+      },
+      {
+        "position": 19,
+        "title": "Ortho Design",
+        "address": "9591 Valparaiso Ct, Indianapolis, IN 46268",
+        "latitude": 39.925699,
+        "longitude": -86.22567099999999,
+        "rating": 5,
+        "ratingCount": 6,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "http://orthodsgn.com/",
+        "phoneNumber": "(317) 218-4270",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGGvAmi9BaQCgjnlwyLDBPPjlqu0MM_op25Fkqv-0MXBuVz-IbiVw3j_I1ppzuBtcsl0aJmGIsiqCHVbyYSp-DLEkq_Xg9lgfnh0LHkZfLMN7_cIF35E_AYi1v0_Pv2",
+        "cid": "7147642454929127683",
+        "fid": "0x8814aace1bd98c0f:0x633186f1638d3903",
+        "placeId": "ChIJD4zZG86qFIgRAzmNY_GGMWM"
+      },
+      {
+        "position": 20,
+        "title": "Orthopedic Spine Doctor: Sachin Gupta, MD",
+        "address": "8450 Northwest Blvd, Indianapolis, IN 46278",
+        "latitude": 39.9080904,
+        "longitude": -86.2672845,
+        "rating": 5,
+        "ratingCount": 41,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthoindy.com/physicians/sachin-gupta-md",
+        "phoneNumber": "(317) 802-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaLGKw6al1t2HCJfUS_tKHf_dWh7JdBr6rlqWr8Y8hTqGJ-qraI4GbLiMKwGjidY18mSx4RhKS7aei38_6qTlkhG9HFwCyTu1v6yFKt9mAS2fHvrYa9xkcDJZixuflCTfu3Z2-ZIobH3Q",
+        "cid": "15723742587736918954",
+        "fid": "0x886cab4fff1411bd:0xda35f49359bd8baa",
+        "placeId": "ChIJvREU_0-rbIgRqou9WZP0Ndo"
+      }
+    ],
+    "credits": 3
+  }
+}

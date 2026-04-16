@@ -1,0 +1,654 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzMwMzU2LC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@40.6632733,-73.9418926,13z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Park Slope Orthodontics",
+        "address": "11 Plaza St W #1, Brooklyn, NY 11217",
+        "latitude": 40.675,
+        "longitude": -73.971586,
+        "rating": 4.9,
+        "ratingCount": 211,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.parkslopeortho.com/",
+        "phoneNumber": "(718) 399-3210",
+        "openingHours": {
+          "Thursday": "9:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9:30 AM–6 PM",
+          "Wednesday": "9:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/park-slope-orthodontics-35918?LocIdent=59452&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_-pPI9aJbU0us1-EbIOOghx-lo_jTaEnOpJS02HqYNkuKpWzx-entity&rwg_token=AFd1xnE8UYALMP0l19sBEaPNFRvkX15pdoky1bXVprE-FRzaVA5RJyO3WfF1nFLberNTVpN23V8xq29BD0Ed6tyXpuTR4eYGbLsZv9NZGqbhCIbDQLfHcjo%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5W1xoJh5dziE2JI839-EQrKgdTgZacRHL3fPCU5zYRK2_983MJn8Hkd4uqPY99iBgrV92vaVsJ_drwTknrkR1eDlSE2p48Q-K6NFdEbJFv61IxSoIoksOM59OZK84AknA60xFApfdIjs",
+        "cid": "14452896780046632576",
+        "fid": "0x89c25ba806027221:0xc893010bf6110680",
+        "placeId": "ChIJIXICBqhbwokRgAYR9gsBk8g"
+      },
+      {
+        "position": 2,
+        "title": "Hudson Pro Orthopaedics",
+        "address": "1515 Church Ave, Brooklyn, NY 11226",
+        "latitude": 40.6488752,
+        "longitude": -73.9652108,
+        "rating": 4.8,
+        "ratingCount": 54,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.hudsonproortho.com/",
+        "phoneNumber": "(646) 650-2229",
+        "openingHours": {
+          "Thursday": "9:30 AM–3 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9:30 AM–3 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hudson-pro-orthopaedics-and-sports-medicine-41559?LocIdent=203883&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_tjvMr0CmCEmzeBhrv7P2OB-lo_Yzd5qqS9TUSk1nc-tHHzlh-entity&rwg_token=AFd1xnG-CQdlbKeSDrZdadT0N9MmpIAtk4FFx96jnB3r_kupbx2C1IUJHsB_sTLdsiQpNTuZah-UI01U-jvvhM9RaOpiq4PA3X9LEYyNXqG3FaFKlSYtPSw%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEj39YyZfbkkfrNZSNlGE_-XESByJ1YTlhn4LMGxtnjVX_n0Nepa3P6dKM2rhKVVBSMrvHULifyk3VarbrB2mCLDOuX5nFdIcVD729SOd7jOB1PEHUaE11kUDIQ5JpSdsq5at0drQ",
+        "cid": "13095741857868972387",
+        "fid": "0x89c25bb13e9b5047:0xb5bd6bd5e47e8163",
+        "placeId": "ChIJR1CbPrFbwokRY4F-5NVrvbU"
+      },
+      {
+        "position": 3,
+        "title": "University Orthopaedic Associates",
+        "address": "760 Parkside Ave #111, Brooklyn, NY 11226",
+        "latitude": 40.6562388,
+        "longitude": -73.9482951,
+        "rating": 2,
+        "ratingCount": 35,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical office",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Podiatrist",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.downstate.edu/ortho",
+        "phoneNumber": "(718) 270-2045",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFj2G_ShauHBpH6bv2oZ5fmaBALGmrWC3u8Gf1686qs9L0-B00NC7ZAgnbcDSQlHJaCDlgdHGFARokBlyL2k9ltfxgSPcqgS2Mrn3BNxW3EVZTQkwryyugNURZXazS84sMsFpW3",
+        "cid": "15575575961967248206",
+        "fid": "0x89c25b68cb0ee64f:0xd8278fd0812bc34e",
+        "placeId": "ChIJT-YOy2hbwokRTsMrgdCPJ9g"
+      },
+      {
+        "position": 4,
+        "title": "Brooklyn Premier Orthopedics",
+        "address": "1414 Newkirk Ave, Brooklyn, NY 11226",
+        "latitude": 40.6351042,
+        "longitude": -73.9636725,
+        "rating": 4.5,
+        "ratingCount": 482,
+        "type": "Medical group",
+        "types": [
+          "Medical group",
+          "Hand surgeon",
+          "Orthopedic clinic",
+          "Orthopedic surgeon",
+          "Pain control clinic",
+          "Pain management physician",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://bportho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=bpo-brooklyn&utm_source_platform=gmb-website",
+        "phoneNumber": "(718) 759-6100",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "10 AM–5 PM",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/the-center-for-musculoskeletal-disorders-bp-ortho-130196?LocIdent=315460&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_aVxPo-yyoUm0IGyLGlOc2h-lo_e4Yraj-FDEO-X06qbwI_zR-entity&rwg_token=AFd1xnGK3Anq9jFpCknzlyCuyj1CRzNq3fRDbIIjsujCv5O7okjDCM35DpqmuQnkz4Q1uWU06xlDyW-hZQ1ZrSWb6CGHIztvgw%3D%3D",
+          "https://bportho.com/contact-us/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=bpo-brooklyn&utm_source_platform=gmb-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-f9kfblfJ39DwdLmG1ideSdofoiWix3_biHsfy-0XOkF8B7M45gfZxd3q1qMP5ISLnGGRZBpQ77fqqqIA7fZmqlEhTuFYXA-ocCtbR8HBBkOqp3fZzCcOesRUPdsGKkh03Ydo",
+        "cid": "8760611480385800234",
+        "fid": "0x89c25b34ea34addb:0x7993f1b9c79ac82a",
+        "placeId": "ChIJ26006jRbwokRKsiax7nxk3k"
+      },
+      {
+        "position": 5,
+        "title": "Kingsbrook Orthopedics Associates",
+        "address": "585 Schenectady Ave, Brooklyn, NY 11203",
+        "latitude": 40.6601529,
+        "longitude": -73.9325597,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Medical group",
+        "types": [
+          "Medical group"
+        ],
+        "phoneNumber": "(718) 604-5481",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kZ-SxbUMWPr-ayNbfrtQgQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=86.26148&pitch=0&thumbfov=100",
+        "cid": "3782537548840246618",
+        "fid": "0x89c25c82ceb5bd2d:0x347e45dc24331d5a",
+        "placeId": "ChIJLb21zoJcwokRWh0zJNxFfjQ"
+      },
+      {
+        "position": 6,
+        "title": "Park Slope | Brooklyn Family Orthodontics",
+        "address": "73 8th Ave, Brooklyn, NY 11215",
+        "latitude": 40.6733432,
+        "longitude": -73.9728684,
+        "rating": 5,
+        "ratingCount": 53,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.bkfamilyortho.com/",
+        "phoneNumber": "(718) 395-6582",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2OsuzhzQQVG0_oKXY2iulIXWTyjJ0Uerph16iJeHKZrGBdRWMEKaIVT2oP7MHHSLEIkfJfCkOkcnbWYo5Yfg56OLm98J7N19e19JOQb5LKv_48LIi3LrWhHLZqEgoj79Dne_EJg",
+        "cid": "5738233146346723122",
+        "fid": "0x89c25b07bff20279:0x4fa24ca4e65e5732",
+        "placeId": "ChIJeQLyvwdbwokRMlde5qRMok8"
+      },
+      {
+        "position": 7,
+        "title": "Atlantic Orthopedics & Sports Medicine",
+        "address": "489 Atlantic Ave, Brooklyn, NY 11217",
+        "latitude": 40.685908399999995,
+        "longitude": -73.981526,
+        "rating": 4.7,
+        "ratingCount": 162,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Podiatrist",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.atlanticsportsmed.com/",
+        "phoneNumber": "(718) 332-4747",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/atlantic-orthopedics-and-sports-medicine-38386?LocIdent=135174&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_oMeKPsiNTEWs2UoP_lIdFB-lo_pPN6DLODb0WM6xLPCWZO8x-entity&rwg_token=AFd1xnEppjJseJYbbVk-4kfGhSdNs081VJgpDx4vzCHW5k99eU8DTUbgtWcmGpPJ-Hkai0NyBLZll99bU3x4xa68JpMLfspXSYhhkt-yE8HMvThxP5g20JU%3D",
+          "https://www.zocdoc.com/doctor/christopher-carroll-pa-c-449737?LocIdent=135174&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_S2cA2Ee-XUmKJMKsh9Eclx-lo_pPN6DLODb0WM6xLPCWZO8x-entity&rwg_token=AFd1xnHiJN5nkEFxPIjAI0mLyYxbai_eh-J62p-nfGbcwbrvzMzP1ymTcF3NlFP6nWJjGC0hlIcQZO8zFVJ3LUJMToohMzj5xD1Ci8d4kWiJTj-1I_BR09k%3D",
+          "https://www.zocdoc.com/doctor/ian-wert-pa-646289?LocIdent=135174&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_OzvBqRo5KkOKSSt2C8nQaw-lo_pPN6DLODb0WM6xLPCWZO8x-entity&rwg_token=AFd1xnFtjdf-V6yTFWjEZ1C9STJLsLl9gRBXFp71w2Vpp9jHIRtaRiuypB-MlginscT0sp9m7MVQ4ztWMFB2sl50y-hfH7Ap1ejrv7uz4N4jzDdEL8IyUlY%3D",
+          "https://www.zocdoc.com/doctor/juan-robles-md-367950?LocIdent=135174&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_aq_S2WjezEmU--ETq3Z5Qx-lo_pPN6DLODb0WM6xLPCWZO8x-entity&rwg_token=AFd1xnHY7_GVTkCm4d9eGGiMLdK28tf-w__tdcMNvi7rsEkJ0l4hpKwERgrCrgE3F7eBGrGVGdEXe3EorWA0spofTJpDka0n-8ChuUEUzAS71bWf8IcGyyU%3D",
+          "https://www.atlanticsportsmed.com/book-appointment.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHuooiWQwBlt4MTPId-zc3qzmnktUgQ3lRMlWxJIORmSlS0KQrrP_JvgIar6twgQZXZbOVcw3GJRqLHC9xeQ3XsvaDHJpyh-uqcwRZn5gTOyrRpQOnaS5DDTYWmxFlQpi2Zsyo",
+        "cid": "227459728696933118",
+        "fid": "0x89c25b98d0a4582d:0x328196b09affafe",
+        "placeId": "ChIJLVik0JhbwokR_vqvCWsZKAM"
+      },
+      {
+        "position": 8,
+        "title": "NY Orthopedics",
+        "address": "161 Atlantic Ave, Brooklyn, NY 11201",
+        "latitude": 40.6906308,
+        "longitude": -73.994796,
+        "rating": 4.8,
+        "ratingCount": 351,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://newyorkorthopedics.com/",
+        "phoneNumber": "(212) 737-3301",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/ny-orthopedics-5323?LocIdent=103710&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_Sbd99__SQUuuvp-cCdfPIR-lo_zpmB_RIDaUuprXtE5QDRpx-entity&rwg_token=AFd1xnGwBVB1ZlEOyhVucnjp6AmWfoXM9r-V4519h7ncfl3AcKbVCUqRCUcKRBEShkzMpOzVPr5biou8DxTEsJSNPINbAAr3V5b74Wibom62jlPCiEw1bFI%3D",
+          "https://www.newyorkorthopedics.com/locations/brooklyn/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTmes8qGixvgi7f4O3idNKGHzIWvEmPF_0aEfRukJxP3wqCwC2KcDq9YnvduSVlFaTX8xx7V_YIggkms9q9EU8YmkUVSZCXEQZC81KKmKVeZZhCP5UitMRgbndgJmjLjd4EW9dCw",
+        "cid": "10722747741279201296",
+        "fid": "0x89c25b64e2ed452b:0x94ceda425711a810",
+        "placeId": "ChIJK0Xt4mRbwokREKgRV0LazpQ"
+      },
+      {
+        "position": 9,
+        "title": "Ocean Orthopedics and Podiatry",
+        "address": "1408 Ocean Ave Fl 3, Brooklyn, NY 11230",
+        "latitude": 40.6277099,
+        "longitude": -73.95722099999999,
+        "rating": 4.6,
+        "ratingCount": 97,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hand surgeon",
+          "Podiatrist"
+        ],
+        "website": "http://oceanorthopedicsandpodiatry.com/",
+        "phoneNumber": "(718) 943-0008",
+        "openingHours": {
+          "Thursday": "9 AM–8 PM",
+          "Friday": "9 AM–8 PM",
+          "Saturday": "9 AM–8 PM",
+          "Sunday": "9 AM–8 PM",
+          "Monday": "9 AM–8 PM",
+          "Tuesday": "9 AM–8 PM",
+          "Wednesday": "9 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEj4Sfi85BU68VIJd3jdQ4tkzMya0Wv7BRkAqVyueINg0Niz84HxCrD1PF6cM4RZauA1J-SN93YPovUfdbqXg6iATsHhthfBr0uk1MYL7N9DCrSuBShPyp6sM7cTt-4Rr2jQYkU",
+        "cid": "8373460614744963811",
+        "fid": "0x89c244b6783f64db:0x743482108a98fae3",
+        "placeId": "ChIJ22Q_eLZEwokR4_qYihCCNHQ"
+      },
+      {
+        "position": 10,
+        "title": "Atlantic Orthopedics & Sports Medicine",
+        "address": "554 4th Ave Unit A, Brooklyn, NY 11215",
+        "latitude": 40.666669,
+        "longitude": -73.99212299999999,
+        "rating": 4.8,
+        "ratingCount": 134,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Acupuncturist",
+          "Pain management physician",
+          "Podiatrist",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.atlanticsportsmed.com/",
+        "phoneNumber": "(718) 332-4747",
+        "openingHours": {
+          "Thursday": "9:30 AM–4:30 PM",
+          "Friday": "9:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–4:30 PM",
+          "Tuesday": "9:30 AM–4:30 PM",
+          "Wednesday": "9:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/atlantic-orthopedics-and-sports-medicine-38386?LocIdent=193847&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_oMeKPsiNTEWs2UoP_lIdFB-lo_j5c5vY7yV0GudK08NppejB-entity&rwg_token=AFd1xnGt73Nh5bzxzHI8bStev7Y-EKuBJj9rfVwTtxJp4nneJ8fJechFNOwgRUv2uj4WlR1BWAJKtsJMzeeDv9bNyi55fQ4LHh6Dl4Z-sY7LVUp9CiFZnLM%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBo_p4E5ixBBpDs6yPT-hGQzSOAyADVMoXxjnc-0Vk0v2XFS63YAUol0DqXv2rsz9ULRSnqDUBotD406YwD46mIaolCocNlc3Y3Mfgvpt7eIW_hAuTXKomvraH80xm8-Lm6ACV7A",
+        "cid": "8872100920193920747",
+        "fid": "0x89c25b0db04ea29d:0x7b2008c7cf932eeb",
+        "placeId": "ChIJnaJOsA1bwokR6y6Tz8cIIHs"
+      },
+      {
+        "position": 11,
+        "title": "Genesis Ortho Supply Corporation",
+        "address": "1707 Broadway, Brooklyn, NY 11207",
+        "latitude": 40.6837782,
+        "longitude": -73.9117186,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "phoneNumber": "(718) 573-7777",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=X6-NnCr4jhBVJ1LOba124g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=24.407454&pitch=0&thumbfov=100",
+        "cid": "3149433403228432240",
+        "fid": "0x89c25c403a84a947:0x2bb508fe6b2e2770",
+        "placeId": "ChIJR6mEOkBcwokRcCcua_4ItSs"
+      },
+      {
+        "position": 12,
+        "title": "Bushwick Orthodontic Studio",
+        "address": "203 Irving Ave, Brooklyn, NY 11237",
+        "latitude": 40.7014904,
+        "longitude": -73.9183173,
+        "rating": 5,
+        "ratingCount": 13,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.bushwickortho.com/",
+        "phoneNumber": "(347) 382-6861",
+        "openingHours": {
+          "Thursday": "12–7 PM",
+          "Friday": "9 AM–2:30 PM",
+          "Saturday": "10 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "10 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.bushwickortho.com/locations/book-brooklyn-new-york"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlmyO_1FFeY-2xcicztYoYv1tI__ZSkXxkY_NqininzLHsZYPnTv9CMSt80ASgQW_hRE0VOTmMBFHEGnI7I3hp2Zsfz_-8Ncoc7ZR6177Cl5RvBr3bgRAimMlwXmOgY9bE0eYVpw",
+        "cid": "10878757218095451923",
+        "fid": "0x89c25d5caee29ae9:0x96f91c0d3e4bcf13",
+        "placeId": "ChIJ6ZrirlxdwokRE89LPg0c-ZY"
+      },
+      {
+        "position": 13,
+        "title": "Glenridge Orthodontics",
+        "address": "65-34 Myrtle Ave, Glendale, NY 11385",
+        "latitude": 40.701133299999995,
+        "longitude": -73.8889892,
+        "rating": 4.9,
+        "ratingCount": 758,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.smiletodayortho.com/",
+        "phoneNumber": "(718) 386-8728",
+        "openingHours": {
+          "Thursday": "10 AM–7 PM",
+          "Friday": "10 AM–7 PM",
+          "Saturday": "8:30–11:30 AM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–7 PM",
+          "Tuesday": "10 AM–7 PM",
+          "Wednesday": "10 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1MzW-qXd2lmVpW1i8dWDw5b-fRrZ5ndr2otH81Nmf02WE4CuJpS65l3xXH_Qyx-uU1rYbqkpstJBTmpv7eZt2I8rQrV92MzdsiBRXGoQHMmMTFCbevW1Tn2XusA0CjPwB2fxC",
+        "cid": "10538392908972729495",
+        "fid": "0x89c25c2ab4bb9069:0x923fe48412d0a497",
+        "placeId": "ChIJaZC7tCpcwokRl6TQEoTkP5I"
+      },
+      {
+        "position": 14,
+        "title": "Orthopedics at Mount Sinai Brooklyn Heights",
+        "address": "300 Cadman Plz W, Brooklyn, NY 11201",
+        "latitude": 40.6951296,
+        "longitude": -73.99125169999999,
+        "rating": 5,
+        "ratingCount": 2,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mountsinai.org/locations/msd-brooklyn-heights/services/orthopedics?utm_source=Yext&utm_medium=department_listing&utm_campaign=Yext-MSBH-ortho&y_source=1_MTkwMjg3NjAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(929) 210-6000",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://raa.mountsinai.org/makeappt/index.cfm?pid=00000DDD0000000000008&office_id=00100OOO0000000000008&utm_dom=www.mountsinai.org&utm_medium=department_listing&utm_source=yext&utm_campaign=Yext-MSBH-orthoappt&y_source=1_MTkwMjg3NjAtNzE1LWxvY2F0aW9uLnJlc2VydmF0aW9uX3VybA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0qQC9wwU4V7j3WBtN1e1urmi7fYL1JFX5Z6S-0n-phMjQHv4q1RzIYzngkZrafDtJ8lasYOc4V3OhyGgBBqSHE_K0xOm5PWL8ADQvADawQwXujYzmCt3eOJpxFWVpwOR-hrhxNA",
+        "cid": "3435853167803607046",
+        "fid": "0x89c25bf9b5649c7b:0x2fae9a408f55a806",
+        "placeId": "ChIJe5xktflbwokRBqhVj0Cari8"
+      },
+      {
+        "position": 15,
+        "title": "Hanson Place Orthodontics",
+        "address": "1 Hanson Pl #702, floor 7, Brooklyn, NY 11243",
+        "latitude": 40.685389199999996,
+        "longitude": -73.97769819999999,
+        "rating": 4.7,
+        "ratingCount": 256,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.hansonplaceortho.com/",
+        "phoneNumber": "(718) 622-2695",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.hansonplaceortho.com/for-new-patients/contact-us/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvSsQicqMXD_z9vbl3cBF0n3J9X154RGXNjJCbArcAuTSYFbruB-2fuwFj31NI0my8IVl6loBRZmpkKWHMIfqulqwapQOlls1OWDBou8eKqaARd0VcI-bhngav26E1sTzH-IEdyg",
+        "cid": "4127651694068211171",
+        "fid": "0x89c25badf7f5ab9f:0x39485d58b5799de3",
+        "placeId": "ChIJn6v1961bwokR4515tVhdSDk"
+      },
+      {
+        "position": 16,
+        "title": "Level Orthodontics - Dr. Alan Zhou, DDS",
+        "address": "185 Broadway Unit 3, Brooklyn, NY 11211",
+        "latitude": 40.7099736,
+        "longitude": -73.9619652,
+        "rating": 5,
+        "ratingCount": 37,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://www.levelorthobrooklyn.com/",
+        "phoneNumber": "(718) 569-7658",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "10 AM–4 PM",
+          "Monday": "Closed",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0K7mQlIDBJte7h6ji6PIFQisJPCjSvj_pQWQl28FNmuqbnSJ3xdY9YKmtcSrTC2WmbnJ-Pid4588K-Wxxj9MEwAYDHtFXgc4n6wSQBt5lClYcsjU4esW8snWe11JcQovT74av",
+        "cid": "3096407232857382850",
+        "fid": "0x89c25b6fde43a213:0x2af8a5f90a6a1fc2",
+        "placeId": "ChIJE6JD3m9bwokRwh9qCvml-Co"
+      },
+      {
+        "position": 17,
+        "title": "Gorin Orthodontics - Brooklyn",
+        "address": "303 Beverley Rd, Brooklyn, NY 11218",
+        "latitude": 40.6431541,
+        "longitude": -73.977127,
+        "rating": 5,
+        "ratingCount": 142,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://gorinortho.com/",
+        "phoneNumber": "(718) 436-5175",
+        "openingHours": {
+          "Thursday": "10 AM–6:30 PM",
+          "Friday": "12–6:30 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "12–6:30 PM",
+          "Wednesday": "10 AM–6:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGX_g1542qjXQbSVTUhmkSOzMDl4-CPWja656K4Q2IWIuXxt9VI1nMEDzUN9915dinym60Co27IJ9aGBvcO_7x_do7O0uxw0JLSo4dFucBEmKJb2BVb7DYqvQ3VYLLE5apL71A",
+        "cid": "8088530442808544265",
+        "fid": "0x89c25b2f2b878e43:0x70403b9536894c09",
+        "placeId": "ChIJQ46HKy9bwokRCUyJNpU7QHA"
+      },
+      {
+        "position": 18,
+        "title": "Yo! Braces Orthodontics: Braces & Invisalign",
+        "address": "322 Stockholm St, Brooklyn, NY 11237",
+        "latitude": 40.703269999999996,
+        "longitude": -73.9186908,
+        "rating": 4.7,
+        "ratingCount": 81,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "http://www.yobraces.com/",
+        "phoneNumber": "(718) 366-3941",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–4:30 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHm640APxIneicIFh88hEN6hG-iGcc-yEoFqNkprwj4VTbMRTGNmc__WmtSfILNh53oCNGkRPCJpAdrvvnmE-6tKT4GkUES1r6TEOGsTuLKsVdYmrtkonp2hZL1Vmekqbiyqzzw",
+        "cid": "14297249352923611439",
+        "fid": "0x89c25c1c260c7acb:0xc66a08895232012f",
+        "placeId": "ChIJy3oMJhxcwokRLwEyUokIasY"
+      },
+      {
+        "position": 19,
+        "title": "Maimonides Bone & Joint Center: Bensonhurst",
+        "address": "6010 Bay Pkwy 7th floor, Brooklyn, NY 11204",
+        "latitude": 40.6165729,
+        "longitude": -73.9789991,
+        "rating": 3.9,
+        "ratingCount": 243,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Pediatric clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://maimo.org/treatments-care/bone-and-joint-center/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+        "phoneNumber": "(718) 283-7400",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/maimonides-bone-and-joint-95528?LocIdent=233738&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_wZgEFUKr1EKYKH-3XsvbuR-lo__ir85EifL0C78Xuyb6J_rB-entity&rwg_token=AFd1xnF7VzGmKVpiy6m9NN-z-v8lEGD438v2EkykhbV6TIipefqDxJnUUZaCPoluXJNoZniB_UGdjqGK0MVKN5nn8F13iPEzC7KNzP1ShVO0xdkNErefqVU%3D",
+          "https://www.zocdoc.com/practice/maimonides-bone-and-joint-95528?LocIdent=384782&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_wZgEFUKr1EKYKH-3XsvbuR-lo_bkVlD37RC06ideg32OJO8g-entity&rwg_token=AFd1xnFQp0lIwTO9rMgG-1dgOCjLM02w9hLQEFdovX5t4_lmgfhbDEi7tUgBdfGfmI6j1EP11ea2Tf9qoib_rpj7omxJtP1wso1iL3VJWfw9cbNWx0eP6VM%3D",
+          "https://www.zocdoc.com/practice/maimonides-bone-and-joint-95528?LocIdent=323461&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_wZgEFUKr1EKYKH-3XsvbuR-lo_u_7L0w_jd0WDy7MLgCXVJx-entity&rwg_token=AFd1xnEh3ftloNC0QK3qPFqHPXzeee1rMYIBOucn6tChZf0kSKTnNfhX6MhKID4ITE86n2p_WGSUPoBr2NYrhZhUseAzi_4fkbhSskq42Vs78vJBT_9xbys%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWn01JFNLgiritJ_xQ1Pyfi0WpU72kxOD2pnh_CoLQV4iH1CCRR-rN-qfmGphDgxhc6fNSYIlE1QUC215ZrbDj2FOS1sadeyaRX4XboieKVjE-xwFrvNEOuLBccPjPbW97GXc",
+        "cid": "2642128980906371462",
+        "fid": "0x89c244de245f1e81:0x24aaba4f3db06986",
+        "placeId": "ChIJgR5fJN5EwokRhmmwPU-6qiQ"
+      },
+      {
+        "position": 20,
+        "title": "Orthodontic Studio of Brooklyn",
+        "address": "1 Hanson Pl #705, Brooklyn, NY 11243",
+        "latitude": 40.6857299,
+        "longitude": -73.97790719999999,
+        "rating": 4.9,
+        "ratingCount": 83,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthodonticstudiobrooklyn.com/",
+        "phoneNumber": "(718) 638-7832",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticstudiobrooklyn.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZsUCTbargnT4DAY2ymYY47Gsr-ELia8y8DaNaV1v_8FUSa_4L26g3VH7NIxlRTcFyJnWbrj6sVVMf5aXtBTL6f-D3kM2-boJQaCJoNULyH-afde5xeM2cN9UZHMFh31xCcxA",
+        "cid": "12952251821042316979",
+        "fid": "0x89c25badf811aadf:0xb3bfa46842a236b3",
+        "placeId": "ChIJ36oR-K1bwokRszaiQmikv7M"
+      }
+    ],
+    "credits": 3
+  }
+}

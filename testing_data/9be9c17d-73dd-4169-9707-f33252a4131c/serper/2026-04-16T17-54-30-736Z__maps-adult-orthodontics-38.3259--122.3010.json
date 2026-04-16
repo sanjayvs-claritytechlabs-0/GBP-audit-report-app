@@ -1,0 +1,629 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@38.5971891,-121.3851269,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Evrigenis Orthodontics on Pavilions Lane",
+        "address": "544 Pavilions Ln, Sacramento, CA 95825",
+        "latitude": 38.5755437,
+        "longitude": -121.4101469,
+        "rating": 4.9,
+        "ratingCount": 148,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.evrigenisorthodontics.com/",
+        "phoneNumber": "(916) 923-9168",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://evrigenisorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHL_yUpF892hrRAeTMv1P0-uY32i3vk3gSbmrALHj7K2kpUCtiPyWZsoXp__0-eEYPq56jgr9ZxIM9yWz1kn1wA6ROsW7ybhhvsxPv2XqlpQvz0R5rtgHQFTOU5zylH4JwZyZwLdc-hJRgs",
+        "cid": "14199083881118841103",
+        "fid": "0x809ada5714bf6419:0xc50d478f5610390f",
+        "placeId": "ChIJGWS_FFfamoARDzkQVo9HDcU"
+      },
+      {
+        "position": 2,
+        "title": "Roseville Orthodontics",
+        "address": "1431 Secret Ravine Pkwy # 151, Roseville, CA 95661",
+        "latitude": 38.7654308,
+        "longitude": -121.2443941,
+        "rating": 5,
+        "ratingCount": 186,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://rosevilleorthodontics.com/",
+        "phoneNumber": "(916) 782-3161",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCTt4w4sxuYy5REmog-O0bO5k_NpApY9EkLqAT46KCVMekJB4_SJA25nutiG7QKgECNpp4wHHFlM2VJTZVDl8cHA0n6CZRj9MzYEJ2Yj_U8HFFSvrNujA1Rf2usp3DtAyCmBoj",
+        "cid": "2476419999521259083",
+        "fid": "0x809b1f999bda32f9:0x225e02de72233e4b",
+        "placeId": "ChIJ-TLam5kfm4ARSz4jct4CXiI"
+      },
+      {
+        "position": 3,
+        "title": "Giannetti & Booms Orthodontic Specialists",
+        "address": "2650 21st Street #8, Sacramento, CA 95818",
+        "latitude": 38.557242699999996,
+        "longitude": -121.487055,
+        "rating": 4.9,
+        "ratingCount": 325,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.sacortho.com/",
+        "phoneNumber": "(916) 452-3584",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.sacortho.com/smilesnap"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEIL-B10N3fw5bLbOW2rf3Qb0hM7Ed1inD2Q4wOFyoMZXGdCE6S7wRG27SYBIjgBR9QJGHoPeLj131hytGB-tTzXWrIyapC1IM4iYKX3EFu93qMZYrczvd91x3uIBtu8RLsUg_7",
+        "cid": "16892229028835340841",
+        "fid": "0x809ad0fceb7481c7:0xea6d40cd8845b229",
+        "placeId": "ChIJx4F06_zQmoARKbJFiM1Abeo"
+      },
+      {
+        "position": 4,
+        "title": "New Element Orthodontics",
+        "address": "2525 K St #106, Sacramento, CA 95816",
+        "latitude": 38.573755899999995,
+        "longitude": -121.4729023,
+        "rating": 4.9,
+        "ratingCount": 125,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.newelementortho.com/",
+        "phoneNumber": "(916) 441-3925",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.newelementortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFVoQ7COSUUQd39HuRka7ylobyO1SrooU6ZijT-nTYTYgQ9g6Lem1zMFTZxFEnIJUVUuty1hewjXx5BEZUtOcjCXJ3pTt3xdL9E7k0_r7eNJYtMNDf9DQX_YpFaIhtIgM2cfTYDTtTC9DG",
+        "cid": "12673070479819185830",
+        "fid": "0x809ad0c197a31c4f:0xafdfca74e31c9ea6",
+        "placeId": "ChIJTxyjl8HQmoARpp4c43TK368"
+      },
+      {
+        "position": 5,
+        "title": "Markham Orthodontics",
+        "address": "4110 Truxel Rd Suite 130, Sacramento, CA 95834",
+        "latitude": 38.6449729,
+        "longitude": -121.5082568,
+        "rating": 4.9,
+        "ratingCount": 567,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.markhamorthodontics.com/",
+        "phoneNumber": "(916) 924-8970",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGth0zhYhoOPUEYUQaIaR7UC_MSLyAV_qI2TbmekxZGlh5zX-6LVC5kWqnDHCuQQ-9jD0VEUzDtznLl4du1yw58Oy_B-dE8Nglm7-RTIXBqnN0YkMalWJHGdpFpXWKYxQWjexGe",
+        "cid": "6423617474849529100",
+        "fid": "0x809ad6fb3b3622b3:0x5925460f4165dd0c",
+        "placeId": "ChIJsyI2O_vWmoARDN1lQQ9GJVk"
+      },
+      {
+        "position": 6,
+        "title": "Premier Orthodontics - Arden",
+        "address": "1580 Howe Ave, Sacramento, CA 95825",
+        "latitude": 38.5947726,
+        "longitude": -121.41394989999999,
+        "rating": 4.1,
+        "ratingCount": 118,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.premierorthodontics.com/",
+        "phoneNumber": "(916) 236-4334",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/Choice_HCS?lid=102891&rwg_token=AFd1xnFxq0181AgzHKDsLPNI8l8g8OK-zzww6yThT6iZ_wB5pbpifXl43rPJWYUehxHbovRBtpP0Z--FcBOAfB-h2atQ8uqhNw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrWw5GFeSgmy7dAr3s--CdrGtdrxcFO4p6YfDNvfoqsPP_JuZJjUn76nrnfhgP_-He78O5E0cfw9nOgziS5YpnPJil-VoxZnvEaoBVOhshsWKwqTk7gHkymvywvGDOP45Wa39hNloxbGE7",
+        "cid": "15546357970669454626",
+        "fid": "0x809ada396203cb73:0xd7bfc234c8d0c522",
+        "placeId": "ChIJc8sDYjnamoARIsXQyDTCv9c"
+      },
+      {
+        "position": 7,
+        "title": "Evrigenis Orthodontics on Del Paso Road",
+        "address": "1954 Del Paso Rd #101, Sacramento, CA 95834",
+        "latitude": 38.655699,
+        "longitude": -121.50576799999999,
+        "rating": 4.9,
+        "ratingCount": 246,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://evrigenisorthodontics.com/",
+        "phoneNumber": "(916) 575-9990",
+        "openingHours": {
+          "Thursday": "8 AM–12 PM, 1–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–4:30 PM",
+          "Tuesday": "8 AM–12 PM, 1–4:30 PM",
+          "Wednesday": "8 AM–12 PM, 1–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://evrigenisorthodontics.com/free-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGM4lXiyra7Kq3KnFCFmBTwdPEYNlOPP16hCv98qVMw7eGBrwCKO196ffrRcw5QZrenPVjZuZO82TECIj9_OA-iwYITldb4Mdw2H_CClhGvLWMxyTWWDuv0gZnNYoJKwTBbT55jCg",
+        "cid": "11044687888929204201",
+        "fid": "0x809b1f62ceee5f49:0x99469d1e22af27e9",
+        "placeId": "ChIJSV_uzmIfm4AR6SevIh6dRpk"
+      },
+      {
+        "position": 8,
+        "title": "Premier Orthodontics - Natomas",
+        "address": "4150 Truxel Rd A, Sacramento, CA 95834",
+        "latitude": 38.645692,
+        "longitude": -121.50839289999999,
+        "rating": 4,
+        "ratingCount": 212,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.premierorthodontics.com/",
+        "phoneNumber": "(916) 419-9939",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://nexhealth.info/book/appt/Choice_HCS?lid=102906&rwg_token=AFd1xnEH02QUq3g9yK8cJAtg-V-GO2uWyV1YRjsjL9-U1o7wGkeTLjA_9SNvE2GORlLocSADZic5WugZJfPPtXxw4xVPc0UbfA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfOq2iauG9eo_M-iriDQPOE1nH7j7v0S-cFpC3E3QJ9vdol9FtH6GrSuckBi-Wg9K-u84hji8jUeL459T7dMo6m0AEcgWwnacKiAtPFz8f9pEicqfZmxhVxTiNpuhq09buq9Tijg",
+        "cid": "9444031173538619435",
+        "fid": "0x809ad63b6023b2db:0x830ff050d27c202b",
+        "placeId": "ChIJ27IjYDvWmoARKyB80lDwD4M"
+      },
+      {
+        "position": 9,
+        "title": "Sunrise Orthodontics, Dr. Matthew Sanders, DDS, MS",
+        "address": "2483 Sunrise Blvd, Rancho Cordova, CA 95670",
+        "latitude": 38.614235699999995,
+        "longitude": -121.2683241,
+        "rating": 4.9,
+        "ratingCount": 799,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Oral surgeon"
+        ],
+        "website": "https://sunriseorthodontics.com/location/rancho-cordova/",
+        "phoneNumber": "(916) 635-5717",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://sunriseorthodontics.com/lp/free-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCLUe7muahRNbtPHbb4zg_xgq7emEvZCgV9uPIHR-MjvYcufJCYafcV87K81606YU6GnGBjk3MCw7q83GyK4cdmcZzfTAvpdodP3puxUq40lXvYlT-zbjVa7Urj5jOkg",
+        "cid": "13836380889887355667",
+        "fid": "0x809add61a4ae3213:0xc004b31c6ebd3313",
+        "placeId": "ChIJEzKupGHdmoAREzO9bhyzBMA"
+      },
+      {
+        "position": 10,
+        "title": "Holt Orthodontics",
+        "address": "2605 Eastern Ave #3, Sacramento, CA 95821",
+        "latitude": 38.6122063,
+        "longitude": -121.36493499999999,
+        "rating": 4.9,
+        "ratingCount": 484,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://bracesbyholt.com/",
+        "phoneNumber": "(916) 481-6424",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://edgebooking.ortho2.com/search?catalog=bdfaa480-2b50-40ec-a9ca-e598fba68fd1&code=wcigau"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEd9wq--lfdtc9f0jCXdXPFRhubKxq1rGJSe8ieciELN3f8RMVd1VEmveKtrL9XeQjcLNHbHqKl9NPKD9WzxnkSEYAMCUjYdLZJITLxy43pWcH9vSgZ4XSn9z1ooSKD9W4RHABv",
+        "cid": "13920982793492717162",
+        "fid": "0x809adbf03c907ecb:0xc13144181a755e6a",
+        "placeId": "ChIJy36QPPDbmoARal51GhhEMcE"
+      },
+      {
+        "position": 11,
+        "title": "Nor Cal Orthodontics",
+        "address": "8035 Madison Ave, Citrus Heights, CA 95610",
+        "latitude": 38.6646266,
+        "longitude": -121.2654429,
+        "rating": 5,
+        "ratingCount": 294,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://norcalortho.com/?utm_campaign=gmb",
+        "phoneNumber": "(916) 965-8026",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgZG_wug2G78fl8H5dY3dUSciUq9sBygtnpVNlw8tQlaM3hTOvEtf-1u43qcYX_qxiOcma5i2Wijk9Hw3JH0795rW0kl_1zsCDHVC0RoovGGAJW7WRjRTEQ0DLmD8IUqqK-kle",
+        "cid": "1511079802032533760",
+        "fid": "0x809ade1cffbf622d:0x14f86f12eb6ab100",
+        "placeId": "ChIJLWK__xzemoARALFq6xJv-BQ"
+      },
+      {
+        "position": 12,
+        "title": "Gold River Orthodontics",
+        "address": "11230 Gold Express Dr Ste 308, Gold River, CA 95670",
+        "latitude": 38.6224365,
+        "longitude": -121.2640359,
+        "rating": 5,
+        "ratingCount": 27,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://goldriverortho.com/",
+        "phoneNumber": "(916) 942-9006",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYVvOMzy8ZOEv6XD1J2wPwvDdHtU98Ij2T96SGs64MzvWZpXyvNXC-ibyJ-vKgbiHTnN_eOMSeEk2XuVPtWWcoyzQRsARKFecADB22E-62qbwzL_S-HcKRbZ8TdIMUJLqZXV8Q",
+        "cid": "337499416612127364",
+        "fid": "0x809addb0c429af23:0x4af09ee67114284",
+        "placeId": "ChIJI68pxLDdmoARhEIRZ-4JrwQ"
+      },
+      {
+        "position": 13,
+        "title": "Legendary Orthodontics – Sacramento",
+        "address": "9550 Micron Ave, Sacramento, CA 95827",
+        "latitude": 38.562383,
+        "longitude": -121.3418626,
+        "rating": 4.8,
+        "ratingCount": 211,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://legendaryorthodontics.com/sacramento/",
+        "phoneNumber": "(916) 381-7171",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://legendaryorthodontics.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZVzRtJTVzJlXQrp5k8U1Jkem7w6HqURUET7_kpJA-O5IWw6Y-c-dhKSLx5fohbOjbuJXDVqS3Wsd9OV3UO7YGzbg2me6B-dQBP8DeVzxILV0YrO8deirqHe9es3r_8-x1EgG8ZGY3DyVc",
+        "cid": "13772980405001937654",
+        "fid": "0x809adb3737450d81:0xbf2374b4ba8e62f6",
+        "placeId": "ChIJgQ1FNzfbmoAR9mKOurR0I78"
+      },
+      {
+        "position": 14,
+        "title": "Precision Orthodontics",
+        "address": "4408 Elverta Rd #200, Antelope, CA 95843",
+        "latitude": 38.7127185,
+        "longitude": -121.3618913,
+        "rating": 4.9,
+        "ratingCount": 487,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.precision-ortho.com/",
+        "phoneNumber": "(916) 727-1122",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEP0H8kP9ilyjL47kknAEW8FL4OwcRsqoa_CoxNnCW12d0C2ahDu1UbrIiUe32YL8w1EhoG_-kbFwVlHdJJUV6wfQAJINarT3Bp1mUA7LTaU1NYNG18VlyOeDS_V2U_ijxLYskasID0rno",
+        "cid": "1962349313182083563",
+        "fid": "0x809b274eedfad365:0x1b3baa4da97329eb",
+        "placeId": "ChIJZdP67U4nm4AR6ylzqU2qOxs"
+      },
+      {
+        "position": 15,
+        "title": "Smilebliss Orthodontics",
+        "address": "8759 Center Pkwy, Sacramento, CA 95823",
+        "latitude": 38.4383951,
+        "longitude": -121.42005499999999,
+        "rating": 5,
+        "ratingCount": 80,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://smilebliss.com/bliss-locations/california/sacramento/",
+        "phoneNumber": "(916) 428-5555",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1I3ZoSaVi3rxugmHDGRPQKfXMQtUdP9eHHpY5Ddv07EUb6l2MlVTlh2SXp3UkjHIaMPVtMB5rXdhDmaIzTHS2CXHmH9tNU8Y3Gk9AoCc5W0TlxLBEdSavH6ksAuOS6iSG5tyaiW19Yqsz",
+        "cid": "3592604818951519948",
+        "fid": "0x809ac7ac45f98a55:0x31db7f0c63f63ecc",
+        "placeId": "ChIJVYr5RazHmoARzD72Ywx_2zE"
+      },
+      {
+        "position": 16,
+        "title": "Greenhaven Orthodontics",
+        "address": "905 Secret River Dr D, Sacramento, CA 95831",
+        "latitude": 38.4950792,
+        "longitude": -121.52585979999999,
+        "rating": 5,
+        "ratingCount": 80,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://greenhavenortho.com/",
+        "phoneNumber": "(916) 428-1354",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtgDNGPo7hrcT3YF8pv_8eFlbXz15_rUSPGsobULfRmHYuPmxHmgRG7a6fqynFMfugNcqYd9WcUw1vZiyj0_Zab-m5VZqJLvUvmcIq3jYFdNNKwEYbBzbL2IkGn8oPUvu_hARs",
+        "cid": "4403869529084426447",
+        "fid": "0x809ace035232e8e3:0x3d1db001063e78cf",
+        "placeId": "ChIJ4-gyUgPOmoARz3g-BgGwHT0"
+      },
+      {
+        "position": 17,
+        "title": "Szymanowski Orthodontics",
+        "address": "99 Scripps Dr #201, Sacramento, CA 95825",
+        "latitude": 38.5716937,
+        "longitude": -121.40917639999999,
+        "rating": 5,
+        "ratingCount": 166,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://drdamonsmiles.com/",
+        "phoneNumber": "(916) 993-4171",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "7:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://drdamonsmiles.com/free-consult"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFK83_pnFDaSGUQEY55yLS1yFy3TGvskqk3HHsnvl9IPoi5YmTgJtE6mVATbkhyGWDJelmCupRG__p22zrR4BPinTmjZ5YH2yg1OZnwS_R3IeYdUnfB3pA1qI76L7Js-022a7XN",
+        "cid": "14193642893078504802",
+        "fid": "0x809ada58174a8dc9:0xc4f9f30296b12562",
+        "placeId": "ChIJyY1KF1jamoARYiWxlgLz-cQ"
+      },
+      {
+        "position": 18,
+        "title": "Laguna Creek Orthodontics: Jamson Wu, DDS MSD",
+        "address": "4827 Laguna Park Dr UNIT 5, Elk Grove, CA 95758",
+        "latitude": 38.4289474,
+        "longitude": -121.44787389999999,
+        "rating": 5,
+        "ratingCount": 61,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.lagunacreekortho.com/",
+        "phoneNumber": "(916) 392-1885",
+        "openingHours": {
+          "Thursday": "7 AM–5:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5:30 PM",
+          "Tuesday": "7 AM–5:30 PM",
+          "Wednesday": "7 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQqqFN2wYN6X2VSf743y0xoFhnzDl7G-nbscSfrsHo48CAZJffOTuCMhWBz2CkjsB3kIf8JSudaDyfZZiGq78-xPsDDEz5f--fS7X89RAQcI0OZJubo6Bty_IsUYlZ3HNQfMCdnQ",
+        "cid": "10420049737036438440",
+        "fid": "0x809ac8a037cf1103:0x909b74072df59ba8",
+        "placeId": "ChIJAxHPN6DImoARqJv1LQd0m5A"
+      },
+      {
+        "position": 19,
+        "title": "DeLurgio Orthodontics - Citrus Heights Orthodontist",
+        "address": "8035 Madison Ave G-1, Citrus Heights, CA 95610",
+        "latitude": 38.66493,
+        "longitude": -121.26619699999999,
+        "rating": 5,
+        "ratingCount": 138,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://delurgioortho.com/",
+        "phoneNumber": "(916) 966-5517",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patient.evosmiles.com/DF41A6C67C20AE9E8E10C2A03289951E766CCF79FF62105B804F57FFAAD2F119"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF3VVQI4UfJwn71EPuCcIxyX1pOcxgLgnRr1h5LlF57uxB1CJIrlGe18k-i9AntzxLiOhrK-pWqr_Z6RUbJdZBkwgagQl-VjC7WIHcKb0l5praIuMozJke1tunLUjHyWrV4kcs",
+        "cid": "5705638993138100036",
+        "fid": "0x809ade1c507a4799:0x4f2e806f3a9d2744",
+        "placeId": "ChIJmUd6UBzemoARRCedOm-ALk8"
+      },
+      {
+        "position": 20,
+        "title": "Alexander & Martin Orthodontics",
+        "address": "3461 Fair Oaks Blvd # 100, Sacramento, CA 95864",
+        "latitude": 38.5744843,
+        "longitude": -121.3839646,
+        "rating": 5,
+        "ratingCount": 103,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.ambraces.com/",
+        "phoneNumber": "(916) 630-0306",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGE-TzcmZlTs0yy83fPebbwqzflgLcR5SNGLvTMhUnL4rVFvQ6wxPsF3JW0uzpDIcNB8bMBChFsRP9RZJ2rWvdtefDuHnCkd-5ocE_j0kaqZMaRL1o1OYm9f4cwdO46z0tDSto_",
+        "cid": "15305975886986987786",
+        "fid": "0x809adbfb30ecf805:0xd469bff9848dc90a",
+        "placeId": "ChIJBfjsMPvbmoARCsmNhPm_adQ"
+      }
+    ],
+    "credits": 3
+  }
+}

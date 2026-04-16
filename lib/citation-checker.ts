@@ -26,6 +26,7 @@ import type {
   NAPConsistency,
   CitationMarket,
 } from "@/types";
+import { persistTestingJson } from "@/lib/testing-data";
 
 // ---------------------------------------------------------------------------
 // NAP Normalisation Helpers
@@ -124,7 +125,8 @@ async function checkYelp(
   city: string,
   state: string,
   lat: number,
-  lng: number
+  lng: number,
+  debug?: { uuid: string }
 ): Promise<CheckResult> {
   const apiKey = process.env.YELP_API_KEY;
   if (!apiKey) return { found: false, error: "YELP_API_KEY not configured" };
@@ -145,6 +147,14 @@ async function checkYelp(
         timeout: 8000,
       }
     );
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "yelp",
+        name: "businesses-search-raw",
+        data: { endpoint: "api.yelp.com/v3/businesses/search", params: { term: name, location: `${city}, ${state}`, latitude: lat, longitude: lng, limit: 5 }, response: response.data },
+      });
+    }
 
     const businesses = response.data?.businesses;
     if (!businesses || businesses.length === 0) return { found: false };
@@ -176,7 +186,8 @@ async function checkYelp(
 async function checkFacebook(
   name: string,
   lat: number,
-  lng: number
+  lng: number,
+  debug?: { uuid: string }
 ): Promise<CheckResult> {
   const token = process.env.FACEBOOK_ACCESS_TOKEN;
   if (!token) return { found: false, error: "FACEBOOK_ACCESS_TOKEN not configured" };
@@ -196,6 +207,14 @@ async function checkFacebook(
         timeout: 8000,
       }
     );
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "facebook",
+        name: "places-search-raw",
+        data: { endpoint: "graph.facebook.com/v19.0/search", params: { type: "place", q: name, center: `${lat},${lng}`, distance: 500, fields: "name,phone,location,website,hours" }, response: response.data },
+      });
+    }
 
     const data = response.data?.data;
     if (!data || data.length === 0) return { found: false };
@@ -232,7 +251,8 @@ async function checkViaSerperSiteSearch(
   domain: string,
   name: string,
   city: string,
-  state: string
+  state: string,
+  debug?: { uuid: string }
 ): Promise<CheckResult> {
   const apiKey = process.env.SERPER_API_KEY;
   if (!apiKey) return { found: false, error: "SERPER_API_KEY not configured" };
@@ -250,6 +270,14 @@ async function checkViaSerperSiteSearch(
         timeout: 8000,
       }
     );
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "serper",
+        name: `site-search-${domain}`,
+        data: { endpoint: "google.serper.dev/search", request: { q: query, gl: "us", hl: "en", num: 5 }, response: response.data },
+      });
+    }
 
     const organic = response.data?.organic;
     if (!organic || organic.length === 0) return { found: false };
@@ -319,7 +347,8 @@ function extractNAPFromSnippet(
 async function checkAppleMaps(
   name: string,
   lat: number,
-  lng: number
+  lng: number,
+  debug?: { uuid: string }
 ): Promise<CheckResult> {
   // Apple Maps doesn't have a free search API, so we use Serper to check
   // if the business appears on maps.apple.com or via Apple Business Connect
@@ -339,6 +368,14 @@ async function checkAppleMaps(
         timeout: 8000,
       }
     );
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "serper",
+        name: "apple-maps-site-search",
+        data: { endpoint: "google.serper.dev/search", request: { q: query, gl: "us", hl: "en", num: 3 }, response: response.data },
+      });
+    }
 
     const organic = response.data?.organic;
     if (!organic || organic.length === 0) {
@@ -355,6 +392,14 @@ async function checkAppleMaps(
           timeout: 8000,
         }
       );
+      if (debug?.uuid) {
+        await persistTestingJson({
+          uuid: debug.uuid,
+          category: "serper",
+          name: "apple-maps-fallback-search",
+          data: { endpoint: "google.serper.dev/search", request: { q: fallbackQuery, gl: "us", hl: "en", num: 3 }, response: fallbackRes.data },
+        });
+      }
       const fallbackOrganic = fallbackRes.data?.organic;
       if (!fallbackOrganic || fallbackOrganic.length === 0) return { found: false };
 
@@ -384,14 +429,15 @@ async function checkAdviceLocal(
   name: string,
   city: string,
   state: string,
-  phone: string
+  phone: string,
+  debug?: { uuid: string }
 ): Promise<CheckResult> {
   const apiKey = process.env.ADVICE_LOCAL_API_KEY;
   const partnerId = process.env.ADVICE_LOCAL_PARTNER_ID;
 
   if (!apiKey || !partnerId) {
     // Fallback to Serper site-search on advicelocal.com
-    return checkViaSerperSiteSearch("advicelocal.com", name, city, state);
+    return checkViaSerperSiteSearch("advicelocal.com", name, city, state, debug);
   }
 
   try {
@@ -413,6 +459,14 @@ async function checkAdviceLocal(
         timeout: 10000,
       }
     );
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "advice-local",
+        name: "listings-search-raw",
+        data: { endpoint: "api.advicelocal.com/v1/listings/search", params: { partner_id: partnerId, business_name: name, city, state, phone: normalisePhone(phone) }, response: response.data },
+      });
+    }
 
     const listings = response.data?.data?.listings;
     if (!listings || listings.length === 0) return { found: false };
@@ -456,6 +510,7 @@ interface CheckContext {
   state: string;
   phone: string;
   canonicalNAP: NAPData;
+  debug?: { uuid: string };
 }
 
 const HEALTHCARE_PLATFORMS: PlatformDef[] = [
@@ -475,7 +530,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.healthgrades.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkViaSerperSiteSearch("healthgrades.com", ctx.name, ctx.city, ctx.state),
+    checker: (ctx) => checkViaSerperSiteSearch("healthgrades.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
   // 3. Yelp
   {
@@ -484,7 +539,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.yelp.com",
     market: "us",
     checkMethod: "api",
-    checker: (ctx) => checkYelp(ctx.name, ctx.city, ctx.state, ctx.lat, ctx.lng),
+    checker: (ctx) => checkYelp(ctx.name, ctx.city, ctx.state, ctx.lat, ctx.lng, ctx.debug),
   },
   // 4. Zocdoc
   {
@@ -493,7 +548,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.zocdoc.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkViaSerperSiteSearch("zocdoc.com", ctx.name, ctx.city, ctx.state),
+    checker: (ctx) => checkViaSerperSiteSearch("zocdoc.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
   // 5. WebMD
   {
@@ -502,7 +557,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://doctor.webmd.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkViaSerperSiteSearch("doctor.webmd.com", ctx.name, ctx.city, ctx.state),
+    checker: (ctx) => checkViaSerperSiteSearch("doctor.webmd.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
   // 6. Vitals
   {
@@ -511,7 +566,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.vitals.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkViaSerperSiteSearch("vitals.com", ctx.name, ctx.city, ctx.state),
+    checker: (ctx) => checkViaSerperSiteSearch("vitals.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
   // 7. CareDash
   {
@@ -520,7 +575,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.caredash.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkViaSerperSiteSearch("caredash.com", ctx.name, ctx.city, ctx.state),
+    checker: (ctx) => checkViaSerperSiteSearch("caredash.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
   // 8. RateMDs
   {
@@ -529,7 +584,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.ratemds.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkViaSerperSiteSearch("ratemds.com", ctx.name, ctx.city, ctx.state),
+    checker: (ctx) => checkViaSerperSiteSearch("ratemds.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
   // 9. Apple Maps
   {
@@ -538,7 +593,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://maps.apple.com",
     market: "us",
     checkMethod: "search",
-    checker: (ctx) => checkAppleMaps(ctx.name, ctx.lat, ctx.lng),
+    checker: (ctx) => checkAppleMaps(ctx.name, ctx.lat, ctx.lng, ctx.debug),
   },
   // 10. Meta (Facebook)
   {
@@ -547,7 +602,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.facebook.com",
     market: "us",
     checkMethod: "api",
-    checker: (ctx) => checkFacebook(ctx.name, ctx.lat, ctx.lng),
+    checker: (ctx) => checkFacebook(ctx.name, ctx.lat, ctx.lng, ctx.debug),
   },
   // 11. Advice Local (Aggregator)
   {
@@ -556,7 +611,7 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     url: "https://www.advicelocal.com",
     market: "us",
     checkMethod: "api",
-    checker: (ctx) => checkAdviceLocal(ctx.name, ctx.city, ctx.state, ctx.phone),
+    checker: (ctx) => checkAdviceLocal(ctx.name, ctx.city, ctx.state, ctx.phone, ctx.debug),
   },
 ];
 
@@ -577,11 +632,12 @@ export async function runCitationChecks(params: {
   market: "in" | "us";
   primaryCategory: string;
   canonicalNAP: NAPData;
+  debug?: { uuid: string };
 }): Promise<CitationResult> {
-  const { name, lat, lng, city, state, canonicalNAP } = params;
+  const { name, lat, lng, city, state, canonicalNAP, debug } = params;
   const phone = canonicalNAP.phone || "";
 
-  const ctx: CheckContext = { name, lat, lng, city, state, phone, canonicalNAP };
+  const ctx: CheckContext = { name, lat, lng, city, state, phone, canonicalNAP, debug };
 
   // Run all 11 platform checks in parallel
   const results = await Promise.allSettled(

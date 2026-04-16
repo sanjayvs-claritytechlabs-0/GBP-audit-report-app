@@ -1,0 +1,665 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.321373,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@25.8553162,-80.2533839,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Full Orthopedics Urgent Care",
+        "address": "3143 NE 163rd St, North Miami Beach, FL 33160",
+        "latitude": 25.92755,
+        "longitude": -80.138902,
+        "rating": 4.6,
+        "ratingCount": 585,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Urgent care center",
+          "Sports medicine clinic",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.fullorthopedics.com/?utm_source=gmb_auth",
+        "phoneNumber": "(305) 343-1365",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–4 PM",
+          "Sunday": "9 AM–2 PM",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.fullorthopedics.com/schedule"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjyb7565iS6HUFK3JMNLVwnoh1dbwwzeL6zY8HuVGDzkK30xYAshwuVz4xO8-E7Z3yyaYxaYvMfAU_tVKjK_k8UvdFl6SNgXlyjIcdxZiiwD8F_93Bw7GlSKD1bmiC3Kp4Qyuy",
+        "cid": "9294704766490556107",
+        "fid": "0x88d9ad08c2f19d03:0x80fd6cbd5accb6cb",
+        "placeId": "ChIJA53xwgit2YgRy7bMWr1s_YA"
+      },
+      {
+        "position": 2,
+        "title": "OrthoNOW Doral",
+        "address": "3650 NW 82nd Ave Suite #201, Doral, FL 33166",
+        "latitude": 25.8084936,
+        "longitude": -80.329847,
+        "rating": 4.8,
+        "ratingCount": 1163,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "http://www.orthonowcare.com/",
+        "phoneNumber": "(305) 537-7272",
+        "openingHours": {
+          "Thursday": "9 AM–7 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "9 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–7 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/orthonow-doral-666183?LocIdent=362597&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_J1lRCxpd1k-PiYngv7EyYx-lo_Jc2rwBArE0qstC24fJ5dLx-entity&rwg_token=AFd1xnHbbsofNMIY-yaa9UZ5PjjzTZdGz4yHwnK-W9eXbJnYhRhd-zZv09fbxpabEVdJiG3_KoioZDThWNNYJpoR5P4yYpzqAQ%3D%3D",
+          "https://www.zocdoc.com/practice/orthonow-orthopedic-urgent-care-center-148680?LocIdent=362597&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_nPdIj0dMYEunVh7FXj9_TA-lo_Jc2rwBArE0qstC24fJ5dLx-entity&rwg_token=AFd1xnGoWfqjEfZcm2S5M8pQR21XI0BvlnXL81HA9wCKV0IidD0DOOLAd-D0vbfibIr0GIzFqWUYzsGamgdgqSI70QeVop2mDw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKBu9JDHXxx4UtwLT3xqPMurdyNgsZsZc8R9dX5dakcPEQi8WcuE-pL_hE8G8hwKP3xpeDyYQzZtVrNcXklCzcboLwbBx0tEhZge7ykzrxNyFxk-U1nwjSUXh6ndYZ_BKe7jFu",
+        "cid": "8281798465385436709",
+        "fid": "0x88d9b97c8bc76129:0x72eedbd34eac9625",
+        "placeId": "ChIJKWHHi3y52YgRJZasTtPb7nI"
+      },
+      {
+        "position": 3,
+        "title": "International Orthopaedic Specialists",
+        "address": "2260 NE 123rd St, Miami, FL 33181",
+        "latitude": 25.889146099999998,
+        "longitude": -80.152271,
+        "rating": 3.8,
+        "ratingCount": 31,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Foot care",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.iorthodocs.com/",
+        "phoneNumber": "(305) 674-5956",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9f68yo1NqUJ8Gb3XLQ83Xsd32otWPYhmMYvvQjGCeLmDNmQyxsOYBYtkLKXfpX7vtaG107eKdq0n68yCdmw7vRGdTI2P5C96aabmYn6Gg5pLzM9Oqf4iz0G0-4UmTPr4_vaOs",
+        "cid": "1198293677572062684",
+        "fid": "0x88d9b2798964fa5b:0x10a131c03c477ddc",
+        "placeId": "ChIJW_pkiXmy2YgR3H1HPMAxoRA"
+      },
+      {
+        "position": 4,
+        "title": "HCA Florida Aventura Orthopedics",
+        "address": "21097 NE 27th Ct #540, Aventura, FL 33180",
+        "latitude": 25.9703222,
+        "longitude": -80.1461894,
+        "rating": 4.8,
+        "ratingCount": 165,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.hcafloridaphysicians.com/locations/aventura-orthopedics/?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+        "phoneNumber": "(305) 933-9440",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.hcafloridaphysicians.com/locations/aventura-orthopedics/physicians/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSWqF4W8ZZjB1DhGCHmMH-_0ybge0lSOKeUn2FplhOTKQ202UC7ZRA0uZyQw38aYdH2FyywMLWhfT_V0tEAppr3CK-hoQ45Sew8B3AOSSt0mTyQSwp9QX3wv2x9ZmGsQSjRSVj",
+        "cid": "11495648065489944221",
+        "fid": "0x88d9ac63d938ecc1:0x9f88bf024e6f3e9d",
+        "placeId": "ChIJwew42WOs2YgRnT5vTgK_iJ8"
+      },
+      {
+        "position": 5,
+        "title": "University Orthopedic Care Hollywood",
+        "address": "450 N Park Rd #200, Hollywood, FL 33021",
+        "latitude": 26.013961499999997,
+        "longitude": -80.176018,
+        "rating": 4.2,
+        "ratingCount": 73,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Occupational medical physician",
+          "Pain management physician",
+          "Physiatrist",
+          "Sports medicine clinic"
+        ],
+        "website": "http://universityorthocare.com/",
+        "phoneNumber": "(866) 961-1744",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXTrHZn0CFmBqXWtB9Vzg9mCGePYexsTdpwxeQDVwW1WMFsulZrOLz5f8nAR8vlX79EWh1kh_gB2DCOSv4AT4lekqv4pkahJJvqjKpvVSQSuML2OrqyPNEUOEuikJS4Jon7Sqp",
+        "cid": "2785113277644175511",
+        "fid": "0x88d9abc2ac1aa9f7:0x26a6b5c515347897",
+        "placeId": "ChIJ96karMKr2YgRl3g0FcW1piY"
+      },
+      {
+        "position": 6,
+        "title": "OrthoMiami Doral",
+        "address": "3905 NW 107th Ave, Doral, FL 33178",
+        "latitude": 25.810608199999997,
+        "longitude": -80.3678659,
+        "rating": 4.8,
+        "ratingCount": 135,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.orthomiami.com/",
+        "phoneNumber": "(305) 596-2828",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2t9771ZbfXy7iuPnLALIELmI3nw4QTExeKMCVxQevB1tWNR84NKEWh2v2doeeBSSMXA38hwoDLbR0mK-7CaGPrvP7PJNizKJWWTbjDqYC8ZQIitYTTbIPAnEKEZYr56kHmDHXzmZCL18",
+        "cid": "14737454439711170044",
+        "fid": "0x88d9bf2bb5b5bd23:0xcc85f4bb047cddfc",
+        "placeId": "ChIJI721tSu_2YgR_N18BLv0hcw"
+      },
+      {
+        "position": 7,
+        "title": "Ivanov Orthodontics",
+        "address": "12866 Biscayne Blvd, North Miami, FL 33181",
+        "latitude": 25.8956667,
+        "longitude": -80.1628623,
+        "rating": 5,
+        "ratingCount": 861,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants periodontist",
+          "Dentist",
+          "Oral surgeon",
+          "Pediatric dentist",
+          "Periodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://ivanovortho.com/",
+        "phoneNumber": "(786) 249-7548",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.flexbook.me/ortho/google"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNfMR5WCbYLMtafPqssComNRAU867AUI5F2EkgDFYBUZbdlPw6thPepZgEnIKYx6eHHFVWGJoAZNMVA5DXhUDVxystn8JOU-ip-yO-AkwqxTmP1u8xDj50YrWAe6a_h4faKuz6",
+        "cid": "154326063970645489",
+        "fid": "0x88d9b2756f859c4f:0x22446bcce8df5f1",
+        "placeId": "ChIJT5yFb3Wy2YgR8fWNzrxGJAI"
+      },
+      {
+        "position": 8,
+        "title": "Florida OrthoCare",
+        "address": "3900 Hollywood Blvd Suite 204, Hollywood, FL 33021",
+        "latitude": 26.009014399999998,
+        "longitude": -80.18406279999999,
+        "rating": 3.9,
+        "ratingCount": 38,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://florthocare.com/",
+        "phoneNumber": "(561) 570-2501",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFxDcpvhnXqDW4zDHT6jn-Wm7rUfMLJIBrYbZTiqkyC-NZD5Si6uot1KmyIzfK6JKMNqxN_ItvS84pVIynkmBO1D4K1ZLW7-iSclfO3aYHMMb-qVDIcwlMD4-xnmId-0hf4lZ0",
+        "cid": "43587598585503750",
+        "fid": "0x88d9abdd2ff1e8f1:0x9adab0a24d2006",
+        "placeId": "ChIJ8ejxL92r2YgRBiBNorDamgA"
+      },
+      {
+        "position": 9,
+        "title": "HCA Florida Biscayne Bay Orthopaedics - Miami",
+        "address": "351 NW 42nd Ave Suite 205, Miami, FL 33126",
+        "latitude": 25.7754908,
+        "longitude": -80.263611,
+        "rating": 5,
+        "ratingCount": 402,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.hcafloridaphysicians.com/locations/biscayne-bay-orthopaedics/miami?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+        "phoneNumber": "(305) 649-2133",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.hcafloridaphysicians.com/locations/biscayne-bay-orthopaedics/physicians?urlTitle=Dr-Gilbert-D-Beauperthuy---Rojas-DO"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvEnctb6dTyzrJYsDqk8DNfMQkNifYZl4dN3BOVQwJBltlsBa0k6tWH-fJYxoDxSxQ4UOP0dLnfwhkrZPDiwCf82F2N5TbnJMSQSq4U0K8F1vBzbjyoz8VlqwW-DtE-vheNJHA",
+        "cid": "3265316985045927482",
+        "fid": "0x88d9b7881044cfff:0x2d50bc7f5cb6463a",
+        "placeId": "ChIJ_89EEIi32YgROka2XH-8UC0"
+      },
+      {
+        "position": 10,
+        "title": "Orthodontic Options - North Miami",
+        "address": "11645 Biscayne Blvd STE 201, North Miami, FL 33181",
+        "latitude": 25.882915999999998,
+        "longitude": -80.165205,
+        "rating": 4.4,
+        "ratingCount": 181,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.orthodonticoptions.com/",
+        "phoneNumber": "(305) 891-2015",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhygCiScR8p2k0_R0n9U2GeoftxcBBbNV0yconSRpDqPsB78bmqWTyx4yg_vVPVsEOoiF7Y5Xy4XV7vsJGr0uCvL-NYX8Atz9TxvjnkO-88lwCuoPd_RG7A9B7iwa0TDhKssY",
+        "cid": "4844594593062232371",
+        "fid": "0x88d9b212b3521987:0x433b751d5840a133",
+        "placeId": "ChIJhxlSsxKy2YgRM6FAWB11O0M"
+      },
+      {
+        "position": 11,
+        "title": "OrthoNOW Biscayne",
+        "address": "6815 Biscayne Blvd Suite 105, Miami, FL 33138",
+        "latitude": 25.8386225,
+        "longitude": -80.1841034,
+        "rating": 4.6,
+        "ratingCount": 200,
+        "type": "Urgent care center",
+        "types": [
+          "Urgent care center"
+        ],
+        "website": "https://www.orthonowcare.com/",
+        "phoneNumber": "(305) 845-2424",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/orthonow-biscayne-666184?LocIdent=362598&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_42v6z7DvmU22IsoLFrWuYR-lo_CGci--wXKkC062v5pSgJqx-entity&rwg_token=AFd1xnEEWPVpb8daNJFveqnMseS9l1yq-3p7eQgTB8v_kry4_Wgvs04O7Iqwnu7miagNSZZfREAEQ52hEvIQXTK4ZQwEW-fLcTQMa9hz_MJ7UB9-MDtv5lA%3D",
+          "https://www.zocdoc.com/practice/orthonow-orthopedic-urgent-care-center-148680?LocIdent=362598&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_nPdIj0dMYEunVh7FXj9_TA-lo_CGci--wXKkC062v5pSgJqx-entity&rwg_token=AFd1xnGEjJpiLbfTI4BWQgNfoZ14-7pyNOIRKXTFbw_AeXIYaCanjbjlvoeBPiVuuYGSlRpTQQHnmdEDqj_58uWwA9psldmMV_xcNzeQsZZviyeBaULjkCM%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5NvOfYvd7oQWiOZnFKK1Sq5eBmcvdtOdIT-KqjLRWc0Scq6BBLz5yk88COLRuNaMlRBb8bo_F3P_ax0wbSY4gIgWW5237hC4dqsGLmldk15o2XEcFBpL_5g9EpPVphAYV1BbGxnf0_OUE",
+        "cid": "9168975079920908703",
+        "fid": "0x88d9b3d77d4a18f3:0x7f3ebe418118399f",
+        "placeId": "ChIJ8xhKfdez2YgRnzkYgUG-Pn8"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic Specialists of South Florida",
+        "address": "7100 W 20th Ave Suite 101, Hialeah, FL 33016",
+        "latitude": 25.885983,
+        "longitude": -80.32521799999999,
+        "rating": 4.7,
+        "ratingCount": 274,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.orthopedicsurgeonsouthflorida.com/",
+        "phoneNumber": "(305) 822-0401",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF8CAVfJONSIastznhS8dp-o_pj_KlI0tGmSTwguxHnFy95NOO7ejt0Vqs4UCBBpggsGiF0Qd8dkxmKcDCk-AcyXWLcJFclxyZnoC50KhISrz_9Nc8KgPqhv0I9-4hfTMFQOsemZg",
+        "cid": "8629029168286256065",
+        "fid": "0x88d9bb21a0a1ac23:0x77c0784f5c2fcbc1",
+        "placeId": "ChIJI6yhoCG72YgRwcsvXE94wHc"
+      },
+      {
+        "position": 13,
+        "title": "Dr. Sophia E. Deben, MD",
+        "address": "2260 NE 123rd St, North Miami, FL 33181",
+        "latitude": 25.8891778,
+        "longitude": -80.1522612,
+        "rating": 4.8,
+        "ratingCount": 54,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Foot care",
+          "Orthotics & prosthetics service",
+          "Physical therapy clinic",
+          "X-ray lab"
+        ],
+        "website": "http://www.iorthodocs.com/",
+        "phoneNumber": "(786) 923-3000",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.drsophiadeben.com/request-appointment-orthopaedic-foot-ankle-specialist-miami-fl/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFDwSxFD0GzWowYop7xGZqDHAfGy6A2O8lwOpBYydyhBrCV5IWRdjfvF-P3WYcDbMlfeCDRhxs_lGRAqesn0HNcACZbqgmIURIloLXnh70IH2dm59VGSE804zn92WfxcXrQyN0bg",
+        "cid": "316244861422489404",
+        "fid": "0x88d9b27989636a5f:0x4638706a3214f3c",
+        "placeId": "ChIJX2pjiXmy2YgRPE8howaHYwQ"
+      },
+      {
+        "position": 14,
+        "title": "OrthoMiami",
+        "address": "7800 SW 87th Ave Suite A110, Miami, FL 33173",
+        "latitude": 25.696670899999997,
+        "longitude": -80.3344735,
+        "rating": 4.9,
+        "ratingCount": 267,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical diagnostic imaging center",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthomiami.com/",
+        "phoneNumber": "(305) 596-2828",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFUn-sr2-7GNH7dmGL4jorQK27iCeJPxHlFDCZtMvERrF8ZZQGVnCs_nbZMYFhbw2R5dgRgLluc5pFmh_WyWVQvw5On2I0_lbTZn3hZlyTBAEWUdcVmjJWLrGp7chObgzjoNKrN",
+        "cid": "3168365928580254696",
+        "fid": "0x88d9c76d2deed275:0x2bf84c067b7a0be8",
+        "placeId": "ChIJddLuLW3H2YgR6At6ewZM-Cs"
+      },
+      {
+        "position": 15,
+        "title": "Spine and Orthopedic Specialists",
+        "address": "20803 Biscayne Blvd Suite 200, Aventura, FL 33180",
+        "latitude": 25.9685082,
+        "longitude": -80.14312,
+        "rating": 4.5,
+        "ratingCount": 146,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.orthospinefl.com/",
+        "phoneNumber": "(800) 531-1587",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHA_xtL9oA70LowL9Yo4bFgz1nCCNgR8z9ohU5cvwT3ezdBJejg5YkMbylZpxA3lt7UQjtKHZ3p6dufpz3q4NITQKgucUYS0ZLH2kEIQ-lmhULZqIZ31q1ll-ydlM5blU7Qzh4Ugg",
+        "cid": "4863907615027785436",
+        "fid": "0x88d9ac617aa0e5b9:0x43801234ae0c6edc",
+        "placeId": "ChIJueWgemGs2YgR3G4MrjQSgEM"
+      },
+      {
+        "position": 16,
+        "title": "Orthopaedic Center of South Florida (Miami Lakes)",
+        "address": "7975 NW 154th St #210, Miami Lakes, FL 33016",
+        "latitude": 25.9138235,
+        "longitude": -80.3304271,
+        "rating": 4.7,
+        "ratingCount": 95,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.ocsfdocs.com/?utm_source=GMBSocialClimb&utm_medium=OrthopaedicCenterofSouthFlorida%28MiamiLakes%29",
+        "phoneNumber": "(800) 556-7846",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7TFnJTRyGpS79oPaxUzR8GlNP7K8X6FtbA4BRaImPIMM3w8XDwTWYuzQEaXqWX8dH7qoLQNTw9JDYAfxWv7ysCPEN4xK0Mq7fkLZMBYhpqqlCM44YVbYVuLNON4O20y7Evad4",
+        "cid": "5129880044074913595",
+        "fid": "0x88d9a4d19737d979:0x4730feb887734f3b",
+        "placeId": "ChIJedk3l9Gk2YgRO09zh7j-MEc"
+      },
+      {
+        "position": 17,
+        "title": "Orthopaedic Associates of Miami Lakes",
+        "address": "15600 NW 67th Ave #306, Miami Lakes, FL 33014",
+        "latitude": 25.9153627,
+        "longitude": -80.3093525,
+        "rating": 3,
+        "ratingCount": 27,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist",
+          "X-ray lab"
+        ],
+        "website": "http://oaoml.com/",
+        "phoneNumber": "(305) 306-0600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFyZz2dbabnxTNAp83JIRMwXuS8MYL5mibnfNH14lJqso7Cp60RJz-JN6Ah0EWuMDSKLBDQxSfMxlyomf0skhvHeHZt7fL3JVd_EIz36edqVFE7oI6a0ZOWnzBpaJmMHe1_FcxM",
+        "cid": "13681929213603204326",
+        "fid": "0x88d9a530269f74c1:0xbddffa213adbcce6",
+        "placeId": "ChIJwXSfJjCl2YgR5szbOiH6370"
+      },
+      {
+        "position": 18,
+        "title": "Total Orthopaedic Care - Pembroke Pines",
+        "address": "10794 Pines Blvd Suite 102-104, Pembroke Pines, FL 33026",
+        "latitude": 26.0060991,
+        "longitude": -80.2900563,
+        "rating": 4.3,
+        "ratingCount": 2605,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Family practice physician",
+          "Pediatrician",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Rehabilitation center",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.toc.md/",
+        "phoneNumber": "(954) 735-3535",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.toc.md/contact-us/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFH_p0kxL3Q6XB4qKg9erE1fcADC68rKi5FuKktTmcauQp1R0Af68fX8uQ0q87QTJdK6krhpeXqlu5sUCXkj5WmyWoL2psvmG6pjSI3zRoKCK-RUolP0VoGY3UjkJLVQOQRjsmh8s_joRC",
+        "cid": "8397878755008936677",
+        "fid": "0x88d9a3f1c1fb6f5d:0x748b423bdb1b7ae5",
+        "placeId": "ChIJXW_7wfGj2YgR5Xob2ztCi3Q"
+      },
+      {
+        "position": 19,
+        "title": "Sun Orthodontist Braces & Invisalign North Miami Beach",
+        "address": "18110 NE 19th Ave, North Miami Beach, FL 33162",
+        "latitude": 25.942782899999997,
+        "longitude": -80.16296349999999,
+        "rating": 5,
+        "ratingCount": 532,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://sunorthodontist.com/orthodontist-north-miami-beach/?utm_source=google&utm_medium=organic&utm_campaign=gbp_north_miami_beach",
+        "phoneNumber": "(786) 703-8723",
+        "openingHours": {
+          "Thursday": "9 AM–7 PM",
+          "Friday": "9 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–7 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVv6afkqEvs5TH2xZ7y1j3B85oJsOpTaVVRRt-xm2blFwxyohiV_er3goFcWRu7_9I2ZYTCKlULM7GEFBeuISTiuzRa-MBXTkofnoeLXENAw35b5dy13CVChJOrVc5cXaszBGgJ4dV9CUg",
+        "cid": "8704778164804212111",
+        "fid": "0x88d9ade8df6f25eb:0x78cd959ef9bb558f",
+        "placeId": "ChIJ6yVv3-it2YgRj1W7-Z6VzXg"
+      },
+      {
+        "position": 20,
+        "title": "HCA Florida Biscayne Bay Orthopaedics - Mercy",
+        "address": "3683 S Miami Ave Suite 500, Miami, FL 33133",
+        "latitude": 25.7399973,
+        "longitude": -80.2157233,
+        "rating": 4.9,
+        "ratingCount": 95,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.hcafloridaphysicians.com/locations/biscayne-bay-orthopaedics/mercy?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+        "phoneNumber": "(305) 285-5025",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.hcafloridaphysicians.com/locations/biscayne-bay-orthopaedics/physicians/listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLQGM4i2AC10NNQ1Piywqc6QSYIj2L0TJoKbt3HgEFKsVtDWsfXR4UsgMWUedQPiMT-jwwKTxs4E2zZQPSPD49sZKlF5pr7BB_fmQOtVbzj3H0L3rbUL6LkSleTSv9L31zn42X",
+        "cid": "4864859240920082853",
+        "fid": "0x88d9b643d7585635:0x438373b4595169a5",
+        "placeId": "ChIJNVZY10O22YgRpWlRWbRzg0M"
+      }
+    ],
+    "credits": 3
+  }
+}

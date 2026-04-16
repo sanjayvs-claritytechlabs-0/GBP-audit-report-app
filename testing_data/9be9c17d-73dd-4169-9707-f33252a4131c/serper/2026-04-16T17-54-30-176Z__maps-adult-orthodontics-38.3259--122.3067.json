@@ -1,0 +1,389 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzI1ODY1LC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@31.9342071,-110.6278393,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Braces520 by Andrew Rosen Orthodontics",
+        "address": "1714 Paseo San Luis, Sierra Vista, AZ 85635",
+        "latitude": 31.537868699999997,
+        "longitude": -110.2550689,
+        "rating": 4.9,
+        "ratingCount": 473,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://braces520.com/?utm_source=gbp&utm_medium=organic&utm_campaign=sierravista",
+        "phoneNumber": "(520) 200-5634",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://braces520.com/book-an-appointment/?utm_source=gbp&utm_medium=organic&utm_campaign=sierravista"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVPWbPy6vCvc-t34538-w5d1In0bqRpxhgKdY9i0ng704F1h74bxjKOSBF5Zlur0bWPmthHnZEd95B25wwuAdkttAV7hQVGEL4jC50ZXjf1pEL2ML6xX-cp6_-H47bWkE0taNePA",
+        "cid": "5527113800825091874",
+        "fid": "0x86d72940db9c068b:0x4cb440b7cb56b722",
+        "placeId": "ChIJiwac20Ap14YRIrdWy7dAtEw"
+      },
+      {
+        "position": 2,
+        "title": "Designer Smiles",
+        "address": "2107 Paseo San Luis, Sierra Vista, AZ 85635",
+        "latitude": 31.5307148,
+        "longitude": -110.2544131,
+        "rating": 4,
+        "ratingCount": 4,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://designersmilessv.com/",
+        "phoneNumber": "(520) 732-8631",
+        "openingHours": {
+          "Thursday": "8 AM–12 PM, 1–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–5 PM",
+          "Tuesday": "8 AM–12 PM, 1–5 PM",
+          "Wednesday": "8 AM–12 PM, 1–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8dlwp1RidlIUfGXb4ObHiA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=12.238359&pitch=0&thumbfov=100",
+        "cid": "16185260127851801970",
+        "fid": "0x86d729e6d1479121:0xe09d985545e66d72",
+        "placeId": "ChIJIZFH0eYp14YRcm3mRVWYneA"
+      },
+      {
+        "position": 3,
+        "title": "General Dental",
+        "address": "1729 Paseo San Luis, Sierra Vista, AZ 85635",
+        "latitude": 31.537397199999997,
+        "longitude": -110.2542672,
+        "rating": 4.7,
+        "ratingCount": 426,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "https://www.generaldental4kidsaz.com/",
+        "phoneNumber": "(520) 458-2520",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4aKi7HixZ-4bVhRjmBIqoB52H9U0LnzA7aQbsJCb9Rc-tKdcjSIgi2KTSmu-zy_57Q12TewUZwKtZssLmY2DsNkzsSNb-gOxjqkGzlGC35gYFaLMqK1DyI3_zteh6k3IwOFDBbg",
+        "cid": "10280133298958584205",
+        "fid": "0x86d72940b192e2b1:0x8eaa5ec4d817498d",
+        "placeId": "ChIJseKSsUAp14YRjUkX2MReqo4"
+      },
+      {
+        "position": 4,
+        "title": "Leber Orthodontics",
+        "address": "1647 N Alvernon Way #2, Tucson, AZ 85712",
+        "latitude": 32.2429577,
+        "longitude": -110.91002879999999,
+        "rating": 5,
+        "ratingCount": 252,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://leberortho.com/",
+        "phoneNumber": "(520) 795-2323",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "8:30–11:30 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDSz_H3TQxQQCHm_sfBLsnT0U_sElvUzeLv1CRbpSmv4hyvQF7MfETkJed7nyhv3P06QwJoHQfpc7PSFHemATpdKT4mJ-00RkHDriQdWnK-XdEfI5oDnoZIZ-nGKLLqsQNs_g",
+        "cid": "9026353294543742346",
+        "fid": "0x86d671d0c00ccc33:0x7d440c7f6a74e58a",
+        "placeId": "ChIJM8wMwNBx1oYRiuV0an8MRH0"
+      },
+      {
+        "position": 5,
+        "title": "Wilde Orthodontics",
+        "address": "1320 W Ina Rd, Tucson, AZ 85704",
+        "latitude": 32.3376994,
+        "longitude": -110.9945266,
+        "rating": 5,
+        "ratingCount": 386,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.wildeorthodontics.com/",
+        "phoneNumber": "(520) 742-1232",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.wildeorthodontics.com/schedule-your-smile-assessment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKIOfK4YkalTsKmYqzw-YVxODn8BVFIKUJcxZ8XlxNfgoDnKs-uCBWLPwlLO-2sNdBU4LOrINnBUNNngpljXs6UT5TELiLsLXuzya1uFBgp2Ouw1gLXsQGLoX4M_dI-8zf7GwtlA",
+        "cid": "14266707320313026968",
+        "fid": "0x86d67359da587cdf:0xc5fd86b835b91998",
+        "placeId": "ChIJ33xY2llz1oYRmBm5NbiG_cU"
+      },
+      {
+        "position": 6,
+        "title": "Doctor Smiles Orthodontics",
+        "address": "801 N Wilmot Rd Suite A-1, Tucson, AZ 85711",
+        "latitude": 32.2312648,
+        "longitude": -110.85920329999999,
+        "rating": 5,
+        "ratingCount": 268,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://doctorsmiles.com/",
+        "phoneNumber": "(520) 571-1756",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.doctorsmiles.com/contact-us/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3HU-XrVVJFP6KN_3jit8rMYcpP-8d0O6uRse1XUb0CpCpC7JLwmnM4GLfF934x9M4qFNlUpNH_I4BSWPbx8qiKEqjLfNR8wROK8yRraopskVppTRGqIyJ53q-6ttHF92pTZ01",
+        "cid": "1967476569341754057",
+        "fid": "0x86d66fa888b0f6f7:0x1b4de1840384fac9",
+        "placeId": "ChIJ9_awiKhv1oYRyfqEA4ThTRs"
+      },
+      {
+        "position": 7,
+        "title": "Leber Orthodontics",
+        "address": "8255 S Houghton Rd #101, Tucson, AZ 85747",
+        "latitude": 32.101613199999996,
+        "longitude": -110.77215199999999,
+        "rating": 4.9,
+        "ratingCount": 155,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://leberortho.com/",
+        "phoneNumber": "(520) 795-2323",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxWInzgtqUGGPN4-7L_1yIYCXFp0QWimnZ4c0LUOxDXN5vk6P4CD3nkyC77OJfoyrIYC3axiIrHjRUeRLkEJXCDghJAg7cxbfSr_zH3bqBfbxybjSZ16u6hl8u_19xY-QrBPI",
+        "cid": "5104090366964801753",
+        "fid": "0x86d661176462d95d:0x46d55f25686e20d9",
+        "placeId": "ChIJXdliZBdh1oYR2SBuaCVf1UY"
+      },
+      {
+        "position": 8,
+        "title": "Braces520 by Andrew Rosen Orthodontics",
+        "address": "1865 N Kolb Rd, Tucson, AZ 85715",
+        "latitude": 32.243421999999995,
+        "longitude": -110.845725,
+        "rating": 5,
+        "ratingCount": 568,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://braces520.com/?utm_source=gbp&utm_medium=organic&utm_campaign=tucson",
+        "phoneNumber": "(520) 200-5624",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://braces520.com/book-an-appointment/?utm_source=gbp&utm_medium=organic&utm_campaign=tucson"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGN_h6YLsp5Btqqdhsokvl5fpdjYDiWOhjZ7Mn5PEQi-8iWpxT8fiXNDSZUfZXnoOk8gXXMU-E32Eq613u11oSUEWwQp8VlJC-RhHBDMwz767lM0zrnxWEAmXmWNkoHuzDape48mK7RuTo",
+        "cid": "6818164279876493199",
+        "fid": "0x86d66f028da74fa1:0x5e9efc49d24b9f8f",
+        "placeId": "ChIJoU-njQJv1oYRj59L0kn8nl4"
+      },
+      {
+        "position": 9,
+        "title": "Just Smile Orthodontics",
+        "address": "1680 W Irvington Rd #140, Tucson, AZ 85746",
+        "latitude": 32.1607398,
+        "longitude": -111.0014114,
+        "rating": 5,
+        "ratingCount": 581,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.justsmileortho.com/",
+        "phoneNumber": "(520) 889-1100",
+        "openingHours": {
+          "Thursday": "7 AM–3 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "7 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHC9b3gxt2YeRnE50QpcQjTxzg-W7eXHVSTVpqHIhcSJo9zkUe54sZtig4P5EJ9OLERlU3JMgRT568giPWaZzwK9Ekep_TQ6yq_LROH2cxWJD4s4J92lcpFKXf-IpgrXxbjHY5",
+        "cid": "8512807811228265125",
+        "fid": "0x86d67a19134b633b:0x76239199fd6e6aa5",
+        "placeId": "ChIJO2NLExl61oYRpWpu_ZmRI3Y"
+      },
+      {
+        "position": 10,
+        "title": "Dr. JAW Orthodontists",
+        "address": "5747 East 5th Street, Tucson, AZ 85711",
+        "latitude": 32.229248,
+        "longitude": -110.8694534,
+        "rating": 4.8,
+        "ratingCount": 295,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Medical supply store"
+        ],
+        "website": "http://drjaw.net/",
+        "phoneNumber": "(520) 747-5297",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4:30 PM",
+          "Tuesday": "7 AM–6 PM",
+          "Wednesday": "7 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.drjaw.net/schedule-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmRYNapmEsr4Ejlsj2dDVuATGdOOhgn_sqFhWtUwOFKZapZayyS_VB_WdICMSgb0ox6dHxECMhIcQCEenEdWkD_s5E0HRidV2WD8d0MG__u-s_lQwYy0Hg9hQNPjtDqu2NUkD-3A",
+        "cid": "10397704163931482396",
+        "fid": "0x86d66fba905ce42f:0x904c10d902bc691c",
+        "placeId": "ChIJL-RckLpv1oYRHGm8AtkQTJA"
+      },
+      {
+        "position": 11,
+        "title": "Grinz Orthodontics - East Tucson",
+        "address": "6373 E Tanque Verde Rd UNIT 110, Tucson, AZ 85715",
+        "latitude": 32.2452164,
+        "longitude": -110.856404,
+        "rating": 4.8,
+        "ratingCount": 82,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Emergency dental service",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://grinzorthodontics.com/",
+        "phoneNumber": "(520) 296-1700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLGFIWKsaOE4IotGSabmdDlZ_jbXHexBmQeq9nSpRBfkcZeI_3W-K756zG63SEUmSP6E8U6iOUwigEvk6Z2fcfqytdJww9LtjJ834P9y9GOBlxbqYpgHwjbXkPKjXYnFGtqQz7",
+        "cid": "5722768964261017695",
+        "fid": "0x86d66fdf823d0325:0x4f6b5c0d6e68785f",
+        "placeId": "ChIJJQM9gt9v1oYRX3hobg1ca08"
+      },
+      {
+        "position": 12,
+        "title": "Dr. Leo Toureno",
+        "address": "1680 W Irvington Rd #140, Tucson, AZ 85746",
+        "latitude": 32.160816499999996,
+        "longitude": -111.0011449,
+        "rating": 5,
+        "ratingCount": 364,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.justsmileortho.com/",
+        "phoneNumber": "(520) 889-1100",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "7 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3sazvJApAS4Qw6Bry1dsvVxRejvY38UpiiT7jBEMBQR0NYjgVk-TXObtXBa2W3swlkLIH7BFQ6GiFEg4B5Fa42TLd5VwKRGXC8WDQe0R3BKQ9P8oQTE5XAIt47GezSGa1Bmeh4xBQtrPD",
+        "cid": "6645278580195446323",
+        "fid": "0x86d67b662aacedb7:0x5c38c5a9160fce33",
+        "placeId": "ChIJt-2sKmZ71oYRM84PFqnFOFw"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.334848,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM0ODQ4LC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@42.3990785,-71.077055,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Chelsea Orthodontics",
+        "address": "131 Arlington St, Chelsea, MA 02150",
+        "latitude": 42.3934141,
+        "longitude": -71.0384594,
+        "rating": 5,
+        "ratingCount": 351,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "http://smilesforchelsea.com/",
+        "phoneNumber": "(617) 889-1990",
+        "openingHours": {
+          "Thursday": "10:35 AM–5 PM",
+          "Friday": "10:35 AM–5 PM",
+          "Saturday": "10:35 AM–5 PM",
+          "Sunday": "Closed",
+          "Monday": "10:35 AM–5 PM",
+          "Tuesday": "10:35 AM–5 PM",
+          "Wednesday": "10:35 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuGMaebVnExYuo7xvYWKQ_n9r8-ATmq3xsb87ka_tIdhOfQF6qdxW3XNMTPRrBGZiMxf2fw0yWL9GVVjMP1sUooIKPTUnPevaaEl012QET-RD6owHd6HXvSJ_m-ymf74l3vcpb",
+        "cid": "3050738943906434194",
+        "fid": "0x89e371ae259e0f85:0x2a5666e7edfe4c92",
+        "placeId": "ChIJhQ-eJa5x44kRkkz-7edmVio"
+      },
+      {
+        "position": 2,
+        "title": "Tufts Medical Center Orthopedics",
+        "address": "6 Short St Pl, Charlestown, MA 02129",
+        "latitude": 42.3833786,
+        "longitude": -71.0703705,
+        "rating": 3.6,
+        "ratingCount": 9,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.tuftsmedicalcenter.org/OurServices/Orthopedics/",
+        "phoneNumber": "(617) 636-7846",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tuftsmedicalcenter.org/RequestAppointment?dpt=476f63ed-c115-414d-83e7-9c1399ae8529&p="
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHobnaP6VMWyjhAh5Sdx2FRUuejR5TSAokip4UoTu8McfSA8ansbXUmyzq5Sy8YxhWbSQTaQsLRCU96xAy-KordAdQGdBNOMH9_PffQJLe4cAHZWHeBkFphLEPd3iexYmwRoaVM",
+        "cid": "2465159533294175656",
+        "fid": "0x89e37a773fdb2147:0x22360188d8aac5a8",
+        "placeId": "ChIJRyHbP3d644kRqMWq2IgBNiI"
+      },
+      {
+        "position": 3,
+        "title": "Agility Orthopedics",
+        "address": "405 Pearl St, Malden, MA 02148",
+        "latitude": 42.416139,
+        "longitude": -71.0781023,
+        "rating": 4.7,
+        "ratingCount": 118,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Physical therapist"
+        ],
+        "website": "https://agilitydoctor.com/",
+        "phoneNumber": "(781) 279-7040",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHleKUG_eguexSi-KesbZBL2o_0_LUXoRfU1JYyg6ZDWJApja1eCBhkvbTSNmQjHfT4bf53FRzscf-fqXWkWlbLL-cFO2F2tjp2cHrjH2jBkEZeSnBxPPydARRhXmApBJydAx88sg",
+        "cid": "11803816734642025723",
+        "fid": "0x89e371413f9ab839:0xa3cf94c7e62634fb",
+        "placeId": "ChIJObiaP0Fx44kR-zQm5seUz6M"
+      },
+      {
+        "position": 4,
+        "title": "Everett Orthodontics, Karim Salem DMD",
+        "address": "599 Broadway, Everett, MA 02149",
+        "latitude": 42.411374599999995,
+        "longitude": -71.0511514,
+        "rating": 4.9,
+        "ratingCount": 433,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.everett-orthodontics.com/",
+        "phoneNumber": "(617) 389-1516",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/dentist/karim-salem-dmd-157356?LocIdent=79369&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_YWsnvyLGNkGIql5LXt712h-lo_pvSokOqS-EGV9Kn1liuW7R-entity&rwg_token=AFd1xnHH3DmO2MUAMiY-jhtQkr9UhHHSUJhHws7-vT5Ph9cOazNs9pWMbaT8g9GnXROmG0LUYKKQr0s7f7HnznfKD9muL932cA%3D%3D",
+          "https://www.zocdoc.com/practice/everett-orthodontics-47794?LocIdent=79369&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_Jv0Kr5MFA0u5Pw6nSQAPEh-lo_pvSokOqS-EGV9Kn1liuW7R-entity&rwg_token=AFd1xnEvGNwACY8TYPzKkOdtVjJjzh4mG3GsHxvS6pe3odY6nFDJCGBdHXFXfqU5j_4NCxPQ3d_1DsFevny1QPl79ehyUtgeiA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE42HRfgEj-4jhrhRdUI4f7x2ljCwvmSuQ0uSLzS59F9v1DX2yIt3HeTtNiIvROkYYEPFIxe5LVZRtH80c1dEDu9oGHDrEIgODnqzTKD7HBFVJvJP2EQSVds3i5A6HTFcDhqpc",
+        "cid": "8634774765797199567",
+        "fid": "0x89e37175968e1537:0x77d4e1e686d94ecf",
+        "placeId": "ChIJNxWOlnVx44kRz07Zhubh1Hc"
+      },
+      {
+        "position": 5,
+        "title": "Somerville Orthodontics",
+        "address": "51 Cross St, Somerville, MA 02145",
+        "latitude": 42.386373999999996,
+        "longitude": -71.0875755,
+        "rating": 4.9,
+        "ratingCount": 64,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.somervilleorthodontics.com/",
+        "phoneNumber": "(617) 227-2421",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.somervilleorthodontics.com/schedule-your-smile-assessment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3nM4GUa1xItD3u76v0XZQpX2adO35qhWL7HQUI7NtQZ1sPvWKN-fHVgWDIoFRMBbnYl8wibFCEz9SSwWIlKKTAOhccsYTnK8JCGdahIB2g2o--ybXEH-Tjoes23LXeC_d3bFLxQ",
+        "cid": "2010169755912343173",
+        "fid": "0x89e3710d2001575d:0x1be58ebe1f638e85",
+        "placeId": "ChIJXVcBIA1x44kRhY5jH76O5Rs"
+      },
+      {
+        "position": 6,
+        "title": "Dr. Parul Taneja, DMD",
+        "address": "131 Arlington St, Chelsea, MA 02150",
+        "latitude": 42.3934141,
+        "longitude": -71.0384594,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.smilesforchelsea.com/",
+        "phoneNumber": "(617) 889-1990",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hIuheoboVu0tPCtmvKyAKw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=135.50597&pitch=0&thumbfov=100",
+        "cid": "762654972350717784",
+        "fid": "0x89e371aec344c903:0xa957ea819265f58",
+        "placeId": "ChIJA8lEw65x44kRWF8mGah-lQo"
+      },
+      {
+        "position": 7,
+        "title": "Ortho Therapeutics and Wellness",
+        "address": "98 N Washington St #107, Boston, MA 02114",
+        "latitude": 42.365678599999995,
+        "longitude": -71.0588305,
+        "rating": 5,
+        "ratingCount": 30,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://ortho-therapeutics.com/",
+        "phoneNumber": "(617) 404-8957",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSao0wlfpt_8xq5NlEDaJaGH9uD-dFDKUwV9hgAnEXUsBsguRbquIcI9GPMqDRicXk50CnhzCvBaZvB7VS8TggONndeKZBYYXl6vHRbDjAWFBv8nO5G2zxDX2ziDXIXtzfTXBP7J48-Vbt",
+        "cid": "18070997895996359831",
+        "fid": "0x89e371e582d46261:0xfac914d797b1c497",
+        "placeId": "ChIJYWLUguVx44kRl8Sxl9cUyfo"
+      },
+      {
+        "position": 8,
+        "title": "Hans van Lancker, MD, FRCSC, FAAOS",
+        "address": "103 Garland St, Everett, MA 02149",
+        "latitude": 42.409258799999996,
+        "longitude": -71.0395159,
+        "rating": 5,
+        "ratingCount": 12,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.challiance.org/doctors/profile?n=2253",
+        "phoneNumber": "(617) 665-1566",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmiDmIf7SvDGH8lB7szsXFtY7p1h1HicUGRqy6N0U77cp1S06JO0kFp0KMi6e6dpPGH8ioNxbmEjU7ns9Zy4McWtX3Ii0492ZJ_Dntlcy_t7i0dqp7CxuNYIPJxr_K-z6nq2RtqA",
+        "cid": "624429796937330505",
+        "fid": "0x89e3712332a93ded:0x8aa6b97899e6f49",
+        "placeId": "ChIJ7T2pMiNx44kRSW-eiZdrqgg"
+      },
+      {
+        "position": 9,
+        "title": "Access Orthopedics",
+        "address": "721 Main St, Melrose, MA 02176",
+        "latitude": 42.459485,
+        "longitude": -71.062401,
+        "rating": 4.4,
+        "ratingCount": 8,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://accessorthopedics.com/",
+        "phoneNumber": "(781) 620-0198",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWQ9erQ8Fh4Gel6NUEgUpTjlSEfwd7ZayOAUn_rHhYhmgCOoMV4xihD3CXvLtd4li1zBQ1NY8XJG5bPthC7W1Jc9RgBpYEczDZsgh-aT603skyBXSrRJF7HgskaxX-b3jHJqs3",
+        "cid": "13910002715135988125",
+        "fid": "0x89e373bdb0684ed7:0xc10a41c56466519d",
+        "placeId": "ChIJ105osL1z44kRnVFmZMVBCsE"
+      },
+      {
+        "position": 10,
+        "title": "Boston Orthopedic Respiratory Equipment",
+        "address": "175 Main St, Boston, MA 02129",
+        "latitude": 42.375707299999995,
+        "longitude": -71.06407469999999,
+        "rating": 3.5,
+        "ratingCount": 75,
+        "type": "Medical supply store",
+        "types": [
+          "Medical supply store",
+          "Medical equipment supplier",
+          "Orthotics & prosthetics service",
+          "Oxygen equipment supplier",
+          "Scooter rental service",
+          "Scooter repair shop",
+          "Surgical supply store",
+          "Wheelchair rental service",
+          "Wheelchair repair service",
+          "Wheelchair store"
+        ],
+        "website": "http://www.bostonorthoresp.com/",
+        "phoneNumber": "(800) 854-6370",
+        "description": "No-frills showroom selling & renting medical equipment, including wheelchairs & motorized scooters.",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "8 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://rentle.store/bostonorthopedic/shop"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0RM8MfCEKApOHq_cvC5mpxv8XVNM06t7fCQ7y5wXR4MwGB5bFMOcOf48iYWxoXZXSXd18oB7znfnb5MVksnrEUg87Yl1EndBQzGselPMig7aPZh4CZiq_42PyPSsqcKY1GI0x",
+        "cid": "7626648220933404459",
+        "fid": "0x89e370edb369e281:0x69d74c263399b72b",
+        "placeId": "ChIJgeJps-1w44kRK7eZMyZM12k"
+      },
+      {
+        "position": 11,
+        "title": "Boston Orthopaedic & Spine - Cambridge",
+        "address": "625 Mt Auburn St STE 207, Cambridge, MA 02138",
+        "latitude": 42.375447,
+        "longitude": -71.1473516,
+        "rating": 4.9,
+        "ratingCount": 542,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://bostonorthoandspine.com/cambridge/?utm_medium=BostonOrthopaedic&utm_source=GMBSocialClimb",
+        "phoneNumber": "(617) 603-3614",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://bostonorthoandspine.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4EkBUUEZRynqr3Pj3KcEwHgzznqz478uCbAszrcj15ZdAuaicWPEbfvDze3OZcpk_RJHH67YKtevk81e0yeQOiAG_TS64BLm49kuk3PZH_tWHIb80oKRSGYrsZuVORaE6aPFve4xirm4",
+        "cid": "16059685880894567789",
+        "fid": "0x89e3777aa2c50959:0xdedf77388713b56d",
+        "placeId": "ChIJWQnFonp344kRbbUThzh3394"
+      },
+      {
+        "position": 12,
+        "title": "East Boston Dental and Orthodontics",
+        "address": "999 Saratoga St, East Boston, MA 02128",
+        "latitude": 42.386498499999995,
+        "longitude": -71.0067584,
+        "rating": 4.4,
+        "ratingCount": 154,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Pediatric dentist",
+          "Sleep clinic",
+          "Teeth whitening service"
+        ],
+        "website": "https://joiesmiles.com/",
+        "phoneNumber": "(617) 569-2761",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "11 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvkNB_aGbc_GSkiTjzRGgyDhuhs6JIOQEVqk2jqOLGrA56MwC8sZczCk5JGkQ10FBeCOm2WzTpJf1FHTH92kh7wfGiQmzVUYSrvzmh2aj4Sc3WteHIGxi7OwdqiOeWDFsU-FPme4Qm5FuD",
+        "cid": "5776455299794906896",
+        "fid": "0x89e371d69c0c994b:0x502a177d7d32af10",
+        "placeId": "ChIJS5kMnNZx44kREK8yfX0XKlA"
+      },
+      {
+        "position": 13,
+        "title": "Massachusetts General Hospital: Orthopaedics",
+        "address": "Yawkey Building, 55 Fruit St, Boston, MA 02114",
+        "latitude": 42.3633005,
+        "longitude": -71.0689537,
+        "rating": 2.8,
+        "ratingCount": 19,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Hospital department"
+        ],
+        "website": "http://www.massgeneral.org/ortho",
+        "phoneNumber": "(617) 726-2784",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "cid": "14327675902840872078",
+        "fid": "0x89e37099bea5d153:0xc6d6215285c11c8e",
+        "placeId": "ChIJU9Glvplw44kRjhzBhVIh1sY"
+      },
+      {
+        "position": 14,
+        "title": "Boston Orthopaedic & Spine - Brighton",
+        "address": "20 Guest St #225, Boston, MA 02135",
+        "latitude": 42.357666599999995,
+        "longitude": -71.1466952,
+        "rating": 4.9,
+        "ratingCount": 316,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://bostonorthoandspine.com/brighton/?utm_source=GMBSocialClimb&utm_medium=BostonOrthopaedic&Spine",
+        "phoneNumber": "(617) 738-8642",
+        "openingHours": {
+          "Thursday": "9 AM–3 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–3 PM",
+          "Wednesday": "9 AM–3 PM"
+        },
+        "bookingLinks": [
+          "https://bostonorthoandspine.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMEey2fGwIKs7gtkAilgNnbf8EATyYXvruXdW8hke6fZznrT-E0DoCDsSwP_4fPi3dlgR5vuY-7nRqZLBbrlN111jZyhgB0nOyvCaxZ4pBLV2UJpADG7ZsSKkEdoz__JFhKH11",
+        "cid": "1387958619556867778",
+        "fid": "0x89e379a0606ca1bd:0x13430502c1a0eec2",
+        "placeId": "ChIJvaFsYKB544kRwu6gwQIFQxM"
+      },
+      {
+        "position": 15,
+        "title": "Orthopedic Surgery at Boston Medical Center",
+        "address": "725 Albany St 4th floor suite 4b, Boston, MA 02118",
+        "latitude": 42.3347129,
+        "longitude": -71.0721174,
+        "rating": 3.9,
+        "ratingCount": 27,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.bmc.org/orthopedic-surgery?utm_campaign=yextserviceline&utm_source=serviceline_listing&utm_medium=yext",
+        "phoneNumber": "(617) 638-5633",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/boston-medical-center-orthopedic-surgery-84736?LocIdent=204778&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_Ct28S68hzEGV9yFlR_e2aB-lo_OgfueHiKckGS_ceEV_JTyx-entity&rwg_token=AFd1xnHU9-yZuiNsZxf2qllfO0qpjjPPzEjLpSFBmrC2FRiPxbhVyl3lIW_vuZknTB4Voajg1ODZStYfle3QGMsjAYEvM2OMlQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFgerDajsgspEzQzgUG2Xx7WFmaavbY6ePiVy7S5zV0YPbGrSYlCBvvoFTAHYc4oKV0qOIovp2tK-b_6rR1HaNjcYaVCW8ZvvLumhh01xzDXfbm7SlpWbA_28fzI_psOpm9sb2",
+        "cid": "3509536326750448183",
+        "fid": "0x89e37a3ff51e2b8d:0x30b460b1e24a2a37",
+        "placeId": "ChIJjSse9T9644kRNypK4rFgtDA"
+      },
+      {
+        "position": 16,
+        "title": "Somerville and Medford Orthodontic Associates, PC",
+        "address": "474 Broadway APT 110, Somerville, MA 02145",
+        "latitude": 42.396713,
+        "longitude": -71.1031538,
+        "rating": 4.9,
+        "ratingCount": 29,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.somervillemedfordortho.com/",
+        "phoneNumber": "(617) 284-6474",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "8 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQ-FNHPfn2BJd8cLxqjVY8Jb5e8A9MHFIb4aRgsphiEmljEpe7IbDVP57rBihJgcqK4sCdTVccyqc9qx2xMlYzqC1odIjpTFjXCjGggJltCBJjzhU9u5fKE2rWD31MZ8MuEAb6",
+        "cid": "42790235214468193",
+        "fid": "0x78da4aa9b709d5d:0x98057e01d05461",
+        "placeId": "ChIJXZ1wm6qkjQcRYVTQAX4FmAA"
+      },
+      {
+        "position": 17,
+        "title": "Jillian Gruber, MD",
+        "address": "103 Garland St, Everett, MA 02149",
+        "latitude": 42.409258799999996,
+        "longitude": -71.0395159,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.challiance.org/doctors/profile?n=2396",
+        "phoneNumber": "(617) 665-1566",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ntV3z8juMoTGR7ehm91-aQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=280.78055&pitch=0&thumbfov=100",
+        "cid": "10267093295243793005",
+        "fid": "0x89e371bd9aca8ab5:0x8e7c0af462cd126d",
+        "placeId": "ChIJtYrKmr1x44kRbRLNYvQKfI4"
+      },
+      {
+        "position": 18,
+        "title": "Chase Orthodontics-Jonathan Chase DDS",
+        "address": "389 Main St #203, Malden, MA 02148",
+        "latitude": 42.426026,
+        "longitude": -71.067093,
+        "rating": 4.9,
+        "ratingCount": 28,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.chaseortho.com/",
+        "phoneNumber": "(781) 322-4800",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwdyLAr4fZIfT3raxP-lHFzK-o44LoI1syMzrGxYqNJk9Wz4pXVF2zvT2jVUUWTzfe5yXRk7t_ImVtacqMDVvAuBPFWlFhw5NGjhQoJSBJ5extaD_wfpvfTegCI0Z4Eux85AoJ",
+        "cid": "6944853759886430481",
+        "fid": "0x89e37163e7caf0e3:0x606113b2ff111111",
+        "placeId": "ChIJ4_DK52Nx44kRERER_7ITYWA"
+      },
+      {
+        "position": 19,
+        "title": "Meeks & Zilberfarb Orthopedics and Sports Medicine",
+        "address": "1101 Beacon St Suite 5W, Brookline, MA 02446",
+        "latitude": 42.3446554,
+        "longitude": -71.1110116,
+        "rating": 4.9,
+        "ratingCount": 156,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "http://www.mzortho.com/",
+        "phoneNumber": "(617) 232-2663",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://mzortho.com/online-appointments/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7UdYZDQaM3J8-sk0yXLvt1IVUmlkmwqrz6aItIsd1mwxCIUfEUzp2sibyiQ4yljRoEugidLziPXwZL3EVQlAvlGeI_2Ly7cNk8_YwCTWWlUdOr3_T12Dj2wgdLfWymQ81w3Rs1Q",
+        "cid": "17137407782535627974",
+        "fid": "0x89e379eda104d175:0xedd44d94910d04c6",
+        "placeId": "ChIJddEEoe1544kRxgQNkZRN1O0"
+      },
+      {
+        "position": 20,
+        "title": "Melrose Orthodontics",
+        "address": "540 Lynn Fells Pkwy, Melrose, MA 02176",
+        "latitude": 42.463443999999996,
+        "longitude": -71.0600142,
+        "rating": 4.9,
+        "ratingCount": 58,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.melroseorthodontics.com/",
+        "phoneNumber": "(781) 665-1355",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyWmLJQe-HyyIk8O8KthtjxG1Z5uVOPlykmEfI8q9zybkt2HiY0SaOwX3KVkzIkmNmCQqSO3Y-5lgw0X4DKwvaERMqF0_Mwm80SPfg_fxjzHU1ROQrx3q-S6RQ6mXYsEJnuw_GAA",
+        "cid": "2894398750855756547",
+        "fid": "0x89e373e053852925:0x282af85427177b03",
+        "placeId": "ChIJJSmFU-Bz44kRA3sXJ1T4Kig"
+      }
+    ],
+    "credits": 3
+  }
+}

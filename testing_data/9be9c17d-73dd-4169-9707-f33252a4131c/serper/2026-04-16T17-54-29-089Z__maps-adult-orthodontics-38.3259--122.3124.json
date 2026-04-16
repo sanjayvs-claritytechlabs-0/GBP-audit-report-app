@@ -1,0 +1,369 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@41.6496112,-83.6755654,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Wheeler Orthodontics, LLC | Toledo, OH",
+        "address": "3915 Sunforest Ct Suite A, Toledo, OH 43623",
+        "latitude": 41.689876399999996,
+        "longitude": -83.6320815,
+        "rating": 5,
+        "ratingCount": 205,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.wheelerorthodontics.com/",
+        "phoneNumber": "(419) 473-1339",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.wheelerorthodontics.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_tAdLEqUoPBOSPB90Prx9Ck7qz81A1RkzAsujvi2Rl-Kp76lvDgoBDlkFQu-ZtbAYw_rplZ1AAM_RKqHW99RBvj5p1cHxjegv_52Q81JLTYyddkCYCP6edjVdVfVh3I7Z9Pgk",
+        "cid": "14248157516735629298",
+        "fid": "0x883c7f1c35b59f17:0xc5bb9fc580d6c7f2",
+        "placeId": "ChIJF5-1NRx_PIgR8sfWgMWfu8U"
+      },
+      {
+        "position": 2,
+        "title": "Amazing Smiles Orthodontics",
+        "address": "7619 W Sylvania Ave, Sylvania, OH 43560",
+        "latitude": 41.6867982,
+        "longitude": -83.7261305,
+        "rating": 5,
+        "ratingCount": 200,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://amazingsmilesortho.com/",
+        "phoneNumber": "(419) 885-4796",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–3:30 PM",
+          "Tuesday": "8 AM–11:30 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "bookingLinks": [
+          "https://amazingsmilesortho.com/sylvania-location/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXOMbdrDDeUG7WBthMS_07fcAivBmXNA9wsblhIOw0GOMOQGCRD8Lp-6RJO03EZ9mVlDcWoe71PAJOT0Qsigcgm3M4-pobknDeXNSsTnrTFLSqN_S5bIsEzisL5YBQT9CBHYQ4",
+        "cid": "16261092893821134434",
+        "fid": "0x883c7c8ce32a2897:0xe1ab01d4fbd66662",
+        "placeId": "ChIJlygq44x8PIgRYmbW-9QBq-E"
+      },
+      {
+        "position": 3,
+        "title": "Lenhart Orthodontics",
+        "address": "4323 N Holland Sylvania Rd, Toledo, OH 43623",
+        "latitude": 41.6955831,
+        "longitude": -83.68991489999999,
+        "rating": 5,
+        "ratingCount": 261,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.lenhartorthodontics.com/",
+        "phoneNumber": "(419) 882-6970",
+        "openingHours": {
+          "Thursday": "7:30–11:30 AM, 12:30–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–12 PM, 1–4 PM",
+          "Tuesday": "9 AM–1 PM, 2–5 PM",
+          "Wednesday": "8 AM–12 PM, 1–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAER6aULjhEhyZbNzPDLbSstwQU-2iecQYRFiJp8DTrHA958KyKwRqCrnTC_vj5p64GOVRGt1kaiqKnRadJUtugnwt_aHAjohv3UtLlD1sl3WGgPRcIIbTdsqCnHkGdE0DPZYq0W",
+        "cid": "807941321966222119",
+        "fid": "0x883c7c34140f126b:0xb36625a0727fb27",
+        "placeId": "ChIJaxIPFDR8PIgRJ_snB1piNgs"
+      },
+      {
+        "position": 4,
+        "title": "Precision Orthodontics",
+        "address": "4321 Talmadge Rd Suite B, Toledo, OH 43623",
+        "latitude": 41.6962482,
+        "longitude": -83.64569089999999,
+        "rating": 3.3,
+        "ratingCount": 58,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://precision-smiles.com/toledo-talmadge?y_source=1_NzYzNzYzNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(419) 540-6249",
+        "openingHours": {
+          "Thursday": "9 AM–4 PM",
+          "Friday": "9 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4 PM",
+          "Tuesday": "8:30 AM–4 PM",
+          "Wednesday": "8:30 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://precision-smiles.com/toledo-talmadge?y_source=1_NzYzNzYzNC03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs#contact_form"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhE49KbbvmUKiQJy_3eIYa5ShsKIqa8I3wAxSvDX-r8X_rteD_JtFGxvSdFUEEy1-z_tVgCQdnD4Ilok1n-EgO3Hz04q6Ob-7aBRQj8fB0bWvjjRT2pG5YGpE1k5kN5LJYLKs",
+        "cid": "13534052675895464025",
+        "fid": "0x883c7ef076fc8971:0xbbd29d33c62c9059",
+        "placeId": "ChIJcYn8dvB-PIgRWZAsxjOd0rs"
+      },
+      {
+        "position": 5,
+        "title": "HLH Orthodontics - Sylvania",
+        "address": "6407 Monroe St, Sylvania, OH 43560",
+        "latitude": 41.715131,
+        "longitude": -83.698652,
+        "rating": 4.9,
+        "ratingCount": 574,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.perfectbraces.com/",
+        "phoneNumber": "(419) 882-1017",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–7 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.perfectbraces.com/sylvania-location"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH03g8f1IxgOxXwofZotUYqqozMh_xstePlkMo5Cl2b-Ju1BHbc3QVx6BA9ViMtTMhI1SyrsPij8c4_M3_Ze74ZT-a1jFIKfRMJ-lh16TgYA9QOhXn2b4deYTUQVGHdJoDtLYMeTtDTBlQ",
+        "cid": "3445263554211645078",
+        "fid": "0x883c7db13da1f595:0x2fd008f2e2628696",
+        "placeId": "ChIJlfWhPbF9PIgRloZi4vII0C8"
+      },
+      {
+        "position": 6,
+        "title": "Potts Brittany DDS",
+        "address": "4841 Monroe St # 255, Toledo, OH 43623",
+        "latitude": 41.6938357,
+        "longitude": -83.63435319999999,
+        "rating": 4.3,
+        "ratingCount": 16,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.toledoorthodontics.com/",
+        "phoneNumber": "(419) 474-3100",
+        "openingHours": {
+          "Thursday": "8:15 AM–4:30 PM",
+          "Friday": "8:15 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–4:30 PM",
+          "Tuesday": "8:15 AM–4:30 PM",
+          "Wednesday": "Closed"
+        },
+        "cid": "9474127220579850727",
+        "fid": "0x883c7f02a1b253cf:0x837adc82d38559e7",
+        "placeId": "ChIJz1OyoQJ_PIgR51mF04LceoM"
+      },
+      {
+        "position": 7,
+        "title": "Kay & Paulus Orthodontics",
+        "address": "5860 W Alexis Rd # B, Sylvania, OH 43560",
+        "latitude": 41.7160283,
+        "longitude": -83.6844905,
+        "rating": 4.9,
+        "ratingCount": 15,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "http://www.kayandpaulus.com/",
+        "phoneNumber": "(567) 455-5076",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r4XawJgXFkyK9Rm1b_aVIw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=41.62474&pitch=0&thumbfov=100",
+        "cid": "2935766086076453791",
+        "fid": "0x883c7dd09a5d9c57:0x28bdefb37039d39f",
+        "placeId": "ChIJV5xdmtB9PIgRn9M5cLPvvSg"
+      },
+      {
+        "position": 8,
+        "title": "HLH Orthodontics - Lambertville",
+        "address": "7928 Secor Rd, Lambertville, MI 48144",
+        "latitude": 41.7578076,
+        "longitude": -83.6251198,
+        "rating": 4.9,
+        "ratingCount": 141,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.perfectbraces.com/",
+        "phoneNumber": "(734) 854-6221",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–7 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.perfectbraces.com/lambertville-location"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHdkSLcEBoKq6R-P4tAoIsThVmeOTjZD8SvbXZCOfEFVA6keQWAzcAKsyrFX5qtm1XBSEL2nVdoKAbW0l4iziYol1ARB8JC18BAlQcEEYLTI93z4HFbuAjCcbPKqkd-MssH3fTn2i_JafeZ",
+        "cid": "14811973859536169038",
+        "fid": "0x883c8066771717d9:0xcd8eb3bf8006684e",
+        "placeId": "ChIJ2RcXd2aAPIgRTmgGgL-zjs0"
+      },
+      {
+        "position": 9,
+        "title": "Sylvania & Lambertville Orth",
+        "address": "7928 Secor Rd, Lambertville, MI 48144",
+        "latitude": 41.7578196,
+        "longitude": -83.62500039999999,
+        "rating": 4.9,
+        "ratingCount": 115,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "phoneNumber": "(734) 854-6222",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESIqg7fM5UtViEp8yq_IqC8Tn2PKRO1sYPppJjq0zPFOmnKjK_oEUG6eupVIpQN0Hga6nmC6b-Jlxsx4IRyqKg7iMHuPzwpf8mcHvXNCM61gj8Ow_TpGrkcXDmpKC9_pQZL-z49g",
+        "cid": "1627464466687280329",
+        "fid": "0x883c8066771717d9:0x1695ea4f4d7744c9",
+        "placeId": "ChIJ2RcXd2aAPIgRyUR3TU_qlRY"
+      },
+      {
+        "position": 10,
+        "title": "HLH Orthodontics - Maumee",
+        "address": "4413 Keystone Dr, Maumee, OH 43537",
+        "latitude": 41.560210999999995,
+        "longitude": -83.6895516,
+        "rating": 4.9,
+        "ratingCount": 183,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.perfectbraces.com/",
+        "phoneNumber": "(419) 887-1247",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–7 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgiOXsRhZmlqBUEd5kYz6oshufMBUJUcICxcXQblAmklAaiOfaTQqOX-7wE33TG_XBB8YHdqHBu5m9JI6ZeHS8R6XEWrHSlnEoFSQ2x0zEpsQf8PCdE6suHPWw6_kohwjojnZ227D0JME",
+        "cid": "12375249330362295677",
+        "fid": "0x883c70c5a3f4e9a3:0xabbdb7b2f722a57d",
+        "placeId": "ChIJo-n0o8VwPIgRfaUi97K3vas"
+      },
+      {
+        "position": 11,
+        "title": "Elizabeth M. McCartney, D.D.S., M.S.",
+        "address": "227 Conant St, Maumee, OH 43537",
+        "latitude": 41.561681799999995,
+        "longitude": -83.6534875,
+        "rating": 5,
+        "ratingCount": 14,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.mccartneyorthodontics.com/",
+        "phoneNumber": "(419) 893-0573",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKQnk7SbQCpiVm2f9U21QORqLlhbR5uPNsopzWjc9Z7Db_LEyn9xF5wHvLB21QFnC0bPtiuwB6to9RGeuqR8UJhP2V91-1hDaVRBAvb1ke6HPVC68dvpD3xf_47OE7-iP17dVX-A",
+        "cid": "4123053547319472388",
+        "fid": "0x883c7714337a7149:0x3938075b3de43104",
+        "placeId": "ChIJSXF6MxR3PIgRBDHkPVsHODk"
+      },
+      {
+        "position": 12,
+        "title": "Phelan Orthodontics",
+        "address": "880 Commerce Dr, Perrysburg, OH 43551",
+        "latitude": 41.5414027,
+        "longitude": -83.63987379999999,
+        "rating": 4.8,
+        "ratingCount": 142,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://mylocalortho.com/",
+        "phoneNumber": "(419) 874-1719",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFySZ0IsavRiSTLrT_Ak1nXOnmNeJ_6ZAm4wr-2VF2-3Z4GRE6oy3dR30e1pv0KgOdCigkAXJjjGg8FBKn_5KwGs26_t_mVXDAsKafsfXb8gTw9oZBI6qNsN39soXNRZkhBv4f",
+        "cid": "3273446219997833384",
+        "fid": "0x883c76fea287d3b1:0x2d6d9dfe5e50e8a8",
+        "placeId": "ChIJsdOHov52PIgRqOhQXv6dbS0"
+      }
+    ],
+    "credits": 3
+  }
+}

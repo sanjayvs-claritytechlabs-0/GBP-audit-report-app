@@ -1,0 +1,662 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzE2ODgyLC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@41.7895571,-87.7790779,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Midwest Orthopaedics at Rush — Oak Park",
+        "address": "1625 N Harlem Ave, Chicago, IL 60707",
+        "latitude": 41.9093862,
+        "longitude": -87.8053587,
+        "rating": 4.8,
+        "ratingCount": 540,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.rushortho.com/?utm_source=GMBSocialClimb&utm_medium=MidwestOrthopaedicsatRush",
+        "phoneNumber": "(815) 635-8306",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGU3yBPiWwtEjdM9eth3iSGSDiowpOTwwy_B716SSvdVs_Ct4rSij8VQ2WaY5sutyhNAnZq2e-gmfGGDhTdU07lXlR27kHJWkdxTdcSZN1R-OtAQOAaaPfhrVozS4eUp9Q-TMns6Tb2z3eW",
+        "cid": "2058063561930427131",
+        "fid": "0x880e34e836e9e307:0x1c8fb5e7ce09cafb",
+        "placeId": "ChIJB-PpNug0DogR-8oJzue1jxw"
+      },
+      {
+        "position": 2,
+        "title": "Midwest Orthopaedics at Rush",
+        "address": "1611 W Harrison St, Chicago, IL 60612",
+        "latitude": 41.8735212,
+        "longitude": -87.6671382,
+        "rating": 4.8,
+        "ratingCount": 3767,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.rushortho.com/?utm_source=GMBSocialClimb&utm_medium=MidwestOrthopaedicsatRush",
+        "phoneNumber": "(815) 576-2046",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rushortho.com/make-an-appointment",
+          "https://outpatienthipandknee.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGyVjqJGYh6Q7rWJ1k2lXohHgnxT33VJtZBhiQnVWV0SdbRxUOdzMSAkuWwn5_cxY7KDs0z5-t8vD8b0LcT0m57ZqgLRUx7_qpol86Mh_cQSOZdWqoohGRDKNLEMJamlEnn4Wri",
+        "cid": "11346025471001888144",
+        "fid": "0x880e2d182e24d2b9:0x9d752e0d539a0590",
+        "placeId": "ChIJudIkLhgtDogRkAWaUw0udZ0"
+      },
+      {
+        "position": 3,
+        "title": "Ascension Medical Group Illinois - Orthopedics Chicago",
+        "address": "1431 N Western Ave Ste. 134A, Chicago, IL 60622",
+        "latitude": 41.9075381,
+        "longitude": -87.6863494,
+        "rating": 4.8,
+        "ratingCount": 148,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.primehealthcare.com/locations/?utm_campaign=gmb&utm_medium=organic&utm_source=local",
+        "phoneNumber": "(773) 235-1915",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-ZQPUBUOSIuxUNju2C5Pdw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=80.64758&pitch=0&thumbfov=100",
+        "cid": "9095637230485785082",
+        "fid": "0x880fd38a26dc266b:0x7e3a31ded0ec49fa",
+        "placeId": "ChIJaybcJorTD4gR-kns0N4xOn4"
+      },
+      {
+        "position": 4,
+        "title": "Romano Orthopaedic Center",
+        "address": "7411 Lake St # 2110, River Forest, IL 60305",
+        "latitude": 41.888222999999996,
+        "longitude": -87.8103721,
+        "rating": 4.8,
+        "ratingCount": 711,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Osteopath",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.romanomd.com/",
+        "phoneNumber": "(708) 848-4662",
+        "openingHours": {
+          "Thursday": "7:15 AM–5:45 PM",
+          "Friday": "7:15 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:15 AM–5:45 PM",
+          "Tuesday": "7:15 AM–5:45 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://romanomd.com/make-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvyAzNxUX_F1KbVsvyMCuvrKUMsX1lED0ihFMXB0cjpXxnS5_MMWW0XhL9QdOPL0xvjNIfjI4qYQdqMGSejynjaYqonr-KLMe33jmUbbhRn_eqdxks8FQm_eckEuBQacQWOBbq",
+        "cid": "10589669707716586985",
+        "fid": "0x880e34a9c096f6a3:0x92f6107e21296de9",
+        "placeId": "ChIJo_aWwKk0DogR6W0pIX4Q9pI"
+      },
+      {
+        "position": 5,
+        "title": "Genesis Orthopedics & Sports Medicine",
+        "address": "4111 W 26th St Ste 200, Chicago, IL 60623",
+        "latitude": 41.843956,
+        "longitude": -87.7275408,
+        "rating": 4.8,
+        "ratingCount": 603,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://genesisortho.com/",
+        "phoneNumber": "(630) 377-1188",
+        "openingHours": {
+          "Thursday": "8:30 AM–5:30 PM",
+          "Friday": "8:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5:30 PM",
+          "Tuesday": "8:30 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-25557?LocIdent=137135&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_rEBrut0bykSPDX3NppETxh-lo_8RG_kFsGe0Sy2pJ_K2kguB-entity&rwg_token=AFd1xnGWfYejm6o0B_oWLVHLQeeIhXz_Bq1kcftaFhamlvGe50R9w2Ynyl03yoe5v5q7GVabHM-mVdcTbhlNlTOmmwyrCUIVvX4FnQiazLSeMP1IoCPqAUY%3D",
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-website-83816?LocIdent=202977&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_b8UEgJreS0GApGabH8KVxB-lo_krRWWcnOHE-43RwRoFqCNR-entity&rwg_token=AFd1xnFaeXdVUIfA2yKHJVBp65maz6x2inmTqVrAhnHYxrYJpoVClpSUA73h-7v-qcHcuylzswK5rnr-y5CvVFn69wkclqpkqnzbLyhdA_P3ArH5ju8guKQ%3D",
+          "https://www.zocdoc.com/doctor/hythem-p-shadid-md-64442"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF-F7hdQpEdRTu5NQ0puIYcyaTEpHsgQzUEuYAk99V4_RBxZ8JCHhfPnbXiqYg5eJlCm1ulOb1ItsjpcmoyGAZ3pSa_lEbzknhXPb0WGPaL_NOnhlDvhBxq5Swv30eHG6R-8LVD",
+        "cid": "12273512672832198337",
+        "fid": "0x880e33b2d8fba86d:0xaa5446bf826b16c1",
+        "placeId": "ChIJbaj72LIzDogRwRZrgr9GVKo"
+      },
+      {
+        "position": 6,
+        "title": "Midland Riverside Orthopedics",
+        "address": "353 E Burlington St STE 100, Riverside, IL 60546",
+        "latitude": 41.8312935,
+        "longitude": -87.8042016,
+        "rating": 4.8,
+        "ratingCount": 303,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Physical therapist"
+        ],
+        "website": "https://mrorthopedics.com/",
+        "phoneNumber": "(708) 442-0221",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/midland-riverside-orthopedics-17465?LocIdent=253778&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_IxIRzxCSOUaDmiBCUr474h-lo_hj6VZ7Tyik-Yqm7EZgMoYx-entity&rwg_token=AFd1xnHWLmt6m96zuuid46afN0TAUkgyXBqMlzgpKJL2XxYZOPDRlXcT-slOnmTn-2JXIV93JyaW9Zm4-cnzhyBHG5asjw3zQw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQqJ4WWi93vrVd1R-a0q7raKfut8FYiP6FzvNT0pUJJFMRmbIn876hRfxzsEVMo1YSb7TRIxB20EJkRKbnugflcMcVn0cyt688NWcKi5BqraDSPaR34EUPYTQpyoZw3nrdfR1J",
+        "cid": "15847870656925607044",
+        "fid": "0x880e343af151dcbd:0xdbeef26598632484",
+        "placeId": "ChIJvdxR8To0DogRhCRjmGXy7ts"
+      },
+      {
+        "position": 7,
+        "title": "Orthopaedic and Rehabilitation Centers",
+        "address": "1431 N Western Ave Ste 510, Chicago, IL 60622",
+        "latitude": 41.9075381,
+        "longitude": -87.6863494,
+        "rating": 4.8,
+        "ratingCount": 273,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.orcchicago.com/?utm_source=gmb_auth",
+        "phoneNumber": "(773) 878-6233",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/orthopaedic-and-rehabilitation-centers-17508?LocIdent=76803&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_LYwDt0mksUyxjFnh-OfwVx-lo_r4ce1Mh_PEOgRZff2AM72x-entity&rwg_token=AFd1xnFIVTptb1DNj1aED-z-p5LtxZq_uBTytrENy7o1zEErgHTyFGzTNqNXL7c_0trjNTncUbfjzULq8VtcSEX2YczX8m-r8XRix3-I7SzQvbCVbcrX5Po%3D"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2_thPzoJUigkTEJz-VBSLA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=63.360794&pitch=0&thumbfov=100",
+        "cid": "10695891400016789472",
+        "fid": "0x880fd3199f40a605:0x946f708f1e27ffe0",
+        "placeId": "ChIJBaZAnxnTD4gR4P8nHo9wb5Q"
+      },
+      {
+        "position": 8,
+        "title": "Orthopaedic And Rehabilitation Centers",
+        "address": "5616 N Western Ave, Chicago, IL 60659",
+        "latitude": 41.983643799999996,
+        "longitude": -87.6897621,
+        "rating": 4.5,
+        "ratingCount": 418,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.orcchicago.com/",
+        "phoneNumber": "(773) 878-6233",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/orthopaedic-and-rehabilitation-centers-17508?LocIdent=28824&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_LYwDt0mksUyxjFnh-OfwVx-lo_oXX_cVx1Wk6G27IjygoBpR-entity&rwg_token=AFd1xnHqGOJDMWECACchcUhYqtz2IdvBZ1UeoGzJA8kO17voj-IHW9ne7qObpy12ExAXROAhWksJGZN3e-ItPLomluE3klQvuQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_bnzgpyF1EFpE2olHXCwJSsxOjIB4IJuoGpl5vWtkotWODw5EtT3vCfWCjc54B-r2i_vP_NDaWj-LpiNei6tEdT3OlVYYr__28H2oVCRSV8TXu3VXS5EzEowJiA8Vfnv-JV_H",
+        "cid": "7474114002502124835",
+        "fid": "0x880fd1fafb770bcf:0x67b96315f1e98523",
+        "placeId": "ChIJzwt3-_rRD4gRI4Xp8RVjuWc"
+      },
+      {
+        "position": 9,
+        "title": "Genesis Orthopedics & Sports Medicine",
+        "address": "1125 Westgate St, Oak Park, IL 60301",
+        "latitude": 41.8877374,
+        "longitude": -87.80319,
+        "rating": 4.6,
+        "ratingCount": 321,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.genesisortho.com/?utm_source=GMBSocialClimb&utm_medium=GenesisOrthopedics%26SportsMedicine",
+        "phoneNumber": "(877) 377-1188",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-25557?LocIdent=146616&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_rEBrut0bykSPDX3NppETxh-lo_eL679KT75UuuqgWSHR_aGh-entity&rwg_token=AFd1xnEzpA_O2L_uJPh38EIAA6W-Noupslpl2CY5X-HXrzmleYCsIc-I9jiQT7z8qYgNCd32rOY208LGbLgY9NVRdrk1JGWy0sKioT4jz2U3ixQJRgie2ek%3D",
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-25557?LocIdent=394582&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_rEBrut0bykSPDX3NppETxh-lo_UcTmGnPPr06ZKynyELWvsA-entity&rwg_token=AFd1xnEJHk2w3Knn2rdk0i2czUbGdnzbUW153x0d_yvzvjsE5_4uAm43lyHjPyFYGwsOJqgsfc6ve0BqhyDmgeFFIhGJdewYDZpUQdBHMLjwjZ2igqHPDmM%3D",
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-website-83816?LocIdent=202978&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_b8UEgJreS0GApGabH8KVxB-lo_pYiOp6y5a06mkhJ_OYOa4R-entity&rwg_token=AFd1xnFwcJdpbOQ4oyw22g4X5-MJs4AzrBAt3BcOUQ9WRCQ9sFnrfjTbFzcrlBeeolO-9Adn06grJ7jaV8Gjt0JRSmice3rzYNsbxwKDnwPNtt3D_Bbn7RI%3D",
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-website-83816?LocIdent=394583&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_b8UEgJreS0GApGabH8KVxB-lo_KZwsanBBWEaBZs-zy-uLwA-entity&rwg_token=AFd1xnGB3CSYsdsPEsqn3XahoDeJAaaebBtCHMSnKnHbguZxCwsUPG1JKw5QFov1wz22YfX1uJL2cJ0xOZ6hLQEUSlkowcscIs8D-HoKu6njXwIZUWMxNDM%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEb60cyIqbsVEyGBcFaYX7jVziuKI_FHr_b_-EXsAY5weUZABTVvlhV3EfXq_AzasjNnmWr-yT9tiGJJaYiR_PuEqXL2RpwkN-MZ8Pz9aMPDsjol2Q2Z_eku9cNQTRgn_GSsDyIHkONsLX",
+        "cid": "12440414701594591508",
+        "fid": "0x880e3314b30f44d7:0xaca53b424b17c114",
+        "placeId": "ChIJ10QPsxQzDogRFMEXS0I7paw"
+      },
+      {
+        "position": 10,
+        "title": "IBJI Doctors’ Office - Chicago-Lakeview",
+        "address": "331 W Surf St Suite 6400, Chicago, IL 60657",
+        "latitude": 41.9341043,
+        "longitude": -87.6384625,
+        "rating": 4.7,
+        "ratingCount": 186,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.ibji.com/locations/chicago-lakeview-east-doctors-office/?scct=PNa8815ba9f1ce585bab34200bc5636d12&utm_source=gmb&utm_medium=yext",
+        "phoneNumber": "(773) 777-9900",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEK01Z01maiv9gTxpObWvHBMxhqPqvZG0U4So2OI-BXpA3UmL0xiUmCI0iOFYy6oFMI3VeLqzV5YHXUUkMYRbOpGzqXKZEWvcE5tW2aFOSX8_EJ18si_cNt6UzK-Ve8xlgcx4-xfqbJWqw",
+        "cid": "1936072348077400374",
+        "fid": "0x880fd30ae648adbd:0x1ade4f8af69c2136",
+        "placeId": "ChIJva1I5grTD4gRNiGc9opP3ho"
+      },
+      {
+        "position": 11,
+        "title": "Midwest Orthopaedic Consultants - Oak Lawn",
+        "address": "4220 95th St #100, Oak Lawn, IL 60453",
+        "latitude": 41.720963999999995,
+        "longitude": -87.727362,
+        "rating": 4.7,
+        "ratingCount": 930,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthoexperts.com/",
+        "phoneNumber": "(708) 226-3300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9oeOQejHKcVGdzwAoO-ILfpW2dDR8bUBbyrv4yUWY298TcapzU95jFb-33DeihN7eynWFGTpwL0DbjKAOxdpbpSTAcZjN7oBQ96087R47q_wPg3piviwFT9oL6kbD6YQTK8AD",
+        "cid": "10253744717000640965",
+        "fid": "0x880e3a8d81996075:0x8e4c9e7e525c89c5",
+        "placeId": "ChIJdWCZgY06DogRxYlcUn6eTI4"
+      },
+      {
+        "position": 12,
+        "title": "Advanced Orthopedic and Spine Care",
+        "address": "6701 95th St, Oak Lawn, IL 60453",
+        "latitude": 41.7188758,
+        "longitude": -87.78781889999999,
+        "rating": 4.6,
+        "ratingCount": 239,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://aospinecare.com/",
+        "phoneNumber": "(708) 599-5000",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "8 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://hipaa.jotform.com/91396107637160"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoxiUAXrKbK1pgKKZ9dFjtapRbNHTpKBetoJFpMaK_MNIGhhFIMqdnEOF07Lt41JVOLjRgD9ldRUmK-4htfpRp8Pgyr3fzFRGbwhittA5e9OrJZ1kAkPPB0y1q4pfIs1H5hJI70w",
+        "cid": "2186079623485298489",
+        "fid": "0x880e3992ceb5140b:0x1e5683d5d08f9739",
+        "placeId": "ChIJCxS1zpI5DogROZeP0NWDVh4"
+      },
+      {
+        "position": 13,
+        "title": "Midwest Orthopaedic Consultants - Orland Park",
+        "address": "10719 160th St, Orland Park, IL 60467",
+        "latitude": 41.598585799999995,
+        "longitude": -87.8800954,
+        "rating": 4.8,
+        "ratingCount": 1172,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Medical clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://orthoexperts.com/",
+        "phoneNumber": "(708) 226-3300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDqIXwfOQsCipiLMrPMm6sizzws8sbyQZ1ck94qC-RaXruHjLH8mKBsQWyMnoRbilDNknrnbDmm0CSfBxts0_m1lc22fUSxaBl39XnnRssW-d1EMU-0M5OiIqQKzQKtnkyBmJW7A",
+        "cid": "6266773964580475369",
+        "fid": "0x880e403901599af5:0x56f80db7ce7c51e9",
+        "placeId": "ChIJ9ZpZATlADogR6VF8zrcN-FY"
+      },
+      {
+        "position": 14,
+        "title": "Illinois Orthopedic Network",
+        "address": "712 N Dearborn St, Chicago, IL 60654",
+        "latitude": 41.8953497,
+        "longitude": -87.63005539999999,
+        "rating": 3.3,
+        "ratingCount": 96,
+        "type": "Sports medicine physician",
+        "types": [
+          "Sports medicine physician"
+        ],
+        "website": "http://www.ionorthopedics.com/",
+        "phoneNumber": "(312) 951-8200",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "9 AM–6 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwvVn74PxpbeVyZeTHIf7EUBkj4XtVeP6RKlk-f6t87jQKawcZVpRGtavT5PwLapQLQv1PapExui697AvJ0uV9aFUwxjpIozy8mhpx0cPWYvO3Y_99IzueTKrCJgQLr3GJpPQmnA",
+        "cid": "9189288497685711966",
+        "fid": "0x880fd34d349d99b3:0x7f86e933a323cc5e",
+        "placeId": "ChIJs5mdNE3TD4gRXswjozPphn8"
+      },
+      {
+        "position": 15,
+        "title": "Midwest Orthopaedics at Rush — Oak Brook",
+        "address": "2011 York Rd Suite 2000, Oak Brook, IL 60523",
+        "latitude": 41.8496665,
+        "longitude": -87.9281005,
+        "rating": 4.9,
+        "ratingCount": 1288,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.rushortho.com/?utm_source=GMBSocialClimb&utm_medium=MidwestOrthopaedicsatRush%E2%80%94OakBrook",
+        "phoneNumber": "(708) 740-5804",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rushortho.com/schedule-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGlCBWW8efw2O5xjzFNjnoyuuCIvEDC1Uzff25AD26QkVPl1gPU9bQ2k3OCp0JDUct-NSXIYpcrSHvgjdso-Bjee_WQVF3lKu39SrdZj7nc7UTXtSd5d0Is5E9QyrvKL6W3qpuo",
+        "cid": "8349175437877998291",
+        "fid": "0x880e4befaacd8679:0x73de3ad32e2272d3",
+        "placeId": "ChIJeYbNqu9LDogR03IiLtM63nM"
+      },
+      {
+        "position": 16,
+        "title": "Parkview Orthopaedic Group Palos Heights",
+        "address": "7600 W College Dr 3rd Floor, Palos Heights, IL 60463",
+        "latitude": 41.6757224,
+        "longitude": -87.8075997,
+        "rating": 4.8,
+        "ratingCount": 1161,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.parkviewortho.com/?utm_source=GMBSocialClimb&utm_medium=ParkviewOrthopaedicGroupPalosHeights",
+        "phoneNumber": "(708) 361-0600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmoiiloT0LPJpD8ESGPP7slsFVTAugJfPkNPMcebobhlhyHao3NspHcbfQmcNr_qcpRqjkbn8GscsMOiTY8ZdTJnNOdCiKxVoyHZ7pwaqbThaKC_xPehQnLLvv0cFPmQqD5A",
+        "cid": "12973684667251077537",
+        "fid": "0x880e39236659d907:0xb40bc977a36eb1a1",
+        "placeId": "ChIJB9lZZiM5DogRobFuo3fJC7Q"
+      },
+      {
+        "position": 17,
+        "title": "Elite Orthopaedics and Sports Medicine",
+        "address": "1401 S Harlem Ave, Berwyn, IL 60402",
+        "latitude": 41.861150099999996,
+        "longitude": -87.80380459999999,
+        "rating": 5,
+        "ratingCount": 8,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://elitesportmed.org/",
+        "phoneNumber": "(773) 229-1414",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Y1bUNe3h0JhwKO_t98ERBA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=102.68903&pitch=0&thumbfov=100",
+        "cid": "7867332388247419563",
+        "fid": "0x880e35e129199f5b:0x6d2e611fcb69baab",
+        "placeId": "ChIJW58ZKeE1DogRq7ppyx9hLm0"
+      },
+      {
+        "position": 18,
+        "title": "Genesis Orthopedics & Sports Medicine",
+        "address": "1044 N Francisco Ave # 405, Chicago, IL 60622",
+        "latitude": 41.9006786,
+        "longitude": -87.6996714,
+        "rating": 4.8,
+        "ratingCount": 132,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://genesisortho.com/?utm_source=GMBSocialClimb&utm_medium=GenesisOrthopedics%26SportsMedicine",
+        "phoneNumber": "(877) 377-1188",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-25557?LocIdent=189753&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_rEBrut0bykSPDX3NppETxh-lo_tfznMzdIQUutXZh7A0LUYB-entity&rwg_token=AFd1xnGl-RRXQEdHzjjAc54VHUAwJ58Cy063nqkMjLLXroFIX8oviHN5_8YIqxfQuiwMI-iAVIbrvkMiSeenyg3OgRhAZ2UGH__CS_qamlFRwgFaV50H8jI%3D",
+          "https://www.zocdoc.com/practice/genesis-orthopedics-and-sports-medicine-website-83816?LocIdent=202982&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_b8UEgJreS0GApGabH8KVxB-lo_dSp_6a3LnkeHzxjBdKDbNh-entity&rwg_token=AFd1xnH5JC-GHa6ui6S3tZ3SOlGDqMmOiMYPDE-4TitGCJlrNMb7_84VRdECU-NTGSPLQIT10M4ye3e5c7JwETuTCixBNvkuOHrRF_7tG7bxXiY1TOMesPw%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD87W9jZH5OwiSzKbb4DRMz73foVRFnDr1uKO_E8C49JYu6gOVStvdo4PHJ6ZleWuUdEluDlKB-9Pgq4Q_naR5rOJ5PglF4qwq06EtvMOIxvRowkUbDoUNdyE4gdmqXj-uLLqHqw",
+        "cid": "16778324511454337815",
+        "fid": "0x880fcd63fe0933ff:0xe8d8953f6f771b17",
+        "placeId": "ChIJ_zMJ_mPND4gRFxt3bz-V2Og"
+      },
+      {
+        "position": 19,
+        "title": "Parkview Orthopaedic Group Oak Lawn",
+        "address": "4710 95th St, Oak Lawn, IL 60453",
+        "latitude": 41.721547,
+        "longitude": -87.739139,
+        "rating": 4.8,
+        "ratingCount": 351,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://bit.ly/2YiFvG1?utm_source=GMBSocialClimb&utm_medium=ParkviewOrthopaedicGroupOakLawn",
+        "phoneNumber": "(708) 581-4967",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF47ZQwRi8BFOA1xDWMy5lVjwoE6SAG19ArAGZzdEZQfZXG2a94uZ06-4Tq2LhhuwiawzZqKUvR--VKCUMFz1GVMtVARrkYtgAngJgVyM77RY-7HpQ4gpFKEytS3geeuw-Cr7cl",
+        "cid": "2379301967661577479",
+        "fid": "0x880e3a605892025b:0x2104fa8893db3507",
+        "placeId": "ChIJWwKSWGA6DogRBzXbk4j6BCE"
+      },
+      {
+        "position": 20,
+        "title": "Advanced Orthopedic & Spine Care",
+        "address": "16255 S Harlem Ave, Tinley Park, IL 60477",
+        "latitude": 41.595470399999996,
+        "longitude": -87.7930526,
+        "rating": 4.5,
+        "ratingCount": 228,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physical therapy clinic",
+          "X-ray lab"
+        ],
+        "website": "https://aospinecare.com/",
+        "phoneNumber": "(708) 599-5000",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "bookingLinks": [
+          "https://hipaa.jotform.com/91396107637160"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGknvtqXh1_0RBTW5_pMrPPvQ7pv3vVrmbkIoJwlMJyFTx3lbzdtPE4Jw4o4MTRbRm3cL7pupEbhuEUgSW7AmLNNsBK2-kWg1x0YIqE0ujqeYfB_wAC1S3UZ5P8__U0SWDuvhaotQ",
+        "cid": "7215722633119075259",
+        "fid": "0x880e3e142f7612c7:0x6423658118cf0bbb",
+        "placeId": "ChIJxxJ2LxQ-DogRuwvPGIFlI2Q"
+      }
+    ],
+    "credits": 3
+  }
+}

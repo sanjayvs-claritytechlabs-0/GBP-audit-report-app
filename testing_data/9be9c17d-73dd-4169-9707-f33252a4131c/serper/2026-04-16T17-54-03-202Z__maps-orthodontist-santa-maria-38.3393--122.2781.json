@@ -1,0 +1,674 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Orthodontist Santa Maria",
+    "location": "38.33934,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Orthodontist Santa Maria",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4yNzgwNjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@34.9100065,-120.4322421,13z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Central Coast Orthodontics Kirk A. Specht, DDS, MS",
+        "address": "1311 S Miller St #201, Santa Maria, CA 93454",
+        "latitude": 34.9381852,
+        "longitude": -120.431939,
+        "rating": 5,
+        "ratingCount": 1457,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.centralcoastorthodontics.com/",
+        "phoneNumber": "(805) 347-4444",
+        "openingHours": {
+          "Thursday": "7:45 AM–5:15 PM",
+          "Friday": "7:45 AM–5:15 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–4:45 PM",
+          "Tuesday": "7:45 AM–5:15 PM",
+          "Wednesday": "7:45 AM–5:15 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG34yT9Sa_jIiAmUNnx7tnUHGOwKCsQCThUdbGmrS8G_PRZmeTVrEwJb8I8w7Y6XUEG39Sh_njHRBwXO69pyL2VzPhKNMBiN5o2gjkzFv-66XBdCbXCcr720HzV4X3XjMNlqFq7",
+        "cid": "11536874774866755730",
+        "fid": "0x80ec6c9c46e3abb9:0xa01b367b96190092",
+        "placeId": "ChIJuavjRpxs7IARkgAZlns2G6A"
+      },
+      {
+        "position": 2,
+        "title": "Good Day Orthodontics - Thanh Ng, DDS, MS",
+        "address": "201 N College Dr STE 102, Santa Maria, CA 93454",
+        "latitude": 34.954553,
+        "longitude": -120.4250641,
+        "rating": 4.9,
+        "ratingCount": 339,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.gooddayortho.com/",
+        "phoneNumber": "(805) 623-8489",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRmLhZmJXLewykzXncTmp8iRvmJHcJtCkX_YreZ1uiM4couUIlXGdODtp7wv7uFU2-7GljmtJHTwiaauy6vk4QEreXaciF0Ojrf9bJBZ_Vev5JsGHl5Ecb360IP2rjPRwOQCgr",
+        "cid": "13551116635842750966",
+        "fid": "0x80ec6d72524cb941:0xbc0f3cc88d4b29f6",
+        "placeId": "ChIJQblMUnJt7IAR9ilLjcg8D7w"
+      },
+      {
+        "position": 3,
+        "title": "Coastal Smiles Orthodontics- David H. Lindsey DDS, MS",
+        "address": "1001 S Broadway, Santa Maria, CA 93454",
+        "latitude": 34.9414589,
+        "longitude": -120.4363003,
+        "rating": 4.9,
+        "ratingCount": 140,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.coastalsmilesorthodontics.com/",
+        "phoneNumber": "(805) 922-2295",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.coastalsmilesorthodontics.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFn8oVERQTOfNEuhHuS58YYs0kJvz4RfDhIGr5IAYS2WbLJX6SLvkPLSkqeO-8pVApfOsBDo6WugVskZkqm0K7DMq8igML7vjHnHwPSYo567JTARwaJkYjVhIu5p41k7ogr0prV",
+        "cid": "5087520196657322698",
+        "fid": "0x80ec6b7d5b6ca121:0x469a80a9fd629aca",
+        "placeId": "ChIJIaFsW31r7IARyppi_amAmkY"
+      },
+      {
+        "position": 4,
+        "title": "Castle Orthodontics",
+        "address": "775 E Clark Ave Ste 101, Santa Maria, CA 93455",
+        "latitude": 34.86546,
+        "longitude": -120.43876999999999,
+        "rating": 5,
+        "ratingCount": 102,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://castle-orthodontics.com/",
+        "phoneNumber": "(805) 937-3003",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF8j3VvjACI1YxFZMHsSfBgzh3bKr0RXOR8wOep7IwZul8w0LhXimvJjHNcRxdG78Hemr9KSyeuMqdcvzdLjxoF5UZl9mKrKAbVKicl3Rq4bIEG8GmeNDSr3OIVeHclCMWN8xe5q91vXxY",
+        "cid": "13950023922990255461",
+        "fid": "0x80ec1390a2292fbf:0xc19870d8fa090d65",
+        "placeId": "ChIJvy8popAT7IARZQ0J-thwmME"
+      },
+      {
+        "position": 5,
+        "title": "Explore Orthodontics - Brandon Malan DDS, MS",
+        "address": "1505 Shepard Dr STE 101, Santa Maria, CA 93454",
+        "latitude": 34.9342885,
+        "longitude": -120.4216548,
+        "rating": 5,
+        "ratingCount": 57,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.explore-orthodontics.com/",
+        "phoneNumber": "(805) 998-4040",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "10 AM–2:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "9 AM–2:30 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.explore-orthodontics.com/appointment-request-form/",
+          "https://edgebooking.ortho2.com/search?catalog=3cb34bd4-f791-4649-8b51-a8662b2730bd&code=wtxclb"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0_5QNHjC_FOa-9dpY3tw2lAvZOtqvUUTE2VXZwpCaRK1wiIvwFMTMrp-ZJhXtHn48SIgd5u9omTFQOJ7NP8tJA12XWyhqQxsP6o5lh8C9wRovppZHTGUdg2y40hSkA7K_2Q8I73qcXug",
+        "cid": "5913174211485205611",
+        "fid": "0x80ec6b581ddaaaab:0x520fd09db293846b",
+        "placeId": "ChIJq6raHVhr7IARa4STsp3QD1I"
+      },
+      {
+        "position": 6,
+        "title": "Santa Maria Pediatric Dental Group & Orthodontics",
+        "address": "227 Betteravia Rd, Santa Maria, CA 93454",
+        "latitude": 34.9217939,
+        "longitude": -120.433279,
+        "rating": 4.8,
+        "ratingCount": 707,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist",
+          "Emergency dental service",
+          "Orthodontist"
+        ],
+        "website": "http://www.santamariapediatricdentistry.com/",
+        "phoneNumber": "(805) 922-2888",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.santamariapediatricdentistry.com/appointments/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvEBRKW8N7fCuQ1b0U3byq5BG7lwsVHKOgY4aXTKKtuBoGXBfM9pUd0WyTdbycIm-O2F5nr87NSygofpQ2xLee-0FAvli9ykruWtA0o1xj3ngVMB1zl8gsuhbC--Ib7ZxbPxxXmetWNnNg",
+        "cid": "14266273758411441741",
+        "fid": "0x80ec6cbd780f67ab:0xc5fbfc65b697464d",
+        "placeId": "ChIJq2cPeL1s7IARTUaXtmX8-8U"
+      },
+      {
+        "position": 7,
+        "title": "Smile Santa Maria Dental",
+        "address": "2528 S Broadway Suite C, Santa Maria, CA 93454",
+        "latitude": 34.9141445,
+        "longitude": -120.4345793,
+        "rating": 4.8,
+        "ratingCount": 517,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental implants provider",
+          "Emergency dental service"
+        ],
+        "website": "http://smilesantamaria.com/",
+        "phoneNumber": "(805) 925-2628",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://smilesantamaria.com/appointment-request/",
+          "https://book.patientxpress.us/book-appt/V2?license=YTU0ZjYzMWYtYmI3Yy00NmQ0LTgyNWQtN2EzNDIy&rwg_token=AFd1xnEkbVzoaAY-Fj6RjasYSr40xPHGA3-A7XoCfxgOadWK-ReORuqCOpIvuPakRUiLL2nysZxeQuyVRwugpJa2wKMGFkaxL0kf3Tk4H3pKA6pogFFZbVw%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHoaP7DMRyDuvfj-SQ9VSGs4O0rcUlN6ZZ5q1i28EvXCnW9ci04vbGXGwCZmilzNlBlcczm2KcTeQm7tfwojmGP8l2OZJUGBuypoRzj0AIHJjFGIEkuTdcZyOwS_Au0csPs6NJrqA",
+        "cid": "18416957978568712343",
+        "fid": "0x80ec6b558a6b415d:0xff962db44be26097",
+        "placeId": "ChIJXUFrilVr7IARl2DiS7Qtlv8"
+      },
+      {
+        "position": 8,
+        "title": "CaliDental Santa Maria",
+        "address": "238 Betteravia Rd Unit D, Santa Maria, CA 93454",
+        "latitude": 34.920639099999995,
+        "longitude": -120.43306969999999,
+        "rating": 4.6,
+        "ratingCount": 542,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Orthodontist"
+        ],
+        "website": "https://www.calidentalsmiles.com/",
+        "phoneNumber": "(805) 242-4881",
+        "openingHours": {
+          "Thursday": "8 AM–5 AM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGz31O2hTkM9qVKF1reWZu2zvIuNN_3JN6PAByRNMrIXnPFQQWpCTftRsVZeRzZWIlV_YfaJr2VV7Ab2EOxkEpMThKtIgeKV3Rs1XUh56ISPQ1XnprNLZqN9Ezkr6QEknkDPFxK",
+        "cid": "4916794384850662736",
+        "fid": "0x80ec6b234c4f0c61:0x443bf67156a8b550",
+        "placeId": "ChIJYQxPTCNr7IARULWoVnH2O0Q"
+      },
+      {
+        "position": 9,
+        "title": "Santa Barbara Family Dentistry",
+        "address": "620 W Main St, Santa Maria, CA 93458",
+        "latitude": 34.9529467,
+        "longitude": -120.44362729999999,
+        "rating": 4.8,
+        "ratingCount": 508,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants periodontist",
+          "Denture care center",
+          "Emergency dental service",
+          "Endodontist",
+          "Oral surgeon",
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://santabarbarafamilydentistry.com/",
+        "phoneNumber": "(805) 600-3853",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://santabarbarafamilydentistry.com/#Apptm"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGD6ewXjHsvsOwGQuiMw195wYQ4lmWZcTbzEXMBu6PCtDzddeDLewZDCt1RO6iqvBNmx5jJl114f--FEMWfqJAirOFGnkgKQhY6L67QLZvjp2HmJdQpVcOlOHMAfaWzojt1qHOjgXRhitYg",
+        "cid": "5059554135831825304",
+        "fid": "0x80ec6b839009bc4f:0x463725ae0c1d4b98",
+        "placeId": "ChIJT7wJkINr7IARmEsdDK4lN0Y"
+      },
+      {
+        "position": 10,
+        "title": "Coastal Endodontic Studio",
+        "address": "1315 S Miller St STE 202, Santa Maria, CA 93454",
+        "latitude": 34.938103,
+        "longitude": -120.43193989999999,
+        "rating": 5,
+        "ratingCount": 163,
+        "type": "Endodontist",
+        "types": [
+          "Endodontist"
+        ],
+        "website": "https://www.coastalendostudio.com/",
+        "phoneNumber": "(805) 960-3636",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJDmwtLoVbvJjAPIwD3Q0jjgx3YL8ShnselKfUYYmBbE17UK9vKDgJ-VvWSWk_H6kYakH8Ft6iNMZTvET47_MMHeqm6V3GTzZF6CEp6gf5nQ0wO4cafEvXmGzE197XLGFw0D_bHXExELiI",
+        "cid": "4984236108072053204",
+        "fid": "0x80ec6dd98d6acb65:0x452b90552a4f69d4",
+        "placeId": "ChIJZctqjdlt7IAR1GlPKlWQK0U"
+      },
+      {
+        "position": 11,
+        "title": "Santa Maria Valley Dental",
+        "address": "609 E Chapel St, Santa Maria, CA 93454",
+        "latitude": 34.954537099999996,
+        "longitude": -120.4281347,
+        "rating": 4.8,
+        "ratingCount": 70,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "http://www.santamariavalleydental.com/",
+        "phoneNumber": "(805) 349-7999",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6gy4CQTT3TvVoFq3M_WIqg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=340.3206&pitch=0&thumbfov=100",
+        "cid": "18039941243118545874",
+        "fid": "0x80ec6c7dba5c15d9:0xfa5abefb1cffebd2",
+        "placeId": "ChIJ2RVcun1s7IAR0uv_HPu-Wvo"
+      },
+      {
+        "position": 12,
+        "title": "Mai Dental Care",
+        "address": "730 E Chapel St Suite A, Santa Maria, CA 93454",
+        "latitude": 34.9540824,
+        "longitude": -120.425209,
+        "rating": 4.9,
+        "ratingCount": 523,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Endodontist",
+          "Oral surgeon",
+          "Teeth whitening service"
+        ],
+        "website": "https://maidentalcares.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleBP",
+        "phoneNumber": "(805) 365-1965",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://maidentalcares.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleBP#appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8al_P7D1mcaLWjJqUC-rJ-ju_IA42NJoZw0Zrt8DTUfZLJnz1u_pq_6GG_rBkDrUcS5uN_6ZLNJ1ddbCghIw9UM97dNcZXGZntQ8iQh7GorwOHDZulkQ6la1FXiGnRAWGlsE",
+        "cid": "188413871095115510",
+        "fid": "0x80ec6d989aeff515:0x29d616ae1616ef6",
+        "placeId": "ChIJFfXvmpht7IAR9m5h4WphnQI"
+      },
+      {
+        "position": 13,
+        "title": "Friendly Smiles Dental",
+        "address": "1670 S Broadway, Santa Maria, CA 93454",
+        "latitude": 34.9300986,
+        "longitude": -120.4357402,
+        "rating": 3.6,
+        "ratingCount": 359,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants periodontist",
+          "Emergency dental service"
+        ],
+        "website": "http://www.friendlysmilesdental.com/",
+        "phoneNumber": "(805) 928-6776",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://friendlysmilesdental.com/book-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUcDkSbeeVLKXuLlZXe5b3Sv5AXNVpI5GurBQakj3Tri16tFu-r4m5vvx7G42d_7Ymfn3hx8I0_i6eJqdx4mslTskSi5RStwaOpRksUCkozkHknCHPxKzdn9fKRO685RHZDhl-",
+        "cid": "3072355569965764044",
+        "fid": "0x80ec6b5588330567:0x2aa3331ce3808dcc",
+        "placeId": "ChIJZwUziFVr7IARzI2A4xwzoyo"
+      },
+      {
+        "position": 14,
+        "title": "Kitto Family Dental",
+        "address": "937 E Main St STE 105, Santa Maria, CA 93454",
+        "latitude": 34.953361,
+        "longitude": -120.420857,
+        "rating": 4.9,
+        "ratingCount": 383,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.kittofamilydental.com/",
+        "phoneNumber": "(805) 922-4109",
+        "openingHours": {
+          "Thursday": "7 AM–4:30 PM",
+          "Friday": "7 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "7 AM–4:30 PM",
+          "Wednesday": "7 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://kittofamilydental.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJK--DvCAJl5MBYe_EL4Wv6xGliKhHjyIOrKM5n1MCSDeJjS-4qxg56QxlTYe2nXByBLVBvekXNrxsAHDV1KLZAkcmJmWYh1eWHU_J6LFGNoIFWNrMkXJrwK_5DEkmeVCpAu6yOM4lTkBd",
+        "cid": "10411581894402586781",
+        "fid": "0x80ec6c89b46a5fb5:0x907d5e91edc1389d",
+        "placeId": "ChIJtV9qtIls7IARnTjB7ZFefZA"
+      },
+      {
+        "position": 15,
+        "title": "Western Dental & Orthodontics",
+        "address": "2205 S Broadway, Santa Maria, CA 93454",
+        "latitude": 34.920563,
+        "longitude": -120.4367868,
+        "rating": 3.9,
+        "ratingCount": 630,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Orthodontist",
+          "Pediatric dentist",
+          "Prosthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.westerndental.com/en-us/find-a-location/california/santa-maria/2205-s-broadway?utm_source=GMB&utm_medium=organic",
+        "phoneNumber": "(805) 863-9430",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.westerndental.com/appointment-detail/en-us/WBB"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFi6VqHBX8F_BWrqVQiyGTISPdPHHYGpD76DjNeEMI9zejD-G4yauOc0pr-p8BMmzsgngrCwE-fAG-9cvENGQzjL9OhJJPehyxTjss4duZSkTT2_zlB5fZPfj69nDOMcVZ6hTF-DYP47XZ9",
+        "cid": "17508873353147546499",
+        "fid": "0x80ec6b581d581627:0xf2fc038c77a97b83",
+        "placeId": "ChIJJxZYHVhr7IARg3upd4wD_PI"
+      },
+      {
+        "position": 16,
+        "title": "Central Coast Smile Dentistry",
+        "address": "1505 Shepard Dr STE 201, Santa Maria, CA 93454",
+        "latitude": 34.9341631,
+        "longitude": -120.42152979999999,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Cosmetic dentist",
+        "types": [
+          "Cosmetic dentist",
+          "Dental implants periodontist"
+        ],
+        "website": "https://www.centralcoastsmile.com/",
+        "phoneNumber": "(805) 928-0340",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=73kyTy30QIsKxBsuHbSxuQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=161.74388&pitch=0&thumbfov=100",
+        "cid": "4217276418091777434",
+        "fid": "0x80ec6c7d44a11df9:0x3a86c68ee3fdfd9a",
+        "placeId": "ChIJ-R2hRH1s7IARmv39447Ghjo"
+      },
+      {
+        "position": 17,
+        "title": "Pathway Dental Group Santa Maria",
+        "address": "426 Barcellus Ave Ste 201, Santa Maria, CA 93454",
+        "latitude": 34.9364361,
+        "longitude": -120.43012759999999,
+        "rating": 4.6,
+        "ratingCount": 207,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental implants provider"
+        ],
+        "website": "https://pathwaydentalgroup.com/locations/santa-maria/?utm_source=google&utm_medium=gbp&utm_campaign=google_business",
+        "phoneNumber": "(805) 928-7833",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "7 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://flexbook.me/pdgsm?rwg_token=AFd1xnFssRx_zsA6N5I6UlCiuz0f3luVtraqJZ6WLpqtLkwyGlL8wFANDuvAw2j_ERsRZBN7GKPurxiSLOcV_3cNyvv-mXnvKPF9Jt_GNd3C9blcolqbdpU%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtoFHSwM1s0tnSN-xE6-0mvGI2-sXq1YQLuqn_sC2UINzVVUfVgB0nnUBnhV0onPHzBfEvSqfNUBTtz53UjJ9h9jKjNiZx1stvqzFgTwf_9I6hipDyvXS4sjWO9HhcI5joz1hsHQ",
+        "cid": "9077150733515225988",
+        "fid": "0x80ec6d269f7367b1:0x7df8847fd3d9fb84",
+        "placeId": "ChIJsWdznyZt7IARhPvZ03-E-H0"
+      },
+      {
+        "position": 18,
+        "title": "Loveland Dental",
+        "address": "1315 S Miller St #201, Santa Maria, CA 93454",
+        "latitude": 34.938099699999995,
+        "longitude": -120.43196929999999,
+        "rating": 4.8,
+        "ratingCount": 122,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.lovelanddentalca.com/",
+        "phoneNumber": "(805) 303-2440",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.lovelanddentalca.com/contact"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMzH-bSjJX0b4nUe6GhKHqHG3DW4KVxiXfx4XfR2A5_m1AZameWDilMGsBRyfK0aRVXMNsHXVkkozMHIjza0hygFnijWL7M4WoN9yAKPoF80vGYyf2qEzpA9JO1KcFjADnEaASn5Cb-QZh",
+        "cid": "12285049806410497517",
+        "fid": "0x80ec6c9c3888ab5f:0xaa7d43b5bf143ded",
+        "placeId": "ChIJX6uIOJxs7IAR7T0Uv7VDfao"
+      },
+      {
+        "position": 19,
+        "title": "Coastal Valley Dental",
+        "address": "426 Barcellus Ave STE 204, Santa Maria, CA 93454",
+        "latitude": 34.9363366,
+        "longitude": -120.43023749999999,
+        "rating": 4.9,
+        "ratingCount": 165,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "http://www.coastalvalleydental.com/",
+        "phoneNumber": "(805) 937-6328",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBGXEQOR7R8hrex2pHzLIhHGYluEpdYGS2JtkaGQaLRDOsaSRdrcEkp1_3EwjHBB3UUY66kRjVldWj0jNCjHuRfrl93R9X-o1pl41KjT8qb7IKtZ8MfW_xu6JE2EdP-x5CGbxE",
+        "cid": "9072438956970883135",
+        "fid": "0x80ec13722ed6aa05:0x7de7c729dcaa383f",
+        "placeId": "ChIJBarWLnIT7IARPziq3CnH530"
+      },
+      {
+        "position": 20,
+        "title": "Santa Maria Dental Group",
+        "address": "125 W Stowell Rd, Santa Maria, CA 93458",
+        "latitude": 34.9387956,
+        "longitude": -120.43714969999999,
+        "rating": 4.8,
+        "ratingCount": 23,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "http://santamariadentalgroup.com/",
+        "phoneNumber": "(805) 925-4500",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlvG2pvxS5QGw2bcW2PQP5dtWJZJvaZRGwg1DaVj9ZsdveXz8btgppJ3CpUbh4uJUqpJ0qaoE8WoFol4reRO5j2xGjfjDdCE_hEtsiIsMnr3jKguMVI3SKv1USnWrxnSPvwC8a",
+        "cid": "4720443932153224699",
+        "fid": "0x80ec6b6294b00001:0x418262bf0e241dfb",
+        "placeId": "ChIJAQCwlGJr7IAR-x0kDr9igkE"
+      }
+    ],
+    "credits": 3
+  }
+}

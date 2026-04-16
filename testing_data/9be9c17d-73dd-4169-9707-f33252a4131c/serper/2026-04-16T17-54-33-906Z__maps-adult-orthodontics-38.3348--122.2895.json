@@ -1,0 +1,640 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.334848,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzM0ODQ4LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@34.8189249,-82.3614814,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Frazier Orthodontics",
+        "address": "1340 SC-14, Simpsonville, SC 29681",
+        "latitude": 34.791340399999996,
+        "longitude": -82.25684439999999,
+        "rating": 5,
+        "ratingCount": 331,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://frazierortho.com/",
+        "phoneNumber": "(864) 686-6202",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://frazierortho.com/online-scheduling/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvbsG4bzWkRH8s1kqONOdUP4bazU4-xyDQ8sdybix7rKr2Fd2qNAsz_s_viW_TnWDrwxcFas3F3BE1yjQbjY8ouR60BbIzTjdiXyXHfPR2Syc2X4hDeJIxsc3TFAMn3zIwuTeFZBp3RZw",
+        "cid": "231980920292184597",
+        "fid": "0x885827d0db5b5079:0x338296afcaf1215",
+        "placeId": "ChIJeVBb29AnWIgRFRKv_GopOAM"
+      },
+      {
+        "position": 2,
+        "title": "River Falls Orthodontics",
+        "address": "619 SE Main St, Simpsonville, SC 29681",
+        "latitude": 34.7249585,
+        "longitude": -82.2535834,
+        "rating": 4.9,
+        "ratingCount": 448,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://www.riverfallsortho.com/?utm_source=listings&utm_medium=organic&utm_campaign=gmb&y_source=1_MTAxMjc2MDY2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(864) 967-9700",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appt/d4c-dental-brands?lid=287599&y_source=1_MTAxMjc2MDY2OS03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSOy03qdlwXmwGMjyn5DlUvzlPgdufB2nJ9wNXixpdYfnHC0ynox0LD9GFnDjdAyB9Q3QN0Du0Xr5kupUvVS9fFfZm6F6aTyq92XsJ8xZGx0DigSveeUJE31NvZmGSgw8eEenEWQ",
+        "cid": "10010442754716815398",
+        "fid": "0x885827218d6559a1:0x8aec3ca5d7475026",
+        "placeId": "ChIJoVlljSEnWIgRJlBH16U87Io"
+      },
+      {
+        "position": 3,
+        "title": "Davis Orthodontics",
+        "address": "630 NE Main St, Simpsonville, SC 29681",
+        "latitude": 34.748440599999995,
+        "longitude": -82.2614625,
+        "rating": 5,
+        "ratingCount": 115,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://davisorthodontics.com/",
+        "phoneNumber": "(864) 967-0053",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://davisorthodontics.com/book-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFC2FPv8U7I85xUFd0z171gZXVcrF2JlbfinpEtdi9jz5KgaKMuxUoGhxzpNX3EZ2VORQfQCHSRA8_wzQoZbdR4VfTuCUQZxm3n4tmyoZvXGiRyqm6uA7j15-n_apuKapc4z95J6OseweYw",
+        "cid": "3343286370268278168",
+        "fid": "0x885826ff75c5dc0f:0x2e65bd3d823eed98",
+        "placeId": "ChIJD9zFdf8mWIgRmO0-gj29ZS4"
+      },
+      {
+        "position": 4,
+        "title": "Orthodontic Associates of Greenville",
+        "address": "10 Cleveland Ct, Greenville, SC 29607",
+        "latitude": 34.8237362,
+        "longitude": -82.3776062,
+        "rating": 5,
+        "ratingCount": 585,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.greenvillebraces.com/",
+        "phoneNumber": "(864) 242-9411",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.greenvillebraces.com/contact"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXSZRQZ9NiP7nXmww4cmDTYn9SY3uR8AjXm49GN7uXJHaEWUQc7a19wF0RAzVKqHbdbILVfudGnKGU7UrEYcLJZd8XzvMUKA7n9iU39-pywf2LCUW4WSRPR2UQumORibCLdrZbkA",
+        "cid": "6131893550472880472",
+        "fid": "0x88582fc2ee893ae1:0x5518dcb22c71e158",
+        "placeId": "ChIJ4TqJ7sIvWIgRWOFxLLLcGFU"
+      },
+      {
+        "position": 5,
+        "title": "Fulmer Orthodontics",
+        "address": "105 E Butler Rd suite d, Mauldin, SC 29662",
+        "latitude": 34.7798441,
+        "longitude": -82.3037042,
+        "rating": 4.8,
+        "ratingCount": 29,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.fulmerortho.com/",
+        "phoneNumber": "(864) 297-1367",
+        "openingHours": {
+          "Thursday": "8:15 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–5 PM",
+          "Tuesday": "8:15 AM–5 PM",
+          "Wednesday": "8:15 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFtNxHqC_3hZtovGmWjw7dKE750NP0MWPwZ78Uy2pr4CJHfgYp_8jIjVyBFA-nZAXIJJiqdf0SM_LLMs6DcO6HOHvArqv7qVnnakwi6ZOjg5bE52U5AdUYDglmtXeyVZuaaMBhLY9pguU",
+        "cid": "2649364441593312248",
+        "fid": "0x885825e2267f1f05:0x24c46eec35b873f8",
+        "placeId": "ChIJBR9_JuIlWIgR-HO4NexuxCQ"
+      },
+      {
+        "position": 6,
+        "title": "Palmetto Family Orthodontics - Greenville (Verdae)",
+        "address": "501 Verdae Blvd, Greenville, SC 29607",
+        "latitude": 34.823902499999996,
+        "longitude": -82.330339,
+        "rating": 4.9,
+        "ratingCount": 739,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://palmettofamilyortho.com/location/orthodontist-in-greenville-sc/?utm_source=google&utm_medium=organic&utm_campaign=verdae-gbp&utm_content=loc",
+        "phoneNumber": "(864) 335-0505",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://palmettofamilyortho.com/lp/free-consult/?utm_source=google&utm_medium=organic&utm_campaign=verdae-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH86Kkso7m1JkPAeyMrTNvpZQI-FEKyV3WKqemk6djoBOxmKVQSsRLgQoI-S_DaGkUHFSnVEcQYzLHTeDMehvZ5pOlYPzkwrH5DF--py07Xq-ObltixA_kDUqSdKWI0QdmgNBMS",
+        "cid": "17650500776837096538",
+        "fid": "0x88582ee1703020ad:0xf4f32cf0af21a45a",
+        "placeId": "ChIJrSAwcOEuWIgRWqQhr_As8_Q"
+      },
+      {
+        "position": 7,
+        "title": "Ashby Park Family Orthodontics - Greenville",
+        "address": "305 Ashby Park Ln, Greenville, SC 29607",
+        "latitude": 34.813418399999996,
+        "longitude": -82.27357839999999,
+        "rating": 4.7,
+        "ratingCount": 209,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://ashbyparkortho.com/locations/greenville/?utm_source=listings&utm_medium=organic&utm_campaign=gmb&y_source=1_MTAxMjc2MDYxNi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(864) 234-3425",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appt/d4c-dental-brands?lid=287307&y_source=1_MTAxMjc2MDYxNi03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGo71aWknTdm8qT3om4JpcusdvVtM7lfe8A5I8pcnYd1gNu6hjDWHZR2dOciY98plgoH-Bem7wF12IYVrGV1cSvcrxUWGUDCAMoADYqtMnUneQogUlMt6unxE6rhwsOmS0fDcu0",
+        "cid": "17113936649691562116",
+        "fid": "0x885828936de1531d:0xed80eab599678084",
+        "placeId": "ChIJHVPhbZMoWIgRhIBnmbXqgO0"
+      },
+      {
+        "position": 8,
+        "title": "Carolina Family Orthodontics of Five Forks",
+        "address": "100 Woodruff Pl Cir, Simpsonville, SC 29681",
+        "latitude": 34.8088532,
+        "longitude": -82.2359099,
+        "rating": 5,
+        "ratingCount": 143,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Doctor"
+        ],
+        "website": "https://www.carolinafamilyortho.com/five-forks-office-location",
+        "phoneNumber": "(864) 203-8540",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1EaFXH9VVtNlBK8QwkVRzEC2xhhU7qCaXJJc_vAVzrvSyT0SKouccKWd-r14wEnRltbkaIzfpGaFkWq9vGANcE4aHruUcaqepD0zb2VGvmA4ZOirqafB0u5Fzj-0VbWbVOrLY",
+        "cid": "15003791907316791232",
+        "fid": "0x88582811ab1b5db7:0xd0382d3f077f77c0",
+        "placeId": "ChIJt10bqxEoWIgRwHd_Bz8tONA"
+      },
+      {
+        "position": 9,
+        "title": "The Orthodontist | Braces in Greenville - Dr. Timothy E. Hughes, DMD",
+        "address": "312 Mills Ave, Greenville, SC 29605",
+        "latitude": 34.829449,
+        "longitude": -82.4094401,
+        "rating": 5,
+        "ratingCount": 509,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://bracesingreenville.com/",
+        "phoneNumber": "(864) 233-3829",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUpo1aPRzppqlS0NbflEeVadJfJ7MCtvK7HqQtJlB_CqqLI8wmB6i5wTEVGsWLjMl_-p4XUDQEj20_p2lWVoqG6S-CPivwFJmiwLeB6j4EzZCgXbqNfTxD8J99lJGzgKRXuMfG",
+        "cid": "2763393656086557088",
+        "fid": "0x8858303f4dea7385:0x26598be39d9b71a0",
+        "placeId": "ChIJhXPqTT8wWIgRoHGbneOLWSY"
+      },
+      {
+        "position": 10,
+        "title": "Palmetto Family Orthodontics - Greenville (East Faris)",
+        "address": "15 E Faris Rd, Greenville, SC 29605",
+        "latitude": 34.8257208,
+        "longitude": -82.39345879999999,
+        "rating": 5,
+        "ratingCount": 98,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://palmettofamilyortho.com/location/greenville-east-faris-rd/?utm_source=google&utm_medium=organic&utm_campaign=east-faris-gbp&utm_content=loc",
+        "phoneNumber": "(864) 335-0505",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://palmettofamilyortho.com/lp/free-consult/?utm_source=google&utm_medium=organic&utm_campaign=east-faris-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOkwchyhS6AZKVpgPbKaEIR7ufA2JYD-FeWZUsXggqB_s2ezXPOq1AaK_U2iFlFof5Orxzw_TnZ2W1_PPA5dAXt6CBCzPajbjrcbZ5cNHkaP6T_9XPwUWG2Xb5JyJY0KeR_Z1cIw",
+        "cid": "11251669556859732703",
+        "fid": "0x8858313e746f53ff:0x9c25f5d91ab382df",
+        "placeId": "ChIJ_1NvdD4xWIgR34KzGtn1JZw"
+      },
+      {
+        "position": 11,
+        "title": "Summers Orthodontics @S. Hwy 14",
+        "address": "3900 SC-14 C, Greenville, SC 29615",
+        "latitude": 34.8229027,
+        "longitude": -82.2568356,
+        "rating": 4.9,
+        "ratingCount": 77,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.summersortho.com/",
+        "phoneNumber": "(864) 244-7545",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHI5GH0d33cbN0HfnxK47mNis_uiwZCrMOY7zOeX03BZZ73FN9nhiNnJ-C7VNA9I9b51B9oXCVGjJq9_xgxvwOKETyv0G8QaQfX1_T6z9nuWUmdxssTC1Oj9OznX1Ndwo3CpoU",
+        "cid": "9290402392675977015",
+        "fid": "0x88582999b4203dd9:0x80ee23c0e3e40737",
+        "placeId": "ChIJ2T0gtJkpWIgRNwfk48Aj7oA"
+      },
+      {
+        "position": 12,
+        "title": "Novus Orthodontics",
+        "address": "105-A State Park Rd, Greenville, SC 29609",
+        "latitude": 34.8915581,
+        "longitude": -82.4051018,
+        "rating": 4.9,
+        "ratingCount": 159,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dental radiology",
+          "Dentist",
+          "Emergency dental service"
+        ],
+        "website": "https://www.myaffordablebraces.com/location/greenville/?utm_campaign=gmb",
+        "phoneNumber": "(864) 400-0273",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhQKoL7TeI7Axzry_kQ7fxc0gO9Bc4URky-CoNmLYvGwrFDIC1wgxe6zw4Hfd1ZovZgfRWJw9sa9K1uLGQlsKfVCAwltNY1MRUEfkBWNqyEXujDbL_qLyFmTxCL8Gd4o9Hfu8",
+        "cid": "17100508935963050171",
+        "fid": "0x8858331a846ada09:0xed5136465e7880bb",
+        "placeId": "ChIJCdpqhBozWIgRu4B4XkY2Ue0"
+      },
+      {
+        "position": 13,
+        "title": "Davis Orthodontics",
+        "address": "150 Sage Creek Way, Greer, SC 29650",
+        "latitude": 34.9031272,
+        "longitude": -82.2593941,
+        "rating": 4.9,
+        "ratingCount": 176,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://davisorthodontics.com/",
+        "phoneNumber": "(864) 392-3656",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://davisorthodontics.com/book-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOsOMdBDtBDLyufYd53ReXop8X-6-UV8x11MIJt6XvQ85P_wm1U5X0ZzP4GaHWbe7rljI723AJGQAXlhsr6aHv85xEMwuz5yOS29b7yXrMFgBHdSfW8fpkoXVKgRHb_8DdHuw",
+        "cid": "220653524531135893",
+        "fid": "0x88582bb5435b8399:0x30feb36241dc595",
+        "placeId": "ChIJmYNbQ7UrWIgRlcUdJDbrDwM"
+      },
+      {
+        "position": 14,
+        "title": "Katie Pizzo Orthodontics",
+        "address": "1251 Laurens Rd, Greenville, SC 29607",
+        "latitude": 34.846231599999996,
+        "longitude": -82.36713189999999,
+        "rating": 5,
+        "ratingCount": 107,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.katiepizzoortho.com/",
+        "phoneNumber": "(864) 412-4770",
+        "openingHours": {
+          "Thursday": "8:30 AM–4 PM",
+          "Friday": "8:30 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4 PM",
+          "Tuesday": "8:30 AM–4 PM",
+          "Wednesday": "8:30 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJbcAw5hYkaRoBtlATsuZmvnR5x94L6zYqfehcExtE9lCunFItZv3iasmTK2eiDQFz8Xx52sukwQozDSQLgLzTGj1jFZKXdL5lpuVPSDHITkeK0OEqAHpuSQzw6op_8fELox9EWuU91qSG",
+        "cid": "15052037275489709133",
+        "fid": "0x88582f8304522d57:0xd0e394272780ac4d",
+        "placeId": "ChIJVy1SBIMvWIgRTayAJyeU49A"
+      },
+      {
+        "position": 15,
+        "title": "Tollison Orthodontics",
+        "address": "20 Creekview Ct Ste A, Greenville, SC 29615",
+        "latitude": 34.8513606,
+        "longitude": -82.3180412,
+        "rating": 4.9,
+        "ratingCount": 310,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://tollisonorthodontics.com/",
+        "phoneNumber": "(864) 329-1971",
+        "openingHours": {
+          "Thursday": "7:45 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:45 AM–5 PM",
+          "Tuesday": "7:45 AM–5 PM",
+          "Wednesday": "7:45 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://drtomsortho.com/take-the-next-step/complimentary-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhcfUolpE-JdUDb-u5G3L3ku8wGsJSkufUjzovuuFVFq5I4Sv-y-nOM9LOUZzv5mdyHcgLi_DKOJm6NITiWI8k-iEGPWS_IY0ZrMVTLcW-5o_PFHeEIkSQR04jLqtzzYyV4kSKi9aR5LWe",
+        "cid": "1130662217203299482",
+        "fid": "0x88582edca9f57f79:0xfb0eb4bc95bb49a",
+        "placeId": "ChIJeX_1qdwuWIgRmrRbyUvrsA8"
+      },
+      {
+        "position": 16,
+        "title": "Davis Orthodontics",
+        "address": "200 S Pleasantburg Dr, Greenville, SC 29607",
+        "latitude": 34.8410297,
+        "longitude": -82.3644254,
+        "rating": 5,
+        "ratingCount": 18,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://davisorthodontics.com/",
+        "phoneNumber": "(864) 536-0012",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://davisorthodontics.com/book-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSAGGaGg_mjLVYmPki7Fy8_XtHh91qhxKmgxZkdPfaachU1dBLkBoZAnLNkPeQUKEQsIQjwMKzxMGIVCXRPZm7PMzB0VhRI2IoM9-RUYtko_968s0V3vie7YJ4Wtjch47SB_w",
+        "cid": "16674379824050300363",
+        "fid": "0x88582fd4441b6c8f:0xe7674c1af67565cb",
+        "placeId": "ChIJj2wbRNQvWIgRy2V19hpMZ-c"
+      },
+      {
+        "position": 17,
+        "title": "Powdersville Orthodontics",
+        "address": "136 Hood Rd, Greenville, SC 29611",
+        "latitude": 34.7965011,
+        "longitude": -82.4870529,
+        "rating": 5,
+        "ratingCount": 94,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.powdersvilleortho.com/",
+        "phoneNumber": "(864) 625-1277",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.powdersvilleortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFohXMz6bhu1ZxIeVnq4B-cFtf9X7pdN9Z_ZV-8IoAdaRNbYsW8oDuQlctUfCnZ79x-MoWYKCdpO7hswGCGPT4JFrZrgJRyaFeQazFnwLZiRZN2tzn45G8dkzGyLV55vNj-n00",
+        "cid": "12142307176784757814",
+        "fid": "0x885839e5519b84af:0xa882240b69ee8436",
+        "placeId": "ChIJr4SbUeU5WIgRNoTuaQskgqg"
+      },
+      {
+        "position": 18,
+        "title": "Palmetto Family Orthodontics - Greenville (Duncan Chapel)",
+        "address": "407-A Duncan Chapel Rd, Greenville, SC 29617",
+        "latitude": 34.9128914,
+        "longitude": -82.4300679,
+        "rating": 4.9,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://palmettofamilyortho.com/location/greenville-duncan-chapel-rd/?utm_source=google&utm_medium=organic&utm_campaign=duncan-chapel-gbp&utm_content=loc",
+        "phoneNumber": "(864) 335-0505",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://palmettofamilyortho.com/lp/free-consult/?utm_source=google&utm_medium=organic&utm_campaign=duncan-chapel-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwScfaKbxCdlyCSCDs-vgr94HTwyY0YaUfHPx0jLCnuyP8jEGDMis_WTuE9AsXDXLDLCzGFLXKG0_-aneATLEjbUok_a-GtGXM7yqHbsR21b85v7thCWSMfhb9FACP1pKaAy9R",
+        "cid": "12193659969924303660",
+        "fid": "0x8858338a8fdf2001:0xa93895234b3d0b2c",
+        "placeId": "ChIJASDfj4ozWIgRLAs9SyOVOKk"
+      },
+      {
+        "position": 19,
+        "title": "Carolina Family Orthodontics of Brushy Creek",
+        "address": "1405 Brushy Creek Rd, Taylors, SC 29687",
+        "latitude": 34.8933258,
+        "longitude": -82.2944564,
+        "rating": 5,
+        "ratingCount": 168,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://www.carolinafamilyortho.com/brushy-creek-office-location",
+        "phoneNumber": "(864) 284-9466",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiplHT2PEMKZz0mYGP3T_72IilLUCUVZaMHbwb7byxo18d3oiWJOazLEtuYkGFwssa_x87zxSGONz9lDvg13UcqAH6Pii2as9kxz3_uIPvdAdGWT7YHZoByoeVbxReZASNIOka",
+        "cid": "15479071093842615364",
+        "fid": "0x88582bfa774b2a91:0xd6d0b525f1819c44",
+        "placeId": "ChIJkSpLd_orWIgRRJyB8SW10NY"
+      },
+      {
+        "position": 20,
+        "title": "Davis Orthodontics",
+        "address": "6709 White Horse Rd, Greenville, SC 29611",
+        "latitude": 34.8702593,
+        "longitude": -82.4673924,
+        "rating": 5,
+        "ratingCount": 30,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://davisorthodontics.com/",
+        "phoneNumber": "(864) 990-0385",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://davisorthodontics.com/book-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_sN63MOHfEdIs_k4hiXs8W9Xh1WkMeETrKSZvCc68ANaNstiDr8lH3z8wfOblX4ILo6INjGSPQDxTHjdCvaRsB6yvynjNcfKK077HIY_x0YScgClaTuXIyk5rY2lycNZQrHEN",
+        "cid": "4512773799097539736",
+        "fid": "0x8858317324af7d03:0x3ea097dc4ee61c98",
+        "placeId": "ChIJA32vJHMxWIgRmBzmTtyXoD4"
+      }
+    ],
+    "credits": 3
+  }
+}

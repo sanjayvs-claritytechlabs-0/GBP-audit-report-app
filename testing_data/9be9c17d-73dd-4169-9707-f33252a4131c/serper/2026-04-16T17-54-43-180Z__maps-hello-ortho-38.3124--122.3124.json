@@ -1,0 +1,182 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.31239,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4zMTI0MTY=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@39.0976302,-98.8368442,4z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnFt4TI5gy7H_gvcM68LAslWoC9gLvmXN_O6OA5mjZvM7qsBRNon2AR8ZHLsnFtIJNH2nrzdoaKQcbq9P7cDWpiEWfZlHlDtlxngzj-HAz6WprbxzEA%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnF6uIVHakwLkQ8uwFqDpwTGrjfIU0xi0liCixAx7Cfx17HuD5wVzrZlNHSpUy-DFG0pOoIBahcjM6_ftitG2qddvpuCpKMQHos4lDr6kiOFHaEpMoo%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 2,
+        "title": "Philadelphia Orthodontics : Joshua Davis DMD, MS",
+        "address": "1420 Walnut St Suite 518, Philadelphia, PA 19102",
+        "latitude": 39.9493831,
+        "longitude": -75.1651258,
+        "rating": 5,
+        "ratingCount": 412,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.philadelphia-orthodontics.com/",
+        "phoneNumber": "(484) 603-6151",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXlSkeOP43SmYODyB62hJKExvDOSKBbvpkEyP70EEz2t0W_aq8m7l-Xa8HikfydvNeXqgjuxnYUMq8BnCWQXN4CB6mNvGF9tRHkfeanKWCxZ38HmjMFAgXIClzU7pCLAa2TcGn",
+        "cid": "7698153123600502483",
+        "fid": "0x89c6c62ff6296e1b:0x6ad5557ab6c58ed3",
+        "placeId": "ChIJG24p9i_GxokR047FtnpV1Wo"
+      },
+      {
+        "position": 3,
+        "title": "Greeley & Nista Orthodontics - Willmington",
+        "address": "1405 Silverside Rd, Wilmington, DE 19810",
+        "latitude": 39.7944768,
+        "longitude": -75.4903616,
+        "rating": 4.9,
+        "ratingCount": 353,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://firststatesmiles.com/contact-us/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=30",
+        "phoneNumber": "(302) 475-4102",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://firststatesmiles.com/lp/free-consult/?rwg_token=AFd1xnHT2MBVtILPZ1B5KQQfyyfW9OAx9VcWCeotxVxCMApgdkSyu89ph6ruRO1UQksWnTZzs9EvjRneyNUptCf0VWMZoDSOYw%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDIj8jrVyUSEDBygezKrU_JcTLELmCcAbIC30eqZ3z03hmZ5oioYC6TDYEG1Tkq1TPE7CCdOSkjpeFBkyUmRZZ3a0g5-SI6e3PhHWZJ9tuQRIMdF126wP0Su9_B0TQbWP_dBa5Is1-Zdc",
+        "cid": "1255333490097472516",
+        "fid": "0x89c6e37b6b2cb885:0x116bd7287fe94404",
+        "placeId": "ChIJhbgsa3vjxokRBETpfyjXaxE"
+      },
+      {
+        "position": 4,
+        "title": "Dr. \"K\" Orthodontics",
+        "address": "5924 Westfield Ave, Pennsauken, NJ 08110",
+        "latitude": 39.9619936,
+        "longitude": -75.0597165,
+        "rating": 5,
+        "ratingCount": 388,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.pennsaukenorthodontist.com/",
+        "phoneNumber": "(856) 663-4881",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6:30 PM",
+          "Tuesday": "10 AM–6:30 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://edgebooking.ortho2.com/search?catalog=23dbd0a2-16b3-46b1-98ab-63752ae62d7c&code=wgubvc"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTSpTkRhzvHSYqUYZzeevjbS8cQQ8tV2yH4ca3XYfyB4Xu1zEoWWEipZUBJth7oqb1oOlxBOL75unNVyvhU3MAu0emYXZ6XdYCq4U447AoZUDDmU-K8x-njBTcin1TzUbAX-VS-w",
+        "cid": "13012203196405829704",
+        "fid": "0x89c6ca20bfe36fa9:0xb494a1dd92f8d048",
+        "placeId": "ChIJqW_jvyDKxokRSND4kt2hlLQ"
+      },
+      {
+        "position": 5,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnERntfAoS4JRAgMXp_I_rXdRm1k1RUHFDgf2qRIG6G1qCxVqvF0wqO4MIwsnI6aDfNOerNwBwFBo6_qEZvd1HAVWS3vjpwLtsMq_ZcR2XEC_yeB5nA%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

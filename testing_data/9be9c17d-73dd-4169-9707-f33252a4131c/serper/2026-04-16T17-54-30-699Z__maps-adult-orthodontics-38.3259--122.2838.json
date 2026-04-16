@@ -1,0 +1,620 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.325865,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@42.977475,-71.4662847,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Moin Orthodontics",
+        "address": "765 S Main St #302, Manchester, NH 03102",
+        "latitude": 42.966708,
+        "longitude": -71.4823954,
+        "rating": 4.9,
+        "ratingCount": 134,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.drmoin.com/",
+        "phoneNumber": "(603) 669-4503",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://drmoin.com/request-an-appointment/"
+        ],
+        "cid": "7841240958917822410",
+        "fid": "0x89e2494c1414cbf5:0x6cd1af1b828a47ca",
+        "placeId": "ChIJ9csUFExJ4okRykeKghuv0Ww"
+      },
+      {
+        "position": 2,
+        "title": "London Family Orthodontics",
+        "address": "502 Riverway Pl, Bedford, NH 03110",
+        "latitude": 42.962652299999995,
+        "longitude": -71.4772447,
+        "rating": 5,
+        "ratingCount": 221,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://londonfamilyorthodontics.com/",
+        "phoneNumber": "(603) 622-2100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–2:30 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://londonfamilyorthodontics.com/request-an-appointment/"
+        ],
+        "cid": "11551616256060220726",
+        "fid": "0x89e2495282157f77:0xa04f95c82418e536",
+        "placeId": "ChIJd38VglJJ4okRNuUYJMiVT6A"
+      },
+      {
+        "position": 3,
+        "title": "My Clear Aligner Expert Manchester NH",
+        "address": "460 Elm St, Manchester, NH 03101",
+        "latitude": 42.9839193,
+        "longitude": -71.4646273,
+        "rating": 4.7,
+        "ratingCount": 12,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.myclearalignerexpert.com/",
+        "phoneNumber": "(508) 464-9183",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "cid": "7123744286932169020",
+        "fid": "0x89e24f8216d344e5:0x62dc9faf8d4f713c",
+        "placeId": "ChIJ5UTTFoJP4okRPHFPja-f3GI"
+      },
+      {
+        "position": 4,
+        "title": "Smilebliss Orthodontics",
+        "address": "1045B Hanover St, Manchester, NH 03104",
+        "latitude": 42.9869274,
+        "longitude": -71.4199981,
+        "rating": 4.8,
+        "ratingCount": 131,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smilebliss.com/bliss-locations/new-hampshire/manchester/",
+        "phoneNumber": "(603) 815-9200",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "cid": "11273158368971979777",
+        "fid": "0x89e24f0db7c66301:0x9c724dcf0f4bfc01",
+        "placeId": "ChIJAWPGtw1P4okRAfxLD89Ncpw"
+      },
+      {
+        "position": 5,
+        "title": "Dr Tom Orthodontics",
+        "address": "73 Pleasant St, Manchester, NH 03101",
+        "latitude": 42.988789,
+        "longitude": -71.4651852,
+        "rating": 4.7,
+        "ratingCount": 15,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://drtomorthodontics.com/",
+        "phoneNumber": "(603) 622-5841",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "cid": "8733819404997583863",
+        "fid": "0x89e24f27fafcbb63:0x7934c2799f4b63f7",
+        "placeId": "ChIJY7v8-idP4okR92NLn3nCNHk"
+      },
+      {
+        "position": 6,
+        "title": "Manchester Dentistry and Braces",
+        "address": "460 Elm St, Manchester, NH 03101",
+        "latitude": 42.983643799999996,
+        "longitude": -71.4640944,
+        "rating": 4.7,
+        "ratingCount": 374,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Dental radiology",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Orthodontist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.dentistryandbracesgroup.com/locations/our-new-hampshire-locations/manchester-dentistry-and-braces/",
+        "phoneNumber": "(603) 760-6000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.dentistryandbracesgroup.com/locations/our-new-hampshire-locations/manchester-dentistry-and-braces/"
+        ],
+        "cid": "8476429281537636429",
+        "fid": "0x89e24fabda2a42ed:0x75a2538581c5384d",
+        "placeId": "ChIJ7UIq2qtP4okRTTjFgYVTonU"
+      },
+      {
+        "position": 7,
+        "title": "Manchester Dentistry and Braces",
+        "address": "50 S Main St, Manchester, NH 03102",
+        "latitude": 42.9827179,
+        "longitude": -71.4736958,
+        "rating": 4.4,
+        "ratingCount": 260,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Dental radiology",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Orthodontist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.dentistryandbracesgroup.com/locations/our-new-hampshire-locations/manchester-dentistry-and-braces-2/",
+        "phoneNumber": "(603) 413-0025",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.dentistryandbracesgroup.com/"
+        ],
+        "cid": "748949985819728829",
+        "fid": "0x89e24ed3b269e46b:0xa64ce0b43519bbd",
+        "placeId": "ChIJa-RpstNO4okRvZtRQwvOZAo"
+      },
+      {
+        "position": 8,
+        "title": "Mehan and Johnson Orthodontics",
+        "address": "113 Mammoth Rd, Manchester, NH 03109",
+        "latitude": 42.977351899999995,
+        "longitude": -71.4290118,
+        "rating": 4.6,
+        "ratingCount": 19,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.nhorthodontics.com/",
+        "phoneNumber": "(603) 623-8003",
+        "cid": "7883951279969769573",
+        "fid": "0x89e24e59f2ef0fcf:0x6d696beb0d159865",
+        "placeId": "ChIJzw_v8llO4okRZZgVDetraW0"
+      },
+      {
+        "position": 9,
+        "title": "Goffstown Area Orthodontics",
+        "address": "17A Tatro Dr #103, Goffstown, NH 03045",
+        "latitude": 43.013611,
+        "longitude": -71.561253,
+        "rating": 4.2,
+        "ratingCount": 13,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.nhbraces.com/",
+        "phoneNumber": "(603) 497-4605",
+        "openingHours": {
+          "Thursday": "8 AM–4:45 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:45 PM",
+          "Tuesday": "8 AM–4:45 PM",
+          "Wednesday": "8 AM–4:45 PM"
+        },
+        "bookingLinks": [
+          "https://nhbraces.com/request-an-appointment/"
+        ],
+        "cid": "7849061543388519907",
+        "fid": "0x89e2482554f66d4b:0x6ced77e339da1de3",
+        "placeId": "ChIJS232VCVI4okR4x3aOeN37Ww"
+      },
+      {
+        "position": 10,
+        "title": "All Star Smiles Orthodontics",
+        "address": "166 S River Rd #210, Bedford, NH 03110",
+        "latitude": 42.9486911,
+        "longitude": -71.477486,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://allstarsmilesortho.com/",
+        "phoneNumber": "(603) 672-0844",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "12650213199096890685",
+        "fid": "0x89e24b55b5faa67f:0xaf8e95e18120c53d",
+        "placeId": "ChIJf6b6tVVL4okRPcUggeGVjq8"
+      },
+      {
+        "position": 11,
+        "title": "Apple Tree Orthodontics",
+        "address": "1F Commons Dr #36, Londonderry, NH 03053",
+        "latitude": 42.868567399999996,
+        "longitude": -71.35125479999999,
+        "rating": 5,
+        "ratingCount": 190,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.appletreeortho.com/",
+        "phoneNumber": "(603) 434-0190",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "cid": "10789360886867147514",
+        "fid": "0x89e252c58e4cb1ed:0x95bb828fe735bafa",
+        "placeId": "ChIJ7bFMjsVS4okR-ro154-Cu5U"
+      },
+      {
+        "position": 12,
+        "title": "Children & Family Dentistry & Braces of Manchester",
+        "address": "8 Vinton St, Manchester, NH 03103",
+        "latitude": 42.9692678,
+        "longitude": -71.452415,
+        "rating": 4.6,
+        "ratingCount": 1392,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Dental radiology",
+          "Emergency dental service",
+          "Orthodontist",
+          "Pediatric dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.dentistryandbraces.com/locations/new-hampshire/manchester-location/?utm_campaign=gmb",
+        "phoneNumber": "(603) 541-4744",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.dentistryandbraces.com/locations/new-hampshire/manchester-location/"
+        ],
+        "cid": "677917155659536473",
+        "fid": "0x89e24eea8d754437:0x968720fb23ad859",
+        "placeId": "ChIJN0R1jepO4okRWdg6sg9yaAk"
+      },
+      {
+        "position": 13,
+        "title": "Elliott Orthodontics: Merrimack Location",
+        "address": "27 Loop Rd, Merrimack, NH 03054",
+        "latitude": 42.8651444,
+        "longitude": -71.49312479999999,
+        "rating": 4.9,
+        "ratingCount": 138,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.elliottorthodontics.com/",
+        "phoneNumber": "(603) 424-1199",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://elliottorthodontics.com/request-an-appointment/"
+        ],
+        "cid": "4407218413929406109",
+        "fid": "0x89e3b4bc651e9e95:0x3d2995cc09d29e9d",
+        "placeId": "ChIJlZ4eZby044kRnZ7SCcyVKT0"
+      },
+      {
+        "position": 14,
+        "title": "Simply Orthodontics Derry",
+        "address": "8 Crystal Ave, Derry, NH 03038",
+        "latitude": 42.882963,
+        "longitude": -71.32493579999999,
+        "rating": 4.8,
+        "ratingCount": 283,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.simplyortho.com/derry.html",
+        "phoneNumber": "(603) 437-0331",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.simplyortho.com/request-an-appointment.html"
+        ],
+        "cid": "14707081831943949194",
+        "fid": "0x89e253a5fd6e616b:0xcc1a0d01339ecb8a",
+        "placeId": "ChIJa2Fu_aVT4okRisueMwENGsw"
+      },
+      {
+        "position": 15,
+        "title": "All Star Smiles Orthodontics",
+        "address": "5 Overlook Dr Suite #6, Amherst, NH 03031",
+        "latitude": 42.8214386,
+        "longitude": -71.6076336,
+        "rating": 4.9,
+        "ratingCount": 169,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.amherstorthodontics.com/",
+        "phoneNumber": "(603) 672-0844",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.amherstorthodontics.com/appointment-request"
+        ],
+        "cid": "10524462299392966712",
+        "fid": "0x89e3c98809c1395d:0x920e66b3474f0038",
+        "placeId": "ChIJXTnBCYjJ44kROABPR7NmDpI"
+      },
+      {
+        "position": 16,
+        "title": "Summit Orthodontics (formerly Orthodontic Associates of New England)",
+        "address": "1 Trafalgar Square STE 201, Nashua, NH 03063",
+        "latitude": 42.787164,
+        "longitude": -71.5067807,
+        "rating": 4.8,
+        "ratingCount": 103,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.metcalforthodontics.com/",
+        "phoneNumber": "(603) 882-2101",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "cid": "1200646627788391434",
+        "fid": "0x89e3b6eb6123982f:0x10a98dbf2619040a",
+        "placeId": "ChIJL5gjYeu244kRCgQZJr-NqRA"
+      },
+      {
+        "position": 17,
+        "title": "Manchester Family Dentistry",
+        "address": "155 Dow St STE 401, Manchester, NH 03101",
+        "latitude": 42.998076999999995,
+        "longitude": -71.4676044,
+        "rating": 4.9,
+        "ratingCount": 356,
+        "type": "Dentist",
+        "types": [
+          "Dentist",
+          "Cosmetic dentist",
+          "Dental implants provider",
+          "Orthodontist",
+          "Periodontist"
+        ],
+        "website": "https://www.manchesterfamilydentistrynh.com/",
+        "phoneNumber": "(603) 622-6073",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "1110692277320408169",
+        "fid": "0x89e24f20a4d47ef7:0xf69f8bdd473dc69",
+        "placeId": "ChIJ937UpCBP4okRadxz1L34aQ8"
+      },
+      {
+        "position": 18,
+        "title": "Bay Street Family Dental",
+        "address": "33 Bay St, Manchester, NH 03104",
+        "latitude": 43.0027754,
+        "longitude": -71.4631502,
+        "rating": 5,
+        "ratingCount": 112,
+        "type": "Dental clinic",
+        "types": [
+          "Dental clinic"
+        ],
+        "website": "http://www.baystreetfamilydental.com/",
+        "phoneNumber": "(603) 624-1342",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "4985003468177345546",
+        "fid": "0x89e24f398fd7863f:0x452e4a3e1ccd0c0a",
+        "placeId": "ChIJP4bXjzlP4okRCgzNHD5KLkU"
+      },
+      {
+        "position": 19,
+        "title": "Vermette Orthodontics",
+        "address": "2 Wall St, Concord, NH 03301",
+        "latitude": 43.202852,
+        "longitude": -71.53689899999999,
+        "rating": 4.9,
+        "ratingCount": 610,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.vermetteortho.com/",
+        "phoneNumber": "(603) 224-9119",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.vermetteortho.com/free-consult"
+        ],
+        "cid": "10004598742158671765",
+        "fid": "0x89e26a92098c0f59:0x8ad7798ca2afff95",
+        "placeId": "ChIJWQ-MCZJq4okRlf-voox514o"
+      },
+      {
+        "position": 20,
+        "title": "Chelian Orthodontics",
+        "address": "29 Riverside St, Nashua, NH 03062",
+        "latitude": 42.752098,
+        "longitude": -71.493916,
+        "rating": 4.9,
+        "ratingCount": 842,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://drchelian.com/",
+        "phoneNumber": "(603) 882-6100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://drchelian.com/request-free-consultation/",
+          "https://reviewtool.com/vc/i6rd3s9ENx2PAOq667"
+        ],
+        "cid": "4095576233040070913",
+        "fid": "0x89e3b7400ce20675:0x38d668e278e2c901",
+        "placeId": "ChIJdQbiDEC344kRAcnieOJo1jg"
+      }
+    ],
+    "credits": 3
+  }
+}

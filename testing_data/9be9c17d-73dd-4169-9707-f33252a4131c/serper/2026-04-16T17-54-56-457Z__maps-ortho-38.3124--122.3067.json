@@ -1,0 +1,600 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.31239,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICITMzguMzEyMzksLTEyMi4zMDY2OQ==",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@35.8500423,-77.7555149,11z",
+    "places": [
+      {
+        "position": 1,
+        "title": "UNC Orthopedics at Nash",
+        "address": "600 Nash Medical Arts Mall, Rocky Mount, NC 27804",
+        "latitude": 35.977973899999995,
+        "longitude": -77.8564147,
+        "rating": 4.5,
+        "ratingCount": 77,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.unchealth.org/care-services/locations/unc-orthopedics-at-nash-rocky-mount",
+        "phoneNumber": "(252) 962-4450",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFEKKkYlVvBPbNMVePqk-CsLIW4qNZNqVuplPVZ088NyJNyDAsMc9TwkW5JJzQGCqdHZJpMvNqoVInPC1i8VSusxWnIdOllFihr6Kmbf53Kuoia8Tu8vb5-eKXV2nR0HDevSxgARSUuXsch",
+        "cid": "813230524880904003",
+        "fid": "0x89ae80bd0924c7d3:0xb492cda8c07df43",
+        "placeId": "ChIJ08ckCb2ArokRQ98HjNosSQs"
+      },
+      {
+        "position": 2,
+        "title": "Carolina Regional Orthopaedics, PA",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.964414399999995,
+        "longitude": -77.8358422,
+        "rating": 4.8,
+        "ratingCount": 1082,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Occupational therapist",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://www.crortho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWiVT8C51-oS9IkFiBXqWM8Zr0w1RrH652r2qapRSV4d8jBi44vANd_YyOQv9kAIfPXSez_xdsxtmM4xf4JLyQsMrO1tFU5j5eusZ2DryHe9H3j_jG_JNrGtVQrjKHGZ2pUzI",
+        "cid": "1100871075575535969",
+        "fid": "0x89ae80ae014cfedd:0xf4714691b2e9961",
+        "placeId": "ChIJ3f5MAa6ArokRYZkuG2kURw8"
+      },
+      {
+        "position": 3,
+        "title": "MyOrthodontist Rocky Mount",
+        "address": "120 Clinton Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9644737,
+        "longitude": -77.8368606,
+        "rating": 4.8,
+        "ratingCount": 339,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.myorthodontistnc.com/",
+        "phoneNumber": "(252) 451-1010",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://forms.formlync.com/myorthodontist/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaV8OQy8cgAZXQndgU2YuGNeV9IgGf9cH8whtGr2JBpLNWZia4VcmKgsKAfe6qvB1sY_7EPOTSCwrpmonjSrfLjM_JrLNjor8LTKZFTeO99vwjJwcw_YoNYsN6ODsZt309NTU6",
+        "cid": "3949726611343272934",
+        "fid": "0x89ae819909ffe167:0x36d03f6d2d05ebe6",
+        "placeId": "ChIJZ-H_CZmBrokR5usFLW0_0DY"
+      },
+      {
+        "position": 4,
+        "title": "Carolina Regional Orthopaedics: Hardayal Singh, MD",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9644277,
+        "longitude": -77.83587949999999,
+        "rating": 5,
+        "ratingCount": 134,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.crortho.com/",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFc-IqLva5s0qgsn6x-3WrO3UDuyweKCQp1LtAsyVMBFoH__U7YY1JyQWOxnPhri-s0es1AyOPoQxmoJlBBe2T2qOo8qg8lZ2j41qzEfdOcxbe5ccVV9pifXHQVhlL1QT2GdlM",
+        "cid": "9070499291089957062",
+        "fid": "0x89ae8737acbbf4eb:0x7de0e30c34d970c6",
+        "placeId": "ChIJ6_S7rDeHrokRxnDZNAzj4H0"
+      },
+      {
+        "position": 5,
+        "title": "Carolina Regional Orthopaedics: Mark Perlmutter, MD",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9644518,
+        "longitude": -77.8358468,
+        "rating": 4.9,
+        "ratingCount": 296,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Surgeon"
+        ],
+        "website": "https://www.crortho.com/",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH50lPcosEeGAwa4Lh6_C-pJRjaL0PI-Vs8rhk7eglqRQjFEuAF9xzU6kFfDkrbHcVdQbrceSCZCjULEipvJb3JzK612HYxcqU_lH7ZY7EIQ7AGoxr6WCKsnmutRFqXsJFo-bkWAA",
+        "cid": "17651381763665609575",
+        "fid": "0x89ae87ec5f4932e3:0xf4f64e316a18c367",
+        "placeId": "ChIJ4zJJX-yHrokRZ8MYajFO9vQ"
+      },
+      {
+        "position": 6,
+        "title": "Carolina Regional Orthopaedics: Robert Martin, DO",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.964416899999996,
+        "longitude": -77.8358741,
+        "rating": 5,
+        "ratingCount": 72,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://crortho.com/",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "8 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoopCD5pOW8GOZpRj2yaPicLKNLnlWQjonunPT4QGQO8xemv9ZrOlUsmTSiDSMgjGaDO-9VRGYNLhnhn9VosSHZ7bpH7_uIpGBYl-MpZIU3RWOidWGWkEUn7owe25BGhTPgsbX",
+        "cid": "3181303620801931908",
+        "fid": "0x89ae8734d940c417:0x2c2642c9b0902a84",
+        "placeId": "ChIJF8RA2TSHrokRhCqQsMlCJiw"
+      },
+      {
+        "position": 7,
+        "title": "Carolina Regional Orthopaedics: Glenn E. MacNichol, MD",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9643996,
+        "longitude": -77.8358765,
+        "rating": 4.9,
+        "ratingCount": 339,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Pain management physician",
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.crortho.com/",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEE_0lxYHSJrea0GY1kDLbTiSdrtdG2yscIjbt6y9sm6Ck6_oPLa8FaWABMpZGh8HpbOBB0NCPqZr1jjwuVMeMaE0zg2E8e-_mgEztTSiQss0Xs27nTN29A5CADXxldjizXxZ3m4Q",
+        "cid": "73999578967045822",
+        "fid": "0x89ae8734d940c417:0x106e63999dbf6be",
+        "placeId": "ChIJF8RA2TSHrokRvvbbmTnmBgE"
+      },
+      {
+        "position": 8,
+        "title": "Miller Orthodontics",
+        "address": "113 Foy Dr, Rocky Mount, NC 27804",
+        "latitude": 35.9641857,
+        "longitude": -77.8390932,
+        "rating": 4.8,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.amillersmile.com/",
+        "phoneNumber": "(252) 443-6616",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGoHxj1S9wtUpb5TH6L3cXGtj1rAdTh5px9jaw9txUcOljwBxRnoX1YpsvXetAI0dG1gLcJ8w07bjTrVCvgHlUpJh1ShvBMeWmIP24pB3xKdSXX10YBzFH6ZVuxbLju9FHiCmovTw",
+        "cid": "17448584110383206997",
+        "fid": "0x89ae80cb0f7a1947:0xf225d2cd44ea9255",
+        "placeId": "ChIJRxl6D8uArokRVZLqRM3SJfI"
+      },
+      {
+        "position": 9,
+        "title": "CRO Orthopaedic Urgent Care",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9643966,
+        "longitude": -77.835888,
+        "type": "Urgent care center",
+        "types": [
+          "Urgent care center"
+        ],
+        "website": "https://www.crortho.com/orthopedic-urgent-care/",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IbofgVWJ5DpDxdBC06s9AQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=306.02908&pitch=0&thumbfov=100",
+        "cid": "12617841678472114833",
+        "fid": "0x89ae87f0611bdf57:0xaf1b94278572f291",
+        "placeId": "ChIJV98bYfCHrokRkfJyhSeUG68"
+      },
+      {
+        "position": 10,
+        "title": "North Carolina Orthotics & Prosthetics of Rocky Mount",
+        "address": "3721 Sunset Ave, Rocky Mount, NC 27804",
+        "latitude": 35.963473199999996,
+        "longitude": -77.8548692,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "http://www.ncopi.com/",
+        "phoneNumber": "(252) 535-0077",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHp2YqayzQ-NVt3Jas8Rwza4K2K_rDCGgSAf90T1ka3SiKeHLW9OapxuV_jEzSwvBOIKVjLqp2VKpaAhsTopy0OsC-0R87rgYumuNk7aZG3HVYV08xnqRl97DM7M-StMKRySIgn",
+        "cid": "4939676639516442951",
+        "fid": "0x89ae80c3e38b184d:0x448d41bb6bac4147",
+        "placeId": "ChIJTRiL48OArokRR0Gsa7tBjUQ"
+      },
+      {
+        "position": 11,
+        "title": "Rocky Mount Orthopaedics & Sports Medicine Cent",
+        "address": "220 N U.S. 301, Rocky Mount, NC 27804",
+        "latitude": 35.9455611,
+        "longitude": -77.79597509999999,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "phoneNumber": "(252) 937-4323",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=72iNje5X-JRAZuY-vcwXeQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=344.52304&pitch=0&thumbfov=100",
+        "cid": "9407729708852291389",
+        "fid": "0x89ae870168519bfb:0x828ef8536f07a73d",
+        "placeId": "ChIJ-5tRaAGHrokRPacHb1P4joI"
+      },
+      {
+        "position": 12,
+        "title": "ECU Health Orthopedics - Tarboro",
+        "address": "2906 N Main St, Tarboro, NC 27886",
+        "latitude": 35.9233885,
+        "longitude": -77.55791169999999,
+        "rating": 4.6,
+        "ratingCount": 100,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://locations.ecuhealth.org/Details/101",
+        "phoneNumber": "(252) 823-7212",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFE0tNnwO-bagfGwojc28zwsepskyb46xVSbPECstRZ0qTSRFydxRIYetP-cUtdnWTb7FH20VtKaYw8DIHMEJbPAlH4blIx7Uci1Wb2M-spiCpePbtwCdvL5TiQm9NC3U4Sk5tsgQ",
+        "cid": "2816251448953295749",
+        "fid": "0x89aef52c6b2ffc75:0x271555c58d0a5385",
+        "placeId": "ChIJdfwvayz1rokRhVMKjcVVFSc"
+      },
+      {
+        "position": 13,
+        "title": "Carolina Sports & Spine PA",
+        "address": "3101 Zebulon Rd, Rocky Mount, NC 27804",
+        "latitude": 35.9653115,
+        "longitude": -77.83668349999999,
+        "rating": 4.4,
+        "ratingCount": 7,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physiatrist"
+        ],
+        "website": "http://www.carolinasportsandspine.com/",
+        "phoneNumber": "(252) 442-4024",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7TTprUPtmrti1mdCTmYl7A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=164.99916&pitch=0&thumbfov=100",
+        "cid": "3288696698594679805",
+        "fid": "0x89ae8764d713316d:0x2da3cc391dbc5bfd",
+        "placeId": "ChIJbTET12SHrokR_Vu8HTnMoy0"
+      },
+      {
+        "position": 14,
+        "title": "Carolina Regional Orthopaedics: Bernard P. Kemker, MD",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9643911,
+        "longitude": -77.8358794,
+        "rating": 5,
+        "ratingCount": 9,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://crortho.com/",
+        "phoneNumber": "(252) 443-0400",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHu9f_AX2eRYQWFT6PN3ordO8f79LS1AeKhbhUX9la8Ha4GxcuERc6ZOzQTpcOC7NksVwI0nN-qsNQFZ9ldHhoNUgRWzF5hDAdEL5-gk0x30u5oFeW9tjhXQwl3m2RmtjoCm5tT",
+        "cid": "2660242980308089018",
+        "fid": "0x89ae872d26b5ea55:0x24eb14e5617d78ba",
+        "placeId": "ChIJVeq1Ji2HrokRunh9YeUU6yQ"
+      },
+      {
+        "position": 15,
+        "title": "Wilson Regional Orthopedics & Sports Medicine",
+        "address": "1700 Tarboro St SW Suite 103, Wilson, NC 27893",
+        "latitude": 35.7211983,
+        "longitude": -77.9431867,
+        "rating": 4.4,
+        "ratingCount": 58,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.wilsonphysicianservices.com/",
+        "phoneNumber": "(252) 399-5304",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHM-6fonxw50HZWYLGlFnvQQGUsghYbaziF6UXa11YZHPB0xh0cQe0oHbQK29W6myLrgBMdRJ9NkuMZlgvWcGA4zApsTVVqDf9cImfNRZjGYqvu2LC6QyG_92SD0kHXJsUrsWNzng",
+        "cid": "16689688588521756437",
+        "fid": "0x89ac20bdf4b52ba7:0xe79daf5872bad715",
+        "placeId": "ChIJpyu19L0grIkRFde6clivnec"
+      },
+      {
+        "position": 16,
+        "title": "Eddie Hasty, MD",
+        "address": "600 Nash Medical Arts Mall, Rocky Mount, NC 27804",
+        "latitude": 35.9779725,
+        "longitude": -77.8565709,
+        "rating": 4.4,
+        "ratingCount": 21,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://www.unchealth.org/care-services/doctors/h/eddie-hasty-md",
+        "phoneNumber": "(252) 962-4450",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.unchealth.org/care-services/doctors/h/eddie-hasty-md#availability"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrmMILNOFs2V1s28SLhTPk3Vlk0-QTBfium28SuMCPb7kZc0HWVl4ILFpYUEgwJ2_FvTS0x8VQx8Hi1f1PT9xxneiZLSHHSZHx446PSpDLhEsTrSRfUI4NIQAmMkpc-c6zeZ0",
+        "cid": "13301394890462673321",
+        "fid": "0x89ae815e8a4a85db:0xb8980c2dd73939a9",
+        "placeId": "ChIJ24VKil6BrokRqTk51y0MmLg"
+      },
+      {
+        "position": 17,
+        "title": "The Foot and Ankle Associates of NC",
+        "address": "740 Sutter's Creek Blvd, Rocky Mount, NC 27804",
+        "latitude": 35.972798,
+        "longitude": -77.8105709,
+        "rating": 4.3,
+        "ratingCount": 172,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Podiatrist"
+        ],
+        "website": "http://www.footandankleassoc.com/",
+        "phoneNumber": "(252) 451-4040",
+        "openingHours": {
+          "Thursday": "8:30 AM–7 PM",
+          "Friday": "8:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8:30 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEylBx0iCp_j--bnnt-Rin8kHAi7Oy2wdxupPaJAYrrGARMYjxy0gjjsaSv9cn1MvnI9OwywqZd3Kx53uWUt0dgQG_uuJcnIQH7Ndjrux0OFW4aXyGIJL9jRQ3CwAEvgn0UftHN8Avaz0Mt",
+        "cid": "12889143360801992347",
+        "fid": "0x89ae8769a4decd73:0xb2df6f98d7afee9b",
+        "placeId": "ChIJc83epGmHrokRm-6v15hv37I"
+      },
+      {
+        "position": 18,
+        "title": "Greig McAvoy, MD",
+        "address": "600 Nash Medical Arts Mall, Rocky Mount, NC 27804",
+        "latitude": 35.9788862,
+        "longitude": -77.8566376,
+        "rating": 3.1,
+        "ratingCount": 21,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://www.unchealth.org/care-services/doctors/m/greig-mcavoy-md",
+        "phoneNumber": "(252) 962-4450",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.unchealth.org/care-services/doctors/m/greig-mcavoy-md#availability"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF40e29MbUHn42kccqFc6McxfI9ZyyHA46huvbGNlUlmuMxch8iLwEIYSF5inH6ua6vjCfEV_iA_48Gyph4CdXQwdTRnvlC9DI8-E7WFOOzFYYfOEk-Lr_AK7lcYdilDaTrPOF_",
+        "cid": "15587751778327188952",
+        "fid": "0x89ae80bd0924c7d3:0xd852d1a7aa27d5d8",
+        "placeId": "ChIJ08ckCb2ArokR2NUnqqfRUtg"
+      },
+      {
+        "position": 19,
+        "title": "EmergeOrtho Wilson | Orthopedic Clinic",
+        "address": "1803 Forest Hills Rd W, Wilson, NC 27893",
+        "latitude": 35.7221295,
+        "longitude": -77.9531181,
+        "rating": 4.8,
+        "ratingCount": 862,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapist"
+        ],
+        "website": "https://emergeortho.com/locations/wilson/?region=triangle-region?utm_source=gbp",
+        "phoneNumber": "(252) 243-9629",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://emergeortho.com/orthopedic-surgeon-in-wilson/?utm_source=gbp"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAETfkIc032OLisQucP71TdfabT0AY5Ic6Qh0mzXn05_6_doNQmAaAmC5RUYw8ex11wailWStBaaK9iXK8bV8F6h7hUWKz04RAKmHgtMVZL-gVfdyYyyN2Rnd7h9QloJd8FjLf_C",
+        "cid": "10853254572204378179",
+        "fid": "0x8851302a376f1467:0x969e8187c9204843",
+        "placeId": "ChIJZxRvNyowUYgRQ0ggyYeBnpY"
+      },
+      {
+        "position": 20,
+        "title": "Vantreia Gross",
+        "address": "110 Patrick Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9643778,
+        "longitude": -77.83590629999999,
+        "rating": 3,
+        "ratingCount": 2,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "General practitioner",
+          "Physician assistant"
+        ],
+        "website": "https://www.crortho.com/about-us/orthopedic-specialists-nc/physican-assistant-vantreia-gross-pa-c/",
+        "phoneNumber": "(252) 443-0400",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IbofgVWJ5DpDxdBC06s9AQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=298.66785&pitch=0&thumbfov=100",
+        "cid": "8675070759282645332",
+        "fid": "0x89ae8734d85aaaab:0x78640ae4a06b9954",
+        "placeId": "ChIJq6pa2DSHrokRVJlroOQKZHg"
+      }
+    ],
+    "credits": 3
+  }
+}

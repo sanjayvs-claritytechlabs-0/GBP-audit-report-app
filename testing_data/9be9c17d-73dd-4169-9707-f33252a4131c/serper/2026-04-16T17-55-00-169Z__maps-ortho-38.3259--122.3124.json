@@ -1,0 +1,645 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.325865,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMzEyNDE2",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@41.7094469,-88.3080773,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Fox Valley Orthopedics - Yorkville",
+        "address": "1500 Sycamore Rd Suite 1, Yorkville, IL 60560",
+        "latitude": 41.6601837,
+        "longitude": -88.4719504,
+        "rating": 4.9,
+        "ratingCount": 202,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://fvortho.com/",
+        "phoneNumber": "(630) 584-1400",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/fox-valley-orthopedics-99879?LocIdent=243155&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt___aQ4hvp8EC1ILVAwmqyZR-lo_SB_twurz9UKSM0PUp1SLSB-entity&rwg_token=AFd1xnGc-a8rY2QJtkOA-MokC_ASHEEucfLdfhdD8lGHHt7Z5MZC_nVWhS6SaFMVXHorP5ugIHqXNZov8_vBkQBGMczynvh9bo090gOK8cvw_hChFP4b8zw%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQsixy1hgb_edn5U20TO1X6w_WmedpSzumlLPY07-qUbDnuxdy5mJUQZ0YnhfTSzZAXqIpUT-59Jx9HZ1G709EC9DteIJ3Lx7fl2P4m_V_WvPEPM-23aUVdf9g97mY-YiinpM",
+        "cid": "11664086923285975954",
+        "fid": "0x880eebd774312bc5:0xa1df2941fbbd5392",
+        "placeId": "ChIJxSsxdNfrDogRklO9-0Ep36E"
+      },
+      {
+        "position": 2,
+        "title": "Prairie View Orthodontics - Oswego",
+        "address": "4777 IL-71, Oswego, IL 60543",
+        "latitude": 41.6756321,
+        "longitude": -88.35534899999999,
+        "rating": 4.9,
+        "ratingCount": 258,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://prairieviewortho.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=OSIL",
+        "phoneNumber": "(630) 554-9447",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.prairieviewortho.com/NewPatient/Office/Oswego-IL-71?rwg_token=AFd1xnEzE3xTyHjN0XotwKHAuz43pO2gEpbSgNlfoPvjIfDnq64mz2MU6Lvbyf8iKx0Zj_ry-UMeaYc21vivcCbV9ixa78irkQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRgRPGSE0WAAVCMiBGVuKVv7JqH6-3C89JvoCnPiBkh2X1swf3nqfSUt67_bMCHW5508uniEmFsDoPGI2ViMKTy5tWJpkGjR02Zuo45ez4FrqXEjzn1F49Kov4eWYlpoqyoZFcKw",
+        "cid": "18315770350221878756",
+        "fid": "0x880eee7bcee53e8f:0xfe2eb017a89b65e4",
+        "placeId": "ChIJjz7lznvuDogR5GWbqBewLv4"
+      },
+      {
+        "position": 3,
+        "title": "Rush Orthopaedics & Sports Medicine - Aurora Ogden",
+        "address": "2111 Ogden Ave, Aurora, IL 60504",
+        "latitude": 41.7292704,
+        "longitude": -88.2649979,
+        "rating": 3.9,
+        "ratingCount": 179,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://www.rush.edu/locations/rush-orthopaedics-sports-medicine-aurora-ogden?utm_source=listing&utm_campaign=yext&y_source=1_MTAyNjA4Mjc1My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(630) 978-3800",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rush.edu/locations/rush-orthopaedics-sports-medicine-aurora-ogden?utm_source=listing&utm_medium=organic&utm_campaign=yext&y_source=1_MTAyNjA4Mjc1My03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGteuuUzvwvwbjHahPxE7Q6JaCHU9Y4Rs1ZfmnD96cjw558pFKfNHnHrZ0LeWZi3HfK__uXogFN0OGZmNqqs-zy2yLpfx7kLBCglWEvWvfI5PPImoURcktelB_CEo-Ezj6_2Oo",
+        "cid": "6089788870750125018",
+        "fid": "0x880ee5b1acf37271:0x548346b67e303bda",
+        "placeId": "ChIJcXLzrLHlDogR2jswfrZGg1Q"
+      },
+      {
+        "position": 4,
+        "title": "Thomas Orthodontics Oswego",
+        "address": "2844 US-34, Oswego, IL 60543",
+        "latitude": 41.697422499999995,
+        "longitude": -88.31870769999999,
+        "rating": 4.6,
+        "ratingCount": 22,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.oswegoortho.com/",
+        "phoneNumber": "(630) 554-5600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–5 PM",
+          "Sunday": "8 AM–5 PM",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbcsp3rz_xdYBeQM_6uClNU4ErAECiGl8Ueb5uSMIqHHqcJFATDHosG16loT4DB-tRMABReVQf3MLnaPEyyhXpgHIXaSMwx0aLWK-6GIst_oQ_vLNfUe3hng1J8Cu3DJFIxm2T",
+        "cid": "11916435622990016892",
+        "fid": "0x880ef1da1e9d18ad:0xa55faf102921717c",
+        "placeId": "ChIJrRidHtrxDogRfHEhKRCvX6U"
+      },
+      {
+        "position": 5,
+        "title": "Rush Orthopaedics & Sports Medicine - Yorkville",
+        "address": "1100 W Veterans Pkwy Ste 1, Yorkville, IL 60560",
+        "latitude": 41.6597511,
+        "longitude": -88.4686969,
+        "rating": 2.5,
+        "ratingCount": 17,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://www.rush.edu/locations/rush-orthopaedics-sports-medicine-yorkville?utm_source=listing&utm_campaign=yext&y_source=1_MTAyNjA4Mjc1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(630) 553-3000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rush.edu/locations/rush-orthopaedics-sports-medicine-yorkville?utm_source=listing&utm_medium=organic&utm_campaign=yext&y_source=1_MTAyNjA4Mjc1OS03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDgXsy1Aoov7zS9TlmHu8yphjlvafbSIQ9ShZ1ratszHvWKvJ-WAHrA-NbP-puR21Io0jIoWex0kX4uXPpjljJoGGsiIYu6OCi0JA6TbhOTHeYzZ__BXcO_YFu3tmE6SmKex_TiA",
+        "cid": "12583828602079777892",
+        "fid": "0x880eea304a19e7c7:0xaea2bd710d5d9464",
+        "placeId": "ChIJx-cZSjDqDogRZJRdDXG9oq4"
+      },
+      {
+        "position": 6,
+        "title": "IBJI Doctors’ Office - Naperville",
+        "address": "2940 Rollingridge Rd #102, Naperville, IL 60564",
+        "latitude": 41.6983828,
+        "longitude": -88.2066478,
+        "rating": 4.9,
+        "ratingCount": 340,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.ibji.com/locations/naperville-doctors-office/?scct=PN48b96ce03a33737f09ecab36ae680cfd&utm_source=gmb&utm_medium=yext",
+        "phoneNumber": "(630) 323-6116",
+        "openingHours": {
+          "Thursday": "7 AM–4:30 PM",
+          "Friday": "7 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4:30 PM",
+          "Tuesday": "7 AM–4:30 PM",
+          "Wednesday": "7 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://mychart.hoasc.com/portal/request-appointment1/default.aspx"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJf_Ey4F0VoU_cv8RhEuHGJqmzcfL0IfydzWgVtfis9Gn1AW3ifHBZW3GzML1pODpXqHjFzyk_g7Wl0t2D0Xe6zI0ZqkwSjjcPmjJl-lWR7SArSvzlWaZda0rEcJgAcZg-y7oIrXT4yNsb",
+        "cid": "7177824147143862017",
+        "fid": "0x880ef657dbf8489f:0x639cc10836bb2701",
+        "placeId": "ChIJn0j421f2DogRASe7NgjBnGM"
+      },
+      {
+        "position": 7,
+        "title": "Prairie View Orthodontics - Aurora",
+        "address": "70 S Constitution Dr Ste 102, Aurora, IL 60506",
+        "latitude": 41.7623252,
+        "longitude": -88.36870569999999,
+        "rating": 5,
+        "ratingCount": 366,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://prairieviewortho.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=seo&utm_content=AUIL",
+        "phoneNumber": "(630) 896-5400",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.prairieviewortho.com/NewPatient/Office/Aurora-SConstitution?rwg_token=AFd1xnEK2PJT1yIPus6PuIIl5pLDp77k5XRIq4Fl8ksRDwy3Izr92oCpd3dnga98TX5rYrqZvE48LGiPggxmYZqJ29X_NBtC7A%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGB7YZ2BJZKbDf4L-6x6GG6JErgeWWF9rHc3axn6dzGyhE9fA1tInUAemGoelTiTGgRNvmXL2z9KXc8QbR_9iHTpxofDFZXrxeMVQJWgiKIScvc7-HTu80ynm722Px1HUgf61a9uw",
+        "cid": "2975644185443263940",
+        "fid": "0x880ee59a2c2da3c3:0x294b9c9efb4d65c4",
+        "placeId": "ChIJw6MtLJrlDogRxGVN-56cSyk"
+      },
+      {
+        "position": 8,
+        "title": "Rush Orthopaedics & Sports Medicine - Aurora Highland",
+        "address": "1320 N Highland Ave suite b, Aurora, IL 60506",
+        "latitude": 41.7870224,
+        "longitude": -88.3297764,
+        "rating": 3.3,
+        "ratingCount": 16,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://www.rush.edu/locations/rush-orthopaedics-sports-medicine-aurora-highland?utm_source=listing&utm_campaign=yext&y_source=1_MTAyNjA4Mjc1NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(630) 892-4286",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rush.edu/locations/rush-orthopaedics-sports-medicine-aurora-highland?utm_source=listing&utm_medium=organic&utm_campaign=yext&y_source=1_MTAyNjA4Mjc1NC03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4vSmP-ZbR1D09KEIwWoq5Tz0AFFrK2cFdqtOWVN9SPk0pwFwwoZO6GsSKHyQ_hs7LI0ftTYonWmr1ZIStGgWOc_WEIGogtyrWoeHlsK7zl7upSjyYVSy0UjIYPd1H6NSy_a8",
+        "cid": "3399596898316147303",
+        "fid": "0x880ee52a53c9389b:0x2f2dcb5dffa75a67",
+        "placeId": "ChIJmzjJUyrlDogRZ1qn_13LLS8"
+      },
+      {
+        "position": 9,
+        "title": "Advocate Medical Group Orthopedics",
+        "address": "1221 N Highland Ave 1st Floor, Aurora, IL 60506",
+        "latitude": 41.7831441,
+        "longitude": -88.32753699999999,
+        "rating": 3,
+        "ratingCount": 4,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.advocatehealth.com/locations/advocate-medical-group-orthopedics-aurora-60506",
+        "phoneNumber": "(630) 264-8720",
+        "openingHours": {
+          "Thursday": "6 AM–8:30 PM",
+          "Friday": "6 AM–8:30 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "6 AM–8:30 PM",
+          "Tuesday": "6 AM–8:30 PM",
+          "Wednesday": "6 AM–8:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsKY8tt8A2AcYZDrOXqkwYNnXlVB1Rrm-c0gwgf_APB1jFfxKn8MncX49ip-UFN4ojmZ22EubT5sO1UHEwNzO9hZc9eUvQExEXkTsAfABcHPx-50htlkPI3TzngtQVNruksG1Z",
+        "cid": "15569234069532442114",
+        "fid": "0x880ee52c0aa8cbd7:0xd81107e59b63fe02",
+        "placeId": "ChIJ18uoCizlDogRAv5jm-UHEdg"
+      },
+      {
+        "position": 10,
+        "title": "Fox Valley Orthopedics Physical Therapy - Yorkville",
+        "address": "1500 Sycamore Rd Suite 1, Yorkville, IL 60560",
+        "latitude": 41.6601837,
+        "longitude": -88.4719504,
+        "rating": 5,
+        "ratingCount": 5,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic",
+          "Physical therapist"
+        ],
+        "website": "https://fvortho.com/",
+        "phoneNumber": "(833) 386-7868",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aZL6qz8Kuui_FikYtSebaQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=114.82137&pitch=0&thumbfov=100",
+        "cid": "15983867090206287560",
+        "fid": "0x880eeb5030f028fd:0xddd21a6eb0cd66c8",
+        "placeId": "ChIJ_SjwMFDrDogRyGbNsG4a0t0"
+      },
+      {
+        "position": 11,
+        "title": "OrthoFirst Orthopedic Urgent Care - Yorkville",
+        "address": "1500 Sycamore Rd Suite 1, Yorkville, IL 60560",
+        "latitude": 41.6601837,
+        "longitude": -88.4719504,
+        "type": "Urgent care center",
+        "types": [
+          "Urgent care center",
+          "Emergency care physician",
+          "Sports medicine clinic"
+        ],
+        "website": "https://fvortho.com/same-day-care",
+        "phoneNumber": "(630) 584-1400",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7HrWOWSIHP2HyT6hHVBH2GtwJDO2V-sTmXPr6YBb54djlyis8XfhWG0x31WeSwyUGIuhIjJE8xuUip11hu4ivaysy6eHWNda3ggvWJn2HcJy4rVaVVztmPtzEWlETzxiYXwOZ",
+        "cid": "15833384886236214955",
+        "fid": "0x880eeb8ac25ba3ef:0xdbbb7baa4825f6ab",
+        "placeId": "ChIJ76NbworrDogRq_YlSKp7u9s"
+      },
+      {
+        "position": 12,
+        "title": "Midwest Sports Medicine Institute",
+        "address": "24600 W 127th St building b suite 240, Plainfield, IL 60585",
+        "latitude": 41.652761399999996,
+        "longitude": -88.2196124,
+        "rating": 4.6,
+        "ratingCount": 39,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "http://gomidwestsports.com/",
+        "phoneNumber": "(815) 267-8825",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://gomidwestsports.com/book-online/",
+          "https://nextpatient.co/p/4452/providers?rwg_token=AFd1xnG1xreJ52aJXcQ0GWNSL4kavsv4ZaTROqXjsyKlh0Lxqfu6lms9lFQY6gw3xseaX7N9v7sHoF_mA-W1lNLEtQrtx5iYyQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8FJOkvOlPRS_Sf61i8IcDtrAaMso6wWSDPfkjL0Re6CtCjYZJEaQoIH8guXsHEYf5AB0_lp77XiTshzf_i67IIU6JGpZUcnaFz7VNmAiubwyFWD72YYGTgYKlA9awulysEbLZAw",
+        "cid": "2254903031017567152",
+        "fid": "0x880ef43bd23843ff:0x1f4b065c16c0f3b0",
+        "placeId": "ChIJ_0M40jv0DogRsPPAFlwGSx8"
+      },
+      {
+        "position": 13,
+        "title": "Oswego Orthodontics",
+        "address": "83 Templeton Dr, Oswego, IL 60543",
+        "latitude": 41.6732498,
+        "longitude": -88.3417983,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.facebook.com/oswegoorthodontics/",
+        "phoneNumber": "(630) 554-9500",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "9:30 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KuEYKFwdkDHVlzpqqJJdoQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=137.02135&pitch=0&thumbfov=100",
+        "cid": "5580023884619833153",
+        "fid": "0x880eee0b6fc9fac9:0x4d703a28a8f5df41",
+        "placeId": "ChIJyfrJbwvuDogRQd_1qCg6cE0"
+      },
+      {
+        "position": 14,
+        "title": "Aurora Orthodontics and Periodontics",
+        "address": "3535 E New York St #212, Aurora, IL 60504",
+        "latitude": 41.759822,
+        "longitude": -88.2292602,
+        "rating": 4.5,
+        "ratingCount": 65,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental implants periodontist",
+          "Periodontist"
+        ],
+        "website": "https://www.auroraorthoperio.com/?utm_source=google&utm_medium=google_business_profile&utm_campaign=website_click",
+        "phoneNumber": "(630) 560-6674",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "7 AM–3 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvu3fgcc7iZEPBXA2P8GqA6g-kUOz7Yef83ILX8ST0cK2-BTREbQBGIFgJT0ucUmYYnkIt-yAcavAdRjxFzAcv-x4tmCnnaDx0-ymhUF3IEOAmvjqUvKNtJNoDUzPanYrvKmKD",
+        "cid": "7801940735943561930",
+        "fid": "0x880ef9eed03f3af5:0x6c460fc34c90d2ca",
+        "placeId": "ChIJ9To_0O75DogRytKQTMMPRmw"
+      },
+      {
+        "position": 15,
+        "title": "Robert F. Matlock MD",
+        "address": "1500 Sycamore Rd Suite 1, Yorkville, IL 60560",
+        "latitude": 41.6601837,
+        "longitude": -88.4719504,
+        "rating": 5,
+        "ratingCount": 49,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://fvortho.com/",
+        "phoneNumber": "(630) 584-1400",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/doctor/robert-matlock-md-467585?LocIdent=243155&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr_XJGxDryFyUGBPNB53Xd6Qh-lo_SB_twurz9UKSM0PUp1SLSB-entity&rwg_token=AFd1xnHAafceRVFILqfYqF4RIsG92ZWv5tTdHtAS59YOas8_Z9NJcKHqJiH4PjmVNLzq4cGtUcLFBMMDH52w90PwwfMNNRAKr6e__dZoRK2znSmxRz278P4%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhlMSbsF0h2Hv1Vfa0TG5PoeO9a_IWhl2JO_2_WWV2RN6-pWM1_REUAFSdFltbaWbyrYGr5SMU8dLaUoZr3nRmLmiECaFlEzIrrFp_RPFQDTb4r_nfrHcfxIIihQhFnSBXp5cDsw",
+        "cid": "313536433206054436",
+        "fid": "0x880eebefeb2344c5:0x459e7b98d63ce24",
+        "placeId": "ChIJxUQj6-_rDogRJM5jjbnnWQQ"
+      },
+      {
+        "position": 16,
+        "title": "Pasha Orthodontics - Aurora",
+        "address": "452 N Eola Rd Suite C, Aurora, IL 60502",
+        "latitude": 41.7616297,
+        "longitude": -88.2440862,
+        "rating": 4.9,
+        "ratingCount": 332,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://www.pashaorthodontics.com/",
+        "phoneNumber": "(630) 820-1200",
+        "bookingLinks": [
+          "https://consultation.pashaorthodontics.com/newpatient/office/Aurora-NEola?rwg_token=AFd1xnH2wDSj-MhuJ3iyYwpD3DsNnY2j1aFq9gTYbMFN_0vggrc89wYOmQScKolZoFpdAp8YubdLxRGryAYP0hosnPI81TacWg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGurmslQHjQD0KUuX73soAMY0TWEufYvu-NiU6rWsVOhsudMtiRYB7iLjnbnUfHfb6Mi4YLxolRibIyyVi1weIDYVeAmNen3Aj5yoZblsz8fR6korFry_A-L4PCbyLfNdEttFJ72g",
+        "cid": "1122676352580176721",
+        "fid": "0x880ef9f67ce2499f:0xf948c31c945cb51",
+        "placeId": "ChIJn0nifPb5DogRUctFyTGMlA8"
+      },
+      {
+        "position": 17,
+        "title": "Midwest Orthopaedics at Rush — Naperville",
+        "address": "55 Shuman Blvd Suite 700, Naperville, IL 60563",
+        "latitude": 41.8051623,
+        "longitude": -88.1442043,
+        "rating": 4.9,
+        "ratingCount": 783,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.rushortho.com/?utm_source=GMBSocialClimb&utm_medium=MidwestOrthopaedicsatRush%E2%80%94Naperville",
+        "phoneNumber": "(708) 766-7345",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.rushortho.com/schedule-an-appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvx_aGVp2Qy4-J60KALxzkSAk9FfGUUz7rgAUmJ_DmPG9b29Y1X0uNwv88s3TPHRr4wv5XqnN1k_4oDkatIH2q0wy-bP03PMqCwxwfZvj42r2XXuVmQ9ir6L8_gaHcvReznaFz",
+        "cid": "18229999990466877969",
+        "fid": "0x880e5731e6e39fad:0xfcfdf86797271a11",
+        "placeId": "ChIJrZ_j5jFXDogRERonl2f4_fw"
+      },
+      {
+        "position": 18,
+        "title": "Thomas Orthodontics",
+        "address": "3124 S, 3124 Rte 59 #132, Naperville, IL 60564",
+        "latitude": 41.707146099999996,
+        "longitude": -88.20418889999999,
+        "rating": 4.9,
+        "ratingCount": 54,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://thomasorthodontics.com/",
+        "phoneNumber": "(630) 904-7600",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/thomas-orthodontics-63747?LocIdent=138970&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_2WsWGukcmkWBl8pC2Fc7ax-lo_o2FMVkjXoEae54NDkBtwwB-entity&rwg_token=AFd1xnHC-Iwr6VzQ7uEX8lX4s-qvf_aLG5WrnanPydGirRZipGFKpP7v3f61UU1dvkZA_PGxCkD9f_QWFsI8T_0kezjFDYtolA%3D%3D",
+          "https://thomasorthodontics.com/request-an-appointment-online/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDMVrW49aPTkWG2RtgoIL5bjZ8fYB-HlhUIoNyPbAatM21fh_GpVKSBVqny_GBOwJYrhppNncZnRDvhZFqAQ0bJ7bFZOaQCADgRNO-DE9zsCpzWSM26JrjZekVYxq89L8yNWjTww",
+        "cid": "5535307143408605035",
+        "fid": "0x880ef6617571bf57:0x4cd15c85058d576b",
+        "placeId": "ChIJV79xdWH2DogRa1eNBYVc0Uw"
+      },
+      {
+        "position": 19,
+        "title": "Moravec Orthodontics",
+        "address": "23842 W Main St, Plainfield, IL 60544",
+        "latitude": 41.6137315,
+        "longitude": -88.2010188,
+        "rating": 4.7,
+        "ratingCount": 207,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://moravecortho.com/",
+        "phoneNumber": "(815) 436-2959",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/moravec-orthodontics-63115?LocIdent=136321&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_vguZFaokN0iimX8ONJCkeB-lo_KTmTf3veikSvR_rxER1fFR-entity&rwg_token=AFd1xnEDizVsM62p18bixjSEhsWLwockKxMtKw2CVOXE0wdq1DdVArq8k-uOW_uEJo3Z3g2knVwoPIzn-wy1VtT4-mkUMC3zWg%3D%3D",
+          "https://www.zocdoc.com/dentist/steven-moravec-dds-ms-305557?LocIdent=136321&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pr__MpqcXqPL02ACpP8819_sR-lo_KTmTf3veikSvR_rxER1fFR-entity&rwg_token=AFd1xnE6LieM3WnElChe_Cl4NYJqHM2C-Q5eRqjvmks_XBCJg89NS1lfLFvVqXfL9aC1HhhuS6_ltOxEH52hJo7XrNzZaoarqA%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVmi2HI4UmoCrb03oxwKyMATflr9Y90XHpZZJnqbvU8UraQGafdqnhuO-JNca_iDhGCUf6eoAAU_bHQMJzB7nNbwNoHrXsTiujqCDIzjv4TK0fmZk7PekDbjewWEeYNTmGkXEH",
+        "cid": "17816367667037458167",
+        "fid": "0x880ef51b9606010b:0xf74073ff7d85cef7",
+        "placeId": "ChIJCwEGlhv1DogR986Fff9zQPc"
+      },
+      {
+        "position": 20,
+        "title": "Skarin Orthodontics",
+        "address": "803 N Bridge St, Yorkville, IL 60560",
+        "latitude": 41.652343099999996,
+        "longitude": -88.4451201,
+        "rating": 4.9,
+        "ratingCount": 27,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.skarinortho.com/",
+        "phoneNumber": "(630) 553-5227",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJwGLJyzE5efFpJpWW_uZ0iGKAVsU-SPwWkDPCmDrXzwxc7VLXRSufldd5bPpf1tIc-nVad7rEWvnXEPxQGxUCSHPV8kIuFj3f--7S-bLrGpZt6EuERMBFVBOyoUe48ycKV3Uf",
+        "cid": "9723254639595381053",
+        "fid": "0x880eea35dda25c65:0x86eff09425c0613d",
+        "placeId": "ChIJZVyi3TXqDogRPWHAJZTw74Y"
+      }
+    ],
+    "credits": 3
+  }
+}

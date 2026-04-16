@@ -7,6 +7,7 @@
 
 import axios from "axios";
 import type { GBPData, BusinessHours, DayHours } from "@/types";
+import { persistTestingJson } from "@/lib/testing-data";
 
 // ---------------------------------------------------------------------------
 // Places API Field Mask
@@ -108,7 +109,11 @@ function extractKeywords(name: string, description: string, categories: string[]
 /**
  * Fetch all GBP parameters from Google Places API (New).
  */
-export async function collectGBPData(placeId: string, _businessName?: string): Promise<GBPData> {
+export async function collectGBPData(
+  placeId: string,
+  _businessName?: string,
+  debug?: { uuid: string }
+): Promise<GBPData> {
   const apiKey = process.env.GOOGLE_PLACES_API_KEY ?? process.env.GOOGLE_MAPS_API_KEY ?? "";
 
   if (!apiKey) {
@@ -130,6 +135,14 @@ export async function collectGBPData(placeId: string, _businessName?: string): P
     );
 
     const place = response.data;
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+      category: "google-places",
+      name: "place-details-raw",
+      data: { endpoint: "v1/places/{placeId}", placeId, fieldMask: GBP_FIELD_MASK, response: place },
+      });
+    }
 
     const name: string = place.displayName?.text ?? "";
     const primaryCategory: string = place.primaryTypeDisplayName?.text ?? place.primaryType ?? "";

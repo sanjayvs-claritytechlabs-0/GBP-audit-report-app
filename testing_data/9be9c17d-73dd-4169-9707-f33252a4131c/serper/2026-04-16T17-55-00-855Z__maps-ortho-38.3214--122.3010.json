@@ -1,0 +1,652 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.321373,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@43.1181749,-70.9153183,7z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Atlantic Orthopaedics & Sports Medicine",
+        "address": "1900 Lafayette Rd, Portsmouth, NH 03801",
+        "latitude": 43.040489699999995,
+        "longitude": -70.7754285,
+        "rating": 4.9,
+        "ratingCount": 2028,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.atlanticorthopaedics.org/?utm_source=google&utm_medium=organic&utm_campaign=gbp_portsmouth",
+        "phoneNumber": "(603) 431-1121",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.atlanticorthopaedics.org/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHp3qANtLuQQMx_xPnxnn_kNmiJXUSGu-lLWqQ0fs9sOENvIOoJNJ3A0J-QstyutWpr07TU7M6hjB5VG8qYuCBiFkMqBHBX7WAhn3B6gqIxMaWOXVP5WsdBEJd8pEKxRu5sZtBh",
+        "cid": "3872770721806378305",
+        "fid": "0x89e2bf74d20f20a9:0x35bed873e1cd6541",
+        "placeId": "ChIJqSAP0nS_4okRQWXN4XPYvjU"
+      },
+      {
+        "position": 2,
+        "title": "MaineHealth Orthopedics and Sports Medicine – Norway",
+        "address": "MaineHealth Ripley Health Center, 193 Main St, Norway, ME 04268",
+        "latitude": 44.2106328,
+        "longitude": -70.5319578,
+        "rating": 4.9,
+        "ratingCount": 77,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mainehealth.org/locations/mainehealth-orthopedics-and-sports-medicine-norway",
+        "phoneNumber": "(207) 393-3157",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmyy7Uvtx5qEBD_-jAE0IgXLs0OK-B_0jAgeIFvd60M9n3E4tSr2xGbFUseacmc5WJjU9NgNosvDeph8mbg4muIN_hedProl-SjMJs0YamBwUINeNobplqzxj0D_aCo_Suaq_9",
+        "cid": "1834672141785752908",
+        "fid": "0x4cb249fbb59f10bd:0x19761097aa71e54c",
+        "placeId": "ChIJvRCftftJskwRTOVxqpcQdhk"
+      },
+      {
+        "position": 3,
+        "title": "OrthoAccess Orthopaedic Walk-in Clinic",
+        "address": "33 Sewall St, Portland, ME 04102",
+        "latitude": 43.6562506,
+        "longitude": -70.2917263,
+        "rating": 4.8,
+        "ratingCount": 201,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Urgent care center",
+          "Walk-in clinic"
+        ],
+        "website": "https://www.orthoassociates.com/services/orthoaccess-walk-in-clinics?utm_source=GMBSocialClimb&utm_medium=OrthoAccessOrthopaedicWalk-inClinic",
+        "phoneNumber": "(207) 825-2829",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGi8a1CzuUy4CCdc7-5SDUL__Ti_CHXixxemERFc1WYI7Voc3gIuYRMucsH1T0B9Js2h9skLen5SSC2ORZ8Tf7BnW-hdez1a22e8q5OZHOBX1r2nKrCj0IFvC-i0bBTZ68tE4DWJQ",
+        "cid": "11176211878622994395",
+        "fid": "0x4cb29bf08b281101:0x9b19e17d4fd31fdb",
+        "placeId": "ChIJAREoi_CbskwR2x_TT33hGZs"
+      },
+      {
+        "position": 4,
+        "title": "Ortho Rhode Island - Warwick Campus",
+        "address": "300 Crossings Blvd, Warwick, RI 02886",
+        "latitude": 41.7123695,
+        "longitude": -71.468803,
+        "rating": 4.9,
+        "ratingCount": 3930,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Physical therapy clinic",
+          "Urgent care center"
+        ],
+        "website": "https://www.orthopedicsri.com/location-items/warwick-campus/?utm_source=GMBSocialClimb&utm_medium=OrthoRhodeIsland-WarwickCampus",
+        "phoneNumber": "(401) 777-7000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicsri.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWKA7JWRiOw59WNOczXVhUPoKalpaMh6eHXiOfDaOagZXUTKMQS7qAOhRcneyouabm9RFoT1qSWGtb7fikrpse638wJvY9k0hTqg3VJ267fSfls3Z0CJ9Q9NAmmU3Kq3r0SZ-psA",
+        "cid": "6666158440458617542",
+        "fid": "0x89e44d3ff7e259e5:0x5c82f3c8640202c6",
+        "placeId": "ChIJ5Vni9z9N5IkRxgICZMjzglw"
+      },
+      {
+        "position": 5,
+        "title": "Ortho Rhode Island - Middletown Office",
+        "address": "1 Corporate Pl, Middletown, RI 02842",
+        "latitude": 41.528863,
+        "longitude": -71.2961905,
+        "rating": 4.7,
+        "ratingCount": 70,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.orthopedicsri.com/location-items/middletown-office/?utm_source=GMBSocialClimb&utm_medium=OrthoRhodeIsland-MiddletownOffice",
+        "phoneNumber": "(401) 777-7000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2IHfjSWIjpfYe2Ku6BcnrziWK2X66Z4LHh6-1kL34a-JLZdztznIl2NgRWK-7YGSv012ZCIufbGQpc3gD2O9fkp1CpylkmcrfiEOi8ZQZ1irEc60XxdBeBqR17BfQZpO3VJEl_Q",
+        "cid": "6341377100198890466",
+        "fid": "0x89e5afba64460d51:0x580118dfe426cbe2",
+        "placeId": "ChIJUQ1GZLqv5YkR4ssm5N8YAVg"
+      },
+      {
+        "position": 6,
+        "title": "Atlantic Orthopaedics & Sports Medicine",
+        "address": "16 Hospital Dr # 102A, York, ME 03909",
+        "latitude": 43.1428794,
+        "longitude": -70.6508178,
+        "rating": 4.9,
+        "ratingCount": 428,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.atlanticorthopaedics.org/?utm_source=google&utm_medium=organic&utm_campaign=gbp_york",
+        "phoneNumber": "(603) 431-1121",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.atlanticorthopaedics.org/request-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjKlMvnoLGwftiOJUlzAQaf23Y8F4mRmFV7HNeKS4Yl25RngAisyf7pQeGpXeJe1_feWFlsb0EnAEKuAk_eRBDvuIVAxWirV_kk6z3XvHiQAnKtpxDnHKbVkNMYQaWw8H3POE",
+        "cid": "4941248071134571869",
+        "fid": "0x89e2ba5c1c7a6f63:0x4492d6f0db0f6d5d",
+        "placeId": "ChIJY296HFy64okRXW0P2_DWkkQ"
+      },
+      {
+        "position": 7,
+        "title": "Orthopaedic Associates of Maine - Windham",
+        "address": "4A Commons Ave, Windham, ME 04062",
+        "latitude": 43.824196699999995,
+        "longitude": -70.4337609,
+        "rating": 4.8,
+        "ratingCount": 294,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthoassociates.com/ortho-associates-windham?utm_source=GMBSocialClimb&utm_medium=OrthopaedicAssociatesofMaine-Windham",
+        "phoneNumber": "(207) 656-1360",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFlPIdCXsVFNco5MGK1xC8un-y7HiNwG2c9NRY8UNJKcibC95fq64dAbRrDAazRlH85rMBrRDOtDT6dE3xx46EXuzEYWdx4R7sXKHZchUdeDktgumSgTvHRHQ3j_ZweNW4xG10wRg",
+        "cid": "7323600232035526012",
+        "fid": "0x4cb28b7f8176b66d:0x65a2a79be372257c",
+        "placeId": "ChIJbbZ2gX-LskwRfCVy45unomU"
+      },
+      {
+        "position": 8,
+        "title": "Ortho Rhode Island - Wakefield Office",
+        "address": "70 Kenyon Ave Suite 100, Wakefield, RI 02879",
+        "latitude": 41.43099,
+        "longitude": -71.4963889,
+        "rating": 4.9,
+        "ratingCount": 1560,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical diagnostic imaging center",
+          "Occupational medical physician",
+          "Occupational therapist",
+          "Physician assistant",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://www.orthopedicsri.com/location-items/main-office-2/?utm_source=GMBSocialClimb&utm_medium=OrthoRhodeIsland-WakefieldOffice",
+        "phoneNumber": "(401) 777-7000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicsri.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHE6PRzv3iIQ4WSsDfyj-g3cbjm-mQofaRfGMqnHgXFUH_vIHJAzUfs_zc4rPnbYMcE68n638Lqb3OR6NsmMccPUH5L0Cnd1fOJZP8tPD9YNuT5nbLLxtPjkKfR9qW8HSLzFK8L",
+        "cid": "2663800720060509743",
+        "fid": "0x89e5b937d1c98b55:0x24f7b8a437a2ee2f",
+        "placeId": "ChIJVYvJ0Te55YkRL-6iN6S49yQ"
+      },
+      {
+        "position": 9,
+        "title": "Orthopaedic Associates of Maine - Portland",
+        "address": "33 Sewall St Entrance A, Portland, ME 04102",
+        "latitude": 43.6562506,
+        "longitude": -70.2917263,
+        "rating": 4.6,
+        "ratingCount": 750,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthoassociates.com/ortho-associates-portland?utm_source=GMBSocialClimb&utm_medium=OrthopaedicAssociatesofMaine-Portland",
+        "phoneNumber": "(207) 614-2612",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2ygCG9rTP-Crvm9S0EHC8U9s8901e1j9FjJpS6GRXmlLX3CRXpbZos2pr29XFD7xXniarG35ai6zAVbukn6DzIse-EVpdSuZAXd9pt_FXGYYnI3B1yUp3VyhCfK1dHAPUr4_GFw",
+        "cid": "5822122980063145973",
+        "fid": "0x4cb29bf0f10238ad:0x50cc5600e14d6ff5",
+        "placeId": "ChIJrTgC8fCbskwR9W9N4QBWzFA"
+      },
+      {
+        "position": 10,
+        "title": "Mass General Brigham (Somersworth, NH, Orthopedics and Sports Medicine)",
+        "address": "7 Marsh Brook Dr, Somersworth, NH 03878",
+        "latitude": 43.248670499999996,
+        "longitude": -70.8990422,
+        "rating": 4.8,
+        "ratingCount": 1460,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.massgeneralbrigham.org/en/patient-care/services-and-specialties/locations/mass-general-brigham-somersworth-nh-orthopedics-and-sports-medicine",
+        "phoneNumber": "(603) 742-2007",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patientgateway.massgeneralbrigham.org/mychart-prd/Authentication/Login?"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhYmrnf5GV2S5Qy3M2YBaCnfYmGntyS2ERZni9VN2zU5SQiD-od2YsDLrh2fOXrvu6vdgLJd-U9iep9qfpVS8Io7MynfxpLe6qTfvqMgAatX26nsa9FkFe_2LaTJTRVCxXDz9N",
+        "cid": "18058266785626148309",
+        "fid": "0x89e2998cbc2d034f:0xfa9bd9f6f87b4dd5",
+        "placeId": "ChIJTwMtvIyZ4okR1U17-PbZm_o"
+      },
+      {
+        "position": 11,
+        "title": "Ortho Rhode Island - Providence Office",
+        "address": "285 Promenade St, Providence, RI 02908",
+        "latitude": 41.8299586,
+        "longitude": -71.4210794,
+        "rating": 4.7,
+        "ratingCount": 1389,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical diagnostic imaging center",
+          "Occupational medical physician",
+          "Occupational therapist",
+          "Orthopedic clinic",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Urgent care center"
+        ],
+        "website": "https://www.orthopedicsri.com/location-items/providence-office/?utm_source=GMBSocialClimb&utm_medium=OrthoRhodeIsland-ProvidenceOffice",
+        "phoneNumber": "(401) 777-7000",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicsri.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNc9rQa5TcQgBe_g2OmX9nBf6HC7TdqFIsvkp-h2nqPOFaN3pYTRabCE6vfliZZfNHhTXsYMF4SWCD4xS92C6TAN7n0-w1TkwhI5QxCFbGkFN4CrnoQ_uJIABcRKKLU7RqoZ4CA",
+        "cid": "8383613180697064597",
+        "fid": "0x89e4450f060d9bdb:0x745893c501bb3495",
+        "placeId": "ChIJ25sNBg9F5IkRlTS7AcWTWHQ"
+      },
+      {
+        "position": 12,
+        "title": "Northern Light Orthopedics",
+        "address": "925 Union St Entrance A, Suite 3, Bangor, ME 04401",
+        "latitude": 44.8146197,
+        "longitude": -68.80214099999999,
+        "rating": 2.2,
+        "ratingCount": 20,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgical center"
+        ],
+        "website": "https://northernlighthealth.org/Our-System/Eastern-Maine-Medical-Center/Locations/Orthopedics",
+        "phoneNumber": "(207) 973-9980",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEU2p5IQ9SbGxRp_ULsIhFcB7dZ8HkJ3EqweK46TeNjIcAgb8xFlPk7t9a0za6IK2jRkQMNJgfLP39lsoJ8t_p0DyyoX-2XxtgHZTvK5gqUKSphPy_mGIS_1-trtiWZPmtx4dRXew",
+        "cid": "11750949199756355984",
+        "fid": "0x4cae4ad3ea04a89b:0xa313c209b9236990",
+        "placeId": "ChIJm6gE6tNKrkwRkGkjuQnCE6M"
+      },
+      {
+        "position": 13,
+        "title": "Northern Light Orthopedics",
+        "address": "50 Union St # 2100, Ellsworth, ME 04605",
+        "latitude": 44.5468708,
+        "longitude": -68.4162647,
+        "rating": 5,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://northernlighthealth.org/Our-System/Maine-Coast-Hospital/Locations/Orthopedics",
+        "phoneNumber": "(207) 664-5770",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGG7wGbn400gLE9Zl62lXMql1DZemadsSEz3ekbRTjbtq0GPZwUrMu7zwLEVyGWODunI2IKmgW4AVbz8F2sghEUzgVV6PMQzHecgV2y99Lc8X73AFNrPeJx6JEjgqTmg8VJIxBJYK4T5OoN",
+        "cid": "9701236541504150420",
+        "fid": "0x4caef1b389c39fbd:0x86a1b73c3264db94",
+        "placeId": "ChIJvZ_DibPxrkwRlNtkMjy3oYY"
+      },
+      {
+        "position": 14,
+        "title": "Ortho RI Express",
+        "address": "First Floor, 300 Crossings Blvd #1A, Warwick, RI 02886",
+        "latitude": 41.7123695,
+        "longitude": -71.468803,
+        "rating": 4.5,
+        "ratingCount": 233,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Urgent care center"
+        ],
+        "website": "https://www.orthopedicsri.com/ortho-ri-express/?utm_source=GMBSocialClimb&utm_medium=OrthoRIExpress",
+        "phoneNumber": "(401) 777-7000",
+        "openingHours": {
+          "Thursday": "9 AM–8 PM",
+          "Friday": "9 AM–8 PM",
+          "Saturday": "12–5 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–8 PM",
+          "Tuesday": "9 AM–8 PM",
+          "Wednesday": "9 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYokHF6gL781Zp9hi31eE-xife-2IY4NrVgN-cq559FettcsunomKoamdn4LD7Z3ylx3rtLkvUKf9gBbTAbaD8a5kJPQ30OHOKN-gi4G0KhcWu-dPuTtFRPkMkYUgxUAoE6DRlNA7W3sxg",
+        "cid": "7086756058277928260",
+        "fid": "0x89e44ddd52ea8c7b:0x625937167780dd44",
+        "placeId": "ChIJe4zqUt1N5IkRRN2AdxY3WWI"
+      },
+      {
+        "position": 15,
+        "title": "OrthoConnecticut",
+        "address": "2 Riverview Dr, Danbury, CT 06810",
+        "latitude": 41.42173,
+        "longitude": -73.414372,
+        "rating": 4.6,
+        "ratingCount": 759,
+        "type": "Medical group",
+        "types": [
+          "Medical group",
+          "Medical Center",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://myorthoct.com/locations/danbury/?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness&utm_content=danburyoffice",
+        "phoneNumber": "(203) 797-1500",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "9 AM–3 PM",
+          "Sunday": "9 AM–3 PM",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://myorthoct.com/contact-us/request-appointment/?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqqIOda29su_RJAawPPzYhVbHUrwNH3CSsG6I6lEtqMNgWQHX5V5e0n-Vw3T-Zu0fO3APA0tGqzkz-8RwszOsK7BSzCO0AClsr6JJ7yb5BzK-6mtjvzh0x4xWLPTXWF-6kW34C",
+        "cid": "7842763858029155439",
+        "fid": "0x89e7ff14f982b8af:0x6cd7182d1719946f",
+        "placeId": "ChIJr7iC-RT_54kRb5QZFy0Y12w"
+      },
+      {
+        "position": 16,
+        "title": "Elliot Orthopaedics",
+        "address": "185 Queen City Ave, Manchester, NH 03101",
+        "latitude": 42.9742258,
+        "longitude": -71.4685195,
+        "rating": 4.8,
+        "ratingCount": 972,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.elliothospital.org/website/orthopaedics.php",
+        "phoneNumber": "(603) 625-1655",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFprPELKPVhZRAQmP_MtgSFHtYJzVs0ay4I0O9Wm7Yju3BsY8uVaK9eTqcI-JweUcBQ_dDd7ucQffmyvNlGXG23mw62Kfu1NhKcaeVYE_PtEIbdBErqoCcgRXPK5tnClRXnz5HU",
+        "cid": "6065651034035789742",
+        "fid": "0x89e24efe1a2589e5:0x542d857a6f2f1fae",
+        "placeId": "ChIJ5YklGv5O4okRrh8vb3qFLVQ"
+      },
+      {
+        "position": 17,
+        "title": "MaineHealth Orthopedics - Brighton Ave - Portland",
+        "address": "335 Brighton Ave # 200, Portland, ME 04102",
+        "latitude": 43.6662089,
+        "longitude": -70.29182039999999,
+        "rating": 4.5,
+        "ratingCount": 4,
+        "type": "Medical group",
+        "types": [
+          "Medical group",
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.mainehealth.org/Locations/MMP-Orthopedics/Portland-335-Brighton-AVE-STE-200-11527533",
+        "phoneNumber": "(207) 662-8600",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwngOPQf9zieibLFxMA30IVA5ZXgpw1jOEOhOAH5culVnizmpzlf-Bz-05dnjnd43Xc12UDJhco6DW4iinFsg_KWehj0NknnKPazYG5emS1jRu_aN09nCh5DLlaSF-pEF1aBoy",
+        "cid": "16157991232664461285",
+        "fid": "0x4cb29b93207e7e5d:0xe03cb76adad75fe5",
+        "placeId": "ChIJXX5-IJObskwR5V_X2mq3POA"
+      },
+      {
+        "position": 18,
+        "title": "MaineHealth Orthopedics and Sports Medicine - South Portland",
+        "address": "119 Gannett Dr, South Portland, ME 04106",
+        "latitude": 43.636530099999995,
+        "longitude": -70.3549472,
+        "rating": 3.9,
+        "ratingCount": 44,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.mainehealth.org/Locations/MMP-Orthopedics/South-Portland-119-Gannett-DR-11525188",
+        "phoneNumber": "(207) 773-0040",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPDiRrZnc8N5jdG0eW7A9te3icsSOdj8MizSAFLUFhMSrlGGyOCpT8wGFnl5DIlCSbPpLLZ1uq4fpr65MeZnBtlghY3bNZu1VPBJj0034bfSLwwjE6bEX9GoM_13rHJNbXneQtAg",
+        "cid": "14644725940258908003",
+        "fid": "0x4cb299a1982e08cd:0xcb3c84a6ce14a763",
+        "placeId": "ChIJzQgumKGZskwRY6cUzqaEPMs"
+      },
+      {
+        "position": 19,
+        "title": "Orthopedic Surgeons",
+        "address": "240 S Main St H, Wolfeboro, NH 03894",
+        "latitude": 43.5819626,
+        "longitude": -71.2006687,
+        "rating": 5,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.hugginshospital.org/locations/orthopedic-surgeons",
+        "phoneNumber": "(603) 569-2251",
+        "openingHours": {
+          "Thursday": "8 AM–5:30 PM",
+          "Friday": "8 AM–5:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5:30 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5:30 PM"
+        },
+        "cid": "1893841095670996798",
+        "fid": "0x4cb325ff46e02223:0x1a48467148819f3e",
+        "placeId": "ChIJIyLgRv8ls0wRPp-BSHFGSBo"
+      },
+      {
+        "position": 20,
+        "title": "Ortho Rhode Island - Wakefield Physical Therapy",
+        "address": "10 High St, Wakefield, RI 02879",
+        "latitude": 41.4372725,
+        "longitude": -71.50219059999999,
+        "rating": 4.9,
+        "ratingCount": 338,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic"
+        ],
+        "website": "https://www.orthopedicsri.com/location-items/wakefield-office-2/?utm_source=GMBSocialClimb&utm_medium=OrthoRhodeIsland-WakefieldPhysicalTherapy",
+        "phoneNumber": "(401) 777-7000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthopedicsri.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHj-WIAV0OdkHm53R_CVZRnSmPxOlIi9aoBSis5K5n_XksN-iCkzEXI4h1z0BJZNYqMh4GycAx3hQvV9Lgyl6KWGKDifySJLUY7V8RE4_gXkndY8C_ESSxZ4dq7CUIhD-3vTB51",
+        "cid": "9382391871993949449",
+        "fid": "0x89e5b937d1c98b55:0x8234f3b291b62d09",
+        "placeId": "ChIJVYvJ0Te55YkRCS22kbLzNII"
+      }
+    ],
+    "credits": 3
+  }
+}

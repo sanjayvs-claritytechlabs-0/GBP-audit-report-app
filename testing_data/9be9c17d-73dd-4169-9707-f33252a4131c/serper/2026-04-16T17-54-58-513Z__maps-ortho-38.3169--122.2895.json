@@ -1,0 +1,630 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@30.0778711,-90.9023331,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Chad L. Loup, M.D. (BROC Baton Rouge Orthopaedic Clinic)",
+        "address": "1014 W St Clare Blvd, Gonzales, LA 70737",
+        "latitude": 30.209122899999997,
+        "longitude": -90.93123899999999,
+        "rating": 4.9,
+        "ratingCount": 307,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "http://brortho.com/?utm_source=GMBSocialClimb&utm_medium=ChadL.Loup,M.D.(BROCBatonRougeOrthopaedicClinic)",
+        "phoneNumber": "(225) 215-4417",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.brortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERjik5nqM3wJT_emHejD40kCrhPuks5GtccE_GVyvYAuVvXP9BlFtET82teGNhU5cVv2eHwq4DcPOtZISnbyUc4PXS5hama6obuVcM8tFKw5QBJ5TfgsvuRALyxl95rYu-Pn413A",
+        "cid": "9785712006349236505",
+        "fid": "0x8626b5a4f481f285:0x87cdd5390cb8a919",
+        "placeId": "ChIJhfKB9KS1JoYRGam4DDnVzYc"
+      },
+      {
+        "position": 2,
+        "title": "BROC - Gonzales",
+        "address": "1014 W St Clare Blvd, Gonzales, LA 70737",
+        "latitude": 30.209020799999998,
+        "longitude": -90.9312523,
+        "rating": 4.9,
+        "ratingCount": 108,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Occupational therapist",
+          "Orthopedic clinic",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.brortho.com/locations/?utm_source=GMBSocialClimb&utm_medium=BROC-BatonRougeOrthopaedicClinic(Gonzales)",
+        "phoneNumber": "(225) 215-4417",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.brortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfNk0wZsjNgLpJNvLQCL6k05MKHPbbnCAwCDcH4_3MZqumPvlJtXcc3y2xZhF_OOwSBGkfB2C4doUQZefthJnjWuHDlTXcak4NbsgH1uN9Fr4GHPdj-KRlqrKgWrYMTpqSwD7UXMpHqtyq",
+        "cid": "16131267939723866359",
+        "fid": "0x8626b5a506d74bcf:0xdfddc6b95be370f7",
+        "placeId": "ChIJz0vXBqW1JoYR93DjW7nG3d8"
+      },
+      {
+        "position": 3,
+        "title": "Orthopaedic & Sports Clinic",
+        "address": "1014 W St Clare Blvd, Gonzales, LA 70737",
+        "latitude": 30.209122899999997,
+        "longitude": -90.93123899999999,
+        "rating": 4.7,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.orthopaedicandsportsclinic.com/",
+        "phoneNumber": "(225) 743-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUC-C75ZO3tM-UnR_JWoCA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=339.43832&pitch=0&thumbfov=100",
+        "cid": "4277734793659516649",
+        "fid": "0x8626b5a57734844d:0x3b5d9121636786e9",
+        "placeId": "ChIJTYQ0d6W1JoYR6YZnYyGRXTs"
+      },
+      {
+        "position": 4,
+        "title": "Parker Orthodontics",
+        "address": "200 Railroad Ave, Donaldsonville, LA 70346",
+        "latitude": 30.1051781,
+        "longitude": -90.98805589999999,
+        "rating": 5,
+        "ratingCount": 31,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://parkerorthola.com/",
+        "phoneNumber": "(225) 923-2060",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://parkerorthola.com/orthodontist-baton-rouge/request-a-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1pPd_3GT9wcMItWAMzkrBpBXLwrHaAKZBKeF7OLaKLWvbwvxIkxQwGLK95U1SZQQ8p3iPIGse6VmC8MLZ27vWRGweKbsCzGckVxXtOzGVIZRlQ64fXdnYIUBqq60Dfy_T0XE",
+        "cid": "9544534942006873332",
+        "fid": "0x86214c7c390c550d:0x8474fff5ec9f8cf4",
+        "placeId": "ChIJDVUMOXxMIYYR9Iyf7PX_dIQ"
+      },
+      {
+        "position": 5,
+        "title": "BROC - Baton Rouge Orthopaedic Clinic & After Hours (Bluebonnet)",
+        "address": "8080 Bluebonnet Blvd # 1000, Baton Rouge, LA 70810",
+        "latitude": 30.376583,
+        "longitude": -91.10088999999999,
+        "rating": 4.8,
+        "ratingCount": 1953,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Occupational therapist",
+          "Orthotics & prosthetics service",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "http://www.brortho.com/?utm_source=GMBSocialClimb&utm_medium=BROC-BatonRougeOrthopaedicClinic&AfterHours(Bluebonnet)#home",
+        "phoneNumber": "(225) 924-2424",
+        "openingHours": {
+          "Thursday": "8 AM–10 PM",
+          "Friday": "8 AM–10 PM",
+          "Saturday": "10 AM–8 PM",
+          "Sunday": "12–6 PM",
+          "Monday": "8 AM–10 PM",
+          "Tuesday": "8 AM–10 PM",
+          "Wednesday": "8 AM–10 PM"
+        },
+        "bookingLinks": [
+          "http://www.brortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAETBrDMsXtmHukVAzmS3G9MSasyAWN3TiO7lUet2Kw0CpFoJ4oTdlaEbk_f0quD1rmurJ-jWPcEZtQCegJYNL6Pg5siE-I2KxqnuygPPRbVVPISvA3XfV1PNVt0cCHFfz7h554S_A",
+        "cid": "12174226415605386426",
+        "fid": "0x8626a5a8f99eb08d:0xa8f38a6c55560cba",
+        "placeId": "ChIJjbCe-ailJoYRugxWVWyK86g"
+      },
+      {
+        "position": 6,
+        "title": "Vance Misuraca Orthodontics",
+        "address": "16206 Airline Hwy, Prairieville, LA 70769",
+        "latitude": 30.302945599999997,
+        "longitude": -90.9710989,
+        "rating": 4.8,
+        "ratingCount": 223,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.misuracaorthodontics.com/",
+        "phoneNumber": "(225) 766-3300",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9sF4a4_6HPCEqHeTKT0LVqApAlbxNPCaaqSR7EUTBzk-RHLkx_RImg81B6pM0HEhKd9GwziDq4_KGzjPEof5QvwRHvzdeOq0wgPEFpNTek_N6ufeRBlDVTN49gksYwwVVhzGrBQ",
+        "cid": "9066196900319005193",
+        "fid": "0x8626b725b685b2e9:0x7dd19a0bcb430a09",
+        "placeId": "ChIJ6bKFtiW3JoYRCQpDywua0X0"
+      },
+      {
+        "position": 7,
+        "title": "OrthoLA Lutcher",
+        "address": "1645 Lutcher Ave Suite 1500, Lutcher, LA 70071",
+        "latitude": 30.051740499999998,
+        "longitude": -90.7037762,
+        "rating": 5,
+        "ratingCount": 49,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical clinic",
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.ortho-la.com/",
+        "phoneNumber": "(985) 625-2200",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "1–5 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGTRKBqjx-yURqO8N1eIxfjAMQF3ZUddH0gwEgnNSU3O_JVIlFnstzDU3xD772ZaIvG-M1gm5D_JattgGCdwP6Zf_Vepe9F24DrRegxNMqcnccWFRVsDQufPCfRpbml8X8twKv4yg",
+        "cid": "235305927620801450",
+        "fid": "0x86212f7647279fef:0x343f97e9561b3aa",
+        "placeId": "ChIJ758nR3YvIYYRqrNhlX75QwM"
+      },
+      {
+        "position": 8,
+        "title": "Matthew Fury, M.D.",
+        "address": "1014 W St Clare Blvd Suite 1000, Gonzales, LA 70737",
+        "latitude": 30.209122899999997,
+        "longitude": -90.93123899999999,
+        "rating": 4.9,
+        "ratingCount": 125,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.brortho.com/?utm_source=GMBSocialClimb&utm_medium=MatthewFury%2CM.D.",
+        "phoneNumber": "(225) 215-4417",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKYvTW5lFUNgUM7IQXdRr4jScAGSOHLnSw0Dwg2Ua7V_yiOY6V7uZgVbLDCxlAaeMgsO4MRzuQfgHn8BAReVspjM8W96b_AfPBwM62TlOffTEC9aDDt_vLDRpYbldkW3a2RH9f",
+        "cid": "7043168551490161277",
+        "fid": "0x8626b5398eadb9d3:0x61be5c7b34c60a7d",
+        "placeId": "ChIJ07mtjjm1JoYRfQrGNHtcvmE"
+      },
+      {
+        "position": 9,
+        "title": "Benjamin Robichaux, M.D.",
+        "address": "1014 W St Clare Blvd, Gonzales, LA 70737",
+        "latitude": 30.209122899999997,
+        "longitude": -90.93123899999999,
+        "rating": 5,
+        "ratingCount": 227,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon"
+        ],
+        "website": "http://www.brortho.com/benjamin-m-robichaux-md?utm_medium=BenjaminRobichaux%2CM.D.&utm_source=GMBSocialClimb",
+        "phoneNumber": "(225) 215-4417",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.brortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESBfVJx9AWvgzmim4VHut62y60QRosd_y18nLE5HjGsZHWbWmS4v8nCEpoG62TuoeU6d45BoDcJwO8O5tFVq11hdZNmTUlsZbeTRkNtov_egdvwt-VMMzIVutQv-n1yWXWNjVZ1g",
+        "cid": "5499844695203280444",
+        "fid": "0x8626b58da2cb523b:0x4c535f9c6168763c",
+        "placeId": "ChIJO1LLoo21JoYRPHZoYZxfU0w"
+      },
+      {
+        "position": 10,
+        "title": "Dr. Michael Frierson",
+        "address": "16158 Airline Hwy Ste 104, Prairieville, LA 70769",
+        "latitude": 30.301461,
+        "longitude": -90.9694846,
+        "rating": 4.9,
+        "ratingCount": 143,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Practitioner service location"
+        ],
+        "phoneNumber": "(225) 766-0050",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFA4MpdvopYVxbUo0FaeQxUgCNTa4Gr-V-9jPk5oPjKlFoO3veahlZmTxEue-J9Az5dr3Aku6YugX6dJCUJXrpRv8ql2hFDDI87lGoCYoV6TNrM7yzDPJlTJRrn9WOyNc9aXwcP",
+        "cid": "6968284357881854405",
+        "fid": "0x8626b72445e55555:0x60b451b4357579c5",
+        "placeId": "ChIJVVXlRSS3JoYRxXl1NbRRtGA"
+      },
+      {
+        "position": 11,
+        "title": "Parker Orthodontics",
+        "address": "14639 Airline Hwy #112, Gonzales, LA 70737",
+        "latitude": 30.2829396,
+        "longitude": -90.9558971,
+        "rating": 5,
+        "ratingCount": 117,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.parkerorthola.com/",
+        "phoneNumber": "(225) 923-2060",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:45 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://parkerorthola.com/orthodontist-baton-rouge/request-a-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFosQqjTeTovuFE_FZRma0Gj1-gIQ5gmQZCT7SaFLv0nlL_95_iGQ235RENfFFgyJWK3BrYyhdQhc70DWjkHy7PEjkhllz2TSlxBjivggD7GFElbFTVKeMXqFZUP8gJiZxygfsmow",
+        "cid": "14480300868328326036",
+        "fid": "0x8626b6e58259d111:0xc8f45ceb797d8394",
+        "placeId": "ChIJEdFZguW2JoYRlIN9eetc9Mg"
+      },
+      {
+        "position": 12,
+        "title": "Hollis Orthodontics",
+        "address": "37463 Dutton Rd #3586, Prairieville, LA 70769",
+        "latitude": 30.303005199999998,
+        "longitude": -90.97437029999999,
+        "rating": 5,
+        "ratingCount": 283,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.hollisorthodontics.com/",
+        "phoneNumber": "(225) 744-2722",
+        "openingHours": {
+          "Thursday": "8:30 AM–12:30 PM, 2–4 PM",
+          "Friday": "8:30 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–12:30 PM, 2–5 PM",
+          "Tuesday": "7:30 AM–12:30 PM, 2–5 PM",
+          "Wednesday": "7:30 AM–12:30 PM, 2–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcWXagDgxLTzuB836Ty1faCxglUmTBzymLc_z_WqU8Qak2zsEgHdQ-aYYz99u_bdOkND8ohF6_XI1Wd8Rab7geq1iksZp8sN6pDUoi2R21Aq-NFZv5Wa20AvKFS2pCLPHXst_1",
+        "cid": "4105687783238194136",
+        "fid": "0x8626b72fae6ff857:0x38fa55493692d3d8",
+        "placeId": "ChIJV_hvri-3JoYR2NOSNklV-jg"
+      },
+      {
+        "position": 13,
+        "title": "Warner Orthopedics & Wellness",
+        "address": "9373 Baringer Rd, Baton Rouge, LA 70817",
+        "latitude": 30.3653837,
+        "longitude": -91.0202916,
+        "rating": 5,
+        "ratingCount": 7,
+        "type": "Podiatrist",
+        "types": [
+          "Podiatrist"
+        ],
+        "website": "https://www.warnerorthopedics.com/dr-kyle-lindow-dpm-podiatrist",
+        "phoneNumber": "(225) 754-8888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqm8wQ_9PM93rBfIc45Bo7eZuLER9j3yu4W79IHAelKUXFU2r0qBzcHvgRq8h6CEnifYoXr9x_SJPyZxrYtHMVTS3zvXkyEFNZiX_TohNg60YpyXM599zMEJ741eE6P8EonkNbXw",
+        "cid": "7490988273447643050",
+        "fid": "0x8626bb775cc4bb41:0x67f556254f76a7aa",
+        "placeId": "ChIJQbvEXHe7JoYRqqd2TyVW9Wc"
+      },
+      {
+        "position": 14,
+        "title": "Petrie Scott G MD",
+        "address": "1014 W St Clare Blvd #200, Gonzales, LA 70737",
+        "latitude": 30.2090109,
+        "longitude": -90.931285,
+        "rating": 3.6,
+        "ratingCount": 35,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "http://orthopaedicandsportsclinic.com/",
+        "phoneNumber": "(225) 743-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUC-C75ZO3tM-UnR_JWoCA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=329.5836&pitch=0&thumbfov=100",
+        "cid": "14709876572080109005",
+        "fid": "0x8626b5a57958d405:0xcc23face58acf5cd",
+        "placeId": "ChIJBdRYeaW1JoYRzfWsWM76I8w"
+      },
+      {
+        "position": 15,
+        "title": "Sherman & Balhoff Orthodontics",
+        "address": "14154 LA-73, Prairieville, LA 70769",
+        "latitude": 30.275301799999998,
+        "longitude": -90.983071,
+        "rating": 5,
+        "ratingCount": 115,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://shermanbalhoff.com/location/prairieville/",
+        "phoneNumber": "(225) 769-1276",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:10 AM–4:30 PM",
+          "Wednesday": "7:10 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://shermanbalhoff.com/lp/complimentary-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKCE26G68E1u7cd8p0FWWcV7UhZmfPyn1HBjHpAkQJLkKhr2hxudmHuxll9vkdenMVPgV0j103EWbHgRlcDO_EMoQmM10MYbIdMWicCrfcy7NZ3Dh8RaQdo6c4POCaHc97N09XIg",
+        "cid": "12089960487481816733",
+        "fid": "0x8626b14ed4df5aeb:0xa7c82b020cdcb69d",
+        "placeId": "ChIJ61rf1E6xJoYRnbbcDAIryKc"
+      },
+      {
+        "position": 16,
+        "title": "The Spine Institute at Baton Rouge Orthopaedic Clinic",
+        "address": "8080 Bluebonnet Blvd #3200, Baton Rouge, LA 70810",
+        "latitude": 30.3766209,
+        "longitude": -91.1007171,
+        "rating": 4.8,
+        "ratingCount": 129,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.spineatbrortho.com/?utm_source=GMBSocialClimb&utm_medium=TheSpineInstituteatBatonRougeOrthopaedicClinic",
+        "phoneNumber": "(225) 924-2424",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5:30 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.brortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxhCjzCDIhD18_HqkoNr5kPWbJMhaEFSjVu31X6WG6Wg5yDLhsL-_5faD_vwFJZWxRU9GcQJ6O2x5d3oT3-61zbWjZJzPWVImmnFTvtpkrm1fh-EJhpHmlQlRDW9SE64pZF8bZUg",
+        "cid": "4330539985387307153",
+        "fid": "0x8626a5a921051fcf:0x3c192b2c2aa2c091",
+        "placeId": "ChIJzx8FIamlJoYRkcCiKiwrGTw"
+      },
+      {
+        "position": 17,
+        "title": "Warner Orthopedics & Wellness: Meredith Warner, MD",
+        "address": "9373 Baringer Rd Bldg 2, Baton Rouge, LA 70817",
+        "latitude": 30.3652801,
+        "longitude": -91.0203094,
+        "rating": 4,
+        "ratingCount": 50,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.warnerorthopedics.com/",
+        "phoneNumber": "(225) 754-8888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.warnerorthopedics.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXjsBvJR53YT4pSwFMIGWPlezrbGxoZYrbBa_KYoG7fqlfZ8l189Hms2i2icFEdLcftl8ga820JLGlnKbdQ2JuRKPNOjT0MUCcXqWYwHj_z_g7U1pvx_nwnoj4zkvkDKaZs-QfOg",
+        "cid": "2696887235213941000",
+        "fid": "0x8626ba7d1393aad9:0x256d44a6d6365908",
+        "placeId": "ChIJ2aqTE326JoYRCFk21qZEbSU"
+      },
+      {
+        "position": 18,
+        "title": "Sherman & Balhoff Orthodontics",
+        "address": "8311 Bluebonnet Blvd, Baton Rouge, LA 70810",
+        "latitude": 30.374959099999998,
+        "longitude": -91.0990568,
+        "rating": 4.9,
+        "ratingCount": 419,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://shermanbalhoff.com/location/baton-rouge/",
+        "phoneNumber": "(225) 769-1276",
+        "openingHours": {
+          "Thursday": "7:30 AM–3:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:10 AM–4:30 PM",
+          "Wednesday": "7:10 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://shermanbalhoff.com/lp/complimentary-consult/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI9pO8QgO7fMOR2dH69XUQTJQXor8F6rGk2SLG-0IFnTJ44qRtdEYeOEZ73MTH6S3nk_2r6FJ5w-LT2dUP-pxTYvgsgUFcR6_w-HiYfCYmhYbWSXWjRzwns35BohDvb-qgwtDigg",
+        "cid": "17966942478007347296",
+        "fid": "0x8626be5ba9ae10af:0xf95766fda5812860",
+        "placeId": "ChIJrxCuqVu-JoYRYCiBpf1mV_k"
+      },
+      {
+        "position": 19,
+        "title": "OrthoLA Thibodaux",
+        "address": "726 N Acadia Rd suite 1000, Thibodaux, LA 70301",
+        "latitude": 29.7791213,
+        "longitude": -90.8034362,
+        "rating": 4.9,
+        "ratingCount": 1138,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Medical group",
+          "Orthopedic clinic",
+          "Physical therapy clinic"
+        ],
+        "website": "http://www.ortho-la.com/",
+        "phoneNumber": "(985) 625-2200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHt5ISzyE5_agKAyvjGWDHcpu5lZ53XilE-leicnFbDU_cID699_-Lw4X7eqshIRdW4N_Bpq-1Ibkgx0BL9jYyEa8ELQBof7gmEdO1Z9mHlegjb_u1qNzrrkJX6nbtLGYi_agjomQ",
+        "cid": "3903901618553948217",
+        "fid": "0x86211623f429b5b9:0x362d71d69bfb0839",
+        "placeId": "ChIJubUp9CMWIYYROQj7m9ZxLTY"
+      },
+      {
+        "position": 20,
+        "title": "Roux Physical Therapy",
+        "address": "502 Railroad Ave, Donaldsonville, LA 70346",
+        "latitude": 30.102365,
+        "longitude": -90.98993469999999,
+        "rating": 5,
+        "ratingCount": 5,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic"
+        ],
+        "website": "http://www.rouxphysicaltherapy.com/",
+        "phoneNumber": "(225) 289-2040",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGV2ipQFWr4nZAHrez5CC55DUqM8bv7VtvykB6NfOQBK9zhdhQjZSzPzXHAamL2OqlYqDt2YlNMmaLeioNyIsUMbTCUHh3hc7j77l94XATyFwo3aXDoOnasRf3-I7L3x2Aso0MU",
+        "cid": "15899711596061405865",
+        "fid": "0x86214deaf05605c7:0xdca71f74d26632a9",
+        "placeId": "ChIJxwVW8OpNIYYRqTJm0nQfp9w"
+      }
+    ],
+    "credits": 3
+  }
+}

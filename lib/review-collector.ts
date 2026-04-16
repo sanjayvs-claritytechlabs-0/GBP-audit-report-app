@@ -10,6 +10,7 @@
 import axios from "axios";
 import { parseISO, subWeeks } from "date-fns";
 import type { ReviewData, Review } from "@/types";
+import { persistTestingJson } from "@/lib/testing-data";
 
 // ---------------------------------------------------------------------------
 // Sentiment Analysis (simple keyword-based)
@@ -128,7 +129,10 @@ function parseReview(raw: PlacesReview, index: number): Review {
  * Collect reviews for a business from Google Places API.
  * Computes velocity, response rate, and sentiment breakdown.
  */
-export async function collectReviews(placeId: string): Promise<ReviewData> {
+export async function collectReviews(
+  placeId: string,
+  debug?: { uuid: string }
+): Promise<ReviewData> {
   const apiKey = process.env.GOOGLE_PLACES_API_KEY ?? process.env.GOOGLE_MAPS_API_KEY ?? "";
 
   if (!apiKey) {
@@ -156,6 +160,20 @@ export async function collectReviews(placeId: string): Promise<ReviewData> {
     );
 
     const place = response.data;
+    if (debug?.uuid) {
+      await persistTestingJson({
+        uuid: debug.uuid,
+        category: "google-places",
+        name: "reviews-raw",
+        data: {
+          endpoint: "v1/places/{placeId}",
+          placeId,
+          fieldMask: "id,rating,userRatingCount,reviews",
+          params: { languageCode: "en" },
+          response: place,
+        },
+      });
+    }
     const rawReviews: PlacesReview[] = place.reviews ?? [];
     const reviews = rawReviews.map((r, i) => parseReview(r, i));
 

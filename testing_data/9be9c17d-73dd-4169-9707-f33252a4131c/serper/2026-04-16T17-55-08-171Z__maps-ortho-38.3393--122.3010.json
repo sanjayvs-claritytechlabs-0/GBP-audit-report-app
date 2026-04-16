@@ -1,0 +1,648 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.33934,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4zMDA5NjU=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@40.8184788,-74.8198087,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Orthopedic Institute of New Jersey",
+        "address": "254B Mountain Ave Suite 201, Hackettstown, NJ 07840",
+        "latitude": 40.8380851,
+        "longitude": -74.82549279999999,
+        "rating": 4.9,
+        "ratingCount": 94,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.orthopedicnj.com/",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmjoEnAnfm7kuAdDfjgAsb57rqfOv9TIt0eIFsmBhDwyYXLZTDd8T2sQNwdEfOnronp4H6ObE6_ONTsTN9AmSDgAqangMFS6KZj92gdRygxgJno8miu1BsutYpBxja6MaLGSZ33A",
+        "cid": "1910334305163655845",
+        "fid": "0x89c383791d3cf413:0x1a82deeddd85baa5",
+        "placeId": "ChIJE_Q8HXmDw4kRpbqF3e3egho"
+      },
+      {
+        "position": 2,
+        "title": "Orthopedic Institute of New Jersey - Hackettstown Urgent Care",
+        "address": "108 Bilby Rd Ste 201, Hackettstown, NJ 07840",
+        "latitude": 40.866423399999995,
+        "longitude": -74.8154953,
+        "rating": 4.8,
+        "ratingCount": 312,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.orthopedicnj.com/",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3Xn7tFfAsMuF2A8a_R_bSxiZJ4Pzr1vqzlWGSKSYCSyoj6sr5uWHpExC0ZP3OI3WCx3zKxBft3Gd5fEMeMnU-qMuRRmr3hLpajrJkoXNjP9ZRzzzZcYnKRbnhoyh6oaLVoNrG",
+        "cid": "7222967267987441928",
+        "fid": "0x89c3831cc8b3d721:0x643d227618aa4908",
+        "placeId": "ChIJIdezyByDw4kRCEmqGHYiPWQ"
+      },
+      {
+        "position": 3,
+        "title": "Skylands Orthopaedics",
+        "address": "57 US-46 #107, Hackettstown, NJ 07840",
+        "latitude": 40.8443171,
+        "longitude": -74.8135526,
+        "rating": 3.8,
+        "ratingCount": 68,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://redefinehealthcare.com/skylands-orthopaedics-landing-page/",
+        "phoneNumber": "(908) 813-9700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "cid": "10049140879306804717",
+        "fid": "0x89c3836dc37357f7:0x8b75b86318f04ded",
+        "placeId": "ChIJ91dzw22Dw4kR7U3wGGO4dYs"
+      },
+      {
+        "position": 4,
+        "title": "Dr. James Moran, DO: Orthopedic Institute of New Jersey",
+        "address": "108 Bilby Rd Ste 201, Hackettstown, NJ 07840",
+        "latitude": 40.8664888,
+        "longitude": -74.8155496,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Doctor",
+        "types": [
+          "Doctor",
+          "Sports medicine physician"
+        ],
+        "website": "https://orthopedicnj.com/physicians/james-p-moran",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVjwvg1A4q2usaZ3nKfQfLxd1j8cZWT8ZBXwdNrL1nMPaekIlOwTTSUZSlbb-FE8D-vqI051V-DXEWAZcAU40C-5oZktlFLdr1kAuIxspTARHYdANF3kbxz__b6gOdhfAJEOrBYQ",
+        "cid": "10605555285418155993",
+        "fid": "0x89c3839962211c25:0x932e8057691d9fd9",
+        "placeId": "ChIJJRwhYpmDw4kR2Z8daVeALpM"
+      },
+      {
+        "position": 5,
+        "title": "Orthopedic Institute of New Jersey",
+        "address": "376 Lafayette Rd #202, Sparta, NJ 07871",
+        "latitude": 41.0671111,
+        "longitude": -74.6533634,
+        "rating": 4.9,
+        "ratingCount": 512,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://orthopedicnj.com/",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYL4L7F2YTu4Rd7A55DBqRFK4GCTblMT3uS9yalw331a1nhGFQi0pnJkSaYbIvC5D-I8bHH9ejXmd3PrQwT7AI6l--KkQUnaWLoY5zTD3pUNusy2_Kz-4WxwWlxoWQpY1oi-72",
+        "cid": "12745278497506676381",
+        "fid": "0x89c36dbd4ab0987d:0xb0e053441f4f4e9d",
+        "placeId": "ChIJfZiwSr1tw4kRnU5PH0RT4LA"
+      },
+      {
+        "position": 6,
+        "title": "Orthopedic Institute of New Jersey",
+        "address": "711 NJ-10 Suite 100, Randolph, NJ 07869",
+        "latitude": 40.860239299999996,
+        "longitude": -74.5867399,
+        "rating": 4.7,
+        "ratingCount": 276,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Emergency care service",
+          "Hand surgeon",
+          "Medical Center",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Rheumatologist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthopedicnj.com/",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–8 PM",
+          "Friday": "8 AM–8 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "8 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0ZCGnfAsnTvCSSqI-4vigDNuFgrBL6B5fyC79nIAkTPuFlAPJHuJ9H8RJkH8leaHQFcXzsHt2CBONRYKVOvAYMNYNwNxVt5zg9LKybJUNtBoucLZTSOnaagS8xd2S_qeXtWYT",
+        "cid": "11333731811880343846",
+        "fid": "0x89c39e3679ea960d:0x9d498108c2ac1926",
+        "placeId": "ChIJDZbqeTaew4kRJhmswgiBSZ0"
+      },
+      {
+        "position": 7,
+        "title": "Dr. Christopher Castro: Orthopedic Institute of New Jersey",
+        "address": "254B Mountain Ave Suite 201, Hackettstown, NJ 07840",
+        "latitude": 40.8384352,
+        "longitude": -74.82426219999999,
+        "rating": 5,
+        "ratingCount": 79,
+        "type": "Sports medicine physician",
+        "types": [
+          "Sports medicine physician"
+        ],
+        "website": "https://orthopedicnj.com/physicians/christopher-castro",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFi1ZvKMywYh194bmcc3mJtzoYKwJQjTAyVcMXmhL-KyLx9RCXh8ypOPyd60h2E3AXpcgt4XxEA1YWeHJmgzGQRwsMrmQWQOWOmzE-UKdi5JNRee88fEPtbuDgCG5f0Jk6t214QXA",
+        "cid": "2686835196265869902",
+        "fid": "0x89c383ca6bb338f1:0x25498e602371b24e",
+        "placeId": "ChIJ8Tiza8qDw4kRTrJxI2COSSU"
+      },
+      {
+        "position": 8,
+        "title": "Dr. Alex Shin: Orthopedic Institute of New Jersey",
+        "address": "108 Bilby Rd Ste 201, Hackettstown, NJ 07840",
+        "latitude": 40.8664888,
+        "longitude": -74.8155496,
+        "rating": 4.9,
+        "ratingCount": 23,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicnj.com/physicians/alex-h-shin",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvha6FEjFrmgkds-DTuNvIM2t85qiAYtuc9TQXp1jhou4Mjl0liElym2E2MflV1v7NEDlQyuL26QpG2jwL1-kIVz1dap5reelcI_8lTzUWf3mFD9GoQ3bdbWMUz324dUviz-lGtQ",
+        "cid": "8030865081675601298",
+        "fid": "0x89c3834bea42c90d:0x6f735d3e105cd592",
+        "placeId": "ChIJDclC6kuDw4kRktVcED5dc28"
+      },
+      {
+        "position": 9,
+        "title": "Dr. Robert DeFalco: Orthopedic Institute of New Jersey",
+        "address": "108 Bilby Rd Ste 201, Hackettstown, NJ 07840",
+        "latitude": 40.8664888,
+        "longitude": -74.8155496,
+        "rating": 4.9,
+        "ratingCount": 49,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicnj.com/physicians/robert-defalco-jr",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1AGuY0ZKiT3OcjftTFDFQ8v4oTy2Z-T08gLUbrdLBVU8Gya5KYSy4kkC4EvO_shk9_4vz17WMzKISSWmQbTlRw6FvxGVvFS7u82F_sRsvO6eNAW10FIzwon_WVYnI0FWV6x3x",
+        "cid": "1607237259028476437",
+        "fid": "0x89c383e5c43e4699:0x164e0dc5862a3215",
+        "placeId": "ChIJmUY-xOWDw4kRFTIqhsUNThY"
+      },
+      {
+        "position": 10,
+        "title": "St. Luke's Orthopedic Care - Phillipsburg",
+        "address": "755 Memorial Pkwy Building 200, Suite 201, Phillipsburg, NJ 08865",
+        "latitude": 40.6990013,
+        "longitude": -75.1749725,
+        "rating": 3.6,
+        "ratingCount": 39,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://www.slhn.org/locations/stlukes-orthopedic-care-phillipsburg",
+        "phoneNumber": "(484) 526-1735",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-oYJmYocHIRjcOOc_yvmzC7IPeD1ppUbfnuhWtm6llC1HY28qr0HcrAaSESjznzhN-iXJUljs5Bd9Y9Ums7uR953j93ouESCgJg1wTvOBYxVb5rleeGw1cD48yG4n-7B3lY12rA",
+        "cid": "4962930275044637889",
+        "fid": "0x89c46d94e794ecad:0x44dfdeca59113cc1",
+        "placeId": "ChIJreyU55RtxIkRwTwRWcre30Q"
+      },
+      {
+        "position": 11,
+        "title": "Tri-County Orthopedics",
+        "address": "757 NJ-15, Lake Hopatcong, NJ 07849",
+        "latitude": 40.9611089,
+        "longitude": -74.5967022,
+        "rating": 4.8,
+        "ratingCount": 193,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical clinic",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.tri-countyortho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(973) 538-2334",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tri-countyortho.com/schedule-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-sparta"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwdk_loqES4tjIYolWC2D0x5ecqv8izvgixF1pnZ2ZrrcWNPn_1JI9zvMGQfF0DCbtH8yGBRDtM6CsBuzfgYapkNLZpn3IszjK56o79ybuYeqxAhzYOrX9CesfpISUGoefSeec",
+        "cid": "10385720710524651721",
+        "fid": "0x89c36dbd4ab6ffc9:0x90217df5d73d48c9",
+        "placeId": "ChIJyf-2Sr1tw4kRyUg91_V9IZA"
+      },
+      {
+        "position": 12,
+        "title": "Dr. Kevin White: Orthopedic Institute of New Jersey",
+        "address": "108 Bilby Rd Ste 201, Hackettstown, NJ 07840",
+        "latitude": 40.8664888,
+        "longitude": -74.8155496,
+        "rating": 4.9,
+        "ratingCount": 67,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicnj.com/physicians/kevin-white",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKpgHu5F5JAol4OHqRCrDDQtgzkOfxgNdsgj9d_QrQ9stK_-AfELfGbhO7AHYpyP2C3JHKtI3MPl5yfishbjl9zWjpKvKMyamCdEOUFhcImB69Y3nXz1mLxeekZrf-kKoCQc7D",
+        "cid": "17855934447732817130",
+        "fid": "0x89c3832d675226c3:0xf7cd05c681c67cea",
+        "placeId": "ChIJwyZSZy2Dw4kR6nzGgcYFzfc"
+      },
+      {
+        "position": 13,
+        "title": "Orthopedic Institute of New Jersey",
+        "address": "95 Madison Ave Suite 101, Morristown, NJ 07960",
+        "latitude": 40.787145699999996,
+        "longitude": -74.46464499999999,
+        "rating": 4.8,
+        "ratingCount": 102,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://orthopedicnj.com/locations/morristown-office",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmmpHf9oNsUdXgNibepqCI8vpkYAkcrjVLdQ6q0diDjW46DdiIb40difoPFcrMuv4L3_w9LiSVF9ugR9wuXMx34lgIoPjdzn6uciKV5G4kdhh4_hPjbYjOEGxmoihUGbXV4qjPJg",
+        "cid": "8113046287885830855",
+        "fid": "0x89c3a785a19dcb4f:0x7097549d33bc8ac7",
+        "placeId": "ChIJT8udoYWnw4kRx4q8M51Ul3A"
+      },
+      {
+        "position": 14,
+        "title": "Dr. Kenneth Murphy at Orthodontic Specialists",
+        "address": "111 Mountain Ct #2317, Hackettstown, NJ 07840",
+        "latitude": 40.848055599999995,
+        "longitude": -74.8242769,
+        "rating": 4.5,
+        "ratingCount": 25,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.orthodonticspecialists.net/",
+        "phoneNumber": "(908) 852-6620",
+        "openingHours": {
+          "Thursday": "8:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–6 PM",
+          "Tuesday": "8:30 AM–6:30 PM",
+          "Wednesday": "Closed"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIwshFrTQdQVt4jqFKbq9CjQv9jTmBVfBGxylciD7ZqSNcKB6hSgirwxAXtu7FHO_ZrGWqKBjQfpsBcQH_cnCgLGIW7GopWx87BDpyEkyqliW_jFxRjv_ZXaRwyTvIXTspaxU3jg",
+        "cid": "15961075344563747276",
+        "fid": "0x89c38375b4fbd3c1:0xdd812175e1f7b9cc",
+        "placeId": "ChIJwdP7tHWDw4kRzLn34XUhgd0"
+      },
+      {
+        "position": 15,
+        "title": "Dr. Michael Gutkin: Orthopedic Institute of New Jersey",
+        "address": "254B Mountain Ave Suite 201, Hackettstown, NJ 07840",
+        "latitude": 40.8384352,
+        "longitude": -74.82426219999999,
+        "rating": 4.7,
+        "ratingCount": 88,
+        "type": "Sports medicine physician",
+        "types": [
+          "Sports medicine physician"
+        ],
+        "website": "https://orthopedicnj.com/physicians/michael-gutkin",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthopedicnj.com/appointment"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqGMpgV94GpUKNw6rfWd4otS1laAJmPm1PshbDtxHXXKAJBxoiHG5OFz8lGy0lfJXmq5AG8rws0Rv_ptxoASfQWvygUuZ-DqGWnMVLEgp422XfPsWKZoXgrYgTVhFjuZe_doG_",
+        "cid": "3345035892188390401",
+        "fid": "0x89c383f137637a55:0x2e6bf46bd2d22401",
+        "placeId": "ChIJVXpjN_GDw4kRASTS0mv0ay4"
+      },
+      {
+        "position": 16,
+        "title": "Tri-County Orthopedics",
+        "address": "465 Union Ave C, Bridgewater, NJ 08807",
+        "latitude": 40.569846399999996,
+        "longitude": -74.574961,
+        "rating": 4.9,
+        "ratingCount": 278,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical office",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.tri-countyortho.com/locations/bridgewater?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite",
+        "phoneNumber": "(973) 538-2334",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tri-countyortho.com/schedule-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-practice-bridgewater"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuO6W5iVUBKLI1dt5AuGtpfzyYTmCm0WYDsHgePAyE45fsZd2Bp_HftqmvmlJRTHTST5oz08beDgo0Z6mx7ZKwjmFg8Mb2hCU3s-R29Cei8LthaMpe_y88h3lOpSP3mPerofCvQA",
+        "cid": "14637593227749259811",
+        "fid": "0x89c3956210947845:0xcb232d7cc2a87a23",
+        "placeId": "ChIJRXiUEGKVw4kRI3qownwtI8s"
+      },
+      {
+        "position": 17,
+        "title": "Freda & Suriano Orthodontics",
+        "address": "2A Doctors Park, Hackettstown, NJ 07840",
+        "latitude": 40.856307799999996,
+        "longitude": -74.81834719999999,
+        "rating": 5,
+        "ratingCount": 15,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.fsorthodontics.com/",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IUgMwb4cvjo9Qsthi2W9kQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=133.68738&pitch=0&thumbfov=100",
+        "cid": "11470669342363756890",
+        "fid": "0x89c3830e89fad9a1:0x9f3000fe1f8e295a",
+        "placeId": "ChIJodn6iQ6Dw4kRWimOH_4AMJ8"
+      },
+      {
+        "position": 18,
+        "title": "MidJersey Orthopaedics",
+        "address": "1 Hawk Pointe Blvd Suite D, Washington, NJ 07882",
+        "latitude": 40.7362098,
+        "longitude": -74.97482289999999,
+        "rating": 4.5,
+        "ratingCount": 86,
+        "type": "Podiatrist",
+        "types": [
+          "Podiatrist",
+          "Hand surgeon",
+          "Neurologist"
+        ],
+        "website": "https://www.midjerseyortho.com/",
+        "phoneNumber": "(908) 782-0600",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://midjerseyortho.com/schedule?utm_source=google_apt&ao=Google"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=B3lex0DFOpYp6iksUj477w&cb_client=search.gws-prod.gps&w=80&h=92&yaw=332.00314&pitch=0&thumbfov=100",
+        "cid": "13625531881724778909",
+        "fid": "0x89c47751bee63753:0xbd179d0e25f7199d",
+        "placeId": "ChIJUzfmvlF3xIkRnRn3JQ6dF70"
+      },
+      {
+        "position": 19,
+        "title": "Dr. Frank Corrigan: Orthopedic Institute of New Jersey",
+        "address": "108 Bilby Rd Ste 201, Hackettstown, NJ 07840",
+        "latitude": 40.8664888,
+        "longitude": -74.8155496,
+        "rating": 4.4,
+        "ratingCount": 52,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://orthopedicnj.com/physicians/frank-corrigan",
+        "phoneNumber": "(908) 684-3005",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patients.doctor.com/directAppointment?partner=google&practice=9049596&provider=536999"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHi7FZPJQ4qNfsI0tfJGf7D7G0xsb1OX_hLjHo7sTvPgVxtJy9xewQp_dCQeEoujYNUOEyLynrNNkhwZtN92RFS-QeCjla5cAjADej6nkvbE_zPEaL-pYWG4nIgYZBdjugyD5Y",
+        "cid": "11697771577316064096",
+        "fid": "0x89c383ad375caabb:0xa256d545a995bb60",
+        "placeId": "ChIJu6pcN62Dw4kRYLuVqUXVVqI"
+      },
+      {
+        "position": 20,
+        "title": "Tri-County Orthopedics",
+        "address": "1590 US-206 North, Bedminster, NJ 07921",
+        "latitude": 40.6819592,
+        "longitude": -74.650297,
+        "rating": 4.8,
+        "ratingCount": 296,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.tri-countyortho.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbwebsite-bedminster",
+        "phoneNumber": "(973) 538-2334",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.tri-countyortho.com/schedule-appointment?utm_source=google&utm_medium=organic&utm_campaign=gmbappointment-bedminster"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQgYSONpPdKAnNActoo12VVt5NfG8kTL6nA4ugP_6STFai7FVBHUYhfgWDrjdE5GVsjL5xoMOonUD6EvS_PBcuEExmXlk_JSqsREHPrlqDG_42fkAeIDPVhKDVUts9pwt0Nx0ZXsBfidiG",
+        "cid": "4076753896349385338",
+        "fid": "0x89c396f4e8616127:0x38938a11b498427a",
+        "placeId": "ChIJJ2Fh6PSWw4kRekKYtBGKkzg"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -8,6 +8,7 @@ interface FormErrors {
   businessName?: string;
   gbpUrl?: string;
   websiteUrl?: string;
+  keywords?: string;
 }
 
 interface ProgressStep {
@@ -56,6 +57,7 @@ export default function HomePage() {
   const [businessName, setBusinessName] = useState("");
   const [gbpUrl, setGbpUrl] = useState("");
   const [websiteUrl, setWebsiteUrl] = useState("");
+  const [keywordsText, setKeywordsText] = useState("");
   const [errors, setErrors] = useState<FormErrors>({});
   const [touched, setTouched] = useState<Record<string, boolean>>({});
   const [formState, setFormState] = useState<FormState>("idle");
@@ -64,21 +66,49 @@ export default function HomePage() {
   const [reportUuid, setReportUuid] = useState<string | null>(null);
 
   const validateAll = useCallback((): boolean => {
+    const parsedKeywords = keywordsText
+      .split(/[\n,]+/g)
+      .map((k) => k.trim())
+      .filter(Boolean);
+
     const newErrors: FormErrors = {
       businessName: validateBusinessName(businessName),
       gbpUrl: validateGbpUrl(gbpUrl),
       websiteUrl: validateWebsiteUrl(websiteUrl),
+      keywords:
+        parsedKeywords.length === 0
+          ? "At least 1 keyword is required"
+          : parsedKeywords.length > 5
+            ? "Maximum 5 keywords allowed"
+            : parsedKeywords.some((k) => k.length < 2)
+              ? "Each keyword must be at least 2 characters"
+              : undefined,
     };
     setErrors(newErrors);
-    setTouched({ businessName: true, gbpUrl: true, websiteUrl: true });
-    return !newErrors.businessName && !newErrors.gbpUrl && !newErrors.websiteUrl;
-  }, [businessName, gbpUrl, websiteUrl]);
+    setTouched({ businessName: true, gbpUrl: true, websiteUrl: true, keywords: true });
+    return !newErrors.businessName && !newErrors.gbpUrl && !newErrors.websiteUrl && !newErrors.keywords;
+  }, [businessName, gbpUrl, websiteUrl, keywordsText]);
 
   const handleBlur = (field: keyof FormErrors) => {
     setTouched((prev) => ({ ...prev, [field]: true }));
     if (field === "businessName") setErrors((e) => ({ ...e, businessName: validateBusinessName(businessName) }));
     if (field === "gbpUrl") setErrors((e) => ({ ...e, gbpUrl: validateGbpUrl(gbpUrl) }));
     if (field === "websiteUrl") setErrors((e) => ({ ...e, websiteUrl: validateWebsiteUrl(websiteUrl) }));
+    if (field === "keywords") {
+      const parsedKeywords = keywordsText
+        .split(/[\n,]+/g)
+        .map((k) => k.trim())
+        .filter(Boolean);
+      const keywordsError =
+        parsedKeywords.length === 0
+          ? "At least 1 keyword is required"
+          : parsedKeywords.length > 5
+            ? "Maximum 5 keywords allowed"
+            : parsedKeywords.some((k) => k.length < 2)
+              ? "Each keyword must be at least 2 characters"
+              : undefined;
+      setErrors((e) => ({ ...e, keywords: keywordsError }));
+    }
   };
 
   const simulateProgress = () => {
@@ -103,6 +133,12 @@ export default function HomePage() {
     setErrorMessage("");
 
     try {
+      const keywords = keywordsText
+        .split(/[\n,]+/g)
+        .map((k) => k.trim())
+        .filter(Boolean)
+        .slice(0, 5);
+
       const res = await fetch("/api/report/create", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -110,6 +146,7 @@ export default function HomePage() {
           businessName: businessName.trim(),
           gbpUrl: gbpUrl.trim(),
           websiteUrl: websiteUrl.trim(),
+          keywords,
         }),
       });
 
@@ -344,6 +381,49 @@ export default function HomePage() {
                 )}
               </div>
 
+              {/* Keywords */}
+              <div>
+                <label htmlFor="keywords" className="block text-sm font-medium text-slate-700 mb-1.5">
+                  Target Keywords (1–5)
+                </label>
+                <textarea
+                  id="keywords"
+                  value={keywordsText}
+                  onChange={(e) => {
+                    setKeywordsText(e.target.value);
+                    if (touched.keywords) {
+                      const parsedKeywords = e.target.value
+                        .split(/[\n,]+/g)
+                        .map((k) => k.trim())
+                        .filter(Boolean);
+                      const keywordsError =
+                        parsedKeywords.length === 0
+                          ? "At least 1 keyword is required"
+                          : parsedKeywords.length > 5
+                            ? "Maximum 5 keywords allowed"
+                            : parsedKeywords.some((k) => k.length < 2)
+                              ? "Each keyword must be at least 2 characters"
+                              : undefined;
+                      setErrors((prev) => ({ ...prev, keywords: keywordsError }));
+                    }
+                  }}
+                  onBlur={() => handleBlur("keywords")}
+                  rows={3}
+                  placeholder={"Examples:\northodontist napa\ninvisalign napa\nbraces napa"}
+                  className={`block w-full rounded-lg border py-3 px-4 text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 transition-colors ${
+                    touched.keywords && errors.keywords
+                      ? "border-red-300 focus:border-red-400 focus:ring-red-100"
+                      : "border-slate-300 focus:border-[#1e3a5f] focus:ring-blue-100"
+                  }`}
+                />
+                {touched.keywords && errors.keywords && (
+                  <p className="mt-1.5 text-xs text-red-600">{errors.keywords}</p>
+                )}
+                <p className="mt-1.5 text-xs text-slate-400">
+                  These keywords are used for geo-grid rank checks (Serper). Use terms your customers actually search.
+                </p>
+              </div>
+
               {/* Submit */}
               <button
                 type="submit"
@@ -477,6 +557,7 @@ export default function HomePage() {
                   setBusinessName("");
                   setGbpUrl("");
                   setWebsiteUrl("");
+                  setKeywordsText("");
                   setTouched({});
                   setErrors({});
                   setReportUuid(null);

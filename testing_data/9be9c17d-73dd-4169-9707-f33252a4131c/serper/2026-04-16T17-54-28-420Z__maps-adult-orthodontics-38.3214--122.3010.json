@@ -1,0 +1,626 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.321373,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@41.7050994,-87.5169262,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "AAC Orthodontics",
+        "address": "8165 Calumet Ave, Munster, IN 46321",
+        "latitude": 41.5642217,
+        "longitude": -87.5085746,
+        "rating": 4.9,
+        "ratingCount": 305,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.aacorthodontics.com/",
+        "phoneNumber": "(219) 836-0888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEH_YQMJ08AsSgDO6Ym64oALdcyGIb9opX_VuSZ0izSJctt4wg2WnHGfTVL-wR4CTnqOKIRs7ILAnv__JlkX524uMysYcT0HJEwks-Zt796HLOUhCbT2RNYMeRlOnVnqvIzRNcMHCViOns4",
+        "cid": "7335225168663783440",
+        "fid": "0x8811e06538ee6d2b:0x65cbf46d5db5a810",
+        "placeId": "ChIJK23uOGXgEYgREKi1XW30y2U"
+      },
+      {
+        "position": 2,
+        "title": "Orthodontic Specialists, PC - Dr. Koufos & Assoc.",
+        "address": "1734 W 45th St, Munster, IN 46321",
+        "latitude": 41.5369825,
+        "longitude": -87.48632909999999,
+        "rating": 4.9,
+        "ratingCount": 339,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.orthospcs.com/munster-office/?utm_source=google&utm_medium=organic&utm_campaign=munster-gbp&utm_content=loc",
+        "phoneNumber": "(219) 924-1440",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8–11 AM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthospcs.com/schedule-an-appointment/?utm_source=google&utm_medium=organic&utm_campaign=munster-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4-kbzqX6t0qC44PwjGm0Tbas1ckcduT9i7z5SE1I1eBnT46jYXvW277vQ1Vas4dLJWfOiPBx6gGOAOiSNHdldysCUw8-WP1LUUHe4OP0py5BHcFlIW2UCWcLAaLYkruU9coLHpg",
+        "cid": "11218183186503374686",
+        "fid": "0x8811e0e337d18541:0x9baefe2bf0cb175e",
+        "placeId": "ChIJQYXRN-PgEYgRXhfL8Cv-rps"
+      },
+      {
+        "position": 3,
+        "title": "AAC Orthodontics",
+        "address": "312 E U.S. Hwy 30, Schererville, IN 46375",
+        "latitude": 41.4847226,
+        "longitude": -87.443884,
+        "rating": 4.9,
+        "ratingCount": 222,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.aacorthodontics.com/",
+        "phoneNumber": "(219) 322-8008",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGcU2h91xv7YoQYy8p7smTPSlNqJw-N74GrOBQCK8njiiVDBaC3duTgRiIWwxXeO1v_uGcOeAd8bEe4KTzhgY-8nEwdkL6DLsl72myNWjCimvBgfo38wRPGe-lWElLWUiD3EKHPfCml3yo",
+        "cid": "18028544773548848287",
+        "fid": "0x8811e3ff7a5ff419:0xfa3241f3c49ab49f",
+        "placeId": "ChIJGfRfev_jEYgRn7SaxPNBMvo"
+      },
+      {
+        "position": 4,
+        "title": "Puntillo & Crane Orthodontics",
+        "address": "1000 Caroline Ave, Schererville, IN 46375",
+        "latitude": 41.493815,
+        "longitude": -87.4757767,
+        "rating": 4.9,
+        "ratingCount": 386,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.pandcsmiles.com/",
+        "phoneNumber": "(219) 322-8552",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "12–7 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.puntilloortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzdvssa74nJCuwLO-LrhDIdw_ZkaYjyVmEQvqyNmV6EKN3EwNtBK2ag2b4NGB3ME1lwPUUvKUPNrpyLf0fQf300wC109TWSGs13HokZToSJqBxgLI39ubvYUM4t4QIn17u89YT",
+        "cid": "1014020063178143556",
+        "fid": "0x8811e3e02bda62d3:0xe1285dffcda3744",
+        "placeId": "ChIJ02LaK-DjEYgRRDfa_N-FEg4"
+      },
+      {
+        "position": 5,
+        "title": "Grant Orthodontics",
+        "address": "18243 Harwood Ave, Homewood, IL 60430",
+        "latitude": 41.5579959,
+        "longitude": -87.66880789999999,
+        "rating": 4.9,
+        "ratingCount": 555,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://grantortho.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+        "phoneNumber": "(708) 866-0057",
+        "openingHours": {
+          "Thursday": "7:30 AM–3 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://grantortho.com/appointment-request-form/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpkDAlgqzLAzALo6S8Cqv3WPdEUb1_wQ9I9VRExcgHodQqzUz4lK4BYQSzalS2oHSFd4jpGZKSMHwo_CZyb-UvN-_N89kvNJmHfVUd9beH5trv_SOFeH5jbe7V95DOpegdNDqZHQ",
+        "cid": "4986937880422243153",
+        "fid": "0x880e18360db1f7e7:0x453529948f81db51",
+        "placeId": "ChIJ5_exDTYYDogRUduBj5QpNUU"
+      },
+      {
+        "position": 6,
+        "title": "Orthodontic Affiliates",
+        "address": "9335 Calumet Ave, Munster, IN 46321",
+        "latitude": 41.5434343,
+        "longitude": -87.50840629999999,
+        "rating": 4.7,
+        "ratingCount": 13,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "phoneNumber": "(219) 961-3085",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "9 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xv_QejiMXGVofHYFwTEecQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=136.15181&pitch=0&thumbfov=100",
+        "cid": "18103784317207872708",
+        "fid": "0x8811e0501171a2c9:0xfb3d8feb257684c4",
+        "placeId": "ChIJyaJxEVDgEYgRxIR2JeuPPfs"
+      },
+      {
+        "position": 7,
+        "title": "Windy City Orthodontics - Lakeview",
+        "address": "2921 N Lincoln Ave, Chicago, IL 60657",
+        "latitude": 41.9350964,
+        "longitude": -87.661834,
+        "rating": 4.8,
+        "ratingCount": 258,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://windycityortho.com/",
+        "phoneNumber": "(773) 697-8038",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://windycityortho.com/free-consult"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhsw5tfdVa70-3ajdvOl_PNvjULEDxuBhBbm7lO2FlGBfLetG5oS-1iN2KMk-EHS6seRAqDVqSK8KYK1lZZhdjTu_SOpxznNsQydxuZpiKWrstzIMqsTDqwS1UcD3iaj5qeQ1N",
+        "cid": "17839749064399081671",
+        "fid": "0x880fd2ff5b745bad:0xf7938541499d50c7",
+        "placeId": "ChIJrVt0W__SD4gRx1CdSUGFk_c"
+      },
+      {
+        "position": 8,
+        "title": "Lincoln Square Orthodontics",
+        "address": "4352 N Leavitt St, Chicago, IL 60618",
+        "latitude": 41.961092799999996,
+        "longitude": -87.68398839999999,
+        "rating": 4.9,
+        "ratingCount": 36,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.chicagoorthodontics.com/lincoln-square/",
+        "phoneNumber": "(773) 887-0772",
+        "openingHours": {
+          "Thursday": "10 AM–5 PM",
+          "Friday": "10 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–5 PM",
+          "Tuesday": "10 AM–5 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFJRCRg6pWYNq84FKJEJnE8LMxID9fZ656WAwbQyhg9JULweNoKQMmLMULKu_SYaFjqnh7Gp36PiT2Swby6Dv5pg9yGOTl8cYwOQdUGLoCkTO-S27mC52R2VqXA9mOne2N4wnR9A",
+        "cid": "12544926487928036945",
+        "fid": "0x880fd37aa927f96b:0xae18882cc656de51",
+        "placeId": "ChIJa_knqXrTD4gRUd5WxiyIGK4"
+      },
+      {
+        "position": 9,
+        "title": "West Loop Orthodontics",
+        "address": "1229 W Washington Blvd #200, Chicago, IL 60607",
+        "latitude": 41.882624199999995,
+        "longitude": -87.6578437,
+        "rating": 4.8,
+        "ratingCount": 192,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "http://www.wlortho.com/",
+        "phoneNumber": "(872) 222-9567",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.wlortho.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhIUboyiGxv_D2TCMr1T9k0eJYZs2EiaUTAMHrdE8hGjb0MHV7FoAFllROwpLEpGXF74PLhscZOpMlTbjubx9OPCKmMgaB3GrX24--ksCXoTtkpsNXDUeZRkQGJ4Pzk-4_sQjL",
+        "cid": "17010545655865290675",
+        "fid": "0x880e2cd89c75fe29:0xec119925f56a2fb3",
+        "placeId": "ChIJKf51nNgsDogRsy9q9SWZEew"
+      },
+      {
+        "position": 10,
+        "title": "Bronzeville Orthodontics",
+        "address": "3506 S State St Unit D, Chicago, IL 60609",
+        "latitude": 41.8308371,
+        "longitude": -87.6269658,
+        "rating": 5,
+        "ratingCount": 216,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetics industry"
+        ],
+        "website": "https://www.bronzevilleortho.com/?utm_source=google&utm_medium=local&utm_campaign=gmb_url_clicks",
+        "phoneNumber": "(312) 429-5533",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbL6qqBHjExOtZqpjy5GwdVgWGUWvwNOGkmpbM0A9-YdUTyjPIJnB3hAexXrYVIrtWP_RV-RklO-A22NnzEw3NjcFHAMDzr08H2Tej2SKtpV7-9TD7aMLTjilgNwSV4EWilx0",
+        "cid": "12712190979775673818",
+        "fid": "0x880e2de59e33d591:0xb06ac658127435da",
+        "placeId": "ChIJkdUznuUtDogR2jV0EljGarA"
+      },
+      {
+        "position": 11,
+        "title": "Orthodontic Alliances - St. John",
+        "address": "8626 Wicker Ave, St John, IN 46373",
+        "latitude": 41.461774999999996,
+        "longitude": -87.47085709999999,
+        "rating": 4.8,
+        "ratingCount": 194,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthodonticalliances.com/st-john/?utm_campaign=gmb",
+        "phoneNumber": "(219) 440-6512",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticalliances.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWH6B4FZTHIQ1XSKfRrvIbtWoSv_oVu8NT0rMeVj5iu5QYEHlu9K0qszQqhdt8TA-8kfCowHKJMF0SHWVNBuiJ5jnU9PNEv4vlcuKem-WDLo7YBVkIxhgyaaiyd_FyXHWt8NjHIQ",
+        "cid": "7210010569426828066",
+        "fid": "0x8811eedbf3583793:0x640f1a69a17f7b22",
+        "placeId": "ChIJkzdY89vuEYgRInt_oWkaD2Q"
+      },
+      {
+        "position": 12,
+        "title": "Bubon Orthodontics",
+        "address": "30 N Michigan Ave # 603, Chicago, IL 60602",
+        "latitude": 41.8830278,
+        "longitude": -87.624905,
+        "rating": 4.7,
+        "ratingCount": 229,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.bubonortho.com/illinois-orthodontist/locations/millenium-park/",
+        "phoneNumber": "(773) 929-5000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG45z1inwD6IB2hdRnxTrDq6xUdsMm33Yg4HEGq8jn-HUPxNc4GPY8rCT8z_eji5rViQWYD-hZ3EmIUl9do3NPorEIeI0KRsx_0zjR1oZw08LSG9X8RQLH4vOFArPhAx6NTwNainw",
+        "cid": "11909715317165932581",
+        "fid": "0x880e2ca4340b8d93:0xa547cefb07b44025",
+        "placeId": "ChIJk40LNKQsDogRJUC0B_vOR6U"
+      },
+      {
+        "position": 13,
+        "title": "Orthodontic Specialists, PC - Dr. Koufos & Assoc.",
+        "address": "9321 Wicker Ave #201, St John, IN 46373",
+        "latitude": 41.4488073,
+        "longitude": -87.4694147,
+        "rating": 4.9,
+        "ratingCount": 244,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.orthospcs.com/st-john-office/?utm_source=google&utm_medium=organic&utm_campaign=st-john-gbp&utm_content=loc",
+        "phoneNumber": "(219) 365-2323",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "8–11 AM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.orthospcs.com/schedule-an-appointment/?utm_source=google&utm_medium=organic&utm_campaign=st-john-gbp&utm_content=appt"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9NiX1eilhE7JQEC1BR25lDvM0KD-bQE9Uv97riQ2OhP1YSMo5NiX-kuXz9iJcJtb9HCfzCemLi5KVvFYOJ3bYNzGQTurOFr-30EPIsGWThtJ7wokdrji8Xah7XimwRAk_DkNAGQ",
+        "cid": "4261962315339648471",
+        "fid": "0x8811e3705858a25b:0x3b2588251bebcdd7",
+        "placeId": "ChIJW6JYWHDjEYgR183rGyWIJTs"
+      },
+      {
+        "position": 14,
+        "title": "Puntillo & Crane Orthodontics",
+        "address": "200 W 84th Dr, Merrillville, IN 46410",
+        "latitude": 41.4654655,
+        "longitude": -87.3393859,
+        "rating": 5,
+        "ratingCount": 139,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.pandcsmiles.com/",
+        "phoneNumber": "(219) 769-7447",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "12–7 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "http://www.puntilloortho.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEt8W4Nb9tJ82O7Ol6_QxsRZoYaY7gGNQ1eHC-z809lzRyIHhguhrZ3IZmzpnkyPyYHfCGmKpci3ise7GKpLuPLMOYmOJnr9eHgDcdGJsejwiJAi4t7x0AsxKmw_t3M2ob96h7b9w",
+        "cid": "6765459115023276603",
+        "fid": "0x8811eee187862541:0x5de3bd385d641a3b",
+        "placeId": "ChIJQSWGh-HuEYgROxpkXTi9410"
+      },
+      {
+        "position": 15,
+        "title": "Matteson Orthodontics",
+        "address": "21104 Kildare Ave, Matteson, IL 60443",
+        "latitude": 41.505270499999995,
+        "longitude": -87.7198399,
+        "rating": 4.9,
+        "ratingCount": 568,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.mattesonorthodontics.com/",
+        "phoneNumber": "(708) 481-6086",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGXtVmRPaI8CQ5_YY7uVHfemaDH81jdeLjmbvxEwNW_Y8mROA1reO0785y1x3FR9tNp2fWTmdOz92mRvUYYer7Umcsr20g0d9i3oCe-GRbEsMNMfqMyYfMM_Ie48-k2pH3uaiU",
+        "cid": "2724899906340110591",
+        "fid": "0x880e17305d5c17d9:0x25d0ca0715e5c0ff",
+        "placeId": "ChIJ2RdcXTAXDogR_8DlFQfK0CU"
+      },
+      {
+        "position": 16,
+        "title": "All Smiles Orthodontics",
+        "address": "20500 LaGrange Rd #9, Frankfort, IL 60423",
+        "latitude": 41.5180454,
+        "longitude": -87.8505627,
+        "rating": 4.7,
+        "ratingCount": 47,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.welovetoseeyoursmile.com/",
+        "phoneNumber": "(815) 464-7537",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFs1aCAb93WUWGVzuyZ_L6MsXYqx3o8L1MDGaTKipjifKjnmgQ7E-uTAH3xOnV3eNbsvpt-Awf2XNB-V6m8_akTUmCuLcnO5y9fIWu3E4egyfvRLhZOUKfQKwV_3KcamTid_97vIQ",
+        "cid": "15550875768993883179",
+        "fid": "0x880e14b4258d8e1f:0xd7cfcf1ead1c242b",
+        "placeId": "ChIJH46NJbQUDogRKyQcrR7Pz9c"
+      },
+      {
+        "position": 17,
+        "title": "Orthodontic Alliances - Portage",
+        "address": "3110 Willowcreek Rd, Portage, IN 46368",
+        "latitude": 41.5620593,
+        "longitude": -87.1832897,
+        "rating": 4.8,
+        "ratingCount": 349,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthodonticalliances.com/portage/",
+        "phoneNumber": "(219) 841-7795",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticalliances.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeEEIlizKsb-iGBdbnuP9ZokXaxN-f_uEJCdLLiB_HhAh2-3KAren4xpCtNhDREhMXSAJ6TCGJfeUNuKR4wB0ctuo9oCLl9q5fLfiKkTNEyYLWhalRQs8SG_INDES5j8EEGyX0",
+        "cid": "992341982869784112",
+        "fid": "0x8811957f4de019b3:0xdc581c698a90630",
+        "placeId": "ChIJsxngTX-VEYgRMAapmMaBxQ0"
+      },
+      {
+        "position": 18,
+        "title": "Orthodontic Specialty Center",
+        "address": "4251 N Milwaukee Ave, Chicago, IL 60641",
+        "latitude": 41.958417499999996,
+        "longitude": -87.75224399999999,
+        "rating": 4.9,
+        "ratingCount": 135,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.bracesspecialist.com/",
+        "phoneNumber": "(773) 282-0013",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeqHAtqP-ZeXnJA1EdTX6p6jBGMGz6yJ629rf91nn-ZDNpIduZwkoCiHnsCNcsRFj3wz3Voe72GbFh3jqQZMsY-uTBqAZVzrYRZWRhx2YL0wsnWtxEwavW6Fh1o7VhLuyhPJc",
+        "cid": "9193589965750857908",
+        "fid": "0x880fcc3f483b6d21:0x7f96315d372cf0b4",
+        "placeId": "ChIJIW07SD_MD4gRtPAsN10xln8"
+      },
+      {
+        "position": 19,
+        "title": "Gold Coast Orthodontics",
+        "address": "737 N Michigan Ave #930, Chicago, IL 60611",
+        "latitude": 41.895986199999996,
+        "longitude": -87.6237817,
+        "rating": 4.7,
+        "ratingCount": 167,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.goldcoastorthodontics.com/",
+        "phoneNumber": "(312) 649-9214",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "http://www.goldcoastorthodontics.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZ6qOA85ZCEk6tZg8zXvzcLCXzgmqNubKnbCuFS5TSYdQakOFGOl0p3m2cBRrwvqFBs0GBOwYibELg7p0EHiLl8v1UstOayZByAyZzMft-GipRUKzhlMU51EIvopxkZFYI",
+        "cid": "11130672549899242639",
+        "fid": "0x880fd3535e25ef59:0x9a7817b617ef8c8f",
+        "placeId": "ChIJWe8lXlPTD4gRj4zvF7YXeJo"
+      },
+      {
+        "position": 20,
+        "title": "3020 Orthodontics",
+        "address": "3020 W Montrose Ave, Chicago, IL 60618",
+        "latitude": 41.9613914,
+        "longitude": -87.7043328,
+        "rating": 5,
+        "ratingCount": 51,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://3020orthodontics.com/",
+        "phoneNumber": "(773) 754-3900",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "8 AM–3 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "http://3020orthodontics.com/schedule-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVNOh1X-U5DRmLyTzxsIkvLVsbSPGHExYRwIIsps0cdzD44zEtIJTk69YyNTU44yGZOF5ERKQeZhhyCbzPLYKawxwaTV8ktaCC7B3sNuR8qQqSoLFh-QvT5utP9-FvhKNL83gM",
+        "cid": "11167662554923416732",
+        "fid": "0x880fcdf17cd55b41:0x9afb81ecc5a43c9c",
+        "placeId": "ChIJQVvVfPHND4gRnDykxeyB-5o"
+      }
+    ],
+    "credits": 3
+  }
+}

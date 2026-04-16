@@ -1,0 +1,659 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@46.2329106,-119.207404,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Tri-City Orthopaedic Clinic",
+        "address": "6703 W Rio Grande Ave suite b, Kennewick, WA 99336",
+        "latitude": 46.2209396,
+        "longitude": -119.2111283,
+        "rating": 4.9,
+        "ratingCount": 3002,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Orthopedic clinic",
+          "Medical Center",
+          "Physical therapist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://tcortho.com/?utm_source=Google+Business&utm_medium=Kennewick+clinic+website+button&utm_campaign=GB+Clinic",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://tcortho.radixhealth.com/dash/self2/provider-search"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvPEhN-co2mqL9KEIzs2OmdHSGBuFm8vhKr7aYjqfQW6WENwDQ29fEA4R-MDdJaBOkv7VtWnpSHaSEmittiD202PRyx1X6Ph8uxmv1NZRlHJ1mYADEFqR8EA4622rQ0Ue9tFb6",
+        "cid": "14686506113843931350",
+        "fid": "0x54987ac6b75a2087:0xcbd0f37f834528d6",
+        "placeId": "ChIJhyBat8Z6mFQR1ihFg3_z0Ms"
+      },
+      {
+        "position": 2,
+        "title": "Kadlec Clinic Northwest Orthopaedic and Sports Medicine - Fowler",
+        "address": "1351 Fowler St, Richland, WA 99352",
+        "latitude": 46.2340156,
+        "longitude": -119.23171119999999,
+        "rating": 4.5,
+        "ratingCount": 321,
+        "type": "Doctor",
+        "types": [
+          "Doctor",
+          "Medical clinic"
+        ],
+        "website": "https://www.providence.org/locations/kadlec/northwest-orthopaedic-and-sports-medicine-fowler-st?ls=location&y_source=1_OTU3Njc2MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(509) 946-1654",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.providence.org/provider-listing?related=80b24d48935a482cacaf028c0d915671&y_source=1_OTU3Njc2MC03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0Z11k2tVO6mH8eowCbDHDGY0gJHsWxbVeeMVGdhlzZcVa6TTE5-LxoujBvWTQ9W9-5yPXJ_tnkEc7hkAIe-qLGbqGWmN8Y_Zrw3McUe9hChL10z3sw13A_DetbdkVKxdAKmdc",
+        "cid": "7548300295845189805",
+        "fid": "0x54987a22e385e9d1:0x68c0f3205fd418ad",
+        "placeId": "ChIJ0emF4yJ6mFQRrRjUXyDzwGg"
+      },
+      {
+        "position": 3,
+        "title": "Benton Franklin Orthopedic Associates",
+        "address": "8200 W Gage Blvd, Kennewick, WA 99336",
+        "latitude": 46.2276527,
+        "longitude": -119.23179879999999,
+        "rating": 4.7,
+        "ratingCount": 1325,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Pain management physician",
+          "Physical therapist",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://bfoaonline.com/",
+        "phoneNumber": "(509) 586-2828",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://bfoaonline.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHl4SoUUWuaZTmDzgKzLfjTNNQxwphUtre0JmMwuOhgAtkc1q8VpMV5qTnTlVvrQwrFPM6F8MYnrS29L78keKinx5CMGL8kDj_cbkdVoK181_84lrQP6KuAGDOaTa7L02tLkPIZFz91FZg0",
+        "cid": "7832911227818882840",
+        "fid": "0x549878c6c12cce0b:0x6cb41742db503718",
+        "placeId": "ChIJC84swcZ4mFQRGDdQ20IXtGw"
+      },
+      {
+        "position": 4,
+        "title": "Kadlec Clinic Northwest Orthopaedic and Sports Medicine - Swift",
+        "address": "875 Swift Blvd, Richland, WA 99352",
+        "latitude": 46.2801514,
+        "longitude": -119.2825003,
+        "rating": 4.2,
+        "ratingCount": 155,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic",
+          "Medical clinic"
+        ],
+        "website": "https://www.providence.org/locations/kadlec/northwest-orthopaedic-and-sports-medicine-swift-blvd?ls=location&y_source=1_OTU3Njc3MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(509) 946-1654",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.providence.org/provider-listing?related=b0d2aef8b5d14d2ea9c500e7fa0f86c6&y_source=1_OTU3Njc3MS03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXQEHcQIGwRmNTLUX4Z81Fr_phyDhLE0jlL1_FJh-2kW91d0Vq2wPp1YqTG4KgWawO6doEd_pEnjjqb0BICmMJ42y12X6GjhR2DbO2eAbGXyMly2txt7YCCrRhUVfvBijq3aWo1A",
+        "cid": "605925618891791826",
+        "fid": "0x54987ac6de8cc421:0x868ae23da5a9dd2",
+        "placeId": "ChIJIcSM3sZ6mFQR0p1a2iOuaAg"
+      },
+      {
+        "position": 5,
+        "title": "Tri-City Orthodontics",
+        "address": "2611 S Quillan Pl Ste 120, Kennewick, WA 99338",
+        "latitude": 46.1856698,
+        "longitude": -119.17616819999999,
+        "rating": 4.9,
+        "ratingCount": 381,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://tricityorthodontics.com/",
+        "phoneNumber": "(509) 946-8888",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_E82rr3fnRWRQkKgZTbKEWQXSL-UnGQ-ZR966UMSlDoIT1z44Rr-GFa9uwB5UsilmOe-NxFc3pjCDBqcso7Z5w0hKJPInx_x2ds61xxbTK-OiYxAeuSIcQXkyAWj1sT4I4Pvk7A",
+        "cid": "12011740929955223850",
+        "fid": "0x549878414efff15f:0xa6b246bc2000592a",
+        "placeId": "ChIJX_H_TkF4mFQRKlkAILxGsqY"
+      },
+      {
+        "position": 6,
+        "title": "Bunker Family Orthodontics",
+        "address": "6825 Burden Blvd STE C, Pasco, WA 99301",
+        "latitude": 46.271055999999994,
+        "longitude": -119.1799712,
+        "rating": 5,
+        "ratingCount": 135,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "http://bunkerortho.com/",
+        "phoneNumber": "(509) 943-2505",
+        "openingHours": {
+          "Thursday": "7:20 AM–4:30 PM",
+          "Friday": "7 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:20 AM–4:30 PM",
+          "Tuesday": "7:20 AM–4:30 PM",
+          "Wednesday": "7:20 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHw0fomZNCnRGtTtjU9w-w3RWXWGe54-bup9335wsoxv_qSBHp0fSQ-LAjjzClRaNk7rev6EmSLhlXqVBzXMoYUH7SV7PY0DD-imonID9rApICxLAje1LGc013ipXxuj63XRVpq",
+        "cid": "1061372769625696719",
+        "fid": "0x54987b8437297643:0xebac0e91bcfe9cf",
+        "placeId": "ChIJQ3YpN4R7mFQRz-nPG-nAug4"
+      },
+      {
+        "position": 7,
+        "title": "Tri-City Orthodontics",
+        "address": "3200 Duportail St Suite 203, Richland, WA 99352",
+        "latitude": 46.2551383,
+        "longitude": -119.31900019999999,
+        "rating": 4.9,
+        "ratingCount": 443,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Medical Center"
+        ],
+        "website": "https://tricityorthodontics.com/",
+        "phoneNumber": "(509) 946-7689",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–2 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1h9k3uWIXIPALN3OHLSYPMS4so5HzWa5SHd475RlLz0dciWe-t5CIr9jB-HRZ1SFQzT6vonz6KF2FHFVts1Q4cqCrXXeYtvNep2bTVZQk2siAkvGPLOjiKnynAgKHXidqhmNAvQ",
+        "cid": "6273277286477777969",
+        "fid": "0x54987af3f3b17683:0x570f28746e08cc31",
+        "placeId": "ChIJg3ax8_N6mFQRMcwIbnQoD1c"
+      },
+      {
+        "position": 8,
+        "title": "Judd R. Fitzgerald, MD",
+        "address": "6703 W Rio Grande Ave suite b, Kennewick, WA 99336",
+        "latitude": 46.2208247,
+        "longitude": -119.2110826,
+        "rating": 5,
+        "ratingCount": 342,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://tcortho.com/our-experts/judd-r-fitzgerald-md/?utm_source=GMB%20Website%20Button%20-%20Fitzgerald%20Practicioner",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://tcortho.radixhealth.com/dash/self2/#/provider-search?provider_id=2239052"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMw7bi4RLLWHj2ZN7ddBiSNGtXSA-q890THkX1EfIx0o70DhD5_q4ej0lHhCHDap-yBaDiekK6VMVDauZMvEYB6aGu9NApWqtyew-tlQkSAtnkGFmgsD_V-YI9FTuFsUD7tIkR",
+        "cid": "13464891320033931330",
+        "fid": "0x5498795932dcedb1:0xbadce750c5dcf042",
+        "placeId": "ChIJse3cMll5mFQRQvDcxVDn3Lo"
+      },
+      {
+        "position": 9,
+        "title": "Bunker Family Orthodontics",
+        "address": "723 Gage Blvd, Richland, WA 99352",
+        "latitude": 46.2268729,
+        "longitude": -119.2690592,
+        "rating": 4.9,
+        "ratingCount": 239,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Pediatric dentist"
+        ],
+        "website": "http://www.bunkerortho.com/",
+        "phoneNumber": "(509) 943-2505",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGFPq3L43xHhVCvhc2ofRgduuURhJepGkyXL5Nnl-Q53CtNe30bHHp0DVGoZh3I9ZNERcIIqvGib57nPE6uSSGH7Ckel5AIBW_cGjhaUWJQCCUpi9PR_ZYCDXc8h_T9nGzixb6",
+        "cid": "15777311201578800586",
+        "fid": "0x54987ad30801e481:0xdaf444f230e555ca",
+        "placeId": "ChIJgeQBCNN6mFQRylXlMPJE9No"
+      },
+      {
+        "position": 10,
+        "title": "Faustin R. Stevens, MD",
+        "address": "6703 W Rio Grande Ave suite b, Kennewick, WA 99336",
+        "latitude": 46.220859,
+        "longitude": -119.21124599999999,
+        "rating": 4.9,
+        "ratingCount": 331,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://tcortho.com/our-experts/faustin-r-stevens-md/?utm_source=GMBSocialClimb&utm_medium=FaustinR.Stevens,MD",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://tcortho.radixhealth.com/dash/self2/#/provider-search?provider_id=2238961"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFA8dp2JOlrza0DJmmrVvqcdl1TvLy-3fCNJlx8DEe4pl1WYA5OTfxY0uMGzBcyguHYVaFpjFC0Kk39uPD7IW7hb4SUC9ctfGoiWvNzhakZDfxY_IdZXotkkSYx7jmWx0_genbE",
+        "cid": "4444391143576644599",
+        "fid": "0x5498798e0241ad79:0x3dada6329bc72bf7",
+        "placeId": "ChIJea1BAo55mFQR9yvHmzKmrT0"
+      },
+      {
+        "position": 11,
+        "title": "Mark R. Merrell, MD",
+        "address": "6703 W Rio Grande Ave suite b, Kennewick, WA 99336",
+        "latitude": 46.2208247,
+        "longitude": -119.2110826,
+        "rating": 4.9,
+        "ratingCount": 376,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://tcortho.com/our-experts/mark-r-merrell-md/?utm_source=GMBSocialClimb&utm_medium=MarkR.Merrell,MD#utm_source=GMB+Website+Button&utm_campaign=Practicioner+Merrell",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://tcortho.radixhealth.com/dash/self2/#/provider-search?provider_id=2231587"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnWjAng7rOJ9wyCWJSg0YIClZHksu3ABOXDZHIpLkRjM5-o7H-x1882reU1XagURG1_D3itsVgnUHWrRMQQEZCJs6qRU3LRUDQd6dXZxUcIAif0zOwcxL_N60mTnYdFUG5o8k0",
+        "cid": "9869447571152159651",
+        "fid": "0x5498798e0241ad79:0x88f752467fddc3a3",
+        "placeId": "ChIJea1BAo55mFQRo8Pdf0ZS94g"
+      },
+      {
+        "position": 12,
+        "title": "Uel D. Hansen, MD",
+        "address": "6703 W Rio Grande Ave suite b, Kennewick, WA 99336",
+        "latitude": 46.220772,
+        "longitude": -119.21108299999999,
+        "rating": 4.9,
+        "ratingCount": 322,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://tcortho.com/our-experts/uel-d-hansen-md/?utm_source=GMBSocialClimb&utm_medium=UelD.Hansen,MD#utm_source=GMB+Website+Button&utm_campaign=Practicioner+Hansen",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://tcortho.radixhealth.com/dash/self2/#/provider-search?provider_id=2239597"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEdCmFIf2vMhRHbj_pRB_O9V8Ws_6jNinsI7suhCrmILFJ8j8p84HW8AbMxml_IyLazdfjDmY1ufI-v_CCk6N17xAI7_0jpCu2kf4OnhUj1r_tB8ZmY1LwtFYWVsQKWIB9rsQg",
+        "cid": "6228464109211661483",
+        "fid": "0x5498798e0295b9fb:0x566ff31b85d4b4ab",
+        "placeId": "ChIJ-7mVAo55mFQRq7TUhRvzb1Y"
+      },
+      {
+        "position": 13,
+        "title": "The Surgery Center at Tri-City Orthopaedic Clinic",
+        "address": "6703 W Rio Grande Ave suite a, Kennewick, WA 99336",
+        "latitude": 46.2211049,
+        "longitude": -119.2106536,
+        "rating": 4.9,
+        "ratingCount": 31,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgical center"
+        ],
+        "website": "https://tcortho.com/?utm_source=Google+Business&utm_medium=Kennewick+surgery+center+website+button&utm_campaign=GB+Surgery+Center",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "6 AM–5:30 PM",
+          "Friday": "6 AM–5:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "6 AM–5:30 PM",
+          "Tuesday": "6 AM–5:30 PM",
+          "Wednesday": "6 AM–5:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9dVj9KfD7LOeVInDHKHRqgtoi4-nVwzSSs7YmqDIqi4qDGR4yephj0ng1foytNOT6S365GA9v9yxe4_5sxQAWRVycOxXUWoWk7OfCXOGWKPdLYiNpB4V3Dra7dPxq5_ne3gc",
+        "cid": "2681152732210456272",
+        "fid": "0x5498798e0241ad79:0x25355e345ff8e6d0",
+        "placeId": "ChIJea1BAo55mFQR0Ob4XzReNSU"
+      },
+      {
+        "position": 14,
+        "title": "Greg Brown Orthodontics",
+        "address": "306 N Delaware St, Kennewick, WA 99336",
+        "latitude": 46.2117894,
+        "longitude": -119.2239025,
+        "rating": 5,
+        "ratingCount": 358,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic"
+        ],
+        "website": "https://gregbrownortho.com/",
+        "phoneNumber": "(509) 735-7591",
+        "openingHours": {
+          "Thursday": "7:20 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–3:45 PM",
+          "Tuesday": "7:20 AM–4 PM",
+          "Wednesday": "7:20 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://gregbrownortho.com/getting-started/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZKtSYPKX9Xs6cVaQgMn9BpRjkiOSWUkJWR3RHf8nkrc3devlXIqrd2S6xAJfaIekgqx8WB0blEu3WShOZSJjIn2fY4929hSavMyYw159R158ZpQS4gqc6Ig-ZbEjkj-ABZGJF",
+        "cid": "16218874008936272118",
+        "fid": "0x549879e8d4f26dd1:0xe11503fad77650f6",
+        "placeId": "ChIJ0W3y1Oh5mFQR9lB21_oDFeE"
+      },
+      {
+        "position": 15,
+        "title": "Lourdes Joint & Spine",
+        "address": "520 N 4th Ave, Pasco, WA 99301",
+        "latitude": 46.2349788,
+        "longitude": -119.09580779999999,
+        "rating": 3.7,
+        "ratingCount": 3,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical clinic",
+          "Surgeon"
+        ],
+        "website": "https://www.yourlourdes.com/orthopedics",
+        "phoneNumber": "(509) 542-3026",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "cid": "13538582970925736102",
+        "fid": "0x54987ee9ae86377f:0xbbe2b57b482e60a6",
+        "placeId": "ChIJfzeGrul-mFQRpmAuSHu14rs"
+      },
+      {
+        "position": 16,
+        "title": "Andros Orthodontics",
+        "address": "5701 Bedford St, Pasco, WA 99301",
+        "latitude": 46.2790775,
+        "longitude": -119.2172942,
+        "rating": 4.9,
+        "ratingCount": 233,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://androsorthodontics.com/",
+        "phoneNumber": "(509) 792-1008",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appts/andros-orthodontics",
+          "https://www.zocdoc.com/practice/andros-orthodontics-168397?LocIdent=382977&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_1B26QmzpXk-lH0wuNmjxtQ-lo_wxa5mTiXIkmtcJ_YauuNKg-entity&rwg_token=AFd1xnGetULOK-vkD-qtCdYMNk-hSoevIrrxMI2Wggj_C67YJNduigap_XQ0BF8dp03A96K7HUxfNmnGAEQEFWNPQOecWip41A9Sqd188U3LX4IKLKLu4Wg%3D",
+          "https://nexhealth.info/book/appt/andros-orthodontics?lid=112217&rwg_token=AFd1xnE2hWC1vm3dk6hCG-ZlrG3NmatPL1gklEil58paGfZpD4VY-8vGhoRy2fbmWI6r6okt23euGsN30rUaeLfDPHNRYo0WD4j9quLVYT8P7CmnUSli278%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGBWqx50wWcLTodvUsCnj2mSav9X4eai9gMp3JrWCs8o4JpzyCXBkSIQQym34vadlxj3Mp1tR6Vuy9avi1XXh5UCjA3YRb-5WLisxHclx5hr9XSKMkXs2XSoFEQv0zMtBZtEbuwg",
+        "cid": "14929529299277066138",
+        "fid": "0x54987b0cd57053e3:0xcf3057cc33322f9a",
+        "placeId": "ChIJ41Nw1Qx7mFQRmi8yM8xXMM8"
+      },
+      {
+        "position": 17,
+        "title": "Jade Orthodontics",
+        "address": "1410 N Pittsburgh St # B2, Kennewick, WA 99336",
+        "latitude": 46.226413699999995,
+        "longitude": -119.2399215,
+        "rating": 4.9,
+        "ratingCount": 87,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "http://www.jadeorthodontics.com/",
+        "phoneNumber": "(509) 736-2000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGy_AHbKaSrZd0BtpE75TQD_bsM_AFcqrqhdxOvPK0aSTzUXnIGKPaXUYO8d8LENTJSlKqA41XMX2uwWa75nczSkhsJ89Za6MLYS-osMdJA3bYosAuuyalw_MbTc7iMjirep2ifvw",
+        "cid": "11771548885656315969",
+        "fid": "0x54987a1cf453ce47:0xa35cf157d9b0a841",
+        "placeId": "ChIJR85T9Bx6mFQRQaiw2VfxXKM"
+      },
+      {
+        "position": 18,
+        "title": "Almond Orthodontics",
+        "address": "8305 W Quinault Ave Suite 110, Kennewick, WA 99336",
+        "latitude": 46.2235939,
+        "longitude": -119.2339399,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.almondsmiles.com/",
+        "phoneNumber": "(509) 628-0110",
+        "openingHours": {
+          "Thursday": "7:15 AM–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:15 AM–4:30 PM",
+          "Tuesday": "7:15 AM–4:30 PM",
+          "Wednesday": "12–4:30 PM"
+        },
+        "bookingLinks": [
+          "http://www.almondsmiles.com/contact-us/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAET-eswnpmQtk58qP_6QW_5MtCiWzfAJBiOV1aIdN4cUeqXxLy83SyUcIUKr-NYULMwfIjWulmSY7litcf9MUd0nUn7dp1IdOEQT3wNaOToXzFYG3-yVSGfE8gGzxauKZ1TJQNm",
+        "cid": "9275307961655061141",
+        "fid": "0x549870bc9f0b6399:0x80b88372cccd6a95",
+        "placeId": "ChIJmWMLn7xwmFQRlWrNzHKDuIA"
+      },
+      {
+        "position": 19,
+        "title": "Johnathan R. Perry, MD",
+        "address": "6703 W Rio Grande Ave suite b, Kennewick, WA 99336",
+        "latitude": 46.220825,
+        "longitude": -119.2110831,
+        "rating": 5,
+        "ratingCount": 352,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://tcortho.com/our-experts/johnathan-r-perry-md/?utm_source=GMBSocialClimb&utm_medium=JohnathanR.Perry,MD#utm_source=GMB+Website+Button&utm_campaign=Practicioner+Perry",
+        "phoneNumber": "(509) 460-5588",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFeCTeVCTbpri94OtPz2_3wsAKuO0Bj807u8elpyMbChWgGcF4wY2CVxT6yPWoRG8AhYOcxpxCJb6eqqpFEE2uzfLRxVMe2nEFaWniFZAHv8s86zRYWP9XFwWl27ZyTOC0viJ9C",
+        "cid": "9900827833420518373",
+        "fid": "0x5498798e0241ad79:0x8966ce75295493e5",
+        "placeId": "ChIJea1BAo55mFQR5ZNUKXXOZok"
+      },
+      {
+        "position": 20,
+        "title": "Janmeet Sahota, DO",
+        "address": "821 Swift Blvd, Richland, WA 99352",
+        "latitude": 46.2207377,
+        "longitude": -119.21128429999999,
+        "rating": 4.9,
+        "ratingCount": 71,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor"
+        ],
+        "website": "https://apexspineinstitute.com/?utm_source=GMB&utm_medium=website&utm_campaign=button",
+        "phoneNumber": "(509) 606-5040",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://apexspineinstitute.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2Sdn9sVNuGw7f5skuSoKSANpcD-EjUj1KfnMAkA19qmQV6C_yaPGGZIazUrN3qz9fuNQ32iMaF6C54RAjk4NhWM4rMLtv47zglnyxcXLb8E6x3ynFOFmM7U6k0zZWTxrE_9AU",
+        "cid": "16536919942859540615",
+        "fid": "0x5498798e0241ad79:0xe57ef11259374887",
+        "placeId": "ChIJea1BAo55mFQRh0g3WRLxfuU"
+      }
+    ],
+    "credits": 3
+  }
+}

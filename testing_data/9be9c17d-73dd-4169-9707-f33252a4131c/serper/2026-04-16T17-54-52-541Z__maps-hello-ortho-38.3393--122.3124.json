@@ -1,0 +1,153 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.33934,-122.312416",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM5MzQsLTEyMi4zMTI0MTY=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.33934,-122.312416",
+      "engine": "google"
+    },
+    "ll": "@39.5057974,-98.1351815,4z",
+    "places": [
+      {
+        "position": 1,
+        "title": "hellosmile Pediatric Dental Brooklyn",
+        "address": "206 7th Ave 2nd floor, Brooklyn, NY 11215",
+        "latitude": 40.670892099999996,
+        "longitude": -73.97844979999999,
+        "rating": 4.5,
+        "ratingCount": 118,
+        "type": "Pediatric dentist",
+        "types": [
+          "Pediatric dentist"
+        ],
+        "website": "https://www.hellosmile.com/clinics/pspd/",
+        "phoneNumber": "(718) 899-5136",
+        "openingHours": {
+          "Thursday": "1–6 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "11 AM–6 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://patientviewer.com/WebFormsGWT/GWT/WebForms/WebForms.html?DentalOfficeID=39457&WebSheetDefID=23721"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXFQr0BhzMlNWwj3I-rZyPUqinvWNgbm8yMJPVdHZGlGZJ_tKoDCai8IFPnOziMX4awoeaEQ0hvLOrm4CURHXFYg1gZzOaBvk2FpONlwi0QYQDkJ5XgPbgJv36pZTSMB4g9QU",
+        "cid": "5297215021070281027",
+        "fid": "0x89c25b015da7a88f:0x49837cfeedc1e943",
+        "placeId": "ChIJj6inXQFbwokRQ-nB7f58g0k"
+      },
+      {
+        "position": 2,
+        "title": "Hanson Place Orthodontics",
+        "address": "1 Hanson Pl #702, floor 7, Brooklyn, NY 11243",
+        "latitude": 40.685389199999996,
+        "longitude": -73.97769819999999,
+        "rating": 4.7,
+        "ratingCount": 256,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.hansonplaceortho.com/",
+        "phoneNumber": "(718) 622-2695",
+        "openingHours": {
+          "Thursday": "9 AM–5:30 PM",
+          "Friday": "9 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5:30 PM",
+          "Tuesday": "9 AM–5:30 PM",
+          "Wednesday": "9 AM–5:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.hansonplaceortho.com/for-new-patients/contact-us/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHvSsQicqMXD_z9vbl3cBF0n3J9X154RGXNjJCbArcAuTSYFbruB-2fuwFj31NI0my8IVl6loBRZmpkKWHMIfqulqwapQOlls1OWDBou8eKqaARd0VcI-bhngav26E1sTzH-IEdyg",
+        "cid": "4127651694068211171",
+        "fid": "0x89c25badf7f5ab9f:0x39485d58b5799de3",
+        "placeId": "ChIJn6v1961bwokR4515tVhdSDk"
+      },
+      {
+        "position": 3,
+        "title": "Orthodontic Studio of Brooklyn",
+        "address": "1 Hanson Pl #705, Brooklyn, NY 11243",
+        "latitude": 40.6857299,
+        "longitude": -73.97790719999999,
+        "rating": 4.9,
+        "ratingCount": 83,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://orthodonticstudiobrooklyn.com/",
+        "phoneNumber": "(718) 638-7832",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://orthodonticstudiobrooklyn.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZsUCTbargnT4DAY2ymYY47Gsr-ELia8y8DaNaV1v_8FUSa_4L26g3VH7NIxlRTcFyJnWbrj6sVVMf5aXtBTL6f-D3kM2-boJQaCJoNULyH-afde5xeM2cN9UZHMFh31xCcxA",
+        "cid": "12952251821042316979",
+        "fid": "0x89c25badf811aadf:0xb3bfa46842a236b3",
+        "placeId": "ChIJ36oR-K1bwokRszaiQmikv7M"
+      },
+      {
+        "position": 4,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnE6yoQ8aMaCmlg7AesJ_26bmyPDGnTrLVWNR2LZFEZuQkFQ9LLgEz2aRn20kSY38v9o_pZgIFpSHS41xt4hwKQXU8MJYKTlaNDbRcLCVfTQjFA7HSc%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnGommSwpyvEbOlpX7W4zhHLN9NDoweY4HrF-AHHNzYSfDMjaq7eZ1gTTPahYutnDB09OcoSnNoCfLcws0viAXgCkTkzezMshTTQlrxRuXMIYV_xelo%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.31239,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzEyMzksLTEyMi4yODk1MTQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.31239,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@40.1242654,-79.8806555,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Penn Highlands Orthopedics and Sports Medicine",
+        "address": "625 Lincoln Ave Ste 107, North Charleroi, PA 15022",
+        "latitude": 40.1494193,
+        "longitude": -79.9069775,
+        "rating": 2.5,
+        "ratingCount": 13,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor"
+        ],
+        "website": "http://www.phhealthcare.org/",
+        "phoneNumber": "(724) 379-5802",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElUYZAjJ_n97KYDqraCPQywTN0TuUBbP-CneWFS9WVUdZqxDFf_ipvS7fFzaoXqDGi_FViyeLS-KhKIZyoD1DCqnRzKDBFGAYjUmoizONqU5-3TEtuwdd1SHD9gFq6jmhvC1A7",
+        "cid": "2708209393168812343",
+        "fid": "0x88351cc3be26767d:0x25957e1829340937",
+        "placeId": "ChIJfXYmvsMcNYgRNwk0KRh-lSU"
+      },
+      {
+        "position": 2,
+        "title": "Advanced Orthopaedics & Rehabilitation",
+        "address": "1200 McKean Ave Suite #106, Charleroi, PA 15022",
+        "latitude": 40.144942,
+        "longitude": -79.90446779999999,
+        "rating": 4.1,
+        "ratingCount": 14,
+        "type": "Surgical center",
+        "types": [
+          "Surgical center",
+          "Physician assistant"
+        ],
+        "website": "https://advancedorthopaedics.net/",
+        "phoneNumber": "(724) 225-8657",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://advancedorthopaedics.net/appointment_request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhRm9cqvC4GSukI-oQ1hVsFdVslhCW8C3JsSMbGbC2eRT1BQBc2boXRuhdAwR09LIr4SDyVpXIFRs7OWwiXKgo_9aeMMtaEJhEot36d_jUvh2N7HZBQj8MtQTDkX7wbotPcYeSmVMYYAQ1",
+        "cid": "6024144729203895500",
+        "fid": "0x88351cdb0732bc09:0x539a0fb6c3bd6ccc",
+        "placeId": "ChIJCbwyB9scNYgRzGy9w7YPmlM"
+      },
+      {
+        "position": 3,
+        "title": "Steel City Orthodontics",
+        "address": "17 Arentzen Blvd #102, Charleroi, PA 15022",
+        "latitude": 40.1250073,
+        "longitude": -79.8859449,
+        "rating": 4.9,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.steelcityorthodontics.com/",
+        "phoneNumber": "(724) 483-4808",
+        "openingHours": {
+          "Thursday": "9:30 AM–6:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9:30 AM–6:30 PM",
+          "Tuesday": "9:30 AM–6:30 PM",
+          "Wednesday": "9:30 AM–6:30 PM"
+        },
+        "bookingLinks": [
+          "https://steelcityorthodontics.com/request-a-consultation/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFr7SXX9ws3clawRwzSpaj8JTxxbSvvs8UgPPXXRXJok-orpVbUvVcjiKdOMjzW7lIdSKTxP6zLOkuxCpf77VHFV0womRQ3vNcgQQZm_3Vq021nbCsT_wnHVWm_Ed4QSTaOVtgBkSpP8cI",
+        "cid": "14680401782476623649",
+        "fid": "0x88351d8c82970169:0xcbbb43a41c87cf21",
+        "placeId": "ChIJaQGXgowdNYgRIc-HHKRDu8s"
+      },
+      {
+        "position": 4,
+        "title": "The Orthopedic Group",
+        "address": "#400, 800 Plaza Dr #800 Suite 180, Belle Vernon, PA 15012",
+        "latitude": 40.187191999999996,
+        "longitude": -79.81244749999999,
+        "rating": 2.8,
+        "ratingCount": 46,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.theorthopedicgroup.com/",
+        "phoneNumber": "(724) 379-5802",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "cid": "10245127513979828029",
+        "fid": "0x8834e1e1c6caa33d:0x8e2e01316559373d",
+        "placeId": "ChIJPaPKxuHhNIgRPTdZZTEBLo4"
+      },
+      {
+        "position": 5,
+        "title": "The Orthopedic Institute at Monongahela Valley Hospital",
+        "address": "1163 Country Club Rd, Monongahela, PA 15063",
+        "latitude": 40.1817517,
+        "longitude": -79.91140709999999,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical Center"
+        ],
+        "website": "https://www.phhealthcare.org/news/penn-highlands-mon-valley-news/monongahela-valley-hospitals-orthopedic-institute-and-the-orthopedic-group-introduce-rosa-knee-system-for-total-knee-replacement",
+        "phoneNumber": "(724) 258-1218",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8nwFWqGTbLkaz9bX3Z8BoRZw2I0KUimsC5A_b95aAhc7AaYJ50BrQbimmX-vAf2KD_g16GP5CYV2c20dBbcMKWxhgaMiZFlqGzSNggLLrd2s5k1oNjUVZdxdQuOiGlTanJbj1Lw",
+        "cid": "7952819681335262646",
+        "fid": "0x88351d4e56945eaf:0x6e5e175d44b93db6",
+        "placeId": "ChIJr16UVk4dNYgRtj25RF0XXm4"
+      },
+      {
+        "position": 6,
+        "title": "South Hills Orthopaedic Surgery Associates, P.C.",
+        "address": "211 2000 Oxford Dr, Bethel Park, PA 15102",
+        "latitude": 40.3440571,
+        "longitude": -80.05255199999999,
+        "rating": 4.9,
+        "ratingCount": 2476,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist",
+          "Podiatrist"
+        ],
+        "website": "http://southhillsortho.com/",
+        "phoneNumber": "(412) 283-0260",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–2:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVpDtFdX0JiX63hpsqji8fqMgG5rxA3r9NWrjduwHurkgCzIBXKPqZDgqNOJSqy_bLiE39p28nAtthOsasRQxK7WKto3uunATHDrgbClt-Mi3Rl2U9Mk1L1m7j-RRaGasj4G4R1Q",
+        "cid": "12327514648694940739",
+        "fid": "0x8834f9b41b411397:0xab1421424ee2e443",
+        "placeId": "ChIJlxNBG7T5NIgRQ-TiTkIhFKs"
+      },
+      {
+        "position": 7,
+        "title": "AHN General Surgery - Jefferson Hills Specialists - Belle Vernon",
+        "address": "1533 Broad Ave Suite 200, Belle Vernon, PA 15012",
+        "latitude": 40.1361426,
+        "longitude": -79.8455614,
+        "type": "Surgeon",
+        "types": [
+          "Surgeon",
+          "Medical clinic"
+        ],
+        "website": "https://www.ahn.org/location-search/ahn-general-surgery-jefferson-hills-specialists-belle-vernon-247773?utm_source=G&utm_medium=local&utm_campaign=google-local",
+        "phoneNumber": "(412) 469-7110",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.ahn.org/appointments/video-visits?utm_source=G&utm_medium=local&utm_campaign=google-local"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9DYPIDyzcVWp4AOy9XOa98G7reWoc3eun8Eu7MSbT-VGauaqfp7Sk_YGq4cTlL5jNmxShXvvWX-aMJ7DJGUhfDz_0Dzs1pDyRqdBN27Qe3X0Z42S90DPwLXS4oIIK3SYnMcwfVxJaMyDj",
+        "cid": "15949377617618872496",
+        "fid": "0x88351de530b7b2fd:0xdd57927096bd28b0",
+        "placeId": "ChIJ_bK3MOUdNYgRsCi9lnCSV90"
+      },
+      {
+        "position": 8,
+        "title": "South Hills Orthopaedics: Sports Medicine & Physical Therapy",
+        "address": "100 Siena Dr, Upper St Clair, PA 15241",
+        "latitude": 40.3470059,
+        "longitude": -80.057371,
+        "rating": 4.9,
+        "ratingCount": 1261,
+        "type": "Medical office",
+        "types": [
+          "Medical office",
+          "Pain management physician",
+          "Physical therapy clinic"
+        ],
+        "website": "http://www.southhillsortho.com/",
+        "phoneNumber": "(412) 409-2600",
+        "openingHours": {
+          "Thursday": "7 AM–7 PM",
+          "Friday": "7 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–7 PM",
+          "Tuesday": "7 AM–7 PM",
+          "Wednesday": "7 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQhVTz7BiXt9YQYZuykEMP7wsV9MPhPPNxGPDGwTG0pld7hxNxLc_S_HEOZpU3-W7vtvbU30eAP5kg9mbmX8bsIAPhoCobNP2GG6Fbs8tRjVoVzl-YIc_VStlJaiNm3gBW47atgRBXfXw8",
+        "cid": "5577679295246746626",
+        "fid": "0x8834f92ad38c69ef:0x4d67e5c4683bc402",
+        "placeId": "ChIJ72mM0yr5NIgRAsQ7aMTlZ00"
+      },
+      {
+        "position": 9,
+        "title": "OSPTA - Belle Vernon",
+        "address": "812 Broad Ave, Belle Vernon, PA 15012",
+        "latitude": 40.1319036,
+        "longitude": -79.8596287,
+        "rating": 5,
+        "ratingCount": 104,
+        "type": "Physical therapist",
+        "types": [
+          "Physical therapist",
+          "Physical therapy clinic"
+        ],
+        "website": "https://osptainc.com/locations/belle-vernon/",
+        "phoneNumber": "(724) 929-5774",
+        "openingHours": {
+          "Thursday": "7 AM–8 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–8 PM",
+          "Tuesday": "7 AM–8 PM",
+          "Wednesday": "8 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqlyJLE82kjO0ac3W9GPz4dFrJY1VwjDluL3-BMzXStr0QpNmTBtt0g6I1H1k-X3osJHtEnrqUSDsNDNMYZVPOA2Z8yde_cp8gE_flH4WK7mpk_i1ty22CgRjQUa9JO0ZcAvgk",
+        "cid": "3293797163365243163",
+        "fid": "0x88351c668eb2a9ad:0x2db5eb119c93191b",
+        "placeId": "ChIJramyjmYcNYgRGxmTnBHrtS0"
+      },
+      {
+        "position": 10,
+        "title": "OSPTA - Charleroi",
+        "address": "625 Lincoln Ave Ste 107, Charleroi, PA 15022",
+        "latitude": 40.1492742,
+        "longitude": -79.9069477,
+        "rating": 5,
+        "ratingCount": 186,
+        "type": "Physical therapist",
+        "types": [
+          "Physical therapist",
+          "Physical therapy clinic"
+        ],
+        "website": "https://osptainc.com/locations/charleroi/",
+        "phoneNumber": "(724) 483-4886",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–8 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–8 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXOjVbXVSBz0BVUsi9p5PYDgNJv4BozRkTC_2uGqagghp8GOXGl0uChcGeptNBlgSLcSNmriJE3RhUy9F96xtnet1S58pClOEw6diNUYS268NqCq4d1y4YZDMLTm3-snpRRqHv",
+        "cid": "18256234016614456854",
+        "fid": "0x88351cc3be26767d:0xfd5b2c1cc8b51e16",
+        "placeId": "ChIJfXYmvsMcNYgRFh61yBwsW_0"
+      },
+      {
+        "position": 11,
+        "title": "Orthopaedic Specialists UPMC",
+        "address": "95 Leonard Ave Building 1, Suite 202, Washington, PA 15301",
+        "latitude": 40.181985399999995,
+        "longitude": -80.2407949,
+        "rating": 3.4,
+        "ratingCount": 8,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical group",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.upmc.com/services/orthopaedics/locations/southwest-pa/washington/95-leonard-ave-suite-202?utm_source=google&utm_medium=organic&utm_campaign=business-profile&utm_content=orthopaedics-swpa-orthopaedic-specialists-upmc",
+        "phoneNumber": "(724) 206-0610",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.upmc.com/services/orthopaedics/contact"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf7buRbxLpIdPy8CU7tmBnM-GXiuwECVhbLfocbVqZcqk1RAROowVQ0V3ogO_fbbYZeV3kUTkBVRB-MnGECY2n6yeI93J2R3wc232QH7xaqJ1JRW0yZo9t6P1jdRsg_FPVulm6",
+        "cid": "13509309392631019184",
+        "fid": "0x8835ada82aaa8faf:0xbb7ab551349eb6b0",
+        "placeId": "ChIJr4-qKqitNYgRsLaeNFG1ers"
+      },
+      {
+        "position": 12,
+        "title": "Orthopaedic Specialists-UPMC",
+        "address": "410 Pellis Rd # 1B, Greensburg, PA 15601",
+        "latitude": 40.2960859,
+        "longitude": -79.5205162,
+        "rating": 4.7,
+        "ratingCount": 3,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.upmc.com/services/orthopaedics/locations/southwest-pa/greensburg/410-pellis-rd-suite-1b?utm_source=google&utm_medium=organic&utm_campaign=business-profile&utm_content=orthopaedics-swpa-orthopaedic-specialists-upmc",
+        "phoneNumber": "(877) 471-0935",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.upmc.com/services/orthopaedics/contact"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ysAun9rBAb-6MZ6wF3d7Vw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=305.89923&pitch=0&thumbfov=100",
+        "cid": "8696122438063841666",
+        "fid": "0x8834d073bfa7499f:0x78aed5488c196182",
+        "placeId": "ChIJn0mnv3PQNIgRgmEZjEjVrng"
+      },
+      {
+        "position": 13,
+        "title": "Highlands Hospital Orthopedics & Sports Medicine",
+        "address": "401 E Murphy Ave, Connellsville, PA 15425",
+        "latitude": 40.022996299999996,
+        "longitude": -79.5867128,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.highlandshospital.org/general-information/highlands-offsitelocations",
+        "phoneNumber": "(724) 626-2485",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XXXxLT_DzcDaJEid9B7RGQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=212.78757&pitch=0&thumbfov=100",
+        "cid": "844567034831588426",
+        "fid": "0x8835253e29c75a21:0xbb8813e54244c4a",
+        "placeId": "ChIJIVrHKT4lNYgRSkwkVD6BuAs"
+      },
+      {
+        "position": 14,
+        "title": "Regenix Orthopedic Group, Dr. Ari Pressman MD",
+        "address": "104 Delaware Ave # 100, Uniontown, PA 15401",
+        "latitude": 39.901525,
+        "longitude": -79.742965,
+        "rating": 3.6,
+        "ratingCount": 39,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical group",
+          "Orthopedic clinic",
+          "Surgeon"
+        ],
+        "website": "http://www.regenixorthopedicgroup.com/",
+        "phoneNumber": "(724) 220-6990",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHq4xVaO8I8ZpGXB-KQW4e21d0AVIRJGO418AakczRbb-C45tDcY25-cxueIWgjAREw345oYI-ztLKh21Sn23G4eibClt3gTZtZTLIDzICOomXAGPrFtmuE1pRVldESsAjS2GARWi77yZgQ",
+        "cid": "9937963567298917967",
+        "fid": "0x88351586e203ffb3:0x89eabd35fba0364f",
+        "placeId": "ChIJs_8D4oYVNYgRTzag-zW96ok"
+      },
+      {
+        "position": 15,
+        "title": "Sheba Orthopedics",
+        "address": "150 Wayland Smith Dr A, Uniontown, PA 15401",
+        "latitude": 39.912448999999995,
+        "longitude": -79.7548841,
+        "rating": 4.1,
+        "ratingCount": 9,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://www.shebaorthopedics.com/",
+        "phoneNumber": "(724) 437-8200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4Ls5Jwz4oDyRMhHWPmKzeA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=220.16911&pitch=0&thumbfov=100",
+        "cid": "2764688288344928790",
+        "fid": "0x88351593bc110471:0x265e2559ad7b7216",
+        "placeId": "ChIJcQQRvJMVNYgRFnJ7rVklXiY"
+      },
+      {
+        "position": 16,
+        "title": "Enduracare Orthotic & Prosthetic Services, LLC",
+        "address": "Tri-County Professional Building, 638 Rostraver Rd #102, Belle Vernon, PA 15012",
+        "latitude": 40.1338424,
+        "longitude": -79.84262079999999,
+        "rating": 3.1,
+        "ratingCount": 9,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service"
+        ],
+        "website": "https://www.enduracareop.com/",
+        "phoneNumber": "(724) 930-8544",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHc2Y6uBlIYVzBNWvyfa8ecxJjjw7enbooxwOJxGNwYAYceb2eerDHCq8jPJYj2OfsN3pvkNWoD_ZdJ9dG5GhyJM_obUih7sm8Nz0rbpOcuOkaLUATeVDCUf8PDxA0zhaxXorBr",
+        "cid": "5189619419382754548",
+        "fid": "0x88351c3b3d093e9d:0x48053b5dbbc72cf4",
+        "placeId": "ChIJnT4JPTscNYgR9CzHu107BUg"
+      },
+      {
+        "position": 17,
+        "title": "Orthopaedic Specialists UPMC",
+        "address": "2001 Lincoln Way, White Oak, PA 15131",
+        "latitude": 40.3371633,
+        "longitude": -79.8053446,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.upmc.com/services/orthopaedics/locations/southwest-pa/white-oak?utm_source=google&utm_medium=organic&utm_campaign=business-profile&utm_content=orthopaedics-swpa-orthopaedic-specialists-upmc",
+        "phoneNumber": "(412) 664-3040",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.upmc.com/services/orthopaedics/contact"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5C59smwnNvZ9ZEx41atn5g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=66.58613&pitch=0&thumbfov=100",
+        "cid": "16645560271954589603",
+        "fid": "0x8834e7f6c29f529b:0xe700e8e0193537a3",
+        "placeId": "ChIJm1KfwvbnNIgRozc1GeDoAOc"
+      },
+      {
+        "position": 18,
+        "title": "WVU Medicine Uniontown Hospital -- Orthopedics and Spine Center",
+        "address": "419 Coyle Curtin Rd, Monongahela, PA 15063",
+        "latitude": 40.1649689,
+        "longitude": -79.9223894,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://wvumedicine.org/uniontown/services/orthopedics/?sub=https://wvumedicine.org/uniontown/services/orthopedics/spine-neck-and-back/",
+        "phoneNumber": "(724) 912-7533",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ODnVG83RDRk1VLmdypBYYQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=283.3669&pitch=0&thumbfov=100",
+        "cid": "8736584773318891992",
+        "fid": "0x883503004fbb2d57:0x793e95901bc259d8",
+        "placeId": "ChIJVy27TwADNYgR2FnCG5CVPnk"
+      },
+      {
+        "position": 19,
+        "title": "Regenix Orthopedic Group, Dr. Ari Pressman MD",
+        "address": "Spartan Health, 100 Stoops Dr Suite 310, Monongahela, PA 15063",
+        "latitude": 40.162306,
+        "longitude": -79.924658,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.regenixorthopedics.com/",
+        "phoneNumber": "(724) 220-6990",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcFg_xZNDvJ_p-c9REOI5oAtiQXoQH2X1B4ctPbqxzehbpSXSzJropnycuW3AP879oQdIMwBPRjpQlAysX9Ijmx47J1Rn2-fd4IhlhmQM9SqlCZ_gxiw-uXba15OxfhX66bDchwQRQ8uMp",
+        "cid": "4815749543447450017",
+        "fid": "0x883503a135888cdb:0x42d4fab1e06f51a1",
+        "placeId": "ChIJ24yINaEDNYgRoVFv4LH61EI"
+      },
+      {
+        "position": 20,
+        "title": "Penn Highlands Mon Valley",
+        "address": "1163 Country Club Rd, Monongahela, PA 15063",
+        "latitude": 40.181655,
+        "longitude": -79.9113036,
+        "rating": 2.1,
+        "ratingCount": 329,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Emergency care service",
+          "Emergency room",
+          "Hospital",
+          "Urgent care center",
+          "Weight loss service"
+        ],
+        "website": "https://www.monvalleyhospital.com/",
+        "phoneNumber": "(724) 258-1000",
+        "openingHours": {
+          "Thursday": "Open 24 hours",
+          "Friday": "Open 24 hours",
+          "Saturday": "Open 24 hours",
+          "Sunday": "Open 24 hours",
+          "Monday": "Open 24 hours",
+          "Tuesday": "Open 24 hours",
+          "Wednesday": "Open 24 hours"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFeSBG8ABL2K4qHJVZvEojDKHdaicyu7AvIWq-OaWGdf-gP-tU_FLyo0wSU46ptlyGXdpCLwcAV2WV7rx9rixJGNrRYMFgfBY4bcak_UvD9i7Ln4mSNgwqNyzx_MrWFAoCRJy0Qow",
+        "cid": "18007867663687491075",
+        "fid": "0x88351d4e515500d7:0xf9e8cc3af8561e03",
+        "placeId": "ChIJ1wBVUU4dNYgRAx5W-DrM6Pk"
+      }
+    ],
+    "credits": 3
+  }
+}

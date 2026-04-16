@@ -1,0 +1,378 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.321373,-122.283789",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzIxMzczLC0xMjIuMjgzNzg5",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.321373,-122.283789",
+      "engine": "google"
+    },
+    "ll": "@32.4948,-93.7430028,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Lang Orthodontics",
+        "address": "814 Pierremont Rd, Shreveport, LA 71106",
+        "latitude": 32.4550745,
+        "longitude": -93.74704,
+        "rating": 4.9,
+        "ratingCount": 306,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://geauxsmile.com/",
+        "phoneNumber": "(318) 861-0700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEFTpwdo_H42GOKUFhjqeChqsfJCWqeWv2acXPceKhgwR-nAgNWcSxudOCv-FEt_XXZp2FSNOt2vD5T7390Z7v8ZHfytyt9dwk4ZbKiKGlOxTnc-kPO1SPJYbUDQV8Kn9m3g1v",
+        "cid": "13059453472981219569",
+        "fid": "0x8636d2cbbe79c547:0xb53c7fbde1c978f1",
+        "placeId": "ChIJR8V5vsvSNoYR8XjJ4b1_PLU"
+      },
+      {
+        "position": 2,
+        "title": "Cosse & Silmon Orthodontics",
+        "address": "230 Carroll St, Shreveport, LA 71105",
+        "latitude": 32.4533686,
+        "longitude": -93.7210751,
+        "rating": 5,
+        "ratingCount": 1360,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.cosseortho.com/",
+        "phoneNumber": "(318) 392-1173",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLffzYhF1y2_Wav7wHSJY6j6YeSX7HMFBTcs9muWlzYa7-5FllgFC5pd5X60wU222VacmTAhfKgxMvYC30XJR-JrhJV518y2TkiLE8MFtRA3-MEsNFSpYi33NU9WKLMFmYXEfHSY-iizLR",
+        "cid": "11369787208290231291",
+        "fid": "0x86312d166290cfa1:0x9dc99939e9eb63fb",
+        "placeId": "ChIJoc-QYhYtMYYR-2Pr6TmZyZ0"
+      },
+      {
+        "position": 3,
+        "title": "Graf Orthodontics - Shreveport",
+        "address": "6930 Fern Ave Ste 250, Shreveport, LA 71105",
+        "latitude": 32.4454012,
+        "longitude": -93.7305497,
+        "rating": 5,
+        "ratingCount": 633,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental clinic",
+          "Dentist",
+          "Oral surgeon"
+        ],
+        "website": "https://grafortho.com/location/orthodontist-in-shreveport-la/",
+        "phoneNumber": "(318) 742-9274",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://grafortho.com/orthodontic-appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFG7GDzfVyqqrkA6xjwxuebR0GsmSqUvvEajp7A1nm8RwnJaO_hYTtC8v5QJedVD9wnHAjmblE_z8mzaDTxa-Sw8iu5B7q3nnzgb2mHbXBTPpBz9J5t1EduqfwMJdh7jzDHCPUg",
+        "cid": "6474420511687954769",
+        "fid": "0x86312d244fee3cef:0x59d9c32705a9d151",
+        "placeId": "ChIJ7zzuTyQtMYYRUdGpBSfD2Vk"
+      },
+      {
+        "position": 4,
+        "title": "Foster Orthodontics",
+        "address": "1914 E 70th St STE H, Shreveport, LA 71105",
+        "latitude": 32.4437905,
+        "longitude": -93.710843,
+        "rating": 4.9,
+        "ratingCount": 158,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://www.fosterortho.com/",
+        "phoneNumber": "(318) 797-8833",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.fosterortho.com/patient-information/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6t2ezP4exSG3wPmG8jJEl25x_3N35sEtqFdCpgmOSRMRKzjloUoUkNTfU79kkrtf1ruv39Ub1thrMOfERHEz-T6DChIUl7QyX-xzIBJHuvNIGoLSKeEVDvBDAeyDBfZc1y-s",
+        "cid": "3909786053185915850",
+        "fid": "0x86312d1956b499cf:0x364259b34fec4bca",
+        "placeId": "ChIJz5m0VhktMYYRykvsT7NZQjY"
+      },
+      {
+        "position": 5,
+        "title": "Cook Orthodontics",
+        "address": "310 Carroll St, Shreveport, LA 71105",
+        "latitude": 32.453309,
+        "longitude": -93.72289409999999,
+        "rating": 5,
+        "ratingCount": 3,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.drcookortho.com/",
+        "phoneNumber": "(318) 869-1672",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KAqGZEPJLO_46CeCs_hqGg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=9.746855&pitch=0&thumbfov=100",
+        "cid": "7118440047337249942",
+        "fid": "0x86312d161c831f15:0x62c9c78208739c96",
+        "placeId": "ChIJFR-DHBYtMYYRlpxzCILHyWI"
+      },
+      {
+        "position": 6,
+        "title": "Louisiana Orthodontic Specialists",
+        "address": "2515 Southside Dr, Shreveport, LA 71118",
+        "latitude": 32.4126274,
+        "longitude": -93.79476509999999,
+        "rating": 4.9,
+        "ratingCount": 64,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://weence.com/medical/doctors/shreveport/louisiana-orthodontic-specialists-2/",
+        "phoneNumber": "(318) 688-2225",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Oacch9SNXztxRIsrtiH7Tw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=160.31065&pitch=0&thumbfov=100",
+        "cid": "17517689760267863906",
+        "fid": "0x8636d39231af4483:0xf31b560636438762",
+        "placeId": "ChIJg0SvMZLTNoYRYodDNgZWG_M"
+      },
+      {
+        "position": 7,
+        "title": "Dr. Peter H. Nasser",
+        "address": "9091 Ellerbe Rd, Shreveport, LA 71106",
+        "latitude": 32.410758099999995,
+        "longitude": -93.7380374,
+        "rating": 5,
+        "ratingCount": 194,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://nasserorthodontics.com/",
+        "phoneNumber": "(318) 864-2860",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZmd-mGezwkqe19MRcbppPpdf7KSyd9NQkUrBr9e1c-q3BztET1prZPsK6kginso9Jlvogzo-RfxdIb3ccEePEirA9_a8Nedq2jUfcnY0CuzVa7g6-tr-s4hcg-G1nWNbfW4g",
+        "cid": "16421963676911741640",
+        "fid": "0x86312cb68410ffed:0xe3e688f4f4b12ac8",
+        "placeId": "ChIJ7f8QhLYsMYYRyCqx9PSI5uM"
+      },
+      {
+        "position": 8,
+        "title": "Foster Orthodontics",
+        "address": "3011 Airline Dr ste a, Bossier City, LA 71111",
+        "latitude": 32.5607872,
+        "longitude": -93.711647,
+        "rating": 4.9,
+        "ratingCount": 81,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://www.fosterortho.com/",
+        "phoneNumber": "(318) 741-0080",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.fosterortho.com/patient-information/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyif2DQXnjVZKfsuRjoOTpg9v3PFf3ro0vaY02cR_bSmfBZztM1fFSM7WQv4NZL5gXFvKny-aZWCDyGActfdJwYDaYLpUS6WoUoaLhX1lyuxob9fPgYClt05WAvnDvpBddHzE",
+        "cid": "8702728853343957314",
+        "fid": "0x86313373ccf82d69:0x78c64dc8781bf142",
+        "placeId": "ChIJaS34zHMzMYYRQvEbeMhNxng"
+      },
+      {
+        "position": 9,
+        "title": "Graf Orthodontics - Bossier City",
+        "address": "4375 Airline Dr, Bossier City, LA 71111",
+        "latitude": 32.5788418,
+        "longitude": -93.71473879999999,
+        "rating": 5,
+        "ratingCount": 1372,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Medical clinic",
+          "Oral surgeon"
+        ],
+        "website": "https://grafortho.com/",
+        "phoneNumber": "(318) 742-9274",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://grafortho.com/orthodontic-appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRVJ_EuluHUP9mhxQAUN-UZ8Zay7GYmiCS7Mc4G61Hh6UflNKEIOIgeO8U2aDVDdm4SBkYtQSLwvjA5WOp3vK4KaEZico2r4RZQdr4CZjlkDgYkw06Ori7HRXhJT6fdrYMloxD",
+        "cid": "5816796177426171704",
+        "fid": "0x863133aaa68efc23:0x50b9694dfe564738",
+        "placeId": "ChIJI_yOpqozMYYROEdW_k1puVA"
+      },
+      {
+        "position": 10,
+        "title": "Cosse & Silmon Orthodontics",
+        "address": "4001 Viking Dr, Bossier City, LA 71111",
+        "latitude": 32.5524151,
+        "longitude": -93.6912406,
+        "rating": 5,
+        "ratingCount": 899,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.cosseortho.com/",
+        "phoneNumber": "(318) 213-5437",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhRoAv9XuRuaiDHFpaH_ZxLMx9lDvhNb9w2zfHFrXDS4NqnD2hNXuf9BAVxu6JtWvkBw09_HA_RxJCzdM5pdOgPGPKYVDOC4woCkGUyKZrwVO_N_wu4t8J0AkDslObQ0Ug6Dj9",
+        "cid": "10996189975135131714",
+        "fid": "0x8631339793d491df:0x989a5085a6a41842",
+        "placeId": "ChIJ35HUk5czMYYRQhikpoVQmpg"
+      },
+      {
+        "position": 11,
+        "title": "Loud Family Dental",
+        "address": "2701 Frederick St, Shreveport, LA 71109",
+        "latitude": 32.4873297,
+        "longitude": -93.78050329999999,
+        "rating": 4.7,
+        "ratingCount": 78,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://www.loudfamilydentistry.com/",
+        "phoneNumber": "(318) 631-3464",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9gHB3H4HGu_MKtevf7JZ76Liy5C7BW_AbPZH9RTI9HsiqBj1A1vvSMaPvJ9cgfbvHmj_xEBfJrwq4594MN1q6ug6Ahc1G47McbHy14YIF0a3S7IxxGXxaw1nJtQq-k1GMySnl",
+        "cid": "12755671260913737853",
+        "fid": "0x8636cd7938d6e5d9:0xb1053f6dea6c207d",
+        "placeId": "ChIJ2eXWOHnNNoYRfSBs6m0_BbE"
+      },
+      {
+        "position": 12,
+        "title": "Cosse & Silmon Orthodontics",
+        "address": "9091 Ellerbe Rd, Shreveport, LA 71106",
+        "latitude": 32.4109962,
+        "longitude": -93.7379912,
+        "rating": 5,
+        "ratingCount": 6,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://nasserorthodontics.com/",
+        "phoneNumber": "(318) 786-1045",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEypoHVSSTbiC2Cdmy6YXdG8mPLRvPtFqmzYbkQt61Oa5kPxqefcMZRj1o0TMCkdP9GKwdeD2LjKEfcMkp6FDC_AJZ39ahRHVN5-yW6Kx0pSm_WyQ8MDzbN8rdGwmIpojD-EXbXhQ",
+        "cid": "5917401125901096619",
+        "fid": "0x86312cb6846e7923:0x521ed4f8e6d4d6ab",
+        "placeId": "ChIJI3luhLYsMYYRq9bU5vjUHlI"
+      }
+    ],
+    "credits": 3
+  }
+}

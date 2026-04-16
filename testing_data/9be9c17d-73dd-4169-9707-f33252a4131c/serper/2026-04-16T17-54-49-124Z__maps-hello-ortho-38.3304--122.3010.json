@@ -1,0 +1,180 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Hello Ortho",
+    "location": "38.330356,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Hello Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@37.1867957,-99.9202901,4z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Trü Orthodontics Springfield",
+        "address": "8134 Old Keene Mill Rd #300, West Springfield, VA 22152",
+        "latitude": 38.7817258,
+        "longitude": -77.2266083,
+        "rating": 5,
+        "ratingCount": 1136,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://westspringfield.truorthodontics.us/",
+        "phoneNumber": "(703) 440-0100",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaJ8bE0HpzL4J03v1WMYkyLFwAh_8wkmMtKrlp7KiFztrlvDkxixhOmN1n-I3MmNlA1ZiFhf-hXeUkzB2_8BIUtJHqMTSFsUKgpwUfOSfKbnMfO6zV5XT5nYVeG3YTe4cOyKhVSg",
+        "cid": "1934728349461020083",
+        "fid": "0x89b652125386dca1:0x1ad9892ee6807db3",
+        "placeId": "ChIJodyGUxJStokRs32A5i6J2Ro"
+      },
+      {
+        "position": 2,
+        "title": "Hello Ortho - Napa",
+        "address": "3449 Valle Verde Dr A, Napa, CA 94558",
+        "latitude": 38.3258649,
+        "longitude": -122.2926648,
+        "rating": 5,
+        "ratingCount": 438,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 226-5555",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://helloortho.com/book-your-appointment/",
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=323630&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_VPFkehW1fUOQMR8gm3NJ1R-entity&rwg_token=AFd1xnFKUuyvw7IWIbyHs0Wps8mf5NnSsEEU5_dRyYYY7lGS1gogZ9yq8HsIvs5IzFU0cbZPJCbZDASMqMZY5GXKYbv4I7g7kRLTlR2_8Cmk6LHRE-uymoU%3D",
+          "https://api.leadconnectorhq.com/widget/group/beeWRjBTyyULjKzwBIFc?rwg_token=AFd1xnH2pD7hRGcmZRJM7ACOzmJmrnjJfYsIgV5MjA9BPUABPVRY5-i9R_5cRud9ZdPNKaG9TwomG5mmFhf69MuaJjeySeMxvRZdI38tzsdQwkJZjsq7WqY%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1IG4mrnQ4s7nndVqX8FQoQaoUUoJHv3IxL-RMLzJAA19Vmkukgh1cmRNMwyYrWtYihBPhHFpDFUHM9JlBccOb9JPeTp5Q3-safp3e84ImKJVTqmy1ihGrFPlz-bTwjYOXazmp",
+        "cid": "6578015346104009186",
+        "fid": "0x808506c18611be55:0x5b49ce1aff9901e2",
+        "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs"
+      },
+      {
+        "position": 3,
+        "title": "Hamilton Orthodontics",
+        "address": "421 Old Honeycutt Rd, Fuquay-Varina, NC 27526",
+        "latitude": 35.589076,
+        "longitude": -78.77727399999999,
+        "rating": 5,
+        "ratingCount": 99,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.hamilton-smiles.com/",
+        "phoneNumber": "(919) 870-4443",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–12:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFK2kX0fA9nqEIdtZNPVe9WoOD2GTWhxc3dvKUVN25htGPgcSoq4etyshCUVuQZh-fNSujhKmYc4O_oW4PJ8x8fkcidmh0nogeYd1x-tU7vndX3yP4oO7fcfXl6KWp7JxVUK0g",
+        "cid": "2430760426975426415",
+        "fid": "0x89ac8f1399147eb9:0x21bbcbbac7f2776f",
+        "placeId": "ChIJuX4UmROPrIkRb3fyx7rLuyE"
+      },
+      {
+        "position": 4,
+        "title": "Hudson Orthodontics",
+        "address": "6116 Rolling Rd STE 201, Springfield, VA 22152",
+        "latitude": 38.784515299999995,
+        "longitude": -77.2381966,
+        "rating": 4.9,
+        "ratingCount": 2021,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.smilesbyhudson.com/",
+        "phoneNumber": "(703) 451-4666",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://smilesbyhudson.com/landing-page/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkmYqMo5DYVCZWZDnOlHhaAVwkUuv8MpGk355xvyhcoeojR1XWgKwMDGYsVReDYArekYDLllimrwaWj_Zqp00aA4d-sPF1ncuUtYm34cLqJVs-Lp5pOdc_398k4h2nWqIbXbqw5Q",
+        "cid": "10261546545335790759",
+        "fid": "0x89b652802f85763d:0x8e68563708e06ca7",
+        "placeId": "ChIJPXaFL4BStokRp2zgCDdWaI4"
+      },
+      {
+        "position": 5,
+        "title": "Hello Ortho - Petaluma",
+        "address": "800 Baywood Dr, Petaluma, CA 94954",
+        "latitude": 38.2332669,
+        "longitude": -122.6139719,
+        "rating": 5,
+        "ratingCount": 284,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.helloortho.com/",
+        "phoneNumber": "(707) 789-9799",
+        "openingHours": {
+          "Thursday": "8 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–6 PM",
+          "Tuesday": "8 AM–6 PM",
+          "Wednesday": "8 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hello-ortho-75196?LocIdent=299793&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_t3YtcAfDlUaFmJEBxKYgRx-lo_LN_sj_WKrUO-3KK28UacvR-entity&rwg_token=AFd1xnGpo0SrlxtsCLWg56E7s-GlydYOqW1EGuEQhw9WFd3gik2zc7fbcKtMKfTohi-1hXJur0Vt_Mp8337nj_CzN9jk-FuNUVZ5rd_xH1AWdLpVIfXbY7I%3D",
+          "https://helloortho.com/schedule/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr7gIYb2Ma6CaBzSVIefFY93mqobHQw1sHV9sVtisz83a-R04SoPB5SaiqEGIxxcg5a3uhxwyXHMbpWw8Kpxf3JKGEDf1UvytW2SV1CLEcFS5EnkFPYitNR0P8mclCz1mHfJsI",
+        "cid": "15084834865021264682",
+        "fid": "0x8085b6bcd6ada447:0xd15819630905232a",
+        "placeId": "ChIJR6St1ry2hYARKiMFCWMZWNE"
+      }
+    ],
+    "credits": 3
+  }
+}

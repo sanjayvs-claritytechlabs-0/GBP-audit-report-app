@@ -1,0 +1,652 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.330356,-122.278064",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzMwMzU2LC0xMjIuMjc4MDY0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.330356,-122.278064",
+      "engine": "google"
+    },
+    "ll": "@32.6386916,-97.3676358,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Chisholm Trail Orthopedics & Sports Medicine Fort Worth (Sycamore School Road)",
+        "address": "5540 Sycamore School Rd Suite 312, Fort Worth, TX 76123",
+        "latitude": 32.6309766,
+        "longitude": -97.4122658,
+        "rating": 4.9,
+        "ratingCount": 545,
+        "type": "Sports medicine clinic",
+        "types": [
+          "Sports medicine clinic"
+        ],
+        "website": "http://chisholmtrailorthopedics.com/",
+        "phoneNumber": "(817) 556-3212",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTCFt1etSBAKP4LFz1fvzdlXrV9QPGF4Nyy7_XecOCTou6fG2YlQDuOE4V0SU9pnjXhFCBQBhEDva0ftUfGIrcO138OU4_hZqu4L1IK2lla9YKh_r5SV9P2K7OEilmoQibVP0o0Xe-BrM",
+        "cid": "3266275241351471120",
+        "fid": "0x864e6d8574acf32f:0x2d542406cb686010",
+        "placeId": "ChIJL_OsdIVtToYREGBoywYkVC0"
+      },
+      {
+        "position": 2,
+        "title": "Texas Orthopaedic Associates",
+        "address": "5900 Altamesa Blvd Suite 100, Fort Worth, TX 76132",
+        "latitude": 32.6465897,
+        "longitude": -97.4186455,
+        "rating": 4.9,
+        "ratingCount": 1597,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Orthopedic clinic",
+          "Physical therapy clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "https://www.txorthopaedic.com/location/fort-worth/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHT0KlDPjIRNapaG3RAgoydGGnX-wnSLJkx6yzIL8PlzNrKt0Ny6OB7boYhEVZxzsVbCuo-4TC3QCSztFdbmPvM65ESuNBK7mRw2Ppft717pT8VrVOO3wsvT3ul-iT7foQMveur",
+        "cid": "1762232362973564845",
+        "fid": "0x864e716bf3831abf:0x1874b4ff56bc8fad",
+        "placeId": "ChIJvxqD82txToYRrY-8Vv-0dBg"
+      },
+      {
+        "position": 3,
+        "title": "Premier Orthopedics of Fort Worth",
+        "address": "6930 Harris Pkwy #130, Fort Worth, TX 76132",
+        "latitude": 32.6499859,
+        "longitude": -97.4199747,
+        "rating": 4.7,
+        "ratingCount": 708,
+        "type": "Nurse practitioner",
+        "types": [
+          "Nurse practitioner"
+        ],
+        "website": "http://www.drkraigpepper.com/",
+        "phoneNumber": "(817) 632-0020",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.drkraigpepper.com/schedule?utm_source=google_apt&ao=Google",
+          "https://www.tebra.com/care/practice/premier-orthopedics-of-fort-worth-416332?lid=1670769935&rwg_token=AFd1xnEsXVaTaDqkKnIk4Hyx5DllyySsK_o-iDLgvNaDRzfRO4QjAOWuYyKKlj1acejZKfmoAwHtd7HcRarNm5yqQeSyniGn4stxnAZXiL1S0J6YswWIAdo%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFN2FkEJ1LdAcx0rbDKVPSRBICpVD_iwHyIT7hY_7_lOmu_Qtw1VvDm4gi62-vaEgAkHXNHDAfzmSPGzq7fgn2cxwJ9qH2nDsOhm4H09venMa0DWIY4yjaEzeBnwM4Ofp01yg2",
+        "cid": "11629738027316567519",
+        "fid": "0x864e6d738505805f:0xa165211e6d0e5ddf",
+        "placeId": "ChIJX4AFhXNtToYR310ObR4hZaE"
+      },
+      {
+        "position": 4,
+        "title": "Lone Star Orthopaedic and Spine Specialists in Burleson",
+        "address": "215 Old Hwy 1187, Burleson, TX 76028",
+        "latitude": 32.5810975,
+        "longitude": -97.3151762,
+        "rating": 4.3,
+        "ratingCount": 398,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Anesthesiologist",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.lonestar-ortho.net/locations/burleson/?utm_source=GMB_listing&utm_medium=organic",
+        "phoneNumber": "(817) 926-2663",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWhzY2H8qMqL4g0Qjz7LrKa92t__unQmCJli7Zsmusrdqsh7vWZRaCKFm2WxjOuJNoYMP7ecRWFCzQ-nMDAUyCFJjQLSVGq_tvrNcExTsIu8gSdIA0350PY2Xo_QiCOaD4owz5",
+        "cid": "8001572211763417567",
+        "fid": "0x864e692fd4fb171b:0x6f0b4b884ecb91df",
+        "placeId": "ChIJGxf71C9pToYR35HLTohLC28"
+      },
+      {
+        "position": 5,
+        "title": "Texas Health Orthopedic Specialists",
+        "address": "6301 Harris Pkwy #200, Fort Worth, TX 76132",
+        "latitude": 32.6582781,
+        "longitude": -97.41852659999999,
+        "rating": 4.7,
+        "ratingCount": 133,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://www.texashealth.org/thpg/orthopedic-specialists/6301-harris-parkway-suite-200-fort-worth",
+        "phoneNumber": "(817) 433-3450",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuKEPG_-k3lrhDyFsS-MDli0FjqnawOAkbge47Z3RYkkjj42mZVL5fNutS13qpC--DyXkAfsb7ejXwD_y8mpBcX8cyzZCvPCD9Gxu2a9OwITu3Cc3Fe9PqrpA7slHqEeZMw4jk",
+        "cid": "8287870884863774216",
+        "fid": "0x864e71793e27a067:0x73046ea8a49b8e08",
+        "placeId": "ChIJZ6AnPnlxToYRCI6bpKhuBHM"
+      },
+      {
+        "position": 6,
+        "title": "Orthodontics by Birth & Fletcher in Fort Worth",
+        "address": "3060 Sycamore School Rd, Fort Worth, TX 76133",
+        "latitude": 32.63525,
+        "longitude": -97.36565999999999,
+        "rating": 5,
+        "ratingCount": 501,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Oral surgeon",
+          "Dentist"
+        ],
+        "website": "https://www.bsfortho.com/dentist-office/fort-worth-tx-76133",
+        "phoneNumber": "(817) 591-7195",
+        "openingHours": {
+          "Thursday": "7 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–4 PM",
+          "Tuesday": "7 AM–4 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://www.bsfortho.com/dentist-office/fort-worth-tx-76133",
+          "https://nexhealth.info/book/appt/dentalcarealliance?lid=1528&rwg_token=AFd1xnFdwLuEGKHTf-IRRFsmdaHh9urAMGwCDYvSwPcEdaWrslCIPYrKNkoyex-ZResoj-FhJTwu-gv8OmhwsQIqThGNLl8WMg%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmq5Oz1fvBODbPensglB1WEjMSI6XCfmiQ6G8rsQu8pWcksS_wEaDhrRcaZnZUUN_CbPeYNlSENIdJY3tvjS-yvnWskEE9iazF__kARS1gh4f5o9Ok4ykG0QbeoPytg1Pn6qeaeO96M06Y",
+        "cid": "10374524591896230806",
+        "fid": "0x864e6c32f8294e65:0x8ff9b72655877b96",
+        "placeId": "ChIJZU4p-DJsToYRlnuHVSa3-Y8"
+      },
+      {
+        "position": 7,
+        "title": "1st Dental & Orthodontics",
+        "address": "5540 Sycamore School Rd #324, Fort Worth, TX 76123",
+        "latitude": 32.6310241,
+        "longitude": -97.41237509999999,
+        "rating": 4.8,
+        "ratingCount": 258,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.1stdando.com/?utm_source=google&utm_medium=google_business_profile&utm_campaign=website_click",
+        "phoneNumber": "(817) 554-4401",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–1 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "http://1stdando.com/Contact.html"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGoj33oUsWnvDS7uoyCeahGC3aOPmSQmWcB2dUeD1sdbLk0faTX0PVQTmfENPAX8Nl-s6xQbmvOBhbJwXQ_UnEvhhu3aVDrX0l1qoUGdIPmkw7lLIIgjeO8kEfoGac6-h4o-nB-",
+        "cid": "12988085846764195776",
+        "fid": "0x864e6d80d8d5c073:0xb43ef34388a88fc0",
+        "placeId": "ChIJc8DV2IBtToYRwI-oiEPzPrQ"
+      },
+      {
+        "position": 8,
+        "title": "Texas Orthopaedic Center",
+        "address": "5900 Altamesa Blvd, Fort Worth, TX 76132",
+        "latitude": 32.6467879,
+        "longitude": -97.4183367,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://texasorthopaediccenter.com/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELD8mQErW5QQbb52zlmaRkJzOUJfCHK2FBUe_Enk7MsCJMjba-fah9zbFO5qJ827sXw5qO56rjfuqXlq_DUPK5jeopw-RuV959i3YO0MyFkFgOuQS7BcBPFbZKeJjaKRlG38t3gw",
+        "cid": "17871527393804960459",
+        "fid": "0x864e6d35714a67f9:0xf8046b7a2d6842cb",
+        "placeId": "ChIJ-WdKcTVtToYRy0JoLXprBPg"
+      },
+      {
+        "position": 9,
+        "title": "Texas Hip and Knee Center",
+        "address": "6301 Harris Pkwy #300, Fort Worth, TX 76132",
+        "latitude": 32.6581015,
+        "longitude": -97.4185895,
+        "rating": 4.8,
+        "ratingCount": 474,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.texashealth.org/thpg/texas-hip-knee-center",
+        "phoneNumber": "(817) 877-3432",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFErRraRF6-hCHJmaFpJAnIwqyVQ45SYaCPr0Kqik_C0utyCkDWkvFsL_FULOSoubtj0rtPYJBhkHwJFcHGltMi8tlW01VQvfpdGw9KUvTj0a7825XJdygDGC35ooqyn2MUC0P",
+        "cid": "6370803226992775428",
+        "fid": "0x14e4b60c4bf385ff:0x5869a3c7eed11104",
+        "placeId": "ChIJ_4XzSwy25BQRBBHR7sejaVg"
+      },
+      {
+        "position": 10,
+        "title": "George LeBus, MD",
+        "address": "5900 Altamesa Blvd Suite 100, Fort Worth, TX 76132",
+        "latitude": 32.6464157,
+        "longitude": -97.4184646,
+        "rating": 4.9,
+        "ratingCount": 527,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://drgeorgelebus.com/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.drgeorgelebus.com/appointment-orthopaedic-surgeon-fort-worth-weatherford-aledo-tx.html#onlineapp"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEONxgeaL6tBXqjTTMMTXaanVIJsa1sgZtEbyRInj6hp1BgzOvIl5kfSox0nX0DJ0sc5741a3kmfHeeDwHKZxe7Oopt8avEjijNcKeGZ-NMQCo5PN8XavtN02Mi1Cu55lE2YbWx",
+        "cid": "14650685941303470791",
+        "fid": "0x864e7170f051def7:0xcb51b13daf33eac7",
+        "placeId": "ChIJ995R8HBxToYRx-ozrz2xUcs"
+      },
+      {
+        "position": 11,
+        "title": "Cityview Orthodontics",
+        "address": "7212 Red Hawk Ct, Fort Worth, TX 76132",
+        "latitude": 32.6536431,
+        "longitude": -97.4200954,
+        "rating": 4.9,
+        "ratingCount": 330,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist"
+        ],
+        "website": "https://cityvieworthofw.com/?utm_source=listings&utm_medium=organic&utm_campaign=gmb&y_source=1_MTAxMjc1OTk3OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "phoneNumber": "(817) 826-9695",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–12 PM"
+        },
+        "bookingLinks": [
+          "https://app.nexhealth.com/appt/d4c-dental-brands?lid=293231&y_source=1_MTAxMjc1OTk3OS03MTUtbG9jYXRpb24ucmVzZXJ2YXRpb25fdXJs"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrnoisRR1SD3CLUjDYSAzGxSb0cixZkXiH9FRNsxXXDDkqyDRFctaSVMBiHa8mZXIrcYjevfyc0Q4YAg-z9oIoRarWi0WfKUThvG1HVtWvC9mETtqHZpbBI7r4-eKq3SmFJ4YpcQiOjOkT",
+        "cid": "3986380752943002445",
+        "fid": "0x864e6d3ee3806bd1:0x3752782c8e9f334d",
+        "placeId": "ChIJ0WuA4z5tToYRTTOfjix4Ujc"
+      },
+      {
+        "position": 12,
+        "title": "William Crawford, MD",
+        "address": "5900 Altamesa Blvd Suite 100, Fort Worth, TX 76132",
+        "latitude": 32.6467878,
+        "longitude": -97.4183367,
+        "rating": 4.9,
+        "ratingCount": 275,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.txorthopaedic.com/provider/william-crawford-md/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE930NjE1fbQ-6-yx2eDrPoeoQOYADm8j7uW96YsbUvrL-FavVnl0UGtPPx0Y1q1bwUnM__6SpQkxUhUpuHV9K1wXy2HNZ_k3_fdcTIuM2hN02CqXH9PHR9_YDB1KLc1sBY9LpqGw",
+        "cid": "14385537645044144744",
+        "fid": "0x864e7170c30392cb:0xc7a3b24533dd9a68",
+        "placeId": "ChIJy5IDw3BxToYRaJrdM0Wyo8c"
+      },
+      {
+        "position": 13,
+        "title": "Mik Ortho",
+        "address": "921 FM1187 C, Crowley, TX 76036",
+        "latitude": 32.5707686,
+        "longitude": -97.345424,
+        "rating": 5,
+        "ratingCount": 231,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.mikortho.com/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=crowley&y_source=1_MzI0OTcyODUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "phoneNumber": "(682) 348-9118",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "9 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.mikortho.com/request-an-appointment/?utm_source=GMB&utm_medium=organic&utm_campaign=listing&utm_term=brand&utm_content=crowley"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGottDd6egDX8d_MuECmtsC5zC7v_KTIUe0twX7rD5DJkp9iugssyLsN899nj4TyIWSnUD3GO5kIsTi6SovA5uIAsP05JqxnIHdzuaPZMfzNvWXeJrvUA_io2wjTeya0-fJIqBbuA",
+        "cid": "3174143556278736573",
+        "fid": "0x864e69675ae6d295:0x2c0cd2bf4216d6bd",
+        "placeId": "ChIJldLmWmdpToYRvdYWQr_SDCw"
+      },
+      {
+        "position": 14,
+        "title": "Curtis Bush, MD",
+        "address": "5900 Altamesa Blvd Suite 100, Fort Worth, TX 76132",
+        "latitude": 32.6467879,
+        "longitude": -97.4183367,
+        "rating": 4.9,
+        "ratingCount": 485,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.curtisbushmd.com/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF35BgnRAQTNsX5gESb6Moxq-_5GyGKxDeD-ZLFcVdlxGV3br8tWc5oF0nfZeb924rYibpBxRbtIE7UZSsk1X4uenyBE8ITfQYY_m1RNmPGzZqyYLh9ltPmWU0xMVLzfnIFNouH",
+        "cid": "5650130305536986299",
+        "fid": "0x864e6d3b6094b507:0x4e694b93c4338cbb",
+        "placeId": "ChIJB7WUYDttToYRu4wzxJNLaU4"
+      },
+      {
+        "position": 15,
+        "title": "Brident Dental & Orthodontics",
+        "address": "3411 Sycamore School Rd, Fort Worth, TX 76123",
+        "latitude": 32.6343904,
+        "longitude": -97.36849559999999,
+        "rating": 3.9,
+        "ratingCount": 812,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental hygienist",
+          "Dental implants provider",
+          "Emergency dental service",
+          "Oral surgeon",
+          "Dentist",
+          "Pediatric dentist",
+          "Prosthodontist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.brident.com/en-us/find-a-location/texas/fort-worth/3411-sycamore-school-rd",
+        "phoneNumber": "(682) 233-9326",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "8 AM–4 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://appointments.brident.com/appointment-detail/en-us/TSY"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXPQLPPqxgq58L1EXZa5PuGGeg1XSZhoJxa9ijyULaXT_BW8ikY5ovbKsS_i99MfNW7wzPj8ukFl5y7kgEu-FD-hlntmwit7swLZWiUbQ9jQTsJDwhlhE9qeA_-QfcyOih9-QixdKd8Gib",
+        "cid": "7550006726881335952",
+        "fid": "0x864e6c347d121367:0x68c7031dcf925a90",
+        "placeId": "ChIJZxMSfTRsToYRkFqSzx0Dx2g"
+      },
+      {
+        "position": 16,
+        "title": "The Orthopedic & Sports Medicine Institute",
+        "address": "2901 Acme Brick Plaza, Fort Worth, TX 76109",
+        "latitude": 32.7092258,
+        "longitude": -97.40995439999999,
+        "rating": 4,
+        "ratingCount": 134,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Medical Center"
+        ],
+        "website": "http://www.osmifw.com/",
+        "phoneNumber": "(817) 529-1900",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEJSfNIGwrWAQaD3pFfdfdclGXpCAglJCO_Tg_SMsD_Obyz0hfPeKjALcJjqFtMpd7FvYbagKxASbXVRchtw2WB-Oobk2cgTp9sL4X5brVF3faQPk8qGoGWTZs45CWSAIWdJL2",
+        "cid": "1299964919384191269",
+        "fid": "0x864e72eebbb6927f:0x120a6734e85d3125",
+        "placeId": "ChIJf5K2u-5yToYRJTFd6DRnChI"
+      },
+      {
+        "position": 17,
+        "title": "Fort Worth Orthodontics - Burleson",
+        "address": "240 SW Wilshire Blvd, Burleson, TX 76028",
+        "latitude": 32.5429144,
+        "longitude": -97.3305455,
+        "rating": 4.9,
+        "ratingCount": 149,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://fworthodontics.com/burleson/",
+        "phoneNumber": "(817) 286-5928",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.fworthodontics.com/newpatient/office/Burleson-SWWilshire?rwg_token=AFd1xnEt8_z3xJpebMGusM2lHdfw67uAUiJ51bCrfIwAzqvdbkefNa0tHsFyzSA0jniRXQa9QvcPPvAx_LLNBukaQ-J32EHv-rJ-TNRiSgmUKzmzvZXVkTw%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsQZ5TDXsYM6_187ggo0ljtH-Y5FMxyzIL-KQR1FqMFwoD99KUHJj7NSX4pQmAzt7jJrORZVKPQCKBS9tqa8ykyy1MS5fb_F2nfXSglT2JEbkTth2hwIwx0fBbG0lMyQMaxpQ",
+        "cid": "9695430794480106210",
+        "fid": "0x864e69a275bc9a69:0x868d16f0615ebae2",
+        "placeId": "ChIJaZq8daJpToYR4rpeYfAWjYY"
+      },
+      {
+        "position": 18,
+        "title": "Lone Star Orthopaedic and Spine Specialists in Fort Worth",
+        "address": "929 Lipscomb St, Fort Worth, TX 76104",
+        "latitude": 32.7344687,
+        "longitude": -97.33302069999999,
+        "rating": 4.8,
+        "ratingCount": 121,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Anesthesiologist",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapist",
+          "Podiatrist",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.lonestar-ortho.net/locations/fort-worth/?utm_source=GMB_listing&utm_medium=organic",
+        "phoneNumber": "(817) 926-2663",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG4EXLGves_nrVSbzZl3GdLvRMiMoq5x3c7ffD1fqKYczCFLKunz2XK_l4QPZfoc93iThWveabpWLvNzF51fZTeuduqp2zfXJS-Yxdgc7GMP7A5K7XSaLmafGxKYoDPwt_Y5T1Aow",
+        "cid": "10777937274252664628",
+        "fid": "0x864e71747c8a6bf9:0x9592ecd8d3459f34",
+        "placeId": "ChIJ-WuKfHRxToYRNJ9F09jskpU"
+      },
+      {
+        "position": 19,
+        "title": "Dr. David Bradley Minor",
+        "address": "5900 Altamesa Blvd Suite 100, Fort Worth, TX 76132",
+        "latitude": 32.6465783,
+        "longitude": -97.4187018,
+        "rating": 4.9,
+        "ratingCount": 264,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.fortworthhipknee.com/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–3:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.fortworthhipknee.com/online-appointment-fort-worth-tx/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIVRVpRdP1CaQjlL6zhUBCly3e2GquMfCwLcJYtjFo3pNka_UKR9A6DRvg9VazM3IYx511q3BTDL1MqMhfjvnpvyzqKTFjDL4sNF_tTYi9XFXoksbKwp0rTVw_ibcUgoimdRmCc_57TomV",
+        "cid": "124875843485781575",
+        "fid": "0x864e6d3d39555555:0x1bba5eb03ff4e47",
+        "placeId": "ChIJVVVVOT1tToYRR07_A-uluwE"
+      },
+      {
+        "position": 20,
+        "title": "Dean Papaliodis, MD",
+        "address": "5900 Altamesa Blvd Suite 100, Fort Worth, TX 76132",
+        "latitude": 32.6467879,
+        "longitude": -97.4183367,
+        "rating": 4.9,
+        "ratingCount": 369,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.drdeanpapaliodis.com/",
+        "phoneNumber": "(817) 854-9969",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBLuEFOUhj-_biW6SaZf1ifvwcFlZvCX4xq6DClHvBKdt2zL-kGcxqZv9ElpOcQBDvaETwzdq8gEeSP-TVdB-8PBu_MZV015-PYhnU6XRfce2owt9U7rYeyIZOmVR6CkODxnEi",
+        "cid": "16590594081987001470",
+        "fid": "0x864e7170c30392cb:0xe63da16ab5887c7e",
+        "placeId": "ChIJy5IDw3BxToYRfnyItWqhPeY"
+      }
+    ],
+    "credits": 3
+  }
+}

@@ -11,6 +11,7 @@ import { auditWebsite } from "@/lib/website-auditor";
 import { computeAllScores } from "@/lib/scorer";
 import { generateInsights } from "@/lib/insight-engine";
 import { getJobStore, updateJob, type AuditJobRecord } from "@/lib/job-store";
+import { persistTestingJson } from "@/lib/testing-data";
 import type { AuditReport } from "@/types";
 
 const CreateReportSchema = z.object({
@@ -41,6 +42,10 @@ const CreateReportSchema = z.object({
       (url) => /^https?:\/\/.+\..+/i.test(url),
       "Must start with http:// or https://"
     ),
+  keywords: z
+    .array(z.string().min(2).max(80).trim())
+    .min(1, "At least 1 keyword is required")
+    .max(5, "Maximum 5 keywords allowed"),
 });
 
 // ---------------------------------------------------------------------------
@@ -142,31 +147,10 @@ export async function POST(request: NextRequest) {
 
     getJobStore().set(uuid, job);
 
-    // Launch the real audit pipeline (non-blocking) with a hard timeout.
-    // Some audits (rank grid + citations + website) can exceed 2 minutes.
-    const PIPELINE_TIMEOUT_MS = Number.parseInt(
-      process.env.AUDIT_PIPELINE_TIMEOUT_MS ?? "",
-      10
-    );
-    const pipelineTimeoutMs =
-      Number.isFinite(PIPELINE_TIMEOUT_MS) && PIPELINE_TIMEOUT_MS > 0
-        ? PIPELINE_TIMEOUT_MS
-        : 600_000; // 10 minutes default
-    Promise.race([
-      runAuditPipeline(uuid, result.data),
-      new Promise<never>((_, reject) =>
-        setTimeout(
-          () =>
-            reject(
-              new Error(
-                `Audit pipeline timed out after ${Math.round(pipelineTimeoutMs / 1000)} seconds`
-              )
-            ),
-          pipelineTimeoutMs
-        )
-      ),
-    ]).catch((err) => {
-      const message = err instanceof Error ? err.message : "Pipeline timeout";
+    // Launch the real audit pipeline (non-blocking).
+    // No hard timeout here: long audits should be allowed to finish.
+    runAuditPipeline(uuid, result.data).catch((err) => {
+      const message = err instanceof Error ? err.message : "Pipeline failed";
       updateJob(uuid, { status: "failed", currentStep: "Failed", error: message });
     });
 
@@ -198,7 +182,7 @@ export async function POST(request: NextRequest) {
 
 async function runAuditPipeline(
   uuid: string,
-  input: { businessName: string; gbpUrl: string; websiteUrl: string }
+  input: { businessName: string; gbpUrl: string; websiteUrl: string; keywords: string[] }
 ) {
   try {
     updateJob(uuid, { status: "processing", progress: 5, currentStep: "Resolving business profile" });
@@ -213,24 +197,24 @@ async function runAuditPipeline(
     updateJob(uuid, { progress: 12, currentStep: "Collecting GBP data" });
 
     // Step 2: Collect GBP data (pass businessName for mock fallback labeling)
-    const gbp = await collectGBPData(resolved.placeId, input.businessName);
+    const gbp = await collectGBPData(resolved.placeId, input.businessName, { uuid });
 
     updateJob(uuid, { progress: 20, currentStep: "Analyzing reviews" });
 
     // Step 3: Collect reviews
-    const reviews = await collectReviews(resolved.placeId);
+    const reviews = await collectReviews(resolved.placeId, { uuid });
 
     updateJob(uuid, { progress: 28, currentStep: "Checking rankings across geo-grid" });
 
     // Step 4: Run rank checks (245 Serper API calls — the heavy step)
-    // Derive keywords from GBP category + business type
-    const keywords = deriveKeywords(gbp.primaryCategory, input.businessName);
+    // Use user-provided keywords
+    const keywords = input.keywords;
     const rankings = await runRankChecks({
       businessName: input.businessName,
       lat: resolved.lat,
       lng: resolved.lng,
       keywords,
-    });
+    }, resolved.market, { uuid });
 
     updateJob(uuid, { progress: 55, currentStep: "Auditing citations & NAP" });
 
@@ -256,8 +240,9 @@ async function runAuditPipeline(
         market: resolved.market,
         primaryCategory: gbp.primaryCategory,
         canonicalNAP,
+        debug: { uuid },
       }),
-      auditWebsite(input.websiteUrl, canonicalNAP),
+      auditWebsite(input.websiteUrl, canonicalNAP, { uuid }),
     ]);
 
     updateJob(uuid, { progress: 72, currentStep: "Analyzing competitors" });
@@ -290,6 +275,7 @@ async function runAuditPipeline(
           reviews,
           citations,
           website,
+          debug: { uuid },
         }),
         35_000,
         "AI insight generation timed out"
@@ -307,7 +293,7 @@ async function runAuditPipeline(
       status: "complete",
       createdAt: getJobStore().get(uuid)?.createdAt || new Date().toISOString(),
       completedAt: new Date().toISOString(),
-      input: { businessName: input.businessName, gbpUrl: input.gbpUrl, websiteUrl: input.websiteUrl },
+      input: { businessName: input.businessName, gbpUrl: input.gbpUrl, websiteUrl: input.websiteUrl, keywords: input.keywords },
       resolved,
       scores,
       gbp,
@@ -319,6 +305,14 @@ async function runAuditPipeline(
       insights,
       pdfUrl: undefined,
     };
+
+    // Persist the fully assembled report for debugging/replay (no re-fetch needed)
+    await persistTestingJson({
+      uuid,
+      category: "report",
+      name: "report-data",
+      data: report,
+    });
 
     updateJob(uuid, {
       status: "complete",
@@ -341,68 +335,6 @@ async function runAuditPipeline(
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
-
-/**
- * Derive 5 target keywords from the GBP primary category.
- * Focused on US Healthcare & Wellness businesses.
- */
-function deriveKeywords(primaryCategory: string, _businessName: string): string[] {
-  const category = primaryCategory.toLowerCase();
-  const baseKeywords = [
-    category,
-    `${category} near me`,
-    `best ${category}`,
-  ];
-
-  // Healthcare & Wellness specific keywords
-  const healthcareKeywords: Record<string, string[]> = {
-    dentist: ["dental clinic near me", "emergency dentist"],
-    orthodontist: ["braces near me", "invisalign provider"],
-    "dental clinic": ["family dentist", "cosmetic dentist near me"],
-    doctor: ["primary care physician near me", "family doctor"],
-    physician: ["internal medicine doctor", "physician near me"],
-    pediatrician: ["kids doctor near me", "pediatric clinic"],
-    dermatologist: ["skin doctor near me", "dermatology clinic"],
-    cardiologist: ["heart doctor near me", "cardiology practice"],
-    orthopedic: ["orthopedic surgeon near me", "sports medicine doctor"],
-    chiropractor: ["chiropractic care near me", "back pain treatment"],
-    "physical therapist": ["physical therapy near me", "PT clinic"],
-    optometrist: ["eye doctor near me", "vision care"],
-    ophthalmologist: ["eye surgeon near me", "lasik near me"],
-    psychiatrist: ["mental health provider near me", "psychiatry practice"],
-    psychologist: ["therapist near me", "counseling services"],
-    "urgent care": ["walk in clinic near me", "urgent care center"],
-    hospital: ["emergency room near me", "hospital near me"],
-    pharmacy: ["pharmacy near me", "24 hour pharmacy"],
-    "medical spa": ["medspa near me", "aesthetic clinic"],
-    "wellness center": ["holistic health near me", "wellness clinic"],
-    acupuncture: ["acupuncturist near me", "traditional chinese medicine"],
-    massage: ["massage therapy near me", "therapeutic massage"],
-    nutritionist: ["dietitian near me", "nutrition counseling"],
-    "mental health": ["therapist near me", "counseling near me"],
-    "weight loss": ["weight loss clinic near me", "medical weight loss"],
-    "pain management": ["pain clinic near me", "pain management doctor"],
-    podiatrist: ["foot doctor near me", "podiatry clinic"],
-    "speech therapist": ["speech therapy near me", "speech pathologist"],
-    "occupational therapist": ["occupational therapy near me", "OT clinic"],
-    gynecologist: ["obgyn near me", "women's health clinic"],
-    urologist: ["urologist near me", "urology clinic"],
-    ent: ["ear nose throat doctor", "ENT specialist near me"],
-    allergist: ["allergy doctor near me", "allergy testing"],
-    gastroenterologist: ["GI doctor near me", "gastroenterology clinic"],
-    neurologist: ["neurologist near me", "neurology clinic"],
-    pulmonologist: ["lung doctor near me", "pulmonology clinic"],
-    oncologist: ["cancer doctor near me", "oncology center"],
-    "plastic surgeon": ["cosmetic surgeon near me", "plastic surgery clinic"],
-    "oral surgeon": ["oral surgery near me", "wisdom teeth removal"],
-  };
-
-  const extras = Object.entries(healthcareKeywords).find(([key]) =>
-    category.includes(key)
-  )?.[1] || [`${category} clinic near me`, `${category} provider`];
-
-  return [...baseKeywords, ...extras].slice(0, 5);
-}
 
 /** Extract city from a formatted address string. */
 function extractCity(address: string): string {

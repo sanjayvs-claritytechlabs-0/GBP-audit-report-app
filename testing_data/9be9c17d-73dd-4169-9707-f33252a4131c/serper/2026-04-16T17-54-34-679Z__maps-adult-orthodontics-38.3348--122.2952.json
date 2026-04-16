@@ -1,0 +1,609 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "adult orthodontics",
+    "location": "38.334848,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "adult orthodontics",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM0ODQ4LC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@35.9131163,-77.9936808,9z",
+    "places": [
+      {
+        "position": 1,
+        "title": "MyOrthodontist Rocky Mount",
+        "address": "120 Clinton Ct, Rocky Mount, NC 27804",
+        "latitude": 35.9644737,
+        "longitude": -77.8368606,
+        "rating": 4.8,
+        "ratingCount": 339,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.myorthodontistnc.com/",
+        "phoneNumber": "(252) 451-1010",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://forms.formlync.com/myorthodontist/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaV8OQy8cgAZXQndgU2YuGNeV9IgGf9cH8whtGr2JBpLNWZia4VcmKgsKAfe6qvB1sY_7EPOTSCwrpmonjSrfLjM_JrLNjor8LTKZFTeO99vwjJwcw_YoNYsN6ODsZt309NTU6",
+        "cid": "3949726611343272934",
+        "fid": "0x89ae819909ffe167:0x36d03f6d2d05ebe6",
+        "placeId": "ChIJZ-H_CZmBrokR5usFLW0_0DY"
+      },
+      {
+        "position": 2,
+        "title": "Miller Orthodontics",
+        "address": "113 Foy Dr, Rocky Mount, NC 27804",
+        "latitude": 35.9641857,
+        "longitude": -77.8390932,
+        "rating": 4.8,
+        "ratingCount": 26,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.amillersmile.com/",
+        "phoneNumber": "(252) 443-6616",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGoHxj1S9wtUpb5TH6L3cXGtj1rAdTh5px9jaw9txUcOljwBxRnoX1YpsvXetAI0dG1gLcJ8w07bjTrVCvgHlUpJh1ShvBMeWmIP24pB3xKdSXX10YBzFH6ZVuxbLju9FHiCmovTw",
+        "cid": "17448584110383206997",
+        "fid": "0x89ae80cb0f7a1947:0xf225d2cd44ea9255",
+        "placeId": "ChIJRxl6D8uArokRVZLqRM3SJfI"
+      },
+      {
+        "position": 3,
+        "title": "Goeckner Orthodontics",
+        "address": "130 Point Dr NW, Wilson, NC 27896",
+        "latitude": 35.7518926,
+        "longitude": -77.93262399999999,
+        "rating": 5,
+        "ratingCount": 174,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://goecknerorthodontics.com/",
+        "phoneNumber": "(252) 237-9999",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMnP9Vij_A_F1_rOH2UmLKY67xW2ZwmT0q4T-8CV-KhG5UkAW2PsyDKn0GioWGKfwASsKOUv8umOh58L0Tj18CfDh4tMSb_YjIkQIxqUcE2QEeQlhkaWYeRujuGgemZZ8lMTPgEw",
+        "cid": "6200039014009686979",
+        "fid": "0x89ac27cec38414f1:0x560af6a24f9c4bc3",
+        "placeId": "ChIJ8RSEw84nrIkRw0ucT6L2ClY"
+      },
+      {
+        "position": 4,
+        "title": "Signature Smiles Orthodontics",
+        "address": "2250 Nash St N, Wilson, NC 27896",
+        "latitude": 35.755384899999996,
+        "longitude": -77.9315688,
+        "rating": 4.9,
+        "ratingCount": 501,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.signaturesmilesortho.com/",
+        "phoneNumber": "(252) 291-5977",
+        "openingHours": {
+          "Thursday": "7:30 AM–1 PM, 2–4:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–1 PM, 2–5 PM",
+          "Tuesday": "8 AM–1 PM, 2–5 PM",
+          "Wednesday": "7:30 AM–1 PM, 2–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJOv3B9UGU53zGKm-mst-G-a5lAMQqlO1aw6IXXSN5fGweH7xwVnMV0M3tRVgp9Su7g4EiDMkLgwUPoMVYHjgSgyyY4KGB099ihg9ZGm-Ow6KUniXMLZPNIWitu-BL-iRtr0xr",
+        "cid": "11862757231122585212",
+        "fid": "0x89ac2759186fff33:0xa4a0fad9a1c2167c",
+        "placeId": "ChIJM_9vGFknrIkRfBbCodn6oKQ"
+      },
+      {
+        "position": 5,
+        "title": "King of Pearls NCCDI",
+        "address": "301 S Church St #255, Rocky Mount, NC 27804",
+        "latitude": 35.9395889,
+        "longitude": -77.7970655,
+        "rating": 4.9,
+        "ratingCount": 1495,
+        "type": "Teeth whitening service",
+        "types": [
+          "Teeth whitening service"
+        ],
+        "website": "https://www.facebook.com/profile.php?id=100087925027119&mibextid=ZbWKwL",
+        "phoneNumber": "(252) 676-5221",
+        "openingHours": {
+          "Thursday": "10 AM–8 PM",
+          "Friday": "10 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "10 AM–8 PM",
+          "Tuesday": "10 AM–8 PM",
+          "Wednesday": "10 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://booksy.com/en-us/rwg/1506872_king-of-pearls-nccdi_dental-orthodontics_134784_rocky-mount?rwg_token=AFd1xnGuOnr1uh2YJxcIKhDKgqW-3EG8oSdVYtvM1chLKJz8f-pqxd1AJgKHTduRP_lRXDxIlaxVR0HNQ_tDrwPlOvz5czDYF-eozW8ICRNshnPZg_iflEE%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdcsu9moJtJ3HxQCfjlbTf2Bak8Zh-B8kpUb8RkotaKib8LytkgBCncbXc7Ou77GAeNYZJstuY4RrJSB_ZrYgHlqi69klPS5URC7kNAIki4K8SvTSzgQBo7JtsA-HFjQL7_UjBwA",
+        "cid": "18416802526443165683",
+        "fid": "0x89ae877ffb6968c1:0xff95a052472957f3",
+        "placeId": "ChIJwWhp-3-HrokR81cpR1Kglf8"
+      },
+      {
+        "position": 6,
+        "title": "Ross Orthodontics - Greenville",
+        "address": "200 W Arlington Blvd, Greenville, NC 27834",
+        "latitude": 35.5916621,
+        "longitude": -77.3795006,
+        "rating": 5,
+        "ratingCount": 670,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://drrossortho.com/",
+        "phoneNumber": "(252) 321-0103",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_gCx3gbWGZ_ufJcW9No8w09G2m7XxhaOAml6_zh5YGYso8TTaK4epBsccyof-I_vct1mRzJKsxrY3EuiYUUCwsERS5wbreLbwzCC_l6_MWILoXechI3UEUJrQUrqKsUxuEyHfuA",
+        "cid": "12856937834716239820",
+        "fid": "0x89aec2aca6ad960b:0xb26d04d7798a97cc",
+        "placeId": "ChIJC5atpqzCrokRzJeKedcEbbI"
+      },
+      {
+        "position": 7,
+        "title": "Orthodontic Associates",
+        "address": "113 Foy Dr, Rocky Mount, NC 27804",
+        "latitude": 35.964135999999996,
+        "longitude": -77.8390749,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "phoneNumber": "(252) 443-6616",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=H_XmP5rN-ch2hndHtqTYXg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=68.5422&pitch=0&thumbfov=100",
+        "cid": "6459631141422094519",
+        "fid": "0x89ae80cb0f7a1947:0x59a5384c6c83d8b7",
+        "placeId": "ChIJRxl6D8uArokRt9iDbEw4pVk"
+      },
+      {
+        "position": 8,
+        "title": "MyOrthodontist Roanoke Rapids Invisalign Treatment & Clear Braces",
+        "address": "1165 Gregory Dr # A, Roanoke Rapids, NC 27870",
+        "latitude": 36.427907999999995,
+        "longitude": -77.646789,
+        "rating": 4.8,
+        "ratingCount": 684,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.myorthodontistnc.com/location/roanoke-rapids-nc/",
+        "phoneNumber": "(252) 544-5630",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://forms.formlync.com/myorthodontist/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGd5355o15chmeN4CABvmvyYVDLdAIT8bSJ_8qbSu_3aJ2v1EbaftoyYl1BGebo7UwS18tsAdzyxpsfzjTsrZw_1MZo0UH2KMUXLwnz_VW4qNGYWxsXhElGnThPMRgEW6jNpeZUTA",
+        "cid": "6097039817951110481",
+        "fid": "0x89ae1726f4b50167:0x549d096932636551",
+        "placeId": "ChIJZwG19CYXrokRUWVjMmkJnVQ"
+      },
+      {
+        "position": 9,
+        "title": "Eastern Orthodontics & Pediatric Dentistry",
+        "address": "1025 Johns Hopkins Dr, Greenville, NC 27834",
+        "latitude": 35.60241,
+        "longitude": -77.4178991,
+        "rating": 4.9,
+        "ratingCount": 260,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Pediatric dentist"
+        ],
+        "website": "http://www.eopd.org/",
+        "phoneNumber": "(252) 752-6188",
+        "openingHours": {
+          "Thursday": "9 AM–4:30 PM",
+          "Friday": "7 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://www.eopd.org/appointment-request.php"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGL_8JUkatN1QAiIorV1pe-ZKTr-erQ4CvN8iaoJQRk61yFTSaHSx50g1MmdQkfWe8_wBxJ6wNR-Z0EXUpruEeLDdIixsHHgDUoght2cj8TOuQK3Qf9oGnQq8P8x7aqKXDTdh81-g",
+        "cid": "7666450271403454849",
+        "fid": "0x89aee829f6c8f1cf:0x6a64b3e73b333181",
+        "placeId": "ChIJz_HI9inorokRgTEzO-ezZGo"
+      },
+      {
+        "position": 10,
+        "title": "Southern Smiles Orthodontics",
+        "address": "1121 Gregory Dr, Roanoke Rapids, NC 27870",
+        "latitude": 36.428585,
+        "longitude": -77.6474456,
+        "rating": 4.9,
+        "ratingCount": 188,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://southernsmilesnc.com/",
+        "phoneNumber": "(252) 365-4234",
+        "openingHours": {
+          "Thursday": "8:30 AM–4:30 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–4:30 PM",
+          "Tuesday": "8:30 AM–4:30 PM",
+          "Wednesday": "8:30 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://southernsmilesnc.com/appointment-request/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLEIgfn7Rpf2P8sNIfVqFIOHt-YWiRmxwjTXPL-z6onnJMumpCKsoph-6z5V5ZgqQSX4-sQS5IeMcUD4AA8L_eUfVn5LVKa4C1TjybRnvsm3ji2J0dp3jHrpnoLD-ielLh9dJlE7_OvwIq",
+        "cid": "14607921612217119098",
+        "fid": "0x89ae16ce22a45f07:0xcab9c34f6af3f17a",
+        "placeId": "ChIJB1-kIs4WrokRevHzak_Duco"
+      },
+      {
+        "position": 11,
+        "title": "Gladwell Orthodontics",
+        "address": "430 Stratford Dr, Zebulon, NC 27597",
+        "latitude": 35.8221588,
+        "longitude": -78.3240761,
+        "rating": 4.5,
+        "ratingCount": 42,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://gladwellorthodontics.com/laster-transition/",
+        "phoneNumber": "(919) 453-6325",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "Closed",
+          "Wednesday": "Closed"
+        },
+        "bookingLinks": [
+          "https://www.lasterortho.com/contact-the-best-orthodontist-in-the-triangle"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSH3xqq1gRJfsYa3phXRXgCMym-txVGLxM2G06-rPLsgQVBtbMYgFnVF7LMBtkaJeO9SqDsktZY_in8An39lX0w-S601ILUh_BZkx_q2pDH4xI2l-MaWqgZKpIL-hCUDnyLp6D6-OHrOfX",
+        "cid": "7933233433320307690",
+        "fid": "0x89ac4709d186cc91:0x6e1881c6894f3bea",
+        "placeId": "ChIJkcyG0QlHrIkR6jtPicaBGG4"
+      },
+      {
+        "position": 12,
+        "title": "BrushAndFloss Orthodontics",
+        "address": "31 Oleander Dr, Clayton, NC 27527",
+        "latitude": 35.648356799999995,
+        "longitude": -78.3965123,
+        "rating": 5,
+        "ratingCount": 156,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dental clinic",
+          "Dentist"
+        ],
+        "website": "https://www.brushandfloss.com/locations/clayton-orthodontics?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+        "phoneNumber": "(919) 568-5497",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://4153-brush-and-floss-specialty-clayton.lwcrm.com/patient-portal/dashboard?legworkAccountId=66bbac110213fc0100005554&rwg_token=AFd1xnF18xFHi3c04ltcSU8IqfJVlq209oYIpvWdYA57Mh8u_OBSitEWK4FoD1ufqJaCiXiRQK-B4v2aYIPIxpemtXa6k3hZis6Iej-x8-c1gpzmLZm5l9o%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPDk6KyC1_EDrXbyfTInvUhaA_aQMsY-K4QNAH1RSMoP8QhRSs08WOqaOoijrApSEonHQAlO5Cep_w5Hz7p5wmm1EBlw11cXX87NznrIiHHUz98VV1nH1i2mYgq_XxzBgQmfSlOUdivxE",
+        "cid": "15349173482689147807",
+        "fid": "0x89ac690cb333ddf3:0xd50337f58788339f",
+        "placeId": "ChIJ890zswxprIkRnzOIh_U3A9U"
+      },
+      {
+        "position": 13,
+        "title": "Carolina Orthodontic Solutions",
+        "address": "3877 James St, Bethel, NC 27812",
+        "latitude": 35.8091266,
+        "longitude": -77.3749948,
+        "rating": 2,
+        "ratingCount": 17,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.carolinaorthosolutions.com/",
+        "phoneNumber": "(252) 825-0225",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmVcVQLwTEMySl4qA3O_AG00DUqy4Q8eS_cI3e9xhjMC-GKFVHgosH-7gyuwbH_Pj9mWt_aIHE2RVL6JT3HHO0ZFp20O2JNmSsgDHUoDaRDbCpdixS-FnPds_N0Pjgre9UbYw",
+        "cid": "5967001728897121707",
+        "fid": "0x89aefa81026d41a1:0x52cf0c75390dfdab",
+        "placeId": "ChIJoUFtAoH6rokRq_0NOXUMz1I"
+      },
+      {
+        "position": 14,
+        "title": "Hamilton Orthodontics",
+        "address": "7200 Falls of Neuse Rd #201, Raleigh, NC 27615",
+        "latitude": 35.8822647,
+        "longitude": -78.6256962,
+        "rating": 5,
+        "ratingCount": 165,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.hamilton-smiles.com/",
+        "phoneNumber": "(919) 870-4443",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "8:30 AM–12:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.hamilton-smiles.com/contact/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4cxtqbcKvpKx6094z01fH29i8rRBdlOXA6OwXqwN2RnVLqzVAZrpICy-5jfGJt0vl5AHLoblYHVhqoyiS36lwbDNQLH2cNtPMJEZZMc_y9YaRRKZP3mlNH3urWiuQ2E5TqbTn",
+        "cid": "917480480544449297",
+        "fid": "0x89ac583b19fb59a7:0xcbb8ba2d334e311",
+        "placeId": "ChIJp1n7GTtYrIkREeM006KLuww"
+      },
+      {
+        "position": 15,
+        "title": "Joy of Orthodontics",
+        "address": "1890 S Main St STE 202, Wake Forest, NC 27587",
+        "latitude": 35.951225199999996,
+        "longitude": -78.5294952,
+        "rating": 5,
+        "ratingCount": 406,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://joyoforthodontics.com/orthodontist-wake-forest-nc/?utm_source=gbp&utm_medium=organic&utm_campaign=wake-forest",
+        "phoneNumber": "(919) 554-6506",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://joyoforthodontics.com/request-an-appointment/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFyrrvUf-3WHZdUQM-AQaYcd9cykJofOpzMn6xDhLT_6a1VQgWhQCC8ql4KgwZp0lngYEWC60kHJogZjelH865XlfP1uMUb-Uk9GBGk1wLxqB1PVtNzF1op3PaGYLJBuie_Fb5m5sw0W3Uf",
+        "cid": "6037575925516617142",
+        "fid": "0x89ac5172dafee96b:0x53c9c750d8de45b6",
+        "placeId": "ChIJa-n-2nJRrIkRtkXe2FDHyVM"
+      },
+      {
+        "position": 16,
+        "title": "McNutt Orthodontics",
+        "address": "400 Tew Ct #108, Clayton, NC 27520",
+        "latitude": 35.663351999999996,
+        "longitude": -78.48826199999999,
+        "rating": 5,
+        "ratingCount": 254,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "https://www.southernsmiles.co/",
+        "phoneNumber": "(919) 553-4512",
+        "openingHours": {
+          "Thursday": "7:45 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:45 AM–5 PM",
+          "Tuesday": "7:45 AM–5 PM",
+          "Wednesday": "7:45 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFxhEAVgmt-yLWK6rseR16m24dK0ybciAcaTIZK2uXogHr3k4zLkAD-A8qdoMEGZrvX4JfsVafRz3leE_2BCwKvADk4XEzvMilgc5luz9fJohj1eQ9In3styPa4m25NHs_uk4HF0oWGoCx3",
+        "cid": "18067288308526596300",
+        "fid": "0x89ac66325abcd63d:0xfabbe6fdf44bc0cc",
+        "placeId": "ChIJPda8WjJmrIkRzMBL9P3mu_o"
+      },
+      {
+        "position": 17,
+        "title": "Potts Orthodontics",
+        "address": "2300 Wayne Memorial Dr C, Goldsboro, NC 27534",
+        "latitude": 35.3976475,
+        "longitude": -77.96145779999999,
+        "rating": 5,
+        "ratingCount": 177,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://pottsorthodontics.com/location/orthodontist-in-goldsboro-nc/",
+        "phoneNumber": "(919) 735-5999",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFYyls_Beqq0pYX_Y7v3pSEAxTeS-E5bnSbtlzBPimQEmCloIkb58C-TYzbuN2FK-IVtGdL1E8ali4YuOON0ES2JaNgBTfc2oxHeJBxeEymzFne9MpkActin68fcxsXO4bTdJU",
+        "cid": "2637905408229568831",
+        "fid": "0x89ac0188041d9cc5:0x249bb8fe189af13f",
+        "placeId": "ChIJxZwdBIgBrIkRP_GaGP64myQ"
+      },
+      {
+        "position": 18,
+        "title": "MyOrthodontist of Wake Forest, Specializing in Invisalign and Clear Braces",
+        "address": "616 Dr Calvin Jones Hwy #200, Wake Forest, NC 27587",
+        "latitude": 35.966252499999996,
+        "longitude": -78.5219923,
+        "rating": 4.8,
+        "ratingCount": 745,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.myorthodontistnc.com/location/wake-forest-nc/",
+        "phoneNumber": "(919) 556-1422",
+        "openingHours": {
+          "Thursday": "8:30 AM–5 PM",
+          "Friday": "9 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:30 AM–5 PM",
+          "Tuesday": "8:30 AM–5 PM",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://forms.formlync.com/myorthodontist/register"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcfubxIW19cd3_HUL8uJrFDpvozH5Gxr5Cetp_AX-GYbbi2xnyyrizNn1t14PMqhPFuWy6LwjGU1NW1Z70SWcCKvi0M-iSM0QoMXsK1JIPHL459yFwqAexouhXSLsH-vJ21L5g2g",
+        "cid": "16322618575340334048",
+        "fid": "0x89ac53e74d0d3359:0xe285971d035a6be0",
+        "placeId": "ChIJWTMNTedTrIkR4GtaAx2XheI"
+      },
+      {
+        "position": 19,
+        "title": "Gladwell Orthodontics",
+        "address": "2824 Rogers Rd, Wake Forest, NC 27587",
+        "latitude": 35.952183999999995,
+        "longitude": -78.52530999999999,
+        "rating": 4.9,
+        "ratingCount": 946,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://gladwellorthodontics.com/location/wake-forest/?utm_source=gom&utm_medium=gbp&utm_content=organic",
+        "phoneNumber": "(919) 453-6325",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF15uU6HXuisL8xwLSmLyPL7NgZmYuRN6xlVNhNZs-dLUW_uqgTk5uP5DPJsNPGItwnM4M7bMUzpx6pvAT2hJWUWj2v7zNxGyUanuv1_x09a4FjxjF-Fd7K1Xkaf1Q90LuIxdOI",
+        "cid": "13554008696053967869",
+        "fid": "0x89ac51748957619f:0xbc198318cada2bfd",
+        "placeId": "ChIJn2FXiXRRrIkR_SvayhiDGbw"
+      },
+      {
+        "position": 20,
+        "title": "Drs. Davila & Velazquez, P.A.",
+        "address": "1295 E Arlington Blvd, Greenville, NC 27858",
+        "latitude": 35.5765953,
+        "longitude": -77.36166539999999,
+        "rating": 4.6,
+        "ratingCount": 81,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dental implants periodontist",
+          "Dentist",
+          "Teeth whitening service"
+        ],
+        "website": "https://www.doctorsdandv.com/",
+        "phoneNumber": "(252) 756-7789",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–1 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-9cOfhRwLNnq-fW7mOtTkZjNccUaDuw9iIjvmH8PXrX8nf1MJFKvoACvfuDuDcWx7-oWBZI6PxAi95kSqN7jcAyGej7wiyXEFhrEMCtMY7yJsaNZU7qGdxYqP9yqK5hP3aohE",
+        "cid": "16104609695836683614",
+        "fid": "0x89aedd4142dc87bb:0xdf7f113146a83d5e",
+        "placeId": "ChIJu4fcQkHdrokRXj2oRjERf98"
+      }
+    ],
+    "credits": 3
+  }
+}

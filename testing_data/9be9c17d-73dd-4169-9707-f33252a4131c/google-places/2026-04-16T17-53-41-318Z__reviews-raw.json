@@ -1,0 +1,120 @@
+{
+  "endpoint": "v1/places/{placeId}",
+  "placeId": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs",
+  "fieldMask": "id,rating,userRatingCount,reviews",
+  "params": {
+    "languageCode": "en"
+  },
+  "response": {
+    "id": "ChIJVb4RhsEGhYAR4gGZ_xrOSVs",
+    "rating": 5,
+    "userRatingCount": 438,
+    "reviews": [
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xGMFJYTldRME5yYWxwd1dHOHhWVVl4WlVZek5XYxAB",
+        "relativePublishTimeDescription": "4 months ago",
+        "rating": 5,
+        "text": {
+          "text": "Dr. Jordan & his team are wonderful! Especially Rica & Mercedes ✨ My 5 yr old daughter enjoys coming with me for treatments as they have such a lovely atmosphere with games, sparkling water and she gets to draw on the art wall! 😁",
+          "languageCode": "en"
+        },
+        "originalText": {
+          "text": "Dr. Jordan & his team are wonderful! Especially Rica & Mercedes ✨ My 5 yr old daughter enjoys coming with me for treatments as they have such a lovely atmosphere with games, sparkling water and she gets to draw on the art wall! 😁",
+          "languageCode": "en"
+        },
+        "authorAttribution": {
+          "displayName": "Farrah Reza",
+          "uri": "https://www.google.com/maps/contrib/101423113692640389253/reviews",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUYnDiXeYok9uX8S_T_2-6dRb1Wyt-EG8GHju0Mi70Drkssmm6m=s128-c0x00000000-cc-rp-mo"
+        },
+        "publishTime": "2025-11-18T19:46:20.054266408Z",
+        "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xGMFJYTldRME5yYWxwd1dHOHhWVVl4WlVZek5XYxAB&d=17924085&t=1",
+        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xGMFJYTldRME5yYWxwd1dHOHhWVVl4WlVZek5XYxAB!2m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pFM2VHNDFkakl3TVdvM2NHOVRlRFowTlRjd2RYYxAB",
+        "relativePublishTimeDescription": "4 months ago",
+        "rating": 5,
+        "text": {
+          "text": "From the moment I first walked into Hello Ortho, I knew I was in the right place. I cannot recommend Dr. Jordan Lamberton and his entire team highly enough!\nAs an adult patient—specifically, a 50-year-old man undergoing my second round of orthodontics (I had braces as a kid and am now doing Invisalign)—I have a unique perspective, and Hello Ortho has exceeded all my expectations.\nThe professionalism and quality of care exhibited by everyone is truly exceptional. The front office staff is warm, efficient, and always ready to greet you with a friendly smile, making scheduling and paperwork seamless. They set a fantastic tone for the entire visit.\nThe staff working directly with patients are equally wonderful—skilled, attentive, and genuinely caring. They take the time to explain procedures clearly and ensure you are comfortable throughout your treatment.\nMost importantly, Dr. Jordan Lamberton is an incredible orthodontist. He is highly knowledgeable, meticulous in his approach, and takes the time to personally connect with his patients. His expertise and dedication shine through in the fantastic results and the overall positive atmosphere of the practice.\nIf you are looking for top-tier orthodontic care delivered by a truly professional and dedicated team, especially as an adult considering a second treatment, look no further than Hello Ortho Orthodontics",
+          "languageCode": "en"
+        },
+        "originalText": {
+          "text": "From the moment I first walked into Hello Ortho, I knew I was in the right place. I cannot recommend Dr. Jordan Lamberton and his entire team highly enough!\nAs an adult patient—specifically, a 50-year-old man undergoing my second round of orthodontics (I had braces as a kid and am now doing Invisalign)—I have a unique perspective, and Hello Ortho has exceeded all my expectations.\nThe professionalism and quality of care exhibited by everyone is truly exceptional. The front office staff is warm, efficient, and always ready to greet you with a friendly smile, making scheduling and paperwork seamless. They set a fantastic tone for the entire visit.\nThe staff working directly with patients are equally wonderful—skilled, attentive, and genuinely caring. They take the time to explain procedures clearly and ensure you are comfortable throughout your treatment.\nMost importantly, Dr. Jordan Lamberton is an incredible orthodontist. He is highly knowledgeable, meticulous in his approach, and takes the time to personally connect with his patients. His expertise and dedication shine through in the fantastic results and the overall positive atmosphere of the practice.\nIf you are looking for top-tier orthodontic care delivered by a truly professional and dedicated team, especially as an adult considering a second treatment, look no further than Hello Ortho Orthodontics",
+          "languageCode": "en"
+        },
+        "authorAttribution": {
+          "displayName": "Mitch Davis",
+          "uri": "https://www.google.com/maps/contrib/110487412812057412423/reviews",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLnf0kJ06adWY40EHkgegzys_93BeGsjoRxUY-ltl3X8Qs1RQ=s128-c0x00000000-cc-rp-mo"
+        },
+        "publishTime": "2025-12-16T16:14:55.028917813Z",
+        "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pFM2VHNDFkakl3TVdvM2NHOVRlRFowTlRjd2RYYxAB&d=17924085&t=1",
+        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pFM2VHNDFkakl3TVdvM2NHOVRlRFowTlRjd2RYYxAB!2m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/reviews/Ci9DQUlRQUNvZENodHljRjlvT21wU2RsQTJiVlV0WW5GU2NDMTRla1F3UzJSbmQzYxAB",
+        "relativePublishTimeDescription": "3 months ago",
+        "rating": 5,
+        "text": {
+          "text": "I got my Invisalign here on September 16th, 2025, and the entire experience has been nothing short of exceptional. From the moment I walked in, the staff made me feel welcomed, informed, and genuinely cared for. Their customer service is consistently outstanding, every interaction feels personal, patient, and professional.\n\nThe text message reminders have been incredibly helpful, and I love that they actually reply. It makes communication so easy and stress‑free, especially when I have quick questions or need to adjust an appointment. The email reminders are just as reliable, keeping everything organized and on track throughout my treatment.\n\nWhat really stands out is how attentive and supportive the team is at every step. They explain everything clearly, check in often, and make sure I’m comfortable with the process. You can tell they take pride in their work and truly value their patients.\n\nMy Invisalign journey has been smooth, efficient, and surprisingly enjoyable thanks to this amazing team. I’m genuinely excited to continue my care here and I’m already looking forward to starting their teeth‑whitening program next. If it’s anything like the service I’ve received so far, I know I’ll be in great hands.\n\nHighly recommend to anyone considering Invisalign or braces to this ortho office that goes above and beyond.",
+          "languageCode": "en"
+        },
+        "originalText": {
+          "text": "I got my Invisalign here on September 16th, 2025, and the entire experience has been nothing short of exceptional. From the moment I walked in, the staff made me feel welcomed, informed, and genuinely cared for. Their customer service is consistently outstanding, every interaction feels personal, patient, and professional.\n\nThe text message reminders have been incredibly helpful, and I love that they actually reply. It makes communication so easy and stress‑free, especially when I have quick questions or need to adjust an appointment. The email reminders are just as reliable, keeping everything organized and on track throughout my treatment.\n\nWhat really stands out is how attentive and supportive the team is at every step. They explain everything clearly, check in often, and make sure I’m comfortable with the process. You can tell they take pride in their work and truly value their patients.\n\nMy Invisalign journey has been smooth, efficient, and surprisingly enjoyable thanks to this amazing team. I’m genuinely excited to continue my care here and I’m already looking forward to starting their teeth‑whitening program next. If it’s anything like the service I’ve received so far, I know I’ll be in great hands.\n\nHighly recommend to anyone considering Invisalign or braces to this ortho office that goes above and beyond.",
+          "languageCode": "en"
+        },
+        "authorAttribution": {
+          "displayName": "Albert Bautista",
+          "uri": "https://www.google.com/maps/contrib/117892824264652466156/reviews",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI16CynF2nesTAOl5zZaDXK27yqGe0c_HLX_vqU0jnHT2CZLg=s128-c0x00000000-cc-rp-mo"
+        },
+        "publishTime": "2025-12-17T22:37:52.286760378Z",
+        "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21wU2RsQTJiVlV0WW5GU2NDMTRla1F3UzJSbmQzYxAB&d=17924085&t=1",
+        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21wU2RsQTJiVlV0WW5GU2NDMTRla1F3UzJSbmQzYxAB!2m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/reviews/Ci9DQUlRQUNvZENodHljRjlvT25GdlNYbG9SMWRtWW0xQ2VIaHVOMVkwY25kVE1HYxAB",
+        "relativePublishTimeDescription": "3 months ago",
+        "rating": 5,
+        "text": {
+          "text": "I had an awesome experience at Hello Ortho. The team is super kind and welcoming, and they made everything feel easy from the start. I went with Invisalign, and the process was smooth and fast—my trays arrived in about four weeks, and getting them put on was a quick appointment.\nThe staff member who helped me was very friendly and knew exactly what they were doing. They took the time to answer all my questions and explain everything clearly. When I accidentally popped off a button, they were able to fit me in first thing the next morning, which was a huge help.\nThe office is clean, organized, and runs efficiently. Overall, a great experience, and I’d definitely recommend Hello Ortho to anyone thinking about orthodontic treatment.",
+          "languageCode": "en"
+        },
+        "originalText": {
+          "text": "I had an awesome experience at Hello Ortho. The team is super kind and welcoming, and they made everything feel easy from the start. I went with Invisalign, and the process was smooth and fast—my trays arrived in about four weeks, and getting them put on was a quick appointment.\nThe staff member who helped me was very friendly and knew exactly what they were doing. They took the time to answer all my questions and explain everything clearly. When I accidentally popped off a button, they were able to fit me in first thing the next morning, which was a huge help.\nThe office is clean, organized, and runs efficiently. Overall, a great experience, and I’d definitely recommend Hello Ortho to anyone thinking about orthodontic treatment.",
+          "languageCode": "en"
+        },
+        "authorAttribution": {
+          "displayName": "sofia caldera",
+          "uri": "https://www.google.com/maps/contrib/116675873296973577191/reviews",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL05FvnOi6VIx7oWDIEvm17HhbDPSZqIz7p8R_rHcO0bdkV0A=s128-c0x00000000-cc-rp-mo"
+        },
+        "publishTime": "2026-01-02T20:21:45.507779536Z",
+        "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25GdlNYbG9SMWRtWW0xQ2VIaHVOMVkwY25kVE1HYxAB&d=17924085&t=1",
+        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25GdlNYbG9SMWRtWW0xQ2VIaHVOMVkwY25kVE1HYxAB!2m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      },
+      {
+        "name": "places/ChIJVb4RhsEGhYAR4gGZ_xrOSVs/reviews/Ci9DQUlRQUNvZENodHljRjlvT25aNU1UWnNaRkZKZEdGeVZuaEhMVEZ0UVhONFRXYxAB",
+        "relativePublishTimeDescription": "a month ago",
+        "rating": 5,
+        "text": {
+          "text": "10/10 experience! Everyone was so friendly and helpful, and you can tell this office is known for being extremely detail-oriented. The space was spotless, the service was top-tier, and the whole team made me feel comfortable from start to finish. Highly recommend!  Kudos to Dr. Jordan and his whole team.",
+          "languageCode": "en"
+        },
+        "originalText": {
+          "text": "10/10 experience! Everyone was so friendly and helpful, and you can tell this office is known for being extremely detail-oriented. The space was spotless, the service was top-tier, and the whole team made me feel comfortable from start to finish. Highly recommend!  Kudos to Dr. Jordan and his whole team.",
+          "languageCode": "en"
+        },
+        "authorAttribution": {
+          "displayName": "Edgar Lopez",
+          "uri": "https://www.google.com/maps/contrib/114173714551750059953/reviews",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIp_bqdrnI__xGIxSEzH2B4sFFBNDkHo101WUnbjtIBuIylng=s128-c0x00000000-cc-rp-mo"
+        },
+        "publishTime": "2026-02-16T21:13:38.234258435Z",
+        "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25aNU1UWnNaRkZKZEdGeVZuaEhMVEZ0UVhONFRXYxAB&d=17924085&t=1",
+        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25aNU1UWnNaRkZKZEdGeVZuaEhMVEZ0UVhONFRXYxAB!2m1!1s0x808506c18611be55:0x5b49ce1aff9901e2"
+      }
+    ]
+  }
+}

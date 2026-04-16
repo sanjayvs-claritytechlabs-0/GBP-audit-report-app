@@ -1,0 +1,550 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.334848,-122.29524",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzM0ODQ4LC0xMjIuMjk1MjQ=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.334848,-122.29524",
+      "engine": "google"
+    },
+    "ll": "@42.953888,-71.4033092,12z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Elliot Orthopaedics",
+        "address": "185 Queen City Ave, Manchester, NH 03101",
+        "latitude": 42.9742258,
+        "longitude": -71.4685195,
+        "rating": 4.8,
+        "ratingCount": 972,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.elliothospital.org/website/orthopaedics.php",
+        "phoneNumber": "(603) 625-1655",
+        "openingHours": {
+          "Thursday": "7:30 AM–4:30 PM",
+          "Friday": "7:30 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–4:30 PM",
+          "Tuesday": "7:30 AM–4:30 PM",
+          "Wednesday": "7:30 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFprPELKPVhZRAQmP_MtgSFHtYJzVs0ay4I0O9Wm7Yju3BsY8uVaK9eTqcI-JweUcBQ_dDd7ucQffmyvNlGXG23mw62Kfu1NhKcaeVYE_PtEIbdBErqoCcgRXPK5tnClRXnz5HU",
+        "cid": "6065651034035789742",
+        "fid": "0x89e24efe1a2589e5:0x542d857a6f2f1fae",
+        "placeId": "ChIJ5YklGv5O4okRrh8vb3qFLVQ"
+      },
+      {
+        "position": 2,
+        "title": "New Hampshire Orthopedic Center",
+        "address": "9 Washington Pl #101, Bedford, NH 03110",
+        "latitude": 42.960685399999996,
+        "longitude": -71.4778187,
+        "rating": 4.8,
+        "ratingCount": 1715,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.nhoc.com/office-locations/bedford/",
+        "phoneNumber": "(603) 883-0091",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://nhoc.com/patient-center/make-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKuIw4KQ5xuljBzn3htHTlMkxicj5mjcyJ0SpOSPf9qiRhsqn2UBnYd9BX4LDyNt7MZo3cneJ0fd076MK2WsSUfGOuiR4QNYbWZhhA6MNAQDwNHkgmzraAn7xkyr_NAYr4kos9Sw",
+        "cid": "10025607704810660814",
+        "fid": "0x89e24f0133d39299:0x8b221d16eea8a3ce",
+        "placeId": "ChIJmZLTMwFP4okRzqOo7hYdIos"
+      },
+      {
+        "position": 3,
+        "title": "Concord Orthopaedics - Bedford",
+        "address": "166 S River Rd, Bedford, NH 03110",
+        "latitude": 42.948679999999996,
+        "longitude": -71.4775239,
+        "rating": 4.8,
+        "ratingCount": 306,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.concordortho.com/locations/bedford",
+        "phoneNumber": "(603) 224-3368",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwcEOeYKCHe4N4Wosl9PgawhnPro7NlLPNEIbYDgm-X9SLiBpz6MJQ8NPL2ieln8pPjyIN36cLHPAtkAoWw8mHywUUsz14gtRFeM8skVbl0290AyY9ftzjBsqFKUdn73LADjw7",
+        "cid": "1149229661011799337",
+        "fid": "0x89e24bccdcc90411:0xff2e249adf36d29",
+        "placeId": "ChIJEQTJ3MxL4okRKW3zrUni8g8"
+      },
+      {
+        "position": 4,
+        "title": "OrthoCare Medical Equipment, LLC",
+        "address": "700 Lake Ave # 6, Manchester, NH 03103",
+        "latitude": 42.9877295,
+        "longitude": -71.4339744,
+        "rating": 2.8,
+        "ratingCount": 42,
+        "type": "Medical supply store",
+        "types": [
+          "Medical supply store"
+        ],
+        "website": "http://www.orthocaremedical.com/",
+        "phoneNumber": "(603) 668-6688",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDrsVLzfT6EK1FAsZzlnrnNIyw3fai85T29iMlA7n1SS2lxFLbcOCl3L0AbegbhKEareomsktLgMm_nNfaH6KFHfEt_8Tqprg_CVMmDZilQOJRkR-TsyPFbGRpcmEImD2HplSDCQ",
+        "cid": "10405999973337633222",
+        "fid": "0x89e24fb507d63b25:0x906989d7a78391c6",
+        "placeId": "ChIJJTvWB7VP4okRxpGDp9eJaZA"
+      },
+      {
+        "position": 5,
+        "title": "Dartmouth Hitchcock Clinics Manchester | Orthopaedics",
+        "address": "100 Hitchcock Way, Manchester, NH 03104",
+        "latitude": 43.010453,
+        "longitude": -71.4235355,
+        "rating": 3.3,
+        "ratingCount": 15,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.dartmouth-hitchcock.org/ortho.html",
+        "phoneNumber": "(603) 695-2830",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFofQ3QQ2Rjb4G0P2d66wv28SXoT7h-7A36eNYZc-fUdGfevJYwq6yrK8u7fNyZuidk6p_wkHnZ-3F1YNiNMg1vaZHiAEkNUE7lrPL0ceHOUYVap8fCqHosMtAOPlCI0sgIvjUR",
+        "cid": "1568895997970720540",
+        "fid": "0x89e24f84bdcb4a43:0x15c5d6990893a71c",
+        "placeId": "ChIJQ0rLvYRP4okRHKeTCJnWxRU"
+      },
+      {
+        "position": 6,
+        "title": "New Hampshire Orthopaedic Center",
+        "address": "175 Rockingham Rd, Londonderry, NH 03053",
+        "latitude": 42.9170942,
+        "longitude": -71.3785451,
+        "rating": 4.9,
+        "ratingCount": 525,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://www.nhoc.com/",
+        "phoneNumber": "(603) 883-0091",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgTUwy24qV0rbmnY2gncSyr3KHb1xtVPWWwLCACSzOR3CKinfGLKIQREEN6XmSojbKeY_C4jve4hTRGjMm6sd81aYTYa_XdiO4kjUazr-9Sy1j5-43mIG4KCDTZV-103UMjNtJujCFqUbT",
+        "cid": "13971143814888470608",
+        "fid": "0x89e253005033cf8b:0xc1e379470052b850",
+        "placeId": "ChIJi88zUABT4okRULhSAEd548E"
+      },
+      {
+        "position": 7,
+        "title": "Dr Tom Orthodontics",
+        "address": "73 Pleasant St, Manchester, NH 03101",
+        "latitude": 42.988789,
+        "longitude": -71.4651852,
+        "rating": 4.7,
+        "ratingCount": 15,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "website": "https://drtomorthodontics.com/",
+        "phoneNumber": "(603) 622-5841",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0jH1h1eUIH2PHp44_TX_LIYdLmmQ8whUDaoWO5xrue6D0zdKsCimNDlFOWaSAiQ7jtTSKJXPW3ZDDdumtk73MeqCHC9aOiR2WaWKl9kyjzKfb4XOnk2k94hSky9-kteVIBBYYUw",
+        "cid": "8733819404997583863",
+        "fid": "0x89e24f27fafcbb63:0x7934c2799f4b63f7",
+        "placeId": "ChIJY7v8-idP4okR92NLn3nCNHk"
+      },
+      {
+        "position": 8,
+        "title": "Moin Orthodontics",
+        "address": "765 S Main St #302, Manchester, NH 03102",
+        "latitude": 42.966708,
+        "longitude": -71.4823954,
+        "rating": 4.9,
+        "ratingCount": 134,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.drmoin.com/",
+        "phoneNumber": "(603) 669-4503",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "9 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://drmoin.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5GuOOLKgUbI5MAXD0Xd4PHrwujZ7KUT4Ep0TE10U4EfW_z4ldg7mfhg6o5FowP1TrCWPCaPgT2EDE1wEZ_8bkW9SlyW34S4GMyFePLraqok8m-Xo0YOoU-H46jPMO1KxA-wnR",
+        "cid": "7841240958917822410",
+        "fid": "0x89e2494c1414cbf5:0x6cd1af1b828a47ca",
+        "placeId": "ChIJ9csUFExJ4okRykeKghuv0Ww"
+      },
+      {
+        "position": 9,
+        "title": "Gregory W. Soghikian, MD",
+        "address": "9 Washington Pl #101, Bedford, NH 03110",
+        "latitude": 42.9606152,
+        "longitude": -71.4769087,
+        "rating": 5,
+        "ratingCount": 210,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine physician"
+        ],
+        "website": "https://nhoc.com/doctor_bios/soghikian/",
+        "phoneNumber": "(603) 669-5454",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEgjCNplVdW_esmkAZxoecQy6NcaDU0rUjdbfHkzDvgYHYqJ8fbBJ4wa11_fW4xwXc0X1zD0gi_vuYBPVxh99QpKE_U2Uv9OKdSsMYBTYFpx99-XZWjvc61AV7nHfVBd5MxyXEx",
+        "cid": "10898512851194809921",
+        "fid": "0x89e24f0133d39299:0x973f4bb2037f0e41",
+        "placeId": "ChIJmZLTMwFP4okRQQ5_A7JLP5c"
+      },
+      {
+        "position": 10,
+        "title": "Mehan and Johnson Orthodontics",
+        "address": "113 Mammoth Rd, Manchester, NH 03109",
+        "latitude": 42.977351899999995,
+        "longitude": -71.4290118,
+        "rating": 4.6,
+        "ratingCount": 19,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://www.nhorthodontics.com/",
+        "phoneNumber": "(603) 623-8003",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFoGa9EBNkzgzVnZcMv747cvBPkiEOkimToSP_C7XDTiTNM-uG_m2_m_LxKZ07QPhcX9Hl_vyYpvhUNoUErDIm7xh93-ivLKvAb2LMvD3qBBezosSl_Q_ca1NedH-P224fz4AkI",
+        "cid": "7883951279969769573",
+        "fid": "0x89e24e59f2ef0fcf:0x6d696beb0d159865",
+        "placeId": "ChIJzw_v8llO4okRZZgVDetraW0"
+      },
+      {
+        "position": 11,
+        "title": "London Family Orthodontics",
+        "address": "502 Riverway Pl, Bedford, NH 03110",
+        "latitude": 42.962652299999995,
+        "longitude": -71.4772447,
+        "rating": 5,
+        "ratingCount": 221,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://londonfamilyorthodontics.com/",
+        "phoneNumber": "(603) 622-2100",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–2:30 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://londonfamilyorthodontics.com/request-an-appointment/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGodHJ7ttsxIbodlp9BGKZ8fsVoolsN5dlOKcZ5bhfwigwmeDoiNimZoY51uGw9q0M-kgEdkjd2YQL8vytX_sRRrKXaHpNtQcar7xfGeSp6eCRO1Fu31BWbPjqvfEj-lFrzmbFCHw",
+        "cid": "11551616256060220726",
+        "fid": "0x89e2495282157f77:0xa04f95c82418e536",
+        "placeId": "ChIJd38VglJJ4okRNuUYJMiVT6A"
+      },
+      {
+        "position": 12,
+        "title": "Orthopaedic Center: Macey Lance R MD",
+        "address": "35 Kosciuszko St, Manchester, NH 03101",
+        "latitude": 42.9943965,
+        "longitude": -71.4617777,
+        "rating": 4.7,
+        "ratingCount": 43,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://nhoc.com/",
+        "phoneNumber": "(603) 634-0080",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ogGZXNKZRo8EvvKozKsciw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=153.59337&pitch=0&thumbfov=100",
+        "cid": "8317708265423619810",
+        "fid": "0x89e24f2450bea399:0x736e6f9929e7c6e2",
+        "placeId": "ChIJmaO-UCRP4okR4sbnKZlvbnM"
+      },
+      {
+        "position": 13,
+        "title": "Eric R. Benson, MD",
+        "address": "9 Washington Pl #101, Bedford, NH 03110",
+        "latitude": 42.9606152,
+        "longitude": -71.4769087,
+        "rating": 5,
+        "ratingCount": 437,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://nhoc.com/doctor_bios/benson/",
+        "phoneNumber": "(603) 883-0091",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6H2Bp4GC7LtaZJOUY1L-UANby7bCUYnG0ZOv35z15j_VRUrq5lPxASLzSlmw5TGL0oxW5Pdvqtmc-cBS-FLRzup4gPq_CCuWAoA5vn8duf0vwWgkNoUgu9i01wGxbRPFVV7knHw",
+        "cid": "9493966137788231030",
+        "fid": "0x89e24f0133d39299:0x83c157e6b0746d76",
+        "placeId": "ChIJmZLTMwFP4okRdm10sOZXwYM"
+      },
+      {
+        "position": 14,
+        "title": "Dr. Mary-Lee Sole, MD",
+        "address": "Medical Office Building, 4 Elliot Way Ste 100, Manchester, NH 03103",
+        "latitude": 42.982585,
+        "longitude": -71.436386,
+        "rating": 4.6,
+        "ratingCount": 7,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(603) 625-1655",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I1CZy2dBnbGiy5r-Hd955g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=357.43185&pitch=0&thumbfov=100",
+        "cid": "10970360730661124392",
+        "fid": "0x89e24efe1a2589e5:0x983e8cf608f37928",
+        "placeId": "ChIJ5YklGv5O4okRKHnzCPaMPpg"
+      },
+      {
+        "position": 15,
+        "title": "Concord Orthopaedics",
+        "address": "Overlook Medical Park, 6 Tsienneto Rd UNIT 200, Derry, NH 03038",
+        "latitude": 42.897323,
+        "longitude": -71.324223,
+        "rating": 4.9,
+        "ratingCount": 578,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://concordortho.com/",
+        "phoneNumber": "(603) 224-3368",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErWnu-6cyhBjGGTl9HDPf4L5ghQ4HPbOUYAqxYKTn3-UKvjpyz81zlTRZo4jayPK7dY8nJt4gRnNrB0-hvywlsl6JOXrw7ZGtxNli2HWqWvIpYd5ef5gtGJym6oDGfedfeqS_tZg",
+        "cid": "2455381688525352855",
+        "fid": "0x89e253af91679b01:0x221344a2f48d6f97",
+        "placeId": "ChIJAZtnka9T4okRl2-N9KJEEyI"
+      },
+      {
+        "position": 16,
+        "title": "ROBERT J. HEAPS, MD",
+        "address": "35 Kosciuszko St, Manchester, NH 03101",
+        "latitude": 42.9945077,
+        "longitude": -71.4616121,
+        "rating": 4.9,
+        "ratingCount": 70,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "http://nhoc.com/",
+        "phoneNumber": "(603) 634-0080",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=cmiScAZcXV9IqFASrEWp_g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=92.79604&pitch=0&thumbfov=100",
+        "cid": "9278758429635726394",
+        "fid": "0x89e24f2450bea399:0x80c4c5a17b194c3a",
+        "placeId": "ChIJmaO-UCRP4okROkwZe6HFxIA"
+      },
+      {
+        "position": 17,
+        "title": "Good Feet Store Manchester",
+        "address": "655 S Willow St Suite 116, Manchester, NH 03103",
+        "latitude": 42.9646,
+        "longitude": -71.45016,
+        "rating": 4.7,
+        "ratingCount": 142,
+        "type": "Orthotics & prosthetics service",
+        "types": [
+          "Orthotics & prosthetics service",
+          "Orthopedic shoe store",
+          "Shoe store"
+        ],
+        "website": "https://www.goodfeet.com/stores/usa/nh/manchester/655-s-willow-st?utm_source=google&utm_medium=website_url_click&utm_campaign=listings_tracking",
+        "phoneNumber": "(603) 945-1460",
+        "openingHours": {
+          "Thursday": "10 AM–6 PM",
+          "Friday": "10 AM–6 PM",
+          "Saturday": "10 AM–6 PM",
+          "Sunday": "12–4 PM",
+          "Monday": "10 AM–6 PM",
+          "Tuesday": "10 AM–6 PM",
+          "Wednesday": "10 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://the-good-feet-store-578.appointedd.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpLfusXtWOm7pv_A0EfcUKp04hFxFPd-bd3Whrd9HEY_GMcZmM1_qz563MoJWeub3gC5ISsTdg-XQhTPvp9__JlzPuxGOZxXH5yvOhCLbBUAGlMavMnmPSjBMzBF-9YzP4pxtO",
+        "cid": "11851314933485472690",
+        "fid": "0x89e24fd16a712e0b:0xa47854241baf0bb2",
+        "placeId": "ChIJCy5xatFP4okRsguvGyRUeKQ"
+      },
+      {
+        "position": 18,
+        "title": "Dinakar S. Murthi, MD",
+        "address": "9 Washington Pl #101, Bedford, NH 03110",
+        "latitude": 42.960685399999996,
+        "longitude": -71.4778187,
+        "rating": 4.9,
+        "ratingCount": 352,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://nhoc.com/doctor_bios/murthi/",
+        "phoneNumber": "(603) 883-0091",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPo6bLMmvy5qeq4nNcSNto1tCZiP1lqNTMv2PIOi8EZ7mEA-TJfZvVnx8NlWbWViuB5ve2hgTXKAGRUx4Kv-BUZ3qDSl5m4-r7dUucsI-CrfdtWHQdErfcxpvkDdhPvXsggwr2",
+        "cid": "7660263512919444508",
+        "fid": "0x89e249968f98a1af:0x6a4eb91445730c1c",
+        "placeId": "ChIJr6GYj5ZJ4okRHAxzRRS5Tmo"
+      },
+      {
+        "position": 19,
+        "title": "Jason A. Oliviero, MD",
+        "address": "100 Hitchcock Way, Manchester, NH 03104",
+        "latitude": 43.010453,
+        "longitude": -71.4235355,
+        "rating": 3.8,
+        "ratingCount": 12,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic"
+        ],
+        "website": "https://providers.dartmouth-health.org/18/jason-a-oliviero",
+        "phoneNumber": "(603) 629-8110",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0U9rpKLZYStoek67UTIEHR_5qDWKTWScAztnNk--7jtdgVreIvbbNYKB9D7NCHGlBrRUlM9MXoQQn84YcbymebRat5hbWadpoe2ZWYxcNR1wQnMewiBeHx6Ohq1-UDADdLVg",
+        "cid": "3795629670288221216",
+        "fid": "0x89e24f84a3eaaaab:0x34acc91334766420",
+        "placeId": "ChIJq6rqo4RP4okRIGR2NBPJrDQ"
+      },
+      {
+        "position": 20,
+        "title": "Smilebliss Orthodontics",
+        "address": "1045B Hanover St, Manchester, NH 03104",
+        "latitude": 42.9869274,
+        "longitude": -71.4199981,
+        "rating": 4.8,
+        "ratingCount": 131,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://smilebliss.com/bliss-locations/new-hampshire/manchester/",
+        "phoneNumber": "(603) 815-9200",
+        "openingHours": {
+          "Thursday": "Closed",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1iRNlZsaUo7PsF8EgA0jizxyF3SHc3tfqS7ZUeM17k_eVkdorYps8dmCZXFwseEmVzkjXMs3HsEasnKhRbLnlzq8G2ZICyhEkS95kJXT4wog_2mfnP0381P9EBp3YlCDDhBL1",
+        "cid": "11273158368971979777",
+        "fid": "0x89e24f0db7c66301:0x9c724dcf0f4bfc01",
+        "placeId": "ChIJAWPGtw1P4okRAfxLD89Ncpw"
+      }
+    ],
+    "credits": 3
+  }
+}

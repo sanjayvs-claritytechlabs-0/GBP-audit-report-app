@@ -1,0 +1,625 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.325865,-122.289514",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzI1ODY1LC0xMjIuMjg5NTE0",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.289514",
+      "engine": "google"
+    },
+    "ll": "@39.2604766,-104.8257416,9z",
+    "places": [
+      {
+        "position": 1,
+        "title": "UCHealth Orthopedics Clinic - Interquest",
+        "address": "1370 Interquest Pkwy Suite 100, Colorado Springs, CO 80921",
+        "latitude": 38.9916173,
+        "longitude": -104.7990767,
+        "rating": 4.5,
+        "ratingCount": 192,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.uchealth.org/locations/uchealth-orthopedics-interquest/",
+        "phoneNumber": "(719) 365-1950",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWG-uXYrcEEgV35HHpJdR4xqVEWfQgFi4Wbz9GUetujeTe9vUPk7fcGMuQDggbksLll_hV7_fPBG0H0u69ysWsivAPNMQu5tY2rwCbMHeXakoHtUe8n7P794q2ddEEjvVJQlmI",
+        "cid": "3542829606072403794",
+        "fid": "0x87134c1b648edb05:0x312aa8c189aec752",
+        "placeId": "ChIJBduOZBtME4cRUseuicGoKjE"
+      },
+      {
+        "position": 2,
+        "title": "UCHealth Orthopedics Clinic - Grandview",
+        "address": "UCHealth Grandview Medical Center, 5818 N Nevada Ave Suite 110, Colorado Springs, CO 80918",
+        "latitude": 38.913371999999995,
+        "longitude": -104.81700889999999,
+        "rating": 4.4,
+        "ratingCount": 105,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.uchealth.org/locations/uchealth-orthopedics-clinic-grandview/",
+        "phoneNumber": "(719) 365-1950",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXTgO57HgLqwlOp8BIQKUXFvETRDRWCDbySyQM5JQGym6f69FbK2PkIwtwaz3o6615ivqHdpjgy4aX2omQ10GKmwctzlSJG2EyGGsfXXzNEqZsJYRiD5BPK8afT5MxX7yq2PYc4Q",
+        "cid": "9686559157264495861",
+        "fid": "0x87134ffbadcf0fc3:0x866d923b608eb4f5",
+        "placeId": "ChIJww_PrftPE4cR9bSOYDuSbYY"
+      },
+      {
+        "position": 3,
+        "title": "Colorado Center of Orthopedic Excellence - Briargate",
+        "address": "2446 Research Pkwy Suite 200, Colorado Springs, CO 80920",
+        "latitude": 38.9607992,
+        "longitude": -104.7822216,
+        "rating": 4.7,
+        "ratingCount": 1519,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://occ-ortho.com/office-location/co-springs-briargate/?utm_source=GMBSocialClimb&utm_medium=OrthopedicCentersofColorado%E2%80%93ColoradoCenterofOrthopedicExcellence-Briargate",
+        "phoneNumber": "(719) 623-1050",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXJHvvIUgx6cgHd7EIN6XtUhRoqwqf0I6vHBv-gwtkFoBt8zw8nW2oKYk0OD1g345vU53DOL7Vq9Em9VlseYZ7cnSXm-X-iFriCmjse7UaEg03kskoTFZ1vL_YsL5c4tqEoDjsU1JqSF8",
+        "cid": "11604189917797910186",
+        "fid": "0x87134c2489a44a65:0xa10a5d3fa48386aa",
+        "placeId": "ChIJZUqkiSRME4cRqoaDpD9dCqE"
+      },
+      {
+        "position": 4,
+        "title": "UCHealth Orthopedics Clinic - Printers Park",
+        "address": "175 S Union Blvd Suite 125, Colorado Springs, CO 80910",
+        "latitude": 38.8297345,
+        "longitude": -104.79349049999999,
+        "rating": 4.4,
+        "ratingCount": 212,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.uchealth.org/locations/orthopedics-clinic-printers-park/",
+        "phoneNumber": "(719) 365-1950",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIQFZF5DKXB9i78a-oNszTvAWLCDtqycrl7ZxPlP_op_k9ZnRzVrvJnpfT6pubO3Uw6dCvqzG7RkqO2uFXPENTGhq5Zx_8-U6HepM_b6S-gCS-wq4jp8VpgV0fbkYHA6tNoc35qg",
+        "cid": "9885806517364136334",
+        "fid": "0x871345ab5094df7f:0x893170a679bb198e",
+        "placeId": "ChIJf9-UUKtFE4cRjhm7eaZwMYk"
+      },
+      {
+        "position": 5,
+        "title": "CommonSpirit Orthopedics North Nevada",
+        "address": "4925 N Nevada Ave, Colorado Springs, CO 80918",
+        "latitude": 38.902913999999996,
+        "longitude": -104.8159012,
+        "rating": 4.9,
+        "ratingCount": 258,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Hand surgeon",
+          "Pediatric orthopedic surgeon",
+          "Podiatrist",
+          "Surgical center"
+        ],
+        "website": "https://www.mountain.commonspirit.org/location/commonspirit-orthopedics-nevada",
+        "phoneNumber": "(719) 776-3750",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjQWK4_tpJd-C0GlgreQ9PuSa--AtCSXaAlzoH4mN8b4zeZSrQkOVY3ZKLrsIKqHgrjbHFfu4HxlKSv9ZUOT0xNFzl45xUONg_tLIo3I_Vbx3Y00n4EL6MPgBU1Exukj1M86og",
+        "cid": "4201869314084425165",
+        "fid": "0x87134f8334e335bd:0x3a5009e0f29dcdcd",
+        "placeId": "ChIJvTXjNINPE4cRzc2d8uAJUDo"
+      },
+      {
+        "position": 6,
+        "title": "Colorado Center of Orthopedic Excellence – South Lake",
+        "address": "1263 Lake Plaza Dr Suite 210 B, Colorado Springs, CO 80906",
+        "latitude": 38.7952681,
+        "longitude": -104.80399779999999,
+        "rating": 4.8,
+        "ratingCount": 768,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://occ-ortho.com/office-location/co-springs-south-lake/?utm_source=GMBSocialClimb&utm_medium=OrthopedicCentersofColorado%E2%80%93ColoradoCenterofOrthopedicExcellence%E2%80%93SouthLake",
+        "phoneNumber": "(719) 623-1050",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOxXLhhpAHRHAZpJ41v1VhTCA5UoXhaEcGduBy1DnHgorbGQj_jxVE1I7d2kH4LMz2UwfkXOFO2_9J27-tlrbRbvXWm3OjXKw9Pit69cW4drHwJ0wrWqjHoDR1CI4sZ_N-lChk2iVas4RI",
+        "cid": "3388616768789727069",
+        "fid": "0x871344867b9ea41d:0x2f06c8ff5fa4c75d",
+        "placeId": "ChIJHaSee4ZEE4cRXcekX__IBi8"
+      },
+      {
+        "position": 7,
+        "title": "Optum Orthopedics",
+        "address": "1633 Medical Center Point, Colorado Springs, CO 80907",
+        "latitude": 38.874957699999996,
+        "longitude": -104.7956629,
+        "rating": 5,
+        "ratingCount": 11,
+        "type": "Doctor",
+        "types": [
+          "Doctor",
+          "Medical clinic"
+        ],
+        "website": "https://www.optum.com/locations-nav/locations/co/optum-orthopedics-1633-medical-center-pt-colorado-springs-co-80907/DMC73015041.html",
+        "phoneNumber": "(719) 447-1000",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF7otkoLzHRcPQc1ix802NF97Y8nabQPbNYqiginmSVjK7oBkXrnVlkRFWHCpvvqSg8uvzbSFWhvyAC2R915RSDSfFEHH1X1ZEmUIt0lGlZRNWdMVWUdODop9ZiEURXBRqKm_BlXw",
+        "cid": "1452820880105735297",
+        "fid": "0x87134f2dd1ce6a73:0x142974e4a0f90481",
+        "placeId": "ChIJc2rO0S1PE4cRgQT5oOR0KRQ"
+      },
+      {
+        "position": 8,
+        "title": "Orthopedic Rehabilitation Associates",
+        "address": "15746 Jackson Creek Pkwy Ste B, Monument, CO 80132",
+        "latitude": 39.0629606,
+        "longitude": -104.84879099999999,
+        "rating": 4.9,
+        "ratingCount": 211,
+        "type": "Physical therapy clinic",
+        "types": [
+          "Physical therapy clinic",
+          "Physical therapist",
+          "Sports medicine clinic"
+        ],
+        "website": "https://ora.urpt.com/locations/monument/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+        "phoneNumber": "(719) 481-0899",
+        "openingHours": {
+          "Thursday": "7 AM–6 PM",
+          "Friday": "7 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–6 PM",
+          "Tuesday": "7 AM–6 PM",
+          "Wednesday": "7 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://ora.urpt.com/request-an-appointment/?state=Colorado"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEA8jcw_eF8lNRiHejAo9AlxTLk4fr7WiPYiBcwZQtf2Co2nzFp_tyvJ-vBPtitIABHksRUwZhc-hXXZOsnQFIp5la4SllDhZVscOh8fJivFbYat5CbjINHPLWoddKtzXOrBLka-g",
+        "cid": "14215710012079127313",
+        "fid": "0x876cad7fa8bc07c7:0xc54858f01bf0bb11",
+        "placeId": "ChIJxwe8qH-tbIcREbvwG_BYSMU"
+      },
+      {
+        "position": 9,
+        "title": "Colorado Springs Orthopaedic Group",
+        "address": "1655 Quail Lake Loop, Colorado Springs, CO 80906",
+        "latitude": 38.788299599999995,
+        "longitude": -104.8027662,
+        "rating": 4.6,
+        "ratingCount": 1328,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.csog.net/?utm_source=GMBSocialClimb&utm_medium=ColoradoSpringsOrthopaedicGroup",
+        "phoneNumber": "(719) 417-4931",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElGpmbpLot3Iht1KLffFxeEhYtSuOJFROGvPvulzVE8YuRVNS0nh-jcmkDFbb74Fk9rcDc3C6PhGKKhFgnfqP9yHZbeLIwqzMHQgUfF7Kso4am3P_VwO6iurJh44lQSu7Iz6Yy-wCnz7w",
+        "cid": "41008142102370762",
+        "fid": "0x87134f7c230b1f3b:0x91b0b01ee919ca",
+        "placeId": "ChIJOx8LI3xPE4cRyhnpHrCwkQA"
+      },
+      {
+        "position": 10,
+        "title": "Colorado Springs Orthopaedic Group",
+        "address": "4110 Briargate Pkwy #300, Colorado Springs, CO 80920",
+        "latitude": 38.9675375,
+        "longitude": -104.7529194,
+        "rating": 4.7,
+        "ratingCount": 2373,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://www.csog.net/?utm_source=GMBSocialClimb&utm_medium=ColoradoSpringsOrthopaedicGroup",
+        "phoneNumber": "(719) 882-1523",
+        "openingHours": {
+          "Thursday": "7 AM–5 PM",
+          "Friday": "7 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–5 PM",
+          "Tuesday": "7 AM–5 PM",
+          "Wednesday": "7 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJBxzRM5KpKE8vyxH9Cem32LeYtldCcAGMnZ1DIccV4jcQL_2z3GULwfSLHPgXizJ71PgJcN1oiNc1F-Thmph2syvsfF0GxPu1YZhuf-D_BHf9XV-TvicCPqE2qe7VI4TcLqkhTsVhwxxk",
+        "cid": "6038811306109612478",
+        "fid": "0x8713490d8fd19dc9:0x53ce2ae34e46b1be",
+        "placeId": "ChIJyZ3Rjw1JE4cRvrFGTuMqzlM"
+      },
+      {
+        "position": 11,
+        "title": "CommonSpirit Orthopedics Audubon",
+        "address": "3010 N Circle Dr Suite 100, Colorado Springs, CO 80909",
+        "latitude": 38.872917799999996,
+        "longitude": -104.794174,
+        "rating": 4.8,
+        "ratingCount": 351,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Hand surgeon",
+          "Orthopedic clinic",
+          "Pediatric orthopedic surgeon",
+          "Podiatrist",
+          "Surgical center"
+        ],
+        "website": "https://www.mountain.commonspirit.org/location/commonspirit-orthopedics-audubon",
+        "phoneNumber": "(719) 776-7846",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFakeUuOqUQ-e7Ze5Xmi0Nyyucv--bkHlMpm006cUQp7zNrRljPLgkfGuL3gGtUW-TJ-1RRlF_c7aX_5GQJOt_eltHuiF2Uz5ibuLoKteIfeZDUjwsy-ZKt2QdJsHQwXyk2KLMsZQ",
+        "cid": "9848787329311833796",
+        "fid": "0x87134f03ace6f361:0x88adebe517fffec4",
+        "placeId": "ChIJYfPmrANPE4cRxP7_F-XrrYg"
+      },
+      {
+        "position": 12,
+        "title": "Orthopedic Centers of Colorado – Parker Lone Tree (formerly Advanced Ortho)",
+        "address": "11960 Lioness Way #260, Parker, CO 80134",
+        "latitude": 39.534023,
+        "longitude": -104.84993109999999,
+        "rating": 4.8,
+        "ratingCount": 1660,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://occ-ortho.com/office-location/parker-lone-tree-260-a/?utm_medium=OrthopedicCentersofColorado%E2%80%93Parker&utm_source=GMBSocialClimb",
+        "phoneNumber": "(303) 344-9090",
+        "openingHours": {
+          "Thursday": "7 AM–6 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7 AM–6 PM",
+          "Tuesday": "7 AM–6 PM",
+          "Wednesday": "7 AM–6 PM"
+        },
+        "bookingLinks": [
+          "https://advancedortho.org/appointments/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHW5Iccc8Ze8wyhindcGNrnP_u9tmCfUiaVIvCJFqmq40RnjS9Q4P9wb1PzPcOwh6GdEPbuz_0BI77RJ7psvNI6cYi9riKiwVhgHVFcMhImAzG88AbsmZ3O-qgTELk95KcX7lwih2MwaRM",
+        "cid": "10282846012229503874",
+        "fid": "0x876c85609f7efe9d:0x8eb401f79efb4b82",
+        "placeId": "ChIJnf5-n2CFbIcRgkv7nvcBtI4"
+      },
+      {
+        "position": 13,
+        "title": "HCA HealthONE Colorado Orthopedic Specialists",
+        "address": "4105 Briargate Pkwy Suite 300, Colorado Springs, CO 80920",
+        "latitude": 38.9653038,
+        "longitude": -104.75274379999999,
+        "rating": 4.9,
+        "ratingCount": 127,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.healthonephysiciangroup.com/locations/colorado-orthopedic-specialists?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+        "phoneNumber": "(719) 402-0200",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNUdsKWnL8FVRgRo5qYsyXHlUy_PVzz1R3VrcHBsAxn00E1xeKuJKzi62pStQ7uqAIuh0e_Y34GSCV5wgsP1JngIsJMiiXUcf4AgJffyOmzYKOiM8htT8UE9xEa-NC8DWiyH8j",
+        "cid": "17612699203002518848",
+        "fid": "0x87134de1e05cf30b:0xf46ce09beac54d40",
+        "placeId": "ChIJC_Nc4OFNE4cRQE3F6pvgbPQ"
+      },
+      {
+        "position": 14,
+        "title": "Rangewood Orthodontics",
+        "address": "7560 Rangewood Dr, Colorado Springs, CO 80920",
+        "latitude": 38.941911,
+        "longitude": -104.7564237,
+        "rating": 4.9,
+        "ratingCount": 796,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rangewoodorthodontics.com/location/rangewood/?utm_source=gbp&utm_medium=organic&utm_campaign=rangewood&utm_content=listing",
+        "phoneNumber": "(719) 596-3113",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rangewoodorthodontics.com/new-patients/free-consultation/?utm_source=gbp&utm_medium=organic&utm_campaign=rangewood&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLTVEmu8zs1yR-Cded0qmB_UPd0Oop2ZmVMejxEB8mEdG11IAn-xeGF20oUyGT3aGERP4Qwo1jQsf06CnZFoAKTEj38jOSu5Ty6lfu6B95Gh-zQQv62PDcJDQMi0c3FGWdBjf5",
+        "cid": "53380043407574356",
+        "fid": "0x87134eb47501930f:0xbda4dddd674554",
+        "placeId": "ChIJD5MBdbROE4cRVEVn3d2kvQA"
+      },
+      {
+        "position": 15,
+        "title": "CSOG Express Bone & Joint Injury Care",
+        "address": "4110 Briargate Pkwy #145, Colorado Springs, CO 80920",
+        "latitude": 38.967358399999995,
+        "longitude": -104.75258679999999,
+        "rating": 4.7,
+        "ratingCount": 718,
+        "type": "Urgent care center",
+        "types": [
+          "Urgent care center"
+        ],
+        "website": "https://www.csog.net/services/our-express-care/?utm_source=GMBSocialClimb&utm_medium=CSOGExpressBone%26JointInjuryCare",
+        "phoneNumber": "(719) 982-7941",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.csog.net/services/our-express-care/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCFJs-S12IZeblffq5Dm_wWP-pJneNAIhvUCP-Tad0MLCd3e60H9HRLXZP7RkEqRUsowxczAcJMlVNkwQFWYYzyaFdB-s5Sr3NR_WXtFtlpo8fd69tp1IU7qPjnwXTgo_bLQfE",
+        "cid": "5409344839363478925",
+        "fid": "0x87134d59cd97892b:0x4b11da78b1da458d",
+        "placeId": "ChIJK4mXzVlNE4cRjUXasXjaEUs"
+      },
+      {
+        "position": 16,
+        "title": "Rangewood Orthodontics Downtown",
+        "address": "501 S Tejon St #200, Colorado Springs, CO 80903",
+        "latitude": 38.826521,
+        "longitude": -104.823555,
+        "rating": 4.9,
+        "ratingCount": 566,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://rangewoodorthodontics.com/location/downtown/?utm_source=gbp&utm_medium=organic&utm_campaign=downtown&utm_content=listing",
+        "phoneNumber": "(719) 596-3113",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://rangewoodorthodontics.com/new-patients/free-consultation/?utm_source=gbp&utm_medium=organic&utm_campaign=downtown&utm_content=listing"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7QjDnr4Kh6jcXFaUTlU7ZaEMGPioDD1tZ3pDr68PB7I9lDiH7R1HER9nqaskIQMVa3SPChcl4KVW0CMj8HuLM2FvkMcwWvTCqs4oZNFAuAWkn9GeCqN2lHjrKy8ldTXdETto",
+        "cid": "17188497028000064073",
+        "fid": "0x8713453fd9504187:0xee89cefa78cd2249",
+        "placeId": "ChIJh0FQ2T9FE4cRSSLNePrOie4"
+      },
+      {
+        "position": 17,
+        "title": "Johnson Orthodontics - Colorado Springs",
+        "address": "5850 Tutt Center Point, Colorado Springs, CO 80922",
+        "latitude": 38.9067444,
+        "longitude": -104.7189855,
+        "rating": 4.9,
+        "ratingCount": 1351,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist"
+        ],
+        "website": "https://coloradospringsorthodontics.com//?",
+        "phoneNumber": "(719) 596-3081",
+        "openingHours": {
+          "Thursday": "8:15 AM–4:30 PM",
+          "Friday": "8:15 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8:15 AM–4:30 PM",
+          "Tuesday": "8:15 AM–4:30 PM",
+          "Wednesday": "8:15 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://consultation.coloradospringsorthodontics.com/newpatient/office/ColoradoSprings-Tutt?rwg_token=AFd1xnF9YCAj3Z-tmLWih-Rbi8l38nuPZ7s1mJJxICSS2yX3UWv0XHlW26oBMDkuE3y1DECdZuoJJ2THD0aFwFyrGMhqtnYroQ%3D%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqeQgrdmm97AU91oNQW6GVRTDxjTBAafpuC9sMRTUEsVQnw4kPsfWMcMEtzehkLM-k2ym8TUTbsJS5NlxfGAvlTvVRA6cLvuToin3mRd_QjQy9zEybSnwwhEjvdkcmNNS5_Fo",
+        "cid": "4276682471077333414",
+        "fid": "0x871345e3245088ad:0x3b59d40c71b449a6",
+        "placeId": "ChIJrYhQJONFE4cRpkm0cQzUWTs"
+      },
+      {
+        "position": 18,
+        "title": "Orthopedic Centers of Colorado – Denver Rose/Cherry Creek (formerly Orthopedic Associates)",
+        "address": "Rose Medical Center, 4700 E Hale Pkwy #550, Denver, CO 80220",
+        "latitude": 39.7326535,
+        "longitude": -104.9324977,
+        "rating": 4.8,
+        "ratingCount": 780,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://occ-ortho.com/office-location/denver-rose/cherry-creek/?utm_medium=OrthopedicCentersofColorado%E2%80%93DenverRose&utm_source=GMBSocialClimb",
+        "phoneNumber": "(303) 321-6600",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "7:30 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzYvw5yx3yT8J4bIzPkuHzTFBCN22aBRz75jHMuWy0tFlX1S6BhThLsvSY2WDGqdNoZvlbDT8iJsgTC92zLTvv5uAxLJTMjS1IrLYlxbqRwaLwklpbWCmKhoJSHS8m3AznGMp8CK-rjV3w",
+        "cid": "11864874672202074235",
+        "fid": "0x876c7c1b90f23be7:0xa4a880a6cd22487b",
+        "placeId": "ChIJ5zvykBt8bIcRe0gizaaAqKQ"
+      },
+      {
+        "position": 19,
+        "title": "Colorado Orthopedic Specialists Rapid Care Clinic",
+        "address": "4105 Briargate Pkwy, Colorado Springs, CO 80920",
+        "latitude": 38.9650701,
+        "longitude": -104.7532648,
+        "rating": 5,
+        "ratingCount": 7,
+        "type": "Urgent care center",
+        "types": [
+          "Urgent care center"
+        ],
+        "website": "https://www.healthonephysiciangroup.com/locations/colorado-orthopedic-specialists",
+        "phoneNumber": "(719) 407-8482",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHX46a1NLPPHo_0mw0kibtGnM3488Uu3euvYcJnF-BIX9vR9CzzTwvb70PDtadFAZ0KIi2fR1h-4RJnqR_2Xw5A3tude8mDGku8-v96aPxr5Nq8aJkS3TnHpLI32Tb1QCn9pX_irvvj5_iE",
+        "cid": "13291092543004074994",
+        "fid": "0x87134d001672e51d:0xb873723fa699e3f2",
+        "placeId": "ChIJHeVyFgBNE4cR8uOZpj9yc7g"
+      },
+      {
+        "position": 20,
+        "title": "Hamula Orthodontics",
+        "address": "1860 Woodmoor Dr STE 200, Monument, CO 80132",
+        "latitude": 39.098999299999996,
+        "longitude": -104.86222079999999,
+        "rating": 4.9,
+        "ratingCount": 141,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "http://hamulaorthodontics.com/",
+        "phoneNumber": "(719) 488-3737",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEBXZEfuaF0_vfovir1WDisbsOGHKPHTg47NmMI3LTNa5FJJ4qECAvMY_UPkPL2gfH4h1Z4-Gldb2gSNh3DdFWpm6EK-lCTVBuYXo3Kx_Bbj0K-GwOFO2R3FO2eVzEvMubjC_E",
+        "cid": "6078353938364498354",
+        "fid": "0x876cade424f2835d:0x545aa6b3d35001b2",
+        "placeId": "ChIJXYPyJOStbIcRsgFQ07OmWlQ"
+      }
+    ],
+    "credits": 3
+  }
+}

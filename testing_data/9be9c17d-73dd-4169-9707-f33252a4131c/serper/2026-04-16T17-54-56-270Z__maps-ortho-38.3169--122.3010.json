@@ -1,0 +1,528 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.316882,-122.300965",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIVMzguMzE2ODgyLC0xMjIuMzAwOTY1",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.316882,-122.300965",
+      "engine": "google"
+    },
+    "ll": "@38.3593177,-98.766424,7z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Waterhouse Orthodontics Burlington",
+        "address": "340 14th St, Burlington, CO 80807",
+        "latitude": 39.304048,
+        "longitude": -102.267623,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "website": "https://www.waterhouseortho.com/burlington-location",
+        "phoneNumber": "(719) 346-9467",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "7 AM–4 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=sg8jG1hvyGRJ_HjopL2Y4A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=72.79504&pitch=0&thumbfov=100",
+        "cid": "1808096568665592042",
+        "fid": "0x870cb290e55bb20f:0x1917a63fdeea50ea",
+        "placeId": "ChIJD7Jb5ZCyDIcR6lDq3j-mFxk"
+      },
+      {
+        "position": 2,
+        "title": "Cornerstone Orthodontics",
+        "address": "505 N Franklin Ave Ste H, Colby, KS 67701",
+        "latitude": 39.3983954,
+        "longitude": -101.0455001,
+        "rating": 5,
+        "ratingCount": 3,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Cosmetic dentist",
+          "Dentist",
+          "Medical Center",
+          "Oral surgeon",
+          "Pediatric dentist"
+        ],
+        "website": "https://cornerstoneorthodontics.com/",
+        "phoneNumber": "(785) 621-2953",
+        "openingHours": {
+          "Thursday": "7:30 AM–5 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "7:30 AM–5 PM",
+          "Tuesday": "7:30 AM–5 PM",
+          "Wednesday": "7:30 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.cornerstoneorthodontics.com/appointment-request"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNWvk9I5nilhRmfdI0rWuS4wY34Aw7AASTzoCDhLXajykrVfVL8m4XZZRBAjVnGgVuihxiQVpg164FxNz36k_6mrr2Z1LA0qIi0tcCPWoRn9G5DVYTotf0g570Emktc6SK8Qdq",
+        "cid": "15480342675529805406",
+        "fid": "0x870acb60483a2eb5:0xd6d539a520462e5e",
+        "placeId": "ChIJtS46SGDLCocRXi5GIKU51dY"
+      },
+      {
+        "position": 3,
+        "title": "Sean Baran",
+        "address": "220 W 2nd St, Goodland, KS 67735",
+        "latitude": 39.3578482,
+        "longitude": -101.7135911,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Practitioner service location"
+        ],
+        "phoneNumber": "(303) 321-1333",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XzQrg---KcFJLX_Ofpk0wQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=157.1289&pitch=0&thumbfov=100",
+        "cid": "5146697963181555567",
+        "fid": "0x870b4a84b4801ef9:0x476cbe8775a9bf6f",
+        "placeId": "ChIJ-R6AtIRKC4cRb7-pdYe-bEc"
+      },
+      {
+        "position": 4,
+        "title": "Rajesh Bazaz",
+        "address": "220 W 2nd St, Goodland, KS 67735",
+        "latitude": 39.3578482,
+        "longitude": -101.7135911,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Practitioner service location"
+        ],
+        "phoneNumber": "(785) 890-6002",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XzQrg---KcFJLX_Ofpk0wQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=157.1289&pitch=0&thumbfov=100",
+        "cid": "2181107353763367974",
+        "fid": "0x870b4a84b4801ef9:0x1e44d9950e0ecc26",
+        "placeId": "ChIJ-R6AtIRKC4cRJswODpXZRB4"
+      },
+      {
+        "position": 5,
+        "title": "Holmes James C MD",
+        "address": "220 W 2nd St, Goodland, KS 67735",
+        "latitude": 39.3577304,
+        "longitude": -101.7134562,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(785) 899-6030",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=z29DWEQhqFsOF-y8ltSgcw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=357.3732&pitch=0&thumbfov=100",
+        "cid": "15636503453088439919",
+        "fid": "0x870b4a84b1a88743:0xd900050b7a815e6f",
+        "placeId": "ChIJQ4eosYRKC4cRb16BegsFANk"
+      },
+      {
+        "position": 6,
+        "title": "Kevin Nagamani",
+        "address": "220 W 2nd St, Goodland, KS 67735",
+        "latitude": 39.3578482,
+        "longitude": -101.7135911,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Practitioner service location"
+        ],
+        "phoneNumber": "(785) 890-6002",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XzQrg---KcFJLX_Ofpk0wQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=157.1289&pitch=0&thumbfov=100",
+        "cid": "12253111691276252712",
+        "fid": "0x870b4a84b4801ef9:0xaa0bcc29d7b4f628",
+        "placeId": "ChIJ-R6AtIRKC4cRKPa01ynMC6o"
+      },
+      {
+        "position": 7,
+        "title": "Wichita County Health Center Clinic",
+        "address": "211 Earl St, Leoti, KS 67861",
+        "latitude": 38.4753104,
+        "longitude": -101.3553098,
+        "rating": 4,
+        "ratingCount": 4,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Hospital",
+          "Nursing home"
+        ],
+        "website": "http://www.wichitacountyhealthcenter.com/",
+        "phoneNumber": "(620) 375-2222",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–2 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hWecWdiqKl56xPPyCwgyzQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=283.55307&pitch=0&thumbfov=100",
+        "cid": "12625960944293574313",
+        "fid": "0x870bb527ea0e01dd:0xaf386c956892f6a9",
+        "placeId": "ChIJ3QEO6ie1C4cRqfaSaJVsOK8"
+      },
+      {
+        "position": 8,
+        "title": "Wallace County Physical Therapy",
+        "address": "310 Main St, Sharon Springs, KS 67758",
+        "latitude": 38.8977852,
+        "longitude": -101.75151969999999,
+        "type": "Physical therapist",
+        "types": [
+          "Physical therapist"
+        ],
+        "phoneNumber": "(785) 852-4027",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=N72TsHRhB9HGe2blb6k3Ag&cb_client=search.gws-prod.gps&w=80&h=92&yaw=97.63136&pitch=0&thumbfov=100",
+        "cid": "4976656556663932599",
+        "fid": "0x870b6d786d946e59:0x4510a2c5551286b7",
+        "placeId": "ChIJWW6UbXhtC4cRt4YSVcWiEEU"
+      },
+      {
+        "position": 9,
+        "title": "Dr. Jeffrey D. Waterhouse, DDS",
+        "address": "1014 Main Ave, Goodland, KS 67735",
+        "latitude": 39.3485723,
+        "longitude": -101.711941,
+        "type": "Dentist",
+        "types": [
+          "Dentist"
+        ],
+        "phoneNumber": "(785) 899-3025",
+        "openingHours": {
+          "Thursday": "7 AM–12:30 PM",
+          "Friday": "Closed",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "Closed",
+          "Wednesday": "8:30 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eUzDs8b0mwTjk1K349-Xdg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=283.30862&pitch=0&thumbfov=100",
+        "cid": "13815568905300579364",
+        "fid": "0x870b4a80a566482f:0xbfbac2b8aa5f9424",
+        "placeId": "ChIJL0hmpYBKC4cRJJRfqrjCur8"
+      },
+      {
+        "position": 10,
+        "title": "Waterhouse Orthodontists",
+        "address": "1014 Main St, Goodland, KS 67735",
+        "latitude": 39.348498,
+        "longitude": -101.71214479999999,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist"
+        ],
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=eUzDs8b0mwTjk1K349-Xdg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=261.6461&pitch=0&thumbfov=100",
+        "cid": "9589492321317294532",
+        "fid": "0x870b4b7fe2432cc7:0x8514b8757c7411c4",
+        "placeId": "ChIJxyxD4n9LC4cRxBF0fHW4FIU"
+      },
+      {
+        "position": 11,
+        "title": "CommonSpirit Orthopedics Siena",
+        "address": "311 E Spruce St, Garden City, KS 67846",
+        "latitude": 37.969426999999996,
+        "longitude": -100.8692252,
+        "rating": 5,
+        "ratingCount": 118,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Hand surgeon",
+          "Pediatric orthopedic surgeon",
+          "Podiatrist",
+          "Surgical center"
+        ],
+        "website": "https://www.mountain.commonspirit.org/location/commonspirit-orthopedics-siena",
+        "phoneNumber": "(620) 275-3030",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxdfvJwuvY51PPYxN8eAC0yAv-cbH2Is7Qv9Sgyao_YCXtPb_GX6ewh5nGslRzcBhPtcVZgeCMmlUETbPV_w5o7jIXlooySBSicy_ieKB99HK8oPA5m1y0SYdI7UBKJ4HsiRJmGymGmrU",
+        "cid": "11711466397926841112",
+        "fid": "0x8709efeecf279a0f:0xa2877ca38f5a5b18",
+        "placeId": "ChIJD5onz-7vCYcRGFtaj6N8h6I"
+      },
+      {
+        "position": 12,
+        "title": "Swartz Veterinary Hospital",
+        "address": "1775 W 4th St, Colby, KS 67701",
+        "latitude": 39.3958511,
+        "longitude": -101.06497189999999,
+        "rating": 4.7,
+        "ratingCount": 100,
+        "type": "Veterinarian",
+        "types": [
+          "Veterinarian",
+          "Veterinary care"
+        ],
+        "website": "http://www.swartzvethospital.com/",
+        "phoneNumber": "(785) 460-1078",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "8 AM–12 PM",
+          "Sunday": "Closed",
+          "Monday": "Closed",
+          "Tuesday": "8 AM–7 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmPG4tGXDfXCE8eXib7E8_QfvI14aEeE8q8mSFLHh8ZZkPzEGdFh7UK9b_bfbjTtmn04jYtJ1V61PNy0B1mfb6Az3sAkpIFiKpOtBeI8Dr4Z71FvalYKSa2xKjT2VE_LDnBAT-vw",
+        "cid": "8929333657008416899",
+        "fid": "0x870acb8b92a207bd:0x7beb5da6c2ed2883",
+        "placeId": "ChIJvQeikovLCocRgyjtwqZd63s"
+      },
+      {
+        "position": 13,
+        "title": "NMC Health | Orthopedics & Sports Specialists",
+        "address": "800 Medical Center Dr # 240, Newton, KS 67114",
+        "latitude": 38.0241238,
+        "longitude": -97.3317659,
+        "rating": 4.9,
+        "ratingCount": 789,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.mynmchealth.org/locations/specialty-care/orthopedics-sports-medicine/",
+        "phoneNumber": "(316) 283-9977",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.mynmchealth.org/locations/specialty-care/orthopedics-sports-medicine/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMMOhPl9AcRfPNMULZ0YrM8eRf8NQRhIbS3ev5vuihMI05YdRMiOpZF6tWJGPnOlcQ1sh1xaP0EjIAbW-sFhxy9d3FSJp71WECp0MZmKaO2KVUqiaaH8UYg92owHHDyk8doFPd",
+        "cid": "817579200980512636",
+        "fid": "0x87bb13eab9d92d75:0xb589ff39a30ef7c",
+        "placeId": "ChIJdS3ZueoTu4cRfO8wmvOfWAs"
+      },
+      {
+        "position": 14,
+        "title": "Dr. Wendel J. Ellis, MD",
+        "address": "321 E Harper St, Tribune, KS 67879",
+        "latitude": 38.4706342,
+        "longitude": -101.7509548,
+        "type": "Doctor",
+        "types": [
+          "Doctor"
+        ],
+        "phoneNumber": "(620) 376-4251",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6fAC8VZT0AVt1io0itGoxQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=177.48537&pitch=0&thumbfov=100",
+        "cid": "10172132849543583150",
+        "fid": "0x870b95d3200902d5:0x8d2aaceeb12095ae",
+        "placeId": "ChIJ1QIJINOVC4cRrpUgse6sKo0"
+      },
+      {
+        "position": 15,
+        "title": "Salina Ortho",
+        "address": "523 S Santa Fe Ave, Salina, KS 67401",
+        "latitude": 38.8309208,
+        "longitude": -97.608733,
+        "rating": 4.5,
+        "ratingCount": 169,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "http://salinaortho.com/",
+        "phoneNumber": "(785) 823-2215",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–12 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4JraeWFd7AKkVWDMdElfu_oCj11ZyDIjF6lB9n82X5aHfsSZmACaPfLJPJv13qWC6GSvRgcg_I6Z9TNRsf7KZkcB9jBvqQYxACk8F3XtmJqAe2jOVPReSAJOSxJY7Ve-kS5RbGA",
+        "cid": "15739645540085545847",
+        "fid": "0x87bcc5f88aab3691:0xda6e7439fb5c3b77",
+        "placeId": "ChIJkTarivjFvIcRdztc-zl0bto"
+      },
+      {
+        "position": 16,
+        "title": "Dr. Sheila M. Scheffe, MD",
+        "address": "321 E Harper St, Tribune, KS 67879",
+        "latitude": 38.4706342,
+        "longitude": -101.7509548,
+        "type": "Family practice physician",
+        "types": [
+          "Family practice physician"
+        ],
+        "phoneNumber": "(620) 376-4251",
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6fAC8VZT0AVt1io0itGoxQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=177.48537&pitch=0&thumbfov=100",
+        "cid": "5144229828354019247",
+        "fid": "0x870b95d3200902d5:0x4763f9c60a028faf",
+        "placeId": "ChIJ1QIJINOVC4cRr48CCsb5Y0c"
+      },
+      {
+        "position": 17,
+        "title": "CommonSpirit St. Catherine Hospital - Garden City Orthopedics",
+        "address": "311 E Spruce St, Garden City, KS 67846",
+        "latitude": 37.9690582,
+        "longitude": -100.8692427,
+        "rating": 4.9,
+        "ratingCount": 324,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Doctor",
+          "Hand surgeon",
+          "Orthopedic surgeon",
+          "Pediatric orthopedic surgeon",
+          "Podiatrist",
+          "Surgical center"
+        ],
+        "website": "https://www.mountain.commonspirit.org/location/st-catherine-hospital-garden-city/orthopedics",
+        "phoneNumber": "(620) 275-3700",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEea14MWw6YBF93tPlSwr83vKBicExJ1SxpgB2UFZ_7u57DX-F0XlPRi_FAG8pDji6WifmauwsSbUEs_vG-tj8vEx-vlduaobGfyHuvOE8Ih-2GlrdiB8S4Mm1xGSGtFXwwm9Q",
+        "cid": "10375459562504590424",
+        "fid": "0x8709ee1794808e5b:0x8ffd098024841458",
+        "placeId": "ChIJW46AlBfuCYcRWBSEJIAJ_Y8"
+      },
+      {
+        "position": 18,
+        "title": "OrthoKansas",
+        "address": "6265 Rock Chalk Dr #1500, Lawrence, KS 66049",
+        "latitude": 38.9778314,
+        "longitude": -95.3322951,
+        "rating": 3.3,
+        "ratingCount": 110,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic"
+        ],
+        "website": "https://www.lmh.org/get-care/orthokansas/",
+        "phoneNumber": "(785) 843-9125",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFA70ODLzYk7sbgbPAUvjwpu6Ya895djgufWMjQDbgbNwhKDJjNwWxCqVYa17Q3ZyVAbl_hF5GaspgYWbldhuwSn2FXQgNVNsuBxUUa201EEJTGO6Om36ii0KhE0cIF5xblYBlQ",
+        "cid": "13903412992102323541",
+        "fid": "0x87bf6f3ff1ce4605:0xc0f2d873efcf5555",
+        "placeId": "ChIJBUbO8T9vv4cRVVXP73PY8sA"
+      },
+      {
+        "position": 19,
+        "title": "High Plains Orthodontics",
+        "address": "1620 E Kansas Ave STE A, Garden City, KS 67846",
+        "latitude": 37.9745169,
+        "longitude": -100.85279279999999,
+        "rating": 4.3,
+        "ratingCount": 8,
+        "type": "Orthodontist",
+        "types": [
+          "Orthodontist",
+          "Dentist"
+        ],
+        "website": "http://www.highplainsorthodontics.com/",
+        "phoneNumber": "(620) 271-0299",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid",
+        "cid": "13305213710631929885",
+        "fid": "0x8709ee2ef7c4b9d9:0xb8a59d6032df881d",
+        "placeId": "ChIJ2bnE9y7uCYcRHYjfMmCdpbg"
+      },
+      {
+        "position": 20,
+        "title": "Southeast Kansas Orthopedic Clinic",
+        "address": "1902 US-59, Parsons, KS 67357",
+        "latitude": 37.32024,
+        "longitude": -95.265225,
+        "rating": 4.9,
+        "ratingCount": 692,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic",
+          "Doctor",
+          "Orthopedic surgeon",
+          "Orthotics & prosthetics service",
+          "Sports medicine physician",
+          "Surgeon"
+        ],
+        "website": "http://sekortho.com/?utm_source=GMBSocialClimb&utm_medium=SoutheastKansasOrthopedicClinic",
+        "phoneNumber": "(620) 421-0881",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–3 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZbcx8qzRMAaEav_nvwmnGcKbC7_96zOUzfqeBFMIZNXL6nSrFepVk2_5hIWCTZ4-k3smwrr3LXUBd1o5hMv3ZC_Ew544dU9U9S4kUq22pLrF-nrxInibx82IeafAKp_lobFtKr813OVAe",
+        "cid": "4328011766234072458",
+        "fid": "0x87b81100269d5e2b:0x3c102fc54617c58a",
+        "placeId": "ChIJK16dJgARuIcRisUXRsUvEDw"
+      }
+    ],
+    "credits": 3
+  }
+}

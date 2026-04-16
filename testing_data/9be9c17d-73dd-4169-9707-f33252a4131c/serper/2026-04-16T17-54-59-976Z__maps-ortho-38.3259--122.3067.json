@@ -1,0 +1,635 @@
+{
+  "endpoint": "google.serper.dev/maps",
+  "request": {
+    "q": "Ortho",
+    "location": "38.325865,-122.30669",
+    "gl": "us",
+    "hl": "en",
+    "num": 20
+  },
+  "response": {
+    "searchParameters": {
+      "q": "Ortho",
+      "gl": "us",
+      "hl": "en",
+      "uule": "w+CAIQICIUMzguMzI1ODY1LC0xMjIuMzA2Njk=",
+      "type": "maps",
+      "num": 20,
+      "page": 1,
+      "location": "38.325865,-122.30669",
+      "engine": "google"
+    },
+    "ll": "@40.4755031,-74.1607941,10z",
+    "places": [
+      {
+        "position": 1,
+        "title": "Neil Kaushal, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.7,
+        "ratingCount": 34,
+        "type": "Pediatric orthopedic surgeon",
+        "types": [
+          "Pediatric orthopedic surgeon"
+        ],
+        "website": "https://rutgershealth.org/provider/neil-kaushal",
+        "phoneNumber": "(973) 972-2076",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnCT9okDwgxFK92yn26eP0AnlPutYpQ2Rr98RtNJ50XKnFxLGSYG_B5td0VgYpevO1P9Kkxu1P9RE3w8EHKAZlb9x-FP-eTB5-GncsqYZGjkziM8cc9hSG6uX-37Xfi-ouiFXaBA",
+        "cid": "7336380415275601392",
+        "fid": "0x89c2531ceaac8927:0x65d00f1e2da28df0",
+        "placeId": "ChIJJ4ms6hxTwokR8I2iLR4P0GU"
+      },
+      {
+        "position": 2,
+        "title": "Mark R Adams, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.6,
+        "ratingCount": 10,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://njms-web.njms.rutgers.edu/profile/myProfile.php?mbmid=adamsm4",
+        "phoneNumber": "(973) 972-0681",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGlobb2YdsKExnYE31nkGvjkzW5FmtmaXZ8qUxKXFqOD2cWL5w4o6QIg-e6GB80yb6NYO5B6fSFkYdh0SsWlzaq872ed5Pu89yJ0SDF_aQKHBpvuCD_nrW-FdZodendOKa7SOxOiuW7Ilv",
+        "cid": "2343431269662593344",
+        "fid": "0x89c25367203ed185:0x20858a52dfc81140",
+        "placeId": "ChIJhdE-IGdTwokRQBHI31KKhSA"
+      },
+      {
+        "position": 3,
+        "title": "Irfan H Ahmed, MD, MB, BS",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.7,
+        "ratingCount": 20,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(973) 972-0763",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9eum-FkatkqFsEz51tR6DBnX6rp1de2Dn6X3AYelp0vpGM26-JRZhNeYstKCUmHkX9blExJQC1vQ6G6sBSQVTs3yWfOhL8JhQ8IKWdDXQ__U996Ha6bKi_35kJnAaQYd3HN92g0AvPEAU",
+        "cid": "17711402060332468045",
+        "fid": "0x89c25367203ed185:0xf5cb8a55b83d074d",
+        "placeId": "ChIJhdE-IGdTwokRTQc9uFWKy_U"
+      },
+      {
+        "position": 4,
+        "title": "Balazs Galdi, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.5,
+        "ratingCount": 45,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://rutgershealth.org/provider/balazs-galdi",
+        "phoneNumber": "(973) 972-8240",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKliY5gKoQUHj1kq3WW-lu4EdehhTg5d8fZyIYvlOFyto1NNGLajM4_7U0wG7efSXS5jjLeIhYlqkzrIOAJ_7Txpr09LH3ydNP_mr40NRdaM4QoGFPQALYW1LNTsfUtfz4SjjrQahiO-Ro",
+        "cid": "14715377809904177628",
+        "fid": "0x89c25367203ed185:0xcc378627170111dc",
+        "placeId": "ChIJhdE-IGdTwokR3BEBFyeGN8w"
+      },
+      {
+        "position": 5,
+        "title": "North Jersey Orthopaedic Institute",
+        "address": "90 Bergen St #1200, Newark, NJ 07103",
+        "latitude": 40.740460999999996,
+        "longitude": -74.19259749999999,
+        "rating": 5,
+        "ratingCount": 1,
+        "type": "Medical clinic",
+        "types": [
+          "Medical clinic"
+        ],
+        "website": "https://njms.rutgers.edu/departments/orthopaedics/north_jersey_ortho_insti.php",
+        "phoneNumber": "(973) 972-2150",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9jQdDAtCQ2t1ak66dLLmj0RSyGzVNqRkaJ7VwueyugJmJfH6mbQGEEpNNFiW9ZwYLirVoPplpqZU87h3RQEMrnt9kp-VogvhODrbII6aPP0T2u_sle9gmZLS7jphjijvTGUWwFQ",
+        "cid": "10771148918154552440",
+        "fid": "0x89c25361031afab7:0x957acedf816f6478",
+        "placeId": "ChIJt_oaA2FTwokReGRvgd_OepU"
+      },
+      {
+        "position": 6,
+        "title": "Mark C Reilly, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.7,
+        "ratingCount": 17,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://rutgershealth.org/provider/mark-c-reilly",
+        "phoneNumber": "(973) 972-0681",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgMxETPaDNdk8kAebNS4d5-bDWGQvxUR9-rXNQQs3l2T39Yo4n9gJbeU8gaTqlOPwY-ePiwkbjGpT9xAxPIB5WaS-Zm-0SIpHN9uUnAlDeDxdmzjRkjZn7WB7tp0fXNVctNE8GKySX4L0",
+        "cid": "1390213402801112903",
+        "fid": "0x89c25361031afab7:0x134b07b963f28747",
+        "placeId": "ChIJt_oaA2FTwokRR4fyY7kHSxM"
+      },
+      {
+        "position": 7,
+        "title": "Michael J Vives, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.3,
+        "ratingCount": 13,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://njms-web.njms.rutgers.edu/profile/myProfile.php?mbmid=vivesmj",
+        "phoneNumber": "(973) 972-0679",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvvS947XAMjrsDR6nIW2-jOFli2kHI6rXXxq7aV83zhtDIELihs_TXpXSiXnsIlq2jUfjkB9s1XZGJWVSRJLZQoebjfEbGserhGIcfvpcTDbVXYRc1wDpihNZbiUzEzbGxrJ0G0KEsNNAG",
+        "cid": "10654514484163113366",
+        "fid": "0x89c25361031afab7:0x93dc70792acbf196",
+        "placeId": "ChIJt_oaA2FTwokRlvHLKnlw3JM"
+      },
+      {
+        "position": 8,
+        "title": "Osamuedenomwan F Edobor-Osula, MD, MPH",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.4,
+        "ratingCount": 28,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "phoneNumber": "(973) 972-2076",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPxMLF_iW19kNluS04wAtffkRqVbC8GEyOdg8LJnQ74Qi-Cr7NjRWLfqTY1izFrX3oTZcGwHumXiDmuoQkcd_5NmUK_orQ7hT9tD285znFTMfh1WxrtOwoNDcGbM5rLKfpgK8-cPr5zgU",
+        "cid": "5186227903785809686",
+        "fid": "0x89c25367203ed185:0x47f92eccf95f3716",
+        "placeId": "ChIJhdE-IGdTwokRFjdf-cwu-Uc"
+      },
+      {
+        "position": 9,
+        "title": "Alice Chu, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 3.5,
+        "ratingCount": 10,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.njoi.com/",
+        "phoneNumber": "(973) 972-2076",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dNtLjR0eYeWdoav35Ri1BA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=18.899214&pitch=0&thumbfov=100",
+        "cid": "9892509777047013455",
+        "fid": "0x89c253f9e865ee37:0x8949413abdf7484f",
+        "placeId": "ChIJN-5l6PlTwokRT0j3vTpBSYk"
+      },
+      {
+        "position": 10,
+        "title": "The Orthopedic Health Center",
+        "address": "26 Journal Square Plaza Suite 402, Jersey City, NJ 07306",
+        "latitude": 40.730490499999995,
+        "longitude": -74.06373359999999,
+        "rating": 4.6,
+        "ratingCount": 49,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical Center",
+          "Medical clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthohc.com/our-locations/jersey-city",
+        "phoneNumber": "(201) 596-3730",
+        "openingHours": {
+          "Thursday": "9 AM–7 PM",
+          "Friday": "9 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–7 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–7 PM"
+        },
+        "bookingLinks": [
+          "http://www.orthohc.com/"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHblyn9YA2hUn3WtwpqEPd8ZjeotL93JaNKz8K87xM8lswHN0eKmisWfuDTSchhL5JJZV06z4tqRTFRK_GPOg7gaFEyxREqAL3i-MZQ53uZKtA4uaZFQezpCH-ICW4Yqar__xyxWoPuFmiW",
+        "cid": "5933323444369834566",
+        "fid": "0x89c251bf3b300475:0x5257663c8f294246",
+        "placeId": "ChIJdQQwO79RwokRRkIpjzxmV1I"
+      },
+      {
+        "position": 11,
+        "title": "Union County Orthopaedic Group, a Division of OrthoNJ",
+        "address": "210 W St Georges Ave fl 2, Linden, NJ 07036",
+        "latitude": 40.6347903,
+        "longitude": -74.2668873,
+        "rating": 4.8,
+        "ratingCount": 1375,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://www.unioncountyortho.com/",
+        "phoneNumber": "(908) 486-1111",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://s.odoro.com/orthonj/?division=div_uco"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZcZ1qBRJPIOjq3SPDrfxDmTn1_XJkB00UnldqVpOEzgJ4-n-VA60gNnMgbPiegJpHyfPeBb0Jt4dL73DQVO48EfzidRnnGOcoj43Rrsm761hPTZ8borlT_JA9Li7t16HQ0yko2XJ9BU8",
+        "cid": "12330843440615520052",
+        "fid": "0x89c3b3aafa5b78e3:0xab1ff4c712d7f734",
+        "placeId": "ChIJ43hb-qqzw4kRNPfXEsf0H6s"
+      },
+      {
+        "position": 12,
+        "title": "Hudson Pro Orthopaedics",
+        "address": "235 McWhorter St, Newark, NJ 07105",
+        "latitude": 40.724693099999996,
+        "longitude": -74.1700903,
+        "rating": 4.9,
+        "ratingCount": 104,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://www.hudsonproortho.com/",
+        "phoneNumber": "(201) 308-6622",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/hudson-pro-orthopaedics-and-sports-medicine-41559?LocIdent=168259&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_tjvMr0CmCEmzeBhrv7P2OB-lo_I4HdTjUaF0edmxVzIZ5nPB-entity&rwg_token=AFd1xnFiBEgMEIzna16cxBbrCBuckhwnb6Rh2QPHotEgC-pREKZtaKJJB5DFIU15skj3He6_TdIQvEB7Q1nJVYnVhChEmTtoOo1BGEI2rAVMeQwN4W_zVZs%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_P3bntnnVI8xj_LklrSNJhB_O-dLTyw-CU0fyq4D4jU-8gZwRtBjIKS6rptD-inKkqQGtgSr-2sBZw_QALFRJY_IRs--VT4SiCq3ddqWpphnt9HV0UJqMBVjCUPkSLiLkXds",
+        "cid": "6861514637312870334",
+        "fid": "0x89c25335330f1607:0x5f38ff35722d47be",
+        "placeId": "ChIJBxYPMzVTwokRvkctcjX_OF8"
+      },
+      {
+        "position": 13,
+        "title": "OIBortho (OrthoNJ): Wall",
+        "address": "2315 NJ-34, Manasquan, NJ 08736",
+        "latitude": 40.138293399999995,
+        "longitude": -74.09186389999999,
+        "rating": 4.8,
+        "ratingCount": 1575,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Surgical center"
+        ],
+        "website": "https://oibortho.com/",
+        "phoneNumber": "(732) 800-9000",
+        "openingHours": {
+          "Thursday": "8 AM–4 PM",
+          "Friday": "8 AM–4 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4 PM",
+          "Tuesday": "8 AM–4 PM",
+          "Wednesday": "8 AM–4 PM"
+        },
+        "bookingLinks": [
+          "https://oibortho.com/orthopaedic-contact/?division=div_oibo#contact-form"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIWLn-AraUTDwtzA8Ci0qHuOkjefyPAwBeuOoe5fYmCt2YrDso5DcYtdpkYWMEg5gcXg-Inftqg-DL8yATIJ4ESM5gQThqxCwGC4tQ3sJnmLtyvs7DI0yhvxM8kUFlA8gXN08",
+        "cid": "2362060917897992085",
+        "fid": "0x89c187b108a733f3:0x20c7b9e3dd249795",
+        "placeId": "ChIJ8zOnCLGHwYkRlZck3eO5xyA"
+      },
+      {
+        "position": 14,
+        "title": "City Orthopaedics & Sports Medicine: Shoulder, Knee, Hip, Podiatry, Foot & Ankle Surgeons",
+        "address": "59 Main St, West Orange, NJ 07052",
+        "latitude": 40.7780275,
+        "longitude": -74.23856649999999,
+        "rating": 5,
+        "ratingCount": 55,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Doctor",
+          "Foot care",
+          "Medical office",
+          "Orthopedic clinic",
+          "Podiatrist",
+          "Surgeon"
+        ],
+        "website": "https://cityorthosports.com/",
+        "phoneNumber": "(973) 447-3525",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "9 AM–2 PM",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "bookingLinks": [
+          "https://www.zocdoc.com/practice/city-orthopedics-and-sports-medicine-60490?LocIdent=253922&utm_source=reservewithgoogle&utm_medium=seosynd&utm_campaign=hai&entity_id=pt_w91ut6lPZkeHyGNjaZ35ix-lo_25tKhukaaUWySypwbVneMR-entity&rwg_token=AFd1xnGSroH8rAIYcL5pS2rG9vnE67zoBSo6UDNFNqGmhk2kU_9FxHA2rRUSXg5zUnIH-iq7VTZ-7TpdTksIBTncSTUBoc-VWUAZojl56CIydEUnxWnxKoE%3D"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjqDLlXi8aJk_Wrt2hvfYKeIHXNBpz-k8Dbz1THXwKQ73TqP_NN7yY3EpUpINfOYnF-4BaLyw7IqI06yWJtgkkCgDRx4G8QLWPgeBhPytI_q2WCRs6HdGGmqIP0Sq44WHZSEo7cHfv8u4k",
+        "cid": "2340841483664612334",
+        "fid": "0x89c3ab42b049757b:0x207c56ed5553dbee",
+        "placeId": "ChIJe3VJsEKrw4kR7ttTVe1WfCA"
+      },
+      {
+        "position": 15,
+        "title": "Union County Orthopaedic Group, a Division of OrthoNJ",
+        "address": "2333 Morris Ave Ste. D-109, Union, NJ 07083",
+        "latitude": 40.700230999999995,
+        "longitude": -74.2839072,
+        "rating": 4.8,
+        "ratingCount": 266,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Sports medicine clinic",
+          "Surgical center"
+        ],
+        "website": "https://www.unioncountyortho.com/",
+        "phoneNumber": "(908) 486-4400",
+        "openingHours": {
+          "Thursday": "8 AM–4:30 PM",
+          "Friday": "8 AM–4:30 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–4:30 PM",
+          "Tuesday": "8 AM–4:30 PM",
+          "Wednesday": "8 AM–4:30 PM"
+        },
+        "bookingLinks": [
+          "https://s.odoro.com/orthonj/?division=div_uco"
+        ],
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAET6GnU_fnJRZwv-yrsXS4pExhn9xgVOeq9KStmk62VHOs-hcfZTuAaaN3GHP530hZyv5Q5bNi_oEC9CGw5hdWeRag0YS7yQW9BgGkBjzNmAEj40PmOAq5mh1mRLy2ut8333ITLsBHtekc",
+        "cid": "4780128635974074095",
+        "fid": "0x89c3ad2bc84d26ff:0x42566dab0fe83eef",
+        "placeId": "ChIJ_yZNyCutw4kR7z7oD6ttVkI"
+      },
+      {
+        "position": 16,
+        "title": "Summit Health Orthopedics",
+        "address": "311 Bay Ave Suite 203, Glen Ridge, NJ 07028",
+        "latitude": 40.8127127,
+        "longitude": -74.2030955,
+        "rating": 4.8,
+        "ratingCount": 317,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Hand surgeon",
+          "Orthopedic clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "http://www.summithealth.com/",
+        "phoneNumber": "(973) 746-2200",
+        "openingHours": {
+          "Thursday": "9 AM–5 PM",
+          "Friday": "9 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–5 PM",
+          "Tuesday": "9 AM–5 PM",
+          "Wednesday": "9 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHaSSIGnkfXuStCvfopIn6ndTVQDX7gSWt_E5wuXE3FxidXvzkSiaHP74QGUE7TnzfGxlqjrDq8vyokv5-PeEcW5MDtHzc1OiKpElDnS8vlq1wxFUM4aM7qE5t4cN6Q_wGnpqii",
+        "cid": "17958723758868250304",
+        "fid": "0x89c25545c80d07f5:0xf93a341bfab5bec0",
+        "placeId": "ChIJ9QcNyEVVwokRwL61-hs0Ovk"
+      },
+      {
+        "position": 17,
+        "title": "Joseph Benevenia, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 4.7,
+        "ratingCount": 12,
+        "type": "Hematologist",
+        "types": [
+          "Hematologist"
+        ],
+        "phoneNumber": "(973) 972-2153",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFkyuGBLW7ypTlDeFh8GfZ9i7JytXX-_lj2qa0zRnzEqeQv9_lI8U0ITHr4qkCV5uqM0zGgFnoXxSiHakl8Y73WaD-TBSLfHI7A0t1uUK4v-Dv30KVk03JLhc2o5B3m_1hKLhncvLVlY73y",
+        "cid": "328319439873108459",
+        "fid": "0x89c25361031afab7:0x48e6cca827de9eb",
+        "placeId": "ChIJt_oaA2FTwokR6-l9gspsjgQ"
+      },
+      {
+        "position": 18,
+        "title": "Alliance Orthopedics",
+        "address": "1311 Morris Ave, Union, NJ 07083",
+        "latitude": 40.6879367,
+        "longitude": -74.2422596,
+        "rating": 4.9,
+        "ratingCount": 485,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon",
+          "Chiropractor",
+          "Foot care",
+          "Hand surgeon",
+          "Occupational therapist",
+          "Orthopedic clinic",
+          "Pain management physician",
+          "Physical therapy clinic",
+          "Sports medicine clinic"
+        ],
+        "website": "https://allianceortho.com/location/nj/union/",
+        "phoneNumber": "(908) 772-8092",
+        "openingHours": {
+          "Thursday": "9 AM–6 PM",
+          "Friday": "9 AM–6 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–6 PM",
+          "Tuesday": "9 AM–6 PM",
+          "Wednesday": "9 AM–6 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcPlGn5s85ofHHotavuILiyC8kBmp0C7NalQd7lDRmsr_C7XqAkcXB9O4yabP6i5eZLjkFjAhS2eWsSEryR3fqgQ6VAgqjtTh4kymUgGOb1e0vlpFIRiZZxkcJ4UaLwEGI6AXBv6br-rpL",
+        "cid": "13571034904209132282",
+        "fid": "0x89c3ade4e7046be5:0xbc560057cbd00afa",
+        "placeId": "ChIJ5WsE5-Stw4kR-grQy1cAVrw"
+      },
+      {
+        "position": 19,
+        "title": "The Orthopedic Health Center",
+        "address": "720 Monroe St c209, Hoboken, NJ 07030",
+        "latitude": 40.747507,
+        "longitude": -74.03768099999999,
+        "rating": 4.7,
+        "ratingCount": 134,
+        "type": "Orthopedic clinic",
+        "types": [
+          "Orthopedic clinic",
+          "Doctor",
+          "Medical Center",
+          "Medical clinic",
+          "Sports medicine clinic",
+          "Sports medicine physician"
+        ],
+        "website": "https://www.orthohc.com/our-locations/jersey-city",
+        "phoneNumber": "(201) 596-3730",
+        "openingHours": {
+          "Thursday": "9 AM–7 PM",
+          "Friday": "9 AM–7 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "9 AM–7 PM",
+          "Tuesday": "9 AM–7 PM",
+          "Wednesday": "9 AM–7 PM"
+        },
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHoP64OYYZuJAEZxXMqM-WP6Wa-y5UuMf7M7_zM-uBOWeUJuLdXiBLvQR_8zxd-2cmVfRdnnQskpu5AG6aV7knF42mRlS-GDSqliML8LYOwSHXEeTJlldAZN0mWVsGQ8yCr1UdHoO6vrr1y",
+        "cid": "5431968573158776935",
+        "fid": "0x89c250b0c1b940b1:0x4b623aa33236e067",
+        "placeId": "ChIJsUC5wbBQwokRZ-A2MqM6Yks"
+      },
+      {
+        "position": 20,
+        "title": "Sheldon S Lin, MD",
+        "address": "205 S Orange Ave c1200, Newark, NJ 07103",
+        "latitude": 40.7391539,
+        "longitude": -74.1916182,
+        "rating": 3.8,
+        "ratingCount": 15,
+        "type": "Orthopedic surgeon",
+        "types": [
+          "Orthopedic surgeon"
+        ],
+        "website": "https://njms-web.njms.rutgers.edu/profile/myProfile.php?mbmid=linss",
+        "phoneNumber": "(973) 972-2184",
+        "openingHours": {
+          "Thursday": "8 AM–5 PM",
+          "Friday": "8 AM–5 PM",
+          "Saturday": "Closed",
+          "Sunday": "Closed",
+          "Monday": "8 AM–5 PM",
+          "Tuesday": "8 AM–5 PM",
+          "Wednesday": "8 AM–5 PM"
+        },
+        "thumbnailUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dNtLjR0eYeWdoav35Ri1BA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=18.899214&pitch=0&thumbfov=100",
+        "cid": "14515759373917226354",
+        "fid": "0x89c25367203ed185:0xc972563e27620572",
+        "placeId": "ChIJhdE-IGdTwokRcgViJz5Wcsk"
+      }
+    ],
+    "credits": 3
+  }
+}

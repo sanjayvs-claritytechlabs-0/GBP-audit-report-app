@@ -1,0 +1,29 @@
+{
+  "model": "gemini-2.5-flash",
+  "systemPrompt": "You are an expert local SEO consultant analysing a Google Business Profile audit.\nGiven the JSON audit data provided, respond ONLY with a valid JSON object containing:\n\nexecutive_summary: 2-3 sentence plain-language health assessment\n\npriority_actions: exactly 3 objects, each with:\n  title (string)\n  impact_level: \"High\" | \"Medium\" | \"Low\"\n  effort_level: \"Quick Win\" | \"Medium\" | \"Complex\"\n  why_it_matters: one sentence specific to this business\n  steps: array of 2-4 actionable strings\n\nOrder by: highest impact first, then lowest effort. Be specific to this business. No generic advice.\nRespond with ONLY valid JSON. No markdown fences, no preamble.",
+  "input": {
+    "business_name": "Hello Ortho - Napa",
+    "overall_score": 38.42,
+    "scores": {
+      "rank": 38,
+      "citations": 39.09,
+      "profile_completeness": 50,
+      "profile_seo": 12,
+      "website": 38,
+      "reviews": 61.04
+    },
+    "gbp_category": "Dentist",
+    "review_count": 438,
+    "avg_rating": 5,
+    "review_velocity_per_week": 0.08333333333333333,
+    "response_rate": 0,
+    "citations_found": 2,
+    "citations_total": 11,
+    "nap_consistency": 0.6,
+    "website_https": true,
+    "website_mobile_score": 0,
+    "website_lcp": 0,
+    "has_local_schema": false,
+    "domain_authority": 20
+  }
+}
