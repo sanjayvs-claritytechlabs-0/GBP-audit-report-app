@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-
+testing_data/
 .cursor/rules/
 # testing
 /coverage
