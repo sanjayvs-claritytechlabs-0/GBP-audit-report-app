@@ -2,299 +2,583 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Local SEO Audit Report — {{report.gbp.name}}</title>
+  <title>Local SEO Audit — {{report.gbp.name}}</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', sans-serif; color: #1e293b; font-size: 12px; line-height: 1.5; }
-    .page { page-break-after: always; padding: 40px; }
-    .page:last-child { page-break-after: avoid; }
+    @page { size: A4; margin: 10mm 11mm; }
 
-    /* Cover */
-    .cover { background: linear-gradient(135deg, {{brandColor}} 0%, #2a5080 100%); color: white; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
-    .cover h1 { font-size: 36px; font-weight: 700; margin-bottom: 8px; }
-    .cover .subtitle { font-size: 16px; opacity: 0.8; margin-bottom: 32px; }
-    .cover .score-circle { width: 160px; height: 160px; border-radius: 50%; border: 8px solid rgba(255,255,255,0.3); display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 24px; }
-    .cover .score-circle .number { font-size: 48px; font-weight: 700; }
-    .cover .score-circle .label { font-size: 12px; opacity: 0.7; }
-    .cover .meta { font-size: 11px; opacity: 0.6; margin-top: 32px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 10.5px;
+      line-height: 1.45;
+      color: #4a3f5c;
+      background: #faf8ff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
 
-    /* Section headers */
-    .section-header { font-size: 20px; font-weight: 700; color: {{brandColor}}; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid {{brandColor}}; }
-    .subsection { font-size: 14px; font-weight: 600; color: #334155; margin: 16px 0 8px; }
+    /* ----- Dashboard header (matches web report strip) ----- */
+    .dash-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      border: 1px solid #e9d5ff;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #ede9fe 0%, #faf5ff 50%, #f5f3ff 100%);
+    }
+    .dash-header .eyebrow {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #8b7cae;
+      margin-bottom: 4px;
+    }
+    .dash-header h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #5b4a78;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+    .dash-header .sub {
+      font-size: 10px;
+      color: #7c6d96;
+      max-width: 320px;
+    }
+    .dash-header .aside {
+      flex-shrink: 0;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+    .overall-ring {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 5px solid #ddd6fe;
+      background: rgba(255,255,255,0.85);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .overall-ring .num { font-size: 20px; font-weight: 700; color: #6b5a8e; line-height: 1; }
+    .overall-ring .lbl { font-size: 7px; font-weight: 600; color: #8b7cae; text-transform: uppercase; margin-top: 2px; }
+    .rating-pill {
+      font-size: 10px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid #e9d5ff;
+      background: rgba(255,255,255,0.85);
+      color: #5b4a78;
+    }
+    .rating-pill .star { color: #d97706; }
+    .verified { font-size: 9px; color: #059669; font-weight: 600; }
+
+    /* ----- Panels (SectionShell-style) ----- */
+    .panel {
+      margin-bottom: 10px;
+      border: 1px solid #ede9fe;
+      border-radius: 10px;
+      background: #fff;
+      overflow: hidden;
+      break-inside: avoid;
+    }
+    .panel--flow {
+      break-inside: auto;
+    }
+    .panel-hd {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 12px;
+      border-bottom: 1px solid #f3e8ff;
+      background: linear-gradient(90deg, #faf5ff 0%, #fff 55%, #fdf4ff 100%);
+    }
+    .panel-hd h2 {
+      font-size: 12px;
+      font-weight: 700;
+      color: #5b4a78;
+    }
+    .panel-hd .desc {
+      font-size: 9px;
+      color: #8b7cae;
+      margin-top: 2px;
+    }
+    .panel-hd-right { flex-shrink: 0; display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+    .pill-ok {
+      font-size: 9px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #d1fae5;
+    }
+    .pill-bad {
+      font-size: 9px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #fef2f2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
+    }
+    .panel-bd { padding: 10px 12px 12px; }
+
+    /* Overview row */
+    .summary .k {
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #8b7cae;
+      margin-bottom: 4px;
+    }
+    .summary p {
+      font-size: 10px;
+      color: #575569;
+      line-height: 1.55;
+    }
+
+    /* Category score cards */
+    .score-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+    .score-card {
+      position: relative;
+      border: 1px solid #ede9fe;
+      border-radius: 8px;
+      padding: 8px 8px 8px 10px;
+      background: #fff;
+    }
+    .score-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      border-radius: 8px 0 0 8px;
+      background: linear-gradient(180deg, #c4b5fd, #ddd6fe);
+    }
+    .score-card .label { font-size: 9px; color: #8b7cae; margin-bottom: 2px; }
+    .score-card .num { font-size: 18px; font-weight: 700; color: #5b4a78; }
+    .score-card .num span { font-size: 10px; font-weight: 400; color: #c4b5fd; }
+    .score-card .bar {
+      margin-top: 6px;
+      height: 3px;
+      border-radius: 2px;
+      background: #f5f3ff;
+      overflow: hidden;
+    }
+    .score-card .bar > span {
+      display: block;
+      height: 100%;
+      border-radius: 2px;
+      background: linear-gradient(90deg, #a78bfa, #c4b5fd);
+    }
+
+    /* Priority actions — 3-col like web */
+    .actions-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+    .action-card {
+      border: 1px solid #ede9fe;
+      border-radius: 8px;
+      padding: 8px;
+      background: linear-gradient(180deg, #fff 0%, #faf8ff 100%);
+      break-inside: avoid;
+    }
+    .action-card .row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+      margin-bottom: 6px;
+    }
+    .action-rank {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 11px;
+      background: #ddd6fe;
+      color: #4a3960;
+    }
+    .impact-high { background: #fee2e2; color: #991b1b; padding: 2px 6px; border-radius: 999px; font-size: 8px; font-weight: 600; text-transform: uppercase; }
+    .impact-medium { background: #fef3c7; color: #92400e; padding: 2px 6px; border-radius: 999px; font-size: 8px; font-weight: 600; text-transform: uppercase; }
+    .impact-low { background: #d1fae5; color: #065f46; padding: 2px 6px; border-radius: 999px; font-size: 8px; font-weight: 600; text-transform: uppercase; }
+    .effort-badge { background: #ede9fe; color: #5b4a78; padding: 2px 6px; border-radius: 999px; font-size: 8px; font-weight: 600; text-transform: uppercase; }
+    .action-card .title { font-size: 10px; font-weight: 700; color: #5b4a78; margin-bottom: 4px; }
+    .action-card .desc { font-size: 9px; color: #64748b; margin-bottom: 6px; line-height: 1.4; }
+    .action-card ol { padding-left: 14px; font-size: 8.5px; color: #575569; }
+    .action-card li { margin-bottom: 3px; }
 
     /* Tables */
-    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
-    th { text-align: left; padding: 8px 12px; background: #f1f5f9; color: #64748b; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
-    td { padding: 8px 12px; border-bottom: 1px solid #e2e8f0; font-size: 12px; }
+    table { width: 100%; border-collapse: collapse; font-size: 9.5px; }
+    th {
+      text-align: left;
+      padding: 5px 6px;
+      background: #f5f3ff;
+      color: #6b5a8e;
+      font-size: 8px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid #ede9fe;
+    }
+    td {
+      padding: 5px 6px;
+      border-bottom: 1px solid #f3e8ff;
+      vertical-align: middle;
+    }
     tr:last-child td { border-bottom: none; }
+    thead { display: table-header-group; }
 
-    /* Score badges */
-    .score-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-weight: 600; font-size: 11px; }
+    .score-badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-weight: 600; font-size: 9px; }
     .score-good { background: #d1fae5; color: #065f46; }
     .score-ok { background: #fef3c7; color: #92400e; }
     .score-bad { background: #fee2e2; color: #991b1b; }
 
-    /* NAP badges */
-    .nap-match { color: #10b981; font-weight: 700; }
-    .nap-mismatch { color: #ef4444; font-weight: 700; }
-    .nap-unknown { color: #94a3b8; }
+    .nap-match { color: #059669; font-weight: 700; }
+    .nap-mismatch { color: #dc2626; font-weight: 700; }
 
-    /* Cards */
-    .card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 12px; }
-    .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    /* Website 4-up */
+    .web-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .web-card {
+      border: 1px solid #ede9fe;
+      border-radius: 8px;
+      padding: 8px;
+      background: linear-gradient(180deg, #fff, #faf8ff);
+      break-inside: avoid;
+    }
+    .web-card h3 {
+      font-size: 8px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #8b7cae;
+      margin-bottom: 4px;
+    }
+    .web-card .big {
+      font-size: 20px;
+      font-weight: 700;
+      color: #6b5a8e;
+      line-height: 1.1;
+    }
+    .web-card .big.c-good { color: #059669; }
+    .web-card .big.c-warn { color: #d97706; }
+    .web-card .big.c-bad { color: #dc2626; }
+    .web-card .row2 {
+      display: flex;
+      justify-content: space-between;
+      font-size: 8.5px;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .web-card .row2 .v { font-weight: 600; color: #5b4a78; }
+    .web-card ul { list-style: none; margin-top: 4px; }
+    .web-card li {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9px;
+      padding: 2px 0;
+      border-bottom: 1px solid #f5f3ff;
+    }
+    .web-card li:last-child { border-bottom: none; }
+    .ok { color: #059669; font-weight: 600; font-size: 8px; }
+    .no { color: #dc2626; font-weight: 600; font-size: 8px; }
 
-    /* Score gauge SVG */
-    .gauge-container { text-align: center; margin: 16px 0; }
-
-    /* Impact badges */
-    .impact-high { background: #fee2e2; color: #991b1b; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
-    .impact-medium { background: #fef3c7; color: #92400e; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
-    .impact-low { background: #d1fae5; color: #065f46; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
-
-    .effort-badge { background: #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
-
-    /* Grid */
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
-
-    /* CWV */
-    .cwv-metric { text-align: center; padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; }
-    .cwv-value { font-size: 24px; font-weight: 700; }
-    .cwv-label { font-size: 10px; color: #64748b; margin-top: 4px; }
-    .cwv-good { color: #10b981; }
-    .cwv-needs { color: #f59e0b; }
-    .cwv-poor { color: #ef4444; }
-
-    /* Checklist */
-    .check-item { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f1f5f9; }
-    .check-pass { color: #10b981; font-weight: 700; }
-    .check-fail { color: #ef4444; font-weight: 700; }
-
-    /* Footer */
-    .report-footer { text-align: center; font-size: 10px; color: #94a3b8; padding: 24px 0 0; border-top: 1px solid #e2e8f0; margin-top: 24px; }
+    .footer {
+      text-align: center;
+      font-size: 8px;
+      color: #9b8ab8;
+      padding: 10px 0 4px;
+      margin-top: 8px;
+      border-top: 1px solid #ede9fe;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Section 1: Cover Page -->
-  <div class="cover page">
-    {{#if agencyLogo}}<img src="{{agencyLogo}}" alt="{{agencyName}}" style="height:40px;margin-bottom:24px;">{{/if}}
-    <h1>{{report.gbp.name}}</h1>
-    <div class="subtitle">{{report.gbp.address}} &middot; {{report.gbp.primaryCategory}}</div>
-    <div class="score-circle">
-      <div class="number">{{scores.overall}}</div>
-      <div class="label">Overall Score</div>
+  <header class="dash-header">
+    <div>
+      {{#if agencyLogo}}<img src="{{agencyLogo}}" alt="" style="height:22px;margin-bottom:6px;">{{/if}}
+      <div class="eyebrow">Local SEO audit</div>
+      <h1>{{report.gbp.name}}</h1>
+      <div class="sub">{{report.gbp.address}} &middot; {{report.gbp.primaryCategory}}</div>
     </div>
-    <div style="display:flex;gap:24px;justify-content:center;">
-      <div>&#9733; {{report.gbp.averageRating}} ({{report.gbp.totalReviews}} reviews)</div>
-      {{#if report.gbp.isVerified}}<div>&#10003; Verified</div>{{/if}}
+    <div class="aside">
+      <div class="overall-ring">
+        <div class="num">{{scores.overall}}</div>
+        <div class="lbl">Overall</div>
+      </div>
+      <div class="rating-pill">
+        <span class="star">&#9733;</span> {{report.gbp.averageRating}}
+        <span style="color:#8b7cae;">({{report.gbp.totalReviews}})</span>
+      </div>
+      {{#if report.gbp.isVerified}}<div class="verified">&#10003; Verified</div>{{/if}}
     </div>
-    <div class="meta">Local SEO Audit Report &middot; Generated {{generatedAt}}</div>
-  </div>
+  </header>
 
-  <!-- Section 2: Executive Summary -->
-  <div class="page">
-    <div class="section-header">Executive Summary</div>
-    <p style="font-size:13px;line-height:1.7;margin-bottom:24px;">{{report.insights.executiveSummary}}</p>
-
-    <div class="grid-3" style="margin-bottom:24px;">
-      <div class="card" style="text-align:center;">
-        <div style="font-size:32px;font-weight:700;color:{{scoreColor scores.rank}};">{{scores.rank}}</div>
-        <div style="font-size:11px;color:#64748b;">Rank Score</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:32px;font-weight:700;color:{{scoreColor scores.citations}};">{{scores.citations}}</div>
-        <div style="font-size:11px;color:#64748b;">Citations & NAP</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:32px;font-weight:700;color:{{scoreColor scores.profileCompleteness}};">{{scores.profileCompleteness}}</div>
-        <div style="font-size:11px;color:#64748b;">Profile Score</div>
+  <div class="panel">
+    <div class="panel-hd">
+      <div>
+        <h2>Overview</h2>
+        <div class="desc">Overall visibility score and executive summary.</div>
       </div>
     </div>
-    <div class="grid-3">
-      <div class="card" style="text-align:center;">
-        <div style="font-size:32px;font-weight:700;color:{{scoreColor scores.profileSeo}};">{{scores.profileSeo}}</div>
-        <div style="font-size:11px;color:#64748b;">Profile SEO</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:32px;font-weight:700;color:{{scoreColor scores.reviews}};">{{scores.reviews}}</div>
-        <div style="font-size:11px;color:#64748b;">Reviews</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:32px;font-weight:700;color:{{scoreColor scores.website}};">{{scores.website}}</div>
-        <div style="font-size:11px;color:#64748b;">Website SEO</div>
+    <div class="panel-bd">
+      <div class="summary">
+        <div class="k">Executive summary</div>
+        <p>{{report.insights.executiveSummary}}</p>
       </div>
     </div>
   </div>
 
-  <!-- Section 3: Priority Actions -->
-  <div class="page">
-    <div class="section-header">Priority Actions</div>
-    {{#each report.insights.priorityActions}}
-    <div class="card">
-      <div class="card-header">
-        <div style="background:{{../../brandColor}};color:white;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;">{{rank}}</div>
-        <span class="impact-{{impact}}">{{impact}} impact</span>
-        <span class="effort-badge">{{effort}} effort</span>
-      </div>
-      <div style="font-weight:600;font-size:13px;margin-bottom:4px;">{{title}}</div>
-      <div style="color:#64748b;font-size:11px;margin-bottom:8px;">{{description}}</div>
-      <ol style="padding-left:20px;font-size:11px;color:#475569;">
-        {{#each specificSteps}}<li style="margin-bottom:4px;">{{this}}</li>{{/each}}
-      </ol>
-    </div>
-    {{/each}}
-  </div>
-
-  <!-- Section 4: Keyword Rankings -->
-  <div class="page">
-    <div class="section-header">Keyword Rankings</div>
-    <table>
-      <thead>
-        <tr>
-          <th>Keyword</th>
-          <th style="text-align:center;">Avg Rank</th>
-          <th style="text-align:center;">#1 Spots</th>
-          <th style="text-align:center;">Top 3</th>
-          <th style="text-align:center;">Top 10</th>
-          <th style="text-align:center;">Score</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each report.rankings.keywordResults}}
-        <tr>
-          <td style="font-weight:500;">{{keyword}}</td>
-          <td style="text-align:center;"><span class="score-badge {{#if (lte avgRank 3)}}score-good{{else if (lte avgRank 10)}}score-ok{{else}}score-bad{{/if}}">{{round avgRank 1}}</span></td>
-          <td style="text-align:center;">{{rank1Count}}/49</td>
-          <td style="text-align:center;">{{top3Count}}/49</td>
-          <td style="text-align:center;">{{top10Count}}/49</td>
-          <td style="text-align:center;font-weight:600;">{{rankScore}}</td>
-        </tr>
-        {{/each}}
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Section 7: Competitors -->
-  <div class="page">
-    <div class="section-header">Competitor Benchmarking</div>
-    <table>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Business</th>
-          <th style="text-align:center;">Avg Rank</th>
-          <th style="text-align:center;">Top 3</th>
-          <th style="text-align:center;">Rating</th>
-          <th style="text-align:center;">Reviews</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each report.competitors}}
-        <tr>
-          <td>{{rank}}</td>
-          <td style="font-weight:500;">{{name}}</td>
-          <td style="text-align:center;">{{avgRankAcrossGrid}}</td>
-          <td style="text-align:center;">{{top3Frequency}}/49</td>
-          <td style="text-align:center;">{{#if rating}}&#9733; {{rating}}{{else}}&mdash;{{/if}}</td>
-          <td style="text-align:center;">{{#if reviewCount}}{{formatNumber reviewCount}}{{else}}&mdash;{{/if}}</td>
-        </tr>
-        {{/each}}
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Section 10: Citation Audit -->
-  <div class="page">
-    <div class="section-header">Citation & Listing Audit</div>
-    <div class="grid-2" style="margin-bottom:16px;">
-      <div class="card" style="text-align:center;">
-        <div style="font-size:28px;font-weight:700;color:#10b981;">{{report.citations.found}}</div>
-        <div style="font-size:11px;color:#64748b;">Platforms Found</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:28px;font-weight:700;color:#ef4444;">{{report.citations.notFound}}</div>
-        <div style="font-size:11px;color:#64748b;">Platforms Missing</div>
+  <div class="panel panel--flow">
+    <div class="panel-hd">
+      <div>
+        <h2>Category scores</h2>
+        <div class="desc">How each pillar contributes to your local presence.</div>
       </div>
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Platform</th>
-          <th style="text-align:center;">Found</th>
-          <th style="text-align:center;">Name</th>
-          <th style="text-align:center;">Phone</th>
-          <th style="text-align:center;">Address</th>
-          <th style="text-align:center;">Website</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each report.citations.platforms}}
-        <tr>
-          <td style="font-weight:500;">{{displayName}}</td>
-          <td style="text-align:center;">{{#if found}}<span class="nap-match">&#10003;</span>{{else}}<span class="nap-mismatch">&#10007;</span>{{/if}}</td>
-          <td style="text-align:center;">{{{napBadge nameMatch}}}</td>
-          <td style="text-align:center;">{{{napBadge phoneMatch}}}</td>
-          <td style="text-align:center;">{{{napBadge addressMatch}}}</td>
-          <td style="text-align:center;">{{{napBadge websiteMatch}}}</td>
-        </tr>
-        {{/each}}
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Section 11-15: Website Audit -->
-  <div class="page">
-    <div class="section-header">Website SEO Audit</div>
-
-    <div class="subsection">Core Web Vitals (Mobile)</div>
-    <div class="grid-3" style="margin-bottom:16px;">
-      <div class="cwv-metric">
-        <div class="cwv-value {{#if (lte report.website.performance.mobile.lcp 2500)}}cwv-good{{else if (lte report.website.performance.mobile.lcp 4000)}}cwv-needs{{else}}cwv-poor{{/if}}">
-          {{round (divide report.website.performance.mobile.lcp 1000) 1}}s
+    <div class="panel-bd">
+      <div class="score-grid">
+        <div class="score-card">
+          <div class="label">Rank score</div>
+          <div class="num">{{scores.rank}}<span>/100</span></div>
+          <div class="bar"><span style="width: {{scores.rank}}%;"></span></div>
         </div>
-        <div class="cwv-label">LCP</div>
-      </div>
-      <div class="cwv-metric">
-        <div class="cwv-value {{#if (lte report.website.performance.mobile.cls 0.1)}}cwv-good{{else if (lte report.website.performance.mobile.cls 0.25)}}cwv-needs{{else}}cwv-poor{{/if}}">
-          {{round report.website.performance.mobile.cls 2}}
+        <div class="score-card">
+          <div class="label">Citations &amp; NAP</div>
+          <div class="num">{{scores.citations}}<span>/100</span></div>
+          <div class="bar"><span style="width: {{scores.citations}}%;"></span></div>
         </div>
-        <div class="cwv-label">CLS</div>
-      </div>
-      <div class="cwv-metric">
-        <div class="cwv-value">{{report.website.performance.mobile.score}}</div>
-        <div class="cwv-label">PSI Score</div>
-      </div>
-    </div>
-
-    <div class="subsection">Technical Health</div>
-    <div class="check-item"><span class="{{#if report.website.technical.isHttps}}check-pass{{else}}check-fail{{/if}}">{{#if report.website.technical.isHttps}}&#10003;{{else}}&#10007;{{/if}}</span> HTTPS</div>
-    <div class="check-item"><span class="{{#if report.website.technical.hasSitemap}}check-pass{{else}}check-fail{{/if}}">{{#if report.website.technical.hasSitemap}}&#10003;{{else}}&#10007;{{/if}}</span> XML Sitemap</div>
-    <div class="check-item"><span class="{{#if report.website.technical.hasRobotsTxt}}check-pass{{else}}check-fail{{/if}}">{{#if report.website.technical.hasRobotsTxt}}&#10003;{{else}}&#10007;{{/if}}</span> Robots.txt</div>
-    <div class="check-item"><span class="{{#if report.website.technical.hasMobileFriendly}}check-pass{{else}}check-fail{{/if}}">{{#if report.website.technical.hasMobileFriendly}}&#10003;{{else}}&#10007;{{/if}}</span> Mobile Friendly</div>
-    <div class="check-item"><span class="{{#if report.website.schema.hasLocalBusiness}}check-pass{{else}}check-fail{{/if}}">{{#if report.website.schema.hasLocalBusiness}}&#10003;{{else}}&#10007;{{/if}}</span> LocalBusiness Schema</div>
-
-    <div class="subsection">Backlink Authority</div>
-    <div class="grid-3">
-      <div class="card" style="text-align:center;">
-        <div style="font-size:28px;font-weight:700;color:{{../../brandColor}};">{{report.website.backlinks.domainAuthority}}</div>
-        <div style="font-size:11px;color:#64748b;">Domain Authority</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:28px;font-weight:700;">{{report.website.backlinks.linkingDomains}}</div>
-        <div style="font-size:11px;color:#64748b;">Linking Domains</div>
-      </div>
-      <div class="card" style="text-align:center;">
-        <div style="font-size:28px;font-weight:700;color:{{#if (lte report.website.backlinks.spamScore 5)}}#10b981{{else}}#ef4444{{/if}};">{{report.website.backlinks.spamScore}}%</div>
-        <div style="font-size:11px;color:#64748b;">Spam Score</div>
+        <div class="score-card">
+          <div class="label">Profile completeness</div>
+          <div class="num">{{scores.profileCompleteness}}<span>/100</span></div>
+          <div class="bar"><span style="width: {{scores.profileCompleteness}}%;"></span></div>
+        </div>
+        <div class="score-card">
+          <div class="label">Profile SEO</div>
+          <div class="num">{{scores.profileSeo}}<span>/100</span></div>
+          <div class="bar"><span style="width: {{scores.profileSeo}}%;"></span></div>
+        </div>
+        <div class="score-card">
+          <div class="label">Reviews</div>
+          <div class="num">{{scores.reviews}}<span>/100</span></div>
+          <div class="bar"><span style="width: {{scores.reviews}}%;"></span></div>
+        </div>
+        <div class="score-card">
+          <div class="label">Website SEO</div>
+          <div class="num">{{scores.website}}<span>/100</span></div>
+          <div class="bar"><span style="width: {{scores.website}}%;"></span></div>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="report-footer">
-    <p>Generated by LocalSEO Audit &middot; {{generatedAt}} &middot; Powered by Gemini</p>
+  <div class="panel panel--flow">
+    <div class="panel-hd">
+      <div>
+        <h2>Priority actions</h2>
+        <div class="desc">High-impact improvements, ordered by importance.</div>
+      </div>
+    </div>
+    <div class="panel-bd">
+      <div class="actions-grid">
+        {{#each report.insights.priorityActions}}
+        <div class="action-card">
+          <div class="row">
+            <div class="action-rank">{{rank}}</div>
+            <span class="impact-{{impact}}">{{impact}}</span>
+            <span class="effort-badge">{{effort}}</span>
+          </div>
+          <div class="title">{{title}}</div>
+          <div class="desc">{{description}}</div>
+          <ol>
+            {{#each specificSteps}}<li>{{this}}</li>{{/each}}
+          </ol>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel--flow">
+    <div class="panel-hd">
+      <div>
+        <h2>Keyword rankings</h2>
+        <div class="desc">Average position and visibility across your geo-grid.</div>
+      </div>
+    </div>
+    <div class="panel-bd">
+      <table>
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th style="text-align:center;">Avg rank</th>
+            <th style="text-align:center;">#1</th>
+            <th style="text-align:center;">Top 3</th>
+            <th style="text-align:center;">Top 10</th>
+            <th style="text-align:center;">Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each report.rankings.keywordResults}}
+          <tr>
+            <td style="font-weight:600;color:#5b4a78;">{{keyword}}</td>
+            <td style="text-align:center;"><span class="score-badge {{#if (lte avgRank 3)}}score-good{{else if (lte avgRank 10)}}score-ok{{else}}score-bad{{/if}}">{{round avgRank 1}}</span></td>
+            <td style="text-align:center;">{{rank1Count}}/49</td>
+            <td style="text-align:center;">{{top3Count}}/49</td>
+            <td style="text-align:center;">{{top10Count}}/49</td>
+            <td style="text-align:center;font-weight:700;">{{rankScore}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel panel--flow">
+    <div class="panel-hd">
+      <div>
+        <h2>Competitor benchmarking</h2>
+        <div class="desc">How you stack up against nearby listings.</div>
+      </div>
+    </div>
+    <div class="panel-bd">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Business</th>
+            <th style="text-align:center;">Avg rank</th>
+            <th style="text-align:center;">Top 3</th>
+            <th style="text-align:center;">Rating</th>
+            <th style="text-align:center;">Reviews</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each report.competitors}}
+          <tr>
+            <td style="color:#c4b5fd;font-weight:600;">{{rank}}</td>
+            <td style="font-weight:600;color:#5b4a78;">{{name}}</td>
+            <td style="text-align:center;">{{avgRankAcrossGrid}}</td>
+            <td style="text-align:center;">{{top3Frequency}}/49</td>
+            <td style="text-align:center;">{{#if rating}}<span style="color:#d97706;">&#9733;</span> {{rating}}{{else}}&mdash;{{/if}}</td>
+            <td style="text-align:center;">{{#if reviewCount}}{{formatNumber reviewCount}}{{else}}&mdash;{{/if}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel panel--flow">
+    <div class="panel-hd">
+      <div>
+        <h2>Citation &amp; listing audit</h2>
+        <div class="desc">Directory presence and NAP consistency.</div>
+      </div>
+      <div class="panel-hd-right">
+        <span class="pill-ok">{{report.citations.found}} found</span>
+        <span class="pill-bad">{{report.citations.notFound}} missing</span>
+      </div>
+    </div>
+    <div class="panel-bd">
+      <table>
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th style="text-align:center;">Found</th>
+            <th style="text-align:center;">Name</th>
+            <th style="text-align:center;">Phone</th>
+            <th style="text-align:center;">Addr</th>
+            <th style="text-align:center;">Web</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each report.citations.platforms}}
+          <tr>
+            <td style="font-weight:600;color:#5b4a78;">{{displayName}}</td>
+            <td style="text-align:center;">{{#if found}}<span class="nap-match">&#10003;</span>{{else}}<span class="nap-mismatch">&#10007;</span>{{/if}}</td>
+            <td style="text-align:center;">{{{napBadge nameMatch}}}</td>
+            <td style="text-align:center;">{{{napBadge phoneMatch}}}</td>
+            <td style="text-align:center;">{{{napBadge addressMatch}}}</td>
+            <td style="text-align:center;">{{{napBadge websiteMatch}}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel panel--flow">
+    <div class="panel-hd">
+      <div>
+        <h2>Website SEO audit</h2>
+        <div class="desc">Performance, technical health, schema, and authority.</div>
+      </div>
+    </div>
+    <div class="panel-bd">
+      <div class="web-grid">
+        <div class="web-card">
+          <h3>Mobile performance</h3>
+          <div class="big {{mobilePsiClass report.website.performance.mobile.score}}">{{report.website.performance.mobile.score}}</div>
+          <div class="row2"><span>LCP</span><span class="v">{{round (divide report.website.performance.mobile.lcp 1000) 1}}s</span></div>
+          <div class="row2"><span>CLS</span><span class="v">{{round report.website.performance.mobile.cls 2}}</span></div>
+        </div>
+        <div class="web-card">
+          <h3>Technical health</h3>
+          <ul>
+            <li><span>HTTPS</span>{{#if report.website.technical.isHttps}}<span class="ok">Pass</span>{{else}}<span class="no">Fail</span>{{/if}}</li>
+            <li><span>Sitemap</span>{{#if report.website.technical.hasSitemap}}<span class="ok">Pass</span>{{else}}<span class="no">Fail</span>{{/if}}</li>
+            <li><span>Robots.txt</span>{{#if report.website.technical.hasRobotsTxt}}<span class="ok">Pass</span>{{else}}<span class="no">Fail</span>{{/if}}</li>
+            <li><span>Mobile</span>{{#if report.website.technical.hasMobileFriendly}}<span class="ok">Pass</span>{{else}}<span class="no">Fail</span>{{/if}}</li>
+          </ul>
+        </div>
+        <div class="web-card">
+          <h3>Schema</h3>
+          <ul>
+            <li><span>JSON-LD</span>{{#if report.website.schema.hasSchema}}<span class="ok">Yes</span>{{else}}<span class="no">No</span>{{/if}}</li>
+            <li><span>LocalBusiness</span>{{#if report.website.schema.hasLocalBusiness}}<span class="ok">Yes</span>{{else}}<span class="no">No</span>{{/if}}</li>
+          </ul>
+        </div>
+        <div class="web-card">
+          <h3>Backlink authority</h3>
+          <div class="big">{{report.website.backlinks.domainAuthority}}</div>
+          <div class="row2" style="margin-top:2px;"><span style="font-size:8px;color:#8b7cae;">Domain authority</span></div>
+          <div class="row2"><span>Linking domains</span><span class="v">{{report.website.backlinks.linkingDomains}}</span></div>
+          <div class="row2"><span>Spam score</span><span class="v {{#if (lte report.website.backlinks.spamScore 5)}}ok{{else}}no{{/if}}">{{report.website.backlinks.spamScore}}%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Local SEO Audit &middot; {{generatedAt}}
   </div>
 
 </body>

@@ -96,7 +96,7 @@ interface ReportData {
 }
 
 /** Open `/report/ui-preview` to render the dashboard with static data (no report APIs). */
-export const MOCK_REPORT_SLUG = "ui-preview";
+const MOCK_REPORT_SLUG = "ui-preview";
 
 function createMockReport(forUuid: string): ReportData {
   return {
@@ -212,29 +212,19 @@ function createMockReport(forUuid: string): ReportData {
   };
 }
 
-const SECTION_NAV = [
-  { id: "overview", label: "Overview" },
-  { id: "scores", label: "Scores" },
-  { id: "actions", label: "Actions" },
-  { id: "rankings", label: "Rankings" },
-  { id: "competitors", label: "Competitors" },
-  { id: "citations", label: "Citations" },
-  { id: "website", label: "Website" },
-] as const;
-
 function ScoreGauge({ score, size = 160, label }: { score: number; size?: number; label: string }) {
   const radius = (size - 14) / 2;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (score / 100) * circumference;
   const stroke =
-    score >= 80 ? "#7c3aed" : score >= 60 ? "#8b5cf6" : score >= 40 ? "#a78bfa" : "#c084fc";
+    score >= 80 ? "#a78bfa" : score >= 60 ? "#c4b5fd" : score >= 40 ? "#ddd6fe" : "#e9d5ff";
   const grade = score >= 90 ? "A+" : score >= 80 ? "A" : score >= 70 ? "B" : score >= 60 ? "C" : score >= 50 ? "D" : "F";
 
   return (
     <div className="flex flex-col items-center">
       <div className="relative" style={{ width: size, height: size }}>
         <svg width={size} height={size} className="-rotate-90" aria-hidden>
-          <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="#ede9fe" strokeWidth="12" />
+          <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="#f5f3ff" strokeWidth="12" />
           <circle
             cx={size / 2}
             cy={size / 2}
@@ -249,11 +239,11 @@ function ScoreGauge({ score, size = 160, label }: { score: number; size?: number
           />
         </svg>
         <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center">
-          <span className="text-3xl font-bold tracking-tight text-violet-950">{score}</span>
+          <span className="text-3xl font-bold tracking-tight text-violet-800">{score}</span>
           <span className="text-xs font-semibold text-violet-500">{grade}</span>
         </div>
       </div>
-      <p className="mt-3 text-center text-xs font-semibold uppercase tracking-wider text-violet-600">{label}</p>
+      <p className="mt-3 text-center text-xs font-semibold uppercase tracking-wider text-violet-500">{label}</p>
     </div>
   );
 }
@@ -261,22 +251,22 @@ function ScoreGauge({ score, size = 160, label }: { score: number; size?: number
 function ScoreCard({ score, label, icon }: { score: number; label: string; icon: string }) {
   const bar =
     score >= 80
-      ? "from-violet-600 to-fuchsia-500"
+      ? "from-violet-300 to-purple-300"
       : score >= 60
-        ? "from-violet-500 to-violet-400"
-        : "from-fuchsia-500 to-pink-400";
+        ? "from-violet-200 to-violet-300"
+        : "from-purple-200 to-fuchsia-200";
   return (
-    <div className="relative overflow-hidden rounded-xl border border-violet-200/80 bg-white/95 p-4 shadow-sm shadow-violet-900/[0.04] backdrop-blur-sm transition hover:border-violet-300 hover:shadow-md hover:shadow-violet-900/[0.06]">
+    <div className="relative overflow-hidden rounded-xl border border-violet-100 bg-white p-4 shadow-sm shadow-violet-900/[0.02]">
       <div className={`absolute inset-y-0 left-0 w-1 bg-gradient-to-b ${bar}`} aria-hidden />
       <div className="flex items-center gap-4 pl-1">
-        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-100 text-violet-700">
+        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-50 text-violet-600">
           <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d={icon} />
           </svg>
         </div>
         <div className="min-w-0 flex-1">
-          <p className="text-sm text-violet-600/90">{label}</p>
-          <p className="text-xl font-bold text-violet-950">
+          <p className="text-sm text-violet-600">{label}</p>
+          <p className="text-xl font-bold text-violet-800">
             {score}
             <span className="text-sm font-normal text-violet-400">/100</span>
           </p>
@@ -303,7 +293,7 @@ function NAPBadge({ match }: { match: boolean | null }) {
       </span>
     );
   return (
-    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-violet-100 text-xs text-violet-400">—</span>
+    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-violet-50 text-xs text-violet-400">—</span>
   );
 }
 
@@ -321,11 +311,11 @@ function SectionShell({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="scroll-mt-28 overflow-hidden rounded-2xl border border-violet-200/70 bg-white/95 shadow-sm shadow-violet-900/[0.05] backdrop-blur-sm">
-      <div className="flex flex-col gap-3 border-b border-violet-100 bg-gradient-to-r from-violet-50/90 via-white to-fuchsia-50/40 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+    <section id={id} className="overflow-hidden rounded-2xl border border-violet-100 bg-white shadow-sm shadow-violet-900/[0.03]">
+      <div className="flex flex-col gap-3 border-b border-violet-100/80 bg-gradient-to-r from-violet-50/80 via-purple-50/40 to-white px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <div>
-          <h2 className="text-lg font-semibold tracking-tight text-violet-950">{title}</h2>
-          {description ? <p className="mt-0.5 text-sm text-violet-600/80">{description}</p> : null}
+          <h2 className="text-lg font-semibold tracking-tight text-violet-800">{title}</h2>
+          {description ? <p className="mt-0.5 text-sm text-violet-600/90">{description}</p> : null}
         </div>
         {headerRight ? <div className="shrink-0">{headerRight}</div> : null}
       </div>
@@ -385,9 +375,9 @@ export default function ReportPage() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-violet-100 via-white to-fuchsia-50/50">
+      <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-violet-50 via-purple-50/30 to-white">
         <div className="text-center">
-          <svg className="mx-auto h-10 w-10 animate-spin text-violet-600" fill="none" viewBox="0 0 24 24" aria-hidden>
+          <svg className="mx-auto h-10 w-10 animate-spin text-violet-400" fill="none" viewBox="0 0 24 24" aria-hidden>
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
             <path
               className="opacity-75"
@@ -395,7 +385,7 @@ export default function ReportPage() {
               d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
             />
           </svg>
-          <p className="mt-4 text-sm font-medium text-violet-700">Loading report…</p>
+          <p className="mt-4 text-sm font-medium text-violet-600">Loading report…</p>
         </div>
       </div>
     );
@@ -403,7 +393,7 @@ export default function ReportPage() {
 
   if (error || !report) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-violet-100 via-white to-fuchsia-50/50 px-4">
+      <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-violet-50 via-purple-50/30 to-white px-4">
         <div className="max-w-md text-center">
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-red-50 text-red-500 ring-1 ring-red-100">
             <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden>
@@ -414,11 +404,11 @@ export default function ReportPage() {
               />
             </svg>
           </div>
-          <h2 className="text-lg font-semibold text-violet-950">Report unavailable</h2>
+          <h2 className="text-lg font-semibold text-violet-800">Report unavailable</h2>
           <p className="mt-2 text-sm text-violet-600">{error}</p>
           <a
             href="/"
-            className="mt-6 inline-flex items-center justify-center rounded-xl bg-violet-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm shadow-violet-900/20 transition hover:bg-violet-800"
+            className="mt-6 inline-flex items-center justify-center rounded-xl border border-violet-200 bg-violet-100 px-4 py-2.5 text-sm font-semibold text-violet-800 shadow-sm transition hover:bg-violet-200/80"
           >
             Generate a new audit
           </a>
@@ -430,42 +420,35 @@ export default function ReportPage() {
   const { scores, gbp, rankings, competitors, citations, website, insights } = report;
 
   return (
-    <div className="min-h-screen scroll-smooth bg-gradient-to-b from-violet-100/80 via-white to-fuchsia-50/40 text-slate-800">
-      <header className="relative overflow-hidden border-b border-violet-300/40 bg-gradient-to-br from-violet-950 via-purple-900 to-fuchsia-950 text-white">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-30"
-          style={{
-            backgroundImage:
-              "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(196,181,253,0.5), transparent), radial-gradient(ellipse 60% 40% at 100% 0%, rgba(232,121,249,0.25), transparent)",
-          }}
-        />
-        <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+    <div className="min-h-screen bg-gradient-to-b from-violet-50/90 via-purple-50/20 to-white text-slate-800">
+      <header className="border-b border-violet-100 bg-gradient-to-br from-violet-100/90 via-purple-50 to-fuchsia-50/50">
+        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div className="min-w-0 space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-widest text-violet-200/90">
+              <p className="text-xs font-semibold uppercase tracking-widest text-violet-500">
                 {isMockPreview ? "Static UI preview · no API calls" : "Local SEO audit"}
               </p>
-              <h1 className="text-balance text-2xl font-bold tracking-tight sm:text-3xl">{gbp.name}</h1>
-              <p className="max-w-2xl text-sm leading-relaxed text-violet-100/90">
-                {gbp.address} <span className="text-violet-300/80">&middot;</span> {gbp.primaryCategory}
+              <h1 className="text-balance text-2xl font-bold tracking-tight text-violet-900 sm:text-3xl">{gbp.name}</h1>
+              <p className="max-w-2xl text-sm leading-relaxed text-violet-700/90">
+                {gbp.address} <span className="text-violet-400">&middot;</span> {gbp.primaryCategory}
               </p>
             </div>
             <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center lg:shrink-0">
-              <div className="rounded-xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur-sm">
-                <div className="flex items-center gap-1.5 text-amber-300">
+              <div className="rounded-xl border border-violet-100 bg-white/80 px-4 py-3 shadow-sm shadow-violet-900/[0.03]">
+                <div className="flex items-center gap-1.5 text-amber-500">
                   <svg className="h-4 w-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
-                  <span className="font-semibold text-white">{gbp.averageRating}</span>
-                  <span className="text-sm text-violet-200">({gbp.totalReviews} reviews)</span>
+                  <span className="font-semibold text-violet-900">{gbp.averageRating}</span>
+                  <span className="text-sm text-violet-600">({gbp.totalReviews} reviews)</span>
                 </div>
                 {gbp.isVerified ? (
-                  <span className="mt-1 inline-block text-xs font-medium text-emerald-300">Verified on Google</span>
+                  <span className="mt-1 inline-block text-xs font-medium text-emerald-700">Verified on Google</span>
                 ) : null}
               </div>
               {isMockPreview ? (
                 <span
-                  className="inline-flex cursor-default items-center justify-center rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-center text-sm font-semibold text-violet-200"
+                  className="inline-flex cursor-default items-center justify-center rounded-xl border border-violet-200 bg-violet-50/80 px-4 py-3 text-center text-sm font-semibold text-violet-600"
                   title="PDF is not available in UI preview mode"
                 >
                   UI preview — no PDF
@@ -473,7 +456,7 @@ export default function ReportPage() {
               ) : (
                 <a
                   href={`/api/report/${uuid}/pdf`}
-                  className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/15 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
+                  className="inline-flex items-center justify-center rounded-xl border border-violet-200 bg-white px-4 py-3 text-sm font-semibold text-violet-800 shadow-sm transition hover:bg-violet-50"
                 >
                   Download PDF
                 </a>
@@ -482,23 +465,6 @@ export default function ReportPage() {
           </div>
         </div>
       </header>
-
-      <nav
-        className="sticky top-0 z-10 border-b border-violet-200/80 bg-white/85 backdrop-blur-md"
-        aria-label="Report sections"
-      >
-        <div className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-4 py-2 sm:px-6 [&::-webkit-scrollbar]:h-1.5">
-          {SECTION_NAV.map((item) => (
-            <a
-              key={item.id}
-              href={`#${item.id}`}
-              className="whitespace-nowrap rounded-lg px-3 py-2 text-xs font-semibold text-violet-700 transition hover:bg-violet-100 sm:text-sm"
-            >
-              {item.label}
-            </a>
-          ))}
-        </div>
-      </nav>
 
       <main className="mx-auto max-w-6xl space-y-8 px-4 py-8 sm:px-6 sm:py-10">
         <SectionShell
@@ -511,16 +477,16 @@ export default function ReportPage() {
               <ScoreGauge score={scores.overall} size={168} label="Overall score" />
             </div>
             <div className="min-w-0 flex-1">
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-violet-600">Executive summary</h3>
+              <h3 className="text-sm font-semibold uppercase tracking-wide text-violet-500">Executive summary</h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">{insights.executiveSummary}</p>
             </div>
           </div>
         </SectionShell>
 
-        <section id="scores" className="scroll-mt-28 space-y-4">
+        <section id="scores" className="space-y-4">
           <div className="px-1">
-            <h2 className="text-lg font-semibold tracking-tight text-violet-950">Category scores</h2>
-            <p className="text-sm text-violet-600/85">How each pillar contributes to your local presence.</p>
+            <h2 className="text-lg font-semibold tracking-tight text-violet-800">Category scores</h2>
+            <p className="text-sm text-violet-600">How each pillar contributes to your local presence.</p>
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
             <ScoreCard
@@ -561,10 +527,10 @@ export default function ReportPage() {
             {insights.priorityActions.map((action) => (
               <article
                 key={action.rank}
-                className="flex flex-col rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/40 p-5 shadow-sm"
+                className="flex flex-col rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/50 p-5 shadow-sm"
               >
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-violet-700 text-sm font-bold text-white shadow-sm">
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-violet-200 text-sm font-bold text-violet-900">
                     {action.rank}
                   </span>
                   <span
@@ -578,16 +544,16 @@ export default function ReportPage() {
                   >
                     {action.impact} impact
                   </span>
-                  <span className="rounded-full bg-violet-100 px-2.5 py-0.5 text-xs font-semibold text-violet-800">
+                  <span className="rounded-full bg-violet-100 px-2.5 py-0.5 text-xs font-semibold text-violet-700">
                     {action.effort} effort
                   </span>
                 </div>
-                <h3 className="font-semibold text-violet-950">{action.title}</h3>
+                <h3 className="font-semibold text-violet-800">{action.title}</h3>
                 <p className="mt-1.5 flex-1 text-sm text-slate-600">{action.description}</p>
                 <ul className="mt-4 space-y-2 border-t border-violet-100 pt-4">
                   {action.specificSteps.map((step, i) => (
                     <li key={i} className="flex gap-2 text-sm text-slate-600">
-                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 text-[10px] font-bold text-violet-700">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 text-[10px] font-bold text-violet-600">
                         {i + 1}
                       </span>
                       <span>{step}</span>
@@ -604,7 +570,7 @@ export default function ReportPage() {
             <div className="overflow-x-auto">
               <table className="w-full min-w-[640px] text-sm">
                 <thead>
-                  <tr className="bg-violet-100/90 text-left text-xs font-semibold uppercase tracking-wide text-violet-900">
+                  <tr className="bg-violet-50 text-left text-xs font-semibold uppercase tracking-wide text-violet-700">
                     <th className="px-4 py-3">Keyword</th>
                     <th className="px-4 py-3 text-center">Avg rank</th>
                     <th className="px-4 py-3 text-center">#1 spots</th>
@@ -616,7 +582,7 @@ export default function ReportPage() {
                 <tbody className="divide-y divide-violet-100 bg-white">
                   {rankings.keywordResults.map((kr) => (
                     <tr key={kr.keyword} className="transition hover:bg-violet-50/50">
-                      <td className="px-4 py-3 font-medium text-violet-950">{kr.keyword}</td>
+                      <td className="px-4 py-3 font-medium text-violet-800">{kr.keyword}</td>
                       <td className="px-4 py-3 text-center">
                         <span
                           className={`inline-flex min-w-[2rem] items-center justify-center rounded-full px-2 py-0.5 text-xs font-bold ${
@@ -633,7 +599,7 @@ export default function ReportPage() {
                       <td className="px-4 py-3 text-center text-slate-600">{kr.rank1Count}/49</td>
                       <td className="px-4 py-3 text-center text-slate-600">{kr.top3Count}/49</td>
                       <td className="px-4 py-3 text-center text-slate-600">{kr.top10Count}/49</td>
-                      <td className="px-4 py-3 text-center font-semibold text-violet-950">{kr.rankScore}</td>
+                      <td className="px-4 py-3 text-center font-semibold text-violet-800">{kr.rankScore}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -647,7 +613,7 @@ export default function ReportPage() {
             <div className="overflow-x-auto">
               <table className="w-full min-w-[560px] text-sm">
                 <thead>
-                  <tr className="bg-violet-100/90 text-left text-xs font-semibold uppercase tracking-wide text-violet-900">
+                  <tr className="bg-violet-50 text-left text-xs font-semibold uppercase tracking-wide text-violet-700">
                     <th className="px-4 py-3">#</th>
                     <th className="px-4 py-3">Business</th>
                     <th className="px-4 py-3 text-center">Avg rank</th>
@@ -660,7 +626,7 @@ export default function ReportPage() {
                   {competitors.map((c) => (
                     <tr key={c.rank} className="transition hover:bg-violet-50/50">
                       <td className="px-4 py-3 font-medium text-violet-400">{c.rank}</td>
-                      <td className="px-4 py-3 font-medium text-violet-950">{c.name}</td>
+                      <td className="px-4 py-3 font-medium text-violet-800">{c.name}</td>
                       <td className="px-4 py-3 text-center text-slate-600">{c.avgRankAcrossGrid}</td>
                       <td className="px-4 py-3 text-center text-slate-600">{c.top3Frequency}/49</td>
                       <td className="px-4 py-3 text-center">
@@ -699,7 +665,7 @@ export default function ReportPage() {
             <div className="overflow-x-auto">
               <table className="w-full min-w-[640px] text-sm">
                 <thead>
-                  <tr className="bg-violet-100/90 text-left text-xs font-semibold uppercase tracking-wide text-violet-900">
+                  <tr className="bg-violet-50 text-left text-xs font-semibold uppercase tracking-wide text-violet-700">
                     <th className="px-4 py-3">Platform</th>
                     <th className="px-4 py-3 text-center">Found</th>
                     <th className="px-4 py-3 text-center">Name</th>
@@ -711,7 +677,7 @@ export default function ReportPage() {
                 <tbody className="divide-y divide-violet-100 bg-white">
                   {citations.platforms.map((p) => (
                     <tr key={p.platform} className="transition hover:bg-violet-50/50">
-                      <td className="px-4 py-3 font-medium text-violet-950">{p.displayName}</td>
+                      <td className="px-4 py-3 font-medium text-violet-800">{p.displayName}</td>
                       <td className="px-4 py-3 text-center">
                         {p.found ? (
                           <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700">
@@ -746,7 +712,7 @@ export default function ReportPage() {
         <SectionShell id="website" title="Website SEO audit" description="Performance, technical health, schema, and authority signals.">
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
-              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Mobile performance</h3>
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-500">Mobile performance</h3>
               <div
                 className="mt-2 text-3xl font-bold tracking-tight"
                 style={{
@@ -777,7 +743,7 @@ export default function ReportPage() {
             </div>
 
             <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
-              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Technical health</h3>
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-500">Technical health</h3>
               <ul className="mt-3 space-y-2">
                 {[
                   { label: "HTTPS", pass: website.technical.isHttps },
@@ -798,7 +764,7 @@ export default function ReportPage() {
             </div>
 
             <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
-              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Schema markup</h3>
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-500">Schema markup</h3>
               <ul className="mt-3 space-y-2 text-sm text-slate-700">
                 <li className="flex justify-between gap-2">
                   <span>JSON-LD</span>
@@ -816,13 +782,13 @@ export default function ReportPage() {
             </div>
 
             <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
-              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Backlink authority</h3>
-              <div className="mt-2 text-3xl font-bold tracking-tight text-violet-800">{website.backlinks.domainAuthority}</div>
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-500">Backlink authority</h3>
+              <div className="mt-2 text-3xl font-bold tracking-tight text-violet-700">{website.backlinks.domainAuthority}</div>
               <p className="mt-0.5 text-xs text-violet-500">Domain authority</p>
               <div className="mt-3 space-y-2 text-xs text-slate-600">
                 <div className="flex justify-between gap-2">
                   <span>Linking domains</span>
-                  <span className="font-medium text-violet-950">{website.backlinks.linkingDomains}</span>
+                  <span className="font-medium text-violet-800">{website.backlinks.linkingDomains}</span>
                 </div>
                 <div className="flex justify-between gap-2">
                   <span>Spam score</span>
@@ -835,9 +801,9 @@ export default function ReportPage() {
           </div>
         </SectionShell>
 
-        <footer className="border-t border-violet-200/60 py-8 text-center text-xs text-violet-500">
+        <footer className="border-t border-violet-100 py-8 text-center text-xs text-violet-500">
           <p>Generated on {new Date().toLocaleDateString()}</p>
-          <a href="/" className="mt-3 inline-block font-semibold text-violet-700 underline-offset-4 hover:underline">
+          <a href="/" className="mt-3 inline-block font-semibold text-violet-600 underline-offset-4 hover:text-violet-800 hover:underline">
             Generate another audit
           </a>
         </footer>

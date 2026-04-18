@@ -331,6 +331,7 @@ async function runAuditPipeline(
           reviews,
           citations,
           website,
+          keywords,
           debug: { uuid },
         }),
         35_000,

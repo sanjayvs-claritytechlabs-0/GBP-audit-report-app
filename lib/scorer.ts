@@ -94,15 +94,10 @@ export function computeProfileCompletenessScore(gbp: GBPData): {
 // ---------------------------------------------------------------------------
 
 /**
- * Measures keyword presence in GBP fields.
- * Each keyword found in a field scores points for that field.
- *
- * Business title: 6pts/keyword (max 30)
- * Description: 4pts/keyword (max 20)
- * Services: 3pts/keyword (max 15)
- * Additional categories: 3pts/keyword (max 15)
- * Products: 2pts/keyword (max 10)
- * Posts: 2pts/keyword (max 10)
+ * Measures audit-keyword presence in GBP name, description, and category labels.
+ * Per keyword: +6 name, +4 description, +3 category (stacked, max 13 for full phrase).
+ * If the full phrase does not match, counts significant tokens (length ≥ 4) once
+ * in the combined haystack for up to +8 partial points per keyword.
  */
 export function computeProfileSeoScore(
   gbp: GBPData,
@@ -113,11 +108,26 @@ export function computeProfileSeoScore(
   const lower = (s: string) => s.toLowerCase();
   let score = 0;
 
-  for (const kw of keywords) {
-    const kwLower = lower(kw);
-    if (lower(gbp.name).includes(kwLower)) score += 6;
-    if (lower(gbp.description || "").includes(kwLower)) score += 4;
-    if (gbp.categories.some((c) => lower(c).includes(kwLower))) score += 3;
+  for (const raw of keywords) {
+    const kwLower = lower(raw.trim());
+    if (!kwLower) continue;
+
+    let k = 0;
+    if (lower(gbp.name).includes(kwLower)) k += 6;
+    if (lower(gbp.description || "").includes(kwLower)) k += 4;
+    if (gbp.categories.some((c) => lower(c).includes(kwLower))) k += 3;
+
+    if (k === 0) {
+      const tokens = kwLower.split(/[\s,]+/).filter((t) => t.length >= 4);
+      const haystack = `${lower(gbp.name)} ${lower(gbp.description || "")} ${gbp.categories.map(lower).join(" ")}`;
+      let partial = 0;
+      for (const token of tokens) {
+        if (haystack.includes(token)) partial += 2;
+      }
+      k = Math.min(8, partial);
+    }
+
+    score += k;
   }
 
   return Math.min(100, score);

@@ -1,12 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getJobStore } from "@/lib/job-store";
-import { buildInsightsModelInput } from "@/lib/insight-engine";
+import { generateInsights } from "@/lib/insight-engine";
 
+/**
+ * GET /api/report/[uuid]/insights-preview
+ *
+ * Runs insight generation (Gemini) alone against an already-completed job in memory.
+ * Enable with DEBUG_INSIGHTS_PREVIEW=true in .env.local — off by default (returns 404).
+ * Uses the same 35s timeout as the main audit pipeline.
+ */
 export async function GET(
   _request: NextRequest,
   { params }: { params: { uuid: string } }
 ) {
-  if (process.env.DEBUG_AI_INPUTS !== "true") {
+  if (process.env.DEBUG_INSIGHTS_PREVIEW !== "true") {
     return NextResponse.json(
       { error: "NOT_FOUND", message: "Not found" },
       { status: 404 }
@@ -60,22 +67,38 @@ export async function GET(
       ? report.input.keywords
       : [report.gbp.primaryCategory].filter(Boolean);
 
-  const modelInput = buildInsightsModelInput({
-    businessName: report.input.businessName,
-    scores: report.scores,
-    gbp: report.gbp,
-    reviews: report.reviews,
-    citations: report.citations,
-    website: report.website,
-    keywords,
-  });
+  const timeoutMs = 35_000;
 
-  return NextResponse.json({
-    uuid,
-    provider: "gemini",
-    model: process.env.GEMINI_MODEL ?? null,
-    systemPromptIncluded: true,
-    modelInput,
-  });
+  try {
+    const insights = await Promise.race([
+      generateInsights({
+        businessName: report.input.businessName,
+        scores: report.scores,
+        gbp: report.gbp,
+        reviews: report.reviews,
+        citations: report.citations,
+        website: report.website,
+        keywords,
+        debug: { uuid },
+      }),
+      new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error("Insight preview timed out")), timeoutMs)
+      ),
+    ]);
+
+    return NextResponse.json({
+      uuid,
+      provider: "gemini",
+      model: process.env.GEMINI_MODEL ?? null,
+      note:
+        "If isFallback is true, Gemini failed or returned invalid JSON — check GOOGLE_GEMINI_API_KEY and GEMINI_MODEL.",
+      insights,
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Insight preview failed";
+    return NextResponse.json(
+      { error: "INSIGHT_PREVIEW_FAILED", message },
+      { status: 504 }
+    );
+  }
 }
-

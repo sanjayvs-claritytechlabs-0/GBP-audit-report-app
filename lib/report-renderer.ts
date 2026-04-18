@@ -14,11 +14,12 @@ import type { AuditReport, ReportTemplateData } from "@/types";
 // Handlebars Helpers
 // ---------------------------------------------------------------------------
 
+/** Muted purple scale for score numerals in PDF (matches pale web report). */
 Handlebars.registerHelper("scoreColor", (score: number) => {
-  if (score >= 80) return "#10b981"; // green
-  if (score >= 60) return "#f59e0b"; // amber
-  if (score >= 40) return "#f97316"; // orange
-  return "#ef4444"; // red
+  if (score >= 80) return "#6b5a8e";
+  if (score >= 60) return "#8b7cae";
+  if (score >= 40) return "#a898c4";
+  return "#c4b5d6";
 });
 
 Handlebars.registerHelper("scoreGrade", (score: number) => {
@@ -71,21 +72,30 @@ Handlebars.registerHelper("lte", (a: number, b: number) => {
   return left <= right;
 });
 
+/** CSS class for PSI mobile score tone (PDF website card). */
+Handlebars.registerHelper("mobilePsiClass", (score: number) => {
+  const n = typeof score === "number" ? score : Number(score);
+  if (!Number.isFinite(n)) return "";
+  if (n >= 90) return "c-good";
+  if (n >= 50) return "c-warn";
+  return "c-bad";
+});
+
 Handlebars.registerHelper("impactBadge", (impact: string) => {
-  const colors: Record<string, string> = {
-    high: "#ef4444",
-    medium: "#f59e0b",
-    low: "#10b981",
+  const styles: Record<string, string> = {
+    high: "background:#fee2e2;color:#991b1b;",
+    medium: "background:#fef3c7;color:#92400e;",
+    low: "background:#d1fae5;color:#065f46;",
   };
-  const color = colors[impact] || "#94a3b8";
+  const style = styles[impact] || "background:#ede9fe;color:#5b4a78;";
   return new Handlebars.SafeString(
-    `<span style="background:${color};color:white;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;text-transform:uppercase;">${impact}</span>`
+    `<span style="${style}padding:2px 8px;border-radius:999px;font-size:10px;font-weight:600;text-transform:uppercase;">${impact}</span>`
   );
 });
 
 Handlebars.registerHelper("effortBadge", (effort: string) => {
   return new Handlebars.SafeString(
-    `<span style="background:#e2e8f0;color:#475569;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;text-transform:uppercase;">${effort}</span>`
+    `<span style="background:#ede9fe;color:#5b4a78;padding:2px 8px;border-radius:999px;font-size:10px;font-weight:600;text-transform:uppercase;">${effort}</span>`
   );
 });
 
@@ -135,7 +145,7 @@ export function renderReportHTML(report: AuditReport): string {
       { id: "technical-health", title: "Technical Health", content: report.website?.technical, order: 14, visible: true },
       { id: "backlink-authority", title: "Backlink Authority", content: report.website?.backlinks, order: 15, visible: true },
     ],
-    brandColor: "#1e3a5f",
+    brandColor: "#6b5a8e",
   };
 
   return template(data);
@@ -174,7 +184,7 @@ export async function renderReportPDF(report: AuditReport): Promise<Buffer> {
     const pdfBuffer = await page.pdf({
       format: "A4",
       printBackground: true,
-      margin: { top: "20mm", right: "15mm", bottom: "20mm", left: "15mm" },
+      margin: { top: "8mm", right: "8mm", bottom: "10mm", left: "8mm" },
     });
 
     return Buffer.from(pdfBuffer);

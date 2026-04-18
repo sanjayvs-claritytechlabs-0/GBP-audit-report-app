@@ -24,14 +24,26 @@ import { persistTestingJson, persistTestingText } from "@/lib/testing-data";
 // PageSpeed Insights
 // ---------------------------------------------------------------------------
 
+const ZERO_PSI_METRICS: PageSpeedMetrics = {
+  score: 0,
+  lcp: 0,
+  fid: 0,
+  cls: 0,
+  fcp: 0,
+  ttfb: 0,
+  tti: 0,
+  tbt: 0,
+  speedIndex: 0,
+};
+
 async function runPageSpeedInsights(
   url: string,
   strategy: "mobile" | "desktop",
   debug?: { uuid: string }
-): Promise<PageSpeedMetrics> {
+): Promise<{ metrics: PageSpeedMetrics; error?: string }> {
   const apiKey = process.env.GOOGLE_PSI_API_KEY;
   if (!apiKey) {
-    return { score: 0, lcp: 0, fid: 0, cls: 0, fcp: 0, ttfb: 0, tti: 0, tbt: 0, speedIndex: 0 };
+    return { metrics: { ...ZERO_PSI_METRICS }, error: "GOOGLE_PSI_API_KEY_not_configured" };
   }
 
   try {
@@ -64,21 +76,40 @@ async function runPageSpeedInsights(
     }
 
     const lhr = response.data.lighthouseResult;
+    if (!lhr?.audits) {
+      return {
+        metrics: { ...ZERO_PSI_METRICS },
+        error: `${strategy}_PSI_invalid_response_no_lighthouse`,
+      };
+    }
     const audits = lhr.audits;
 
     return {
-      score: Math.round((lhr.categories?.performance?.score ?? 0) * 100),
-      lcp: parseFloat(audits["largest-contentful-paint"]?.numericValue ?? "0"),
-      fid: parseFloat(audits["max-potential-fid"]?.numericValue ?? "0"),
-      cls: parseFloat(audits["cumulative-layout-shift"]?.numericValue ?? "0"),
-      fcp: parseFloat(audits["first-contentful-paint"]?.numericValue ?? "0"),
-      ttfb: parseFloat(audits["server-response-time"]?.numericValue ?? "0"),
-      tti: parseFloat(audits["interactive"]?.numericValue ?? "0"),
-      tbt: parseFloat(audits["total-blocking-time"]?.numericValue ?? "0"),
-      speedIndex: parseFloat(audits["speed-index"]?.numericValue ?? "0"),
+      metrics: {
+        score: Math.round((lhr.categories?.performance?.score ?? 0) * 100),
+        lcp: parseFloat(audits["largest-contentful-paint"]?.numericValue ?? "0"),
+        fid: parseFloat(audits["max-potential-fid"]?.numericValue ?? "0"),
+        cls: parseFloat(audits["cumulative-layout-shift"]?.numericValue ?? "0"),
+        fcp: parseFloat(audits["first-contentful-paint"]?.numericValue ?? "0"),
+        ttfb: parseFloat(audits["server-response-time"]?.numericValue ?? "0"),
+        tti: parseFloat(audits["interactive"]?.numericValue ?? "0"),
+        tbt: parseFloat(audits["total-blocking-time"]?.numericValue ?? "0"),
+        speedIndex: parseFloat(audits["speed-index"]?.numericValue ?? "0"),
+      },
     };
-  } catch {
-    return { score: 0, lcp: 0, fid: 0, cls: 0, fcp: 0, ttfb: 0, tti: 0, tbt: 0, speedIndex: 0 };
+  } catch (err) {
+    let msg = "PSI_request_failed";
+    if (axios.isAxiosError(err)) {
+      const status = err.response?.status;
+      const body =
+        typeof err.response?.data === "object"
+          ? JSON.stringify(err.response?.data).slice(0, 200)
+          : String(err.response?.data ?? "").slice(0, 200);
+      msg = [status, err.message, body].filter(Boolean).join(" ").slice(0, 280);
+    } else if (err instanceof Error) {
+      msg = err.message.slice(0, 280);
+    }
+    return { metrics: { ...ZERO_PSI_METRICS }, error: `${strategy}:${msg}` };
   }
 }
 
@@ -408,12 +439,18 @@ export async function auditWebsite(
   debug?: { uuid: string }
 ): Promise<WebsiteAuditResult> {
   // Run crawl and PSI in parallel
-  const [crawl, mobile, desktop, backlinks] = await Promise.all([
+  const [crawl, mobileOutcome, desktopOutcome, backlinks] = await Promise.all([
     crawlWebsite(url),
     runPageSpeedInsights(url, "mobile", debug),
     runPageSpeedInsights(url, "desktop", debug),
     fetchBacklinks(url),
   ]);
+  const mobile = mobileOutcome.metrics;
+  const desktop = desktopOutcome.metrics;
+  const psiErrors = [mobileOutcome.error, desktopOutcome.error].filter(
+    (e): e is string => typeof e === "string" && e.length > 0
+  );
+  const psiUnique = psiErrors.filter((e, i) => psiErrors.indexOf(e) === i);
 
   if (debug?.uuid) {
     await persistTestingJson({
@@ -442,7 +479,11 @@ export async function auditWebsite(
     });
   }
 
-  const performance: PageSpeedData = { mobile, desktop };
+  const performance: PageSpeedData = {
+    mobile,
+    desktop,
+    ...(psiUnique.length ? { error: psiUnique.join(" | ") } : {}),
+  };
   const onPage = parseOnPage(crawl.html, url);
   const schema = parseSchema(crawl.html);
   const nap = checkNAPConsistency(crawl.html, schema, canonicalNAP);

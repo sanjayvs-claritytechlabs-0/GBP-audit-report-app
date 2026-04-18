@@ -32,6 +32,8 @@ const GBP_FIELD_MASK = [
   "location",
   "accessibilityOptions",
   "paymentOptions",
+  // Needed for GBP description (omitted before → description was always empty).
+  "editorialSummary",
 ].join(",");
 
 // ---------------------------------------------------------------------------
@@ -154,7 +156,10 @@ export async function collectGBPData(
     ].filter((c, i, arr) => c && arr.indexOf(c) === i);
 
     const description: string =
-      place.editorialSummary?.text ?? place.generativeSummary?.overview?.text ?? "";
+      place.editorialSummary?.text ??
+      place.generativeSummary?.overview?.text ??
+      place.generativeSummary?.text ??
+      "";
 
     // Build attributes object
     const attributes: Record<string, string | boolean> = {};

@@ -340,6 +340,8 @@ export interface PageSpeedMetrics {
 export interface PageSpeedData {
   mobile: PageSpeedMetrics;
   desktop: PageSpeedMetrics;
+  /** Set when the PSI API key is missing or a run failed (see mobile/desktop metrics may be zeros). */
+  error?: string;
 }
 
 export interface OnPageData {

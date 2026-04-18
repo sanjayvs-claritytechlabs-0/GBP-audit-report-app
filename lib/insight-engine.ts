@@ -53,33 +53,41 @@ export function buildInsightsModelInput(params: {
   reviews: ReviewData;
   citations: CitationResult;
   website: WebsiteAuditResult;
+  /** Audit keywords (same as used for rank/profile SEO); short list for the model only. */
+  keywords: string[];
 }): Record<string, unknown> {
-  const { businessName, scores, gbp, reviews, citations, website } = params;
+  const { businessName, scores, gbp, reviews, citations, website, keywords } = params;
+
+  const r2 = (n: number) => Math.round(n * 100) / 100;
 
   return {
     business_name: businessName,
-    overall_score: scores.overall,
+    overall_score: r2(scores.overall),
     scores: {
-      rank: scores.rank,
-      citations: scores.citations,
-      profile_completeness: scores.profileCompleteness,
-      profile_seo: scores.profileSeo,
-      website: scores.website,
-      reviews: scores.reviews,
+      rank: r2(scores.rank),
+      citations: r2(scores.citations),
+      profile_completeness: r2(scores.profileCompleteness),
+      profile_seo: r2(scores.profileSeo),
+      website: r2(scores.website),
+      reviews: r2(scores.reviews),
     },
+    audit_keywords: keywords.slice(0, 8),
     gbp_category: gbp.primaryCategory,
+    gbp_has_description: Boolean((gbp.description || "").trim()),
     review_count: reviews.totalCount,
-    avg_rating: reviews.averageRating,
-    review_velocity_per_week: reviews.velocityPerWeek,
-    response_rate: reviews.responseRate,
+    avg_rating: r2(reviews.averageRating),
+    review_velocity_per_week: r2(reviews.velocityPerWeek),
+    response_rate: r2(reviews.responseRate),
     citations_found: citations.found,
     citations_total: citations.totalChecked,
-    nap_consistency: citations.napConsistency.overall,
+    nap_consistency: r2(citations.napConsistency.overall),
     website_https: website.isHttps,
     website_mobile_score: website.performance.mobile.score,
-    website_lcp: website.performance.mobile.lcp,
+    website_lcp_ms: Math.round(website.performance.mobile.lcp),
+    website_psi_note: website.performance.error ?? null,
     has_local_schema: website.schema.hasLocalBusiness,
     domain_authority: website.backlinks.domainAuthority,
+    backlinks_note: website.backlinks.error ?? null,
   };
 }
 
@@ -115,7 +123,8 @@ async function callGemini(
       },
     ],
     generationConfig: {
-      maxOutputTokens: 1000,
+      // Avoid truncating JSON mid-stream (was failing parse at 1000).
+      maxOutputTokens: 4096,
       temperature: 0.4,
       responseMimeType: "application/json",
     },
@@ -256,12 +265,14 @@ export async function generateInsights(params: {
   reviews: ReviewData;
   citations: CitationResult;
   website: WebsiteAuditResult;
-  debug?: { uuid: string };
+  keywords: string[];
+  /** When `logGeminiErrors` is true, failures on the Gemini path are printed before template fallback (useful for local scripts). */
+  debug?: { uuid: string; logGeminiErrors?: boolean };
 }): Promise<InsightResult> {
   const { businessName, scores } = params;
   const start = Date.now();
 
-  // Build a compact summary for the model
+  // Compact summary only (no full crawl/schema payloads) — keeps LLM input small.
   const auditSummary = buildInsightsModelInput(params);
 
   try {
@@ -299,8 +310,11 @@ export async function generateInsights(params: {
       generationDurationMs: Date.now() - start,
       isFallback: false,
     };
-  } catch {
-    // Fallback to template
+  } catch (err) {
+    if (params.debug?.logGeminiErrors) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error("[generateInsights] Gemini path failed, using template fallback:", msg);
+    }
     return generateFallbackInsights(scores, businessName);
   }
 }
