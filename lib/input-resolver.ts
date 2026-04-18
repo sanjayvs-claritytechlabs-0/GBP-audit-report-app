@@ -43,7 +43,7 @@ export const AuditInputSchema = z.object({
       (url) => url.startsWith("http"),
       "Website URL must start with http or https"
     ),
-  market: z.enum(["in", "us"]).default("us"),
+  market: z.literal("us").default("us"),
 });
 
 // ---------------------------------------------------------------------------

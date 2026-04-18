@@ -173,7 +173,7 @@ async function searchSerperMaps(
   keyword: string,
   lat: number,
   lng: number,
-  market: string = "in",
+  market: string = "us",
   debug?: { uuid: string }
 ): Promise<SerperMapResult[]> {
   const apiKey = process.env.SERPER_API_KEY ?? "";
@@ -272,7 +272,7 @@ function rankToColor(avgRank: number): string {
  */
 export async function runRankChecks(
   params: RankEngineParams,
-  market: string = "in",
+  market: string = "us",
   debug?: { uuid: string }
 ): Promise<RankData> {
   if (!process.env.SERPER_API_KEY) {

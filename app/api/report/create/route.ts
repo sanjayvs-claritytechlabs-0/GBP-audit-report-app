@@ -44,9 +44,65 @@ const CreateReportSchema = z.object({
     ),
   keywords: z
     .array(z.string().min(2).max(80).trim())
-    .min(1, "At least 1 keyword is required")
     .max(5, "Maximum 5 keywords allowed"),
 });
+
+/**
+ * Derive up to 5 target keywords from the GBP primary category.
+ * Focused on US Healthcare & Wellness businesses.
+ */
+function deriveKeywords(primaryCategory: string): string[] {
+  const category = primaryCategory.toLowerCase();
+  const baseKeywords = [category, `${category} near me`, `best ${category}`];
+
+  const healthcareKeywords: Record<string, string[]> = {
+    dentist: ["dental clinic near me", "emergency dentist"],
+    orthodontist: ["braces near me", "invisalign provider"],
+    "dental clinic": ["family dentist", "cosmetic dentist near me"],
+    doctor: ["primary care physician near me", "family doctor"],
+    physician: ["internal medicine doctor", "physician near me"],
+    pediatrician: ["kids doctor near me", "pediatric clinic"],
+    dermatologist: ["skin doctor near me", "dermatology clinic"],
+    cardiologist: ["heart doctor near me", "cardiology practice"],
+    orthopedic: ["orthopedic surgeon near me", "sports medicine doctor"],
+    chiropractor: ["chiropractic care near me", "back pain treatment"],
+    "physical therapist": ["physical therapy near me", "PT clinic"],
+    optometrist: ["eye doctor near me", "vision care"],
+    ophthalmologist: ["eye surgeon near me", "lasik near me"],
+    psychiatrist: ["mental health provider near me", "psychiatry practice"],
+    psychologist: ["therapist near me", "counseling services"],
+    "urgent care": ["walk in clinic near me", "urgent care center"],
+    hospital: ["emergency room near me", "hospital near me"],
+    pharmacy: ["pharmacy near me", "24 hour pharmacy"],
+    "medical spa": ["medspa near me", "aesthetic clinic"],
+    "wellness center": ["holistic health near me", "wellness clinic"],
+    acupuncture: ["acupuncturist near me", "traditional chinese medicine"],
+    massage: ["massage therapy near me", "therapeutic massage"],
+    nutritionist: ["dietitian near me", "nutrition counseling"],
+    "mental health": ["therapist near me", "counseling near me"],
+    "weight loss": ["weight loss clinic near me", "medical weight loss"],
+    "pain management": ["pain clinic near me", "pain management doctor"],
+    podiatrist: ["foot doctor near me", "podiatry clinic"],
+    "speech therapist": ["speech therapy near me", "speech pathologist"],
+    "occupational therapist": ["occupational therapy near me", "OT clinic"],
+    gynecologist: ["obgyn near me", "women's health clinic"],
+    urologist: ["urologist near me", "urology clinic"],
+    ent: ["ear nose throat doctor", "ENT specialist near me"],
+    allergist: ["allergy doctor near me", "allergy testing"],
+    gastroenterologist: ["GI doctor near me", "gastroenterology clinic"],
+    neurologist: ["neurologist near me", "neurology clinic"],
+    pulmonologist: ["lung doctor near me", "pulmonology clinic"],
+    oncologist: ["cancer doctor near me", "oncology center"],
+    "plastic surgeon": ["cosmetic surgeon near me", "plastic surgery clinic"],
+    "oral surgeon": ["oral surgery near me", "wisdom teeth removal"],
+  };
+
+  const extras =
+    Object.entries(healthcareKeywords).find(([key]) => category.includes(key))?.[1] ??
+    [`${category} clinic near me`, `${category} provider`];
+
+  return [...baseKeywords, ...extras].slice(0, 5);
+}
 
 // ---------------------------------------------------------------------------
 // POST /api/report/create
@@ -207,8 +263,8 @@ async function runAuditPipeline(
     updateJob(uuid, { progress: 28, currentStep: "Checking rankings across geo-grid" });
 
     // Step 4: Run rank checks (245 Serper API calls — the heavy step)
-    // Use user-provided keywords
-    const keywords = input.keywords;
+    // Use user-provided keywords; if none provided, derive from GBP category.
+    const keywords = input.keywords.length > 0 ? input.keywords : deriveKeywords(gbp.primaryCategory);
     const rankings = await runRankChecks({
       businessName: input.businessName,
       lat: resolved.lat,

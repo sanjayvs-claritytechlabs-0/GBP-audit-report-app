@@ -352,14 +352,13 @@ async function fetchBacklinks(url: string): Promise<BacklinkData> {
   const secretKey = process.env.MOZ_SECRET_KEY;
 
   if (!accessId || !secretKey) {
-    // Proxy score fallback
     return {
-      domainAuthority: 20,
-      pageAuthority: 25,
+      domainAuthority: 0,
+      pageAuthority: 0,
       linkingDomains: 0,
       totalLinks: 0,
-      spamScore: 5,
-      error: "MOZ credentials not configured — using proxy score",
+      spamScore: 0,
+      error: "MOZ credentials not configured",
     };
   }
 
@@ -386,12 +385,12 @@ async function fetchBacklinks(url: string): Promise<BacklinkData> {
     };
   } catch {
     return {
-      domainAuthority: 20,
-      pageAuthority: 25,
+      domainAuthority: 0,
+      pageAuthority: 0,
       linkingDomains: 0,
       totalLinks: 0,
-      spamScore: 5,
-      error: "Moz API call failed — using proxy score",
+      spamScore: 0,
+      error: "Moz API call failed",
     };
   }
 }

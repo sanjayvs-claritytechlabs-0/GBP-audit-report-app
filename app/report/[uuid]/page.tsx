@@ -95,60 +95,126 @@ interface ReportData {
   };
 }
 
-function ScoreGauge({ score, size = 120, label }: { score: number; size?: number; label: string }) {
-  const radius = (size - 12) / 2;
+const SECTION_NAV = [
+  { id: "overview", label: "Overview" },
+  { id: "scores", label: "Scores" },
+  { id: "actions", label: "Actions" },
+  { id: "rankings", label: "Rankings" },
+  { id: "competitors", label: "Competitors" },
+  { id: "citations", label: "Citations" },
+  { id: "website", label: "Website" },
+] as const;
+
+function ScoreGauge({ score, size = 160, label }: { score: number; size?: number; label: string }) {
+  const radius = (size - 14) / 2;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (score / 100) * circumference;
-  const color = score >= 80 ? "#10b981" : score >= 60 ? "#f59e0b" : score >= 40 ? "#f97316" : "#ef4444";
+  const stroke =
+    score >= 80 ? "#7c3aed" : score >= 60 ? "#8b5cf6" : score >= 40 ? "#a78bfa" : "#c084fc";
   const grade = score >= 90 ? "A+" : score >= 80 ? "A" : score >= 70 ? "B" : score >= 60 ? "C" : score >= 50 ? "D" : "F";
 
   return (
     <div className="flex flex-col items-center">
-      <svg width={size} height={size} className="-rotate-90">
-        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="#e2e8f0" strokeWidth="10" />
-        <circle
-          cx={size / 2} cy={size / 2} r={radius} fill="none"
-          stroke={color} strokeWidth="10" strokeLinecap="round"
-          strokeDasharray={circumference} strokeDashoffset={offset}
-          style={{ transition: "stroke-dashoffset 1s ease-out" }}
-        />
-      </svg>
-      <div className="absolute flex flex-col items-center justify-center" style={{ width: size, height: size }}>
-        <span className="text-2xl font-bold" style={{ color }}>{score}</span>
-        <span className="text-xs text-slate-400 font-medium">{grade}</span>
+      <div className="relative" style={{ width: size, height: size }}>
+        <svg width={size} height={size} className="-rotate-90" aria-hidden>
+          <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="#ede9fe" strokeWidth="12" />
+          <circle
+            cx={size / 2}
+            cy={size / 2}
+            r={radius}
+            fill="none"
+            stroke={stroke}
+            strokeWidth="12"
+            strokeLinecap="round"
+            strokeDasharray={circumference}
+            strokeDashoffset={offset}
+            style={{ transition: "stroke-dashoffset 1s ease-out" }}
+          />
+        </svg>
+        <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center">
+          <span className="text-3xl font-bold tracking-tight text-violet-950">{score}</span>
+          <span className="text-xs font-semibold text-violet-500">{grade}</span>
+        </div>
       </div>
-      <p className="mt-2 text-xs font-medium text-slate-600 text-center">{label}</p>
+      <p className="mt-3 text-center text-xs font-semibold uppercase tracking-wider text-violet-600">{label}</p>
     </div>
   );
 }
 
 function ScoreCard({ score, label, icon }: { score: number; label: string; icon: string }) {
-  const color = score >= 80 ? "text-emerald-600 bg-emerald-50" : score >= 60 ? "text-amber-600 bg-amber-50" : "text-red-600 bg-red-50";
+  const bar =
+    score >= 80
+      ? "from-violet-600 to-fuchsia-500"
+      : score >= 60
+        ? "from-violet-500 to-violet-400"
+        : "from-fuchsia-500 to-pink-400";
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-4 flex items-center gap-4">
-      <div className={`h-12 w-12 rounded-lg flex items-center justify-center ${color}`}>
-        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" d={icon} />
-        </svg>
-      </div>
-      <div className="flex-1 min-w-0">
-        <p className="text-sm text-slate-500">{label}</p>
-        <p className="text-xl font-bold text-slate-800">{score}<span className="text-sm text-slate-400 font-normal">/100</span></p>
-      </div>
-      <div className="w-16 h-2 rounded-full bg-slate-100 overflow-hidden">
-        <div
-          className={`h-full rounded-full ${score >= 80 ? "bg-emerald-500" : score >= 60 ? "bg-amber-500" : "bg-red-500"}`}
-          style={{ width: `${score}%` }}
-        />
+    <div className="relative overflow-hidden rounded-xl border border-violet-200/80 bg-white/95 p-4 shadow-sm shadow-violet-900/[0.04] backdrop-blur-sm transition hover:border-violet-300 hover:shadow-md hover:shadow-violet-900/[0.06]">
+      <div className={`absolute inset-y-0 left-0 w-1 bg-gradient-to-b ${bar}`} aria-hidden />
+      <div className="flex items-center gap-4 pl-1">
+        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-violet-100 text-violet-700">
+          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d={icon} />
+          </svg>
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm text-violet-600/90">{label}</p>
+          <p className="text-xl font-bold text-violet-950">
+            {score}
+            <span className="text-sm font-normal text-violet-400">/100</span>
+          </p>
+        </div>
+        <div className="h-2 w-16 shrink-0 overflow-hidden rounded-full bg-violet-100">
+          <div className={`h-full rounded-full bg-gradient-to-r ${bar}`} style={{ width: `${score}%` }} />
+        </div>
       </div>
     </div>
   );
 }
 
 function NAPBadge({ match }: { match: boolean | null }) {
-  if (match === true) return <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-emerald-100 text-emerald-600 text-xs font-bold">&#10003;</span>;
-  if (match === false) return <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-red-100 text-red-600 text-xs font-bold">&#10007;</span>;
-  return <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-slate-100 text-slate-400 text-xs">—</span>;
+  if (match === true)
+    return (
+      <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700">
+        &#10003;
+      </span>
+    );
+  if (match === false)
+    return (
+      <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-100 text-xs font-bold text-red-600">
+        &#10007;
+      </span>
+    );
+  return (
+    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-violet-100 text-xs text-violet-400">—</span>
+  );
+}
+
+function SectionShell({
+  id,
+  title,
+  description,
+  headerRight,
+  children,
+}: {
+  id: string;
+  title: string;
+  description?: string;
+  headerRight?: React.ReactNode;
+  children: React.ReactNode;
+}) {
+  return (
+    <section id={id} className="scroll-mt-28 overflow-hidden rounded-2xl border border-violet-200/70 bg-white/95 shadow-sm shadow-violet-900/[0.05] backdrop-blur-sm">
+      <div className="flex flex-col gap-3 border-b border-violet-100 bg-gradient-to-r from-violet-50/90 via-white to-fuchsia-50/40 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+        <div>
+          <h2 className="text-lg font-semibold tracking-tight text-violet-950">{title}</h2>
+          {description ? <p className="mt-0.5 text-sm text-violet-600/80">{description}</p> : null}
+        </div>
+        {headerRight ? <div className="shrink-0">{headerRight}</div> : null}
+      </div>
+      <div className="p-5 sm:p-6">{children}</div>
+    </section>
+  );
 }
 
 export default function ReportPage() {
@@ -160,7 +226,7 @@ export default function ReportPage() {
 
   useEffect(() => {
     let retries = 0;
-    const MAX_RETRIES = 40; // ~2 minutes at 3s intervals
+    const MAX_RETRIES = 40;
 
     async function fetchReport() {
       try {
@@ -191,13 +257,17 @@ export default function ReportPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50">
+      <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-violet-100 via-white to-fuchsia-50/50">
         <div className="text-center">
-          <svg className="mx-auto h-10 w-10 text-[#1e3a5f] animate-spin" fill="none" viewBox="0 0 24 24">
+          <svg className="mx-auto h-10 w-10 animate-spin text-violet-600" fill="none" viewBox="0 0 24 24" aria-hidden>
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+            <path
+              className="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+            />
           </svg>
-          <p className="mt-4 text-slate-500">Loading report...</p>
+          <p className="mt-4 text-sm font-medium text-violet-700">Loading report…</p>
         </div>
       </div>
     );
@@ -205,317 +275,432 @@ export default function ReportPage() {
 
   if (error || !report) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50">
-        <div className="text-center max-w-md">
-          <div className="mx-auto h-16 w-16 rounded-full bg-red-50 flex items-center justify-center mb-4">
-            <svg className="h-8 w-8 text-red-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+      <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-violet-100 via-white to-fuchsia-50/50 px-4">
+        <div className="max-w-md text-center">
+          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-red-50 text-red-500 ring-1 ring-red-100">
+            <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"
+              />
             </svg>
           </div>
-          <h2 className="text-lg font-semibold text-slate-800 mb-2">Report Unavailable</h2>
-          <p className="text-sm text-slate-500">{error}</p>
-          <a href="/" className="mt-4 inline-block text-sm text-[#1e3a5f] font-medium hover:underline">Generate a new audit</a>
+          <h2 className="text-lg font-semibold text-violet-950">Report unavailable</h2>
+          <p className="mt-2 text-sm text-violet-600">{error}</p>
+          <a
+            href="/"
+            className="mt-6 inline-flex items-center justify-center rounded-xl bg-violet-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm shadow-violet-900/20 transition hover:bg-violet-800"
+          >
+            Generate a new audit
+          </a>
         </div>
       </div>
     );
   }
 
-  const { scores, gbp, reviews, rankings, competitors, citations, website, insights } = report;
+  const { scores, gbp, rankings, competitors, citations, website, insights } = report;
 
   return (
-    <div className="min-h-screen bg-slate-50">
-      {/* Header */}
-      <header className="bg-[#1e3a5f] text-white">
-        <div className="mx-auto max-w-6xl px-6 py-6 flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-bold">{gbp.name}</h1>
-            <p className="text-blue-200 text-sm mt-1">{gbp.address} &middot; {gbp.primaryCategory}</p>
-          </div>
-          <div className="flex items-center gap-3">
-            <div className="text-right">
-              <div className="flex items-center gap-1">
-                <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-                <span className="font-semibold">{gbp.averageRating}</span>
-                <span className="text-blue-200 text-sm">({gbp.totalReviews} reviews)</span>
-              </div>
-              {gbp.isVerified && <span className="text-xs text-emerald-300">Verified</span>}
+    <div className="min-h-screen scroll-smooth bg-gradient-to-b from-violet-100/80 via-white to-fuchsia-50/40 text-slate-800">
+      <header className="relative overflow-hidden border-b border-violet-300/40 bg-gradient-to-br from-violet-950 via-purple-900 to-fuchsia-950 text-white">
+        <div
+          className="pointer-events-none absolute inset-0 opacity-30"
+          style={{
+            backgroundImage:
+              "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(196,181,253,0.5), transparent), radial-gradient(ellipse 60% 40% at 100% 0%, rgba(232,121,249,0.25), transparent)",
+          }}
+        />
+        <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+            <div className="min-w-0 space-y-2">
+              <p className="text-xs font-semibold uppercase tracking-widest text-violet-200/90">Local SEO audit</p>
+              <h1 className="text-balance text-2xl font-bold tracking-tight sm:text-3xl">{gbp.name}</h1>
+              <p className="max-w-2xl text-sm leading-relaxed text-violet-100/90">
+                {gbp.address} <span className="text-violet-300/80">&middot;</span> {gbp.primaryCategory}
+              </p>
             </div>
-            <a
-              href={`/api/report/${uuid}/pdf`}
-              className="rounded-lg bg-white/10 border border-white/20 px-4 py-2 text-sm font-medium hover:bg-white/20 transition-colors"
-            >
-              Download PDF
-            </a>
+            <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center lg:shrink-0">
+              <div className="rounded-xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur-sm">
+                <div className="flex items-center gap-1.5 text-amber-300">
+                  <svg className="h-4 w-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <span className="font-semibold text-white">{gbp.averageRating}</span>
+                  <span className="text-sm text-violet-200">({gbp.totalReviews} reviews)</span>
+                </div>
+                {gbp.isVerified ? (
+                  <span className="mt-1 inline-block text-xs font-medium text-emerald-300">Verified on Google</span>
+                ) : null}
+              </div>
+              <a
+                href={`/api/report/${uuid}/pdf`}
+                className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/15 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
+              >
+                Download PDF
+              </a>
+            </div>
           </div>
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-6 py-8 space-y-8">
-        {/* Overall Score + Executive Summary */}
-        <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8">
-          <div className="flex flex-col sm:flex-row items-center gap-8">
-            <div className="relative flex items-center justify-center">
-              <ScoreGauge score={scores.overall} size={160} label="Overall Score" />
+      <nav
+        className="sticky top-0 z-10 border-b border-violet-200/80 bg-white/85 backdrop-blur-md"
+        aria-label="Report sections"
+      >
+        <div className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-4 py-2 sm:px-6 [&::-webkit-scrollbar]:h-1.5">
+          {SECTION_NAV.map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              className="whitespace-nowrap rounded-lg px-3 py-2 text-xs font-semibold text-violet-700 transition hover:bg-violet-100 sm:text-sm"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <main className="mx-auto max-w-6xl space-y-8 px-4 py-8 sm:px-6 sm:py-10">
+        <SectionShell
+          id="overview"
+          title="Overview"
+          description="Overall visibility score and executive summary."
+        >
+          <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-start">
+            <div className="shrink-0">
+              <ScoreGauge score={scores.overall} size={168} label="Overall score" />
             </div>
-            <div className="flex-1">
-              <h2 className="text-lg font-semibold text-[#1e3a5f] mb-3">Executive Summary</h2>
-              <p className="text-sm text-slate-600 leading-relaxed">{insights.executiveSummary}</p>
+            <div className="min-w-0 flex-1">
+              <h3 className="text-sm font-semibold uppercase tracking-wide text-violet-600">Executive summary</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">{insights.executiveSummary}</p>
             </div>
+          </div>
+        </SectionShell>
+
+        <section id="scores" className="scroll-mt-28 space-y-4">
+          <div className="px-1">
+            <h2 className="text-lg font-semibold tracking-tight text-violet-950">Category scores</h2>
+            <p className="text-sm text-violet-600/85">How each pillar contributes to your local presence.</p>
+          </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            <ScoreCard
+              score={scores.rank}
+              label="Rank score"
+              icon="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"
+            />
+            <ScoreCard
+              score={scores.citations}
+              label="Citations & NAP"
+              icon="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"
+            />
+            <ScoreCard
+              score={scores.profileCompleteness}
+              label="Profile completeness"
+              icon="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z"
+            />
+            <ScoreCard
+              score={scores.profileSeo}
+              label="Profile SEO"
+              icon="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+            <ScoreCard
+              score={scores.reviews}
+              label="Reviews"
+              icon="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+            />
+            <ScoreCard
+              score={scores.website}
+              label="Website SEO"
+              icon="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5a17.92 17.92 0 01-8.716-2.247m0 0A8.966 8.966 0 013 12c0-1.97.633-3.794 1.71-5.275"
+            />
           </div>
         </section>
 
-        {/* Score Cards Grid */}
-        <section className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-          <ScoreCard score={scores.rank} label="Rank Score" icon="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
-          <ScoreCard score={scores.citations} label="Citations & NAP" icon="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
-          <ScoreCard score={scores.profileCompleteness} label="Profile Completeness" icon="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
-          <ScoreCard score={scores.profileSeo} label="Profile SEO" icon="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-          <ScoreCard score={scores.reviews} label="Reviews" icon="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-          <ScoreCard score={scores.website} label="Website SEO" icon="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5a17.92 17.92 0 01-8.716-2.247m0 0A8.966 8.966 0 013 12c0-1.97.633-3.794 1.71-5.275" />
-        </section>
-
-        {/* Priority Actions */}
-        <section>
-          <h2 className="text-lg font-semibold text-[#1e3a5f] mb-4">Priority Actions</h2>
-          <div className="grid gap-4 sm:grid-cols-3">
+        <SectionShell id="actions" title="Priority actions" description="High-impact improvements, ordered by importance.">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {insights.priorityActions.map((action) => (
-              <div key={action.rank} className="bg-white rounded-xl border border-slate-200 p-5">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="inline-flex items-center justify-center h-7 w-7 rounded-full bg-[#1e3a5f] text-white text-sm font-bold">
+              <article
+                key={action.rank}
+                className="flex flex-col rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/40 p-5 shadow-sm"
+              >
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-violet-700 text-sm font-bold text-white shadow-sm">
                     {action.rank}
                   </span>
-                  <div className="flex gap-1.5">
-                    <span className={`px-2 py-0.5 rounded text-xs font-semibold ${
-                      action.impact === "high" ? "bg-red-100 text-red-700" : action.impact === "medium" ? "bg-amber-100 text-amber-700" : "bg-emerald-100 text-emerald-700"
-                    }`}>
-                      {action.impact} impact
-                    </span>
-                    <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-600 text-xs font-semibold">
-                      {action.effort} effort
-                    </span>
-                  </div>
+                  <span
+                    className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
+                      action.impact === "high"
+                        ? "bg-red-100 text-red-800"
+                        : action.impact === "medium"
+                          ? "bg-amber-100 text-amber-900"
+                          : "bg-emerald-100 text-emerald-800"
+                    }`}
+                  >
+                    {action.impact} impact
+                  </span>
+                  <span className="rounded-full bg-violet-100 px-2.5 py-0.5 text-xs font-semibold text-violet-800">
+                    {action.effort} effort
+                  </span>
                 </div>
-                <h3 className="font-semibold text-slate-800 text-sm mb-2">{action.title}</h3>
-                <p className="text-xs text-slate-500 mb-3">{action.description}</p>
-                <ul className="space-y-1.5">
+                <h3 className="font-semibold text-violet-950">{action.title}</h3>
+                <p className="mt-1.5 flex-1 text-sm text-slate-600">{action.description}</p>
+                <ul className="mt-4 space-y-2 border-t border-violet-100 pt-4">
                   {action.specificSteps.map((step, i) => (
-                    <li key={i} className="flex items-start gap-2 text-xs text-slate-600">
-                      <span className="mt-0.5 h-4 w-4 flex-shrink-0 rounded-full bg-slate-100 flex items-center justify-center text-[10px] text-slate-400 font-medium">{i + 1}</span>
-                      {step}
+                    <li key={i} className="flex gap-2 text-sm text-slate-600">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-100 text-[10px] font-bold text-violet-700">
+                        {i + 1}
+                      </span>
+                      <span>{step}</span>
                     </li>
                   ))}
                 </ul>
-              </div>
+              </article>
             ))}
           </div>
-        </section>
+        </SectionShell>
 
-        {/* Keyword Rankings Table */}
-        <section className="bg-white rounded-2xl border border-slate-200 p-6">
-          <h2 className="text-lg font-semibold text-[#1e3a5f] mb-4">Keyword Rankings</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-slate-200">
-                  <th className="text-left py-3 px-4 text-slate-500 font-medium">Keyword</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Avg Rank</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">#1 Spots</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Top 3</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Top 10</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Score</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rankings.keywordResults.map((kr) => (
-                  <tr key={kr.keyword} className="border-b border-slate-100 hover:bg-slate-50">
-                    <td className="py-3 px-4 font-medium text-slate-800">{kr.keyword}</td>
-                    <td className="py-3 px-4 text-center">
-                      <span className={`inline-flex items-center justify-center h-7 min-w-[2rem] rounded-full px-2 text-xs font-bold ${
-                        kr.avgRank <= 3 ? "bg-emerald-100 text-emerald-700" : kr.avgRank <= 10 ? "bg-amber-100 text-amber-700" : "bg-red-100 text-red-700"
-                      }`}>
-                        {kr.avgRank.toFixed(1)}
-                      </span>
-                    </td>
-                    <td className="py-3 px-4 text-center text-slate-600">{kr.rank1Count}/49</td>
-                    <td className="py-3 px-4 text-center text-slate-600">{kr.top3Count}/49</td>
-                    <td className="py-3 px-4 text-center text-slate-600">{kr.top10Count}/49</td>
-                    <td className="py-3 px-4 text-center font-semibold text-slate-800">{kr.rankScore}</td>
+        <SectionShell id="rankings" title="Keyword rankings" description="Average position and visibility across your geo-grid.">
+          <div className="overflow-hidden rounded-xl border border-violet-100">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[640px] text-sm">
+                <thead>
+                  <tr className="bg-violet-100/90 text-left text-xs font-semibold uppercase tracking-wide text-violet-900">
+                    <th className="px-4 py-3">Keyword</th>
+                    <th className="px-4 py-3 text-center">Avg rank</th>
+                    <th className="px-4 py-3 text-center">#1 spots</th>
+                    <th className="px-4 py-3 text-center">Top 3</th>
+                    <th className="px-4 py-3 text-center">Top 10</th>
+                    <th className="px-4 py-3 text-center">Score</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        {/* Competitors */}
-        <section className="bg-white rounded-2xl border border-slate-200 p-6">
-          <h2 className="text-lg font-semibold text-[#1e3a5f] mb-4">Competitor Benchmarking</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-slate-200">
-                  <th className="text-left py-3 px-4 text-slate-500 font-medium">#</th>
-                  <th className="text-left py-3 px-4 text-slate-500 font-medium">Business</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Avg Rank</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Top 3 Freq</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Rating</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Reviews</th>
-                </tr>
-              </thead>
-              <tbody>
-                {competitors.map((c) => (
-                  <tr key={c.rank} className="border-b border-slate-100 hover:bg-slate-50">
-                    <td className="py-3 px-4 text-slate-400 font-medium">{c.rank}</td>
-                    <td className="py-3 px-4 font-medium text-slate-800">{c.name}</td>
-                    <td className="py-3 px-4 text-center text-slate-600">{c.avgRankAcrossGrid}</td>
-                    <td className="py-3 px-4 text-center text-slate-600">{c.top3Frequency}/49</td>
-                    <td className="py-3 px-4 text-center">
-                      <span className="inline-flex items-center gap-1">
-                        <svg className="h-3.5 w-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                        {c.rating ?? "—"}
-                      </span>
-                    </td>
-                    <td className="py-3 px-4 text-center text-slate-600">{c.reviewCount ?? "—"}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        {/* Citations & NAP */}
-        <section className="bg-white rounded-2xl border border-slate-200 p-6">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-semibold text-[#1e3a5f]">Citation & Listing Audit</h2>
-            <div className="flex items-center gap-4 text-sm">
-              <span className="text-emerald-600 font-semibold">{citations.found} found</span>
-              <span className="text-red-500 font-semibold">{citations.notFound} missing</span>
+                </thead>
+                <tbody className="divide-y divide-violet-100 bg-white">
+                  {rankings.keywordResults.map((kr) => (
+                    <tr key={kr.keyword} className="transition hover:bg-violet-50/50">
+                      <td className="px-4 py-3 font-medium text-violet-950">{kr.keyword}</td>
+                      <td className="px-4 py-3 text-center">
+                        <span
+                          className={`inline-flex min-w-[2rem] items-center justify-center rounded-full px-2 py-0.5 text-xs font-bold ${
+                            kr.avgRank <= 3
+                              ? "bg-emerald-100 text-emerald-800"
+                              : kr.avgRank <= 10
+                                ? "bg-amber-100 text-amber-900"
+                                : "bg-red-100 text-red-800"
+                          }`}
+                        >
+                          {kr.avgRank.toFixed(1)}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-center text-slate-600">{kr.rank1Count}/49</td>
+                      <td className="px-4 py-3 text-center text-slate-600">{kr.top3Count}/49</td>
+                      <td className="px-4 py-3 text-center text-slate-600">{kr.top10Count}/49</td>
+                      <td className="px-4 py-3 text-center font-semibold text-violet-950">{kr.rankScore}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-slate-200">
-                  <th className="text-left py-3 px-4 text-slate-500 font-medium">Platform</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Found</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Name</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Phone</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Address</th>
-                  <th className="text-center py-3 px-4 text-slate-500 font-medium">Website</th>
-                </tr>
-              </thead>
-              <tbody>
-                {citations.platforms.map((p) => (
-                  <tr key={p.platform} className="border-b border-slate-100 hover:bg-slate-50">
-                    <td className="py-3 px-4 font-medium text-slate-800">{p.displayName}</td>
-                    <td className="py-3 px-4 text-center">
-                      {p.found ? (
-                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 text-xs font-bold">&#10003;</span>
-                      ) : (
-                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-100 text-red-600 text-xs font-bold">&#10007;</span>
-                      )}
-                    </td>
-                    <td className="py-3 px-4 text-center"><NAPBadge match={p.nameMatch} /></td>
-                    <td className="py-3 px-4 text-center"><NAPBadge match={p.phoneMatch} /></td>
-                    <td className="py-3 px-4 text-center"><NAPBadge match={p.addressMatch} /></td>
-                    <td className="py-3 px-4 text-center"><NAPBadge match={p.websiteMatch} /></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
+        </SectionShell>
 
-        {/* Website SEO */}
-        <section className="bg-white rounded-2xl border border-slate-200 p-6">
-          <h2 className="text-lg font-semibold text-[#1e3a5f] mb-4">Website SEO Audit</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {/* Core Web Vitals */}
-            <div className="rounded-lg border border-slate-200 p-4">
-              <h3 className="text-sm font-medium text-slate-500 mb-3">Mobile Performance</h3>
-              <div className="text-3xl font-bold" style={{
-                color: website.performance.mobile.score >= 90 ? "#10b981" : website.performance.mobile.score >= 50 ? "#f59e0b" : "#ef4444"
-              }}>{website.performance.mobile.score}</div>
-              <div className="mt-2 space-y-1 text-xs text-slate-500">
-                <div className="flex justify-between">
+        <SectionShell id="competitors" title="Competitor benchmarking" description="How you stack up against nearby listings.">
+          <div className="overflow-hidden rounded-xl border border-violet-100">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[560px] text-sm">
+                <thead>
+                  <tr className="bg-violet-100/90 text-left text-xs font-semibold uppercase tracking-wide text-violet-900">
+                    <th className="px-4 py-3">#</th>
+                    <th className="px-4 py-3">Business</th>
+                    <th className="px-4 py-3 text-center">Avg rank</th>
+                    <th className="px-4 py-3 text-center">Top 3 freq</th>
+                    <th className="px-4 py-3 text-center">Rating</th>
+                    <th className="px-4 py-3 text-center">Reviews</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-violet-100 bg-white">
+                  {competitors.map((c) => (
+                    <tr key={c.rank} className="transition hover:bg-violet-50/50">
+                      <td className="px-4 py-3 font-medium text-violet-400">{c.rank}</td>
+                      <td className="px-4 py-3 font-medium text-violet-950">{c.name}</td>
+                      <td className="px-4 py-3 text-center text-slate-600">{c.avgRankAcrossGrid}</td>
+                      <td className="px-4 py-3 text-center text-slate-600">{c.top3Frequency}/49</td>
+                      <td className="px-4 py-3 text-center">
+                        <span className="inline-flex items-center justify-center gap-1">
+                          <svg className="h-3.5 w-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                          {c.rating ?? "—"}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-center text-slate-600">{c.reviewCount ?? "—"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </SectionShell>
+
+        <SectionShell
+          id="citations"
+          title="Citation & listing audit"
+          description="Directory presence and NAP consistency."
+          headerRight={
+            <div className="flex flex-wrap items-center gap-3 text-sm font-semibold">
+              <span className="rounded-full bg-emerald-50 px-3 py-1 text-emerald-800 ring-1 ring-emerald-100">
+                {citations.found} found
+              </span>
+              <span className="rounded-full bg-red-50 px-3 py-1 text-red-800 ring-1 ring-red-100">
+                {citations.notFound} missing
+              </span>
+            </div>
+          }
+        >
+          <div className="overflow-hidden rounded-xl border border-violet-100">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[640px] text-sm">
+                <thead>
+                  <tr className="bg-violet-100/90 text-left text-xs font-semibold uppercase tracking-wide text-violet-900">
+                    <th className="px-4 py-3">Platform</th>
+                    <th className="px-4 py-3 text-center">Found</th>
+                    <th className="px-4 py-3 text-center">Name</th>
+                    <th className="px-4 py-3 text-center">Phone</th>
+                    <th className="px-4 py-3 text-center">Address</th>
+                    <th className="px-4 py-3 text-center">Website</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-violet-100 bg-white">
+                  {citations.platforms.map((p) => (
+                    <tr key={p.platform} className="transition hover:bg-violet-50/50">
+                      <td className="px-4 py-3 font-medium text-violet-950">{p.displayName}</td>
+                      <td className="px-4 py-3 text-center">
+                        {p.found ? (
+                          <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700">
+                            &#10003;
+                          </span>
+                        ) : (
+                          <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-100 text-xs font-bold text-red-600">
+                            &#10007;
+                          </span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3 text-center">
+                        <NAPBadge match={p.nameMatch} />
+                      </td>
+                      <td className="px-4 py-3 text-center">
+                        <NAPBadge match={p.phoneMatch} />
+                      </td>
+                      <td className="px-4 py-3 text-center">
+                        <NAPBadge match={p.addressMatch} />
+                      </td>
+                      <td className="px-4 py-3 text-center">
+                        <NAPBadge match={p.websiteMatch} />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </SectionShell>
+
+        <SectionShell id="website" title="Website SEO audit" description="Performance, technical health, schema, and authority signals.">
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Mobile performance</h3>
+              <div
+                className="mt-2 text-3xl font-bold tracking-tight"
+                style={{
+                  color:
+                    website.performance.mobile.score >= 90
+                      ? "#059669"
+                      : website.performance.mobile.score >= 50
+                        ? "#d97706"
+                        : "#dc2626",
+                }}
+              >
+                {website.performance.mobile.score}
+              </div>
+              <div className="mt-3 space-y-2 text-xs text-slate-600">
+                <div className="flex justify-between gap-2">
                   <span>LCP</span>
-                  <span className={website.performance.mobile.lcp <= 2500 ? "text-emerald-600" : "text-amber-600"}>{(website.performance.mobile.lcp / 1000).toFixed(1)}s</span>
+                  <span className={website.performance.mobile.lcp <= 2500 ? "font-medium text-emerald-700" : "font-medium text-amber-700"}>
+                    {(website.performance.mobile.lcp / 1000).toFixed(1)}s
+                  </span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between gap-2">
                   <span>CLS</span>
-                  <span className={website.performance.mobile.cls <= 0.1 ? "text-emerald-600" : "text-amber-600"}>{website.performance.mobile.cls.toFixed(2)}</span>
+                  <span className={website.performance.mobile.cls <= 0.1 ? "font-medium text-emerald-700" : "font-medium text-amber-700"}>
+                    {website.performance.mobile.cls.toFixed(2)}
+                  </span>
                 </div>
               </div>
             </div>
 
-            {/* Technical */}
-            <div className="rounded-lg border border-slate-200 p-4">
-              <h3 className="text-sm font-medium text-slate-500 mb-3">Technical Health</h3>
-              <div className="space-y-2">
+            <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Technical health</h3>
+              <ul className="mt-3 space-y-2">
                 {[
                   { label: "HTTPS", pass: website.technical.isHttps },
                   { label: "Sitemap", pass: website.technical.hasSitemap },
                   { label: "Robots.txt", pass: website.technical.hasRobotsTxt },
-                  { label: "Mobile Friendly", pass: website.technical.hasMobileFriendly },
+                  { label: "Mobile friendly", pass: website.technical.hasMobileFriendly },
                 ].map((item) => (
-                  <div key={item.label} className="flex items-center justify-between text-xs">
-                    <span className="text-slate-600">{item.label}</span>
+                  <li key={item.label} className="flex items-center justify-between text-sm text-slate-700">
+                    <span>{item.label}</span>
                     {item.pass ? (
-                      <span className="text-emerald-600 font-semibold">Pass</span>
+                      <span className="text-xs font-semibold text-emerald-700">Pass</span>
                     ) : (
-                      <span className="text-red-500 font-semibold">Fail</span>
+                      <span className="text-xs font-semibold text-red-600">Fail</span>
                     )}
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
 
-            {/* Schema */}
-            <div className="rounded-lg border border-slate-200 p-4">
-              <h3 className="text-sm font-medium text-slate-500 mb-3">Schema Markup</h3>
-              <div className="space-y-2">
-                <div className="flex items-center justify-between text-xs">
-                  <span className="text-slate-600">JSON-LD Present</span>
-                  <span className={website.schema.hasSchema ? "text-emerald-600 font-semibold" : "text-red-500 font-semibold"}>
+            <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Schema markup</h3>
+              <ul className="mt-3 space-y-2 text-sm text-slate-700">
+                <li className="flex justify-between gap-2">
+                  <span>JSON-LD</span>
+                  <span className={website.schema.hasSchema ? "font-semibold text-emerald-700" : "font-semibold text-red-600"}>
                     {website.schema.hasSchema ? "Yes" : "No"}
                   </span>
-                </div>
-                <div className="flex items-center justify-between text-xs">
-                  <span className="text-slate-600">LocalBusiness</span>
-                  <span className={website.schema.hasLocalBusiness ? "text-emerald-600 font-semibold" : "text-red-500 font-semibold"}>
+                </li>
+                <li className="flex justify-between gap-2">
+                  <span>LocalBusiness</span>
+                  <span className={website.schema.hasLocalBusiness ? "font-semibold text-emerald-700" : "font-semibold text-red-600"}>
                     {website.schema.hasLocalBusiness ? "Yes" : "No"}
                   </span>
-                </div>
-              </div>
+                </li>
+              </ul>
             </div>
 
-            {/* Backlinks */}
-            <div className="rounded-lg border border-slate-200 p-4">
-              <h3 className="text-sm font-medium text-slate-500 mb-3">Backlink Authority</h3>
-              <div className="text-3xl font-bold text-[#1e3a5f]">{website.backlinks.domainAuthority}</div>
-              <p className="text-xs text-slate-400 mt-1">Domain Authority</p>
-              <div className="mt-2 space-y-1 text-xs text-slate-500">
-                <div className="flex justify-between">
-                  <span>Linking Domains</span>
-                  <span>{website.backlinks.linkingDomains}</span>
+            <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-600">Backlink authority</h3>
+              <div className="mt-2 text-3xl font-bold tracking-tight text-violet-800">{website.backlinks.domainAuthority}</div>
+              <p className="mt-0.5 text-xs text-violet-500">Domain authority</p>
+              <div className="mt-3 space-y-2 text-xs text-slate-600">
+                <div className="flex justify-between gap-2">
+                  <span>Linking domains</span>
+                  <span className="font-medium text-violet-950">{website.backlinks.linkingDomains}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span>Spam Score</span>
-                  <span className={website.backlinks.spamScore < 5 ? "text-emerald-600" : "text-red-500"}>{website.backlinks.spamScore}%</span>
+                <div className="flex justify-between gap-2">
+                  <span>Spam score</span>
+                  <span className={website.backlinks.spamScore < 5 ? "font-medium text-emerald-700" : "font-medium text-red-600"}>
+                    {website.backlinks.spamScore}%
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </SectionShell>
 
-        {/* Footer */}
-        <footer className="text-center py-6 text-xs text-slate-400">
-          <p>Generated on {new Date().toLocaleDateString()} &middot; Built with Cursor</p>
-          <a href="/" className="text-[#1e3a5f] font-medium hover:underline mt-2 inline-block">Generate another audit</a>
+        <footer className="border-t border-violet-200/60 py-8 text-center text-xs text-violet-500">
+          <p>Generated on {new Date().toLocaleDateString()}</p>
+          <a href="/" className="mt-3 inline-block font-semibold text-violet-700 underline-offset-4 hover:underline">
+            Generate another audit
+          </a>
         </footer>
       </main>
     </div>
