@@ -95,6 +95,123 @@ interface ReportData {
   };
 }
 
+/** Open `/report/ui-preview` to render the dashboard with static data (no report APIs). */
+export const MOCK_REPORT_SLUG = "ui-preview";
+
+function createMockReport(forUuid: string): ReportData {
+  return {
+    uuid: forUuid,
+    status: "complete",
+    input: {
+      businessName: "Violet Bloom Café",
+      gbpUrl: "https://maps.app.goo.gl/example",
+      websiteUrl: "https://example.com",
+    },
+    scores: {
+      profileCompleteness: 82,
+      profileSeo: 71,
+      reviews: 76,
+      citations: 64,
+      rank: 58,
+      website: 69,
+      overall: 72,
+    },
+    gbp: {
+      name: "Violet Bloom Café",
+      address: "1420 Lavender Lane, Portland, OR 97209",
+      phone: "+1 (503) 555-0142",
+      primaryCategory: "Coffee shop",
+      averageRating: 4.6,
+      totalReviews: 218,
+      photoCount: 34,
+      isVerified: true,
+    },
+    reviews: {
+      totalCount: 218,
+      averageRating: 4.6,
+      velocityPerWeek: 2.4,
+      responseRate: 0.78,
+      ratingDistribution: { "5": 140, "4": 48, "3": 18, "2": 8, "1": 4 },
+    },
+    rankings: {
+      keywords: ["coffee near me", "best latte portland", "pastries downtown"],
+      keywordResults: [
+        { keyword: "coffee near me", avgRank: 4.2, rank1Count: 6, top3Count: 18, top10Count: 38, rankScore: 72 },
+        { keyword: "best latte portland", avgRank: 8.1, rank1Count: 2, top3Count: 11, top10Count: 29, rankScore: 61 },
+        { keyword: "pastries downtown", avgRank: 12.4, rank1Count: 0, top3Count: 7, top10Count: 22, rankScore: 48 },
+      ],
+      overallRankScore: 60,
+    },
+    competitors: [
+      { rank: 1, name: "Harbor Roast House", avgRankAcrossGrid: 5.2, top3Frequency: 22, rating: 4.8, reviewCount: 412 },
+      { rank: 2, name: "Violet Bloom Café", avgRankAcrossGrid: 8.2, top3Frequency: 12, rating: 4.6, reviewCount: 218 },
+      { rank: 3, name: "Northside Espresso", avgRankAcrossGrid: 9.1, top3Frequency: 9, rating: 4.4, reviewCount: 156 },
+    ],
+    citations: {
+      totalChecked: 8,
+      found: 5,
+      notFound: 3,
+      platforms: [
+        { platform: "gmb", displayName: "Google Business Profile", found: true, nameMatch: true, phoneMatch: true, addressMatch: true, websiteMatch: true },
+        { platform: "yelp", displayName: "Yelp", found: true, nameMatch: true, phoneMatch: false, addressMatch: true, websiteMatch: null },
+        { platform: "fb", displayName: "Facebook", found: true, nameMatch: true, phoneMatch: true, addressMatch: null, websiteMatch: true },
+        { platform: "bbb", displayName: "BBB", found: false, nameMatch: null, phoneMatch: null, addressMatch: null, websiteMatch: null },
+        { platform: "apple", displayName: "Apple Maps", found: true, nameMatch: true, phoneMatch: true, addressMatch: true, websiteMatch: false },
+        { platform: "bing", displayName: "Bing Places", found: false, nameMatch: null, phoneMatch: null, addressMatch: null, websiteMatch: null },
+        { platform: "yp", displayName: "Yellow Pages", found: false, nameMatch: null, phoneMatch: null, addressMatch: null, websiteMatch: null },
+        { platform: "foursquare", displayName: "Foursquare", found: true, nameMatch: false, phoneMatch: true, addressMatch: true, websiteMatch: true },
+      ],
+      napConsistency: { nameMatch: 0.85, phoneMatch: 0.8, addressMatch: 0.9, websiteMatch: 0.75, overall: 0.82 },
+    },
+    website: {
+      score: 69,
+      isHttps: true,
+      performance: {
+        mobile: { score: 78, lcp: 2100, cls: 0.06, fid: 45 },
+        desktop: { score: 92 },
+      },
+      onPage: { title: "Violet Bloom Café | Specialty Coffee Portland", h1Count: 1, hasKeywordInTitle: true, metaDescriptionLength: 158 },
+      schema: { hasLocalBusiness: true, hasSchema: true },
+      technical: { isHttps: true, hasSitemap: true, hasRobotsTxt: true, hasMobileFriendly: true },
+      backlinks: { domainAuthority: 28, spamScore: 3, linkingDomains: 142 },
+    },
+    insights: {
+      executiveSummary:
+        "This preview report uses static sample data so you can review layout and styling without calling backend APIs. " +
+        "In a live audit, this paragraph summarizes GBP strength, rankings, citations, reviews, and website health in a few sentences.",
+      priorityActions: [
+        {
+          rank: 1,
+          title: "Fix NAP mismatches on Yelp and Foursquare",
+          description: "Phone and business name inconsistencies reduce trust signals and can dilute local pack relevance.",
+          impact: "high",
+          effort: "low",
+          category: "citations",
+          specificSteps: ["Claim or update the Yelp listing to match GBP phone.", "Standardize the display name on Foursquare.", "Re-run a citation audit after changes."],
+        },
+        {
+          rank: 2,
+          title: "Improve average rank for “pastries downtown”",
+          description: "This keyword underperforms versus competitors; content and internal links can help close the gap.",
+          impact: "medium",
+          effort: "medium",
+          category: "rankings",
+          specificSteps: ["Add a dedicated pastries section on the homepage.", "Earn 2–3 relevant backlinks from local blogs.", "Refresh GBP posts weekly for 4 weeks."],
+        },
+        {
+          rank: 3,
+          title: "Expand photo set on Google Business Profile",
+          description: "More recent, high-quality photos correlate with higher engagement and can lift discovery.",
+          impact: "medium",
+          effort: "low",
+          category: "gbp",
+          specificSteps: ["Upload 10 new photos (interior, menu, team).", "Geotag optional; prioritize clarity and lighting.", "Pin a seasonal post with a CTA."],
+        },
+      ],
+    },
+  };
+}
+
 const SECTION_NAV = [
   { id: "overview", label: "Overview" },
   { id: "scores", label: "Scores" },
@@ -223,8 +340,19 @@ export default function ReportPage() {
   const [report, setReport] = useState<ReportData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const isMockPreview = uuid === MOCK_REPORT_SLUG;
 
   useEffect(() => {
+    if (isMockPreview) {
+      setReport(createMockReport(uuid));
+      setError(null);
+      setLoading(false);
+      return;
+    }
+
+    setLoading(true);
+    setError(null);
+
     let retries = 0;
     const MAX_RETRIES = 40;
 
@@ -253,7 +381,7 @@ export default function ReportPage() {
       }
     }
     fetchReport();
-  }, [uuid]);
+  }, [uuid, isMockPreview]);
 
   if (loading) {
     return (
@@ -314,7 +442,9 @@ export default function ReportPage() {
         <div className="relative mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div className="min-w-0 space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-widest text-violet-200/90">Local SEO audit</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-violet-200/90">
+                {isMockPreview ? "Static UI preview · no API calls" : "Local SEO audit"}
+              </p>
               <h1 className="text-balance text-2xl font-bold tracking-tight sm:text-3xl">{gbp.name}</h1>
               <p className="max-w-2xl text-sm leading-relaxed text-violet-100/90">
                 {gbp.address} <span className="text-violet-300/80">&middot;</span> {gbp.primaryCategory}
@@ -333,12 +463,21 @@ export default function ReportPage() {
                   <span className="mt-1 inline-block text-xs font-medium text-emerald-300">Verified on Google</span>
                 ) : null}
               </div>
-              <a
-                href={`/api/report/${uuid}/pdf`}
-                className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/15 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
-              >
-                Download PDF
-              </a>
+              {isMockPreview ? (
+                <span
+                  className="inline-flex cursor-default items-center justify-center rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-center text-sm font-semibold text-violet-200"
+                  title="PDF is not available in UI preview mode"
+                >
+                  UI preview — no PDF
+                </span>
+              ) : (
+                <a
+                  href={`/api/report/${uuid}/pdf`}
+                  className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/15 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
+                >
+                  Download PDF
+                </a>
+              )}
             </div>
           </div>
         </div>
