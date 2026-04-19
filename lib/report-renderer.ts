@@ -143,7 +143,6 @@ export function renderReportHTML(report: AuditReport): string {
       { id: "core-web-vitals", title: "Core Web Vitals", content: report.website?.performance, order: 12, visible: true },
       { id: "on-page-audit", title: "On-Page Local SEO", content: report.website?.onPage, order: 13, visible: true },
       { id: "technical-health", title: "Technical Health", content: report.website?.technical, order: 14, visible: true },
-      { id: "backlink-authority", title: "Backlink Authority", content: report.website?.backlinks, order: 15, visible: true },
     ],
     brandColor: "#6b5a8e",
   };

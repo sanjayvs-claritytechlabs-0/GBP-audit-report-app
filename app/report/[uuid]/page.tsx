@@ -79,7 +79,7 @@ interface ReportData {
     onPage: { title: string; h1Count: number; hasKeywordInTitle: boolean; metaDescriptionLength: number };
     schema: { hasLocalBusiness: boolean; hasSchema: boolean };
     technical: { isHttps: boolean; hasSitemap: boolean; hasRobotsTxt: boolean; hasMobileFriendly: boolean };
-    backlinks: { domainAuthority: number; spamScore: number; linkingDomains: number };
+    backlinks?: { domainAuthority: number; spamScore: number; linkingDomains: number };
   };
   insights: {
     executiveSummary: string;
@@ -173,7 +173,6 @@ function createMockReport(forUuid: string): ReportData {
       onPage: { title: "Violet Bloom Café | Specialty Coffee Portland", h1Count: 1, hasKeywordInTitle: true, metaDescriptionLength: 158 },
       schema: { hasLocalBusiness: true, hasSchema: true },
       technical: { isHttps: true, hasSitemap: true, hasRobotsTxt: true, hasMobileFriendly: true },
-      backlinks: { domainAuthority: 28, spamScore: 3, linkingDomains: 142 },
     },
     insights: {
       executiveSummary:
@@ -709,8 +708,8 @@ export default function ReportPage() {
           </div>
         </SectionShell>
 
-        <SectionShell id="website" title="Website SEO audit" description="Performance, technical health, schema, and authority signals.">
-          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <SectionShell id="website" title="Website SEO audit" description="Performance, technical health, and schema.">
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
             <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
               <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-500">Mobile performance</h3>
               <div
@@ -779,24 +778,6 @@ export default function ReportPage() {
                   </span>
                 </li>
               </ul>
-            </div>
-
-            <div className="rounded-xl border border-violet-100 bg-gradient-to-b from-white to-violet-50/30 p-4">
-              <h3 className="text-xs font-semibold uppercase tracking-wide text-violet-500">Backlink authority</h3>
-              <div className="mt-2 text-3xl font-bold tracking-tight text-violet-700">{website.backlinks.domainAuthority}</div>
-              <p className="mt-0.5 text-xs text-violet-500">Domain authority</p>
-              <div className="mt-3 space-y-2 text-xs text-slate-600">
-                <div className="flex justify-between gap-2">
-                  <span>Linking domains</span>
-                  <span className="font-medium text-violet-800">{website.backlinks.linkingDomains}</span>
-                </div>
-                <div className="flex justify-between gap-2">
-                  <span>Spam score</span>
-                  <span className={website.backlinks.spamScore < 5 ? "font-medium text-emerald-700" : "font-medium text-red-600"}>
-                    {website.backlinks.spamScore}%
-                  </span>
-                </div>
-              </div>
             </div>
           </div>
         </SectionShell>

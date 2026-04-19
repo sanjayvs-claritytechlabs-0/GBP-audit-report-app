@@ -259,10 +259,10 @@
     .nap-match { color: #059669; font-weight: 700; }
     .nap-mismatch { color: #dc2626; font-weight: 700; }
 
-    /* Website 4-up */
+    /* Website SEO cards (PDF omits Moz-style backlink metrics) */
     .web-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 8px;
     }
     .web-card {
@@ -539,7 +539,7 @@
     <div class="panel-hd">
       <div>
         <h2>Website SEO audit</h2>
-        <div class="desc">Performance, technical health, schema, and authority.</div>
+        <div class="desc">Performance, technical health, and schema.</div>
       </div>
     </div>
     <div class="panel-bd">
@@ -565,13 +565,6 @@
             <li><span>JSON-LD</span>{{#if report.website.schema.hasSchema}}<span class="ok">Yes</span>{{else}}<span class="no">No</span>{{/if}}</li>
             <li><span>LocalBusiness</span>{{#if report.website.schema.hasLocalBusiness}}<span class="ok">Yes</span>{{else}}<span class="no">No</span>{{/if}}</li>
           </ul>
-        </div>
-        <div class="web-card">
-          <h3>Backlink authority</h3>
-          <div class="big">{{report.website.backlinks.domainAuthority}}</div>
-          <div class="row2" style="margin-top:2px;"><span style="font-size:8px;color:#8b7cae;">Domain authority</span></div>
-          <div class="row2"><span>Linking domains</span><span class="v">{{report.website.backlinks.linkingDomains}}</span></div>
-          <div class="row2"><span>Spam score</span><span class="v {{#if (lte report.website.backlinks.spamScore 5)}}ok{{else}}no{{/if}}">{{report.website.backlinks.spamScore}}%</span></div>
         </div>
       </div>
     </div>
