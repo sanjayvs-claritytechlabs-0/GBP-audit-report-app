@@ -12,6 +12,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,json,css,md}\"",
     "test:facebook-token": "node scripts/test-facebook-token.js",
     "test:insights": "npx --yes tsx scripts/test-insights.ts",
+    "test:psi": "npx --yes tsx scripts/test-psi.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",

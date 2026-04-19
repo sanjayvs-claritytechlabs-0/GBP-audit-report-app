@@ -58,7 +58,7 @@ async function runPageSpeedInsights(
 
     const response = await axios.get(
       `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?${params}`,
-      { timeout: 30000 }
+      { timeout: 60_000 }
     );
 
     if (debug?.uuid) {
