@@ -29,6 +29,8 @@
     "@sentry/nextjs": "^8.26.0",
     "@sparticuz/chromium": "^127.0.0",
     "@tailwindcss/typography": "^0.5.14",
+    "@upstash/qstash": "^2.10.1",
+    "@vercel/kv": "^3.0.0",
     "axios": "^1.7.7",
     "bullmq": "^5.12.12",
     "cheerio": "^1.0.0",

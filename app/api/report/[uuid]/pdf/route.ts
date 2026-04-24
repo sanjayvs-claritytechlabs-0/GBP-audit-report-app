@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getJobStore } from "@/lib/job-store";
 import { renderReportPDF } from "@/lib/report-renderer";
+import { loadAuditReport } from "@/lib/audit-store";
+
+export const runtime = "nodejs";
+export const maxDuration = 300;
 
 /**
  * GET /api/report/[uuid]/pdf
@@ -14,43 +17,18 @@ export async function GET(
 ) {
   const { uuid } = params;
 
-  const job = getJobStore().get(uuid);
-
-  if (!job) {
+  const report = await loadAuditReport(uuid);
+  if (!report) {
     return NextResponse.json(
       { error: "NOT_FOUND", message: `No report found with uuid: ${uuid}` },
       { status: 404 }
     );
   }
 
-  if (job.status === "failed") {
-    return NextResponse.json(
-      {
-        error: "AUDIT_FAILED",
-        message: job.error || "The audit pipeline failed",
-        status: job.status,
-      },
-      { status: 500 }
-    );
-  }
-
-  if (job.status !== "complete" || !job.reportData) {
-    return NextResponse.json(
-      {
-        error: "PDF_NOT_READY",
-        message: "Report is not yet complete",
-        status: job.status,
-        progress: job.progress,
-        currentStep: job.currentStep,
-      },
-      { status: 202 }
-    );
-  }
-
-  const pdfBuffer = await renderReportPDF(job.reportData);
+  const pdfBuffer = await renderReportPDF(report);
   const body = new Uint8Array(pdfBuffer);
 
-  const businessName = job.reportData.input.businessName || "local-seo-audit";
+  const businessName = report.input.businessName || "local-seo-audit";
   const safeName = businessName
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")

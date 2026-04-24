@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getJobStore } from "@/lib/job-store";
+import { loadAuditJob } from "@/lib/audit-store";
 
 export async function GET(
   _request: NextRequest,
   { params }: { params: { uuid: string } }
 ) {
   const { uuid } = params;
-  const store = getJobStore();
-  const job = store.get(uuid);
+  const job = await loadAuditJob(uuid);
 
   if (!job) {
     return NextResponse.json(
