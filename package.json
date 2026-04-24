@@ -17,8 +17,8 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "db:migrate": "node scripts/migrate.js",
-    "worker": "ts-node --esm worker/index.ts",
-    "worker:dev": "nodemon --exec ts-node --esm worker/index.ts",
+    "worker:http": "npx --yes tsx worker/http-server.ts",
+    "worker:http:dev": "nodemon --exec \"npx --yes tsx worker/http-server.ts\"",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -39,7 +39,7 @@
     "googleapis": "^140.0.0",
     "handlebars": "^4.7.8",
     "ioredis": "^5.4.1",
-    "next": "14.2.5",
+    "next": "^14.2.35",
     "p-limit": "^6.1.0",
     "puppeteer": "^22.15.0",
     "react": "^18.3.1",

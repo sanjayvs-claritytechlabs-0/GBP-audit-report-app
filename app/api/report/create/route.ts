@@ -120,6 +120,7 @@ export async function POST(request: NextRequest) {
 
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "";
     const qstashToken = process.env.QSTASH_TOKEN;
+    const workerRunUrl = process.env.AUDIT_WORKER_RUN_URL || "";
 
     // Persist job state immediately — required for serverless polling (Vercel).
     await persistAuditJob(job);
@@ -145,11 +146,21 @@ export async function POST(request: NextRequest) {
         { status: 503 }
       );
     }
+    if (!workerRunUrl) {
+      return NextResponse.json(
+        {
+          error: "MISSING_AUDIT_WORKER_RUN_URL",
+          message:
+            "Set AUDIT_WORKER_RUN_URL to your serverful worker endpoint (e.g. https://your-worker.up.railway.app/run).",
+        },
+        { status: 503 }
+      );
+    }
 
     const client = new Client({ token: qstashToken });
     await client.publishJSON({
-      url: `${baseUrl}/api/report/${uuid}/run`,
-      body: { uuid },
+      url: workerRunUrl,
+      body: { uuid, input: job.input },
     });
 
     return NextResponse.json(
