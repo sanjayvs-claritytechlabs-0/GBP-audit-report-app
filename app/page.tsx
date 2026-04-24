@@ -174,22 +174,31 @@ export default function HomePage() {
 
       const progressInterval = simulateProgress();
 
-      // Poll for completion (max 40 attempts = ~2 minutes)
+      // Poll for completion (rank checks can take several minutes in production/serverless).
       let pollAttempts = 0;
-      const MAX_POLL_ATTEMPTS = 40;
+      const MAX_POLL_ATTEMPTS = 240; // ~12 minutes at 3s interval
       const pollInterval = setInterval(async () => {
         pollAttempts++;
         if (pollAttempts > MAX_POLL_ATTEMPTS) {
           clearInterval(pollInterval);
           clearInterval(progressInterval);
           setFormState("error");
-          setErrorMessage("Report generation is taking longer than expected. Please try again.");
+          setErrorMessage("Report generation is taking longer than expected. Please try again in a few minutes.");
           return;
         }
         try {
           const statusRes = await fetch(`/api/report/${data.uuid}/status`);
           if (!statusRes.ok) return;
           const status = await statusRes.json();
+
+          // Use real progress when available (keeps UI aligned with server).
+          if (typeof status.progress === "number") {
+            const nextIndex = Math.min(
+              PROGRESS_STEPS.length - 1,
+              Math.max(0, Math.floor((status.progress / 100) * PROGRESS_STEPS.length))
+            );
+            setProgressIndex(nextIndex);
+          }
 
           if (status.status === "complete") {
             clearInterval(pollInterval);

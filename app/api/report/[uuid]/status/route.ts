@@ -16,7 +16,8 @@ export async function GET(
   }
 
   const elapsedMs = new Date().getTime() - new Date(job.createdAt).getTime();
-  const estimatedTotalMs = 75_000;
+  // Rank checks can be the longest step; keep the ETA conservative.
+  const estimatedTotalMs = 240_000;
   const estimatedRemainingSeconds =
     job.status === "complete"
       ? 0
