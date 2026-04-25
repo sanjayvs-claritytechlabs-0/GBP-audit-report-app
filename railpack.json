@@ -3,10 +3,10 @@
   "steps": {
     "install": {
       "commands": [
-        "COPY:package.json package.json",
-        "COPY:package-lock.json package-lock.json",
-        "npm ci",
-        "COPY:. ."
+        { "src": "package.json", "dest": "package.json" },
+        { "src": "package-lock.json", "dest": "package-lock.json" },
+        { "cmd": "npm ci" },
+        { "src": ".", "dest": "." }
       ]
     },
     "build": {
