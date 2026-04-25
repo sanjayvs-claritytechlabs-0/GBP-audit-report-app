@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "steps": {
+    "install": {
+      "commands": ["npm ci"]
+    },
+    "build": {
+      "inputs": [{ "step": "install" }],
+      "commands": ["echo \"Skipping Next.js build (worker-only service)\""]
+    }
+  },
+  "deploy": {
+    "inputs": [{ "step": "build", "include": ["."] }],
+    "startCommand": "npm run worker:http"
+  }
+}
+
