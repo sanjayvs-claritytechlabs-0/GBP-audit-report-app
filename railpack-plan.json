@@ -15,6 +15,7 @@
     }
   },
   "deploy": {
+    "base": { "image": "node:20-bullseye" },
     "inputs": [{ "step": "build", "include": ["."] }],
     "startCommand": "npm run worker:http"
   }
