@@ -11,7 +11,7 @@
     },
     "build": {
       "inputs": [{ "step": "install" }],
-      "commands": ["echo \"Skipping Next.js build for worker deployment\""]
+      "commands": [{ "cmd": "echo Skipping Next.js build for worker service" }]
     }
   },
   "deploy": {
