@@ -1,0 +1,15 @@
+{
+  "$schema": "https://railway.app/railpack.schema.json",
+  "phases": {
+    "install": {
+      "cmds": ["npm ci"]
+    },
+    "build": {
+      "cmds": ["echo \"Skipping Next.js build for worker deployment\""]
+    },
+    "deploy": {
+      "cmd": "npm run worker:http"
+    }
+  }
+}
+
