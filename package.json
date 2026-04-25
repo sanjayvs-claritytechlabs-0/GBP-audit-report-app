@@ -17,8 +17,8 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "db:migrate": "node scripts/migrate.js",
-    "worker:http": "npx --yes tsx worker/http-server.ts",
-    "worker:http:dev": "nodemon --exec \"npx --yes tsx worker/http-server.ts\"",
+    "worker:http": "tsx worker/http-server.ts",
+    "worker:http:dev": "nodemon --exec \"tsx worker/http-server.ts\"",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -45,6 +45,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.10",
+    "tsx": "^4.21.0",
     "typescript": "^5.5.4",
     "uuid": "^10.0.0",
     "zod": "^3.23.8"
