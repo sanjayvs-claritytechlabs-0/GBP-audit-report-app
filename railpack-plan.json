@@ -2,7 +2,12 @@
   "$schema": "https://schema.railpack.com",
   "steps": {
     "install": {
-      "commands": ["npm ci"]
+      "commands": [
+        "COPY:package.json package.json",
+        "COPY:package-lock.json package-lock.json",
+        "npm ci",
+        "COPY:. ."
+      ]
     },
     "build": {
       "inputs": [{ "step": "install" }],
