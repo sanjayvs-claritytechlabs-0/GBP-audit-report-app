@@ -60,7 +60,7 @@ async function main(): Promise<void> {
   loadEnvLocal();
 
   const { runAuditPipeline } = await import("@/lib/audit-pipeline");
-  const { persistAuditJob } = await import("@/lib/audit-store");
+  const { persistAuditJob, loadAuditJob } = await import("@/lib/audit-store");
 
   const server = http.createServer(async (req, res) => {
     try {
@@ -82,15 +82,27 @@ async function main(): Promise<void> {
           return json(res, 400, { error: "BAD_REQUEST", message: "Expected { uuid, input }" });
         }
 
+        // Idempotency check — QStash may retry delivery on network hiccups.
+        // If the job is already running or finished, skip to avoid concurrent duplicate runs.
+        const existing = await loadAuditJob(body.uuid);
+        if (existing && (existing.status === "processing" || existing.status === "complete")) {
+          // eslint-disable-next-line no-console
+          console.log(`[worker] job ${body.uuid} already ${existing.status} — skipping duplicate QStash delivery`);
+          return json(res, 200, { ok: true, skipped: true, uuid: body.uuid });
+        }
+
+        // Immediately claim the job as "processing" before starting the async pipeline.
+        // This closes the TOCTOU race window — any second QStash delivery arriving after
+        // this KV write will see "processing" and skip, even if the pipeline hasn't begun yet.
         const now = new Date().toISOString();
         const job: import("@/lib/job-store").AuditJobRecord = {
           uuid: body.uuid,
           jobId: `job_${body.uuid}`,
-          status: "queued",
+          status: "processing",
           progress: 0,
           currentStep: "Queued",
           input: body.input,
-          createdAt: now,
+          createdAt: existing?.createdAt ?? now,
           updatedAt: now,
         };
         await persistAuditJob(job);
