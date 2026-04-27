@@ -156,6 +156,11 @@ function generateFallbackInsightsFromScores(scores: ScoreBreakdown, businessName
 }
 
 export async function runAuditPipeline(uuid: string, input: AuditInput): Promise<void> {
+  const pipelineStart = Date.now();
+  const elapsed = () => `${((Date.now() - pipelineStart) / 1000).toFixed(1)}s`;
+
+  console.log(`[pipeline] [${uuid}] ▶ started for "${input.businessName}"`);
+
   try {
     await updateAuditJob(uuid, {
       status: "processing",
@@ -163,20 +168,31 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
       currentStep: "Resolving business profile",
     });
 
+    console.log(`[pipeline] [${uuid}] step: resolveInputs`);
+    const stepStart1 = Date.now();
     const resolved = await resolveInputs({
       businessName: input.businessName,
       gbpUrl: input.gbpUrl,
       websiteUrl: input.websiteUrl,
     });
+    console.log(`[pipeline] [${uuid}] done: resolveInputs in ${Date.now() - stepStart1}ms — placeId: ${resolved.placeId}`);
 
     await updateAuditJob(uuid, { progress: 12, currentStep: "Collecting GBP data" });
+    console.log(`[pipeline] [${uuid}] step: collectGBPData (elapsed: ${elapsed()})`);
+    const stepStart2 = Date.now();
     const gbp = await collectGBPData(resolved.placeId, input.businessName, { uuid });
+    console.log(`[pipeline] [${uuid}] done: collectGBPData in ${Date.now() - stepStart2}ms`);
 
     await updateAuditJob(uuid, { progress: 20, currentStep: "Analyzing reviews" });
+    console.log(`[pipeline] [${uuid}] step: collectReviews (elapsed: ${elapsed()})`);
+    const stepStart3 = Date.now();
     const reviews = await collectReviews(resolved.placeId, { uuid });
+    console.log(`[pipeline] [${uuid}] done: collectReviews in ${Date.now() - stepStart3}ms`);
 
     await updateAuditJob(uuid, { progress: 28, currentStep: "Checking rankings across geo-grid" });
     const keywords = input.keywords.length > 0 ? input.keywords : deriveKeywords(gbp.primaryCategory);
+    console.log(`[pipeline] [${uuid}] step: runRankChecks — keywords: [${keywords.join(", ")}] (elapsed: ${elapsed()})`);
+    const stepStart4 = Date.now();
     const rankings = await runRankChecks(
       {
         businessName: input.businessName,
@@ -187,6 +203,7 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
       resolved.market,
       { uuid }
     );
+    console.log(`[pipeline] [${uuid}] done: runRankChecks in ${Date.now() - stepStart4}ms`);
 
     await updateAuditJob(uuid, { progress: 55, currentStep: "Auditing citations & NAP" });
 
@@ -201,6 +218,8 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
       country: "United States",
     };
 
+    console.log(`[pipeline] [${uuid}] step: runCitationChecks + auditWebsite in parallel (elapsed: ${elapsed()})`);
+    const stepStart5 = Date.now();
     const [citations, website] = await Promise.all([
       runCitationChecks({
         name: input.businessName,
@@ -215,11 +234,16 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
       }),
       auditWebsite(input.websiteUrl, canonicalNAP, { uuid }),
     ]);
+    console.log(`[pipeline] [${uuid}] done: citations + website in ${Date.now() - stepStart5}ms (elapsed: ${elapsed()})`);
 
     await updateAuditJob(uuid, { progress: 72, currentStep: "Analyzing competitors" });
+    console.log(`[pipeline] [${uuid}] step: analyzeCompetitors (elapsed: ${elapsed()})`);
+    const stepStart6 = Date.now();
     const competitors = await analyzeCompetitors(rankings, input.businessName);
+    console.log(`[pipeline] [${uuid}] done: analyzeCompetitors in ${Date.now() - stepStart6}ms`);
 
     await updateAuditJob(uuid, { progress: 82, currentStep: "Computing scores" });
+    console.log(`[pipeline] [${uuid}] step: computeAllScores (elapsed: ${elapsed()})`);
     const scores = computeAllScores({
       gbp,
       reviews,
@@ -228,10 +252,13 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
       website,
       keywords,
     });
+    console.log(`[pipeline] [${uuid}] done: computeAllScores — overall: ${scores.overall}`);
 
     await updateAuditJob(uuid, { progress: 88, currentStep: "Generating AI insights" });
 
     let insights: InsightResult;
+    console.log(`[pipeline] [${uuid}] step: generateInsights (elapsed: ${elapsed()})`);
+    const stepStart7 = Date.now();
     try {
       insights = await withTimeout(
         generateInsights({
@@ -247,7 +274,9 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
         35_000,
         "AI insight generation timed out"
       );
-    } catch {
+      console.log(`[pipeline] [${uuid}] done: generateInsights in ${Date.now() - stepStart7}ms`);
+    } catch (insightErr) {
+      console.log(`[pipeline] [${uuid}] warn: generateInsights failed in ${Date.now() - stepStart7}ms — using fallback: ${insightErr instanceof Error ? insightErr.message : String(insightErr)}`);
       insights = generateFallbackInsightsFromScores(scores, input.businessName);
     }
 
@@ -292,8 +321,11 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
       currentStep: "Complete",
       completedAt: new Date().toISOString(),
     });
+
+    console.log(`[pipeline] [${uuid}] ✅ complete in ${elapsed()}`);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Pipeline failed";
+    console.error(`[pipeline] [${uuid}] ❌ failed after ${elapsed()}: ${message}`);
     await updateAuditJob(uuid, {
       status: "failed",
       currentStep: "Failed",

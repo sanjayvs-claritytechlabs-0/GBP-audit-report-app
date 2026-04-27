@@ -117,125 +117,125 @@ async function checkGBP(
 }
 
 // ---------------------------------------------------------------------------
-// Platform 3: Yelp (Yelp Fusion API — real API)
+// Platform 3: Yelp (Yelp Fusion API — disabled: no API key available)
 // ---------------------------------------------------------------------------
 
-async function checkYelp(
-  name: string,
-  city: string,
-  state: string,
-  lat: number,
-  lng: number,
-  debug?: { uuid: string }
-): Promise<CheckResult> {
-  const apiKey = process.env.YELP_API_KEY;
-  if (!apiKey) return { found: false, error: "YELP_API_KEY not configured" };
-
-  try {
-    const response = await axios.get(
-      "https://api.yelp.com/v3/businesses/search",
-      {
-        params: {
-          term: name,
-          location: `${city}, ${state}`,
-          latitude: lat,
-          longitude: lng,
-          categories: "health,medcenters,dentists,doctors,chiropractors,acupuncture,massage,optometrists,physicaltherapy",
-          limit: 5,
-        },
-        headers: { Authorization: `Bearer ${apiKey}` },
-        timeout: 8000,
-      }
-    );
-    if (debug?.uuid) {
-      await persistTestingJson({
-        uuid: debug.uuid,
-        category: "yelp",
-        name: "businesses-search-raw",
-        data: { endpoint: "api.yelp.com/v3/businesses/search", params: { term: name, location: `${city}, ${state}`, latitude: lat, longitude: lng, limit: 5 }, response: response.data },
-      });
-    }
-
-    const businesses = response.data?.businesses;
-    if (!businesses || businesses.length === 0) return { found: false };
-
-    // Find best name match
-    const normalised = normaliseName(name);
-    const match = businesses.find(
-      (b: Record<string, unknown>) => normaliseName(b.name as string) === normalised
-    ) || businesses[0];
-
-    return {
-      found: true,
-      listingUrl: match.url,
-      napData: {
-        name: match.name,
-        phone: match.phone,
-        address: match.location?.display_address?.join(", "),
-      },
-    };
-  } catch {
-    return { found: false, error: "Yelp API call failed" };
-  }
-}
+// async function checkYelp(
+//   name: string,
+//   city: string,
+//   state: string,
+//   lat: number,
+//   lng: number,
+//   debug?: { uuid: string }
+// ): Promise<CheckResult> {
+//   const apiKey = process.env.YELP_API_KEY;
+//   if (!apiKey) return { found: false, error: "YELP_API_KEY not configured" };
+//
+//   try {
+//     const response = await axios.get(
+//       "https://api.yelp.com/v3/businesses/search",
+//       {
+//         params: {
+//           term: name,
+//           location: `${city}, ${state}`,
+//           latitude: lat,
+//           longitude: lng,
+//           categories: "health,medcenters,dentists,doctors,chiropractors,acupuncture,massage,optometrists,physicaltherapy",
+//           limit: 5,
+//         },
+//         headers: { Authorization: `Bearer ${apiKey}` },
+//         timeout: 8000,
+//       }
+//     );
+//     if (debug?.uuid) {
+//       await persistTestingJson({
+//         uuid: debug.uuid,
+//         category: "yelp",
+//         name: "businesses-search-raw",
+//         data: { endpoint: "api.yelp.com/v3/businesses/search", params: { term: name, location: `${city}, ${state}`, latitude: lat, longitude: lng, limit: 5 }, response: response.data },
+//       });
+//     }
+//
+//     const businesses = response.data?.businesses;
+//     if (!businesses || businesses.length === 0) return { found: false };
+//
+//     const normalised = normaliseName(name);
+//     const match = businesses.find(
+//       (b: Record<string, unknown>) => normaliseName(b.name as string) === normalised
+//     ) || businesses[0];
+//
+//     return {
+//       found: true,
+//       listingUrl: match.url,
+//       napData: {
+//         name: match.name,
+//         phone: match.phone,
+//         address: match.location?.display_address?.join(", "),
+//       },
+//     };
+//   } catch {
+//     return { found: false, error: "Yelp API call failed" };
+//   }
+// }
 
 // ---------------------------------------------------------------------------
-// Platform 10: Meta / Facebook (Graph API — real API)
+// Platform 10: Meta / Facebook (Graph API — disabled: type=place search
+// was deprecated by Meta in Graph API v17+, 2023)
 // ---------------------------------------------------------------------------
 
-async function checkFacebook(
-  name: string,
-  lat: number,
-  lng: number,
-  debug?: { uuid: string }
-): Promise<CheckResult> {
-  const token = process.env.FACEBOOK_ACCESS_TOKEN;
-  if (!token) return { found: false, error: "FACEBOOK_ACCESS_TOKEN not configured" };
-
-  try {
-    const response = await axios.get(
-      "https://graph.facebook.com/v19.0/search",
-      {
-        params: {
-          type: "place",
-          q: name,
-          center: `${lat},${lng}`,
-          distance: 500,
-          fields: "name,phone,location,website,hours",
-          access_token: token,
-        },
-        timeout: 8000,
-      }
-    );
-    if (debug?.uuid) {
-      await persistTestingJson({
-        uuid: debug.uuid,
-        category: "facebook",
-        name: "places-search-raw",
-        data: { endpoint: "graph.facebook.com/v19.0/search", params: { type: "place", q: name, center: `${lat},${lng}`, distance: 500, fields: "name,phone,location,website,hours" }, response: response.data },
-      });
-    }
-
-    const data = response.data?.data;
-    if (!data || data.length === 0) return { found: false };
-
-    const place = data[0];
-    return {
-      found: true,
-      listingUrl: `https://www.facebook.com/${place.id}`,
-      napData: {
-        name: place.name,
-        phone: place.phone,
-        address: place.location
-          ? `${place.location.street || ""}, ${place.location.city || ""}, ${place.location.state || ""} ${place.location.zip || ""}`.trim()
-          : undefined,
-        website: place.website,
-      },
-    };
-  } catch {
-    return { found: false, error: "Facebook Graph API call failed" };
-  }
-}
+// async function checkFacebook(
+//   name: string,
+//   lat: number,
+//   lng: number,
+//   debug?: { uuid: string }
+// ): Promise<CheckResult> {
+//   const token = process.env.FACEBOOK_ACCESS_TOKEN;
+//   if (!token) return { found: false, error: "FACEBOOK_ACCESS_TOKEN not configured" };
+//
+//   try {
+//     const response = await axios.get(
+//       "https://graph.facebook.com/v19.0/search",
+//       {
+//         params: {
+//           type: "place",
+//           q: name,
+//           center: `${lat},${lng}`,
+//           distance: 500,
+//           fields: "name,phone,location,website,hours",
+//           access_token: token,
+//         },
+//         timeout: 8000,
+//       }
+//     );
+//     if (debug?.uuid) {
+//       await persistTestingJson({
+//         uuid: debug.uuid,
+//         category: "facebook",
+//         name: "places-search-raw",
+//         data: { endpoint: "graph.facebook.com/v19.0/search", params: { type: "place", q: name, center: `${lat},${lng}`, distance: 500, fields: "name,phone,location,website,hours" }, response: response.data },
+//       });
+//     }
+//
+//     const data = response.data?.data;
+//     if (!data || data.length === 0) return { found: false };
+//
+//     const place = data[0];
+//     return {
+//       found: true,
+//       listingUrl: `https://www.facebook.com/${place.id}`,
+//       napData: {
+//         name: place.name,
+//         phone: place.phone,
+//         address: place.location
+//           ? `${place.location.street || ""}, ${place.location.city || ""}, ${place.location.state || ""} ${place.location.zip || ""}`.trim()
+//           : undefined,
+//         website: place.website,
+//       },
+//     };
+//   } catch {
+//     return { found: false, error: "Facebook Graph API call failed" };
+//   }
+// }
 
 // ---------------------------------------------------------------------------
 // Serper Site-Search Based Checkers
@@ -532,15 +532,15 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     checkMethod: "search",
     checker: (ctx) => checkViaSerperSiteSearch("healthgrades.com", ctx.name, ctx.city, ctx.state, ctx.debug),
   },
-  // 3. Yelp
-  {
-    platform: "yelp",
-    displayName: "Yelp",
-    url: "https://www.yelp.com",
-    market: "us",
-    checkMethod: "api",
-    checker: (ctx) => checkYelp(ctx.name, ctx.city, ctx.state, ctx.lat, ctx.lng, ctx.debug),
-  },
+  // 3. Yelp — disabled: no API key available
+  // {
+  //   platform: "yelp",
+  //   displayName: "Yelp",
+  //   url: "https://www.yelp.com",
+  //   market: "us",
+  //   checkMethod: "api",
+  //   checker: (ctx) => checkYelp(ctx.name, ctx.city, ctx.state, ctx.lat, ctx.lng, ctx.debug),
+  // },
   // 4. Zocdoc
   {
     platform: "zocdoc",
@@ -595,15 +595,15 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
     checkMethod: "search",
     checker: (ctx) => checkAppleMaps(ctx.name, ctx.lat, ctx.lng, ctx.debug),
   },
-  // 10. Meta (Facebook)
-  {
-    platform: "meta_facebook",
-    displayName: "Meta (Facebook)",
-    url: "https://www.facebook.com",
-    market: "us",
-    checkMethod: "api",
-    checker: (ctx) => checkFacebook(ctx.name, ctx.lat, ctx.lng, ctx.debug),
-  },
+  // 10. Meta (Facebook) — disabled: Graph API type=place search deprecated in v17+ (2023)
+  // {
+  //   platform: "meta_facebook",
+  //   displayName: "Meta (Facebook)",
+  //   url: "https://www.facebook.com",
+  //   market: "us",
+  //   checkMethod: "api",
+  //   checker: (ctx) => checkFacebook(ctx.name, ctx.lat, ctx.lng, ctx.debug),
+  // },
   // 11. Advice Local (Aggregator)
   {
     platform: "advice_local",
@@ -620,7 +620,8 @@ const HEALTHCARE_PLATFORMS: PlatformDef[] = [
 // ---------------------------------------------------------------------------
 
 /**
- * Run citation checks across all 11 US Healthcare & Wellness platforms.
+ * Run citation checks across active US Healthcare & Wellness platforms (9 active).
+ * Yelp (no API key) and Meta/Facebook (deprecated endpoint) are currently disabled.
  * Returns presence, NAP accuracy, and per-platform results.
  */
 export async function runCitationChecks(params: {
@@ -639,10 +640,16 @@ export async function runCitationChecks(params: {
 
   const ctx: CheckContext = { name, lat, lng, city, state, phone, canonicalNAP, debug };
 
+  const uuid = debug?.uuid ?? "no-uuid";
+  console.log(`[citations] [${uuid}] starting ${HEALTHCARE_PLATFORMS.length} platform checks in parallel`);
+
   // Run all 11 platform checks in parallel
   const results = await Promise.allSettled(
     HEALTHCARE_PLATFORMS.map(async (pDef) => {
+      console.log(`[citations] [${uuid}] → start: ${pDef.platform}`);
+      const platformStart = Date.now();
       const result = await pDef.checker(ctx);
+      console.log(`[citations] [${uuid}] ✓ done: ${pDef.platform} in ${Date.now() - platformStart}ms — found: ${result.found}${result.error ? ` — error: ${result.error}` : ""}`);
       const platform: CitationPlatform = {
         platform: pDef.platform,
         displayName: pDef.displayName,
@@ -669,6 +676,8 @@ export async function runCitationChecks(params: {
       return platform;
     })
   );
+
+  console.log(`[citations] [${uuid}] all platform checks settled`);
 
   const platforms = results.map((r) =>
     r.status === "fulfilled"

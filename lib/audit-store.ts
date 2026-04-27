@@ -21,7 +21,8 @@ export async function loadAuditJob(uuid: string): Promise<AuditJobRecord | null>
   try {
     const job = await kv.get<AuditJobRecord>(jobKey(uuid));
     return job ?? null;
-  } catch {
+  } catch (err) {
+    console.error(`[audit-store] loadAuditJob KV error for ${uuid}:`, err instanceof Error ? err.message : String(err));
     return null;
   }
 }
@@ -30,9 +31,25 @@ export async function persistAuditJob(job: AuditJobRecord): Promise<void> {
   await kv.set(jobKey(job.uuid), job);
 }
 
+/**
+ * Update a job record in KV. If the existing record cannot be loaded (transient
+ * KV error), retries once after 500ms. Logs and skips if still unavailable so
+ * callers do not silently lose status updates.
+ */
 export async function updateAuditJob(uuid: string, updates: Partial<AuditJobRecord>): Promise<void> {
-  const existing = await loadAuditJob(uuid);
-  if (!existing) return;
+  let existing = await loadAuditJob(uuid);
+
+  if (!existing) {
+    // Retry once after a short delay in case of a transient KV hiccup.
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    existing = await loadAuditJob(uuid);
+  }
+
+  if (!existing) {
+    console.error(`[audit-store] updateAuditJob: job ${uuid} not found in KV after retry — update dropped:`, JSON.stringify(updates));
+    return;
+  }
+
   const next: AuditJobRecord = {
     ...existing,
     ...updates,
