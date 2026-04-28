@@ -173,6 +173,7 @@ export default function HomePage() {
       setFormState("processing");
 
       const progressInterval = simulateProgress();
+      let simulateStopped = false;
 
       // Poll for completion (rank checks can take several minutes in production/serverless).
       let pollAttempts = 0;
@@ -191,7 +192,15 @@ export default function HomePage() {
           if (!statusRes.ok) return;
           const status = await statusRes.json();
 
-          // Use real progress when available (keeps UI aligned with server).
+          // Stop the fake simulate timer the moment real server progress arrives.
+          // Without this, simulate (2.5s) and poll (3s) fight each other:
+          // simulate advances the step forward, poll resets it backward → perpetual oscillation.
+          if (typeof status.progress === "number" && status.progress > 0 && !simulateStopped) {
+            clearInterval(progressInterval);
+            simulateStopped = true;
+          }
+
+          // Drive progress bar purely from real server data.
           if (typeof status.progress === "number") {
             const nextIndex = Math.min(
               PROGRESS_STEPS.length - 1,
@@ -202,12 +211,10 @@ export default function HomePage() {
 
           if (status.status === "complete") {
             clearInterval(pollInterval);
-            clearInterval(progressInterval);
             setProgressIndex(PROGRESS_STEPS.length - 1);
             setFormState("complete");
           } else if (status.status === "failed") {
             clearInterval(pollInterval);
-            clearInterval(progressInterval);
             setFormState("error");
             setErrorMessage(status.error || "Report generation failed. Please try again.");
           }

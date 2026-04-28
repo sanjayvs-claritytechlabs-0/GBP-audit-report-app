@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { v4 as uuidv4 } from "uuid";
-import { Client } from "@upstash/qstash";
 import type { AuditJobRecord } from "@/lib/job-store";
 import { persistAuditJob } from "@/lib/audit-store";
 
@@ -119,29 +118,18 @@ export async function POST(request: NextRequest) {
     };
 
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "";
-    const qstashToken = process.env.QSTASH_TOKEN;
     const workerRunUrl = process.env.AUDIT_WORKER_RUN_URL || "";
+    const workerAuthToken = process.env.WORKER_AUTH_TOKEN || "";
 
     // Persist job state immediately — required for serverless polling (Vercel).
     await persistAuditJob(job);
 
-    // Enqueue audit execution via QStash (required for Vercel reliability).
-    if (!qstashToken) {
-      return NextResponse.json(
-        {
-          error: "MISSING_QSTASH_TOKEN",
-          message:
-            "QStash is required on Vercel (serverless) to run audits reliably. Set QSTASH_TOKEN in your environment variables.",
-        },
-        { status: 503 }
-      );
-    }
     if (!baseUrl) {
       return NextResponse.json(
         {
           error: "MISSING_NEXT_PUBLIC_APP_URL",
           message:
-            "NEXT_PUBLIC_APP_URL must be set to your deployment origin so QStash can call the run endpoint (e.g. https://your-app.vercel.app).",
+            "NEXT_PUBLIC_APP_URL must be set to your deployment origin (e.g. https://your-app.vercel.app).",
         },
         { status: 503 }
       );
@@ -151,17 +139,35 @@ export async function POST(request: NextRequest) {
         {
           error: "MISSING_AUDIT_WORKER_RUN_URL",
           message:
-            "Set AUDIT_WORKER_RUN_URL to your serverful worker endpoint (e.g. https://your-worker.up.railway.app/run).",
+            "Set AUDIT_WORKER_RUN_URL to your Railway worker endpoint (e.g. https://your-worker.up.railway.app/run).",
         },
         { status: 503 }
       );
     }
 
-    const client = new Client({ token: qstashToken });
-    await client.publishJSON({
-      url: workerRunUrl,
-      body: { uuid, input: job.input },
+    // Call the Railway worker directly. The worker returns 202 immediately and runs
+    // the pipeline in the background, so this fetch completes well within Vercel's
+    // function timeout. No QStash retries means no duplicate pipeline runs.
+    const headers: Record<string, string> = { "Content-Type": "application/json" };
+    if (workerAuthToken) headers["Authorization"] = `Bearer ${workerAuthToken}`;
+
+    const workerRes = await fetch(workerRunUrl, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ uuid, input: job.input }),
+      signal: AbortSignal.timeout(10_000),
     });
+
+    if (!workerRes.ok) {
+      const text = await workerRes.text().catch(() => "");
+      return NextResponse.json(
+        {
+          error: "WORKER_ERROR",
+          message: `Worker returned ${workerRes.status}: ${text}`,
+        },
+        { status: 502 }
+      );
+    }
 
     return NextResponse.json(
       {
