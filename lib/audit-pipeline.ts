@@ -170,38 +170,45 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
 
     console.log(`[pipeline] [${uuid}] step: resolveInputs`);
     const stepStart1 = Date.now();
-    const resolved = await resolveInputs({
-      businessName: input.businessName,
-      gbpUrl: input.gbpUrl,
-      websiteUrl: input.websiteUrl,
-    });
+    const resolved = await withTimeout(
+      resolveInputs({ businessName: input.businessName, gbpUrl: input.gbpUrl, websiteUrl: input.websiteUrl }),
+      30_000,
+      "resolveInputs timed out after 30s"
+    );
     console.log(`[pipeline] [${uuid}] done: resolveInputs in ${Date.now() - stepStart1}ms — placeId: ${resolved.placeId}`);
 
     await updateAuditJob(uuid, { progress: 12, currentStep: "Collecting GBP data" });
     console.log(`[pipeline] [${uuid}] step: collectGBPData (elapsed: ${elapsed()})`);
     const stepStart2 = Date.now();
-    const gbp = await collectGBPData(resolved.placeId, input.businessName, { uuid });
+    const gbp = await withTimeout(
+      collectGBPData(resolved.placeId, input.businessName, { uuid }),
+      30_000,
+      "collectGBPData timed out after 30s"
+    );
     console.log(`[pipeline] [${uuid}] done: collectGBPData in ${Date.now() - stepStart2}ms`);
 
     await updateAuditJob(uuid, { progress: 20, currentStep: "Analyzing reviews" });
     console.log(`[pipeline] [${uuid}] step: collectReviews (elapsed: ${elapsed()})`);
     const stepStart3 = Date.now();
-    const reviews = await collectReviews(resolved.placeId, { uuid });
+    const reviews = await withTimeout(
+      collectReviews(resolved.placeId, { uuid }),
+      30_000,
+      "collectReviews timed out after 30s"
+    );
     console.log(`[pipeline] [${uuid}] done: collectReviews in ${Date.now() - stepStart3}ms`);
 
     await updateAuditJob(uuid, { progress: 28, currentStep: "Checking rankings across geo-grid" });
     const keywords = input.keywords.length > 0 ? input.keywords : deriveKeywords(gbp.primaryCategory);
     console.log(`[pipeline] [${uuid}] step: runRankChecks — keywords: [${keywords.join(", ")}] (elapsed: ${elapsed()})`);
     const stepStart4 = Date.now();
-    const rankings = await runRankChecks(
-      {
-        businessName: input.businessName,
-        lat: resolved.lat,
-        lng: resolved.lng,
-        keywords,
-      },
-      resolved.market,
-      { uuid }
+    const rankings = await withTimeout(
+      runRankChecks(
+        { businessName: input.businessName, lat: resolved.lat, lng: resolved.lng, keywords },
+        resolved.market,
+        { uuid }
+      ),
+      120_000,
+      "runRankChecks timed out after 120s"
     );
     console.log(`[pipeline] [${uuid}] done: runRankChecks in ${Date.now() - stepStart4}ms`);
 
@@ -220,20 +227,24 @@ export async function runAuditPipeline(uuid: string, input: AuditInput): Promise
 
     console.log(`[pipeline] [${uuid}] step: runCitationChecks + auditWebsite in parallel (elapsed: ${elapsed()})`);
     const stepStart5 = Date.now();
-    const [citations, website] = await Promise.all([
-      runCitationChecks({
-        name: input.businessName,
-        lat: resolved.lat,
-        lng: resolved.lng,
-        city: extractCity(gbp.address),
-        state: extractState(gbp.address),
-        market: resolved.market,
-        primaryCategory: gbp.primaryCategory,
-        canonicalNAP,
-        debug: { uuid },
-      }),
-      auditWebsite(input.websiteUrl, canonicalNAP, { uuid }),
-    ]);
+    const [citations, website] = await withTimeout(
+      Promise.all([
+        runCitationChecks({
+          name: input.businessName,
+          lat: resolved.lat,
+          lng: resolved.lng,
+          city: extractCity(gbp.address),
+          state: extractState(gbp.address),
+          market: resolved.market,
+          primaryCategory: gbp.primaryCategory,
+          canonicalNAP,
+          debug: { uuid },
+        }),
+        auditWebsite(input.websiteUrl, canonicalNAP, { uuid }),
+      ]),
+      90_000,
+      "Citations + website audit timed out after 90s"
+    );
     console.log(`[pipeline] [${uuid}] done: citations + website in ${Date.now() - stepStart5}ms (elapsed: ${elapsed()})`);
 
     await updateAuditJob(uuid, { progress: 72, currentStep: "Analyzing competitors" });
